@@ -1,1 +1,65 @@
-# riyadh-metro
+# Riyadh Metro Map
+
+An unofficial, free map and journey planner for the six lines of the Riyadh Metro.
+
+Type a place or a station (or tap a popular place) and the planner shows the route with every change, an estimated travel time and the fare. It runs in the browser on phones and computers; there is nothing to install, no account and no tracking of people.
+
+This is an independent, non-commercial project. It is not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City, and it does not use their logos.
+
+## Languages
+
+Each language has its own page, so search engines can show people the version in their language. The English page follows the visitor's saved or browser language; the others always open in their own language.
+
+| Language | Page |
+|---|---|
+| English | `index.html` |
+| العربية (Arabic) | `ar.html` |
+| اردو (Urdu) | `ur.html` |
+| हिन्दी (Hindi) | `hi.html` |
+| বাংলা (Bengali) | `bn.html` |
+| Filipino | `tl.html` |
+
+## What it does
+
+- Routes between places and stations on all six lines (Blue, Red, Orange, Yellow, Green, Purple), with up to three options (fastest, fewer changes, least walking) and a short "why this route" note.
+- Step-by-step directions, estimated travel time with typical waiting, the fare (one flat 2-hour ticket) and opening-hours warnings for late trips.
+- 38 popular places (airport terminals, KAFD, Kingdom Centre, the National Museum, Al Masmak, Souq Al Zal, malls, universities, the railway station), with honest notes for places that are not within walking distance of the metro (Diriyah, Boulevard City, Riyadh Park).
+- "Explore Riyadh": five ready-made trips that open as routes.
+- Sharing: copy link, WhatsApp, QR code and a trip card. Every route has its own link.
+- English guide pages for search engines: the map as a picture, all stations, timings and fares, the six lines, ten places, two stations and three routes. Every page hands off to the planner.
+
+## Data and accuracy
+
+- **Lines, station order, Arabic names and interchanges** are taken from English Wikipedia's line articles and checked against riyadhmetro.org and riyadhmetroguide.com (independent guide sites). The network has 83 distinct stations; all were open by May 2026.
+- **Fares**: one 2-hour ticket, SAR 4 standard and SAR 10 first class, with any number of rides and transfers on the metro and buses; 3-, 7- and 30-day passes (Riyadh Public Transport tariff, unchanged since December 2024).
+- **Hours**: Saturday to Thursday 05:30–24:00, Friday 10:00–24:00 (since September 2025). Hours change during Ramadan and on holidays.
+- **Travel times are estimates.** There is no public timetable, so each hop is estimated as 1 minute for the stop plus running at 70 km/h over the distance along the track. The track is the official line geometry from RCRC open data ("Metro lines in Riyadh 2024", `data/rcrc_metro_lines_2024.geojson`); stations are projected onto it. This gives the Blue Line end to end in about 54 minutes; the builders describe it as just under an hour.
+- **Station positions** come from RCRC open data ("Metro stations in Riyadh by metro line and station type", `data/rcrc_metro_stations_2024.csv`, converted to `data/coords_official.csv`), for all 83 stations. The station order and English names in the app match that file; Arabic names keep standard spelling (the file sometimes writes ه for ة).
+- **Places**: nearest stations from Visit Saudi's metro guide, the airport's own page and station guides; walking times only where a source gives one.
+
+## Files
+
+| Path | Purpose |
+|---|---|
+| `src/riyadh-metro.html` | The single source of the app: map, data, routing, all six interface languages. Edit this file, not the generated pages. |
+| `tools/build.py` | Builds the six language pages, the guide pages, `sitemap.xml`, `robots.txt`, `manifest.webmanifest` and `sw.js`. |
+| `tools/seo_texts.py` | Per-language page titles, descriptions and the "About this map" text. |
+| `tools/seo_config.json` | Which guide pages exist and which routes each one shows. |
+| `tools/export_data.js` | Exports the app's data and the routes the guide pages need to `tools/seo_data.json`, using the app's own router. Needs Node and Playwright. |
+| `tools/seo_pages.py` | Builds the guide pages; no fact on a guide page is typed by hand. |
+| `tools/render_map.js` | Renders `riyadh-metro-map.png` from the app's own map. Needs Node and Playwright. |
+| `tools/sw.template.js` | Source of `sw.js` (offline support). |
+| `data/stations_src.txt` | Station list with sources, used when the app's data was first built. |
+
+To rebuild after a change:
+
+```
+node tools/export_data.js && python3 tools/build.py
+```
+
+Set `SITE` for the public address and `GOAT` for the GoatCounter address, for example:
+`SITE=https://example.com/ GOAT=https://riyadhmetro.goatcounter.com/count python3 tools/build.py`
+
+## Report a problem
+
+Use the **Report a problem** button on the site, or open an issue in this repository.

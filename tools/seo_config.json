@@ -1,0 +1,242 @@
+{
+ "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro).",
+ "destinations": [
+  {
+   "slug": "riyadh-airport",
+   "title": "Riyadh Airport (King Khalid International)",
+   "main": "p_king_khalid_airport_terminals_1_2",
+   "also": [
+    "p_king_khalid_airport_terminals_3_4",
+    "p_king_khalid_airport_terminal_5"
+   ],
+   "lead": "The Yellow Line serves King Khalid International Airport with three stations: Airport T1-2 (a short walk to Terminals 1 and 2), Airport T3-4 and Airport T5. Trains run to KAFD, where the Yellow Line meets the Blue and Purple lines.",
+   "reverse": true,
+   "origins": [
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "kingdom-centre",
+   "title": "Kingdom Centre (Kingdom Tower)",
+   "main": "p_kingdom_centre",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_national_museum",
+    "p_souq_al_zal",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "kafd",
+   "title": "KAFD (King Abdullah Financial District)",
+   "main": "p_kafd_king_abdullah_financial_district",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kingdom_centre",
+    "p_national_museum",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "national-museum",
+   "title": "National Museum",
+   "main": "p_national_museum",
+   "also": [
+    "p_al_murabba_palace"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station",
+    "p_al_batha"
+   ]
+  },
+  {
+   "slug": "masmak-fortress",
+   "title": "Al Masmak Fortress and Souq Al Zal",
+   "main": "p_al_masmak_fortress",
+   "also": [
+    "p_souq_al_zal",
+    "p_imam_turki_bin_abdullah_grand_mosque",
+    "p_salam_park"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_national_museum",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "al-batha",
+   "title": "Al Batha",
+   "main": "p_al_batha",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station",
+    "p_national_museum"
+   ]
+  },
+  {
+   "slug": "diriyah",
+   "title": "Diriyah",
+   "main": "p_diriyah",
+   "also": [],
+   "lead": "Diriyah is not on the Riyadh Metro yet. The nearest station is King Saud University, the western end of the Red Line; from there continue by taxi or bus. A Red Line extension to Diriyah has been announced but is not open.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_national_museum"
+   ]
+  },
+  {
+   "slug": "boulevard-city",
+   "title": "Boulevard City (Riyadh Season)",
+   "main": "p_boulevard_city",
+   "also": [],
+   "lead": "Boulevard City is not within walking distance of the metro. The usual way is the metro to KAFD and then a bus or taxi for the last part.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kingdom_centre",
+    "p_national_museum",
+    "p_al_batha"
+   ]
+  },
+  {
+   "slug": "riyadh-park-mall",
+   "title": "Riyadh Park Mall",
+   "main": "p_riyadh_park_mall",
+   "also": [],
+   "lead": "Riyadh Park is not within easy walking distance of the metro: the nearest station is KAFD, and the walk crosses a highway, so a bus or taxi for the last part is easier.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kingdom_centre",
+    "p_national_museum",
+    "p_al_batha"
+   ]
+  },
+  {
+   "slug": "riyadh-gallery-mall",
+   "title": "Riyadh Gallery Mall",
+   "main": "p_riyadh_gallery_mall",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_national_museum",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  }
+ ],
+ "stations": [
+  {
+   "id": "stc",
+   "slug": "stc",
+   "to": [
+    "p_kingdom_centre",
+    "p_kafd_king_abdullah_financial_district",
+    "p_national_museum",
+    "p_king_khalid_airport_terminals_1_2",
+    "p_king_saud_university"
+   ]
+  },
+  {
+   "id": "hokm",
+   "slug": "qasr-al-hokm",
+   "to": [
+    "p_kingdom_centre",
+    "p_kafd_king_abdullah_financial_district",
+    "p_king_khalid_airport_terminals_1_2",
+    "p_national_museum",
+    "p_riyadh_railway_station"
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "slug": "riyadh-airport-to-al-batha",
+   "title": "Riyadh Airport to Al Batha by metro",
+   "query": "riyadh airport to batha metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_al_batha"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_al_batha"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_al_batha"
+    ]
+   ],
+   "return": [
+    "p_al_batha",
+    "p_king_khalid_airport_terminals_1_2"
+   ]
+  },
+  {
+   "slug": "riyadh-airport-to-kafd",
+   "title": "Riyadh Airport to KAFD by metro",
+   "query": "riyadh airport to kafd metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_kafd_king_abdullah_financial_district"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_kafd_king_abdullah_financial_district"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_kafd_king_abdullah_financial_district"
+    ]
+   ],
+   "return": [
+    "p_kafd_king_abdullah_financial_district",
+    "p_king_khalid_airport_terminals_1_2"
+   ]
+  },
+  {
+   "slug": "riyadh-airport-to-kingdom-centre",
+   "title": "Riyadh Airport to Kingdom Centre by metro",
+   "query": "riyadh airport to kingdom tower metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_kingdom_centre"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_kingdom_centre"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_kingdom_centre"
+    ]
+   ],
+   "return": [
+    "p_kingdom_centre",
+    "p_king_khalid_airport_terminals_1_2"
+   ]
+  }
+ ],
+ "extra_pairs": []
+}

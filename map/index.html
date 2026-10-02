@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)</title>
+<meta name="description" content="A schematic map of all six Riyadh Metro lines: Blue Line (25 stations), Red Line (15 stations), Orange Line (22 stations), Yellow Line (9 stations), Green Line (12 stations), Purple Line (11 stations). 83 stations in all, with every interchange.">
+<link rel="canonical" href="https://thinkbig-code.github.io/riyadh-metro/map/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://thinkbig-code.github.io/riyadh-metro/map/">
+<meta property="og:title" content="Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)">
+<meta property="og:description" content="A schematic map of all six Riyadh Metro lines: Blue Line (25 stations), Red Line (15 stations), Orange Line (22 stations), Yellow Line (9 stations), Green Line (12 stations), Purple Line (11 stations). 83 stations in all, with every interchange.">
+<meta property="og:image" content="https://thinkbig-code.github.io/riyadh-metro/riyadh-metro-map.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F4F7F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10161C" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 31s11-10.2 11-18A11 11 0 0 0 5 13c0 7.8 11 18 11 18z' fill='%231E6FD9'/%3E%3Crect x='10.5' y='6.5' width='11' height='12' rx='3' fill='%23fff'/%3E%3Crect x='12.3' y='8.6' width='7.4' height='4' rx='1' fill='%231E6FD9'/%3E%3Ccircle cx='13.3' cy='15.6' r='1.1' fill='%231E6FD9'/%3E%3Ccircle cx='18.7' cy='15.6' r='1.1' fill='%231E6FD9'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Riyadh Metro Map", "item": "https://thinkbig-code.github.io/riyadh-metro/"}, {"@type": "ListItem", "position": 2, "name": "Map", "item": "https://thinkbig-code.github.io/riyadh-metro/map/"}]}, {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": "https://thinkbig-code.github.io/riyadh-metro/riyadh-metro-map.png", "name": "Riyadh Metro map", "description": "Riyadh Metro map: Blue, Red, Orange, Yellow, Green and Purple lines with all stations and interchanges", "width": 1600, "height": 1760, "encodingFormat": "image/png"}]</script>
+
+<style>
+:root{--bg:#F4F7F8;--surface:#fff;--fg:#14202B;--muted:#5B6773;--rule:#DCE3E8;--accent:#0B6E99;--warn:#8A4B00;--warnbg:#FFF4E0}
+@media (prefers-color-scheme:dark){:root{--bg:#10161C;--surface:#18212A;--fg:#E6EDF2;--muted:#9AA7B2;--rule:#2A3742;--accent:#6CC4EE;--warn:#FFCF8A;--warnbg:#2E2414}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+header.top{background:var(--surface);border-bottom:1px solid var(--rule)}
+header.top nav{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:14px}
+@media (max-width:420px){header.top nav{gap:10px;font-size:13px}}
+header.top .brand{font-weight:700;color:var(--fg);text-decoration:none;margin-inline-end:auto}
+main{max-width:860px;margin:0 auto;padding:16px 16px 40px}
+.crumbs{font-size:13px;color:var(--muted);margin:4px 0 8px}
+.crumbs a{color:var(--muted)}
+h1{font-size:28px;line-height:1.2;margin:8px 0 12px}
+h2{font-size:20px;margin:28px 0 8px}
+h3{font-size:16px;margin:18px 0 6px}
+.lead{font-size:18px}
+.cta{display:inline-block;background:#1D5FB4;color:#fff;text-decoration:none;font-weight:600;padding:10px 16px;border-radius:999px;margin:6px 0}
+.cta.sm{font-size:14px;padding:6px 12px}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;margin:10px 0}
+.sum{font-weight:600}
+.chip{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--c);color:#fff}
+.chip.w{background:var(--rule);color:var(--fg)}
+ol.steps{padding-inline-start:20px;margin:8px 0}
+ol.steps li{margin:6px 0}
+ol.steps .sub{display:block;color:var(--muted);font-size:14px}
+table{border-collapse:collapse;width:100%;margin:8px 0;background:var(--surface);font-size:15px}
+th,td{border:1px solid var(--rule);padding:6px 8px;text-align:start;vertical-align:top}
+th{background:var(--bg);font-weight:600}
+caption{text-align:start;font-weight:600;padding:4px 0}
+.scroll{overflow-x:auto}
+.warn{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 12px;margin:10px 0}
+.note,.muted{color:var(--muted);font-size:14px}
+footer{max-width:860px;margin:0 auto;padding:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:13px}
+ul.links{padding-inline-start:18px}
+@media (max-width:560px){h1{font-size:24px}table{font-size:14px}}
+</style>
+</head>
+<body>
+<header class="top"><nav><a class="brand" href="../">Riyadh Metro Map</a><a href="../map/">Map</a><a href="../stations/">Stations</a><a href="../timings/">Timings and fares</a></nav></header>
+<main>
+<div class="crumbs"><a href="../">Riyadh Metro Map</a> › Map</div>
+<h1>Riyadh Metro map 2026: all lines and stations</h1>
+<p class="lead">A schematic map of all six Riyadh Metro lines: Blue Line (25 stations), Red Line (15 stations), Orange Line (22 stations), Yellow Line (9 stations), Green Line (12 stations), Purple Line (11 stations). 83 stations in all, with every interchange.</p>
+<a class="cta" href="../">Open the interactive map</a>
+<figure style="margin:12px 0"><img src="../riyadh-metro-map.png" width="1600" height="1760" alt="Riyadh Metro map: Blue, Red, Orange, Yellow, Green and Purple lines with all stations and interchanges" style="width:100%;height:auto;border:1px solid var(--rule);border-radius:12px;background:#fff"><figcaption class="note">Schematic, not to scale. Station names as of 2026. An unofficial map, not affiliated with Riyadh Public Transport.</figcaption></figure>
+<h2>How to read the map</h2><ul>
+<li><b>Blue Line (Line 1)</b>: SAB Bank to Ad Dar Al Baida. <a href="../lines/blue-line/">Stations</a></li>
+<li><b>Red Line (Line 2)</b>: King Saud University to King Fahad Sport City. <a href="../lines/red-line/">Stations</a></li>
+<li><b>Orange Line (Line 3)</b>: Jeddah Road to Khashm Al An. <a href="../lines/orange-line/">Stations</a></li>
+<li><b>Yellow Line (Line 4)</b>: KAFD to Airport T1-2. <a href="../lines/yellow-line/">Stations</a></li>
+<li><b>Green Line (Line 5)</b>: Ministry of Education to National Museum. <a href="../lines/green-line/">Stations</a></li>
+<li><b>Purple Line (Line 6)</b>: KAFD to An Naseem. <a href="../lines/purple-line/">Stations</a></li>
+<li><b>Interchanges</b>: Al Hamra, An Naseem, Ar Rabi, KAFD, Ministry of Education, National Museum, Qasr Al Hokm, SABIC, Uthman Bin Affan Road, stc.</li>
+<li>The Yellow and Purple lines share the track and the four stations from KAFD to SABIC; on the map they run side by side there.</li></ul>
+<p><a href="../stations/">All stations A–Z</a> · <a href="../timings/">Timings and fares</a></p>
+</main>
+<footer>
+<p>Unofficial map. All times are estimates (trains about every 4–10 min). Walking times are rough. Station names as of 2026. There is no public timetable, so run times are estimated from the official track map (RCRC open data) and station positions. Travel times on this page are for a weekday at midday, including typical waiting.</p>
+<p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="https://github.com/thinkbig-code/riyadh-metro/issues">Report a problem</a> · <a href="../">Open the route planner</a></p>
+</footer>
+</body>
+</html>
