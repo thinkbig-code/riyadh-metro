@@ -222,7 +222,7 @@ def fare_table():
 
 
 def station_facts(sid):
-    rows = [('المسارات', lines_txt(ST[sid]['lines'])), ('الاسم بالإنجليزية', ST[sid]['n'])]
+    rows = [('المسارات', lines_txt(ST[sid]['lines']))]
     for w in WALKS:
         if sid in (w['a'], w['b']):
             o = w['b'] if w['a'] == sid else w['a']
@@ -239,6 +239,14 @@ def st_cell(sid):
 CSS = P.CSS + 'body{font-family:"Noto Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif}\nol.steps{padding-inline-start:22px}\n'
 
 
+_RNG = re.compile(r'(?<!\u2066)(\d+(?::\d+)?–\d+(?::\d+)?)')
+
+
+def ltr_ranges(x):
+    """after Arabic letters a range like 05:30–00:00 would be shown reversed; isolate it left to right"""
+    return _RNG.sub('\u2066\\1\u2069', x)
+
+
 def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png'):
     depth = path.count('/')
     root = '../' * depth
@@ -251,7 +259,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
     ld = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}]
     if ld_extra:
         ld.append(ld_extra)
-    body = body.replace('{ROOT}', root)
+    body = ltr_ranges(body.replace('{ROOT}', root)); title = ltr_ranges(title); desc = ltr_ranges(desc)
     COUNTER = ('<script data-goatcounter="%s" async src="//gc.zgo.at/count.js"></script>' % P.GOAT) if P.GOAT else ''
     return f'''<!doctype html>
 <html lang="ar" dir="rtl">
@@ -298,12 +306,13 @@ def write(path, content):
     P.write(path, content)
 
 
+MAP_IMG = 'riyadh-metro-map-ar.png'   # drawn by tools/render_map.js with MAP_LANG=ar
 MAP_ALT = 'خريطة مترو الرياض: المسارات الأزرق والأحمر والبرتقالي والأصفر والأخضر والبنفسجي مع جميع المحطات ومحطات التبديل'
 
 
 def map_figure():
     return ('<figure style="margin:12px 0"><a href="{ROOT}ar/map/"><img src="{ROOT}%s" width="%d" height="%d" alt="%s" loading="lazy" style="width:100%%;height:auto;border:1px solid var(--rule);border-radius:12px;background:#fff"></a>'
-            '<figcaption class="note">الشبكة كاملة على خريطة واحدة (أسماء المحطات عليها بالإنجليزية). <a href="{ROOT}ar.html">افتح الخريطة التفاعلية</a> واضغط على محطة لتحصل على الطريق.</figcaption></figure>') % (P.MAP_IMG, P.MAP_W, P.MAP_H, e(MAP_ALT))
+            '<figcaption class="note">الشبكة كاملة على خريطة واحدة. <a href="{ROOT}ar.html">افتح الخريطة التفاعلية</a> واضغط على محطة لتحصل على الطريق.</figcaption></figure>') % (MAP_IMG, P.MAP_W, P.MAP_H, e(MAP_ALT))
 
 
 # ---------------- destination pages ----------------
@@ -364,7 +373,6 @@ def station(cfg):
         lead = 'محطة %s محطة تبديل على %s. يمكنك التبديل بين المسارين داخل المحطة دون الخروج منها.' % (sn(sid), lines_txt(ls))
     else:
         lead = 'محطة %s على %s.' % (sn(sid), lines_txt(ls))
-    lead += ' اسمها بالإنجليزية على اللوحات: %s.' % s['n']
     body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, 'p_kingdom_centre', 'خطّط رحلة من هنا')]
     body.append('<h2>معلومات المحطة</h2>' + station_facts(sid))
     body.append('<h2>المحطات المجاورة</h2><ul>')
@@ -437,10 +445,10 @@ def line_pages():
             lead += ' ويشترك مع %s في المحطات الأربع من المركز المالي إلى سابك.' % LN['purple' if c == 'yellow' else 'yellow']
         body = ['<h1>%s (المسار %d) في مترو الرياض: المحطات والمواعيد</h1>' % (e(LN[c]), n), '<p class="lead">%s</p>' % e(lead),
                 plan(ids[0], ids[-1], 'خطّط رحلة على هذا المسار')]
-        body.append('<h2>المحطات</h2><div class="scroll"><table><tr><th>#</th><th>المحطة</th><th>الاسم بالإنجليزية</th><th>التبديل</th></tr>')
+        body.append('<h2>المحطات</h2><div class="scroll"><table><tr><th>#</th><th>المحطة</th><th>التبديل</th></tr>')
         for i, sid in enumerate(ids, 1):
             other = [l for l in ST[sid]['lines'] if l != c]
-            body.append('<tr><td>%d</td><td>%s</td><td dir="ltr">%s</td><td>%s</td></tr>' % (i, st_cell(sid), e(ST[sid]['n']), e(lines_txt(other)) if other else ''))
+            body.append('<tr><td>%d</td><td>%s</td><td>%s</td></tr>' % (i, st_cell(sid), e(lines_txt(other)) if other else ''))
         body.append('</table></div>')
         body.append(hours_html())
         body.append(fare_table())
@@ -451,15 +459,15 @@ def line_pages():
 def stations_list():
     path = 'ar/stations/'
     ids = sorted(ST, key=lambda i: sn(i))
-    lead = 'جميع محطات المسارات الستة لمترو الرياض (%d محطة) مع المسارات ومحطات التبديل، والاسم الإنجليزي لكل محطة كما يظهر على اللوحات.' % len(ids)
+    lead = 'جميع محطات المسارات الستة لمترو الرياض (%d محطة) مع المسارات ومحطات التبديل.' % len(ids)
     body = ['<h1>محطات مترو الرياض: القائمة الكاملة</h1>', '<p class="lead">%s</p>' % e(lead), map_figure()]
     body.append('<h2>محطات التبديل</h2><ul>')
     for i in sorted((i for i in ids if len(ST[i]['lines']) > 1), key=sn):
         body.append('<li>%s: %s</li>' % (st_cell(i), e(lines_txt(ST[i]['lines']))))
     body.append('</ul>')
-    body.append('<h2>جميع المحطات أبجدياً</h2><div class="scroll"><table><tr><th>المحطة</th><th>الاسم بالإنجليزية</th><th>المسارات</th></tr>')
+    body.append('<h2>جميع المحطات أبجدياً</h2><div class="scroll"><table><tr><th>المحطة</th><th>المسارات</th></tr>')
     for i in ids:
-        body.append('<tr><td>%s</td><td dir="ltr">%s</td><td>%s</td></tr>' % (st_cell(i), e(ST[i]['n']), e(lines_txt(ST[i]['lines']))))
+        body.append('<tr><td>%s</td><td>%s</td></tr>' % (st_cell(i), e(lines_txt(ST[i]['lines']))))
     body.append('</table></div>')
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (المسار %d)</a></li>' % (LINE_PAGE[l], e(LN[l]), NUM[l]) for l in COLORS) + '</ul>')
     write(path, frame(path, 'محطات مترو الرياض: القائمة الكاملة للمسارات الستة', lead, '\n'.join(body), [(path, 'المحطات')]))
@@ -487,16 +495,16 @@ def map_page():
     body = ['<h1>خريطة مترو الرياض 2026: جميع المسارات والمحطات</h1>', '<p class="lead">%s</p>' % e(lead),
             '<a class="cta" href="{ROOT}ar.html">افتح الخريطة التفاعلية</a>',
             '<figure style="margin:12px 0"><img src="{ROOT}%s" width="%d" height="%d" alt="%s" style="width:100%%;height:auto;border:1px solid var(--rule);border-radius:12px;background:#fff"><figcaption class="note">%s</figcaption></figure>' % (
-                P.MAP_IMG, P.MAP_W, P.MAP_H, e(MAP_ALT), 'خريطة تخطيطية بغير مقياس رسم، وأسماء المحطات عليها بالإنجليزية كما في 2026. خريطة غير رسمية لا علاقة لها بالنقل العام بمدينة الرياض.'),
+                MAP_IMG, P.MAP_W, P.MAP_H, e(MAP_ALT), 'خريطة تخطيطية بغير مقياس رسم، وأسماء المحطات كما في 2026. خريطة غير رسمية لا علاقة لها بالنقل العام بمدينة الرياض.'),
             '<h2>كيف تقرأ الخريطة</h2><ul>']
     for v in D['services']:
         body.append('<li><b>%s (المسار %d)</b>: من %s إلى %s. <a href="{ROOT}%s">المحطات</a></li>' % (e(LN[v['line']]), NUM[v['line']], e(sn(v['stops'][0])), e(sn(v['stops'][-1])), LINE_PAGE[v['line']]))
     body.append('<li><b>محطات التبديل</b>: %s.</li>' % e('، '.join(sn(x) for x in xs)))
     body.append('<li>يشترك المساران الأصفر والبنفسجي في المسار وفي المحطات الأربع من المركز المالي إلى سابك، ويظهران على الخريطة متجاورين هناك.</li></ul>')
     body.append('<p><a href="{ROOT}ar/stations/">جميع المحطات</a> · <a href="{ROOT}ar/timings/">المواعيد والأسعار</a></p>')
-    ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + P.MAP_IMG, "name": "خريطة مترو الرياض",
+    ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "خريطة مترو الرياض",
           "description": MAP_ALT, "width": P.MAP_W, "height": P.MAP_H, "encodingFormat": "image/png", "inLanguage": "ar"}
-    write(path, frame(path, 'خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)', lead, '\n'.join(body), [(path, 'الخريطة')], ld, og_image=P.MAP_IMG))
+    write(path, frame(path, 'خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)', lead, '\n'.join(body), [(path, 'الخريطة')], ld, og_image=MAP_IMG))
 
 
 def build():

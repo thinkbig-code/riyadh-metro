@@ -35,6 +35,10 @@ H = json.loads(re.search(r'metro:(\[\[.*?\]\])', s).group(1))
 FV = dict(std=STD, first=FIRST, wk='%s–%s' % (hm(H[0][0]), hm(H[0][1])), fri='%s–%s' % (hm(H[5][0]), hm(H[5][1])))
 N = lambda i: html.escape(names[i])
 lst = lambda ids: ', '.join(N(i) for i in ids)
+# the Arabic page is all in Arabic: Arabic station names (tools/ar_names.json) and the Arabic map picture
+AR_ST = json.load(open(os.path.join(HERE, 'ar_names.json'), encoding='utf-8'))['stations']
+N_AR = lambda i: html.escape(AR_ST.get(i) or names[i])
+LTR = lambda x: re.sub(r'(\d+(?::\d+)?–\d+(?::\d+)?)', '\u2066\\1\u2069', x)
 pid = lambda n: 'p_' + re.sub(r'^_|_$', '', re.sub(r'[^a-z0-9]+', '_', n.lower()))
 AP = pid('King Khalid Airport Terminals 1-2')
 TRIPS = [(AP, pid('KAFD (King Abdullah Financial District)')), (AP, pid('Kingdom Centre')), (AP, pid('Al Batha')),
@@ -64,14 +68,15 @@ def page(L):
     X = TX[L]
     trips = '\n'.join(f'<li><a href="#{a}~{b}~{L}">{html.escape(t)}</a></li>' for (a, b), t in zip(TRIPS, X["trips"]))
     faq = '\n'.join(f'<h3>{html.escape(q)}</h3>\n<p>{html.escape(a.format(**FV))}</p>' for q, a in X["q"])
+    nm, sep, ldir, mapimg = (N_AR, '، ', 'rtl', 'riyadh-metro-map-ar.png') if L == 'ar' else (N, ', ', 'ltr', 'riyadh-metro-map.png')
     other = ' · '.join(f'<a href="{TX[o]["file"] if TX[o]["file"]!="index.html" else "./"}" hreflang="{o}" lang="{o}">{TX[o]["langName"]}</a>' for o in ORDER if o != L)
-    lines = '\n'.join(f'<p>{X["line"].format(n=html.escape(I18N[L][LKEY[k]]), a=N(ids[0]), b=N(ids[-1]))}</p>\n<p class="lst" dir="ltr">{lst(ids)}.</p>' for k, _, ids in LINES)
+    lines = '\n'.join(f'<p>{X["line"].format(n=html.escape(I18N[L][LKEY[k]]), a=nm(ids[0]), b=nm(ids[-1]))}</p>\n<p class="lst" dir="{ldir}">{sep.join(nm(i) for i in ids)}.</p>' for k, _, ids in LINES)
     guide_links = f'<p class="lst">{GUIDE_LINKS_AR}</p>' if L == 'ar' else f'<p class="lst" dir="ltr">{GUIDE_LINKS}</p>'
     about = f'''<section id="about" aria-labelledby="aboutH" lang="{L}" dir="{X["dir"]}">
 <button id="aboutClose" aria-label="{html.escape(X["close"])}">×</button>
 <h1 id="aboutH">{html.escape(X["h1"])}</h1>
 <p>{html.escape(X["intro"])}</p>
-<p><a href="map/" hreflang="en"><img src="riyadh-metro-map.png" width="{seo_pages.MAP_W}" height="{seo_pages.MAP_H}" alt="{html.escape(seo_pages.MAP_ALT)}" loading="lazy" style="width:100%;height:auto;border-radius:12px"></a></p>
+<p><a href="{"ar/map/" if L == "ar" else "map/"}"><img src="{mapimg}" width="{seo_pages.MAP_W}" height="{seo_pages.MAP_H}" alt="{html.escape(seo_pages_ar.MAP_ALT if L == 'ar' else seo_pages.MAP_ALT)}" loading="lazy" style="width:100%;height:auto;border-radius:12px"></a></p>
 <h2>{html.escape(X["popular"])}</h2>
 <ul>
 {trips}
@@ -87,6 +92,8 @@ def page(L):
 <p class="lst">{other}</p>
 </section>
 '''
+    if L == 'ar':
+        about = LTR(about)
     ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": html.unescape(X["ogTitle"]), "url": url(L),
           "description": html.unescape(X["desc"]), "applicationCategory": "TravelApplication", "operatingSystem": "Any", "isAccessibleForFree": True,
           "inLanguage": L, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "SAR"},
@@ -139,10 +146,11 @@ open(OUT + 'sw.js', 'w').write(open(os.path.join(HERE, 'sw.template.js')).read()
 today = datetime.date.today().isoformat()
 xl = '\n'.join(f'    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in ORDER) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}"/>'
 IMG = f'\n    <image:image><image:loc>{SITE}{seo_pages.MAP_IMG}</image:loc></image:image>'
-urls = '\n'.join(f'  <url>\n    <loc>{url(L)}</loc>\n    <lastmod>{today}</lastmod>\n{xl}{IMG}\n  </url>' for L in ORDER)
+urls = '\n'.join(f'  <url>\n    <loc>{url(L)}</loc>\n    <lastmod>{today}</lastmod>\n{xl}{IMG.replace(seo_pages.MAP_IMG, "riyadh-metro-map-ar.png") if L == "ar" else IMG}\n  </url>' for L in ORDER)
 gx = lambda p: f'\n    <xhtml:link rel="alternate" hreflang="en" href="{SITE}{p}"/>\n    <xhtml:link rel="alternate" hreflang="ar" href="{SITE}ar/{p}"/>'
 urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p)}{IMG if p in ("map/", "stations/") else ""}\n  </url>' for p in GUIDES)
-urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p[3:])}{IMG if p in ("ar/map/", "ar/stations/") else ""}\n  </url>' for p in GUIDES_AR)
+IMG_AR = f'\n    <image:image><image:loc>{SITE}riyadh-metro-map-ar.png</image:loc></image:image>'
+urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p[3:])}{IMG_AR if p in ("ar/map/", "ar/stations/") else ""}\n  </url>' for p in GUIDES_AR)
 open(OUT + 'sitemap.xml', 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n{urls}\n</urlset>\n')
 open(OUT + 'robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n')
 print("deploy built:", ', '.join(TX[L]["file"] for L in ORDER), "+", len(GUIDES), "guide pages +", len(GUIDES_AR), "Arabic guide pages")

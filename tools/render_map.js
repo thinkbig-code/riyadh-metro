@@ -7,7 +7,9 @@ const path = require('path'), fs = require('fs');
 const {chromium} = require('playwright');
 const ROOT = path.join(__dirname, '..');
 const SRC = process.env.SRC || path.join(ROOT, 'src', 'riyadh-metro.html');
-const OUT = path.join(ROOT, 'riyadh-metro-map.png');
+// MAP_LANG=ar draws the Arabic map (Arabic station and area names) for the Arabic pages
+const AR = process.env.MAP_LANG === 'ar';
+const OUT = path.join(ROOT, AR ? 'riyadh-metro-map-ar.png' : 'riyadh-metro-map.png');
 const W = 1600, H = 1760;
 const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:local("Liberation Sans"),local("Arial")}
 @font-face{font-family:"Unbounded";font-weight:600;src:local("Poppins SemiBold"),local("Poppins Bold"),local("Liberation Sans Bold")}`;
@@ -27,6 +29,7 @@ const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:lo
     } catch (e) { fallback = true; await r.fulfill({status: 200, contentType: 'text/css', body: FALLBACK}); }
   });
   await p.route(/cdnjs\.cloudflare\.com|gc\.zgo\.at/, r => r.abort());
+  if (AR) await p.addInitScript(() => { try { localStorage.setItem('dm_lang', 'ar'); } catch (e) {} });
   await p.goto('file://' + SRC + '#selftest');
   await p.waitForFunction(() => window.__dm);
   await p.evaluate(() => document.fonts.ready);
@@ -38,11 +41,13 @@ const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:lo
   // the date of the station names (last checked against the RTA network map), not today's date
   const date = process.env.NAMES_AS_OF || 'October 2026';
   const SITE_LABEL = process.env.SITE_LABEL || 'Riyadh Metro Map';
-  await p.evaluate(([date, SITE_LABEL]) => {
+  await p.evaluate(([date, SITE_LABEL, AR]) => {
     const d = document.createElement('div'); d.id = 'imgtitle';
-    d.innerHTML = 'Riyadh Metro map<small>All 6 lines and 83 stations · Station names as of ' + date + ' · Unofficial · ' + SITE_LABEL + '</small>';
+    d.innerHTML = AR ? 'خريطة مترو الرياض<small>المسارات الستة و83 محطة · أسماء المحطات كما في أكتوبر 2026 · خريطة غير رسمية · riyadhmetro.fyi</small>'
+                     : 'Riyadh Metro map<small>All 6 lines and 83 stations · Station names as of ' + date + ' · Unofficial · ' + SITE_LABEL + '</small>';
+    if (AR) { d.dir = 'rtl'; d.style.left = 'auto'; d.style.right = '28px'; d.style.fontFamily = '"Noto Sans Arabic",sans-serif'; }
     document.body.appendChild(d);
-  }, [date, SITE_LABEL]);
+  }, [date, SITE_LABEL, AR]);
   await p.waitForTimeout(800); // let the app finish re-framing after the panel was hidden
   // frame the whole network below the title
   // (same box as the app's "whole map" button)
