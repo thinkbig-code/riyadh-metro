@@ -21,7 +21,7 @@ Each language has its own page, so search engines can show people the version in
 
 ## What it does
 
-- Routes between places and stations on all six lines (Blue, Red, Orange, Yellow, Green, Purple), with up to three options (fastest, fewer changes, least walking) and a short "why this route" note.
+- Routes between places and stations on all six lines (Blue, Red, Orange, Yellow, Green, Purple), showing the fastest route, plus a one-line option with fewer changes when it takes at most 5 minutes longer.
 - Step-by-step directions, estimated travel time with typical waiting, the fare (one flat 2-hour ticket) and opening-hours warnings for late trips.
 - 83 places: sights and the old town (Al Masmak, Deera Square, Souq Al Zal, the gold souq, the National Museum, Al Murabba), towers, parks, malls and souqs, stadiums and arenas (Al-Awwal Park, Kingdom Arena), hospitals, universities, the Diplomatic Quarter, the passport office, both railway stations and the airport. Places can be found by their English or Arabic name, and stations by their Arabic name too. Places more than 1.5 km from a station say so and suggest a bus or taxi for the last part.
 - Sharing: copy link, WhatsApp, QR code and a trip card. Every route has its own link.

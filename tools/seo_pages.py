@@ -333,10 +333,10 @@ def route_card(a, b, heading=None, show_alt=True):
         h.append('<div class="warn">%s This route uses it, so it cannot be travelled right now.</div>' % e(t('monoSuspended')))
     h.append('<p class="sum">%s</p><p>%s</p>' % (e(summary(v)), chips(v)))
     h.append('<ol class="steps">' + ''.join('<li>%s<span class="sub">%s</span></li>' % (e(a1), e(b1)) for a1, b1 in steps(v, a, b)) + '</ol>')
-    others = [x for x in vs if x is not v]
+    # same rule as the app: only the route with fewer changes, and only if it costs at most 5 minutes more
+    others = [x for x in vs if x is not v and 'few' in x['modes'] and x['xf'] < v['xf'] and x['time'] - v['time'] <= 5]
     if show_alt and others:
-        lbl = {'few': 'fewer changes', 'walk': 'least walking', 'fast': 'fastest'}
-        h.append('<p class="muted">Other options: ' + '; '.join('%s: %s' % (' / '.join(lbl[m] for m in x['modes']), summary(x)) for x in others) + '.</p>')
+        h.append('<p class="muted">With fewer changes: ' + '; '.join(summary(x) for x in others) + '.</p>')
     h.append(plan(a, b, small=True))
     h.append('</div>')
     return '\n'.join(h)
