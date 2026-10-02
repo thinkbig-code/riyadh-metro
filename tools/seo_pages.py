@@ -10,7 +10,7 @@ Returns the list of page paths, for the sitemap.
 import json, html, os, math, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-SITE = os.environ.get('SITE', 'https://thinkbig-code.github.io/riyadh-metro/')
+SITE = os.environ.get('SITE', 'https://riyadhmetro.fyi/')
 GOAT = os.environ.get('GOAT', '')
 OUT = os.environ.get('OUT', ROOT + '/')
 CFG = json.load(open(os.path.join(HERE, 'seo_config.json')))

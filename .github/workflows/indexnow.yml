@@ -1,0 +1,23 @@
+# After each push to main: wait for GitHub Pages to publish, then tell IndexNow which pages changed.
+# Run it by hand (Actions → IndexNow → Run workflow) to send every URL in the sitemap.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+    paths: ['**.html', 'sitemap.xml']
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+      - name: Wait for GitHub Pages
+        run: sleep 120
+      - name: Send changed pages
+        if: github.event_name == 'push'
+        run: python3 tools/indexnow.py --changed HEAD~1..HEAD
+      - name: Send all pages
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 tools/indexnow.py --all

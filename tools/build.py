@@ -10,7 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from seo_texts import TX, ORDER
 import seo_pages
-SITE = os.environ.get('SITE', 'https://thinkbig-code.github.io/riyadh-metro/')
+SITE = os.environ.get('SITE', 'https://riyadhmetro.fyi/')
 OUT = os.environ.get('OUT', ROOT + '/')
 GOAT = os.environ.get('GOAT', '')   # GoatCounter address, e.g. https://riyadhmetro.goatcounter.com/count
 s = open(os.path.join(ROOT, 'src', 'riyadh-metro.html'), encoding='utf-8').read()

@@ -60,6 +60,10 @@ node tools/export_data.js && python3 tools/build.py
 Set `SITE` for the public address and `GOAT` for the GoatCounter address, for example:
 `SITE=https://example.com/ GOAT=https://riyadhmetro.goatcounter.com/count python3 tools/build.py`
 
+## IndexNow (Bing, Yandex and others)
+
+After every push to `main` that changes a page, the GitHub Actions workflow `.github/workflows/indexnow.yml` waits two minutes for GitHub Pages to publish, then sends the changed page addresses to IndexNow, so Bing, Yandex, Seznam and Naver crawl them soon. Google does not use IndexNow; it reads `sitemap.xml`. To send every page in the sitemap, run the workflow by hand: Actions → IndexNow → Run workflow. The key is the file `951ec371cba7cc0386f1ebab2a196c98.txt` in the site root; `tools/indexnow.py` does the sending.
+
 ## Report a problem
 
 Use the **Report a problem** button on the site, or open an issue in this repository.
