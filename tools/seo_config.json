@@ -1,5 +1,5 @@
 {
- "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro).",
+ "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park.",
  "destinations": [
   {
    "slug": "riyadh-airport",
@@ -138,6 +138,83 @@
     "p_king_khalid_airport_terminals_1_2",
     "p_kafd_king_abdullah_financial_district",
     "p_national_museum",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "al-awwal-park",
+   "title": "Al-Awwal Park (Al Nassr stadium)",
+   "main": "p_al_awwal_park",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "kingdom-arena",
+   "title": "Kingdom Arena",
+   "main": "p_kingdom_arena",
+   "also": [
+    "p_mohammed_abdo_arena",
+    "p_boulevard_world"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "diplomatic-quarter",
+   "title": "Diplomatic Quarter (embassies)",
+   "main": "p_diplomatic_quarter",
+   "also": [
+    "p_ritz_carlton_riyadh"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_riyadh_railway_station"
+   ]
+  },
+  {
+   "slug": "gold-souq",
+   "title": "Thumairi Gold Market (Riyadh gold souq)",
+   "main": "p_thumairi_gold_market",
+   "also": [
+    "p_souq_swaigah",
+    "p_al_thumairi_gate",
+    "p_deera_square"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station",
+    "p_national_museum"
+   ]
+  },
+  {
+   "slug": "king-abdullah-park",
+   "title": "King Abdullah Park (Malaz)",
+   "main": "p_king_abdullah_park",
+   "also": [
+    "p_riyadh_zoo",
+    "p_prince_faisal_bin_fahd_stadium"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
     "p_al_batha",
     "p_riyadh_railway_station"
    ]

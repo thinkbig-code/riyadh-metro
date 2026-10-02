@@ -23,10 +23,10 @@ Each language has its own page, so search engines can show people the version in
 
 - Routes between places and stations on all six lines (Blue, Red, Orange, Yellow, Green, Purple), with up to three options (fastest, fewer changes, least walking) and a short "why this route" note.
 - Step-by-step directions, estimated travel time with typical waiting, the fare (one flat 2-hour ticket) and opening-hours warnings for late trips.
-- 38 popular places (airport terminals, KAFD, Kingdom Centre, the National Museum, Al Masmak, Souq Al Zal, malls, universities, the railway station), with honest notes for places that are not within walking distance of the metro (Diriyah, Boulevard City, Riyadh Park).
+- 83 places: sights and the old town (Al Masmak, Deera Square, Souq Al Zal, the gold souq, the National Museum, Al Murabba), towers, parks, malls and souqs, stadiums and arenas (Al-Awwal Park, Kingdom Arena), hospitals, universities, the Diplomatic Quarter, the passport office, both railway stations and the airport. Places can be found by their English or Arabic name, and stations by their Arabic name too. Places more than 1.5 km from a station say so and suggest a bus or taxi for the last part.
 - "Explore Riyadh": five ready-made trips that open as routes.
 - Sharing: copy link, WhatsApp, QR code and a trip card. Every route has its own link.
-- English guide pages for search engines: the map as a picture, all stations, timings and fares, the six lines, ten places, two stations and three routes. Every page hands off to the planner.
+- English guide pages for search engines: the map as a picture, all stations, timings and fares, the six lines, fifteen places, two stations and three routes. Every page hands off to the planner.
 
 ## Data and accuracy
 
@@ -35,7 +35,7 @@ Each language has its own page, so search engines can show people the version in
 - **Hours**: Saturday to Thursday 05:30–24:00, Friday 10:00–24:00 (since September 2025). Hours change during Ramadan and on holidays.
 - **Travel times are estimates.** There is no public timetable, so each hop is estimated as 1 minute for the stop plus running at 70 km/h over the distance along the track. The track is the official line geometry from RCRC open data ("Metro lines in Riyadh 2024", `data/rcrc_metro_lines_2024.geojson`); stations are projected onto it. This gives the Blue Line end to end in about 54 minutes; the builders describe it as just under an hour.
 - **Station positions** come from RCRC open data ("Metro stations in Riyadh by metro line and station type", `data/rcrc_metro_stations_2024.csv`, converted to `data/coords_official.csv`), for all 83 stations. The station order and English names in the app match that file; Arabic names keep standard spelling (the file sometimes writes ه for ة).
-- **Places**: nearest stations from Visit Saudi's metro guide, the airport's own page and station guides; walking times only where a source gives one.
+- **Places**: each place has a sourced position (Wikipedia, OpenStreetMap via Mapcarta, or a Yandex or Google place listing; one source per place in `data/places_sources.json`). The station is the nearest one by the official station positions; an interchange is chosen instead when it is at most 200 m further. Walking time is an estimate (straight-line distance × 1.3 at 80 m a minute) and the app says so, except for the two places where a source gives the walk.
 
 ## Files
 
@@ -49,6 +49,7 @@ Each language has its own page, so search engines can show people the version in
 | `tools/seo_pages.py` | Builds the guide pages; no fact on a guide page is typed by hand. |
 | `tools/render_map.js` | Renders `riyadh-metro-map.png` from the app's own map. Needs Node and Playwright. |
 | `tools/sw.template.js` | Source of `sw.js` (offline support). |
+| `data/places_sources.json` | Places with their position, Arabic name and source. |
 | `data/stations_src.txt` | Station list with sources, used when the app's data was first built. |
 
 To rebuild after a change:
