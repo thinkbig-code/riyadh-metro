@@ -2,7 +2,7 @@
 
 An unofficial, free map and journey planner for the six lines of the Riyadh Metro.
 
-Type a place or a station (or tap a place icon on the map) and the planner shows the route with every change, an estimated travel time and the fare. It runs in the browser on phones and computers; there is nothing to install, no account and no tracking of people.
+Type a place or a station (or tap a station on the map) and the planner shows the route with every change, an estimated travel time and the fare. It runs in the browser on phones and computers; there is nothing to install, no account and no tracking of people.
 
 This is an independent, non-commercial project. It is not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City, and it does not use their logos.
 
