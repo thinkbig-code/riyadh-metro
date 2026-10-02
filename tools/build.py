@@ -38,7 +38,11 @@ lst = lambda ids: ', '.join(N(i) for i in ids)
 # the Arabic page is all in Arabic: Arabic station names (tools/ar_names.json) and the Arabic map picture
 AR_ST = json.load(open(os.path.join(HERE, 'ar_names.json'), encoding='utf-8'))['stations']
 N_AR = lambda i: html.escape(AR_ST.get(i) or names[i])
-LTR = lambda x: re.sub(r'(\d+(?::\d+)?–\d+(?::\d+)?)', '\u2066\\1\u2069', x)
+def rtl_ranges(x):
+    """right-to-left pages: number ranges (05:00–00:00, 1-2) isolated left to right in the text, so they are
+    not shown reversed after Arabic-script letters; tags and links are left alone"""
+    rng = re.compile(r'(?<!\u2066)(\d+(?::\d+)?\s?[–-]\s?\d+(?::\d+)?)')
+    return re.sub(r'>([^<]+)<', lambda m: '>' + rng.sub('\u2066\\1\u2069', m.group(1)) + '<', x)
 pid = lambda n: 'p_' + re.sub(r'^_|_$', '', re.sub(r'[^a-z0-9]+', '_', n.lower()))
 AP = pid('King Khalid Airport Terminals 1-2')
 TRIPS = [(AP, pid('KAFD (King Abdullah Financial District)')), (AP, pid('Kingdom Centre')), (AP, pid('Al Batha')),
@@ -92,8 +96,8 @@ def page(L):
 <p class="lst">{other}</p>
 </section>
 '''
-    if L == 'ar':
-        about = LTR(about)
+    if X['dir'] == 'rtl':
+        about = rtl_ranges(about)
     ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": html.unescape(X["ogTitle"]), "url": url(L),
           "description": html.unescape(X["desc"]), "applicationCategory": "TravelApplication", "operatingSystem": "Any", "isAccessibleForFree": True,
           "inLanguage": L, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "SAR"},
