@@ -2,7 +2,7 @@
 
 Usage (from the repository root):  python3 tools/build.py
 Writes index.html (English), ar.html, ur.html, hi.html, bn.html, tl.html, ru.html, fr.html, the English guide pages
-(see tools/seo_pages.py), sitemap.xml, robots.txt, manifest.webmanifest and sw.js into the repository
+(see tools/seo_pages.py) and their Arabic twins under ar/ (tools/seo_pages_ar.py), sitemap.xml, robots.txt, manifest.webmanifest and sw.js into the repository
 root. Texts for each language page live in tools/seo_texts.py.
 """
 import re, json, html, datetime, sys, os, hashlib
@@ -10,6 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from seo_texts import TX, ORDER
 import seo_pages
+import seo_pages_ar
 SITE = os.environ.get('SITE', 'https://riyadhmetro.fyi/')
 OUT = os.environ.get('OUT', ROOT + '/')
 GOAT = os.environ.get('GOAT', '')   # GoatCounter address, e.g. https://riyadhmetro.goatcounter.com/count
@@ -53,8 +54,10 @@ if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostnam
 </script>"""
 
 GUIDES = seo_pages.build()
+GUIDES_AR = seo_pages_ar.build()   # the same pages in Arabic, under ar/
 short = lambda t: t.split(':')[0].replace(' by Metro', '')
 GUIDE_LINKS = ' · '.join(f'<a href="{p}" hreflang="en" lang="en">{html.escape(short(t))}</a>' for p, t in GUIDES.items())
+GUIDE_LINKS_AR = ' · '.join(f'<a href="{p}">{html.escape(t.split(":")[0])}</a>' for p, t in GUIDES_AR.items())
 
 
 def page(L):
@@ -63,6 +66,7 @@ def page(L):
     faq = '\n'.join(f'<h3>{html.escape(q)}</h3>\n<p>{html.escape(a.format(**FV))}</p>' for q, a in X["q"])
     other = ' · '.join(f'<a href="{TX[o]["file"] if TX[o]["file"]!="index.html" else "./"}" hreflang="{o}" lang="{o}">{TX[o]["langName"]}</a>' for o in ORDER if o != L)
     lines = '\n'.join(f'<p>{X["line"].format(n=html.escape(I18N[L][LKEY[k]]), a=N(ids[0]), b=N(ids[-1]))}</p>\n<p class="lst" dir="ltr">{lst(ids)}.</p>' for k, _, ids in LINES)
+    guide_links = f'<p class="lst">{GUIDE_LINKS_AR}</p>' if L == 'ar' else f'<p class="lst" dir="ltr">{GUIDE_LINKS}</p>'
     about = f'''<section id="about" aria-labelledby="aboutH" lang="{L}" dir="{X["dir"]}">
 <button id="aboutClose" aria-label="{html.escape(X["close"])}">×</button>
 <h1 id="aboutH">{html.escape(X["h1"])}</h1>
@@ -76,7 +80,7 @@ def page(L):
 {lines}
 <p>{html.escape(X["shared"])}</p>
 <h2>{html.escape(X["guides"])}</h2>
-<p class="lst" dir="ltr">{GUIDE_LINKS}</p>
+{guide_links}
 <h2>{html.escape(X["faq"])}</h2>
 {faq}
 <p><a href="https://github.com/thinkbig-code/riyadh-metro/issues">{html.escape(X["report"])}</a></p>
@@ -136,7 +140,9 @@ today = datetime.date.today().isoformat()
 xl = '\n'.join(f'    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in ORDER) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}"/>'
 IMG = f'\n    <image:image><image:loc>{SITE}{seo_pages.MAP_IMG}</image:loc></image:image>'
 urls = '\n'.join(f'  <url>\n    <loc>{url(L)}</loc>\n    <lastmod>{today}</lastmod>\n{xl}{IMG}\n  </url>' for L in ORDER)
-urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{IMG if p in ("map/", "stations/") else ""}\n  </url>' for p in GUIDES)
+gx = lambda p: f'\n    <xhtml:link rel="alternate" hreflang="en" href="{SITE}{p}"/>\n    <xhtml:link rel="alternate" hreflang="ar" href="{SITE}ar/{p}"/>'
+urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p)}{IMG if p in ("map/", "stations/") else ""}\n  </url>' for p in GUIDES)
+urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p[3:])}{IMG if p in ("ar/map/", "ar/stations/") else ""}\n  </url>' for p in GUIDES_AR)
 open(OUT + 'sitemap.xml', 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n{urls}\n</urlset>\n')
 open(OUT + 'robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n')
-print("deploy built:", ', '.join(TX[L]["file"] for L in ORDER), "+", len(GUIDES), "guide pages")
+print("deploy built:", ', '.join(TX[L]["file"] for L in ORDER), "+", len(GUIDES), "guide pages +", len(GUIDES_AR), "Arabic guide pages")

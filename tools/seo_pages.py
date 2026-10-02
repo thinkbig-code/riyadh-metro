@@ -1,4 +1,5 @@
 """Build the English guide pages (stations, lines, destinations, routes, map, timings) of the Riyadh Metro map.
+Every page has an Arabic twin under ar/ (tools/seo_pages_ar.py), linked both ways with hreflang.
 
 Usage (from the repository root, after tools/export_data.js):  python3 tools/seo_pages.py
 Called by tools/build.py. Reads tools/seo_config.json (which pages exist) and tools/seo_data.json
@@ -284,6 +285,8 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
+<link rel="alternate" hreflang="en" href="{url}">
+<link rel="alternate" hreflang="ar" href="{SITE}ar/{path}">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{url}">
@@ -300,7 +303,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Map</a><a href="{root}stations/">Stations</a><a href="{root}timings/">Timings and fares</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Map</a><a href="{root}stations/">Stations</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}

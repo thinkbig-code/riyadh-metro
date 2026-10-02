@@ -1,5 +1,5 @@
 {
- "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park.",
+ "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park. Arabic pages (ar/...) use title_ar and lead_ar; Arabic queries such as اقرب محطة مترو, مواعيد مترو الرياض, اسعار مترو الرياض, خريطة مترو الرياض.",
  "destinations": [
   {
    "slug": "riyadh-airport",
@@ -17,7 +17,9 @@
     "p_al_batha",
     "p_national_museum",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "مطار الرياض (مطار الملك خالد الدولي)",
+   "lead_ar": "يخدم المسار الأصفر مطار الملك خالد الدولي بثلاث محطات: الصالتان 1-2 (على بُعد خطوات من الصالتين 1 و2)، والصالتان 3-4، والصالة 5. وتتجه القطارات إلى المركز المالي حيث يلتقي المسار الأصفر بالمسارين الأزرق والبنفسجي."
   },
   {
    "slug": "kingdom-centre",
@@ -30,7 +32,8 @@
     "p_national_museum",
     "p_souq_al_zal",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "برج المملكة (مركز المملكة)"
   },
   {
    "slug": "kafd",
@@ -43,7 +46,8 @@
     "p_national_museum",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "المركز المالي (مركز الملك عبدالله المالي، كافد)"
   },
   {
    "slug": "national-museum",
@@ -58,7 +62,8 @@
     "p_kingdom_centre",
     "p_riyadh_railway_station",
     "p_al_batha"
-   ]
+   ],
+   "title_ar": "المتحف الوطني"
   },
   {
    "slug": "masmak-fortress",
@@ -75,7 +80,8 @@
     "p_kingdom_centre",
     "p_national_museum",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "قصر المصمك وسوق الزل"
   },
   {
    "slug": "al-batha",
@@ -88,7 +94,8 @@
     "p_kingdom_centre",
     "p_riyadh_railway_station",
     "p_national_museum"
-   ]
+   ],
+   "title_ar": "البطحاء"
   },
   {
    "slug": "diriyah",
@@ -101,7 +108,9 @@
     "p_kafd_king_abdullah_financial_district",
     "p_kingdom_centre",
     "p_national_museum"
-   ]
+   ],
+   "title_ar": "الدرعية",
+   "lead_ar": "لا يصل مترو الرياض إلى الدرعية حتى الآن. أقرب محطة هي جامعة الملك سعود في الطرف الغربي للمسار الأحمر، ومنها تكمل بسيارة أجرة أو حافلة. أُعلن عن تمديد المسار الأحمر إلى الدرعية لكنه لم يُفتتح بعد."
   },
   {
    "slug": "boulevard-city",
@@ -114,7 +123,9 @@
     "p_kingdom_centre",
     "p_national_museum",
     "p_al_batha"
-   ]
+   ],
+   "title_ar": "بوليفارد سيتي (موسم الرياض)",
+   "lead_ar": "بوليفارد سيتي ليس على مسافة مشي من المترو. الطريقة المعتادة هي المترو إلى المركز المالي ثم حافلة أو سيارة أجرة لبقية الطريق."
   },
   {
    "slug": "riyadh-park-mall",
@@ -127,7 +138,9 @@
     "p_kingdom_centre",
     "p_national_museum",
     "p_al_batha"
-   ]
+   ],
+   "title_ar": "الرياض بارك مول",
+   "lead_ar": "الرياض بارك ليس قريباً من المترو سيراً: أقرب محطة هي المركز المالي، والطريق سيراً يعبر طريقاً سريعاً، لذا الأسهل حافلة أو سيارة أجرة لبقية الطريق."
   },
   {
    "slug": "riyadh-gallery-mall",
@@ -140,7 +153,8 @@
     "p_national_museum",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "الرياض جاليري مول"
   },
   {
    "slug": "al-awwal-park",
@@ -153,7 +167,8 @@
     "p_kingdom_centre",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "الأول بارك (ملعب النصر)"
   },
   {
    "slug": "kingdom-arena",
@@ -169,7 +184,8 @@
     "p_kingdom_centre",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "المملكة أرينا"
   },
   {
    "slug": "diplomatic-quarter",
@@ -184,7 +200,8 @@
     "p_kingdom_centre",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "الحي الدبلوماسي (حي السفارات)"
   },
   {
    "slug": "gold-souq",
@@ -201,7 +218,8 @@
     "p_kingdom_centre",
     "p_riyadh_railway_station",
     "p_national_museum"
-   ]
+   ],
+   "title_ar": "سوق الذهب بالرياض (سوق الثميري)"
   },
   {
    "slug": "king-abdullah-park",
@@ -217,7 +235,8 @@
     "p_kingdom_centre",
     "p_al_batha",
     "p_riyadh_railway_station"
-   ]
+   ],
+   "title_ar": "منتزه الملك عبدالله (الملز)"
   }
  ],
  "stations": [
@@ -266,7 +285,8 @@
    "return": [
     "p_al_batha",
     "p_king_khalid_airport_terminals_1_2"
-   ]
+   ],
+   "title_ar": "من مطار الرياض إلى البطحاء بالمترو"
   },
   {
    "slug": "riyadh-airport-to-kafd",
@@ -289,7 +309,8 @@
    "return": [
     "p_kafd_king_abdullah_financial_district",
     "p_king_khalid_airport_terminals_1_2"
-   ]
+   ],
+   "title_ar": "من مطار الرياض إلى المركز المالي (كافد) بالمترو"
   },
   {
    "slug": "riyadh-airport-to-kingdom-centre",
@@ -312,7 +333,8 @@
    "return": [
     "p_kingdom_centre",
     "p_king_khalid_airport_terminals_1_2"
-   ]
+   ],
+   "title_ar": "من مطار الرياض إلى برج المملكة بالمترو"
   }
  ],
  "extra_pairs": []

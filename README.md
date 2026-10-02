@@ -48,6 +48,8 @@ Each language has its own page, so search engines can show people the version in
 | `tools/seo_config.json` | Which guide pages exist and which routes each one shows. |
 | `tools/export_data.js` | Exports the app's data and the routes the guide pages need to `tools/seo_data.json`, using the app's own router. Needs Node and Playwright. |
 | `tools/seo_pages.py` | Builds the guide pages; no fact on a guide page is typed by hand. |
+| `tools/seo_pages_ar.py` | Builds the same guide pages in Arabic under `ar/` (for searches like «اقرب محطة مترو» or «مواعيد مترو الرياض»), linked to the English ones with hreflang. Arabic titles are `title_ar` / `lead_ar` in `seo_config.json`. |
+| `tools/ar_names.json` | Arabic station names (RCRC open data) and place names used on the Arabic guide pages. |
 | `tools/render_map.js` | Renders `riyadh-metro-map.png` from the app's own map. Needs Node and Playwright. |
 | `tools/sw.template.js` | Source of `sw.js` (offline support). |
 | `data/places_sources.json` | Places with their position, Arabic name and source. |
