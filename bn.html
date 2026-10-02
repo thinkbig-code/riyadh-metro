@@ -258,51 +258,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
 .foot .src{margin:6px 0 0}
 .foot .report{display:inline-block;margin-top:8px;color:var(--accent);font-weight:600;text-decoration:none}
 .foot .report:hover{text-decoration:underline}
-.viewtabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:0 16px 10px;padding:3px;background:var(--bg);border-radius:12px}
-.viewtabs button{font:inherit;font-size:13.5px;font-weight:600;border:0;border-radius:9px;padding:8px 6px;background:transparent;color:var(--muted);cursor:pointer;min-height:38px}
-.viewtabs button[aria-selected="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.12)}
-.viewtabs button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-#panel.explore .fields,#panel.explore .leave,#panel.explore .chips{display:none}
-.tours{list-style:none;margin:0;padding:12px 16px;display:flex;flex-direction:column;gap:8px}
-.tcard{display:flex;flex-direction:column;align-items:flex-start;gap:4px;width:100%;text-align:start;font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:12px 14px;cursor:pointer}
-.tcard:hover{background:var(--accent-soft)}
-.tcard:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-.tcard b{font-size:15px}
-.tdesc{font-size:13px;color:var(--muted);line-height:1.4}
-.tmeta{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;margin-top:2px}
-.tmeta i{font-style:normal;font-size:11.5px}
-.tmeta .tag{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 8px;font-weight:600}
-.tmeta .tim{color:var(--muted)}
-.tourhead{padding:12px 16px 4px}
-.tourhead h2{font-size:19px;margin:8px 0 4px;text-wrap:balance}
-.tourhead p{margin:0 0 6px;color:var(--muted);font-size:13.5px;line-height:1.45}
-.tback{font:inherit;font-size:13px;color:var(--accent);background:transparent;border:0;padding:4px 0;cursor:pointer}
-.tback:focus-visible{outline:2px solid var(--accent);border-radius:4px}
-.tbackwrap{padding:10px 16px 0}
-.tsum{display:flex;flex-direction:column;gap:2px;margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg)}
-.tsum b{font-size:16px}
-.tsum span{font-size:13px;color:var(--muted)}
-.tsum .note{font-size:11.5px}
-.tnote{margin-top:8px;font-size:12.5px;color:var(--muted);line-height:1.4}
-.tourhead .warn{margin:8px 0 0}
-.tline{list-style:none;margin:0;padding:8px 16px 12px}
-.tstop button{display:flex;align-items:center;gap:12px;width:100%;font:inherit;color:var(--fg);background:transparent;border:0;padding:8px 0;cursor:pointer;text-align:start;min-height:44px}
-.tstop button:focus-visible{outline:2px solid var(--accent);border-radius:8px}
-.tnum{flex:none;width:26px;height:26px;border-radius:50%;background:var(--pinB);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center;font-variant-numeric:tabular-nums}
-.tname{font-weight:600;font-size:15px;min-width:0}
-.tname small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
-.tseg{margin-inline-start:12px;border-inline-start:3px dotted var(--rule);padding-inline-start:20px}
-.tseg button{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;width:100%;font:inherit;color:var(--fg);background:var(--bg);border:0;border-radius:10px;padding:8px 10px;cursor:pointer;text-align:start;min-height:44px;margin:2px 0}
-.tseg button:hover{background:var(--accent-soft)}
-.tseg button:focus-visible{outline:2px solid var(--accent)}
-.tseg .modes{padding:0;gap:4px}
-.tseg .tst{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
-.tseg .tgo{margin-inline-start:auto;color:var(--muted);font-size:18px}
-:root[dir="rtl"] .tseg .tgo,#panel[dir="rtl"] .tseg .tgo{transform:scaleX(-1)}
 #panel[dir="rtl"] .barr{display:inline-block;transform:scaleX(-1)}
-.tseg.same{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);padding-block:6px}
-.tseg.same .mw{border:1px dashed var(--muted);border-radius:6px;padding:2px 6px}
-.tseg .wico,.tseg.same .wico{width:9px;height:12px}
 .modes .mx{color:var(--muted);font-size:14px;line-height:1;padding:0 2px}
 .leave{display:flex;align-items:center;gap:8px;padding:0 16px 10px;font-size:13px;color:var(--muted)}
 .leave select{font:inherit;font-size:13.5px;color:var(--fg);background:var(--bg);border:1.5px solid transparent;border-radius:10px;padding:7px 10px;min-height:38px;cursor:pointer}
@@ -426,8 +382,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
     display:grid;grid-template-columns:1fr auto;align-content:start;border-radius:18px}
   #panel>*{grid-column:1/-1}
   #panel>.grab{grid-column:1/-1;grid-row:1}
-  #panel>.viewtabs{grid-column:1;grid-row:2;margin:0 0 8px 10px}
-  #panel>.ph{grid-column:2;grid-row:2;padding:0 10px 8px 6px;align-items:center}
+  #panel>.ph{grid-column:1/-1;grid-row:2;padding:0 10px 8px 14px;align-items:center}
   /* handle: tap to fold the sheet down to one line */
   .grab{display:flex;justify-content:center;align-items:center;width:100%;height:26px;border:0;background:none;cursor:pointer;padding:0}
   .grab i{display:block;width:44px;height:5px;border-radius:3px;background:var(--rule)}
@@ -438,8 +393,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
   .minbar b{font-size:17px;white-space:nowrap}
   .minbar span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
   .minbar em{margin-inline-start:auto;font-style:normal;color:var(--accent);font-weight:600}
-  .ph h1,.ph .tog,.ph>span{display:none}
-  .viewtabs button{padding:7px 6px;font-size:13px}
+  .ph .tog,.ph>span{display:none}
   .fields{padding:0 10px 8px;gap:6px}
   .inputs{flex-direction:row;gap:6px}
   .inputs .field{flex:1;min-width:0}
@@ -530,7 +484,6 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
   <button class="minbar" id="minbar"></button>
   <div class="ph"><h1 data-t="title">Riyadh Metro</h1><div class="phr"><button class="infobtn" id="infoBtn" data-tal="aboutLink" aria-label="About this map" hidden>i</button><div class="langw"><button class="langbtn" id="langBtn" aria-haspopup="menu" aria-expanded="false"></button><div class="langmenu" id="langMenu" role="menu" hidden></div></div><button class="tog" id="tog" aria-expanded="true">Hide details</button></div></div>
   <div class="status" id="status" aria-live="polite"></div>
-  <div class="viewtabs" role="tablist"><button id="vRoute" role="tab" aria-selected="true" data-t="planner">Route planner</button><button id="vExplore" role="tab" aria-selected="false" data-t="explore">Explore Riyadh</button></div>
   <div class="fields">
     <div class="inputs">
       <div class="field" id="fFrom"><b style="background:var(--pinA)">A</b>
@@ -1369,7 +1322,7 @@ $("#leave").addEventListener("change",e=>{state.departMs=e.target.value?+e.targe
 const endName=e=>e?(e.lm?e.lm.n:ST[e.st].n):"";
 const endToken=e=>e.lm?e.lm.id:e.st;
 function parseToken(t){if(ST[t])return {st:t};const p=PLACE_BY_ID[t];return p?{st:p.st,lm:p}:null;}
-function setEnd(k,e){if(state.view!=="route"){state.view="route";$("#panel").classList.remove("explore");$("#vRoute").setAttribute("aria-selected","true");$("#vExplore").setAttribute("aria-selected","false");}state[k]=e;(k==="from"?fromI:toI).value=endName(e);update(true);}
+function setEnd(k,e){state[k]=e;(k==="from"?fromI:toI).value=endName(e);update(true);}
 $("#swap").onclick=()=>{trkSrc="swap";const a=state.from;state.from=state.to;state.to=a;fromI.value=endName(state.from);toI.value=endName(state.to);update(true);};
 // "Nearest station to me": the location stays on the device and is only used to pick a station
 function distM(a,b){const R=6371000,r=Math.PI/180,dl=(b[0]-a[0])*r,dn=(b[1]-a[1])*r,x=Math.sin(dl/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
@@ -1395,8 +1348,7 @@ function setMin(on){const p=$("#panel");p.classList.toggle("min",on);$("#grab").
   // re-frame whatever is on screen (route, tour or the whole map) for the new free space
   requestAnimationFrame(()=>{if(lastFit)fitBox(lastFit.b,true,lastFit.maxK);});}
 function renderMinbar(){const {from,to}=state;const mb=$("#minbar");
-  if(state.view==="explore")mb.innerHTML=`<span>${esc(state.tour?tourText(state.tour,0):t("explore"))}</span><em>▴</em>`;
-  else if(from&&to&&lastRoute)mb.innerHTML=`<b>${esc(rng(lastRoute.time,lastRoute.timeMax))}</b><span>${esc(endName(from)+" → "+endName(to))}</span><em>▴</em>`;
+  if(from&&to&&lastRoute)mb.innerHTML=`<b>${esc(rng(lastRoute.time,lastRoute.timeMax))}</b><span>${esc(endName(from)+" → "+endName(to))}</span><em>▴</em>`;
   else mb.innerHTML=`<span>${esc(t("phTo"))}</span><em>▴</em>`;}
 $("#grab").onclick=()=>{renderMinbar();setMin(!$("#panel").classList.contains("min"));};
 $("#minbar").onclick=()=>setMin(false);
@@ -1499,7 +1451,6 @@ document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest(".ab
 function hint(msg){const o=document.getElementById("infoBox")?.open;res.innerHTML=`<div class="hint">${esc(msg)}</div>`+footHTML();if(o)document.getElementById("infoBox").open=true;}
 
 function update(fit,noAnim){
-  if(state.view==="explore"){renderExplore(fit);return;}
   drawPins();overlay.innerHTML="";base.querySelectorAll(".st.hid").forEach(n=>n.classList.remove("hid"));base.classList.remove("dim");writeHash();
   const {from,to}=state;
   $("#panel").classList.toggle("has-route",!!(from&&to));
@@ -1633,7 +1584,7 @@ function renderResult(r,variants){
       if(isSuspended(k)||!st.open||at.m+headwayFor(l,at)+lt>st.close)return true;cum+=lt;}return false;})();
   const meta=v=>rng(v.time,v.timeMax)+" · "+(v.xf?t("changes",{n:v.xf}):t("noChanges"))+" · "+(v.walk?t("walking",{n:v.walk}):t("noWalking"));
   const LBL={fast:"fastest",few:"fewer",walk:"leastWalk"};
-  let h=state.tourBack?`<div class="tbackwrap"><button class="tback" id="tBackRoute"><span class="barr" aria-hidden="true">←</span> ${esc(t("backTour"))}: ${esc(tourText(state.tourBack,0))}</button></div>`:"";
+  let h="";
   const why=variants.length>1?explainVariants(variants):[];
   if(variants.length>1)h+=`<div class="tabs" role="group" aria-label="${esc(t("optLabel"))}">`+variants.map((v,i)=>
     `<button data-v="${i}" aria-pressed="${v===r}"><b>${esc(v.modes.map(m=>t(LBL[m])).join(" · "))}</b><span>${esc(meta(v))}</span><em class="why">${esc(why[i])}</em></button>`).join("")+`</div>`;
@@ -1697,7 +1648,6 @@ function renderResult(r,variants){
   res.innerHTML=h;
   $("#moreBtn").onclick=()=>{if($("#panel").classList.contains("peek"))track("view",tok(from),tok(to),"details");$("#panel").classList.toggle("peek");renderResult(r,variants);if(routeBox)fitBox(routeBox,true,1.6);};
   if(wasOpen)document.getElementById("infoBox").open=true;
-  $("#tBackRoute")?.addEventListener("click",()=>{state.tour=state.tourBack;state.tourBack=null;setView("explore");});
   res.querySelectorAll(".tabs button[data-v]").forEach(b=>b.onclick=()=>{state.mode=variants[+b.dataset.v].modes[0];track("view",tok(from),tok(to),state.mode);update(true);});
   $("#shToggle").onclick=()=>{const r=$("#shRow"),o=r.hidden;r.hidden=!o;$("#shToggle").setAttribute("aria-expanded",String(o));if(!o){$("#shOut").hidden=true;}};
   $("#shCard").onclick=()=>{track("share",tok(from),tok(to),"card");openCard();};
@@ -1773,102 +1723,6 @@ function combo(input,wrap,key){
 combo(fromI,$("#fFrom"),"from");
 combo(toI,$("#fTo"),"to");
 
-// ================= EXPLORE RIYADH (itineraries) =================
-// Data only: an itinerary is an ordered list of existing place/station tokens.
-// Every segment is calculated with route() + summarize(), the same engine as the planner.
-const ITINERARIES=[
-  {id:"historic",stops:["p_souq_al_zal", "p_al_masmak_fortress", "p_imam_turki_bin_abdullah_grand_mosque", "p_national_museum", "p_al_murabba_palace"],tags:["tgCulture"],timing:["tMorning", "tAfternoon"]},
-  {id:"first",stops:["p_king_khalid_airport_terminals_1_2", "p_kafd_king_abdullah_financial_district", "p_kingdom_centre", "p_national_museum", "p_souq_al_zal"],tags:["tgFirst"],timing:["tAny"]},
-  {id:"towers",stops:["p_kingdom_centre", "p_al_faisaliah_tower", "p_kafd_king_abdullah_financial_district"],tags:["tgArch", "tgShopping"],timing:["tAfternoon", "tEvening"]},
-  {id:"parks",stops:["p_king_salman_oasis", "p_salam_park", "p_ad_douh_park"],tags:["tgFamily"],timing:["tAfternoon"]},
-  {id:"stopover",stops:["p_king_khalid_airport_terminals_1_2", "p_national_museum", "p_souq_al_zal", "p_king_khalid_airport_terminals_1_2"],tags:["tgFirst"],timing:["tLayover"],notes:["stopoverWarn"]},
-  {id:"oldtown",stops:["p_deera_square", "p_al_thumairi_gate", "p_thumairi_gold_market", "p_souq_swaigah", "p_al_maigliah_market"],tags:["tgCulture", "tgShopping"],timing:["tMorning", "tEvening"]},
-  {id:"malls",stops:["p_sahara_mall", "p_hayat_mall", "p_riyadh_gallery_mall", "p_kingdom_centre"],tags:["tgShopping"],timing:["tAfternoon", "tEvening"]},
-  {id:"batha",stops:["p_lulu_hypermarket_batha", "p_al_batha", "p_souq_swaigah", "p_souq_al_zal"],tags:["tgShopping"],timing:["tEvening"]},
-  {id:"olaya",stops:["p_kingdom_centre", "p_olaya_street", "p_tahlia_street"],tags:["tgShopping"],timing:["tEvening"]}
-];
-const TOUR_BY_ID=Object.fromEntries(ITINERARIES.map(x=>[x.id,x]));
-// [title, one-line description] per language
-const TOUR_TEXT={"historic": {"en": ["Historic Riyadh", "Souq Al Zal, Al Masmak Fortress, the Grand Mosque, the National Museum and Al Murabba Palace."], "ar": ["الرياض التاريخية", "سوق الزل وقصر المصمك والجامع الكبير والمتحف الوطني وقصر المربع."], "ur": ["تاریخی ریاض", "سوق الزل، المصمک قلعہ، جامع مسجد، نیشنل میوزیم اور المربع محل۔"], "hi": ["ऐतिहासिक रियाद", "सूक़ अल ज़ल, अल मसमक क़िला, ग्रैंड मस्जिद, नेशनल म्यूज़ियम और अल मुरब्बा पैलेस।"], "bn": ["ঐতিহাসিক রিয়াদ", "সুক আল জাল, আল মাসমাক দুর্গ, গ্র্যান্ড মসজিদ, জাতীয় জাদুঘর ও আল মুরাব্বা প্রাসাদ।"], "tl": ["Makasaysayang Riyadh", "Souq Al Zal, Al Masmak Fortress, ang Grand Mosque, ang National Museum at Al Murabba Palace."]}, "first": {"en": ["Riyadh first time", "From the airport to KAFD, Kingdom Centre, the National Museum and the old souq."], "ar": ["الرياض لأول مرة", "من المطار إلى المركز المالي وبرج المملكة والمتحف الوطني والسوق القديم."], "ur": ["پہلی بار ریاض", "ایئرپورٹ سے KAFD، کنگڈم سینٹر، نیشنل میوزیم اور پرانے بازار تک۔"], "hi": ["पहली बार रियाद", "एयरपोर्ट से KAFD, किंगडम सेंटर, नेशनल म्यूज़ियम और पुराने बाज़ार तक।"], "bn": ["প্রথমবার রিয়াদ", "বিমানবন্দর থেকে KAFD, কিংডম সেন্টার, জাতীয় জাদুঘর আর পুরোনো বাজার।"], "tl": ["Unang beses sa Riyadh", "Mula sa airport papuntang KAFD, Kingdom Centre, National Museum at ang lumang souq."]}, "towers": {"en": ["Towers and malls", "Kingdom Centre, Al Faisaliah Tower and the KAFD skyline."], "ar": ["الأبراج والمولات", "برج المملكة وبرج الفيصلية وأفق المركز المالي."], "ur": ["ٹاورز اور مالز", "کنگڈم سینٹر، الفیصلیہ ٹاور اور KAFD کی بلند عمارتیں۔"], "hi": ["टावर और मॉल", "किंगडम सेंटर, अल फ़ैसलिया टावर और KAFD की ऊँची इमारतें।"], "bn": ["টাওয়ার ও মল", "কিংডম সেন্টার, আল ফয়সালিয়া টাওয়ার আর KAFD-এর আকাশরেখা।"], "tl": ["Mga tore at mall", "Kingdom Centre, Al Faisaliah Tower at ang skyline ng KAFD."]}, "parks": {"en": ["Parks and green spaces", "King Salman Oasis, Salam Park and Ad Douh Park."], "ar": ["الحدائق والمساحات الخضراء", "واحة الملك سلمان وحديقة السلام ومنتزه الدوح."], "ur": ["پارک اور سبزہ", "کنگ سلمان اوسس، سلام پارک اور الدوح پارک۔"], "hi": ["पार्क और हरियाली", "किंग सलमान ओएसिस, सलाम पार्क और अद दौह पार्क।"], "bn": ["পার্ক ও সবুজ", "কিং সালমান ওয়েসিস, সালাম পার্ক ও আদ দোহ পার্ক।"], "tl": ["Mga parke", "King Salman Oasis, Salam Park at Ad Douh Park."]}, "stopover": {"en": ["Airport stopover", "A few hours between flights: the National Museum and Souq Al Zal, then back to the airport."], "ar": ["توقف قصير بين رحلتين", "ساعات قليلة بين رحلتين: المتحف الوطني وسوق الزل ثم العودة إلى المطار."], "ur": ["ایئرپورٹ اسٹاپ اوور", "دو پروازوں کے درمیان چند گھنٹے: نیشنل میوزیم اور سوق الزل، پھر ایئرپورٹ واپسی۔"], "hi": ["एयरपोर्ट स्टॉपओवर", "दो उड़ानों के बीच कुछ घंटे: नेशनल म्यूज़ियम और सूक़ अल ज़ल, फिर एयरपोर्ट वापस।"], "bn": ["বিমানবন্দরে যাত্রাবিরতি", "দুই ফ্লাইটের মাঝে কয়েক ঘণ্টা: জাতীয় জাদুঘর ও সুক আল জাল, তারপর বিমানবন্দরে ফেরা।"], "tl": ["Stopover sa airport", "Ilang oras sa pagitan ng flight: ang National Museum at Souq Al Zal, saka bumalik sa airport."]}, "oldtown": {"en": ["Old town on foot", "Deera Square, the Thumairi Gate, the gold souq and the old markets, all a short walk from Qasr Al Hokm."], "ar": ["البلدة القديمة سيراً", "ساحة الديرة وبوابة الثميري وسوق الذهب والأسواق القديمة، كلها على مسافة قصيرة سيراً من قصر الحكم."], "ur": ["پرانا شہر پیدل", "دیرہ اسکوائر، ثمیری گیٹ، سونے کا بازار اور پرانے بازار، سب قصر الحکم سے تھوڑے فاصلے پر پیدل۔"], "hi": ["पैदल पुराना शहर", "दीरा स्क्वायर, अल थुमैरी गेट, सोने का बाज़ार और पुराने बाज़ार, सब क़स्र अल हुक्म से थोड़ी पैदल दूरी पर।"], "bn": ["হেঁটে পুরোনো শহর", "দীরা স্কয়ার, আল থুমাইরি গেট, সোনার বাজার আর পুরোনো বাজারগুলো, সবই কাসর আল হুকম থেকে অল্প হাঁটা পথ।"], "tl": ["Lumang bayan nang lakad", "Deera Square, ang Thumairi Gate, ang gold souq at ang mga lumang palengke, lahat malapit lang lakarin mula Qasr Al Hokm."]}, "malls": {"en": ["Mall hopping", "Sahara and Hayat malls on the Red Line, then Riyadh Gallery and Kingdom Centre on the Blue Line."], "ar": ["جولة المولات", "صحارى مول وحياة مول على المسار الأحمر، ثم الرياض جاليري وبرج المملكة على المسار الأزرق."], "ur": ["مالز کی سیر", "ریڈ لائن پر صحارا مال اور حیات مال، پھر بلیو لائن پر ریاض گیلری اور کنگڈم سینٹر۔"], "hi": ["मॉल की सैर", "रेड लाइन पर सहारा मॉल और हयात मॉल, फिर ब्लू लाइन पर रियाद गैलरी और किंगडम सेंटर।"], "bn": ["মল ঘোরা", "রেড লাইনে সাহারা মল ও হায়াত মল, তারপর ব্লু লাইনে রিয়াদ গ্যালারি ও কিংডম সেন্টার।"], "tl": ["Ikot sa mga mall", "Sahara Mall at Hayat Mall sa Red Line, saka Riyadh Gallery at Kingdom Centre sa Blue Line."]}, "batha": {"en": ["Batha markets", "Lulu in Batha, the Batha market streets, Souq Swaigah and Souq Al Zal: groceries, phones, clothes and remittance shops."], "ar": ["أسواق البطحاء", "لولو البطحاء وشوارع سوق البطحاء وسوق السويقة وسوق الزل: بقالة وهواتف وملابس ومحلات تحويل الأموال."], "ur": ["بطحاء کے بازار", "بطحاء کا لولو، بطحاء بازار کی گلیاں، سوق سویقہ اور سوق الزل: گروسری، فون، کپڑے اور رقم بھیجنے کی دکانیں۔"], "hi": ["बतहा के बाज़ार", "बतहा का लुलु, बतहा बाज़ार की गलियाँ, सूक़ सुवैक़ा और सूक़ अल ज़ल: किराना, फ़ोन, कपड़े और पैसे भेजने की दुकानें।"], "bn": ["বাথার বাজার", "বাথার লুলু, বাথা বাজারের রাস্তা, সুক সুওয়াইকা আর সুক আল জাল: মুদি, ফোন, কাপড় আর টাকা পাঠানোর দোকান।"], "tl": ["Mga pamilihan sa Batha", "Lulu sa Batha, ang mga kalye ng Batha market, Souq Swaigah at Souq Al Zal: grocery, cellphone, damit at padala."]}, "olaya": {"en": ["Evening in Olaya", "Kingdom Centre, then Olaya Street and the cafes of Tahlia Street."], "ar": ["مساء في العليا", "برج المملكة ثم شارع العليا ومقاهي شارع التحلية."], "ur": ["العلیا میں شام", "کنگڈم سینٹر، پھر العلیا اسٹریٹ اور تحلیہ اسٹریٹ کے کیفے۔"], "hi": ["ओलाया में शाम", "किंगडम सेंटर, फिर ओलाया स्ट्रीट और तहलिया स्ट्रीट के कैफ़े।"], "bn": ["ওলায়ায় সন্ধ্যা", "কিংডম সেন্টার, তারপর ওলায়া স্ট্রিট আর তাহলিয়া স্ট্রিটের ক্যাফে।"], "tl": ["Gabi sa Olaya", "Kingdom Centre, saka ang Olaya Street at mga café sa Tahlia Street."]}};
-const tourText=(id,i)=>(TOUR_TEXT[id][LANG]||TOUR_TEXT[id].en)[i];
-
-// Calculate every segment with the planner's engine and add the totals up.
-function computeTour(it){
-  const ends=it.stops.map(parseToken);const segs=[];
-  for(let i=0;i<ends.length-1;i++){
-    const A=ends[i],B=ends[i+1];
-    if(!A||!B){segs.push({A,B,error:true});continue;}
-    if(A.st===B.st){segs.push({A,B,same:true});continue;}
-    const rt=route(A.st,B.st,"fast");
-    segs.push(rt?{A,B,v:summarize(rt,A,B)}:{A,B,error:true});
-  }
-  const ok=segs.filter(s=>s.v);
-  return {ends,segs,tot:{time:ok.reduce((a,s)=>a+s.v.time,0),timeMax:ok.reduce((a,s)=>a+s.v.timeMax,0),walk:ok.reduce((a,s)=>a+s.v.walk,0),xf:ok.reduce((a,s)=>a+s.v.xf,0)}};
-}
-function legChips(legs){
-  return legs.map(l=>{
-    if(l.type==="ride"){const L=LINES[svcById[l.svc].line];return `<span class="ml" style="--c:${L.c};--ink:${L.ink}">${esc(t(L.key))}</span>`;}
-    if(l.type==="walk")return `<span class="mw">${WALK_ICO}${l.t}</span>`;
-    return `<span class="mx" aria-hidden="true">⇄</span>`;
-  }).join('<i class="sep" aria-hidden="true"></i>');
-}
-function setView(v){
-  state.view=v;
-  $("#panel").classList.toggle("explore",v==="explore");
-  $("#vRoute").setAttribute("aria-selected",String(v==="route"));$("#vExplore").setAttribute("aria-selected",String(v==="explore"));
-  closePop();
-  if(v==="explore")renderExplore(true);else update(true);
-}
-function renderExplore(fit){
-  drawPins();overlay.innerHTML="";base.querySelectorAll(".st.hid").forEach(n=>n.classList.remove("hid"));base.classList.remove("dim");pinsG.innerHTML="";
-  const it=state.tour&&TOUR_BY_ID[state.tour];
-  try{history.replaceState(null,"",location.pathname+location.search+"#tour~"+(it?it.id:"all")+"~"+LANG);}catch(e){}
-  if(!it){
-    res.innerHTML=`<ul class="tours">`+ITINERARIES.map(x=>`<li><button class="tcard" data-tour="${x.id}">
-      <b>${esc(tourText(x.id,0))}</b><span class="tdesc">${esc(tourText(x.id,1))}</span>
-      <span class="tmeta">${x.tags.map(g=>`<i class="tag">${esc(t(g))}</i>`).join("")}<i class="tim">${esc(x.timing.map(k=>t(k)).join(" · "))}</i><i class="tim">${esc(t("placesN",{n:x.stops.length}))}</i></span></button></li>`).join("")+`</ul>`+footHTML();
-    res.querySelectorAll("[data-tour]").forEach(b=>b.onclick=()=>{state.tour=b.dataset.tour;renderExplore(true);res.scrollTop=0;});
-    if(fit)fitBox(BOX,true);
-    return;
-  }
-  const c=computeTour(it);
-  let h=`<div class="tourhead"><button class="tback" id="tBack"><span class="barr" aria-hidden="true">←</span> ${esc(t("allTours"))}</button>
-    <h2>${esc(tourText(it.id,0))}</h2><p>${esc(tourText(it.id,1))}</p>
-    <div class="tmeta">${it.tags.map(g=>`<i class="tag">${esc(t(g))}</i>`).join("")}<i class="tim">${esc(it.timing.map(k=>t(k)).join(" · "))}</i></div>
-    <div class="tsum"><b>${esc(c.segs.some(sg=>sg.v)?t("transportTime",{a:c.tot.time,b:c.tot.timeMax}):t("sameArea"))}</b>
-    <span>${esc(t("placesN",{n:it.stops.length})+" · "+(c.tot.xf?t("changes",{n:c.tot.xf}):t("noChanges"))+" · "+(c.tot.walk?t("walking",{n:c.tot.walk}):t("noWalking")))}</span>
-    <span class="note">${esc(t("visitNote"))} ${esc(t("estNote"))}</span></div>`+
-    (it.notes||[]).map(n=>`<div class="${n==="stopoverWarn"?"warn":"tnote"}">${esc(t(n))}</div>`).join("")+
-    (isSuspended("mono")&&c.segs.some(sg=>sg.v&&sg.v.legs.some(l=>l.type==="ride"&&svcById[l.svc].line==="mono"))?`<div class="warn">${esc(t("monoSuspended"))}</div>`:"")+`</div><ol class="tline">`;
-  c.ends.forEach((e,i)=>{
-    h+=`<li class="tstop"><button data-stop="${i}"><span class="tnum">${i+1}</span><span class="tname">${esc(endName(e))}<small>${esc(ST[e.st].n)}</small></span></button></li>`;
-    const s=c.segs[i];if(!s)return;
-    if(s.same)h+=`<li class="tseg same"><span class="mw">${WALK_ICO}</span><span>${esc(t("sameArea"))}</span></li>`;
-    else if(s.v)h+=`<li class="tseg"><button data-seg="${i}" aria-label="${esc(t("showRoute"))}: ${esc(endName(s.A))} → ${esc(endName(s.B))}"><span class="modes">${legChips(s.v.legs)}</span><span class="tst">${esc(rng(s.v.time,s.v.timeMax))}${s.v.xf?" · "+esc(t("changes",{n:s.v.xf})):""}</span><span class="tgo" aria-hidden="true">›</span></button></li>`;
-  });
-  h+=`</ol>`+footHTML();
-  res.innerHTML=h;
-  $("#tBack").onclick=()=>{state.tour=null;renderExplore(true);};
-  res.querySelectorAll("[data-seg]").forEach(b=>b.onclick=()=>{const s=c.segs[+b.dataset.seg];
-    state.tourBack=it.id;trkSrc="tour";state.from=s.A;state.to=s.B;fromI.value=endName(s.A);toI.value=endName(s.B);setView("route");});
-  res.querySelectorAll("[data-stop]").forEach(b=>b.onclick=()=>{const e=c.ends[+b.dataset.stop];const S=ST[e.st];
-    fitBox({x0:S.x-160,x1:S.x+260,y0:S.y-160,y1:S.y+160},true,1.6);setTimeout(()=>openPop(e.st),480);});
-  // draw every segment on the map, with numbered stops
-  base.classList.add("dim");const ids=new Set();
-  c.segs.forEach(s=>{if(!s.v)return;s.v.legs.forEach(l=>{
-    if(l.type==="ride"){const line=svcById[l.svc].line;linePath(overlay,line,l.stops);l.stops.forEach(x=>ids.add(x));}
-    else if(l.type==="walk"){el("line",{class:"walk",style:"opacity:.7",x1:ST[l.from].x,y1:ST[l.from].y,x2:ST[l.to].x,y2:ST[l.to].y},overlay);ids.add(l.from);ids.add(l.to);}
-  });});
-  c.ends.forEach(e=>ids.add(e.st));
-  ids.forEach(id=>base.querySelector(`.st[data-id="${id}"]`)?.classList.add("hid"));const ov=el("g",{class:"ov"},overlay);ids.forEach(id=>drawStation(id,ov,false));
-  const seen={};c.ends.forEach((e,i)=>{const S=ST[e.st];const k=seen[e.st]=(seen[e.st]||0)+1;
-    const g=el("g",{class:"pin"},pinsG);el("circle",{cx:S.x+(k-1)*16,cy:S.y-(k-1)*16,r:11,fill:"var(--pinB)"},g);
-    const tx=el("text",{x:S.x+(k-1)*16,y:S.y-(k-1)*16+4},g);tx.textContent=String(i+1);});
-  if(fit){const xs=[...ids].map(i=>ST[i].x),ys=[...ids].map(i=>ST[i].y);
-    fitBox({x0:Math.min(...xs)-80,x1:Math.max(...xs)+170,y0:Math.min(...ys)-110,y1:Math.max(...ys)+110},true,1.6);}
-}
-$("#vRoute").onclick=()=>setView("route");
-$("#vExplore").onclick=()=>setView("explore");
 
 // ================= VALIDATION (development only) =================
 // Expectations come from the network data in this file: line sequence and transfer count.
@@ -1968,20 +1822,6 @@ function runValidation(){
     rows.push({from:"report",to:"",mode:"report",lines:probs.length?probs.join("; "):"ok",transfers:"",walk:"",stops:"",time:"",ok:!probs.length});
     state.from=keep2.from;state.to=keep2.to;state.mode=keep2.mode;state.view=keep2.view;lastRoute=keepR;
     LANG=keepLang;}
-  let tourSegs=0,tourOk=0,tourFails=0;
-  ITINERARIES.forEach(it=>{
-    const probs=[];
-    if(!TOUR_TEXT[it.id])probs.push("no title/description");
-    it.stops.forEach(x=>{if(!parseToken(x))probs.push("unknown stop "+x);});
-    let c=null;try{c=computeTour(it);}catch(e){probs.push("crash: "+e.message);}
-    if(c){const n=c.segs.length,good=c.segs.filter(sg=>sg.v||sg.same).length;tourSegs+=n;tourOk+=good;
-      if(good!==n)probs.push(`${n-good} segment(s) without a route`);
-      ["time","timeMax","walk","xf"].forEach(k=>{if(!Number.isFinite(c.tot[k]))probs.push("total "+k+" not calculated");});
-      console.log(`${tourText(it.id,0)}: ${it.stops.length} destinations, ${n} segments, ${good}/${n} routes valid, transport ${c.tot.time}–${c.tot.timeMax} min, walking ${c.tot.walk}, transfers ${c.tot.xf}: ${probs.length?"FAIL":"PASS"}`);}
-    if(probs.length){tourFails++;console.log("FAIL itinerary "+it.id+": "+probs.join("; "));}
-  });
-  console.log(`ITINERARIES: ${ITINERARIES.length-tourFails}/${ITINERARIES.length} passed, segments ${tourOk}/${tourSegs}`);
-  fails+=tourFails;
   state.from=keep.from;state.to=keep.to;
   console.table(rows);
   const total=VALIDATION.length+FARE_VALIDATION.length+1+WHY_CASES.length+1;
@@ -2042,8 +1882,7 @@ try{new ResizeObserver(refitSoon).observe($("#panel"));}catch(e){}
 addEventListener("resize",refitSoon);
 if(SELFTEST){window.__dm={computeVariants,parseToken,ids:Object.keys(ST),places:PLACES.map(x=>x.id),
   // read-only data for the page generator (tools/export_data.js); nothing here changes the app
-  data:{ST,SVC,LINES,PLACES,POPULAR,FARE,PASSES,HOURS,SERVICE_STATUS,WALKS,GEO,ALIAS,ITINERARIES,I18N_EN:I18N.en},legTime,headwayFor};runValidation();}
-if(hashTour){state.tour=TOUR_BY_ID[hashTour]?hashTour:null;state.view="explore";$("#panel").classList.add("explore");$("#vRoute").setAttribute("aria-selected","false");$("#vExplore").setAttribute("aria-selected","true");}
+  data:{ST,SVC,LINES,PLACES,POPULAR,FARE,PASSES,HOURS,SERVICE_STATUS,WALKS,GEO,ALIAS,I18N_EN:I18N.en},legTime,headwayFor};runValidation();}
 update(true,true);
 addEventListener("resize",placePop);
 addEventListener("hashchange",()=>{const m=location.hash.slice(1).split("~");if(m.length<2||m[0]==="tour")return;const a=parseToken(m[0]),b=parseToken(m[1]);
