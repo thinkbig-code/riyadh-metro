@@ -1,7 +1,7 @@
-"""Build the six language pages of the Riyadh Metro map from src/riyadh-metro.html.
+"""Build the eight language pages of the Riyadh Metro map from src/riyadh-metro.html.
 
 Usage (from the repository root):  python3 tools/build.py
-Writes index.html (English), ar.html, ur.html, hi.html, bn.html, tl.html, the English guide pages
+Writes index.html (English), ar.html, ur.html, hi.html, bn.html, tl.html, ru.html, fr.html, the English guide pages
 (see tools/seo_pages.py), sitemap.xml, robots.txt, manifest.webmanifest and sw.js into the repository
 root. Texts for each language page live in tools/seo_texts.py.
 """

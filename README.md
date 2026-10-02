@@ -18,6 +18,8 @@ Each language has its own page, so search engines can show people the version in
 | हिन्दी (Hindi) | `hi.html` |
 | বাংলা (Bengali) | `bn.html` |
 | Filipino | `tl.html` |
+| Русский (Russian) | `ru.html` |
+| Français (French) | `fr.html` |
 
 ## What it does
 
@@ -40,8 +42,8 @@ Each language has its own page, so search engines can show people the version in
 
 | Path | Purpose |
 |---|---|
-| `src/riyadh-metro.html` | The single source of the app: map, data, routing, all six interface languages. Edit this file, not the generated pages. |
-| `tools/build.py` | Builds the six language pages, the guide pages, `sitemap.xml`, `robots.txt`, `manifest.webmanifest` and `sw.js`. |
+| `src/riyadh-metro.html` | The single source of the app: map, data, routing, all eight interface languages. Edit this file, not the generated pages. |
+| `tools/build.py` | Builds the eight language pages, the guide pages, `sitemap.xml`, `robots.txt`, `manifest.webmanifest` and `sw.js`. |
 | `tools/seo_texts.py` | Per-language page titles, descriptions and the "About this map" text. |
 | `tools/seo_config.json` | Which guide pages exist and which routes each one shows. |
 | `tools/export_data.js` | Exports the app's data and the routes the guide pages need to `tools/seo_data.json`, using the app's own router. Needs Node and Playwright. |
