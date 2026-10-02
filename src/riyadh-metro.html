@@ -1093,23 +1093,8 @@ function openPop(id){
     // places far from the station are explained in the route, not in the station card
 
     (near.some(p=>!p.note)?`<div class="near"><span>${esc(t("nearby"))}</span> ${near.filter(p=>!p.note).map(p=>esc(p.n)).join(", ")}</div>`:"")+
-    `<div class="btns"><button class="a" id="pA">${esc(t("fromHere"))}</button><button class="b" id="pB">${esc(t("toHere"))}</button></div>`+
-    `<button class="wf" id="pW" aria-expanded="false">${esc(t("whereFrom"))}</button><ul class="wfl" id="pWl" hidden></ul>`;
+    `<div class="btns"><button class="a" id="pA">${esc(t("fromHere"))}</button><button class="b" id="pB">${esc(t("toHere"))}</button></div>`;
   pop.hidden=false;placePop();
-  $("#pW").onclick=()=>{
-    const ul=$("#pWl");
-    if(ul.hidden&&!ul.dataset.done){
-      // calculated with the same engine as the main planner
-      const rows=POPULAR.map(pid=>PLACE_BY_ID[pid]).filter(pl=>pl.st!==id).map(pl=>{
-        const rt=route(id,pl.st,"fast");if(!rt)return null;const v=summarize(rt,{st:id},{st:pl.st,lm:pl});return {pl,v};
-      }).filter(Boolean).sort((a,b)=>a.v.time-b.v.time);
-      ul.innerHTML=rows.map(({pl,v})=>`<li><button data-p="${pl.id}"><span>${esc(POPULAR_LABEL[pl.id]?POPULAR_LABEL[pl.id]():pl.n)}</span><b>${esc(rng(v.time,v.timeMax))}</b></button></li>`).join("");
-      ul.dataset.done="1";
-      ul.addEventListener("click",e=>{const b=e.target.closest("button[data-p]");if(!b)return;const pl=PLACE_BY_ID[b.dataset.p];
-        state.from={st:id};fromI.value=endName(state.from);closePop();trkSrc="map";setEnd("to",{st:pl.st,lm:pl});});
-    }
-    ul.hidden=!ul.hidden;$("#pW").setAttribute("aria-expanded",String(!ul.hidden));placePop();
-  };
   $("#pA").onclick=()=>{trkSrc="map";setEnd("from",{st:id});closePop();};
   $("#pB").onclick=()=>{trkSrc="map";setEnd("to",{st:id});closePop();};
   $("#pA").focus({preventScroll:true});
