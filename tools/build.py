@@ -98,6 +98,7 @@ def page(L):
 <link rel="canonical" href="{url(L)}">
 {alts}
 <meta name="robots" content="index,follow">
+<meta name="msvalidate.01" content="26F6B07BDF6CE6FA1D82E4B9966FBEFF">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{url(L)}">
 <meta property="og:locale" content="{X["locale"]}">
