@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T19:42:48Z",
+ "generated": "2026-10-07T20:31:54Z",
  "start": "2025-10-07",
  "end": "2026-10-08",
  "total": {
-  "total": 138,
-  "total_events": 70,
-  "total_utc": 138,
+  "total": 158,
+  "total_events": 82,
+  "total_utc": 158,
   "stats": [
    {
     "day": "2025-10-07",
@@ -10808,7 +10808,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 138
+    "monthly": 158
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 103
+    "weekly": 123
    },
    {
     "day": "2026-10-07",
@@ -10987,14 +10987,14 @@
      3,
      8,
      44,
-     32
+     42
     ],
-    "daily": 96
+    "daily": 106
    },
    {
     "day": "2026-10-08",
     "hourly": [
-     0,
+     10,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 10
    }
   ]
  },
@@ -11029,14 +11029,15 @@
    "path_id": 109278741,
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 57,
+   "count": 65,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 26
+    "2026-10-07": 30,
+    "2026-10-08": 4
    }
   },
   {
@@ -11058,6 +11059,17 @@
    "daily": {
     "2026-10-04": 2,
     "2026-10-05": 1
+   }
+  },
+  {
+   "path": "station/malaz/from",
+   "path_id": 110309312,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
    }
   },
   {
@@ -11139,6 +11151,116 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/malaz/alinma",
+   "path_id": 110318279,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/malaz/alinma",
+   "path_id": 110318255,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/alinma/to",
+   "path_id": 110318254,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/kafd/t5",
+   "path_id": 110317668,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/sab/alinma",
+   "path_id": 110317335,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
+   "path_id": 110315050,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/takhassussi/p_king_khalid_airport_terminals_3_4",
+   "path_id": 110313255,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_3_4/to",
+   "path_id": 110313254,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "station/takhassussi/from",
+   "path_id": 110313209,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
    }
   },
   {
@@ -11264,16 +11386,6 @@
   {
    "path": "station/naseem/to",
    "path_id": 110309376,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "station/malaz/from",
-   "path_id": 110309312,
    "title": "en|name",
    "event": true,
    "count": 1,
@@ -11736,11 +11848,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 46
+    "count": 52
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 10
+    "count": 12
    },
    {
     "name": "www.bing.com",
@@ -11800,13 +11912,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 46
+    "count": 52
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 10
+    "count": 12
    }
   ],
   "www.bing.com": [
@@ -11857,13 +11969,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 85,
+   "count": 99,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 37,
+   "count": 43,
    "ref_scheme": "o"
   },
   {
@@ -11895,7 +12007,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 123
+   "count": 143
   },
   {
    "id": "ara",
@@ -11922,7 +12034,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 88
+   "count": 107
   },
   {
    "id": "US",
@@ -11947,7 +12059,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 2
+   "count": 3
   },
   {
    "id": "FR",
@@ -12004,7 +12116,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 96
+   "count": 109
   },
   {
    "id": "tablet",
@@ -12014,7 +12126,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 31
+   "count": 38
   },
   {
    "id": "desktophd",
@@ -12031,12 +12143,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 102
+   "count": 113
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 34
+   "count": 43
   },
   {
    "name": "",
@@ -12052,22 +12164,27 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 62
+   "count": 69
   },
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 34
+   "count": 40
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 28
+   "count": 32
   },
   {
    "id": "Linux",
    "name": "Linux",
    "count": 9
+  },
+  {
+   "id": "macOS",
+   "name": "macOS",
+   "count": 4
   },
   {
    "id": "Chrome OS",
@@ -12076,11 +12193,6 @@
   },
   {
    "name": "",
-   "count": 1
-  },
-  {
-   "id": "macOS",
-   "name": "macOS",
    "count": 1
   }
  ],
