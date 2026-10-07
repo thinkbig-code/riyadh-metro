@@ -1,0 +1,3030 @@
+{
+"_about": "Source: district boundaries of the Saudi National Address (maps.address.gov.sa), as published in\nhttps://github.com/homaily/Saudi-Arabia-Regions-Cities-and-Districts (json/districts.json).\nOnly names and the computed middle point and distances are kept, not the boundaries.",
+"districts": [
+{
+"slug": "al-amal",
+"en": "Al Amal",
+"ar": "حي العمل",
+"mid": [
+24.64592,
+46.72269
+],
+"area": 1.3,
+"inside": [],
+"near": [
+[
+"museum",
+0.9
+],
+[
+"mof",
+0.9
+],
+[
+"batha",
+1.2
+]
+]
+},
+{
+"slug": "al-andalus",
+"en": "Al Andalus",
+"ar": "حي الاندلس",
+"mid": [
+24.74349,
+46.78862
+],
+"area": 4.3,
+"inside": [],
+"near": [
+[
+"khurais",
+1.3
+],
+[
+"andalus",
+1.5
+],
+[
+"salam",
+3.3
+]
+]
+},
+{
+"slug": "al-aqeeq",
+"en": "Al Aqeeq",
+"ar": "حي العقيق",
+"mid": [
+24.77362,
+46.62999
+],
+"area": 8.0,
+"inside": [
+"kafd"
+],
+"near": [
+[
+"kafd",
+1.5
+],
+[
+"murooj",
+3.2
+],
+[
+"rabi",
+3.4
+]
+]
+},
+{
+"slug": "al-arid",
+"en": "Al Arid",
+"ar": "حي العارض",
+"mid": [
+24.89791,
+46.60191
+],
+"area": 67.2,
+"inside": [
+"sab"
+],
+"near": [
+[
+"sab",
+7.8
+],
+[
+"habib",
+9.9
+],
+[
+"pnu2",
+11.2
+]
+]
+},
+{
+"slug": "al-awaly",
+"en": "Al Awaly",
+"ar": "حي العوالي",
+"mid": [
+24.55913,
+46.61262
+],
+"area": 16.1,
+"inside": [],
+"near": [
+[
+"western",
+2.6
+],
+[
+"douh",
+3.6
+],
+[
+"aishah",
+5.6
+]
+]
+},
+{
+"slug": "al-aziziyah",
+"en": "Al Aziziyah",
+"ar": "حي العزيزية",
+"mid": [
+24.58763,
+46.77012
+],
+"area": 20.7,
+"inside": [
+"aziziah",
+"transport"
+],
+"near": [
+[
+"aziziah",
+0.9
+],
+[
+"transport",
+2.8
+],
+[
+"baida",
+3.2
+]
+]
+},
+{
+"slug": "al-badiah",
+"en": "Al Badiah",
+"ar": "حي البديعة",
+"mid": [
+24.6169,
+46.68048
+],
+"area": 3.7,
+"inside": [
+"sultanah"
+],
+"near": [
+[
+"sultanah",
+0.6
+],
+[
+"jarradiyah",
+1.8
+],
+[
+"dhahrat",
+2.8
+]
+]
+},
+{
+"slug": "al-butaiha",
+"en": "Al Butaiha",
+"ar": "حي البطيحا",
+"mid": [
+24.62172,
+46.72009
+],
+"area": 0.1,
+"inside": [],
+"near": [
+[
+"owd",
+0.4
+],
+[
+"skirinah",
+0.7
+],
+[
+"hokm",
+0.9
+]
+]
+},
+{
+"slug": "al-dahou",
+"en": "Al Dahou",
+"ar": "حي الدحو",
+"mid": [
+24.6296,
+46.7143
+],
+"area": 0.1,
+"inside": [],
+"near": [
+[
+"hokm",
+0.2
+],
+[
+"courts",
+0.3
+],
+[
+"hilla",
+0.7
+]
+]
+},
+{
+"slug": "al-dar-al-baida",
+"en": "Al Dar Al Baida",
+"ar": "حي الدار البيضاء",
+"mid": [
+24.56522,
+46.79152
+],
+"area": 15.2,
+"inside": [
+"baida"
+],
+"near": [
+[
+"baida",
+1.6
+],
+[
+"aziziah",
+3.8
+],
+[
+"transport",
+5.9
+]
+]
+},
+{
+"slug": "al-dhubbat",
+"en": "Al Dhubbat",
+"ar": "حي الضباط",
+"mid": [
+24.67837,
+46.7224
+],
+"area": 2.3,
+"inside": [
+"wizarat",
+"gosi",
+"mod"
+],
+"near": [
+[
+"wizarat",
+0.4
+],
+[
+"gosi",
+1.0
+],
+[
+"mod",
+1.3
+]
+]
+},
+{
+"slug": "al-dirah",
+"en": "Al Dirah",
+"ar": "حي الديرة",
+"mid": [
+24.6323,
+46.7101
+],
+"area": 1.6,
+"inside": [
+"courts",
+"batha"
+],
+"near": [
+[
+"courts",
+0.6
+],
+[
+"hokm",
+0.7
+],
+[
+"batha",
+0.8
+]
+]
+},
+{
+"slug": "al-dubiyah",
+"en": "Al Dubiyah",
+"ar": "حي الدوبية",
+"mid": [
+24.62117,
+46.71193
+],
+"area": 0.2,
+"inside": [],
+"near": [
+[
+"courts",
+0.6
+],
+[
+"hokm",
+0.9
+],
+[
+"owd",
+1.0
+]
+]
+},
+{
+"slug": "al-duraihemiyah",
+"en": "Al Duraihemiyah",
+"ar": "حي الدريهمية",
+"mid": [
+24.58976,
+46.69633
+],
+"area": 1.7,
+"inside": [],
+"near": [
+[
+"sultanah",
+3.0
+],
+[
+"jarradiyah",
+3.2
+],
+[
+"manfouhah",
+3.9
+]
+]
+},
+{
+"slug": "al-ezdihar",
+"en": "Al Ezdihar",
+"ar": "حي الازدهار",
+"mid": [
+24.78061,
+46.71748
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"granadia",
+1.4
+],
+[
+"sabic",
+3.1
+],
+[
+"uthman",
+3.1
+]
+]
+},
+{
+"slug": "al-fakhiriyah",
+"en": "Al Fakhiriyah",
+"ar": "حي الفاخرية",
+"mid": [
+24.64162,
+46.68283
+],
+"area": 1.9,
+"inside": [],
+"near": [
+[
+"passport",
+2.9
+],
+[
+"sultanah",
+3.0
+],
+[
+"jarradiyah",
+3.0
+]
+]
+},
+{
+"slug": "al-falah",
+"en": "Al Falah",
+"ar": "حي الفلاح",
+"mid": [
+24.79702,
+46.7092
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"sabic",
+1.1
+],
+[
+"uthman",
+1.4
+],
+[
+"granadia",
+2.3
+]
+]
+},
+{
+"slug": "al-farooq",
+"en": "Al Farooq",
+"ar": "حي الفاروق",
+"mid": [
+24.65383,
+46.77314
+],
+"area": 5.6,
+"inside": [],
+"near": [
+[
+"jarir",
+2.5
+],
+[
+"rajhi",
+2.9
+],
+[
+"malaz",
+2.9
+]
+]
+},
+{
+"slug": "al-fayha",
+"en": "Al Fayha",
+"ar": "حي الفيحاء",
+"mid": [
+24.68194,
+46.81148
+],
+"area": 5.4,
+"inside": [
+"harun"
+],
+"near": [
+[
+"harun",
+1.6
+],
+[
+"naseem",
+2.6
+],
+[
+"rajhi",
+3.3
+]
+]
+},
+{
+"slug": "al-futah",
+"en": "Al Futah",
+"ar": "حي الفوطة",
+"mid": [
+24.64165,
+46.7105
+],
+"area": 1.1,
+"inside": [
+"museum"
+],
+"near": [
+[
+"museum",
+0.6
+],
+[
+"batha",
+0.6
+],
+[
+"mof",
+1.2
+]
+]
+},
+{
+"slug": "al-ghadeer",
+"en": "Al Ghadeer",
+"ar": "حي الغدير",
+"mid": [
+24.77357,
+46.65399
+],
+"area": 4.6,
+"inside": [],
+"near": [
+[
+"kafd",
+1.2
+],
+[
+"rabi",
+1.6
+],
+[
+"murooj",
+2.1
+]
+]
+},
+{
+"slug": "al-hamra",
+"en": "Al Hamra",
+"ar": "حي الحمراء",
+"mid": [
+24.77549,
+46.75318
+],
+"area": 8.3,
+"inside": [],
+"near": [
+[
+"kbw",
+1.1
+],
+[
+"yarmuk",
+2.2
+],
+[
+"hamra",
+2.4
+]
+]
+},
+{
+"slug": "al-jarradiyah",
+"en": "Al Jarradiyah",
+"ar": "حي الجرادية",
+"mid": [
+24.61703,
+46.69777
+],
+"area": 1.3,
+"inside": [
+"jarradiyah"
+],
+"near": [
+[
+"jarradiyah",
+0.2
+],
+[
+"sultanah",
+1.2
+],
+[
+"courts",
+1.8
+]
+]
+},
+{
+"slug": "al-jazeerah",
+"en": "Al Jazeerah",
+"ar": "حي الجزيرة",
+"mid": [
+24.66512,
+46.79643
+],
+"area": 8.8,
+"inside": [
+"rajhi"
+],
+"near": [
+[
+"harun",
+2.3
+],
+[
+"rajhi",
+2.4
+],
+[
+"jarir",
+3.7
+]
+]
+},
+{
+"slug": "al-khaleej",
+"en": "Al Khaleej",
+"ar": "حي الخليج",
+"mid": [
+24.77679,
+46.80348
+],
+"area": 10.3,
+"inside": [
+"khaleej",
+"ishbiliyah",
+"hamra"
+],
+"near": [
+[
+"khaleej",
+1.0
+],
+[
+"ishbiliyah",
+1.9
+],
+[
+"andalus",
+2.6
+]
+]
+},
+{
+"slug": "al-khalidiyah",
+"en": "Al Khalidiyah",
+"ar": "حي الخالدية",
+"mid": [
+24.62452,
+46.75524
+],
+"area": 3.8,
+"inside": [],
+"near": [
+[
+"salhiyah",
+2.7
+],
+[
+"industrial",
+2.8
+],
+[
+"railway",
+3.1
+]
+]
+},
+{
+"slug": "al-khuzama",
+"en": "Al Khuzama",
+"ar": "حي الخزامى",
+"mid": [
+24.70943,
+46.60799
+],
+"area": 6.3,
+"inside": [],
+"near": [
+[
+"ksu",
+2.1
+],
+[
+"oasis",
+3.2
+],
+[
+"kacst",
+4.1
+]
+]
+},
+{
+"slug": "al-maizalah",
+"en": "Al Maizalah",
+"ar": "حي المعيزلة",
+"mid": [
+24.79351,
+46.83978
+],
+"area": 14.1,
+"inside": [
+"sportcity"
+],
+"near": [
+[
+"sportcity",
+0.3
+],
+[
+"ishbiliyah",
+2.9
+],
+[
+"khaleej",
+4.8
+]
+]
+},
+{
+"slug": "al-malaz",
+"en": "Al Malaz",
+"ar": "حي الملز",
+"mid": [
+24.66291,
+46.73443
+],
+"area": 8.7,
+"inside": [
+"malaz"
+],
+"near": [
+[
+"malaz",
+1.1
+],
+[
+"railway",
+1.7
+],
+[
+"mod",
+1.7
+]
+]
+},
+{
+"slug": "al-malqa",
+"en": "Al Malqa",
+"ar": "حي الملقا",
+"mid": [
+24.79897,
+46.59755
+],
+"area": 21.8,
+"inside": [],
+"near": [
+[
+"habib",
+3.2
+],
+[
+"sab",
+4.0
+],
+[
+"kafd",
+5.8
+]
+]
+},
+{
+"slug": "al-manar",
+"en": "Al Manar",
+"ar": "حي المنار",
+"mid": [
+24.72535,
+46.79727
+],
+"area": 4.1,
+"inside": [],
+"near": [
+[
+"khurais",
+1.4
+],
+[
+"salam",
+1.5
+],
+[
+"andalus",
+3.6
+]
+]
+},
+{
+"slug": "al-mansurah",
+"en": "Al Mansurah",
+"ar": "حي المنصورة",
+"mid": [
+24.60885,
+46.74509
+],
+"area": 5.9,
+"inside": [
+"iman"
+],
+"near": [
+[
+"transport",
+1.2
+],
+[
+"iman",
+1.3
+],
+[
+"manfouhah",
+1.8
+]
+]
+},
+{
+"slug": "al-marqab",
+"en": "Al Marqab",
+"ar": "حي المرقب",
+"mid": [
+24.63576,
+46.72372
+],
+"area": 0.9,
+"inside": [],
+"near": [
+[
+"margab",
+0.3
+],
+[
+"hilla",
+0.5
+],
+[
+"salhiyah",
+0.8
+]
+]
+},
+{
+"slug": "al-masani",
+"en": "Al Masani",
+"ar": "حي المصانع",
+"mid": [
+24.55809,
+46.74712
+],
+"area": 19.0,
+"inside": [],
+"near": [
+[
+"baida",
+3.0
+],
+[
+"aziziah",
+3.4
+],
+[
+"transport",
+4.4
+]
+]
+},
+{
+"slug": "al-maseef",
+"en": "Al Maseef",
+"ar": "حي المصيف",
+"mid": [
+24.76547,
+46.68153
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"murooj",
+3.0
+],
+[
+"moe",
+3.1
+],
+[
+"rabi",
+3.1
+]
+]
+},
+{
+"slug": "al-mathar",
+"en": "Al Mathar",
+"ar": "حي المعذر",
+"mid": [
+24.66783,
+46.67245
+],
+"area": 3.2,
+"inside": [],
+"near": [
+[
+"moi",
+2.4
+],
+[
+"kfl",
+2.9
+],
+[
+"murabba",
+3.0
+]
+]
+},
+{
+"slug": "al-mughrazat",
+"en": "Al Mughrazat",
+"ar": "حي المغرزات",
+"mid": [
+24.76412,
+46.72575
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"rec",
+1.2
+],
+[
+"nuzhah",
+2.2
+],
+[
+"granadia",
+2.5
+]
+]
+},
+{
+"slug": "al-muhammadiyah",
+"en": "Al Muhammadiyah",
+"ar": "حي المحمدية",
+"mid": [
+24.73258,
+46.65022
+],
+"area": 4.3,
+"inside": [],
+"near": [
+[
+"takhassussi",
+1.1
+],
+[
+"kfd2",
+1.4
+],
+[
+"kacst",
+1.4
+]
+]
+},
+{
+"slug": "al-murabba",
+"en": "Al Murabba",
+"ar": "حي المربع",
+"mid": [
+24.66018,
+46.70798
+],
+"area": 4.9,
+"inside": [
+"passport",
+"murabba",
+"kah",
+"mof"
+],
+"near": [
+[
+"passport",
+0.4
+],
+[
+"murabba",
+0.8
+],
+[
+"kah",
+0.9
+]
+]
+},
+{
+"slug": "al-mursalat",
+"en": "Al Mursalat",
+"ar": "حي المرسلات",
+"mid": [
+24.74886,
+46.68991
+],
+"area": 4.1,
+"inside": [],
+"near": [
+[
+"moe",
+1.0
+],
+[
+"kaaroad",
+1.5
+],
+[
+"wurud",
+2.2
+]
+]
+},
+{
+"slug": "al-muruj",
+"en": "Al Muruj",
+"ar": "حي المروج",
+"mid": [
+24.75723,
+46.66197
+],
+"area": 4.7,
+"inside": [
+"murooj"
+],
+"near": [
+[
+"murooj",
+0.8
+],
+[
+"kfd",
+1.4
+],
+[
+"kafd",
+2.2
+]
+]
+},
+{
+"slug": "al-mutamarat",
+"en": "Al Mutamarat",
+"ar": "حي المؤتمرات",
+"mid": [
+24.67033,
+46.68662
+],
+"area": 1.8,
+"inside": [],
+"near": [
+[
+"moi",
+1.0
+],
+[
+"murabba",
+1.7
+],
+[
+"kfl",
+2.1
+]
+]
+},
+{
+"slug": "al-nada",
+"en": "Al Nada",
+"ar": "حي الندى",
+"mid": [
+24.80584,
+46.68297
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"uthman",
+1.5
+],
+[
+"sabic",
+2.7
+],
+[
+"rabi",
+3.1
+]
+]
+},
+{
+"slug": "al-nafel",
+"en": "Al Nafel",
+"ar": "حي النفل",
+"mid": [
+24.78188,
+46.67328
+],
+"area": 4.0,
+"inside": [
+"rabi"
+],
+"near": [
+[
+"rabi",
+1.4
+],
+[
+"uthman",
+3.1
+],
+[
+"kafd",
+3.4
+]
+]
+},
+{
+"slug": "al-nahdah",
+"en": "Al Nahdah",
+"ar": "حي النهضة",
+"mid": [
+24.76051,
+46.81599
+],
+"area": 10.7,
+"inside": [
+"andalus"
+],
+"near": [
+[
+"andalus",
+2.6
+],
+[
+"khurais",
+3.0
+],
+[
+"khaleej",
+3.2
+]
+]
+},
+{
+"slug": "al-nakheel",
+"en": "Al Nakheel",
+"ar": "حي النخيل",
+"mid": [
+24.74325,
+46.62496
+],
+"area": 9.8,
+"inside": [],
+"near": [
+[
+"murooj",
+3.2
+],
+[
+"oasis",
+3.3
+],
+[
+"kafd",
+3.3
+]
+]
+},
+{
+"slug": "al-namudhajiyah",
+"en": "Al Namudhajiyah",
+"ar": "حي النموذجية",
+"mid": [
+24.65685,
+46.69462
+],
+"area": 2.7,
+"inside": [],
+"near": [
+[
+"passport",
+1.0
+],
+[
+"murabba",
+1.2
+],
+[
+"moi",
+1.9
+]
+]
+},
+{
+"slug": "al-nasiriyah",
+"en": "Al Nasiriyah",
+"ar": "حي الناصرية",
+"mid": [
+24.6509,
+46.6803
+],
+"area": 2.3,
+"inside": [],
+"near": [
+[
+"passport",
+2.6
+],
+[
+"murabba",
+2.7
+],
+[
+"moi",
+3.0
+]
+]
+},
+{
+"slug": "al-nuzha",
+"en": "Al Nuzha",
+"ar": "حي النزهة",
+"mid": [
+24.75643,
+46.70789
+],
+"area": 4.1,
+"inside": [],
+"near": [
+[
+"nuzhah",
+1.1
+],
+[
+"rec",
+2.0
+],
+[
+"moe",
+2.3
+]
+]
+},
+{
+"slug": "al-olaya",
+"en": "Al Olaya",
+"ar": "حي العليا",
+"mid": [
+24.6931,
+46.68447
+],
+"area": 10.8,
+"inside": [
+"albilad",
+"kfl",
+"alinma",
+"moi",
+"urubah"
+],
+"near": [
+[
+"albilad",
+0.4
+],
+[
+"kfl",
+0.5
+],
+[
+"alinma",
+1.2
+]
+]
+},
+{
+"slug": "al-oud",
+"en": "Al Oud",
+"ar": "حي العود",
+"mid": [
+24.62663,
+46.72738
+],
+"area": 2.1,
+"inside": [
+"margab",
+"hilla"
+],
+"near": [
+[
+"owd",
+0.7
+],
+[
+"margab",
+0.8
+],
+[
+"hilla",
+0.9
+]
+]
+},
+{
+"slug": "al-qadisiyah",
+"en": "Al Qadisiyah",
+"ar": "حي القادسية",
+"mid": [
+24.82134,
+46.82482
+],
+"area": 11.8,
+"inside": [],
+"near": [
+[
+"sportcity",
+3.4
+],
+[
+"ishbiliyah",
+3.5
+],
+[
+"khaleej",
+5.4
+]
+]
+},
+{
+"slug": "al-quds",
+"en": "Al Quds",
+"ar": "حي القدس",
+"mid": [
+24.7548,
+46.75394
+],
+"area": 5.2,
+"inside": [
+"kbw"
+],
+"near": [
+[
+"kbw",
+1.5
+],
+[
+"rec",
+2.7
+],
+[
+"hamra",
+3.3
+]
+]
+},
+{
+"slug": "al-qura",
+"en": "Al Qura",
+"ar": "حي القرى",
+"mid": [
+24.62813,
+46.71563
+],
+"area": 0.0,
+"inside": [
+"hokm"
+],
+"near": [
+[
+"hokm",
+0.1
+],
+[
+"courts",
+0.3
+],
+[
+"owd",
+0.6
+]
+]
+},
+{
+"slug": "al-raed",
+"en": "Al Raed",
+"ar": "حي الرائد",
+"mid": [
+24.70696,
+46.63888
+],
+"area": 5.0,
+"inside": [
+"oasis",
+"kacst"
+],
+"near": [
+[
+"ksu",
+1.1
+],
+[
+"oasis",
+1.1
+],
+[
+"kacst",
+1.7
+]
+]
+},
+{
+"slug": "al-rawabi",
+"en": "Al Rawabi",
+"ar": "حي الروابي",
+"mid": [
+24.69527,
+46.79034
+],
+"area": 7.2,
+"inside": [],
+"near": [
+[
+"harun",
+1.2
+],
+[
+"rajhi",
+2.1
+],
+[
+"salam",
+3.7
+]
+]
+},
+{
+"slug": "al-rawdah",
+"en": "Al Rawdah",
+"ar": "حي الروضة",
+"mid": [
+24.73411,
+46.7671
+],
+"area": 8.7,
+"inside": [],
+"near": [
+[
+"khurais",
+3.4
+],
+[
+"andalus",
+3.4
+],
+[
+"kbw",
+3.7
+]
+]
+},
+{
+"slug": "al-rayan",
+"en": "Al Rayan",
+"ar": "حي الريان",
+"mid": [
+24.71226,
+46.77804
+],
+"area": 6.0,
+"inside": [],
+"near": [
+[
+"harun",
+3.4
+],
+[
+"salam",
+3.5
+],
+[
+"rajhi",
+3.6
+]
+]
+},
+{
+"slug": "al-saadah",
+"en": "Al Saadah",
+"ar": "حي السعادة",
+"mid": [
+24.69599,
+46.83928
+],
+"area": 9.2,
+"inside": [
+"naseem"
+],
+"near": [
+[
+"naseem",
+1.3
+],
+[
+"hassan",
+2.1
+],
+[
+"khashm",
+3.5
+]
+]
+},
+{
+"slug": "al-safa",
+"en": "Al Safa",
+"ar": "حي الصفا",
+"mid": [
+24.66703,
+46.76562
+],
+"area": 5.3,
+"inside": [
+"jarir"
+],
+"near": [
+[
+"jarir",
+0.8
+],
+[
+"rajhi",
+1.9
+],
+[
+"malaz",
+2.2
+]
+]
+},
+{
+"slug": "al-sahafah",
+"en": "Al Sahafah",
+"ar": "حي الصحافة",
+"mid": [
+24.79995,
+46.63901
+],
+"area": 7.9,
+"inside": [
+"habib"
+],
+"near": [
+[
+"habib",
+1.8
+],
+[
+"rabi",
+2.7
+],
+[
+"kafd",
+3.6
+]
+]
+},
+{
+"slug": "al-salam",
+"en": "Al Salam",
+"ar": "حي السلام",
+"mid": [
+24.70726,
+46.81093
+],
+"area": 5.6,
+"inside": [
+"salam"
+],
+"near": [
+[
+"salam",
+1.7
+],
+[
+"naseem",
+1.9
+],
+[
+"harun",
+2.8
+]
+]
+},
+{
+"slug": "al-sharafiyah",
+"en": "Al Sharafiyah",
+"ar": "حي الشرفية",
+"mid": [
+24.65865,
+46.66883
+],
+"area": 1.6,
+"inside": [],
+"near": [
+[
+"moi",
+3.2
+],
+[
+"murabba",
+3.5
+],
+[
+"passport",
+3.6
+]
+]
+},
+{
+"slug": "al-shohda",
+"en": "Al Shohda",
+"ar": "حي الشهداء",
+"mid": [
+24.78817,
+46.73543
+],
+"area": 4.0,
+"inside": [
+"granadia"
+],
+"near": [
+[
+"granadia",
+0.6
+],
+[
+"yarmuk",
+3.1
+],
+[
+"kbw",
+3.3
+]
+]
+},
+{
+"slug": "al-shumaisi",
+"en": "Al Shumaisi",
+"ar": "حي الشميسي",
+"mid": [
+24.62479,
+46.70031
+],
+"area": 1.5,
+"inside": [],
+"near": [
+[
+"jarradiyah",
+0.7
+],
+[
+"courts",
+1.2
+],
+[
+"hokm",
+1.6
+]
+]
+},
+{
+"slug": "al-sinaiyah",
+"en": "Al Sinaiyah",
+"ar": "حي الصناعية",
+"mid": [
+24.64239,
+46.74722
+],
+"area": 5.5,
+"inside": [
+"industrial",
+"railway"
+],
+"near": [
+[
+"industrial",
+0.8
+],
+[
+"railway",
+1.0
+],
+[
+"salhiyah",
+1.6
+]
+]
+},
+{
+"slug": "al-sulaimaniyah",
+"en": "Al Sulaimaniyah",
+"ar": "حي السليمانية",
+"mid": [
+24.70076,
+46.70234
+],
+"area": 8.0,
+"inside": [
+"dhabab",
+"sulimaniyah",
+"abudhabi"
+],
+"near": [
+[
+"dhabab",
+1.1
+],
+[
+"sulimaniyah",
+1.4
+],
+[
+"abudhabi",
+1.5
+]
+]
+},
+{
+"slug": "al-suwaidi",
+"en": "Al Suwaidi",
+"ar": "حي السويدي",
+"mid": [
+24.59205,
+46.67335
+],
+"area": 6.2,
+"inside": [],
+"near": [
+[
+"dhahrat",
+2.5
+],
+[
+"sultanah",
+2.8
+],
+[
+"aishah",
+3.1
+]
+]
+},
+{
+"slug": "al-taawun",
+"en": "Al Taawun",
+"ar": "حي التعاون",
+"mid": [
+24.77304,
+46.69952
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"uthman",
+3.1
+],
+[
+"nuzhah",
+3.1
+],
+[
+"granadia",
+3.4
+]
+]
+},
+{
+"slug": "al-uraija",
+"en": "Al Uraija",
+"ar": "حي العريجاء",
+"mid": [
+24.62495,
+46.65666
+],
+"area": 4.4,
+"inside": [],
+"near": [
+[
+"dhahrat",
+2.0
+],
+[
+"aishah",
+3.0
+],
+[
+"sultanah",
+3.2
+]
+]
+},
+{
+"slug": "al-wadi",
+"en": "Al Wadi",
+"ar": "حي الوادي",
+"mid": [
+24.78945,
+46.69123
+],
+"area": 4.0,
+"inside": [
+"uthman"
+],
+"near": [
+[
+"uthman",
+1.3
+],
+[
+"sabic",
+2.7
+],
+[
+"rabi",
+3.1
+]
+]
+},
+{
+"slug": "al-wahah",
+"en": "Al Wahah",
+"ar": "حي الواحة",
+"mid": [
+24.74109,
+46.71617
+],
+"area": 3.3,
+"inside": [
+"nuzhah"
+],
+"near": [
+[
+"nuzhah",
+0.8
+],
+[
+"rec",
+1.8
+],
+[
+"ksp",
+2.1
+]
+]
+},
+{
+"slug": "al-wisham",
+"en": "Al Wisham",
+"ar": "حي الوشام",
+"mid": [
+24.64234,
+46.69832
+],
+"area": 1.2,
+"inside": [],
+"near": [
+[
+"museum",
+1.7
+],
+[
+"batha",
+1.8
+],
+[
+"passport",
+2.0
+]
+]
+},
+{
+"slug": "al-wizarat",
+"en": "Al Wizarat",
+"ar": "حي الوزارات",
+"mid": [
+24.67777,
+46.71385
+],
+"area": 2.3,
+"inside": [],
+"near": [
+[
+"wizarat",
+0.5
+],
+[
+"gosi",
+1.1
+],
+[
+"mod",
+1.3
+]
+]
+},
+{
+"slug": "al-woroud",
+"en": "Al Woroud",
+"ar": "حي الورود",
+"mid": [
+24.72445,
+46.6785
+],
+"area": 4.5,
+"inside": [
+"wurud2",
+"wurud",
+"stc",
+"kaaroad"
+],
+"near": [
+[
+"wurud2",
+0.8
+],
+[
+"wurud",
+1.0
+],
+[
+"stc",
+1.2
+]
+]
+},
+{
+"slug": "al-wusayta",
+"en": "Al Wusayta",
+"ar": "حي الوسيطاء",
+"mid": [
+24.62427,
+46.71573
+],
+"area": 0.1,
+"inside": [],
+"near": [
+[
+"courts",
+0.4
+],
+[
+"hokm",
+0.5
+],
+[
+"owd",
+0.5
+]
+]
+},
+{
+"slug": "al-yamamah",
+"en": "Al Yamamah",
+"ar": "حي اليمامة",
+"mid": [
+24.59539,
+46.71668
+],
+"area": 2.7,
+"inside": [],
+"near": [
+[
+"iman",
+2.0
+],
+[
+"manfouhah",
+2.0
+],
+[
+"skirinah",
+2.6
+]
+]
+},
+{
+"slug": "al-yarmuk",
+"en": "Al Yarmuk",
+"ar": "حي اليرموك",
+"mid": [
+24.80806,
+46.78283
+],
+"area": 9.2,
+"inside": [],
+"near": [
+[
+"yarmuk",
+2.5
+],
+[
+"khaleej",
+3.2
+],
+[
+"ishbiliyah",
+3.4
+]
+]
+},
+{
+"slug": "al-yasmeen",
+"en": "Al Yasmeen",
+"ar": "حي الياسمين",
+"mid": [
+24.82287,
+46.64378
+],
+"area": 12.7,
+"inside": [],
+"near": [
+[
+"habib",
+2.1
+],
+[
+"sab",
+2.7
+],
+[
+"rabi",
+4.4
+]
+]
+},
+{
+"slug": "al-zahra",
+"en": "Al Zahra",
+"ar": "حي الزهراء",
+"mid": [
+24.68636,
+46.73024
+],
+"area": 1.7,
+"inside": [],
+"near": [
+[
+"gosi",
+1.2
+],
+[
+"wizarat",
+1.6
+],
+[
+"officers",
+1.7
+]
+]
+},
+{
+"slug": "al-zahrah",
+"en": "Al Zahrah",
+"ar": "حي الزهرة",
+"mid": [
+24.57865,
+46.64574
+],
+"area": 4.9,
+"inside": [],
+"near": [
+[
+"aishah",
+2.4
+],
+[
+"western",
+3.2
+],
+[
+"dhahrat",
+3.3
+]
+]
+},
+{
+"slug": "ar-rabie",
+"en": "Ar Rabie",
+"ar": "حي الربيع",
+"mid": [
+24.79547,
+46.66121
+],
+"area": 5.7,
+"inside": [],
+"near": [
+[
+"rabi",
+1.0
+],
+[
+"kafd",
+3.5
+],
+[
+"uthman",
+3.6
+]
+]
+},
+{
+"slug": "ar-rabwah",
+"en": "Ar Rabwah",
+"ar": "حي الربوة",
+"mid": [
+24.6933,
+46.75676
+],
+"area": 11.3,
+"inside": [],
+"near": [
+[
+"jarir",
+2.3
+],
+[
+"rajhi",
+2.7
+],
+[
+"malaz",
+3.8
+]
+]
+},
+{
+"slug": "ar-rahmaniyah",
+"en": "Ar Rahmaniyah",
+"ar": "حي الرحمانية",
+"mid": [
+24.71613,
+46.65934
+],
+"area": 3.7,
+"inside": [
+"takhassussi"
+],
+"near": [
+[
+"takhassussi",
+0.9
+],
+[
+"kacst",
+1.3
+],
+[
+"wurud2",
+1.3
+]
+]
+},
+{
+"slug": "as-salhiyah",
+"en": "As Salhiyah",
+"ar": "حي الصالحية",
+"mid": [
+24.63402,
+46.73435
+],
+"area": 0.7,
+"inside": [
+"salhiyah"
+],
+"near": [
+[
+"salhiyah",
+0.4
+],
+[
+"margab",
+0.9
+],
+[
+"industrial",
+1.3
+]
+]
+},
+{
+"slug": "dhahrat-al-badeah",
+"en": "Dhahrat Al Badeah",
+"ar": "حي ظهرة البديعة",
+"mid": [
+24.59771,
+46.64951
+],
+"area": 7.4,
+"inside": [
+"aishah",
+"dhahrat"
+],
+"near": [
+[
+"aishah",
+0.7
+],
+[
+"dhahrat",
+1.2
+],
+[
+"western",
+3.9
+]
+]
+},
+{
+"slug": "east-naseem",
+"en": "East Naseem",
+"ar": "حي النسيم الشرقي",
+"mid": [
+24.73866,
+46.84553
+],
+"area": 13.7,
+"inside": [
+"khashm"
+],
+"near": [
+[
+"khashm",
+2.4
+],
+[
+"hassan",
+2.8
+],
+[
+"salam",
+3.9
+]
+]
+},
+{
+"slug": "east-umm-al-hamam",
+"en": "East Umm Al Hamam",
+"ar": "حي ام الحمام الشرقي",
+"mid": [
+24.68646,
+46.65804
+],
+"area": 3.1,
+"inside": [],
+"near": [
+[
+"albilad",
+2.8
+],
+[
+"alinma",
+2.9
+],
+[
+"kfl",
+3.0
+]
+]
+},
+{
+"slug": "ghirnatah",
+"en": "Ghirnatah",
+"ar": "حي غرناطة",
+"mid": [
+24.79569,
+46.7533
+],
+"area": 4.0,
+"inside": [],
+"near": [
+[
+"yarmuk",
+1.4
+],
+[
+"granadia",
+2.6
+],
+[
+"hamra",
+3.2
+]
+]
+},
+{
+"slug": "ghobairah",
+"en": "Ghobairah",
+"ar": "حي غبيرة",
+"mid": [
+24.62031,
+46.73581
+],
+"area": 1.7,
+"inside": [
+"skirinah"
+],
+"near": [
+[
+"skirinah",
+1.1
+],
+[
+"manfouhah",
+1.4
+],
+[
+"owd",
+1.6
+]
+]
+},
+{
+"slug": "ishbiliyah",
+"en": "Ishbiliyah",
+"ar": "حي اشبيلية",
+"mid": [
+24.79236,
+46.79209
+],
+"area": 9.4,
+"inside": [
+"yarmuk"
+],
+"near": [
+[
+"khaleej",
+1.2
+],
+[
+"ishbiliyah",
+1.9
+],
+[
+"hamra",
+2.3
+]
+]
+},
+{
+"slug": "jabrah",
+"en": "Jabrah",
+"ar": "حي جبرة",
+"mid": [
+24.62508,
+46.71903
+],
+"area": 0.3,
+"inside": [
+"owd"
+],
+"near": [
+[
+"owd",
+0.2
+],
+[
+"hokm",
+0.5
+],
+[
+"courts",
+0.7
+]
+]
+},
+{
+"slug": "jareer",
+"en": "Jareer",
+"ar": "حي جرير",
+"mid": [
+24.67811,
+46.75077
+],
+"area": 2.6,
+"inside": [],
+"near": [
+[
+"jarir",
+1.1
+],
+[
+"malaz",
+2.0
+],
+[
+"rajhi",
+2.8
+]
+]
+},
+{
+"slug": "king-abdulaziz",
+"en": "King Abdulaziz",
+"ar": "حي الملك عبدالعزيز",
+"mid": [
+24.71816,
+46.72358
+],
+"area": 16.7,
+"inside": [
+"officers"
+],
+"near": [
+[
+"abudhabi",
+1.5
+],
+[
+"dhabab",
+1.8
+],
+[
+"officers",
+2.4
+]
+]
+},
+{
+"slug": "king-abdullah",
+"en": "King Abdullah",
+"ar": "حي الملك عبدالله",
+"mid": [
+24.73323,
+46.74355
+],
+"area": 8.5,
+"inside": [
+"rec"
+],
+"near": [
+[
+"rec",
+2.8
+],
+[
+"nuzhah",
+3.5
+],
+[
+"kbw",
+4.1
+]
+]
+},
+{
+"slug": "king-fahd",
+"en": "King Fahd",
+"ar": "حي الملك فهد",
+"mid": [
+24.74062,
+46.67036
+],
+"area": 4.8,
+"inside": [
+"kfd2",
+"kfd"
+],
+"near": [
+[
+"kfd2",
+0.8
+],
+[
+"wurud",
+1.1
+],
+[
+"kfd",
+1.2
+]
+]
+},
+{
+"slug": "king-faisal",
+"en": "King Faisal",
+"ar": "حي الملك فيصل",
+"mid": [
+24.76186,
+46.77507
+],
+"area": 5.2,
+"inside": [],
+"near": [
+[
+"hamra",
+1.6
+],
+[
+"andalus",
+1.7
+],
+[
+"kbw",
+1.7
+]
+]
+},
+{
+"slug": "manfuha-al-jadidah",
+"en": "Manfuha Al Jadidah",
+"ar": "حي منفوحة الجديدة",
+"mid": [
+24.61277,
+46.71846
+],
+"area": 1.9,
+"inside": [],
+"near": [
+[
+"skirinah",
+0.9
+],
+[
+"manfouhah",
+0.9
+],
+[
+"owd",
+1.4
+]
+]
+},
+{
+"slug": "manfuhah",
+"en": "Manfuhah",
+"ar": "حي منفوحة",
+"mid": [
+24.59916,
+46.72779
+],
+"area": 2.5,
+"inside": [
+"manfouhah"
+],
+"near": [
+[
+"iman",
+0.8
+],
+[
+"manfouhah",
+1.3
+],
+[
+"transport",
+1.8
+]
+]
+},
+{
+"slug": "meakal",
+"en": "Meakal",
+"ar": "حي معكال",
+"mid": [
+24.62257,
+46.7145
+],
+"area": 0.2,
+"inside": [],
+"near": [
+[
+"courts",
+0.5
+],
+[
+"hokm",
+0.7
+],
+[
+"owd",
+0.7
+]
+]
+},
+{
+"slug": "middle-oraija",
+"en": "Middle Oraija",
+"ar": "حي العريجاء الوسطى",
+"mid": [
+24.60792,
+46.63786
+],
+"area": 8.6,
+"inside": [],
+"near": [
+[
+"aishah",
+1.0
+],
+[
+"dhahrat",
+1.7
+],
+[
+"western",
+3.7
+]
+]
+},
+{
+"slug": "north-mathar",
+"en": "North Mathar",
+"ar": "حي المعذر الشمالي",
+"mid": [
+24.69113,
+46.66676
+],
+"area": 3.8,
+"inside": [],
+"near": [
+[
+"albilad",
+1.8
+],
+[
+"alinma",
+1.9
+],
+[
+"kfl",
+2.1
+]
+]
+},
+{
+"slug": "olaishah",
+"en": "Olaishah",
+"ar": "حي عليشة",
+"mid": [
+24.632,
+46.68516
+],
+"area": 2.2,
+"inside": [],
+"near": [
+[
+"sultanah",
+1.9
+],
+[
+"jarradiyah",
+2.0
+],
+[
+"courts",
+2.8
+]
+]
+},
+{
+"slug": "qurtubah",
+"en": "Qurtubah",
+"ar": "حي قرطبة",
+"mid": [
+24.8154,
+46.7338
+],
+"area": 14.1,
+"inside": [],
+"near": [
+[
+"sabic",
+2.6
+],
+[
+"granadia",
+3.2
+],
+[
+"pnu1",
+3.3
+]
+]
+},
+{
+"slug": "salahuddin",
+"en": "Salahuddin",
+"ar": "حي صلاح الدين",
+"mid": [
+24.73338,
+46.69776
+],
+"area": 3.4,
+"inside": [
+"ksp",
+"moe"
+],
+"near": [
+[
+"ksp",
+0.7
+],
+[
+"moe",
+0.9
+],
+[
+"kaaroad",
+1.3
+]
+]
+},
+{
+"slug": "siyah",
+"en": "Siyah",
+"ar": "حي صياح",
+"mid": [
+24.60798,
+46.70232
+],
+"area": 0.9,
+"inside": [],
+"near": [
+[
+"jarradiyah",
+1.2
+],
+[
+"sultanah",
+1.8
+],
+[
+"courts",
+2.3
+]
+]
+},
+{
+"slug": "skirinah",
+"en": "Skirinah",
+"ar": "حي سكيرينة",
+"mid": [
+24.61662,
+46.71747
+],
+"area": 0.3,
+"inside": [],
+"near": [
+[
+"skirinah",
+0.8
+],
+[
+"owd",
+1.0
+],
+[
+"manfouhah",
+1.2
+]
+]
+},
+{
+"slug": "sultanah",
+"en": "Sultanah",
+"ar": "حي سلطانة",
+"mid": [
+24.6052,
+46.68808
+],
+"area": 3.0,
+"inside": [],
+"near": [
+[
+"sultanah",
+1.1
+],
+[
+"jarradiyah",
+1.8
+],
+[
+"dhahrat",
+3.3
+]
+]
+},
+{
+"slug": "thulaim",
+"en": "Thulaim",
+"ar": "حي ثليم",
+"mid": [
+24.64099,
+46.7277
+],
+"area": 0.8,
+"inside": [],
+"near": [
+[
+"salhiyah",
+0.6
+],
+[
+"margab",
+0.8
+],
+[
+"hilla",
+1.2
+]
+]
+},
+{
+"slug": "tuwaiq",
+"en": "Tuwaiq",
+"ar": "حي طويق",
+"mid": [
+24.56464,
+46.52919
+],
+"area": 60.4,
+"inside": [
+"jeddahrd",
+"tuwaiq",
+"douh"
+],
+"near": [
+[
+"jeddahrd",
+3.3
+],
+[
+"tuwaiq",
+4.0
+],
+[
+"douh",
+6.3
+]
+]
+},
+{
+"slug": "umm-saleem",
+"en": "Umm Saleem",
+"ar": "حي ام سليم",
+"mid": [
+24.63383,
+46.69832
+],
+"area": 0.9,
+"inside": [],
+"near": [
+[
+"courts",
+1.6
+],
+[
+"jarradiyah",
+1.7
+],
+[
+"batha",
+1.8
+]
+]
+},
+{
+"slug": "utayqah",
+"en": "Utayqah",
+"ar": "حي عتيقة",
+"mid": [
+24.59958,
+46.70793
+],
+"area": 1.9,
+"inside": [],
+"near": [
+[
+"jarradiyah",
+2.3
+],
+[
+"manfouhah",
+2.3
+],
+[
+"skirinah",
+2.7
+]
+]
+},
+{
+"slug": "west-naseem",
+"en": "West Naseem",
+"ar": "حي النسيم الغربي",
+"mid": [
+24.72564,
+46.82399
+],
+"area": 12.6,
+"inside": [
+"khurais",
+"hassan"
+],
+"near": [
+[
+"salam",
+1.3
+],
+[
+"khurais",
+2.8
+],
+[
+"hassan",
+2.8
+]
+]
+},
+{
+"slug": "west-oraija",
+"en": "West Oraija",
+"ar": "حي العريجاء الغربي",
+"mid": [
+24.59817,
+46.59929
+],
+"area": 16.1,
+"inside": [],
+"near": [
+[
+"douh",
+2.0
+],
+[
+"western",
+2.3
+],
+[
+"tuwaiq",
+4.0
+]
+]
+},
+{
+"slug": "west-suwaidi",
+"en": "West Suwaidi",
+"ar": "حي السويدي الغربي",
+"mid": [
+24.57371,
+46.62488
+],
+"area": 5.4,
+"inside": [
+"western"
+],
+"near": [
+[
+"western",
+1.4
+],
+[
+"aishah",
+3.5
+],
+[
+"douh",
+3.9
+]
+]
+},
+{
+"slug": "west-umm-al-hamam",
+"en": "West Umm Al Hamam",
+"ar": "حي ام الحمام الغربي",
+"mid": [
+24.68997,
+46.64453
+],
+"area": 3.9,
+"inside": [],
+"near": [
+[
+"ksu",
+2.7
+],
+[
+"oasis",
+3.0
+],
+[
+"kacst",
+3.4
+]
+]
+}
+]
+}

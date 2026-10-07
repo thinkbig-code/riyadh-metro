@@ -70,6 +70,21 @@ def lines_txt(ls):
 DEST = {d['slug']: d for d in CFG['destinations']}
 DEST_PAGE = {pid: 'ar/' + p for pid, p in P.DEST_PAGE.items()}
 STATION_PAGE = {sid: 'ar/' + p for sid, p in P.STATION_PAGE.items()}
+DIST_PAGE = {k: 'ar/' + p for k, p in P.DIST_PAGE.items()}
+DISTRICTS = P.DISTRICTS
+
+
+def dn(d):
+    """district name without the word حي, for phrases like «لحي الملقا»"""
+    return re.sub(r'^حي\s+', '', d['ar'])
+
+
+def count_st(n):
+    return 'محطة مترو واحدة' if n == 1 else 'محطتا مترو' if n == 2 else ('%d محطات مترو' % n) if n <= 10 else ('%d محطة مترو' % n)
+
+
+def kmt(k):
+    return '%.1f كم' % k
 PAIR_PAGE = {k: 'ar/' + p for k, p in P.PAIR_PAGE.items()}
 LINE_PAGE = {c: 'ar/' + p for c, p in P.LINE_PAGE.items()}
 
@@ -222,7 +237,11 @@ def fare_table():
 
 
 def station_facts(sid):
-    rows = [('المسارات', lines_txt(ST[sid]['lines']))]
+    rows = [('رقم المحطة', '%d (كما في الخريطة الرسمية ولوحات المحطات)' % P.ST_NO[sid])] if sid in P.ST_NO else []
+    rows.append(('المسارات', lines_txt(ST[sid]['lines'])))
+    if sid in P.ST_TYPE:
+        rows.append(('نوع المحطة', P.ST_TYPE[sid][1]))
+    rows.append(('مواقف «اركن واركب»', 'نعم، مواقف سيارات لركاب المترو' if sid in P.PARK_RIDE else 'لا'))
     for w in WALKS:
         if sid in (w['a'], w['b']):
             o = w['b'] if w['a'] == sid else w['a']
@@ -239,7 +258,7 @@ def st_cell(sid):
 CSS = P.CSS + 'body{font-family:"Noto Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif}\nol.steps{padding-inline-start:22px}\n'
 
 
-_RNG = re.compile(r'(?<!\u2066)(\d+(?::\d+)?–\d+(?::\d+)?)')
+_RNG = re.compile(r'(?<![\u2066\d:])(\d+(?::\d+)?–\d+(?::\d+)?)')
 
 
 def ltr_ranges(x):
@@ -288,7 +307,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">الخريطة</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">الخريطة</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/districts/">الأحياء</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}
@@ -375,7 +394,14 @@ def station(cfg):
         lead = 'محطة %s محطة تبديل على %s. يمكنك التبديل بين المسارين داخل المحطة دون الخروج منها.' % (sn(sid), lines_txt(ls))
     else:
         lead = 'محطة %s على %s.' % (sn(sid), lines_txt(ls))
-    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, 'p_kingdom_centre', 'خطّط رحلة من هنا')]
+    if sid in P.ST_NO:
+        lead += ' رقمها في الخريطة الرسمية %d.' % P.ST_NO[sid]
+    if sid in P.PARK_RIDE:
+        lead += ' وفي المحطة مواقف «اركن واركب» للسيارات.'
+    ds = P.districts_of(sid)
+    if ds:
+        lead += ' وتخدم %s.' % and_join(d['ar'] for d in ds[:4])
+    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'خطّط رحلة من هنا')]
     body.append('<h2>معلومات المحطة</h2>' + station_facts(sid))
     body.append('<h2>المحطات المجاورة</h2><ul>')
     seen = set()
@@ -397,11 +423,13 @@ def station(cfg):
             nm = '<a href="{ROOT}%s">%s</a>' % (link, e(pn(p['id']))) if link else e(pn(p['id']))
             body.append('<li>%s%s</li>' % (nm, ('، نحو %s سيراً' % mins(p['min'])) if p.get('min') else ''))
         body.append('</ul>')
+    if ds:
+        body.append('<h2>الأحياء التي تخدمها المحطة</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[d['slug']], e(d['ar'])) for d in ds) + '</ul>')
     body.append('<h2>رحلات من محطة %s</h2>' % e(sn(sid)))
     body.append(routes_table([(sid, x) for x in cfg['to']]))
     body.append(hours_html())
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LN[l])) for l in ls) + '<li><a href="{ROOT}ar/stations/">جميع المحطات</a></li></ul>')
-    title = 'محطة %s في مترو الرياض: المسارات والرحلات والمواعيد' % sn(sid)
+    title = 'محطة %s في مترو الرياض: المسار ورقم المحطة والرحلات' % sn(sid)
     write(path, frame(path, title, lead.split('. ')[0] + '. المسارات والرحلات والمواعيد.', '\n'.join(body), [('ar/stations/', 'المحطات'), (path, sn(sid))],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": sn(sid), "alternateName": s['n'],
                        "geo": {"@type": "GeoCoordinates", "latitude": D['geo'][sid][0], "longitude": D['geo'][sid][1]}} if sid in D['geo'] else None))
@@ -432,6 +460,61 @@ def route_page(r):
     title_of = {'ar/destinations/%s/' % d['slug']: d['title_ar'] for d in CFG['destinations']}
     body.append('<h2>المزيد عن هذه الأماكن</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s بالمترو</a></li>' % (p, e(title_of[p])) for p in ends) + '</ul>')
     write(path, frame(path, '%s: الوقت والسعر والخطوات' % r['title_ar'], lead, '\n'.join(body), [(path, r['title_ar'])]))
+
+
+# ---------------- district pages (أقرب محطة مترو لحي ...) ----------------
+def district(d):
+    path = DIST_PAGE[d['slug']]
+    sid = P.district_station(d); k0 = P.dist_km(d, sid)
+    if d['inside']:
+        n = len(d['inside'])
+        lead = 'في %s %s: %s.' % (d['ar'], count_st(n), '؛ '.join('%s (%s)' % (sn(x), lines_txt(ST[x]['lines'])) for x in d['inside']))
+        lead += (' أقربها إلى وسط الحي محطة %s، على بُعد نحو %s.' % (sn(sid), kmt(k0))) if n > 1 else (' وتبعد عن وسط الحي نحو %s.' % kmt(k0))
+    else:
+        lead = 'لا توجد محطة مترو داخل %s. أقرب محطة إلى وسط الحي هي محطة %s على %s، على بُعد نحو %s في خط مستقيم.' % (d['ar'], sn(sid), lines_txt(ST[sid]['lines']), kmt(k0))
+    if k0 <= 1.5:
+        lead += ' أي نحو %s سيراً تقريباً.' % mins(P.walk_min(k0))
+    pr = P.nearest_park_ride(d)
+    if pr != sid or sid not in P.PARK_RIDE:
+        lead += ' وأقرب محطة فيها مواقف «اركن واركب» هي محطة %s، على بُعد نحو %s.' % (sn(pr), kmt(P.dist_km(d, pr)))
+    else:
+        lead += ' وفي المحطة مواقف «اركن واركب» للسيارات.'
+    cfg = next(x for x in P.STATIONS if x['id'] == sid)
+    body = ['<h1>أقرب محطة مترو ل%s في الرياض</h1>' % e(d['ar']), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'خطّط رحلة من محطة %s' % sn(sid))]
+    rows = [(x, P.dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
+    rows = sorted(rows, key=lambda r: r[1])[:5]
+    body.append('<h2>محطات المترو ل%s</h2><div class="scroll"><table><tr><th>المحطة</th><th>المسارات</th><th>البعد عن وسط الحي</th></tr>' % e(d['ar']))
+    for x, k in rows:
+        where = 'داخل الحي، ' if x in d['inside'] else ''
+        foot = '، نحو %s سيراً' % mins(P.walk_min(k)) if k <= 1.5 else ''
+        body.append('<tr><td><a href="{ROOT}%s">%s</a>%s</td><td>%s</td><td>%s%s%s</td></tr>' % (
+            STATION_PAGE[x], e(sn(x)), ' <span class="note">مواقف</span>' if x in P.PARK_RIDE else '', e(lines_txt(ST[x]['lines'])), where, kmt(k), foot))
+    body.append('</table></div>')
+    body.append('<p class="note">المسافات في خط مستقيم من وسط الحي، والمشي في الشوارع أطول. «مواقف»: مواقف «اركن واركب» للسيارات.</p>')
+    body.append('<h2>من محطة %s بالمترو</h2>' % e(sn(sid)))
+    body.append(routes_table([(sid, x) for x in cfg['to']]))
+    body.append('<h2>أحياء قريبة</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[o['slug']], e(o['ar'])) for o in P.near_districts(d)) +
+                '<li><a href="{ROOT}ar/districts/">جميع الأحياء</a></li></ul>')
+    body.append(hours_html())
+    title = 'أقرب محطة مترو ل%s في الرياض: المسافة والرحلات' % d['ar']
+    desc = lead.split('. ')[0].rstrip('.') + '. المسافة ومواقف السيارات ووقت الرحلة بالمترو.'
+    ld = {"@context": "https://schema.org", "@type": "Place", "name": d['ar'] + '، الرياض', "alternateName": d['en'],
+          "geo": {"@type": "GeoCoordinates", "latitude": d['mid'][0], "longitude": d['mid'][1]}}
+    write(path, frame(path, title, desc, '\n'.join(body), [('ar/districts/', 'الأحياء'), (path, d['ar'])], ld))
+
+
+def districts_list():
+    path = 'ar/districts/'
+    lead = 'اعرف أقرب محطة مترو لحيّك في الرياض: %d حياً قرب مسارات المترو الستة، مع المحطات داخل كل حي أو أقرب محطة إليه وبُعدها.' % len(DISTRICTS)
+    body = ['<h1>أحياء الرياض وأقرب محطات المترو</h1>', '<p class="lead">%s</p>' % e(lead)]
+    body.append('<div class="scroll"><table><tr><th>الحي</th><th>أقرب محطة</th><th>المسافة</th></tr>')
+    for d in sorted(DISTRICTS, key=dn):
+        sid = P.district_station(d)
+        body.append('<tr><td><a href="{ROOT}%s">%s</a></td><td>%s</td><td>%s</td></tr>' % (
+            DIST_PAGE[d['slug']], e(d['ar']), e(sn(sid)), 'داخل الحي' if d['inside'] else kmt(P.dist_km(d, sid))))
+    body.append('</table></div>')
+    body.append('<p class="note">حدود الأحياء: العنوان الوطني. المسافات في خط مستقيم من وسط الحي.</p>')
+    write(path, frame(path, 'أقرب محطة مترو لكل أحياء الرياض', lead, '\n'.join(body), [(path, 'الأحياء')]))
 
 
 # ---------------- lines, stations list, timings, map ----------------
@@ -517,10 +600,13 @@ def build():
     line_pages()
     for d in CFG['destinations']:
         destination(d)
-    for s in CFG['stations']:
+    for s in P.STATIONS:
         station(s)
     for r in CFG['routes']:
         route_page(r)
+    districts_list()
+    for d in DISTRICTS:
+        district(d)
     return dict(PAGES)
 
 

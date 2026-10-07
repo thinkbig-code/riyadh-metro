@@ -1,5 +1,5 @@
 {
- "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park. Arabic pages (ar/...) use title_ar and lead_ar; Arabic queries such as اقرب محطة مترو, مواعيد مترو الرياض, اسعار مترو الرياض, خريطة مترو الرياض. Added 7 Oct 2026: 23 more places (stadiums, malls, universities, hospitals, railway stations, Jawazat) after Google sent the first visitors to destination pages.",
+ "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park. Arabic pages (ar/...) use title_ar and lead_ar; Arabic queries such as اقرب محطة مترو, مواعيد مترو الرياض, اسعار مترو الرياض, خريطة مترو الرياض. Added 7 Oct 2026: 23 more places (stadiums, malls, universities, hospitals, railway stations, Jawazat) after Google sent the first visitors to destination pages. Added 7 Oct 2026: a page for every station (station_to: the places each station page gives travel times to) and district pages from data/districts.json (اقرب محطة مترو لحي ...), for people in Riyadh who search by their district.",
  "destinations": [
   {
    "slug": "riyadh-airport",
@@ -673,5 +673,13 @@
    "title_ar": "من مطار الرياض إلى برج المملكة بالمترو"
   }
  ],
- "extra_pairs": []
+ "extra_pairs": [],
+ "station_to": [
+  "p_king_khalid_airport_terminals_1_2",
+  "p_kafd_king_abdullah_financial_district",
+  "p_kingdom_centre",
+  "p_al_batha",
+  "p_national_museum",
+  "p_boulevard_city"
+ ]
 }

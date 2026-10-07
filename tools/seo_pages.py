@@ -41,9 +41,53 @@ def t(key, **kw):
 
 # ---------------- what exists ----------------
 PAGES = {}            # path -> title, for links and the sitemap
-STATION_PAGE = {}     # station id -> path of a page about it
-for s in CFG['stations']:
-    STATION_PAGE[s['id']] = 'stations/%s/' % s['slug']
+import csv, re
+_slug = lambda n: re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', n.lower()))
+# every station has a page; seo_config.json "stations" can set a slug and the places it gives travel times to,
+# the others use the station name and "station_to" (minus places at or right next to the station)
+_given = {s['id']: s for s in CFG['stations']}
+STATIONS = []
+for sid in sorted(ST, key=lambda i: ST[i]['n'].lower()):
+    c = dict(_given.get(sid) or {'id': sid, 'slug': _slug(ST[sid]['n'])})
+    if 'to' not in c:
+        c['to'] = [x for x in CFG.get('station_to', []) if PL[x]['st'] != sid][:5]
+    STATIONS.append(c)
+assert len({c['slug'] for c in STATIONS}) == len(STATIONS), 'two stations with the same slug'
+STATION_PAGE = {c['id']: 'stations/%s/' % c['slug'] for c in STATIONS}
+# official station numbers and Park & Ride, from the app; station type (elevated, underground) from the RCRC open data
+_src = open(os.path.join(ROOT, 'src', 'riyadh-metro.html'), encoding='utf-8').read()
+ST_NO = json.loads(re.search(r'const ST_NO=(\{[^;]*\});', _src).group(1))
+PARK_RIDE = set(json.loads(re.search(r'const PARK_RIDE=new Set\((\[[^\]]*\])\)', _src).group(1)))
+_code = {r['id']: r['rcrc_code'] for r in csv.DictReader(open(os.path.join(ROOT, 'data', 'coords_official.csv')))}
+_type = {r['metro_station_cd']: (r['metro_station_type_desc_en'], r['metro_station_type_desc_ar'])
+         for r in csv.DictReader(open(os.path.join(ROOT, 'data', 'rcrc_metro_stations_2024.csv'), encoding='utf-8-sig'), delimiter=';')}
+ST_TYPE = {sid: _type[c] for sid, c in _code.items() if c in _type}
+# districts (أحياء) near the metro: data/districts.json, made by tools/make_districts.py
+DISTRICTS = json.load(open(os.path.join(ROOT, 'data', 'districts.json'), encoding='utf-8'))['districts']
+DIST_PAGE = {d['slug']: 'districts/%s/' % d['slug'] for d in DISTRICTS}
+
+
+def district_station(d):
+    """the station a district page plans from: the one inside the district nearest its middle, else the nearest"""
+    return d['inside'][0] if d['inside'] else d['near'][0][0]
+
+
+def districts_of(sid):
+    """districts a station is in or is the nearest station to"""
+    return [d for d in DISTRICTS if sid in d['inside'] or (not d['inside'] and d['near'][0][0] == sid)]
+
+
+def dist_km(d, sid):
+    for s_, k in d['near']:
+        if s_ == sid:
+            return k
+    (la, lo), (lb, lob) = d['mid'], D['geo'][sid]
+    return round(math.hypot(la - lb, (lo - lob) * math.cos(math.radians(24.7))) * 111, 1)
+
+
+def walk_min(k):
+    """a rough walking time for a straight-line distance (streets add about a quarter)"""
+    return max(1, round(k * 1.25 / 4.8 * 60))
 DEST_PAGE = {}        # place id -> path
 for d in CFG['destinations']:
     for pid in [d['main']] + d['also']:
@@ -303,7 +347,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Map</a><a href="{root}stations/">Stations</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Map</a><a href="{root}stations/">Stations</a><a href="{root}districts/">Districts</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}
@@ -361,6 +405,8 @@ def routes_table(pairs, label_of):
 def km(a, b):
     if a not in D['geo'] or b not in D['geo']:   # no sourced position: use the schematic distance
         return math.hypot(ST[a]['x'] - ST[b]['x'], ST[a]['y'] - ST[b]['y']) / 30
+    if a == b:
+        return 0.0
     (la1, lo1), (la2, lo2) = D['geo'][a], D['geo'][b]
     return math.hypot(la1 - la2, (lo1 - lo2) * math.cos(math.radians(25.2))) * 111
 
@@ -368,7 +414,11 @@ def km(a, b):
 def station_facts(sid):
     s = ST[sid]
     lines = ', '.join(LINE_NAME[l] for l in s['lines'])
-    rows = [('Lines', lines)]
+    rows = [('Station number', '%d (as on the official map and station signs)' % ST_NO[sid])] if sid in ST_NO else []
+    rows.append(('Lines', lines))
+    if sid in ST_TYPE:
+        rows.append(('Station type', ST_TYPE[sid][0]))
+    rows.append(('Park & Ride', 'Yes, a car park for metro riders' if sid in PARK_RIDE else 'No'))
     if other_names(sid):
         rows.append(('Other or former names', ', '.join(other_names(sid))))
     for w in WALKS:
@@ -455,7 +505,14 @@ def station(cfg):
             lead += ' %s (%s) is about %d minutes away on foot.' % (ST[o]['n'], ', '.join(LINE_NAME[l] for l in ST[o]['lines']), w['t'])
     if other_names(sid):
         lead += ' Other or former names: %s.' % ', '.join(other_names(sid))
-    body = ['<h1>%s metro station</h1>' % e(s['n']), '<p class="lead">%s</p>' % e(lead), plan(sid, 'p_kingdom_centre' if sid != 'urubah' else 'p_national_museum', 'Plan a route from here')]
+    if sid in ST_NO:
+        lead += ' Its number on the official map is %d.' % ST_NO[sid]
+    if sid in PARK_RIDE:
+        lead += ' The station has a Park & Ride car park.'
+    ds = districts_of(sid)
+    if ds:
+        lead += ' It serves %s.' % and_en([d['en'] for d in ds[:4]])
+    body = ['<h1>%s metro station</h1>' % e(s['n']), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'Plan a route from here')]
     body.append('<h2>Station facts</h2>' + station_facts(sid))
     # neighbours on each line
     body.append('<h2>Next stations</h2><ul>')
@@ -481,15 +538,94 @@ def station(cfg):
             via = '' if p['st'] == sid else ' (via %s)' % ST[p['st']]['n']
             body.append('<li>%s%s%s</li>' % (nm, e(via), (', ~%d min on foot' % p['min']) if p.get('min') and p['st'] == sid else ''))
         body.append('</ul>')
+    if ds:
+        body.append('<h2>Districts served</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[d['slug']], e(d['en'])) for d in ds) + '</ul>')
     body.append('<h2>Routes from %s</h2>' % e(s['n']))
     body.append(routes_table([(sid, x) for x in cfg['to']], None))
     body.append(hours_html(sorted({LINE_KIND[l] for l in lines}, key=['metro', 'tram', 'mono'].index)))
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LINE_NAME[l])) for l in lines) + '<li><a href="{ROOT}stations/">All stations and their former names</a></li></ul>')
-    title = '%s Metro Station, Riyadh: Lines, Other Names and Routes' % s['n']
+    title = '%s Metro Station, Riyadh: Lines, Map Number and Routes' % s['n']
     desc = lead.split('. ')[0] + '. ' + ('Also called %s. ' % ', '.join(other_names(sid)) if other_names(sid) else '') + 'Routes, lines and hours.'
     write(path, frame(path, title, desc, '\n'.join(body), [('stations/', 'Stations'), (path, s['n'])],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": s['n'], **({"alternateName": s['f']} if s['f'] else {}),
                        "geo": {"@type": "GeoCoordinates", "latitude": D['geo'][sid][0], "longitude": D['geo'][sid][1]}} if sid in D['geo'] else None))
+
+
+def and_en(xs):
+    xs = list(xs)
+    return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' and ' + xs[-1]
+
+
+def st_lines(sid):
+    return ' and '.join(LINE_NAME[l] for l in ST[sid]['lines'])
+
+
+# ---------------- district pages (nearest metro station to a district) ----------------
+def near_districts(d, n=6):
+    k = lambda o: math.hypot(o['mid'][0] - d['mid'][0], (o['mid'][1] - d['mid'][1]) * 0.91)
+    return sorted((o for o in DISTRICTS if o is not d), key=k)[:n]
+
+
+def nearest_park_ride(d):
+    return min(PARK_RIDE, key=lambda s_: dist_km(d, s_))
+
+
+def district(d):
+    path = DIST_PAGE[d['slug']]
+    sid = district_station(d); k0 = dist_km(d, sid)
+    if d['inside']:
+        n = len(d['inside'])
+        lead = '%s has %s inside the district: %s.' % (d['en'], 'one metro station' if n == 1 else '%d metro stations' % n,
+                                                      '; '.join('%s (%s)' % (ST[x]['n'], st_lines(x)) for x in d['inside']))
+        lead += ' %s is the closest to the middle of the district, about %.1f km away.' % (ST[sid]['n'], k0) if n > 1 else \
+                ' From the middle of the district it is about %.1f km away.' % k0
+    else:
+        lead = '%s has no metro station of its own. The nearest station to the middle of the district is %s on the %s, about %.1f km away in a straight line.' % (
+            d['en'], ST[sid]['n'], st_lines(sid), k0)
+    if k0 <= 1.5:
+        lead += ' That is roughly %d minutes on foot.' % walk_min(k0)
+    pr = nearest_park_ride(d)
+    if pr != sid or sid not in PARK_RIDE:
+        lead += ' The nearest station with Park & Ride is %s, about %.1f km away.' % (ST[pr]['n'], dist_km(d, pr))
+    else:
+        lead += ' The station has a Park & Ride car park.'
+    body = ['<h1>Nearest metro station to %s, Riyadh</h1>' % e(d['en']), '<p class="lead">%s</p>' % e(lead),
+            plan(sid, next(x for x in STATIONS if x['id'] == sid)['to'][0], 'Plan a route from %s' % ST[sid]['n'])]
+    rows = [(x, dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
+    rows = sorted(rows, key=lambda r: r[1])[:5]
+    body.append('<h2>Metro stations for %s</h2><div class="scroll"><table><tr><th>Station</th><th>Lines</th><th>From the middle of the district</th></tr>' % e(d['en']))
+    for x, k in rows:
+        where = 'in the district, ' if x in d['inside'] else ''
+        foot = ', ~%d min on foot' % walk_min(k) if k <= 1.5 else ''
+        body.append('<tr><td><a href="{ROOT}%s">%s</a>%s</td><td>%s</td><td>%s%.1f km%s</td></tr>' % (
+            STATION_PAGE[x], e(ST[x]['n']), ' <span class="note">P&amp;R</span>' if x in PARK_RIDE else '', e(st_lines(x)), where, k, foot))
+    body.append('</table></div>')
+    body.append('<p class="note">Distances are in a straight line from the middle of the district; streets make the walk longer. P&amp;R: Park &amp; Ride car park.</p>')
+    cfg = next(x for x in STATIONS if x['id'] == sid)
+    body.append('<h2>From %s station by metro</h2>' % e(ST[sid]['n']))
+    body.append(routes_table([(sid, x) for x in cfg['to']], None))
+    body.append('<h2>Districts nearby</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[o['slug']], e(o['en'])) for o in near_districts(d)) +
+                '<li><a href="{ROOT}districts/">All districts</a></li></ul>')
+    body.append(hours_html(['metro']))
+    title = 'Nearest Metro Station to %s, Riyadh: Distance and Routes' % d['en']
+    desc = lead.split('. ')[0].rstrip('.') + '. Distances, Park & Ride and travel times by metro.'
+    ld = {"@context": "https://schema.org", "@type": "Place", "name": d['en'] + ', Riyadh', "alternateName": d['ar'],
+          "geo": {"@type": "GeoCoordinates", "latitude": d['mid'][0], "longitude": d['mid'][1]}}
+    write(path, frame(path, title, desc, '\n'.join(body), [('districts/', 'Districts'), (path, d['en'])], ld))
+
+
+def districts_list():
+    path = 'districts/'
+    lead = 'Find the nearest Riyadh Metro station to your district. %d districts near the six metro lines, with the stations inside each district or the nearest one and its distance.' % len(DISTRICTS)
+    body = ['<h1>Riyadh districts and their nearest metro stations</h1>', '<p class="lead">%s</p>' % e(lead)]
+    body.append('<div class="scroll"><table><tr><th>District</th><th>Nearest station</th><th>Distance</th></tr>')
+    for d in DISTRICTS:
+        sid = district_station(d)
+        body.append('<tr><td><a href="{ROOT}%s">%s</a></td><td>%s</td><td>%s</td></tr>' % (
+            DIST_PAGE[d['slug']], e(d['en']), e(ST[sid]['n']), 'in the district' if d['inside'] else '%.1f km' % dist_km(d, sid)))
+    body.append('</table></div>')
+    body.append('<p class="note">District boundaries: Saudi National Address. Distances are in a straight line from the middle of the district.</p>')
+    write(path, frame(path, 'Nearest Metro Station to Every Riyadh District', lead, '\n'.join(body), [(path, 'Districts')]))
 
 
 # ---------------- route pages ----------------
@@ -657,10 +793,13 @@ def build():
     line_pages()
     for d in CFG['destinations']:
         destination(d)
-    for s in CFG['stations']:
+    for s in STATIONS:
         station(s)
     for r in CFG['routes']:
         route_page(r)
+    districts_list()
+    for d in DISTRICTS:
+        district(d)
     return dict(PAGES)
 
 

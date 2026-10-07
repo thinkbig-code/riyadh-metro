@@ -15,6 +15,9 @@ for (const d of cfg.destinations) for (const o of d.origins) d.reverse ? add(d.m
 for (const s of cfg.stations) for (const t of s.to) add(s.id, t);
 for (const r of cfg.routes) { r.pairs.forEach(([a, b]) => add(a, b)); add(...r.return); }
 for (const [a, b] of cfg.extra_pairs || []) add(a, b);
+// every station has a page with travel times to a few key places (seo_config.json: station_to)
+const allStations = fs.readFileSync(path.join(ROOT, 'data', 'coords_official.csv'), 'utf8').trim().split('\n').slice(1).map(l => l.split(',')[0]);
+for (const id of allStations) for (const t of cfg.station_to || []) add(id, t);
 
 (async () => {
   const b = await chromium.launch();

@@ -41,7 +41,7 @@ N_AR = lambda i: html.escape(AR_ST.get(i) or names[i])
 def rtl_ranges(x):
     """right-to-left pages: number ranges (05:00–00:00, 1-2) isolated left to right in the text, so they are
     not shown reversed after Arabic-script letters; tags and links are left alone"""
-    rng = re.compile(r'(?<!\u2066)(\d+(?::\d+)?\s?[–-]\s?\d+(?::\d+)?)')
+    rng = re.compile(r'(?<![\u2066\d:])(\d+(?::\d+)?\s?[–-]\s?\d+(?::\d+)?)')
     return re.sub(r'>([^<]+)<', lambda m: '>' + rng.sub('\u2066\\1\u2069', m.group(1)) + '<', x)
 pid = lambda n: 'p_' + re.sub(r'^_|_$', '', re.sub(r'[^a-z0-9]+', '_', n.lower()))
 AP = pid('King Khalid Airport Terminals 1-2')
@@ -64,8 +64,10 @@ if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostnam
 GUIDES = seo_pages.build()
 GUIDES_AR = seo_pages_ar.build()   # the same pages in Arabic, under ar/
 short = lambda t: t.split(':')[0].replace(' by Metro', '')
-GUIDE_LINKS = ' · '.join(f'<a href="{p}" hreflang="en" lang="en">{html.escape(short(t))}</a>' for p, t in GUIDES.items())
-GUIDE_LINKS_AR = ' · '.join(f'<a href="{p}">{html.escape(t.split(":")[0])}</a>' for p, t in GUIDES_AR.items())
+# the language pages link to the main guides; single stations and districts are reached from the stations and districts lists
+hub = lambda p: not re.match(r'(ar/)?(stations|districts)/[^/]+/', p)
+GUIDE_LINKS = ' · '.join(f'<a href="{p}" hreflang="en" lang="en">{html.escape(short(t))}</a>' for p, t in GUIDES.items() if hub(p))
+GUIDE_LINKS_AR = ' · '.join(f'<a href="{p}">{html.escape(t.split(":")[0])}</a>' for p, t in GUIDES_AR.items() if hub(p))
 
 
 def page(L):
