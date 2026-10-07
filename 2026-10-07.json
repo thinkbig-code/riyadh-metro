@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T17:42:09Z",
+ "generated": "2026-10-07T17:52:25Z",
  "start": "2026-09-07",
  "end": "2026-10-08",
  "total": {
-  "total": 54,
+  "total": 55,
   "total_events": 9,
-  "total_utc": 54,
+  "total_utc": 55,
   "stats": [
    {
     "day": "2026-09-07",
@@ -758,7 +758,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 54
+    "monthly": 55
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 12,
-    "weekly": 31
+    "weekly": 32
    },
    {
     "day": "2026-10-06",
@@ -935,11 +935,11 @@
      0,
      0,
      3,
-     0,
+     1,
      0,
      0
     ],
-    "daily": 12
+    "daily": 13
    },
    {
     "day": "2026-10-08",
@@ -978,14 +978,14 @@
    "path": "/",
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 35,
+   "count": 36,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 4
+    "2026-10-07": 5
    }
   },
   {
@@ -1160,6 +1160,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "com.reddit.frontpage",
+   "name": "com.reddit.frontpage",
+   "count": 1,
+   "ref_scheme": "o"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "count": 1,
@@ -1170,7 +1176,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 45
+   "count": 46
   },
   {
    "id": "(unknown)",
@@ -1207,7 +1213,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 6
+   "count": 7
   },
   {
    "id": "BH",
@@ -1274,7 +1280,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 13
+   "count": 14
   },
   {
    "id": "tablet",
@@ -1301,7 +1307,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 48
+   "count": 49
   },
   {
    "id": "Safari",
@@ -1327,7 +1333,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 9
+   "count": 10
   },
   {
    "id": "Linux",
