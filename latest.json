@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T19:32:56Z",
+ "generated": "2026-10-07T19:40:01Z",
  "start": "2026-09-07",
  "end": "2026-10-08",
  "total": {
-  "total": 125,
-  "total_events": 61,
-  "total_utc": 125,
+  "total": 132,
+  "total_events": 66,
+  "total_utc": 132,
   "stats": [
    {
     "day": "2026-09-07",
@@ -758,7 +758,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 125
+    "monthly": 132
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 12,
-    "weekly": 102
+    "weekly": 109
    },
    {
     "day": "2026-10-06",
@@ -937,9 +937,9 @@
      3,
      8,
      44,
-     19
+     26
     ],
-    "daily": 83
+    "daily": 90
    },
    {
     "day": "2026-10-08",
@@ -978,14 +978,14 @@
    "path": "/",
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 54,
+   "count": 55,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 23
+    "2026-10-07": 24
    }
   },
   {
@@ -1078,6 +1078,60 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-gallery-mall",
+   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "view/t12/rajhi",
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/t12/rajhi",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "station/rajhi/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "station/t12/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_al_faisaliah_tower/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
    }
   },
   {
@@ -1525,7 +1579,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 74,
+   "count": 80,
    "ref_scheme": "o"
   },
   {
@@ -1537,7 +1591,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 8,
+   "count": 9,
    "ref_scheme": "g"
   },
   {
@@ -1563,17 +1617,17 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 116
+   "count": 117
+  },
+  {
+   "id": "ara",
+   "name": "Arabic",
+   "count": 8
   },
   {
    "id": "(unknown)",
    "name": "(unknown)",
    "count": 5
-  },
-  {
-   "id": "ara",
-   "name": "Arabic",
-   "count": 2
   },
   {
    "id": "fra",
@@ -1590,7 +1644,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 75
+   "count": 82
   },
   {
    "id": "US",
@@ -1672,7 +1726,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 83
+   "count": 90
   },
   {
    "id": "tablet",
@@ -1699,12 +1753,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 90
+   "count": 96
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 33
+   "count": 34
   },
   {
    "name": "",
@@ -1720,12 +1774,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 50
+   "count": 56
   },
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 33
+   "count": 34
   },
   {
    "id": "Windows",
