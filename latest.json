@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T18:23:55Z",
+ "generated": "2026-10-07T18:51:51Z",
  "start": "2026-09-07",
  "end": "2026-10-08",
  "total": {
-  "total": 76,
-  "total_events": 24,
-  "total_utc": 76,
+  "total": 106,
+  "total_events": 48,
+  "total_utc": 106,
   "stats": [
    {
     "day": "2026-09-07",
@@ -758,7 +758,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 76
+    "monthly": 106
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 12,
-    "weekly": 53
+    "weekly": 83
    },
    {
     "day": "2026-10-06",
@@ -936,10 +936,10 @@
      0,
      3,
      8,
-     14,
+     44,
      0
     ],
-    "daily": 34
+    "daily": 64
    },
    {
     "day": "2026-10-08",
@@ -978,14 +978,23 @@
    "path": "/",
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 42,
+   "count": 48,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 11
+    "2026-10-07": 17
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/to",
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 3
    }
   },
   {
@@ -996,6 +1005,24 @@
    "daily": {
     "2026-10-04": 2,
     "2026-10-05": 1
+   }
+  },
+  {
+   "path": "place/p_kafd_king_abdullah_financial_district/to",
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 2
+   }
+  },
+  {
+   "path": "place/p_national_museum/to",
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 2
    }
   },
   {
@@ -1015,6 +1042,177 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/aishah/p_souq_al_zal",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "geo/ok/aishah",
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/urubah/p_al_batha",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_al_batha/to",
+   "title": "en|alias",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "geo/ok/urubah",
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/p_granada_mall/p_national_museum",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_granada_mall/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/ksp/kfl",
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "geo/outside/jeddahrd",
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/p_al_masmak_fortress/p_granada_mall",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_granada_mall/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/kbw/p_kafd_king_abdullah_financial_district",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "view/khaleej/p_kafd_king_abdullah_financial_district",
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/khaleej/p_kafd_king_abdullah_financial_district",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "station/khaleej/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/khashm/p_kafd_king_abdullah_financial_district",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "station/khashm/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
    }
   },
   {
@@ -1056,15 +1254,6 @@
   {
    "path": "route/p_al_othaim_mall_rabwah/p_souq_al_zal",
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_souq_al_zal/to",
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -1198,15 +1387,6 @@
    }
   },
   {
-   "path": "place/p_national_museum/to",
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "report/uthman/granadia",
    "title": "en|opened",
    "event": true,
@@ -1264,13 +1444,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 42,
+   "count": 67,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 19,
+   "count": 24,
    "ref_scheme": "o"
   },
   {
@@ -1302,7 +1482,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 67
+   "count": 97
   },
   {
    "id": "(unknown)",
@@ -1329,7 +1509,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 32
+   "count": 61
   },
   {
    "id": "US",
@@ -1339,7 +1519,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 7
+   "count": 8
   },
   {
    "id": "BH",
@@ -1411,7 +1591,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 35
+   "count": 65
   },
   {
    "id": "tablet",
@@ -1438,12 +1618,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 67
+   "count": 77
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 7
+   "count": 27
   },
   {
    "name": "",
@@ -1459,7 +1639,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 28
+   "count": 38
   },
   {
    "id": "Windows",
@@ -1467,14 +1647,14 @@
    "count": 28
   },
   {
+   "id": "iOS",
+   "name": "iOS",
+   "count": 27
+  },
+  {
    "id": "Linux",
    "name": "Linux",
    "count": 9
-  },
-  {
-   "id": "iOS",
-   "name": "iOS",
-   "count": 7
   },
   {
    "id": "Chrome OS",
