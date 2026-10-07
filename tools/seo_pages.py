@@ -8,7 +8,7 @@ lines, walk times, travel times and fares all come from the app, so a data fix r
 every page on the next export and build.
 Returns the list of page paths, for the sitemap.
 """
-import json, html, os, math, datetime
+import json, html, os, math, datetime, re
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 SITE = os.environ.get('SITE', 'https://riyadhmetro.fyi/')
@@ -435,6 +435,36 @@ def related_dest(slug, n=4):
     return '<ul class="links">' + ''.join('<li><a href="{ROOT}destinations/%s/">%s</a></li>' % (d['slug'], e(d['title'])) for d in others) + '</ul>'
 
 
+
+def short_lines(ls):
+    """'Blue Line' or 'Blue/Yellow/Purple lines', for titles"""
+    names = [LINE_NAME[l] for l in ls]
+    return names[0] if len(names) == 1 else '/'.join(n.replace(' Line', '') for n in names) + ' lines'
+
+
+def answer_title(T, kind, main, sid, with_lines=True):
+    """a title that answers the search: 'Kingdom Centre Metro Station: Al Urubah (Blue Line), 4 min walk'"""
+    t = '%s %s: %s' % (T, 'Tram Stop' if kind == 'stop' else 'Metro Station', ST[sid]['n'])
+    if with_lines:
+        t += ' (%s)' % short_lines(ST[sid]['lines'])
+    if main.get('min') and not main.get('note'):
+        t += ', %d min walk' % main['min']
+    if len(t) > 75 and with_lines:   # too long for the search results: the lines are on the page anyway
+        return answer_title(T, kind, main, sid, False)
+    if len(t) > 75 and '(' in T:     # still too long: drop the other name in brackets
+        return answer_title(re.sub(r'\s*\(.*?\)', '', T), kind, main, sid, False)
+    return t
+
+
+def answer_desc(T, kind, main, sid, tail):
+    d = 'The nearest %s to %s is %s on the %s' % ('tram stop' if kind == 'stop' else 'metro station', T, ST[sid]['n'], ' and '.join(LINE_NAME[l] for l in ST[sid]['lines']))
+    if main.get('note'):
+        d += ', then by bus or taxi'
+    elif main.get('min'):
+        d += ', about %d minutes on foot' % main['min']
+    return d + '. ' + tail
+
+
 # ---------------- destination pages ----------------
 def destination(d):
     main = PL[d['main']]; sid = main['st']; s = ST[sid]
@@ -485,8 +515,8 @@ def destination(d):
     kinds = sorted({LINE_KIND[l] for l in lines}, key=['metro', 'tram', 'mono'].index)
     body.append(hours_html(kinds))
     body.append('<h2>Nearby on this map</h2>' + related_dest(d['slug']))
-    title = '%s by Metro: Nearest Station, Walk and Route' % d['title']
-    desc = lead.split('. ')[0].rstrip('.') + '. Routes from the airport and other areas with travel time, walking and fare.'
+    title = answer_title(d['title'], kind_word, main, sid)
+    desc = answer_desc(d['title'], kind_word, main, sid, 'Travel times from the airport and other areas, fare and hours.')
     write(path, frame(path, title, desc, '\n'.join(body), [(path, d['title'])]))
 
 
@@ -544,7 +574,7 @@ def station(cfg):
     body.append(routes_table([(sid, x) for x in cfg['to']], None))
     body.append(hours_html(sorted({LINE_KIND[l] for l in lines}, key=['metro', 'tram', 'mono'].index)))
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LINE_NAME[l])) for l in lines) + '<li><a href="{ROOT}stations/">All stations and their former names</a></li></ul>')
-    title = '%s Metro Station, Riyadh: Lines, Map Number and Routes' % s['n']
+    title = '%s Metro Station, Riyadh: %s%s' % (s['n'], short_lines(lines), (', No. %d' % ST_NO[sid]) if sid in ST_NO else '')
     desc = lead.split('. ')[0] + '. ' + ('Also called %s. ' % ', '.join(other_names(sid)) if other_names(sid) else '') + 'Routes, lines and hours.'
     write(path, frame(path, title, desc, '\n'.join(body), [('stations/', 'Stations'), (path, s['n'])],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": s['n'], **({"alternateName": s['f']} if s['f'] else {}),
@@ -607,8 +637,8 @@ def district(d):
     body.append('<h2>Districts nearby</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[o['slug']], e(o['en'])) for o in near_districts(d)) +
                 '<li><a href="{ROOT}districts/">All districts</a></li></ul>')
     body.append(hours_html(['metro']))
-    title = 'Nearest Metro Station to %s, Riyadh: Distance and Routes' % d['en']
-    desc = lead.split('. ')[0].rstrip('.') + '. Distances, Park & Ride and travel times by metro.'
+    title = 'Nearest Metro Station to %s, Riyadh: %s%s' % (d['en'], ST[sid]['n'], ' (in the district)' if d['inside'] else ', %.1f km' % k0)
+    desc = '. '.join(lead.split('. ')[:2]).rstrip('.') + '. Distances, Park & Ride and travel times by metro.'
     ld = {"@context": "https://schema.org", "@type": "Place", "name": d['en'] + ', Riyadh', "alternateName": d['ar'],
           "geo": {"@type": "GeoCoordinates", "latitude": d['mid'][0], "longitude": d['mid'][1]}}
     write(path, frame(path, title, desc, '\n'.join(body), [('districts/', 'Districts'), (path, d['en'])], ld))

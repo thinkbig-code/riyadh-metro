@@ -380,8 +380,14 @@ def destination(d):
                 ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (p, e(n)) for p, n in links) + '</ul>')
     body.append(hours_html())
     body.append('<h2>أماكن قريبة على الخريطة</h2>' + related_dest(d['slug']))
-    title = '%s بالمترو: أقرب محطة مترو والطريق' % T
-    desc = lead.split('. ')[0].rstrip('.') + '. الطريق من المطار ومناطق أخرى مع وقت الرحلة والمشي والسعر.'
+    TT = re.sub(r'\s*\(.*?\)', '', T) if len(T) > 25 else T     # shorter in search results
+    walk = ('، %s سيراً' % mins(main['min'])) if main.get('min') and not main.get('note') else ''
+    title = 'محطة مترو %s: محطة %s (%s)%s' % (TT, sn(sid), lines_txt(s['lines']), walk)
+    if len(title) > 75:     # too long for the search results: the lines are on the page anyway
+        title = 'محطة مترو %s: محطة %s%s' % (TT, sn(sid), walk)
+    desc = 'أقرب محطة مترو إلى %s هي محطة %s على %s' % (T, sn(sid), lines_txt(s['lines']))
+    desc += ('، ثم بالحافلة أو سيارة الأجرة' if main.get('note') else ('، على بُعد نحو %s سيراً' % mins(main['min'])) if main.get('min') else '')
+    desc += '. وقت الرحلة من المطار ومناطق أخرى والسعر ومواعيد التشغيل.'
     write(path, frame(path, title, desc, '\n'.join(body), [(path, T)]))
 
 
@@ -429,7 +435,7 @@ def station(cfg):
     body.append(routes_table([(sid, x) for x in cfg['to']]))
     body.append(hours_html())
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LN[l])) for l in ls) + '<li><a href="{ROOT}ar/stations/">جميع المحطات</a></li></ul>')
-    title = 'محطة %s في مترو الرياض: المسار ورقم المحطة والرحلات' % sn(sid)
+    title = 'محطة %s، مترو الرياض: %s%s' % (sn(sid), lines_txt(ls), (' (رقم %d)' % P.ST_NO[sid]) if sid in P.ST_NO else '')
     write(path, frame(path, title, lead.split('. ')[0] + '. المسارات والرحلات والمواعيد.', '\n'.join(body), [('ar/stations/', 'المحطات'), (path, sn(sid))],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": sn(sid), "alternateName": s['n'],
                        "geo": {"@type": "GeoCoordinates", "latitude": D['geo'][sid][0], "longitude": D['geo'][sid][1]}} if sid in D['geo'] else None))
@@ -496,8 +502,8 @@ def district(d):
     body.append('<h2>أحياء قريبة</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (DIST_PAGE[o['slug']], e(o['ar'])) for o in P.near_districts(d)) +
                 '<li><a href="{ROOT}ar/districts/">جميع الأحياء</a></li></ul>')
     body.append(hours_html())
-    title = 'أقرب محطة مترو ل%s في الرياض: المسافة والرحلات' % d['ar']
-    desc = lead.split('. ')[0].rstrip('.') + '. المسافة ومواقف السيارات ووقت الرحلة بالمترو.'
+    title = 'أقرب محطة مترو ل%s في الرياض: محطة %s%s' % (d['ar'], sn(sid), ' (داخل الحي)' if d['inside'] else '، %s' % kmt(k0))
+    desc = '. '.join(lead.split('. ')[:2]).rstrip('.') + '. المسافة ومواقف السيارات ووقت الرحلة بالمترو.'
     ld = {"@context": "https://schema.org", "@type": "Place", "name": d['ar'] + '، الرياض', "alternateName": d['en'],
           "geo": {"@type": "GeoCoordinates", "latitude": d['mid'][0], "longitude": d['mid'][1]}}
     write(path, frame(path, title, desc, '\n'.join(body), [('ar/districts/', 'الأحياء'), (path, d['ar'])], ld))
