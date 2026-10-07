@@ -177,7 +177,7 @@ def chips(v):
     return ' '.join(h)
 
 
-def plan(a, b, label='افتح هذا المسار في المخطط', small=False):
+def plan(a, b, label='افتح هذا المسار على الخريطة', small=False):
     return '<a class="cta%s" href="{ROOT}ar.html#%s~%s~ar">%s</a>' % (' sm' if small else '', a, b, e(label))
 
 
@@ -199,7 +199,7 @@ def routes_table(pairs):
         v, _ = P.best(a, b)
         page = PAIR_PAGE.get(a + '~' + b)
         more = ('<a href="{ROOT}%s">خطوة بخطوة</a> · ' % page) if page else ''
-        rows.append('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s<a href="{ROOT}ar.html#%s~%s~ar">المخطط</a></td></tr>' % (
+        rows.append('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s<a href="{ROOT}ar.html#%s~%s~ar">الخريطة</a></td></tr>' % (
             e(name_of(a)), e(name_of(b)), chips(v), e(span(v)), e(xf_text(v['xf'])), e(fare_text(v)), more, a, b))
     rows.append('</table></div>')
     return '\n'.join(rows)
@@ -314,7 +314,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 </main>
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} أوقات الرحلات في هذه الصفحة ليوم عمل في منتصف النهار، مع الانتظار المعتاد للقطار.</p>
-<p>خريطة مستقلة غير تجارية، لا علاقة لها بالنقل العام بمدينة الرياض أو الهيئة الملكية لمدينة الرياض. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">الإبلاغ عن مشكلة</a> · <a href="{root}ar.html">افتح مخطط الرحلات</a></p>
+<p>خريطة مستقلة غير تجارية، لا علاقة لها بالنقل العام بمدينة الرياض أو الهيئة الملكية لمدينة الرياض. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">الإبلاغ عن مشكلة</a> · <a href="{root}ar.html">افتح الخريطة التفاعلية</a></p>
 </footer>
 </body>
 </html>
@@ -355,7 +355,7 @@ def destination(d):
             lead += ' ' + t(main['note'], s=sn(sid))
     body = ['<h1>%s بالمترو: أقرب محطة وطريق الوصول</h1>' % e(T), '<p class="lead">%s</p>' % e(lead)]
     o0 = d['origins'][0]
-    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'افتح في مخطط الرحلات'))
+    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'افتح على الخريطة التفاعلية'))
     body.append('<h2>أقرب محطة ووقت المشي</h2><div class="scroll"><table><tr><th>المكان</th><th>أقرب محطة</th><th>سيراً</th></tr>')
     for pid in [d['main']] + d['also']:
         p = PL[pid]

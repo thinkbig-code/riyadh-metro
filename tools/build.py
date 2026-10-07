@@ -143,7 +143,7 @@ def page(L):
 for L in ORDER:
     open(OUT + TX[L]["file"], 'w', encoding='utf-8').write(page(L))
 ver = hashlib.sha1(''.join(open(OUT + TX[L]["file"], encoding='utf-8').read() for L in ORDER).encode()).hexdigest()[:10]
-manifest = {"name": "Riyadh Metro Map & Route Planner", "short_name": "Riyadh Metro", "description": html.unescape(TX["en"]["ogDesc"]),
+manifest = {"name": "Interactive Riyadh Metro Map", "short_name": "Riyadh Metro", "description": html.unescape(TX["en"]["ogDesc"]),
             "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#F4F7F8", "theme_color": "#F4F7F8",
             "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
                       {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}]}

@@ -354,7 +354,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 </main>
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} Travel times on this page are for a weekday at midday, including typical waiting.</p>
-<p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">Report a problem</a> · <a href="{root}">Open the route planner</a></p>
+<p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">Report a problem</a> · <a href="{root}">Open the interactive map</a></p>
 </footer>
 </body>
 </html>
@@ -367,7 +367,7 @@ def write(path, content):
     open(full, 'w').write(content)
 
 
-def plan(a, b, label='Open this route in the planner', small=False):
+def plan(a, b, label='Open this route on the map', small=False):
     return '<a class="cta%s" href="{ROOT}#%s~%s~en">%s</a>' % (' sm' if small else '', a, b, e(label))
 
 
@@ -396,7 +396,7 @@ def routes_table(pairs, label_of):
         page = PAIR_PAGE.get(a + '~' + b)
         more = ('<a href="{ROOT}%s">Step by step</a> · ' % page) if page else ''
         warn = ' <span class="muted">(not running now)</span>' if suspended_in(v) else ''
-        rows.append('<tr><td>%s</td><td>%s</td><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s<a href="{ROOT}#%s~%s~en">Planner</a></td></tr>' % (
+        rows.append('<tr><td>%s</td><td>%s</td><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s<a href="{ROOT}#%s~%s~en">Map</a></td></tr>' % (
             e(end_of(a)['name']), e(end_of(b)['name']), chips(v), warn, span(v), xf_text(v['xf']), e(fare_text(fare(v))), more, a, b))
     rows.append('</table></div>')
     return '\n'.join(rows)
@@ -456,7 +456,7 @@ def destination(d):
     if any(LINE_KIND[l] in SUSP for l in lines):
         body.append('<div class="warn">%s The routes below show the monorail part for when it reopens; check the operator before you travel.</div>' % e(t('monoSuspended')))
     o0 = d['origins'][0]
-    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'Open in the route planner'))
+    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'Open on the interactive map'))
     # the places on this page and their walks
     allp = [d['main']] + d['also']
     body.append('<h2>Nearest stop and walking time</h2><div class="scroll"><table><tr><th>Place</th><th>Nearest stop</th><th>On foot</th></tr>')
