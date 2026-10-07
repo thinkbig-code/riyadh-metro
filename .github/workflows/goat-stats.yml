@@ -1,0 +1,39 @@
+# Daily copy of the visit statistics (GoatCounter API, read-only token in the GOATCOUNTER_TOKEN secret)
+# to the `stats` branch, so the numbers can be read from the repository. Aggregate counts only.
+name: Stats
+on:
+  schedule:
+    - cron: '17 1 * * *'     # every day 05:17 Riyadh / Dubai time
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: stats
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    env:
+      GOAT_SITE: https://riyadhmetro.goatcounter.com
+    steps:
+      - uses: actions/checkout@v5
+      - name: Download statistics
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: |
+          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats" --days 30
+          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats-all" --days 365
+          mv "$RUNNER_TEMP/stats-all/latest.json" "$RUNNER_TEMP/stats/year.json"
+      - name: Commit to the stats branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin stats; then
+            git worktree add "$RUNNER_TEMP/w" FETCH_HEAD
+            cd "$RUNNER_TEMP/w" && git checkout -B stats
+          else
+            git worktree add --detach "$RUNNER_TEMP/w"
+            cd "$RUNNER_TEMP/w" && git checkout --orphan stats && git rm -rq --cached . && find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+          cp "$RUNNER_TEMP"/stats/*.json .
+          git add -A
+          git commit -qm "stats $(date -u +%F)" || { echo "no change"; exit 0; }
+          git push origin stats
