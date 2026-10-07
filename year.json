@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T18:14:39Z",
+ "generated": "2026-10-07T18:24:04Z",
  "start": "2025-10-07",
  "end": "2026-10-08",
  "total": {
-  "total": 63,
-  "total_events": 15,
-  "total_utc": 63,
+  "total": 76,
+  "total_events": 24,
+  "total_utc": 76,
   "stats": [
    {
     "day": "2025-10-07",
@@ -10808,7 +10808,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 63
+    "monthly": 76
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 28
+    "weekly": 41
    },
    {
     "day": "2026-10-07",
@@ -10986,10 +10986,10 @@
      0,
      3,
      8,
-     1,
+     14,
      0
     ],
-    "daily": 21
+    "daily": 34
    },
    {
     "day": "2026-10-08",
@@ -11028,14 +11028,14 @@
    "path": "/",
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 38,
+   "count": 42,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 7
+    "2026-10-07": 11
    }
   },
   {
@@ -11049,6 +11049,15 @@
    }
   },
   {
+   "path": "place/p_king_khalid_airport_terminals_1_2/from",
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 2
+   }
+  },
+  {
    "path": "/destinations/king-abdullah-park",
    "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
    "event": false,
@@ -11056,6 +11065,78 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/p_al_othaim_mall_rabwah/p_king_fahd_national_library",
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/p_al_othaim_mall_rabwah/p_king_fahd_national_library",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_king_fahd_national_library/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "geo/fail/-",
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/p_al_othaim_mall_rabwah/p_souq_al_zal",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "noresult/from/-",
+   "title": "en|minisi",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
    }
   },
   {
@@ -11176,15 +11257,6 @@
    }
   },
   {
-   "path": "place/p_king_khalid_airport_terminals_1_2/from",
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "report/uthman/granadia",
    "title": "en|opened",
    "event": true,
@@ -11242,13 +11314,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 39,
+   "count": 42,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 9,
+   "count": 19,
    "ref_scheme": "o"
   },
   {
@@ -11280,7 +11352,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 54
+   "count": 67
   },
   {
    "id": "(unknown)",
@@ -11307,7 +11379,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 20
+   "count": 32
   },
   {
    "id": "US",
@@ -11342,6 +11414,11 @@
   {
    "id": "BR",
    "name": "Brazil",
+   "count": 1
+  },
+  {
+   "id": "CH",
+   "name": "Switzerland",
    "count": 1
   },
   {
@@ -11384,7 +11461,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 22
+   "count": 35
   },
   {
    "id": "tablet",
@@ -11411,12 +11488,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 57
+   "count": 67
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 4
+   "count": 7
   },
   {
    "name": "",
@@ -11430,14 +11507,14 @@
  ],
  "systems": [
   {
-   "id": "Windows",
-   "name": "Windows",
+   "id": "Android",
+   "name": "Android",
    "count": 28
   },
   {
-   "id": "Android",
-   "name": "Android",
-   "count": 18
+   "id": "Windows",
+   "name": "Windows",
+   "count": 28
   },
   {
    "id": "Linux",
@@ -11447,7 +11524,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 4
+   "count": 7
   },
   {
    "id": "Chrome OS",
