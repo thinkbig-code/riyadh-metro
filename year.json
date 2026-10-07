@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T20:31:54Z",
+ "generated": "2026-10-07T20:52:03Z",
  "start": "2025-10-07",
  "end": "2026-10-08",
  "total": {
-  "total": 158,
-  "total_events": 82,
-  "total_utc": 158,
+  "total": 172,
+  "total_events": 93,
+  "total_utc": 172,
   "stats": [
    {
     "day": "2025-10-07",
@@ -10808,7 +10808,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 158
+    "monthly": 172
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 123
+    "weekly": 137
    },
    {
     "day": "2026-10-07",
@@ -10994,7 +10994,7 @@
    {
     "day": "2026-10-08",
     "hourly": [
-     10,
+     24,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 10
+    "daily": 24
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 65,
+   "count": 68,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11037,7 +11037,18 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 4
+    "2026-10-08": 7
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/from",
+   "path_id": 110300993,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 1
    }
   },
   {
@@ -11048,6 +11059,17 @@
    "count": 3,
    "daily": {
     "2026-10-07": 3
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 1
    }
   },
   {
@@ -11083,29 +11105,9 @@
    }
   },
   {
-   "path": "place/p_al_masmak_fortress/from",
-   "path_id": 110300993,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 2
-   }
-  },
-  {
    "path": "place/p_kafd_king_abdullah_financial_district/to",
    "path_id": 110300373,
    "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 2
-   }
-  },
-  {
-   "path": "geo/denied/-",
-   "path_id": 110295286,
-   "title": "en",
    "event": true,
    "count": 2,
    "daily": {
@@ -11151,6 +11153,96 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/tuwaiq/salam",
+   "path_id": 110323905,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_al_masmak_fortress/salam",
+   "path_id": 110323882,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/museum/stc",
+   "path_id": 110323879,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/museum/stc",
+   "path_id": 110323857,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/urubah/salam",
+   "path_id": 110323768,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/urubah/salam",
+   "path_id": 110323735,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/museum/from",
+   "path_id": 110323721,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_national_museum/from",
+   "path_id": 110323701,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/murooj/from",
+   "path_id": 110322261,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -11848,11 +11940,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 52
+    "count": 54
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 12
+    "count": 13
    },
    {
     "name": "www.bing.com",
@@ -11912,13 +12004,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 52
+    "count": 54
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 12
+    "count": 13
    }
   ],
   "www.bing.com": [
@@ -11969,13 +12061,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 99,
+   "count": 109,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 43,
+   "count": 47,
    "ref_scheme": "o"
   },
   {
@@ -12007,7 +12099,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 143
+   "count": 157
   },
   {
    "id": "ara",
@@ -12034,7 +12126,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 107
+   "count": 117
   },
   {
    "id": "US",
@@ -12050,6 +12142,11 @@
    "id": "GB",
    "name": "United Kingdom",
    "count": 6
+  },
+  {
+   "id": "JO",
+   "name": "Hashemite Kingdom of Jordan",
+   "count": 4
   },
   {
    "id": "BH",
@@ -12116,7 +12213,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 109
+   "count": 121
   },
   {
    "id": "tablet",
@@ -12126,7 +12223,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 38
+   "count": 40
   },
   {
    "id": "desktophd",
@@ -12143,12 +12240,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 113
+   "count": 119
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 43
+   "count": 51
   },
   {
    "name": "",
@@ -12164,17 +12261,17 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 69
+   "count": 73
   },
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 40
+   "count": 48
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 32
+   "count": 34
   },
   {
    "id": "Linux",
