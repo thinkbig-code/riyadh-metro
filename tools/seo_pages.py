@@ -310,7 +310,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 </main>
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} Travel times on this page are for a weekday at midday, including typical waiting.</p>
-<p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="https://github.com/thinkbig-code/riyadh-metro/issues">Report a problem</a> · <a href="{root}">Open the route planner</a></p>
+<p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">Report a problem</a> · <a href="{root}">Open the route planner</a></p>
 </footer>
 </body>
 </html>
@@ -400,6 +400,8 @@ def destination(d):
             lead += ' It is about %d minutes on foot, %s.' % (main['min'], t(main['walk']))
         if other_names(sid):
             lead += ' The station has also been called %s.' % ' and '.join(other_names(sid))
+        if main.get('note'):
+            lead += ' ' + t(main['note'], s=s['n'])
     body = ['<h1>%s by metro: nearest station and how to get there</h1>' % e(d['title']), '<p class="lead">%s</p>' % e(lead)]
     if any(LINE_KIND[l] in SUSP for l in lines):
         body.append('<div class="warn">%s The routes below show the monorail part for when it reopens; check the operator before you travel.</div>' % e(t('monoSuspended')))

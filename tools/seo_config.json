@@ -1,5 +1,5 @@
 {
- "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park. Arabic pages (ar/...) use title_ar and lead_ar; Arabic queries such as اقرب محطة مترو, مواعيد مترو الرياض, اسعار مترو الرياض, خريطة مترو الرياض.",
+ "_about": "Pages built by tools/seo_pages.py. Only pages listed here exist; every fact on them comes from the app data (tools/seo_data.json). Pages chosen from Google autocomplete patterns seen on 2 Oct 2026 (nearest metro station to Kingdom Tower, Diriyah, Riyadh Park, Riyadh Gallery, Nakheel Mall, Boulevard City; riyadh airport to batha metro). Added 2 Oct 2026 for new places: Al-Awwal Park, Kingdom Arena, Diplomatic Quarter, gold souq, King Abdullah Park. Arabic pages (ar/...) use title_ar and lead_ar; Arabic queries such as اقرب محطة مترو, مواعيد مترو الرياض, اسعار مترو الرياض, خريطة مترو الرياض. Added 7 Oct 2026: 23 more places (stadiums, malls, universities, hospitals, railway stations, Jawazat) after Google sent the first visitors to destination pages.",
  "destinations": [
   {
    "slug": "riyadh-airport",
@@ -237,6 +237,342 @@
     "p_riyadh_railway_station"
    ],
    "title_ar": "منتزه الملك عبدالله (الملز)"
+  },
+  {
+   "slug": "king-fahd-stadium",
+   "title": "King Fahd Stadium (King Fahd Sports City)",
+   "main": "p_king_fahd_sports_city_stadium",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "استاد الملك فهد الدولي (مدينة الملك فهد الرياضية)"
+  },
+  {
+   "slug": "prince-faisal-bin-fahd-stadium",
+   "title": "Prince Faisal bin Fahd Stadium (Malaz)",
+   "main": "p_prince_faisal_bin_fahd_stadium",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "ملعب الأمير فيصل بن فهد (الملز)"
+  },
+  {
+   "slug": "princess-nourah-university",
+   "title": "Princess Nourah University (PNU)",
+   "main": "p_princess_nourah_university",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "جامعة الأميرة نورة بنت عبد الرحمن"
+  },
+  {
+   "slug": "imam-university",
+   "title": "Imam Mohammad Ibn Saud Islamic University",
+   "main": "p_imam_mohammad_ibn_saud_islamic_university",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "جامعة الإمام محمد بن سعود الإسلامية"
+  },
+  {
+   "slug": "riyadh-exhibition-center",
+   "title": "Riyadh International Convention & Exhibition Center",
+   "main": "p_riyadh_international_convention_exhibition_center",
+   "also": [
+    "p_saqr_al_jazeera_aviation_museum"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مركز الرياض الدولي للمؤتمرات والمعارض"
+  },
+  {
+   "slug": "riyadh-front",
+   "title": "Riyadh Front Exhibition & Conference Center",
+   "main": "p_riyadh_front_exhibition_conference_center",
+   "also": [
+    "p_roshn_front"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مركز واجهة الرياض للمعارض والمؤتمرات"
+  },
+  {
+   "slug": "al-faisaliah-tower",
+   "title": "Al Faisaliah Tower",
+   "main": "p_al_faisaliah_tower",
+   "also": [
+    "p_king_fahd_national_library"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "برج الفيصلية"
+  },
+  {
+   "slug": "granada-mall",
+   "title": "Granada Mall",
+   "main": "p_granada_mall",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "غرناطة مول"
+  },
+  {
+   "slug": "al-hamra-mall",
+   "title": "Al Hamra Mall",
+   "main": "p_al_hamra_mall",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "الحمراء مول"
+  },
+  {
+   "slug": "sahara-mall",
+   "title": "Sahara Mall and Hayat Mall",
+   "main": "p_sahara_mall",
+   "also": [
+    "p_hayat_mall"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "صحارى مول وحياة مول"
+  },
+  {
+   "slug": "al-nakheel-mall",
+   "title": "Al Nakheel Mall",
+   "main": "p_al_nakheel_mall",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "النخيل مول"
+  },
+  {
+   "slug": "panorama-mall",
+   "title": "Panorama Mall",
+   "main": "p_panorama_mall",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "بانوراما مول"
+  },
+  {
+   "slug": "olaya-street",
+   "title": "Olaya Street and Tahlia Street",
+   "main": "p_olaya_street",
+   "also": [
+    "p_tahlia_street"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "شارع العليا وشارع التحلية"
+  },
+  {
+   "slug": "riyadh-railway-station",
+   "title": "Riyadh Railway Station (SAR, Dammam trains)",
+   "main": "p_riyadh_railway_station",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "محطة قطار الرياض (قطارات الدمام)"
+  },
+  {
+   "slug": "riyadh-north-railway-station",
+   "title": "Riyadh North Railway Station (SAR trains to Qassim and the north)",
+   "main": "p_riyadh_north_railway_station",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "محطة قطار الرياض الشمالية (قطارات القصيم والشمال)"
+  },
+  {
+   "slug": "king-faisal-specialist-hospital",
+   "title": "King Faisal Specialist Hospital",
+   "main": "p_king_faisal_specialist_hospital",
+   "also": [
+    "p_alfaisal_university"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مستشفى الملك فيصل التخصصي"
+  },
+  {
+   "slug": "king-fahad-medical-city",
+   "title": "King Fahad Medical City",
+   "main": "p_king_fahad_medical_city",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مدينة الملك فهد الطبية"
+  },
+  {
+   "slug": "prince-sultan-military-medical-city",
+   "title": "Prince Sultan Military Medical City",
+   "main": "p_prince_sultan_military_medical_city",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مدينة الأمير سلطان الطبية العسكرية"
+  },
+  {
+   "slug": "king-saud-medical-city",
+   "title": "King Saud Medical City (Shumaisi)",
+   "main": "p_king_saud_medical_city",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مدينة الملك سعود الطبية (الشميسي)"
+  },
+  {
+   "slug": "dr-sulaiman-al-habib-hospital",
+   "title": "Dr Sulaiman Al Habib Hospital and Saudi German Hospital",
+   "main": "p_dr_sulaiman_al_habib_hospital",
+   "also": [
+    "p_saudi_german_hospital"
+   ],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "مستشفى د. سليمان الحبيب والمستشفى السعودي الألماني"
+  },
+  {
+   "slug": "jawazat",
+   "title": "Jawazat (Passports Office)",
+   "main": "p_jawazat_passports_office",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "الجوازات (المديرية العامة للجوازات)"
+  },
+  {
+   "slug": "king-salman-park",
+   "title": "King Salman Park",
+   "main": "p_king_salman_park",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "حديقة الملك سلمان"
+  },
+  {
+   "slug": "via-riyadh",
+   "title": "Via Riyadh",
+   "main": "p_via_riyadh",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_al_batha",
+    "p_national_museum"
+   ],
+   "title_ar": "ڤيا رياض"
   }
  ],
  "stations": [

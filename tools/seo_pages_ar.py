@@ -295,7 +295,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 </main>
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} أوقات الرحلات في هذه الصفحة ليوم عمل في منتصف النهار، مع الانتظار المعتاد للقطار.</p>
-<p>خريطة مستقلة غير تجارية، لا علاقة لها بالنقل العام بمدينة الرياض أو الهيئة الملكية لمدينة الرياض. <a href="https://github.com/thinkbig-code/riyadh-metro/issues">الإبلاغ عن مشكلة</a> · <a href="{root}ar.html">افتح مخطط الرحلات</a></p>
+<p>خريطة مستقلة غير تجارية، لا علاقة لها بالنقل العام بمدينة الرياض أو الهيئة الملكية لمدينة الرياض. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">الإبلاغ عن مشكلة</a> · <a href="{root}ar.html">افتح مخطط الرحلات</a></p>
 </footer>
 </body>
 </html>
@@ -332,6 +332,8 @@ def destination(d):
         lead = 'أقرب محطة مترو إلى %s هي محطة %s على %s.' % (pn(d['main']), sn(sid), lines_txt(s['lines']))
         if main.get('min'):
             lead += ' المسافة سيراً نحو %s، %s.' % (mins(main['min']), t(main['walk']))
+        if main.get('note'):
+            lead += ' ' + t(main['note'], s=sn(sid))
     body = ['<h1>%s بالمترو: أقرب محطة وطريق الوصول</h1>' % e(T), '<p class="lead">%s</p>' % e(lead)]
     o0 = d['origins'][0]
     body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'افتح في مخطط الرحلات'))

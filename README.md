@@ -70,4 +70,4 @@ After every push to `main` that changes a page, the GitHub Actions workflow `.gi
 
 ## Report a problem
 
-Use the **Report a problem** button on the site, or open an issue in this repository.
+Use the **Report a problem** button on the site (it opens an e-mail to callmebackemail@protonmail.com with the route details), or open an issue in this repository.
