@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T20:52:03Z",
+ "generated": "2026-10-07T22:06:41Z",
  "start": "2025-10-07",
  "end": "2026-10-08",
  "total": {
-  "total": 172,
-  "total_events": 93,
-  "total_utc": 172,
+  "total": 184,
+  "total_events": 100,
+  "total_utc": 184,
   "stats": [
    {
     "day": "2025-10-07",
@@ -10808,7 +10808,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 172
+    "monthly": 184
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 137
+    "weekly": 149
    },
    {
     "day": "2026-10-07",
@@ -10994,9 +10994,9 @@
    {
     "day": "2026-10-08",
     "hourly": [
-     24,
-     0,
-     0,
+     29,
+     6,
+     1,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 24
+    "daily": 36
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 68,
+   "count": 71,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11037,7 +11037,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 7
+    "2026-10-08": 10
    }
   },
   {
@@ -11125,6 +11125,17 @@
    }
   },
   {
+   "path": "/ar/destinations/diriyah",
+   "path_id": 110283859,
+   "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -11153,6 +11164,86 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/tl.html",
+   "path_id": 110333273,
+   "title": "Interactive na Mapa ng Riyadh Metro: lahat ng 6 na linya",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/t12/ishbiliyah",
+   "path_id": 110331033,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/t12/ishbiliyah",
+   "path_id": 110331018,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/ishbiliyah/t12",
+   "path_id": 110330925,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/passport/rec",
+   "path_id": 110325666,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/passport/from",
+   "path_id": 110325665,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/rec/to",
+   "path_id": 110325609,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/ok/passport",
+   "path_id": 110325566,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -11836,16 +11927,6 @@
    }
   },
   {
-   "path": "/ar/destinations/diriyah",
-   "path_id": 110283859,
-   "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "/ar/lines/blue-line",
    "path_id": 110184814,
    "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
@@ -11940,11 +12021,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 54
+    "count": 56
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 13
+    "count": 14
    },
    {
     "name": "www.bing.com",
@@ -11957,10 +12038,22 @@
     "count": 3
    }
   ],
+  "/ar/destinations/diriyah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/tl.html": [
+   {
+    "name": "Facebook",
+    "count": 1
    }
   ],
   "/destinations/riyadh-gallery-mall": [
@@ -11972,12 +12065,6 @@
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/diriyah",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/diriyah": [
-   {
-    "name": "Google",
     "count": 1
    }
   ],
@@ -12004,13 +12091,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 54
+    "count": 56
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 13
+    "count": 14
    }
   ],
   "www.bing.com": [
@@ -12025,6 +12112,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/diriyah",
+    "count": 2
+   },
+   {
     "path": "/destinations/king-abdullah-park",
     "count": 2
    },
@@ -12033,15 +12124,17 @@
     "count": 1
    },
    {
-    "path": "/ar/destinations/diriyah",
-    "count": 1
-   },
-   {
     "path": "/ar/destinations/riyadh-gallery-mall",
     "count": 1
    },
    {
     "path": "/ar/stations/qasr-al-hokm",
+    "count": 1
+   }
+  ],
+  "Facebook": [
+   {
+    "path": "/tl.html",
     "count": 1
    }
   ],
@@ -12061,19 +12154,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 109,
+   "count": 115,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 47,
+   "count": 51,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 9,
+   "count": 10,
    "ref_scheme": "g"
   },
   {
@@ -12089,6 +12182,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "Facebook",
+   "name": "Facebook",
+   "count": 1,
+   "ref_scheme": "c"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "count": 1,
@@ -12099,12 +12198,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 157
+   "count": 168
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 8
+   "count": 9
   },
   {
    "id": "(unknown)",
@@ -12126,7 +12225,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 117
+   "count": 127
   },
   {
    "id": "US",
@@ -12164,6 +12263,11 @@
    "count": 2
   },
   {
+   "id": "NL",
+   "name": "Netherlands",
+   "count": 2
+  },
+  {
    "id": "PL",
    "name": "Poland",
    "count": 2
@@ -12184,13 +12288,13 @@
    "count": 1
   },
   {
-   "id": "IN",
-   "name": "India",
+   "id": "IE",
+   "name": "Ireland",
    "count": 1
   },
   {
-   "id": "NL",
-   "name": "Netherlands",
+   "id": "IN",
+   "name": "India",
    "count": 1
   },
   {
@@ -12213,7 +12317,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 121
+   "count": 132
   },
   {
    "id": "tablet",
@@ -12228,7 +12332,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 1
+   "count": 2
   },
   {
    "id": "unknown",
@@ -12240,12 +12344,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 119
+   "count": 124
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 51
+   "count": 58
   },
   {
    "name": "",
@@ -12261,17 +12365,17 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 73
+   "count": 77
   },
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 48
+   "count": 55
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 34
+   "count": 35
   },
   {
    "id": "Linux",
