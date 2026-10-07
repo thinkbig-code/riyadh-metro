@@ -4,7 +4,7 @@
 Usage:  GOATCOUNTER_TOKEN=... python3 tools/goat_stats.py --site https://riyadhmetro.goatcounter.com --out DIR [--days 30]
 
 Writes DIR/latest.json (last N days) and DIR/YYYY-MM-DD.json (a copy, so changes over time can be compared).
-Only aggregate counts are stored (pages, events, referrers, languages, countries, screen sizes);
+Only aggregate counts are stored (pages, events, referrers and the pages each referrer sent visitors to, languages, countries, screen sizes);
 GoatCounter keeps no personal data. The token needs only "Read statistics".
 """
 import argparse, datetime, json, os, sys, time, urllib.parse, urllib.request
@@ -54,13 +54,30 @@ for _ in range(20):
     if not new:   # the server ignored the exclusion list: stop instead of looping
         break
     for h in new:
-        hits.append({'path': h.get('path'), 'title': h.get('title'), 'event': h.get('event'), 'count': h.get('count'),
+        hits.append({'path': h.get('path'), 'path_id': h.get('path_id'), 'title': h.get('title'), 'event': h.get('event'), 'count': h.get('count'),
                      'daily': {d['day']: d.get('daily', 0) for d in h.get('stats', []) if d.get('daily')}})
         seen.append(h.get('path_id'))
     if not r.get('more'):
         break
     time.sleep(0.5)
 out['hits'] = sorted(hits, key=lambda h: -(h['count'] or 0))
+
+# where the visitors of each page came from (pages only, not events; the 60 most visited)
+by_page, by_ref = {}, {}
+for h in [h for h in out['hits'] if not h['event']][:60]:
+    if h.get('path_id') is None:
+        continue
+    r = get('stats/hits/%s' % h['path_id'], start=start, end=end, limit=20)
+    refs = r.get('refs', r.get('stats', r)) if isinstance(r, dict) else r
+    if not isinstance(refs, list):
+        out.setdefault('page_refs_error', r); continue
+    refs = [{'name': x.get('name') or '(direct or unknown)', 'count': x.get('count')} for x in refs]
+    by_page[h['path']] = refs
+    for x in refs:
+        by_ref.setdefault(x['name'], []).append({'path': h['path'], 'count': x['count']})
+    time.sleep(0.5)
+out['page_refs'] = by_page                     # page -> where its visitors came from
+out['ref_pages'] = {k: sorted(v, key=lambda x: -(x['count'] or 0)) for k, v in by_ref.items()}   # source -> pages it sent visitors to
 
 for page in ['toprefs', 'languages', 'locations', 'sizes', 'browsers', 'systems', 'campaigns']:
     r = get('stats/' + page, start=start, end=end, limit=50)
@@ -71,4 +88,6 @@ os.makedirs(a.out, exist_ok=True)
 for name in ('latest.json', today.isoformat() + '.json'):
     json.dump(out, open(os.path.join(a.out, name), 'w'), ensure_ascii=False, indent=1)
 t = out['total']
-print('total:', t.get('total', t), '| pages and events:', len(out['hits']))
+print('total:', t.get('total', t), '| pages and events:', len(out['hits']), '| pages with sources:', len(out['page_refs']))
+for k in ('Google', 'www.bing.com'):
+    print(k, '->', out['ref_pages'].get(k))
