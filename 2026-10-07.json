@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T17:52:25Z",
+ "generated": "2026-10-07T18:14:31Z",
  "start": "2026-09-07",
  "end": "2026-10-08",
  "total": {
-  "total": 55,
-  "total_events": 9,
-  "total_utc": 55,
+  "total": 63,
+  "total_events": 15,
+  "total_utc": 63,
   "stats": [
    {
     "day": "2026-09-07",
@@ -758,7 +758,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 55
+    "monthly": 63
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 12,
-    "weekly": 32
+    "weekly": 40
    },
    {
     "day": "2026-10-06",
@@ -935,11 +935,11 @@
      0,
      0,
      3,
+     8,
      1,
-     0,
      0
     ],
-    "daily": 13
+    "daily": 21
    },
    {
     "day": "2026-10-08",
@@ -978,14 +978,14 @@
    "path": "/",
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 36,
+   "count": 38,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
     "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
-    "2026-10-07": 5
+    "2026-10-07": 7
    }
   },
   {
@@ -1006,6 +1006,60 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/p_king_abdulaziz_manakh_park/p_olaya_street",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_king_abdulaziz_manakh_park/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "route/p_souq_al_zal/p_olaya_street",
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/from",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
+   }
+  },
+  {
+   "path": "place/p_olaya_street/to",
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-07": 1
    }
   },
   {
@@ -1142,6 +1196,12 @@
    "ref_scheme": "o"
   },
   {
+   "id": "com.reddit.frontpage",
+   "name": "com.reddit.frontpage",
+   "count": 9,
+   "ref_scheme": "o"
+  },
+  {
    "id": "Google",
    "name": "Google",
    "count": 8,
@@ -1160,12 +1220,6 @@
    "ref_scheme": "h"
   },
   {
-   "id": "com.reddit.frontpage",
-   "name": "com.reddit.frontpage",
-   "count": 1,
-   "ref_scheme": "o"
-  },
-  {
    "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "count": 1,
@@ -1176,7 +1230,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 46
+   "count": 54
   },
   {
    "id": "(unknown)",
@@ -1201,14 +1255,14 @@
  ],
  "locations": [
   {
+   "id": "SA",
+   "name": "Saudi Arabia",
+   "count": 20
+  },
+  {
    "id": "US",
    "name": "United States",
    "count": 19
-  },
-  {
-   "id": "SA",
-   "name": "Saudi Arabia",
-   "count": 12
   },
   {
    "id": "AE",
@@ -1280,7 +1334,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 14
+   "count": 22
   },
   {
    "id": "tablet",
@@ -1307,7 +1361,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 49
+   "count": 57
   },
   {
    "id": "Safari",
@@ -1333,7 +1387,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 10
+   "count": 18
   },
   {
    "id": "Linux",
