@@ -297,6 +297,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
 #pop h3{margin:0 0 4px;font-size:15px}
 #pop .lines{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
 .chip{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+.sno{display:inline-block;min-width:20px;padding:0 5px;margin-inline-end:6px;border-radius:999px;border:1.5px solid currentColor;font-size:11px;font-weight:700;line-height:17px;text-align:center;vertical-align:2px;opacity:.75;font-variant-numeric:tabular-nums}
 #pop .pr{display:inline-block;background:#1D4F91;color:#fff;font-weight:700;font-size:11px;line-height:16px;border-radius:4px;padding:0 5px;margin-inline-end:6px}
 #pop .former{font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.35}
 #pop .btns{display:grid;grid-template-columns:1fr 1fr;gap:6px}
@@ -821,6 +822,9 @@ Object.keys(ST).forEach(id=>{ST[id].en=ST[id].n;(ALIAS[id]=ALIAS[id]||[]).push(S
 PLACES.forEach(p=>{p.en=p.n;p.aka=p.aka.concat([p.n]);});
 // former names in Arabic (the station card in Arabic shows these instead of the English ones)
 // stations with a Park & Ride car park (official network map)
+// official station numbers (map circles and station signs)
+const ST_NO={"abudhabi":75,"aishah":44,"albilad":11,"alinma":10,"andalus":81,"aziziah":24,"baida":25,"batha":17,"courts":48,"dhabab":76,"dhahrat":45,"douh":42,"gosi":73,"granadia":79,"habib":2,"hamra":36,"harun":57,"hassan":59,"hilla":49,"hokm":18,"iman":22,"industrial":52,"ishbiliyah":38,"jarir":55,"jarradiyah":47,"jeddahrd":40,"kaaroad":31,"kacst":28,"kafd":3,"kah":70,"kbw":35,"kfd":5,"kfd2":6,"kfl":12,"khaleej":37,"khashm":60,"khurais":82,"ksp":78,"ksu":26,"malaz":54,"manfouhah":21,"margab":50,"mod":71,"moe":32,"mof":69,"moi":13,"murabba":14,"murooj":4,"museum":16,"naseem":58,"nuzhah":33,"oasis":27,"officers":74,"owd":19,"passport":15,"pnu1":64,"pnu2":65,"rabi":61,"railway":53,"rajhi":56,"rec":34,"sab":1,"sabic":63,"salam":83,"salhiyah":51,"skirinah":20,"sportcity":39,"stc":7,"sulimaniyah":77,"sultanah":46,"t12":68,"t34":67,"t5":66,"takhassussi":29,"transport":23,"tuwaiq":41,"urubah":9,"uthman":62,"western":43,"wizarat":72,"wurud":30,"wurud2":8,"yarmuk":80};
+const sno=id=>ST_NO[id]?`<span class="sno" dir="ltr">${ST_NO[id]}</span>`:"";
 const PARK_RIDE=new Set(["sab", "rabi", "pnu2", "kbw", "hamra", "sportcity", "naseem", "khashm", "rajhi", "malaz", "sultanah", "hokm", "baida", "transport", "jeddahrd", "western"]);
 const FORMER_AR={stc:["العليا"],pnu1:["جامعة الأميرة نورة 1"],pnu2:["جامعة الأميرة نورة 2"],ksp:["حديقة الملك سلمان"],kah:["مستشفى الملك عبدالعزيز"],sportcity:["مدينة الملك فهد الرياضية"],granadia:["غرناطية"]};
 Object.entries(FORMER_AR).forEach(([id,xs])=>{ALIAS[id]=(ALIAS[id]||[]).concat(xs,["إس تي سي"].filter(()=>id==="stc"));});
@@ -1093,7 +1097,7 @@ function chipsFor(id){return [...ST[id].lines].map(l=>`<span class="chip"><i cla
 function openPop(id){
   popId=id;const s=ST[id];pop.dir=LANGS.find(l=>l.code===LANG).rtl?"rtl":"ltr";
   const near=PLACES.filter(p=>p.st===id);
-  pop.innerHTML=`<h3>${esc(s.n)}</h3><div class="lines">${chipsFor(id)}</div>`+
+  pop.innerHTML=`<h3>${sno(id)}${esc(s.n)}</h3><div class="lines">${chipsFor(id)}</div>`+
     (PARK_RIDE.has(id)?`<div class="former"><b class="pr">P</b>${esc(t("parkRide"))}</div>`:"")+(formerOf(id).length?`<div class="former">${esc(t("formerly",{x:formerOf(id).join(LANG==="ar"?"، ":", ")}))}</div>`:"")+
     // places far from the station are explained in the route, not in the station card
 
@@ -1628,7 +1632,7 @@ function renderResult(r,variants){
     return `<li class="step${s.walk?" onfoot":""}" style="--c:${s.c||"var(--muted)"};--ink:${s.ink||"#fff"}"><span class="num" aria-hidden="true">${k}</span><div>
       <div class="tt">${esc(s.title)}</div><div class="sub">${esc(s.sub)}</div>`+
       (s.off?`<div class="off">${esc(t("getOff",{s:"\u0001"})).replace("\u0001","<b>"+esc(s.off)+"</b>")}</div>`:"")+
-      (s.mid&&s.mid.length?`<details><summary>${esc(t("onWay"))}</summary><ul>${s.mid.map(x=>`<li>${esc(ST[x].n)}</li>`).join("")}</ul></details>`:"")+
+      (s.mid&&s.mid.length?`<details><summary>${esc(t("onWay"))}</summary><ul>${s.mid.map(x=>`<li>${sno(x)}${esc(ST[x].n)}</li>`).join("")}</ul></details>`:"")+
       `</div></li>`;}).join("")+
     `<li class="step" style="--c:var(--pinB);--ink:#fff"><span class="num" aria-hidden="true">B</span><div><div class="tt">${esc(t("arriveAt",{x:endName(to)}))}</div></div></li></ol>`+`<div class="share"><button id="shToggle" aria-expanded="false">${esc(t("shareRoute"))}</button></div><div class="share" id="shRow" hidden><button id="shCard" class="primary">${esc(t("tripCard"))}</button><button id="shCopy">${esc(t("copy"))}</button><a href="${wa}" target="_blank" rel="noopener">WhatsApp</a><button id="shQr" aria-expanded="false">${esc(t("qr"))}</button></div>
     <div class="shout" id="shOut" hidden><input id="shUrl" readonly value="${esc(url)}" aria-label="${esc(t("linkLabel"))}" dir="ltr"><div class="qr" id="qr" hidden></div></div>`+footHTML();
@@ -1661,6 +1665,7 @@ const norm=s=>s.toLowerCase().replace(/[\u064B-\u065F\u0670\u0640]/g,"").replace
 const IDS=Object.keys(ST);
 function matches(q){
   const n=norm(q);
+  {const m=String(q).trim().match(/^[sS#№]?\s*(\d{1,2})$/);if(m){const id=Object.keys(ST_NO).find(k=>ST_NO[k]===+m[1]);if(id)return [{id,score:0}];}}
   if(!n)return POPULAR.map(id=>({place:PLACE_BY_ID[id],score:0})).concat(IDS.slice().sort((a,b)=>ST[a].n.localeCompare(ST[b].n)).map(id=>({id,score:1})));
   const out=[];
   PLACES.forEach(p=>{const nn=norm(p.n);
@@ -1687,7 +1692,7 @@ function combo(input,wrap,key){
       if(m.place){const p=m.place;return `<li role="option" data-i="${i}" class="${i===act?"on":""}"><i class="lm"></i><span class="nm">${esc(p.n)}<small>${esc(t("place"))} · ${esc(ST[p.st].n)}${p.min?` · ${esc(t("walkChip",{n:p.min}))}`:""}</small></span></li>`;}
       const s=ST[m.id];
       return `<li role="option" data-i="${i}" class="${i===act?"on":""}"><span class="dots">${[...s.lines].map(l=>`<i class="dot" style="background:${LINES[l].c}"></i>`).join("")}</span>
-        <span class="nm">${esc(s.n)}<small>${esc(t("station"))} · ${[...s.lines].map(l=>esc(t(LINES[l].key))).join(LANG==="ar"?"، ":", ")}${m.via?` · ${esc(t("formerly",{x:m.via}))}`:""}</small></span></li>`;}).join(""):`<li class="empty">${esc(t("nothing"))}</li>`;
+        <span class="nm">${sno(m.id)}${esc(s.n)}<small>${esc(t("station"))} · ${[...s.lines].map(l=>esc(t(LINES[l].key))).join(LANG==="ar"?"، ":", ")}${m.via?` · ${esc(t("formerly",{x:m.via}))}`:""}</small></span></li>`;}).join(""):`<li class="empty">${esc(t("nothing"))}</li>`;
   };
   let chosen=false;
   const choose=i=>{const m=items[i];if(!m)return;chosen=true;
