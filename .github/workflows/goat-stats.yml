@@ -1,4 +1,5 @@
 # Daily copy of the visit statistics (GoatCounter API, read-only token in the GOATCOUNTER_TOKEN secret)
+# and of Google Search Console data (service account key in the GSC_KEY secret; skipped if it is not set)
 # to the `stats` branch, so the numbers can be read from the repository. Aggregate counts only.
 name: Stats
 on:
@@ -13,16 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GOAT_SITE: https://riyadhmetro.goatcounter.com
+      SITE_HOST: riyadhmetro.fyi
+      HAS_GSC: ${{ secrets.GSC_KEY != '' }}
     steps:
       - uses: actions/checkout@v5
-      - name: Download statistics
-        env:
-          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
-        run: |
-          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats" --days 30
-          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats-all" --days 365
-          mv "$RUNNER_TEMP/stats-all/latest.json" "$RUNNER_TEMP/stats/year.json"
-      - name: Commit to the stats branch
+      - name: Open the stats branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -33,7 +29,25 @@ jobs:
             git worktree add --detach "$RUNNER_TEMP/w"
             cd "$RUNNER_TEMP/w" && git checkout --orphan stats && git rm -rq --cached . && find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           fi
-          cp "$RUNNER_TEMP"/stats/*.json .
+      - name: Download visit statistics
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: |
+          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats" --days 30
+          python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats-all" --days 365
+          mv "$RUNNER_TEMP/stats-all/latest.json" "$RUNNER_TEMP/stats/year.json"
+      - name: Download Search Console data
+        if: env.HAS_GSC == 'true'
+        continue-on-error: true
+        env:
+          GSC_KEY: ${{ secrets.GSC_KEY }}
+        run: |
+          pip install --quiet google-auth requests
+          python3 tools/gsc_stats.py --host "$SITE_HOST" --sitemap sitemap.xml --prev "$RUNNER_TEMP/w" --out "$RUNNER_TEMP/stats" --inspect 150
+      - name: Commit to the stats branch
+        run: |
+          cp "$RUNNER_TEMP"/stats/*.json "$RUNNER_TEMP/w/"
+          cd "$RUNNER_TEMP/w"
           git add -A
           git commit -qm "stats $(date -u +%F)" || { echo "no change"; exit 0; }
           git push origin stats
