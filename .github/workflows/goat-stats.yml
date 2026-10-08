@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '17 1 * * *'     # every day 05:17 Riyadh / Dubai time
   workflow_dispatch:
+    inputs:
+      quick:
+        description: 'Quick refresh: visits only, skip Search Console (it updates once a day anyway)'
+        type: boolean
+        default: true
 permissions:
   contents: write
 concurrency: stats
@@ -37,7 +42,7 @@ jobs:
           python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats-all" --days 365
           mv "$RUNNER_TEMP/stats-all/latest.json" "$RUNNER_TEMP/stats/year.json"
       - name: Download Search Console data
-        if: env.HAS_GSC == 'true'
+        if: env.HAS_GSC == 'true' && (github.event_name == 'schedule' || inputs.quick == false)
         continue-on-error: true
         env:
           GSC_KEY: ${{ secrets.GSC_KEY }}
