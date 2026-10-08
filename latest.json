@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T10:39:47Z",
+ "generated": "2026-10-08T10:53:14Z",
  "start": "2026-09-08",
  "end": "2026-10-09",
  "total": {
-  "total": 413,
-  "total_events": 252,
-  "total_utc": 413,
+  "total": 421,
+  "total_events": 258,
+  "total_utc": 421,
   "stats": [
    {
     "day": "2026-09-08",
@@ -728,7 +728,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 413
+    "monthly": 421
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 378
+    "weekly": 386
    },
    {
     "day": "2026-10-07",
@@ -928,7 +928,7 @@
      42,
      45,
      45,
-     36,
+     44,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 265
+    "daily": 273
    },
    {
     "day": "2026-10-09",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 147,
+   "count": 149,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -987,7 +987,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 86
+    "2026-10-08": 88
    }
   },
   {
@@ -995,9 +995,9 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 16,
+   "count": 18,
    "daily": {
-    "2026-10-08": 16
+    "2026-10-08": 18
    }
   },
   {
@@ -1045,6 +1045,16 @@
    }
   },
   {
+   "path": "place/p_kingdom_centre/to",
+   "path_id": 110409518,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 4
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/from",
    "path_id": 110295276,
    "title": "en|name",
@@ -1064,16 +1074,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 2
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/to",
-   "path_id": 110409518,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-08": 3
    }
   },
   {
@@ -1167,6 +1167,26 @@
    "path": "place/p_kafd_king_abdullah_financial_district/from",
    "path_id": 110418694,
    "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/khashm/p_kingdom_centre",
+   "path_id": 110409517,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "geo/ok/khashm",
+   "path_id": 110409467,
+   "title": "en",
    "event": true,
    "count": 2,
    "daily": {
@@ -1269,6 +1289,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/khashm/p_kingdom_centre",
+   "path_id": 110446994,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -1962,29 +1992,9 @@
    }
   },
   {
-   "path": "route/khashm/p_kingdom_centre",
-   "path_id": 110409517,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "view/khashm/p_kafd_king_abdullah_financial_district",
    "path_id": 110409501,
    "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "geo/ok/khashm",
-   "path_id": 110409467,
-   "title": "en",
    "event": true,
    "count": 1,
    "daily": {
@@ -2993,8 +3003,8 @@
   }
  ],
  "summary": {
-  "visits": 413,
-  "routes": 83,
+  "visits": 421,
+  "routes": 84,
   "routes_not_found": 0,
   "routes_per_visit": 0.2,
   "share_rate": 0.0,
@@ -3003,15 +3013,19 @@
   "failed_searches": [],
   "nearest_station": {
    "denied": 8,
-   "ok": 9,
+   "ok": 10,
    "far": 1,
    "outside": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 16
+   "new": 18
   },
   "top_routes": [
+   {
+    "name": "khashm > p_kingdom_centre",
+    "count": 2
+   },
    {
     "name": "p_kingdom_centre > p_king_khalid_airport_terminals_1_2",
     "count": 2
@@ -3067,10 +3081,6 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2 > owd",
     "count": 1
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2 > p_kafd_king_abdullah_financial_district",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -3091,12 +3101,12 @@
     "count": 5
    },
    {
-    "name": "p_souq_al_zal",
+    "name": "khashm",
     "count": 4
    },
    {
-    "name": "khashm",
-    "count": 3
+    "name": "p_souq_al_zal",
+    "count": 4
    },
    {
     "name": "ishbiliyah",
@@ -3121,6 +3131,10 @@
     "count": 5
    },
    {
+    "name": "p_kingdom_centre",
+    "count": 4
+   },
+   {
     "name": "p_souq_al_zal",
     "count": 4
    },
@@ -3134,10 +3148,6 @@
    },
    {
     "name": "p_al_faisaliah_tower",
-    "count": 3
-   },
-   {
-    "name": "p_kingdom_centre",
     "count": 3
    },
    {
@@ -3162,7 +3172,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 113
+    "count": 115
    },
    {
     "name": "com.reddit.frontpage",
@@ -3236,7 +3246,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 113
+    "count": 115
    }
   ],
   "com.reddit.frontpage": [
@@ -3305,7 +3315,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 280,
+   "count": 288,
    "ref_scheme": "o"
   },
   {
@@ -3355,7 +3365,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 389
+   "count": 397
   },
   {
    "id": "ara",
@@ -3387,7 +3397,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 320
+   "count": 328
   },
   {
    "id": "US",
@@ -3494,7 +3504,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 311
+   "count": 319
   },
   {
    "id": "tablet",
@@ -3526,7 +3536,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 165
+   "count": 173
   },
   {
    "id": "Firefox",
@@ -3542,7 +3552,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 162
+   "count": 170
   },
   {
    "id": "Android",
