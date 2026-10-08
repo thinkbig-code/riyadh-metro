@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T17:56:35Z",
+ "generated": "2026-10-08T19:00:15Z",
  "start": "2025-10-08",
  "end": "2026-10-09",
  "total": {
-  "total": 666,
-  "total_events": 435,
-  "total_utc": 666,
+  "total": 677,
+  "total_events": 442,
+  "total_utc": 677,
   "stats": [
    {
     "day": "2025-10-08",
@@ -10778,7 +10778,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 666
+    "monthly": 677
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 624
+    "weekly": 635
    },
    {
     "day": "2026-10-08",
@@ -10985,11 +10985,11 @@
      65,
      9,
      29,
-     31,
-     0,
+     33,
+     9,
      0
     ],
-    "daily": 518
+    "daily": 529
    },
    {
     "day": "2026-10-09",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 210,
+   "count": 214,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11037,7 +11037,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 149
+    "2026-10-08": 153
    }
   },
   {
@@ -11045,9 +11045,9 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 88,
+   "count": 92,
    "daily": {
-    "2026-10-08": 88
+    "2026-10-08": 92
    }
   },
   {
@@ -11126,6 +11126,17 @@
    }
   },
   {
+   "path": "place/p_king_khalid_airport_terminals_1_2/from",
+   "path_id": 110181103,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 3
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -11169,17 +11180,6 @@
    }
   },
   {
-   "path": "place/p_king_khalid_airport_terminals_1_2/from",
-   "path_id": 110181103,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2
-   }
-  },
-  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11199,6 +11199,17 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_king_fahd_national_library/to",
+   "path_id": 110299419,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2
    }
   },
   {
@@ -11369,17 +11380,6 @@
    }
   },
   {
-   "path": "place/p_king_fahd_national_library/to",
-   "path_id": 110299419,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "/ar/destinations/diriyah",
    "path_id": 110283859,
    "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
@@ -11410,6 +11410,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_king_fahd_national_library",
+   "path_id": 110520165,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -13954,8 +13964,8 @@
   }
  ],
  "summary": {
-  "visits": 666,
-  "routes": 149,
+  "visits": 677,
+  "routes": 150,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
   "share_rate": 0.0,
@@ -13975,7 +13985,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 88
+   "new": 92
   },
   "top_routes": [
    {
@@ -13993,6 +14003,10 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2 > p_king_fahd_national_library",
+    "count": 1
    },
    {
     "name": "p_kafd_king_abdullah_financial_district > p_al_faisaliah_tower",
@@ -14033,10 +14047,6 @@
    {
     "name": "p_kingdom_centre > p_hayat_mall",
     "count": 1
-   },
-   {
-    "name": "murooj > p_al_maigliah_market",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -14061,15 +14071,15 @@
     "count": 6
    },
    {
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 6
+   },
+   {
     "name": "ksu",
     "count": 5
    },
    {
     "name": "malaz",
-    "count": 5
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2",
     "count": 5
    },
    {
@@ -14128,11 +14138,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 166
+    "count": 169
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 40
+    "count": 41
    },
    {
     "name": "Google",
@@ -14232,13 +14242,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 166
+    "count": 169
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 40
+    "count": 41
    }
   ],
   "Google": [
@@ -14329,13 +14339,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 484,
+   "count": 493,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 140,
+   "count": 142,
    "ref_scheme": "o"
   },
   {
@@ -14391,7 +14401,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 634
+   "count": 645
   },
   {
    "id": "ara",
@@ -14423,12 +14433,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 517
+   "count": 526
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 46
+   "count": 48
   },
   {
    "id": "AE",
@@ -14545,7 +14555,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 516
+   "count": 522
   },
   {
    "id": "tablet",
@@ -14555,7 +14565,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 104
+   "count": 109
   },
   {
    "id": "desktophd",
@@ -14572,12 +14582,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 349
+   "count": 356
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 304
+   "count": 308
   },
   {
    "id": "Firefox",
@@ -14593,12 +14603,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 296
+   "count": 300
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 220
+   "count": 222
   },
   {
    "id": "Windows",
@@ -14608,7 +14618,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 26
+   "count": 31
   },
   {
    "id": "Linux",
