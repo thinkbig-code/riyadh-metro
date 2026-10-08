@@ -1124,7 +1124,12 @@ let view={x:0,y:0,k:1},routeBox=null,lastSig="";
 let trkSrc="";const trkQ=[];let trkTimer=0;const trkSeen=new Set();
 function track(ev,a,b,...detail){
   try{
-    const path=[ev,a||"-",b||"-"].map(x=>String(x).replace(/[\/\s]+/g,"_")).join("/");
+    let parts=[ev,a||"-",b||"-"];
+    // details that matter go into the path: GoatCounter keeps one title per path
+    if(ev==="noresult")parts=["noresult",detail[0]||"-"];
+    else if(ev==="share"&&detail[0])parts=["share",detail[0],a||"-",b||"-"];
+    else if(ev==="route"&&detail[1]==="none")parts=["route_none",a||"-",b||"-"];
+    const path=parts.map(x=>String(x).replace(/[\/\s]+/g,"_")).join("/");
     const title=[LANG].concat(detail.filter(x=>x!==undefined&&x!=="")).join("|");
     const send=x=>{try{window.goatcounter.count(x);}catch(e){}};
     const ev1={path,title,event:true};
@@ -1137,6 +1142,9 @@ function track(ev,a,b,...detail){
   }catch(e){}
 }
 const tok=e=>e?endToken(e):"-";
+
+// new or returning visitor: one event a day, from a date kept only in this browser (no identifier)
+try{const k="dm_seen",d=new Date().toISOString().slice(0,10),last=localStorage.getItem(k);if(last!==d){track("visit",last?"return":"new","-");localStorage.setItem(k,d);}}catch(e){}
 // free text from a search that found nothing: lower case, short, and dropped if it looks like a number or address
 function safeText(q){q=String(q||"").trim().toLowerCase().replace(/\s+/g," ").slice(0,40);
   if(!q||/@/.test(q)||(q.match(/\d/g)||[]).length>=3)return "";return q;}

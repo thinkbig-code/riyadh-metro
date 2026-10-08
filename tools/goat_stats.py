@@ -62,6 +62,47 @@ for _ in range(20):
     time.sleep(0.5)
 out['hits'] = sorted(hits, key=lambda h: -(h['count'] or 0))
 
+
+def summary(hits, visits):
+    """the core numbers, computed from the events: did people use the map to answer a trip question?"""
+    ev = [h for h in hits if h.get('event')]
+    n = lambda h: h.get('count') or 0
+    top = lambda d, k=15: [{'name': x, 'count': v} for x, v in sorted(d.items(), key=lambda kv: -kv[1])[:k]]
+    pairs, origins, dests, shares, geo, visit, failed = {}, {}, {}, {}, {}, {}, {}
+    routes = routes_none = picks = 0
+    for h in ev:
+        p = (h.get('path') or '').split('/')
+        if p[0] == 'route' and len(p) >= 3:
+            routes += n(h); k = p[1] + ' > ' + p[2]
+            pairs[k] = pairs.get(k, 0) + n(h); origins[p[1]] = origins.get(p[1], 0) + n(h); dests[p[2]] = dests.get(p[2], 0) + n(h)
+        elif p[0] == 'route_none':
+            routes_none += n(h)
+        elif p[0] in ('place', 'station'):
+            picks += n(h)
+        elif p[0] == 'share':
+            m = p[1] if len(p) == 4 else 'unknown'      # older events kept the method in the title only
+            shares[m] = shares.get(m, 0) + n(h)
+        elif p[0] == 'geo' and len(p) >= 2:
+            geo[p[1]] = geo.get(p[1], 0) + n(h)
+        elif p[0] == 'visit' and len(p) >= 2:
+            visit[p[1]] = visit.get(p[1], 0) + n(h)
+        elif p[0] == 'noresult' and len(p) == 2:          # older events (noresult/from/-) had no text
+            failed[p[1].replace('_', ' ')] = failed.get(p[1].replace('_', ' '), 0) + n(h)
+    nores = sum(failed.values())
+    sh = sum(shares.values())
+    return {
+        'visits': visits, 'routes': routes, 'routes_not_found': routes_none,
+        'routes_per_visit': round(routes / visits, 2) if visits else None,
+        'share_rate': round(sh / routes, 3) if routes else None, 'shares': shares,
+        'failed_search_rate': round(nores / (nores + picks), 3) if (nores + picks) else None, 'failed_searches': top(failed, 30),
+        'nearest_station': geo, 'visitors_new_return': visit,
+        'top_routes': top(pairs), 'top_origins': top(origins, 10), 'top_destinations': top(dests, 10),
+    }
+
+
+tv = out['total'].get('total') if isinstance(out['total'], dict) else None
+out['summary'] = summary(out['hits'], tv)
+
 # where the visitors of each page came from (pages only, not events; the 60 most visited)
 by_page, by_ref = {}, {}
 for h in [h for h in out['hits'] if not h['event']][:60]:
