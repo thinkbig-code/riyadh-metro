@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T15:58:22Z",
+ "generated": "2026-10-08T16:58:39Z",
  "start": "2026-09-08",
  "end": "2026-10-09",
  "total": {
-  "total": 606,
-  "total_events": 390,
-  "total_utc": 606,
+  "total": 635,
+  "total_events": 413,
+  "total_utc": 635,
   "stats": [
    {
     "day": "2026-09-08",
@@ -728,7 +728,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 606
+    "monthly": 635
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 571
+    "weekly": 600
    },
    {
     "day": "2026-10-07",
@@ -934,12 +934,12 @@
      54,
      65,
      9,
-     0,
+     29,
      0,
      0,
      0
     ],
-    "daily": 458
+    "daily": 487
    },
    {
     "day": "2026-10-09",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 195,
+   "count": 201,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -987,7 +987,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 134
+    "2026-10-08": 140
    }
   },
   {
@@ -995,9 +995,9 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 75,
+   "count": 81,
    "daily": {
-    "2026-10-08": 75
+    "2026-10-08": 81
    }
   },
   {
@@ -1016,10 +1016,20 @@
    "path_id": 110315049,
    "title": "en|name",
    "event": true,
-   "count": 6,
+   "count": 8,
    "daily": {
     "2026-10-07": 1,
-    "2026-10-08": 5
+    "2026-10-08": 7
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/to",
+   "path_id": 110409518,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-08": 7
    }
   },
   {
@@ -1038,16 +1048,6 @@
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
    "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-08": 5
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/to",
-   "path_id": 110409518,
-   "title": "en|name",
-   "event": true,
    "count": 5,
    "daily": {
     "2026-10-08": 5
@@ -1350,6 +1350,136 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_hayat_mall",
+   "path_id": 110503447,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_hayat_mall/to",
+   "path_id": 110503446,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/murooj/p_al_maigliah_market",
+   "path_id": 110502242,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/murooj/p_al_maigliah_market",
+   "path_id": 110502228,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_al_maigliah_market/to",
+   "path_id": 110502227,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/murooj/abudhabi",
+   "path_id": 110501955,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/murooj/p_kingdom_centre",
+   "path_id": 110501945,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/ok/murooj",
+   "path_id": 110501937,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/aziziah/andalus",
+   "path_id": 110500457,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/aziziah/andalus",
+   "path_id": 110500392,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/ksu/sportcity",
+   "path_id": 110499389,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/dhahrat/sabic",
+   "path_id": 110499292,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/dhahrat/sabic",
+   "path_id": 110499271,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -3654,8 +3784,8 @@
   }
  ],
  "summary": {
-  "visits": 606,
-  "routes": 133,
+  "visits": 635,
+  "routes": 140,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
   "share_rate": 0.0,
@@ -3669,13 +3799,13 @@
   ],
   "nearest_station": {
    "denied": 9,
-   "ok": 11,
+   "ok": 12,
    "far": 1,
    "outside": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 75
+   "new": 81
   },
   "top_routes": [
    {
@@ -3695,6 +3825,34 @@
     "count": 2
    },
    {
+    "name": "p_kingdom_centre > p_hayat_mall",
+    "count": 1
+   },
+   {
+    "name": "murooj > p_al_maigliah_market",
+    "count": 1
+   },
+   {
+    "name": "murooj > abudhabi",
+    "count": 1
+   },
+   {
+    "name": "murooj > p_kingdom_centre",
+    "count": 1
+   },
+   {
+    "name": "aziziah > andalus",
+    "count": 1
+   },
+   {
+    "name": "ksu > sportcity",
+    "count": 1
+   },
+   {
+    "name": "dhahrat > sabic",
+    "count": 1
+   },
+   {
     "name": "urubah > granadia",
     "count": 1
    },
@@ -3709,51 +3867,27 @@
    {
     "name": "p_king_saud_university > moe",
     "count": 1
-   },
-   {
-    "name": "sab > naseem",
-    "count": 1
-   },
-   {
-    "name": "sab > kacst",
-    "count": 1
-   },
-   {
-    "name": "murooj > kacst",
-    "count": 1
-   },
-   {
-    "name": "murooj > urubah",
-    "count": 1
-   },
-   {
-    "name": "murooj > t5",
-    "count": 1
-   },
-   {
-    "name": "pnu2 > uthman",
-    "count": 1
-   },
-   {
-    "name": "rabi > uthman",
-    "count": 1
    }
   ],
   "top_origins": [
    {
+    "name": "murooj",
+    "count": 8
+   },
+   {
     "name": "sab",
     "count": 8
+   },
+   {
+    "name": "p_kingdom_centre",
+    "count": 7
    },
    {
     "name": "khashm",
     "count": 6
    },
    {
-    "name": "p_kingdom_centre",
-    "count": 6
-   },
-   {
-    "name": "murooj",
+    "name": "ksu",
     "count": 5
    },
    {
@@ -3775,13 +3909,13 @@
    {
     "name": "pnu2",
     "count": 4
-   },
-   {
-    "name": "uthman",
-    "count": 4
    }
   ],
   "top_destinations": [
+   {
+    "name": "p_kingdom_centre",
+    "count": 6
+   },
    {
     "name": "p_kafd_king_abdullah_financial_district",
     "count": 6
@@ -3789,10 +3923,6 @@
    {
     "name": "t12",
     "count": 6
-   },
-   {
-    "name": "p_kingdom_centre",
-    "count": 5
    },
    {
     "name": "t5",
@@ -3828,7 +3958,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 152
+    "count": 158
    },
    {
     "name": "com.reddit.frontpage",
@@ -3928,7 +4058,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 152
+    "count": 158
    }
   ],
   "com.reddit.frontpage": [
@@ -4019,7 +4149,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 426,
+   "count": 455,
    "ref_scheme": "o"
   },
   {
@@ -4075,12 +4205,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 579
+   "count": 603
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 14
+   "count": 19
   },
   {
    "id": "rus",
@@ -4107,7 +4237,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 466
+   "count": 495
   },
   {
    "id": "US",
@@ -4224,12 +4354,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 468
+   "count": 491
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 12
+   "count": 18
   },
   {
    "id": "desktop",
@@ -4251,12 +4381,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 322
+   "count": 331
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 273
+   "count": 293
   },
   {
    "id": "Firefox",
@@ -4272,12 +4402,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 270
+   "count": 284
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 198
+   "count": 207
   },
   {
    "id": "Windows",
@@ -4287,7 +4417,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 19
+   "count": 25
   },
   {
    "id": "Linux",
