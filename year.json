@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T19:56:53Z",
+ "generated": "2026-10-08T20:57:33Z",
  "start": "2025-10-08",
  "end": "2026-10-09",
  "total": {
-  "total": 689,
-  "total_events": 450,
-  "total_utc": 689,
+  "total": 693,
+  "total_events": 452,
+  "total_utc": 693,
   "stats": [
    {
     "day": "2025-10-08",
@@ -10778,7 +10778,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 689
+    "monthly": 693
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 647
+    "weekly": 651
    },
    {
     "day": "2026-10-08",
@@ -10994,7 +10994,7 @@
    {
     "day": "2026-10-09",
     "hourly": [
-     0,
+     4,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 218,
+   "count": 220,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11037,7 +11037,8 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 157
+    "2026-10-08": 157,
+    "2026-10-09": 2
    }
   },
   {
@@ -11045,9 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 96,
+   "count": 98,
    "daily": {
-    "2026-10-08": 96
+    "2026-10-08": 96,
+    "2026-10-09": 2
    }
   },
   {
@@ -13984,7 +13986,7 @@
   }
  ],
  "summary": {
-  "visits": 689,
+  "visits": 693,
   "routes": 152,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
@@ -14005,7 +14007,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 96
+   "new": 98
   },
   "top_routes": [
    {
@@ -14158,7 +14160,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 173
+    "count": 175
    },
    {
     "name": "com.reddit.frontpage",
@@ -14262,7 +14264,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 173
+    "count": 175
    }
   ],
   "com.reddit.frontpage": [
@@ -14359,7 +14361,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 505,
+   "count": 509,
    "ref_scheme": "o"
   },
   {
@@ -14421,7 +14423,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 653
+   "count": 657
   },
   {
    "id": "ara",
@@ -14453,7 +14455,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 536
+   "count": 540
   },
   {
    "id": "US",
@@ -14580,7 +14582,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 529
+   "count": 533
   },
   {
    "id": "tablet",
@@ -14612,7 +14614,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 310
+   "count": 314
   },
   {
    "id": "Firefox",
@@ -14628,7 +14630,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 302
+   "count": 306
   },
   {
    "id": "Android",
