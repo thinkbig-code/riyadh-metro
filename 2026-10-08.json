@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T13:22:20Z",
+ "generated": "2026-10-08T13:58:07Z",
  "start": "2026-09-08",
  "end": "2026-10-09",
  "total": {
-  "total": 495,
-  "total_events": 310,
-  "total_utc": 495,
+  "total": 531,
+  "total_events": 333,
+  "total_utc": 531,
   "stats": [
    {
     "day": "2026-09-08",
@@ -728,7 +728,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 495
+    "monthly": 531
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 460
+    "weekly": 496
    },
    {
     "day": "2026-10-07",
@@ -931,7 +931,7 @@
      46,
      22,
      33,
-     17,
+     53,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 347
+    "daily": 383
    },
    {
     "day": "2026-10-09",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 169,
+   "count": 182,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -987,7 +987,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 108
+    "2026-10-08": 121
    }
   },
   {
@@ -995,9 +995,9 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 39,
+   "count": 52,
    "daily": {
-    "2026-10-08": 39
+    "2026-10-08": 52
    }
   },
   {
@@ -1005,10 +1005,10 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 8,
+   "count": 9,
    "daily": {
     "2026-10-07": 2,
-    "2026-10-08": 6
+    "2026-10-08": 7
    }
   },
   {
@@ -1077,6 +1077,17 @@
    }
   },
   {
+   "path": "place/p_al_masmak_fortress/from",
+   "path_id": 110300993,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2
+   }
+  },
+  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -1122,17 +1133,6 @@
   {
    "path": "place/p_granada_mall/to",
    "path_id": 110301082,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "place/p_al_masmak_fortress/from",
-   "path_id": 110300993,
    "title": "en|name",
    "event": true,
    "count": 3,
@@ -1279,6 +1279,17 @@
    }
   },
   {
+   "path": "place/p_king_fahd_national_library/to",
+   "path_id": 110299419,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
    "path": "/ar/destinations/diriyah",
    "path_id": 110283859,
    "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
@@ -1309,6 +1320,76 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/habib/museum",
+   "path_id": 110476053,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/habib/kacst",
+   "path_id": 110475920,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/habib/kacst",
+   "path_id": 110475900,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "noresult/roof_rea;_estate",
+   "path_id": 110474391,
+   "title": "en|roof rea; estate",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/nuzhah/p_king_fahd_national_library",
+   "path_id": 110474336,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/nuzhah/p_king_fahd_national_library",
+   "path_id": 110474309,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/ok/nuzhah",
+   "path_id": 110474269,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -3082,16 +3163,6 @@
    }
   },
   {
-   "path": "place/p_king_fahd_national_library/to",
-   "path_id": 110299419,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "geo/fail/-",
    "path_id": 110299402,
    "title": "en",
@@ -3263,23 +3334,28 @@
   }
  ],
  "summary": {
-  "visits": 495,
-  "routes": 102,
+  "visits": 531,
+  "routes": 105,
   "routes_not_found": 0,
-  "routes_per_visit": 0.21,
+  "routes_per_visit": 0.2,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.0,
-  "failed_searches": [],
+  "failed_search_rate": 0.008,
+  "failed_searches": [
+   {
+    "name": "roof rea; estate",
+    "count": 1
+   }
+  ],
   "nearest_station": {
-   "denied": 8,
-   "ok": 10,
+   "denied": 9,
+   "ok": 11,
    "far": 1,
    "outside": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 39
+   "new": 52
   },
   "top_routes": [
    {
@@ -3293,6 +3369,18 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "habib > museum",
+    "count": 1
+   },
+   {
+    "name": "habib > kacst",
+    "count": 1
+   },
+   {
+    "name": "nuzhah > p_king_fahd_national_library",
+    "count": 1
    },
    {
     "name": "p_al_rajhi_grand_mosque > p_kafd_king_abdullah_financial_district",
@@ -3328,18 +3416,6 @@
    },
    {
     "name": "baida > t12",
-    "count": 1
-   },
-   {
-    "name": "kafd > t12",
-    "count": 1
-   },
-   {
-    "name": "kafd > p_national_museum",
-    "count": 1
-   },
-   {
-    "name": "kacst > murooj",
     "count": 1
    }
   ],
@@ -3415,15 +3491,15 @@
     "count": 4
    },
    {
+    "name": "museum",
+    "count": 3
+   },
+   {
     "name": "jeddahrd",
     "count": 3
    },
    {
     "name": "ksu",
-    "count": 3
-   },
-   {
-    "name": "p_al_faisaliah_tower",
     "count": 3
    }
   ]
@@ -3432,11 +3508,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 131
+    "count": 142
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 36
+    "count": 38
    },
    {
     "name": "www.bing.com",
@@ -3518,13 +3594,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 131
+    "count": 142
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 36
+    "count": 38
    }
   ],
   "www.bing.com": [
@@ -3595,13 +3671,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 347,
+   "count": 378,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 126,
+   "count": 131,
    "ref_scheme": "o"
   },
   {
@@ -3645,7 +3721,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 471
+   "count": 507
   },
   {
    "id": "ara",
@@ -3677,7 +3753,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 379
+   "count": 413
   },
   {
    "id": "US",
@@ -3687,7 +3763,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 19
+   "count": 21
   },
   {
    "id": "GB",
@@ -3789,7 +3865,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 377
+   "count": 404
   },
   {
    "id": "tablet",
@@ -3799,12 +3875,12 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 92
+   "count": 96
   },
   {
    "id": "desktophd",
    "name": "",
-   "count": 14
+   "count": 19
   },
   {
    "id": "unknown",
@@ -3816,17 +3892,17 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 272
+   "count": 290
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 214
+   "count": 230
   },
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 8
+   "count": 10
   },
   {
    "name": "",
@@ -3837,17 +3913,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 211
+   "count": 227
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 166
+   "count": 177
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 84
+   "count": 91
   },
   {
    "id": "macOS",
@@ -3857,7 +3933,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 11
+   "count": 13
   },
   {
    "id": "Chrome OS",
