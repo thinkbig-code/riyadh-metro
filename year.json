@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T21:56:47Z",
+ "generated": "2026-10-08T22:56:43Z",
  "start": "2025-10-08",
  "end": "2026-10-09",
  "total": {
-  "total": 697,
-  "total_events": 454,
-  "total_utc": 697,
+  "total": 708,
+  "total_events": 461,
+  "total_utc": 708,
   "stats": [
    {
     "day": "2025-10-08",
@@ -10778,7 +10778,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 697
+    "monthly": 708
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 655
+    "weekly": 666
    },
    {
     "day": "2026-10-08",
@@ -10996,7 +10996,7 @@
     "hourly": [
      4,
      4,
-     0,
+     11,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 19
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 222,
+   "count": 226,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 4
+    "2026-10-09": 8
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 100,
+   "count": 104,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 4
+    "2026-10-09": 8
    }
   },
   {
@@ -11075,6 +11075,18 @@
    }
   },
   {
+   "path": "place/p_kafd_king_abdullah_financial_district/to",
+   "path_id": 110300373,
+   "title": "en|name",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 5,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11082,17 +11094,6 @@
    "count": 7,
    "daily": {
     "2026-10-08": 7
-   }
-  },
-  {
-   "path": "place/p_kafd_king_abdullah_financial_district/to",
-   "path_id": 110300373,
-   "title": "en|name",
-   "event": true,
-   "count": 7,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 5
    }
   },
   {
@@ -11182,6 +11183,17 @@
    }
   },
   {
+   "path": "place/p_kafd_king_abdullah_financial_district/from",
+   "path_id": 110418694,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11239,16 +11251,6 @@
   {
    "path": "place/p_panorama_mall/to",
    "path_id": 110418739,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "place/p_kafd_king_abdullah_financial_district/from",
-   "path_id": 110418694,
    "title": "en|name",
    "event": true,
    "count": 2,
@@ -11432,6 +11434,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "noresult/century_corner",
+   "path_id": 110561896,
+   "title": "en|century corner",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -13986,14 +13998,18 @@
   }
  ],
  "summary": {
-  "visits": 697,
+  "visits": 708,
   "routes": 152,
   "routes_not_found": 0,
-  "routes_per_visit": 0.22,
+  "routes_per_visit": 0.21,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.007,
+  "failed_search_rate": 0.014,
   "failed_searches": [
+   {
+    "name": "century corner",
+    "count": 1
+   },
    {
     "name": "roof rea; estate",
     "count": 1
@@ -14007,7 +14023,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 100
+   "new": 104
   },
   "top_routes": [
    {
@@ -14160,11 +14176,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 177
+    "count": 180
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 41
+    "count": 42
    },
    {
     "name": "Google",
@@ -14264,13 +14280,13 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 177
+    "count": 180
    }
   ],
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 41
+    "count": 42
    }
   ],
   "Google": [
@@ -14361,13 +14377,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 513,
+   "count": 522,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 142,
+   "count": 144,
    "ref_scheme": "o"
   },
   {
@@ -14423,12 +14439,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 661
+   "count": 670
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 21
+   "count": 23
   },
   {
    "id": "(unknown)",
@@ -14455,7 +14471,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 540
+   "count": 551
   },
   {
    "id": "US",
@@ -14587,7 +14603,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 535
+   "count": 546
   },
   {
    "id": "tablet",
@@ -14614,7 +14630,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 366
+   "count": 375
   },
   {
    "id": "Safari",
@@ -14624,7 +14640,7 @@
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 12
+   "count": 14
   },
   {
    "name": "",
@@ -14640,7 +14656,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 227
+   "count": 238
   },
   {
    "id": "Windows",
