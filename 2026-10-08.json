@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T22:56:17Z",
+ "generated": "2026-10-08T23:54:34Z",
  "start": "2026-09-08",
  "end": "2026-10-09",
  "total": {
-  "total": 707,
-  "total_events": 460,
-  "total_utc": 707,
+  "total": 708,
+  "total_events": 461,
+  "total_utc": 708,
   "stats": [
    {
     "day": "2026-09-08",
@@ -728,7 +728,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 707
+    "monthly": 708
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 7,
-    "weekly": 672
+    "weekly": 673
    },
    {
     "day": "2026-10-07",
@@ -946,7 +946,7 @@
     "hourly": [
      4,
      4,
-     10,
+     11,
      0,
      0,
      0,
@@ -969,7 +969,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 19
    }
   ]
  },
@@ -1384,6 +1384,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "noresult/century_corner",
+   "path_id": 110561896,
+   "title": "en|century corner",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -3938,14 +3948,18 @@
   }
  ],
  "summary": {
-  "visits": 707,
+  "visits": 708,
   "routes": 152,
   "routes_not_found": 0,
   "routes_per_visit": 0.21,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.007,
+  "failed_search_rate": 0.014,
   "failed_searches": [
+   {
+    "name": "century corner",
+    "count": 1
+   },
    {
     "name": "roof rea; estate",
     "count": 1
