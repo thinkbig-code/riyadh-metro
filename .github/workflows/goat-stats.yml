@@ -5,6 +5,7 @@ name: Stats
 on:
   schedule:
     - cron: '17 1 * * *'     # every day 05:17 Riyadh / Dubai time
+    - cron: '47 * * * *'     # every hour: visits only (quick), so the JSON is never more than an hour old
   workflow_dispatch:
     inputs:
       quick:
@@ -42,7 +43,7 @@ jobs:
           python3 tools/goat_stats.py --site "$GOAT_SITE" --out "$RUNNER_TEMP/stats-all" --days 365
           mv "$RUNNER_TEMP/stats-all/latest.json" "$RUNNER_TEMP/stats/year.json"
       - name: Download Search Console data
-        if: env.HAS_GSC == 'true' && (github.event_name == 'schedule' || inputs.quick == false)
+        if: env.HAS_GSC == 'true' && ((github.event_name == 'schedule' && github.event.schedule == '17 1 * * *') || (github.event_name == 'workflow_dispatch' && inputs.quick == false))
         continue-on-error: true
         env:
           GSC_KEY: ${{ secrets.GSC_KEY }}
