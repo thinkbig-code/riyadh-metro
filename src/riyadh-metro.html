@@ -1379,7 +1379,10 @@ function nearestStation(p){let best=null;
 let toastT=0;
 function toast(msg){const el=$("#toast");el.textContent=msg;el.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{el.hidden=true;},6000);}
 if(navigator.geolocation)$("#locBtn").hidden=false;
-$("#locBtn").onclick=()=>{const b=$("#locBtn");b.classList.add("busy");
+// why the location is needed, shown before the browser asks for the first time
+for(const [l,v] of Object.entries({"en": "Your location is used only to find the nearest station. It is not saved or sent anywhere.", "ar": "يُستخدم موقعك فقط لإيجاد أقرب محطة، ولا يُحفظ ولا يُرسل إلى أي مكان.", "ur": "آپ کا مقام صرف قریب ترین اسٹیشن تلاش کرنے کے لیے استعمال ہوتا ہے۔ یہ نہ محفوظ ہوتا ہے نہ کہیں بھیجا جاتا ہے۔", "hi": "आपकी लोकेशन सिर्फ़ सबसे नज़दीकी स्टेशन ढूँढने के लिए इस्तेमाल होती है। इसे न सहेजा जाता है, न कहीं भेजा जाता है।", "bn": "আপনার অবস্থান শুধু নিকটতম স্টেশন খুঁজতে ব্যবহার হয়। এটি সংরক্ষণ করা হয় না, কোথাও পাঠানোও হয় না।", "tl": "Ginagamit lang ang lokasyon mo para hanapin ang pinakamalapit na istasyon. Hindi ito sine-save o ipinapadala kahit saan.", "ru": "Местоположение нужно только чтобы найти ближайшую станцию. Оно нигде не сохраняется и никуда не отправляется.", "fr": "Votre position sert uniquement à trouver la station la plus proche. Elle n’est ni enregistrée ni envoyée.", "de": "Ihr Standort wird nur verwendet, um die nächste Station zu finden. Er wird weder gespeichert noch gesendet.", "zh": "您的位置仅用于查找最近的车站，不会被保存或发送。"}))if(I18N[l])I18N[l].locWhy=v;
+$("#locBtn").onclick=async()=>{const b=$("#locBtn");b.classList.add("busy");
+  try{const p=navigator.permissions&&await navigator.permissions.query({name:"geolocation"});if(!p||p.state==="prompt")toast(t("locWhy"));}catch(e){}
   navigator.geolocation.getCurrentPosition(pos=>{b.classList.remove("busy");
     const n=nearestStation([pos.coords.latitude,pos.coords.longitude]);if(!n){track("geo","fail","-");toast(t("locFail"));return;}
     track("geo",n.d<=4000?"ok":n.d<=15000?"far":"outside",n.id);
