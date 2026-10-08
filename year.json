@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-07T23:03:29Z",
- "start": "2025-10-07",
- "end": "2026-10-08",
+ "generated": "2026-10-08T01:33:17Z",
+ "start": "2025-10-08",
+ "end": "2026-10-09",
  "total": {
-  "total": 185,
-  "total_events": 100,
-  "total_utc": 185,
+  "total": 202,
+  "total_events": 112,
+  "total_utc": 202,
   "stats": [
-   {
-    "day": "2025-10-07",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-10-08",
     "hourly": [
@@ -10746,8 +10716,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 35
+    "daily": 0
    },
    {
     "day": "2026-09-30",
@@ -10777,7 +10746,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 42
    },
    {
     "day": "2026-10-01",
@@ -10808,7 +10778,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 185
+    "monthly": 202
    },
    {
     "day": "2026-10-02",
@@ -10958,8 +10928,7 @@
      0,
      0
     ],
-    "daily": 7,
-    "weekly": 150
+    "daily": 7
    },
    {
     "day": "2026-10-07",
@@ -10989,7 +10958,8 @@
      44,
      42
     ],
-    "daily": 106
+    "daily": 106,
+    "weekly": 160
    },
    {
     "day": "2026-10-08",
@@ -10997,6 +10967,36 @@
      29,
      6,
      2,
+     7,
+     10,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 54
+   },
+   {
+    "day": "2026-10-09",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 37
+    "daily": 0
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Riyadh Metro Map & Route Planner: all 6 lines",
    "event": false,
-   "count": 72,
+   "count": 77,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11037,7 +11037,7 @@
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
-    "2026-10-08": 11
+    "2026-10-08": 16
    }
   },
   {
@@ -11084,6 +11084,39 @@
    }
   },
   {
+   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
+   "path_id": 110315050,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11102,6 +11135,17 @@
    "count": 2,
    "daily": {
     "2026-10-07": 2
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/to",
+   "path_id": 110301057,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
    }
   },
   {
@@ -11164,6 +11208,86 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/wurud2",
+   "path_id": 110360651,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/wurud2/to",
+   "path_id": 110360650,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_al_masmak_fortress",
+   "path_id": 110360637,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_haraj_bin_qasim/pnu2",
+   "path_id": 110351710,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "view/pnu2/p_haraj_bin_qasim",
+   "path_id": 110351578,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_haraj_bin_qasim/to",
+   "path_id": 110351417,
+   "title": "en|alias",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/pnu2/p_haraj_bin_qasim",
+   "path_id": 110351416,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/far/pnu2",
+   "path_id": 110351315,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
    }
   },
   {
@@ -11384,36 +11508,6 @@
    "count": 1,
    "daily": {
     "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
-   "path_id": 110315050,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/from",
-   "path_id": 110315049,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_1_2/to",
-   "path_id": 110315048,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
    }
   },
   {
@@ -11727,16 +11821,6 @@
    }
   },
   {
-   "path": "place/p_al_masmak_fortress/to",
-   "path_id": 110301057,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/kbw/p_kafd_king_abdullah_financial_district",
    "path_id": 110300843,
    "title": "en|search|ok",
@@ -12021,7 +12105,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 57
+    "count": 62
    },
    {
     "name": "com.reddit.frontpage",
@@ -12091,7 +12175,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 57
+    "count": 62
    }
   ],
   "com.reddit.frontpage": [
@@ -12154,7 +12238,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 116,
+   "count": 133,
    "ref_scheme": "o"
   },
   {
@@ -12198,7 +12282,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 169
+   "count": 186
   },
   {
    "id": "ara",
@@ -12225,12 +12309,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 128
+   "count": 136
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 19
+   "count": 27
   },
   {
    "id": "AE",
@@ -12240,7 +12324,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 6
+   "count": 7
   },
   {
    "id": "JO",
@@ -12317,7 +12401,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 133
+   "count": 142
   },
   {
    "id": "tablet",
@@ -12332,7 +12416,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 2
+   "count": 10
   },
   {
    "id": "unknown",
@@ -12344,12 +12428,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 124
+   "count": 133
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 59
+   "count": 67
   },
   {
    "name": "",
@@ -12365,17 +12449,17 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 77
+   "count": 78
   },
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 56
+   "count": 64
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 35
+   "count": 43
   },
   {
    "id": "Linux",
