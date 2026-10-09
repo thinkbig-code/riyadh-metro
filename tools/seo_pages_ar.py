@@ -307,7 +307,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">الخريطة</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/districts/">الأحياء</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">خريطة المترو</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/districts/">الأحياء</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}

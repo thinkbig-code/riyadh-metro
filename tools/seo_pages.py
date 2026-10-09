@@ -347,7 +347,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Map</a><a href="{root}stations/">Stations</a><a href="{root}districts/">Districts</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Metro map</a><a href="{root}stations/">Stations</a><a href="{root}districts/">Districts</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}
