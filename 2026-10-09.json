@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T05:56:30Z",
+ "generated": "2026-10-09T07:02:40Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
-  "total": 728,
-  "total_events": 476,
-  "total_utc": 728,
+  "total": 742,
+  "total_events": 485,
+  "total_utc": 742,
   "stats": [
    {
     "day": "2026-09-09",
@@ -698,7 +698,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 728
+    "monthly": 742
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 686
+    "weekly": 700
    },
    {
     "day": "2026-10-08",
@@ -924,7 +924,7 @@
      2,
      7,
      1,
-     0,
+     14,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 39
+    "daily": 53
    },
    {
     "day": "2026-10-10",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 230,
+   "count": 234,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -988,7 +988,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 12
+    "2026-10-09": 16
    }
   },
   {
@@ -996,10 +996,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 108,
+   "count": 112,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 12
+    "2026-10-09": 16
    }
   },
   {
@@ -1007,11 +1007,11 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 10,
+   "count": 11,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 7,
-    "2026-10-09": 1
+    "2026-10-09": 2
    }
   },
   {
@@ -1048,6 +1048,18 @@
    }
   },
   {
+   "path": "place/p_king_khalid_airport_terminals_1_2/from",
+   "path_id": 110181103,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 3,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -1071,17 +1083,6 @@
   {
    "path": "place/p_souq_al_zal/from",
    "path_id": 110295276,
-   "title": "en|name",
-   "event": true,
-   "count": 5,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 3
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_1_2/from",
-   "path_id": 110181103,
    "title": "en|name",
    "event": true,
    "count": 5,
@@ -1407,6 +1408,46 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/p_king_khalid_airport_terminals_1_2/p_riyadh_international_convention_exhibition_center",
+   "path_id": 110643954,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_international_convention_exhibition_center/to",
+   "path_id": 110643905,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_riyadh_international_convention_exhibition_center",
+   "path_id": 110643904,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -4031,13 +4072,13 @@
   }
  ],
  "summary": {
-  "visits": 728,
-  "routes": 155,
+  "visits": 742,
+  "routes": 156,
   "routes_not_found": 0,
   "routes_per_visit": 0.21,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.021,
+  "failed_search_rate": 0.02,
   "failed_searches": [
    {
     "name": "محطة سلطانة",
@@ -4053,14 +4094,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 10,
+   "denied": 11,
    "ok": 14,
    "far": 1,
    "outside": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 108
+   "new": 112
   },
   "top_routes": [
    {
@@ -4078,6 +4119,10 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2 > p_riyadh_international_convention_exhibition_center",
+    "count": 1
    },
    {
     "name": "granadia > p_kafd_king_abdullah_financial_district",
@@ -4118,10 +4163,6 @@
    {
     "name": "granadia > oasis",
     "count": 1
-   },
-   {
-    "name": "gosi > p_panorama_mall",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -4142,11 +4183,11 @@
     "count": 7
    },
    {
-    "name": "khashm",
-    "count": 6
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 7
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
+    "name": "khashm",
     "count": 6
    },
    {
@@ -4213,11 +4254,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 183
+    "count": 184
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 43
+    "count": 46
    },
    {
     "name": "Google",
@@ -4268,6 +4309,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/destinations/al-nakheel-mall": [
@@ -4323,7 +4370,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 183
+    "count": 184
    },
    {
     "path": "/ar/destinations/al-nakheel-mall",
@@ -4333,7 +4380,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 43
+    "count": 46
    }
   ],
   "Google": [
@@ -4355,6 +4402,10 @@
    },
    {
     "path": "/",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-saadah",
     "count": 1
    },
    {
@@ -4424,19 +4475,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 540,
+   "count": 546,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 146,
+   "count": 153,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 15,
+   "count": 16,
    "ref_scheme": "g"
   },
   {
@@ -4486,12 +4537,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 679
+   "count": 689
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 34
+   "count": 35
   },
   {
    "id": "(unknown)",
@@ -4502,6 +4553,11 @@
    "id": "rus",
    "name": "Russian",
    "count": 6
+  },
+  {
+   "id": "deu",
+   "name": "German",
+   "count": 3
   },
   {
    "id": "fra",
@@ -4518,7 +4574,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 569
+   "count": 580
   },
   {
    "id": "US",
@@ -4566,6 +4622,11 @@
    "count": 5
   },
   {
+   "id": "CH",
+   "name": "Switzerland",
+   "count": 4
+  },
+  {
    "id": "FR",
    "name": "France",
    "count": 4
@@ -4611,11 +4672,6 @@
    "count": 1
   },
   {
-   "id": "CH",
-   "name": "Switzerland",
-   "count": 1
-  },
-  {
    "id": "DE",
    "name": "Germany",
    "count": 1
@@ -4650,7 +4706,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 566
+   "count": 580
   },
   {
    "id": "tablet",
@@ -4677,12 +4733,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 379
+   "count": 387
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 332
+   "count": 338
   },
   {
    "id": "Firefox",
@@ -4698,12 +4754,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 324
+   "count": 330
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 242
+   "count": 250
   },
   {
    "id": "Windows",
