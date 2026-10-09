@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T18:58:33Z",
+ "generated": "2026-10-09T19:54:27Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
-  "total": 850,
-  "total_events": 551,
-  "total_utc": 850,
+  "total": 863,
+  "total_events": 563,
+  "total_utc": 863,
   "stats": [
    {
     "day": "2025-10-09",
@@ -10748,7 +10748,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 850
+    "monthly": 863
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 702
+    "weekly": 715
    },
    {
     "day": "2026-10-09",
@@ -10986,10 +10986,10 @@
      8,
      2,
      11,
-     15,
+     28,
      0
     ],
-    "daily": 161
+    "daily": 174
    },
    {
     "day": "2026-10-10",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 265,
+   "count": 266,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 47
+    "2026-10-09": 48
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 142,
+   "count": 143,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 46
+    "2026-10-09": 47
    }
   },
   {
@@ -11121,6 +11121,17 @@
    }
   },
   {
+   "path": "place/p_al_faisaliah_tower/to",
+   "path_id": 110407244,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-08": 4,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/to",
    "path_id": 110299388,
    "title": "en|name",
@@ -11163,16 +11174,6 @@
    "daily": {
     "2026-10-08": 2,
     "2026-10-09": 2
-   }
-  },
-  {
-   "path": "place/p_al_faisaliah_tower/to",
-   "path_id": 110407244,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-08": 4
    }
   },
   {
@@ -11287,6 +11288,17 @@
    "path": "place/p_king_saud_university/from",
    "path_id": 110486462,
    "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_railway_station/to",
+   "path_id": 110440013,
+   "title": "en|alias",
    "event": true,
    "count": 2,
    "daily": {
@@ -11524,6 +11536,96 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/murabba/p_boulevard_city",
+   "path_id": 110779461,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_boulevard_city/to",
+   "path_id": 110779460,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/murabba/p_al_faisaliah_tower",
+   "path_id": 110779443,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/murabba/p_riyadh_railway_station",
+   "path_id": 110779436,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/murabba/p_riyadh_traffic_department",
+   "path_id": 110779422,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_traffic_department/to",
+   "path_id": 110779421,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/murabba/p_riyadh_front_exhibition_conference_center",
+   "path_id": 110779399,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_front_exhibition_conference_center/to",
+   "path_id": 110779398,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -12064,16 +12166,6 @@
    "count": 1,
    "daily": {
     "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/murabba/from",
-   "path_id": 110779379,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
    }
   },
   {
@@ -13030,16 +13122,6 @@
    "path": "route/tuwaiq/p_riyadh_railway_station",
    "path_id": 110440014,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "place/p_riyadh_railway_station/to",
-   "path_id": 110440013,
-   "title": "en|alias",
    "event": true,
    "count": 1,
    "daily": {
@@ -14479,9 +14561,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 299,
-  "events_total": 552,
-  "goatcounter_total_with_events": 850,
+  "visits": 300,
+  "events_total": 563,
+  "goatcounter_total_with_events": 863,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14490,21 +14572,21 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 60
+   "2026-10-09": 61
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 48
+   "2026-10-09": 49
   },
-  "visitor_days": 144,
+  "visitor_days": 145,
   "return_rate": 0.014,
-  "routes": 170,
+  "routes": 175,
   "routes_not_found": 0,
-  "routes_per_visit": 0.57,
-  "routes_per_visitor_day": 1.01,
+  "routes_per_visit": 0.58,
+  "routes_per_visitor_day": 1.03,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.019,
+  "failed_search_rate": 0.018,
   "failed_searches": [
    {
     "name": "محطة سلطانة",
@@ -14527,7 +14609,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 142,
+   "new": 143,
    "return": 2
   },
   "top_routes": [
@@ -14552,6 +14634,26 @@
     "count": 2
    },
    {
+    "name": "murabba > p_boulevard_city",
+    "count": 1
+   },
+   {
+    "name": "murabba > p_al_faisaliah_tower",
+    "count": 1
+   },
+   {
+    "name": "murabba > p_riyadh_railway_station",
+    "count": 1
+   },
+   {
+    "name": "murabba > p_riyadh_traffic_department",
+    "count": 1
+   },
+   {
+    "name": "murabba > p_riyadh_front_exhibition_conference_center",
+    "count": 1
+   },
+   {
     "name": "batha > hamra",
     "count": 1
    },
@@ -14569,26 +14671,6 @@
    },
    {
     "name": "harun > p_kafd_king_abdullah_financial_district",
-    "count": 1
-   },
-   {
-    "name": "t12 > khashm",
-    "count": 1
-   },
-   {
-    "name": "albilad > kfl",
-    "count": 1
-   },
-   {
-    "name": "moi > kah",
-    "count": 1
-   },
-   {
-    "name": "kah > moi",
-    "count": 1
-   },
-   {
-    "name": "khurais > museum",
     "count": 1
    }
   ],
@@ -14618,6 +14700,10 @@
     "count": 6
    },
    {
+    "name": "murabba",
+    "count": 6
+   },
+   {
     "name": "t12",
     "count": 5
    },
@@ -14628,10 +14714,6 @@
    {
     "name": "malaz",
     "count": 5
-   },
-   {
-    "name": "kafd",
-    "count": 4
    }
   ],
   "top_destinations": [
@@ -14656,6 +14738,10 @@
     "count": 5
    },
    {
+    "name": "p_al_faisaliah_tower",
+    "count": 5
+   },
+   {
     "name": "kafd",
     "count": 5
    },
@@ -14669,10 +14755,6 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
-    "count": 4
-   },
-   {
-    "name": "museum",
     "count": 4
    }
   ]
@@ -15006,7 +15088,7 @@
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 162,
+   "count": 172,
    "ref_scheme": "o"
   },
   {
@@ -15074,7 +15156,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 785
+   "count": 795
   },
   {
    "id": "ara",
@@ -15116,7 +15198,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 669
+   "count": 679
   },
   {
    "id": "US",
@@ -15248,7 +15330,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 672
+   "count": 682
   },
   {
    "id": "tablet",
@@ -15275,7 +15357,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 453
+   "count": 463
   },
   {
    "id": "Safari",
@@ -15301,7 +15383,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 303
+   "count": 313
   },
   {
    "id": "Windows",
