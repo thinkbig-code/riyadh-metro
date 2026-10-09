@@ -90,9 +90,32 @@ def summary(hits, visits):
             failed[p[1].replace('_', ' ')] = failed.get(p[1].replace('_', ' '), 0) + n(h)
     nores = sum(failed.values())
     sh = sum(shares.values())
+    # GoatCounter's own total adds events (route, place, geo...) to page loads, so "visits" is counted from the pages only
+    pages = [h for h in hits if not h.get('event')]
+    loads = sum(n(h) for h in pages) if hits else None      # no page list (download failed): unknown, not 0
+    by_day, vdays = {}, {}
+    for h in pages:
+        for d, c in (h.get('daily') or {}).items():
+            by_day[d] = by_day.get(d, 0) + c
+    for h in ev:
+        p = (h.get('path') or '').split('/')
+        if p[0] == 'visit' and len(p) >= 2:
+            for d, c in (h.get('daily') or {}).items():
+                vdays[d] = vdays.get(d, 0) + c
+    vd = sum(vdays.values())
+    # routes on the days that have visitor counts only, so the ratio compares like with like
+    r_on = sum(c for h in ev if (h.get('path') or '').startswith('route/') for d, c in (h.get('daily') or {}).items() if d in vdays)
     return {
-        'visits': visits, 'routes': routes, 'routes_not_found': routes_none,
-        'routes_per_visit': round(routes / visits, 2) if visits else None,
+        '_about': ('visits = page loads only (events excluded; GoatCounter\'s own total adds them). '
+                   'visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; '
+                   'only the map page sends them, so people who opened just a station or district page are not in it. '
+                   'events_total = actions inside the map.'),
+        'visits': loads, 'events_total': sum(n(h) for h in ev), 'goatcounter_total_with_events': visits,
+        'page_loads_by_day': dict(sorted(by_day.items())), 'visitor_days_by_day': dict(sorted(vdays.items())),
+        'visitor_days': vd, 'return_rate': round(visit.get('return', 0) / vd, 3) if vd else None,
+        'routes': routes, 'routes_not_found': routes_none,
+        'routes_per_visit': round(routes / loads, 2) if loads else None,
+        'routes_per_visitor_day': round(r_on / vd, 2) if vd else None,
         'share_rate': round(sh / routes, 3) if routes else None, 'shares': shares,
         'failed_search_rate': round(nores / (nores + picks), 3) if (nores + picks) else None, 'failed_searches': top(failed, 30),
         'nearest_station': geo, 'visitors_new_return': visit,
