@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T14:58:59Z",
+ "generated": "2026-10-09T15:57:44Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
-  "total": 814,
-  "total_events": 527,
-  "total_utc": 814,
+  "total": 822,
+  "total_events": 533,
+  "total_utc": 822,
   "stats": [
    {
     "day": "2026-09-09",
@@ -698,7 +698,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 814
+    "monthly": 822
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 772
+    "weekly": 780
    },
    {
     "day": "2026-10-08",
@@ -933,13 +933,13 @@
      10,
      11,
      11,
-     0,
+     8,
      0,
      0,
      0,
      0
     ],
-    "daily": 125
+    "daily": 133
    },
    {
     "day": "2026-10-10",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 255,
+   "count": 257,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -988,7 +988,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 37
+    "2026-10-09": 39
    }
   },
   {
@@ -996,10 +996,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 133,
+   "count": 135,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 37
+    "2026-10-09": 39
    }
   },
   {
@@ -1015,6 +1015,18 @@
    }
   },
   {
+   "path": "place/p_kafd_king_abdullah_financial_district/to",
+   "path_id": 110300373,
+   "title": "en|name",
+   "event": true,
+   "count": 10,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 5,
+    "2026-10-09": 3
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/from",
    "path_id": 110315049,
    "title": "en|name",
@@ -1024,18 +1036,6 @@
     "2026-10-07": 1,
     "2026-10-08": 7,
     "2026-10-09": 1
-   }
-  },
-  {
-   "path": "place/p_kafd_king_abdullah_financial_district/to",
-   "path_id": 110300373,
-   "title": "en|name",
-   "event": true,
-   "count": 9,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 5,
-    "2026-10-09": 2
    }
   },
   {
@@ -1473,6 +1473,36 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/harun/p_kafd_king_abdullah_financial_district",
+   "path_id": 110754466,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/harun/p_kafd_king_abdullah_financial_district",
+   "path_id": 110754458,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/harun/from",
+   "path_id": 110754449,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -4278,9 +4308,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 287,
-  "events_total": 527,
-  "goatcounter_total_with_events": 814,
+  "visits": 289,
+  "events_total": 533,
+  "goatcounter_total_with_events": 822,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4289,18 +4319,18 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 48
+   "2026-10-09": 50
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 39
+   "2026-10-09": 41
   },
-  "visitor_days": 135,
+  "visitor_days": 137,
   "return_rate": 0.015,
-  "routes": 165,
+  "routes": 166,
   "routes_not_found": 0,
   "routes_per_visit": 0.57,
-  "routes_per_visitor_day": 1.04,
+  "routes_per_visitor_day": 1.03,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.019,
@@ -4326,7 +4356,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 133,
+   "new": 135,
    "return": 2
   },
   "top_routes": [
@@ -4349,6 +4379,10 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
     "count": 2
+   },
+   {
+    "name": "harun > p_kafd_king_abdullah_financial_district",
+    "count": 1
    },
    {
     "name": "t12 > khashm",
@@ -4384,10 +4418,6 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_riyadh_international_convention_exhibition_center",
-    "count": 1
-   },
-   {
-    "name": "granadia > p_kafd_king_abdullah_financial_district",
     "count": 1
    }
   ],
@@ -4436,7 +4466,7 @@
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 8
+    "count": 9
    },
    {
     "name": "p_kingdom_centre",
@@ -4480,7 +4510,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 198
+    "count": 200
    },
    {
     "name": "com.reddit.frontpage",
@@ -4640,7 +4670,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 198
+    "count": 200
    },
    {
     "path": "/map",
@@ -4779,7 +4809,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 595,
+   "count": 603,
    "ref_scheme": "o"
   },
   {
@@ -4847,7 +4877,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 755
+   "count": 763
   },
   {
    "id": "ara",
@@ -4889,7 +4919,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 638
+   "count": 646
   },
   {
    "id": "US",
@@ -5021,12 +5051,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 643
+   "count": 645
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 20
+   "count": 26
   },
   {
    "id": "desktop",
@@ -5048,12 +5078,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 424
+   "count": 430
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 360
+   "count": 362
   },
   {
    "name": "",
@@ -5069,12 +5099,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 365
+   "count": 367
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 278
+   "count": 284
   },
   {
    "id": "Windows",
