@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-08T23:55:00Z",
- "start": "2025-10-08",
- "end": "2026-10-09",
+ "generated": "2026-10-09T01:05:23Z",
+ "start": "2025-10-09",
+ "end": "2026-10-10",
  "total": {
-  "total": 708,
-  "total_events": 461,
-  "total_utc": 708,
+  "total": 718,
+  "total_events": 470,
+  "total_utc": 718,
   "stats": [
-   {
-    "day": "2025-10-08",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-10-09",
     "hourly": [
@@ -10746,8 +10716,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 42
+    "daily": 0
    },
    {
     "day": "2026-10-01",
@@ -10778,7 +10747,8 @@
      0
     ],
     "daily": 0,
-    "monthly": 708
+    "weekly": 148,
+    "monthly": 718
    },
    {
     "day": "2026-10-02",
@@ -10958,8 +10928,7 @@
      44,
      42
     ],
-    "daily": 106,
-    "weekly": 666
+    "daily": 106
    },
    {
     "day": "2026-10-08",
@@ -10989,7 +10958,8 @@
      9,
      12
     ],
-    "daily": 541
+    "daily": 541,
+    "weekly": 570
    },
    {
     "day": "2026-10-09",
@@ -10997,6 +10967,36 @@
      4,
      4,
      11,
+     0,
+     10,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 29
+   },
+   {
+    "day": "2026-10-10",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 19
+    "daily": 0
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 226,
+   "count": 227,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 8
+    "2026-10-09": 9
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 104,
+   "count": 105,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 8
+    "2026-10-09": 9
    }
   },
   {
@@ -11057,10 +11057,11 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 9,
+   "count": 10,
    "daily": {
     "2026-10-07": 2,
-    "2026-10-08": 7
+    "2026-10-08": 7,
+    "2026-10-09": 1
    }
   },
   {
@@ -11249,6 +11250,17 @@
    }
   },
   {
+   "path": "station/hokm/to",
+   "path_id": 110432185,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "place/p_panorama_mall/to",
    "path_id": 110418739,
    "title": "en|name",
@@ -11434,6 +11446,66 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/sultanah/hokm",
+   "path_id": 110571201,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/sultanah/hokm",
+   "path_id": 110571188,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/sultanah/p_al_murabba_palace",
+   "path_id": 110571171,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_al_murabba_palace/to",
+   "path_id": 110571170,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/sultanah/from",
+   "path_id": 110571153,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "noresult/محطة_سلطانة",
+   "path_id": 110571133,
+   "title": "ar|محطة سلطانة",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -12660,16 +12732,6 @@
    "path": "route/urubah/hokm",
    "path_id": 110432186,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/hokm/to",
-   "path_id": 110432185,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -13998,14 +14060,18 @@
   }
  ],
  "summary": {
-  "visits": 708,
-  "routes": 152,
+  "visits": 718,
+  "routes": 154,
   "routes_not_found": 0,
   "routes_per_visit": 0.21,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.014,
+  "failed_search_rate": 0.021,
   "failed_searches": [
+   {
+    "name": "محطة سلطانة",
+    "count": 1
+   },
    {
     "name": "century corner",
     "count": 1
@@ -14016,14 +14082,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 9,
+   "denied": 10,
    "ok": 13,
    "far": 1,
    "outside": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 104
+   "new": 105
   },
   "top_routes": [
    {
@@ -14041,6 +14107,14 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "sultanah > hokm",
+    "count": 1
+   },
+   {
+    "name": "sultanah > p_al_murabba_palace",
+    "count": 1
    },
    {
     "name": "albilad > nuzhah",
@@ -14076,14 +14150,6 @@
    },
    {
     "name": "urubah > officers",
-    "count": 1
-   },
-   {
-    "name": "urubah > abudhabi",
-    "count": 1
-   },
-   {
-    "name": "urubah > dhabab",
     "count": 1
    }
   ],
@@ -14176,7 +14242,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 180
+    "count": 181
    },
    {
     "name": "com.reddit.frontpage",
@@ -14280,7 +14346,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 180
+    "count": 181
    }
   ],
   "com.reddit.frontpage": [
@@ -14377,7 +14443,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 522,
+   "count": 532,
    "ref_scheme": "o"
   },
   {
@@ -14444,7 +14510,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 23
+   "count": 33
   },
   {
    "id": "(unknown)",
@@ -14471,7 +14537,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 551
+   "count": 561
   },
   {
    "id": "US",
@@ -14603,7 +14669,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 546
+   "count": 556
   },
   {
    "id": "tablet",
@@ -14635,7 +14701,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 316
+   "count": 326
   },
   {
    "id": "Firefox",
@@ -14651,7 +14717,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 308
+   "count": 318
   },
   {
    "id": "Android",
