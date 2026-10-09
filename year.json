@@ -1,6 +1,6 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T08:58:13Z",
+ "generated": "2026-10-09T09:18:47Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
@@ -14172,10 +14172,30 @@
   }
  ],
  "summary": {
-  "visits": 753,
+  "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
+  "visits": 260,
+  "events_total": 493,
+  "goatcounter_total_with_events": 753,
+  "page_loads_by_day": {
+   "2026-10-02": 2,
+   "2026-10-03": 9,
+   "2026-10-04": 9,
+   "2026-10-05": 12,
+   "2026-10-06": 5,
+   "2026-10-07": 35,
+   "2026-10-08": 167,
+   "2026-10-09": 21
+  },
+  "visitor_days_by_day": {
+   "2026-10-08": 96,
+   "2026-10-09": 19
+  },
+  "visitor_days": 115,
+  "return_rate": 0.0,
   "routes": 159,
   "routes_not_found": 0,
-  "routes_per_visit": 0.21,
+  "routes_per_visit": 0.61,
+  "routes_per_visitor_day": 1.17,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.02,
