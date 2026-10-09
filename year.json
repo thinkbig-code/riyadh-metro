@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T07:03:07Z",
+ "generated": "2026-10-09T07:57:44Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
-  "total": 742,
-  "total_events": 485,
-  "total_utc": 742,
+  "total": 744,
+  "total_events": 486,
+  "total_utc": 744,
   "stats": [
    {
     "day": "2025-10-09",
@@ -10748,7 +10748,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 742
+    "monthly": 744
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 594
+    "weekly": 596
    },
    {
     "day": "2026-10-09",
@@ -10975,7 +10975,7 @@
      7,
      1,
      14,
-     0,
+     2,
      0,
      0,
      0,
@@ -10989,7 +10989,7 @@
      0,
      0
     ],
-    "daily": 53
+    "daily": 55
    },
    {
     "day": "2026-10-10",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 234,
+   "count": 235,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 16
+    "2026-10-09": 17
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 112,
+   "count": 113,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 16
+    "2026-10-09": 17
    }
   },
   {
@@ -14122,7 +14122,7 @@
   }
  ],
  "summary": {
-  "visits": 742,
+  "visits": 744,
   "routes": 156,
   "routes_not_found": 0,
   "routes_per_visit": 0.21,
@@ -14151,7 +14151,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 112
+   "new": 113
   },
   "top_routes": [
    {
@@ -14304,7 +14304,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 184
+    "count": 185
    },
    {
     "name": "com.reddit.frontpage",
@@ -14420,7 +14420,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 184
+    "count": 185
    },
    {
     "path": "/ar/destinations/al-nakheel-mall",
@@ -14525,7 +14525,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 546,
+   "count": 548,
    "ref_scheme": "o"
   },
   {
@@ -14587,7 +14587,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 689
+   "count": 690
   },
   {
    "id": "ara",
@@ -14597,7 +14597,7 @@
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 7
+   "count": 8
   },
   {
    "id": "rus",
@@ -14687,6 +14687,11 @@
    "count": 4
   },
   {
+   "id": "PL",
+   "name": "Poland",
+   "count": 4
+  },
+  {
    "id": "NO",
    "name": "Norway",
    "count": 3
@@ -14699,11 +14704,6 @@
   {
    "id": "MX",
    "name": "Mexico",
-   "count": 2
-  },
-  {
-   "id": "PL",
-   "name": "Poland",
    "count": 2
   },
   {
@@ -14761,12 +14761,12 @@
   {
    "id": "tablet",
    "name": "",
-   "count": 19
+   "count": 20
   },
   {
    "id": "desktop",
    "name": "",
-   "count": 116
+   "count": 117
   },
   {
    "id": "desktophd",
@@ -14783,7 +14783,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 387
+   "count": 389
   },
   {
    "id": "Safari",
@@ -14824,7 +14824,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 15
+   "count": 17
   },
   {
    "id": "Chrome OS",
