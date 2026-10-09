@@ -40,6 +40,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "خريطة مترو الرياض التفاعلية", "url": "https://riyadhmetro.fyi/ar.html", "description": "خريطة تفاعلية مجانية غير رسمية لمسارات مترو الرياض الستة. اضغط على محطتين لترى وقت الرحلة والسعر والتحويلات. وفيها أيضاً مخطط رحلات من المطار والمركز المالي وبرج المملكة والبطحاء والمتحف الوطني، بثماني لغات.", "applicationCategory": "TravelApplication", "operatingSystem": "Any", "isAccessibleForFree": true, "inLanguage": "ar", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "SAR"}, "about": {"@type": "Place", "name": "Riyadh", "address": {"@type": "PostalAddress", "addressCountry": "SA"}}}</script>
 <!-- anonymous visit counter (GoatCounter): no cookies, no personal data -->
+<script>if(window.top!==window)window.goatcounter={no_onload:true};</script>
 <script data-goatcounter="https://riyadhmetro.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
 
@@ -1995,10 +1996,10 @@ function runValidation(){
 const SELFTEST=location.hash==="#selftest";
 let start=null,hashLang=null;
 let hashTour=null;
-try{const m=(location.hash||"").slice(1).split("~");if(m[0]==="tour"){hashTour=m[1]||"all";if(m[2]&&I18N[m[2]])hashLang=m[2];}else if(m.length>=2){const a=parseToken(m[0]),b=parseToken(m[1]);if(a&&b)start=[a,b];else if(a&&!m[1])start=[a,null];if(m[2]&&I18N[m[2]])hashLang=m[2];}}catch(e){}
+try{const m=(location.hash||"").slice(1).split("~");if(m[0]==="tour"){hashTour=m[1]||"all";if(m[2]&&I18N[m[2]])hashLang=m[2];}else if(m.length>=2){const a=parseToken(m[0]),b=parseToken(m[1]);if(a&&b)start=[a,b];else if(a&&!m[1])start=[a,null];else if(!m[0]&&b)start=[null,b];if(m[2]&&I18N[m[2]])hashLang=m[2];}}catch(e){}
 // no link: open with empty fields
 if(!start)start=[null,null];
-state.from=start[0];state.to=start[1];if(start[0]){trkSrc="link";
+state.from=start[0];state.to=start[1];if(start[0]||start[1]){trkSrc="link";
   // arrived from one of our guide pages: count it as that page's conversion ("landing:destinations-kingdom-centre")
   try{const r=new URL(document.referrer);if(r.host===location.host&&/^\/(?:riyadh-metro\/)?(destinations|routes|stations|lines|map)\//.test(r.pathname))trkSrc="landing:"+r.pathname.split("/").filter(Boolean).join("-");}catch(e){}}
 fromI.value=endName(state.from);toI.value=endName(state.to);
@@ -2046,6 +2047,8 @@ if(SELFTEST){window.__dm={computeVariants,parseToken,ids:Object.keys(ST),places:
   // read-only data for the page generator (tools/export_data.js); nothing here changes the app
   data:{ST,SVC,LINES,PLACES,POPULAR,FARE,PASSES,HOURS,SERVICE_STATUS,WALKS,GEO,ALIAS,I18N_EN:I18N.en},legTime,headwayFor};runValidation();}
 update(true,true);
+{const e1=(start[0]&&!start[1])?start[0]:(start[1]&&!start[0])?start[1]:null;
+ if(e1&&ST[e1.st]){const q=ST[e1.st];fitBox({x0:q.x-230,y0:q.y-260,x1:q.x+230,y1:q.y+260},false,1.1);}}
 addEventListener("resize",placePop);
 addEventListener("hashchange",()=>{const m=location.hash.slice(1).split("~");if(m.length<2||m[0]==="tour")return;const a=parseToken(m[0]),b=parseToken(m[1]);
   if(a&&b&&(endToken(a)!==endToken(state.from||{st:""})||endToken(b)!==endToken(state.to||{st:""}))){trkSrc="link";state.from=a;state.to=b;fromI.value=endName(a);toI.value=endName(b);update(true);}});

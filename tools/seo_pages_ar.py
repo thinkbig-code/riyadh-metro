@@ -177,6 +177,13 @@ def chips(v):
     return ' '.join(h)
 
 
+def app_frame(frm, to, note):
+    """the real interactive map at the top of a guide page (opened on one station as From, or one place as To), the text below it"""
+    src = '{ROOT}ar.html#%s~%s~ar' % (frm or '', to or '')
+    return ('<iframe class="appframe" src="%s" title="خريطة مترو الرياض التفاعلية" allow="geolocation"></iframe>'
+            '<p class="note appnote">%s <a href="%s">افتح بملء الشاشة</a></p>') % (src, e(note), src)
+
+
 def plan(a, b, label='افتح هذا المسار على الخريطة', small=False):
     return '<a class="cta%s" href="{ROOT}ar.html#%s~%s~ar">%s</a>' % (' sm' if small else '', a, b or '', e(label))
 
@@ -353,9 +360,9 @@ def destination(d):
             lead += ' المسافة سيراً نحو %s، %s.' % (mins(main['min']), t(main['walk']))
         if main.get('note'):
             lead += ' ' + t(main['note'], s=sn(sid))
-    body = ['<h1>%s بالمترو: أقرب محطة وطريق الوصول</h1>' % e(T), '<p class="lead">%s</p>' % e(lead)]
+    body = ['<h1>%s بالمترو: أقرب محطة وطريق الوصول</h1>' % e(T),
+            app_frame(None, d['main'], 'الخريطة التفاعلية، والوجهة هي %s. اختر نقطة البداية: اضغط على محطة أو اكتبها.' % T), '<p class="lead">%s</p>' % e(lead)]
     o0 = d['origins'][0]
-    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'افتح على الخريطة التفاعلية'))
     body.append('<h2>أقرب محطة ووقت المشي</h2><div class="scroll"><table><tr><th>المكان</th><th>أقرب محطة</th><th>سيراً</th></tr>')
     for pid in [d['main']] + d['also']:
         p = PL[pid]
@@ -407,7 +414,7 @@ def station(cfg):
     ds = P.districts_of(sid)
     if ds:
         lead += ' وتخدم %s.' % and_join(d['ar'] for d in ds[:4])
-    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'افتح الخريطة من هنا')]
+    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), app_frame(sid, None, 'الخريطة التفاعلية مفتوحة على محطة %s. اضغط على محطة أخرى لتحصل على الطريق.' % sn(sid)), '<p class="lead">%s</p>' % e(lead)]
     body.append('<h2>معلومات المحطة</h2>' + station_facts(sid))
     body.append('<h2>المحطات المجاورة</h2><ul>')
     seen = set()
@@ -486,7 +493,7 @@ def district(d):
     else:
         lead += ' وفي المحطة مواقف «اركن واركب» للسيارات.'
     cfg = next(x for x in P.STATIONS if x['id'] == sid)
-    body = ['<h1>أقرب محطة مترو ل%s في الرياض</h1>' % e(d['ar']), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'افتح الخريطة من محطة %s' % sn(sid))]
+    body = ['<h1>أقرب محطة مترو ل%s في الرياض</h1>' % e(d['ar']), app_frame(sid, None, 'الخريطة التفاعلية مفتوحة على محطة %s، وهي الأقرب. اضغط على محطة أخرى لتحصل على الطريق.' % sn(sid)), '<p class="lead">%s</p>' % e(lead)]
     rows = [(x, P.dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
     rows = sorted(rows, key=lambda r: r[1])[:5]
     body.append('<h2>محطات المترو ل%s</h2><div class="scroll"><table><tr><th>المحطة</th><th>المسارات</th><th>البعد عن وسط الحي</th></tr>' % e(d['ar']))

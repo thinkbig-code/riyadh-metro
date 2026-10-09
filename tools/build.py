@@ -51,7 +51,7 @@ TRIPS = [(AP, pid('KAFD (King Abdullah Financial District)')), (AP, pid('Kingdom
 url = lambda L: SITE + ("" if TX[L]["file"] == "index.html" else TX[L]["file"])
 fav = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 31s11-10.2 11-18A11 11 0 0 0 5 13c0 7.8 11 18 11 18z' fill='%231E6FD9'/%3E%3Crect x='10.5' y='6.5' width='11' height='12' rx='3' fill='%23fff'/%3E%3Crect x='12.3' y='8.6' width='7.4' height='4' rx='1' fill='%231E6FD9'/%3E%3Ccircle cx='13.3' cy='15.6' r='1.1' fill='%231E6FD9'/%3E%3Ccircle cx='18.7' cy='15.6' r='1.1' fill='%231E6FD9'/%3E%3C/svg%3E"
 alts = '\n'.join(f'<link rel="alternate" hreflang="{L}" href="{url(L)}">' for L in ORDER) + f'\n<link rel="alternate" hreflang="x-default" href="{SITE}">'
-COUNTER = (f'<!-- anonymous visit counter (GoatCounter): no cookies, no personal data -->\n<script data-goatcounter="{GOAT}" async src="//gc.zgo.at/count.js"></script>' if GOAT else '')
+COUNTER = (f'<!-- anonymous visit counter (GoatCounter): no cookies, no personal data -->\n<script>if(window.top!==window)window.goatcounter={{no_onload:true}};</script>\n<script data-goatcounter="{GOAT}" async src="//gc.zgo.at/count.js"></script>' if GOAT else '')
 
 SW_REG = """
 <script>

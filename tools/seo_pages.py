@@ -288,6 +288,8 @@ h3{font-size:16px;margin:18px 0 6px}
 .lead{font-size:18px}
 .cta{display:inline-block;background:#1D5FB4;color:#fff;text-decoration:none;font-weight:600;padding:10px 16px;border-radius:999px;margin:6px 0}
 .cta.sm{font-size:14px;padding:6px 12px}
+.appframe{display:block;width:100%;height:min(640px,80vh);min-height:440px;border:1px solid var(--rule);border-radius:14px;background:#eef2f3;margin:8px 0 4px}
+.appnote{margin:4px 0 14px;font-size:13px}
 .card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;margin:10px 0}
 .sum{font-weight:600}
 .chip{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--c);color:#fff}
@@ -365,6 +367,13 @@ def write(path, content):
     full = os.path.join(OUT, path, 'index.html')
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, 'w').write(content)
+
+
+def app_frame(frm, to, note):
+    """the real interactive map at the top of a guide page: opened on one station (From) or one place (To), the text below it"""
+    src = '{ROOT}#%s~%s~en' % (frm or '', to or '')
+    return ('<iframe class="appframe" src="%s" title="Interactive Riyadh Metro map" allow="geolocation"></iframe>'
+            '<p class="note appnote">%s <a href="%s">Open full screen</a></p>') % (src, e(note), src)
 
 
 def plan(a, b, label='Open this route on the map', small=False):
@@ -482,11 +491,11 @@ def destination(d):
             lead += ' The station has also been called %s.' % ' and '.join(other_names(sid))
         if main.get('note'):
             lead += ' ' + t(main['note'], s=s['n'])
-    body = ['<h1>%s by metro: nearest station and how to get there</h1>' % e(d['title']), '<p class="lead">%s</p>' % e(lead)]
+    body = ['<h1>%s by metro: nearest station and how to get there</h1>' % e(d['title']),
+            app_frame(None, d['main'], 'Interactive map with %s as the destination. Pick where you start: tap a station or type it.' % d['title']), '<p class="lead">%s</p>' % e(lead)]
     if any(LINE_KIND[l] in SUSP for l in lines):
         body.append('<div class="warn">%s The routes below show the monorail part for when it reopens; check the operator before you travel.</div>' % e(t('monoSuspended')))
     o0 = d['origins'][0]
-    body.append(plan(*((d['main'], o0) if d.get('reverse') else (o0, d['main'])), 'Open on the interactive map'))
     # the places on this page and their walks
     allp = [d['main']] + d['also']
     body.append('<h2>Nearest stop and walking time</h2><div class="scroll"><table><tr><th>Place</th><th>Nearest stop</th><th>On foot</th></tr>')
@@ -542,7 +551,7 @@ def station(cfg):
     ds = districts_of(sid)
     if ds:
         lead += ' It serves %s.' % and_en([d['en'] for d in ds[:4]])
-    body = ['<h1>%s metro station</h1>' % e(s['n']), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'Open the map from %s' % s['n'])]
+    body = ['<h1>%s metro station</h1>' % e(s['n']), app_frame(sid, None, 'Interactive map, opened at %s. Tap another station to get a route.' % s['n']), '<p class="lead">%s</p>' % e(lead)]
     body.append('<h2>Station facts</h2>' + station_facts(sid))
     # neighbours on each line
     body.append('<h2>Next stations</h2><ul>')
@@ -619,8 +628,8 @@ def district(d):
         lead += ' The nearest station with Park & Ride is %s, about %.1f km away.' % (ST[pr]['n'], dist_km(d, pr))
     else:
         lead += ' The station has a Park & Ride car park.'
-    body = ['<h1>Nearest metro station to %s, Riyadh</h1>' % e(d['en']), '<p class="lead">%s</p>' % e(lead),
-            plan(sid, None, 'Open the map from %s' % ST[sid]['n'])]
+    body = ['<h1>Nearest metro station to %s, Riyadh</h1>' % e(d['en']),
+            app_frame(sid, None, 'Interactive map, opened at %s, the nearest station. Tap another station to get a route.' % ST[sid]['n']), '<p class="lead">%s</p>' % e(lead)]
     rows = [(x, dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
     rows = sorted(rows, key=lambda r: r[1])[:5]
     body.append('<h2>Metro stations for %s</h2><div class="scroll"><table><tr><th>Station</th><th>Lines</th><th>From the middle of the district</th></tr>' % e(d['en']))
