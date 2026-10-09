@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T09:57:38Z",
+ "generated": "2026-10-09T10:52:03Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
-  "total": 759,
-  "total_events": 496,
-  "total_utc": 759,
+  "total": 769,
+  "total_events": 503,
+  "total_utc": 769,
   "stats": [
    {
     "day": "2025-10-09",
@@ -10748,7 +10748,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 759
+    "monthly": 769
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 611
+    "weekly": 621
    },
    {
     "day": "2026-10-09",
@@ -10978,7 +10978,7 @@
      2,
      9,
      6,
-     0,
+     10,
      0,
      0,
      0,
@@ -10989,7 +10989,7 @@
      0,
      0
     ],
-    "daily": 70
+    "daily": 80
    },
    {
     "day": "2026-10-10",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 239,
+   "count": 242,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 21
+    "2026-10-09": 24
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 118,
+   "count": 121,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 22
+    "2026-10-09": 25
    }
   },
   {
@@ -11458,6 +11458,46 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/khurais/museum",
+   "path_id": 110703408,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/khurais/museum",
+   "path_id": 110703389,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/museum/to",
+   "path_id": 110703388,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/khurais/from",
+   "path_id": 110703371,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -14183,9 +14223,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 263,
-  "events_total": 496,
-  "goatcounter_total_with_events": 759,
+  "visits": 266,
+  "events_total": 503,
+  "goatcounter_total_with_events": 769,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14194,18 +14234,18 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 24
+   "2026-10-09": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 22
+   "2026-10-09": 25
   },
-  "visitor_days": 118,
+  "visitor_days": 121,
   "return_rate": 0.0,
-  "routes": 159,
+  "routes": 160,
   "routes_not_found": 0,
   "routes_per_visit": 0.6,
-  "routes_per_visitor_day": 1.14,
+  "routes_per_visitor_day": 1.12,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.02,
@@ -14231,7 +14271,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 118
+   "new": 121
   },
   "top_routes": [
    {
@@ -14249,6 +14289,10 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "khurais > museum",
+    "count": 1
    },
    {
     "name": "sab > murabba",
@@ -14288,10 +14332,6 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_king_fahd_national_library",
-    "count": 1
-   },
-   {
-    "name": "p_kafd_king_abdullah_financial_district > p_al_faisaliah_tower",
     "count": 1
    }
   ],
@@ -14371,11 +14411,11 @@
     "count": 4
    },
    {
-    "name": "p_al_faisaliah_tower",
+    "name": "museum",
     "count": 4
    },
    {
-    "name": "p_national_museum",
+    "name": "p_al_faisaliah_tower",
     "count": 4
    }
   ]
@@ -14384,7 +14424,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 188
+    "count": 190
    },
    {
     "name": "com.reddit.frontpage",
@@ -14392,7 +14432,7 @@
    },
    {
     "name": "Google",
-    "count": 1
+    "count": 2
    },
    {
     "name": "t.co",
@@ -14506,7 +14546,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 188
+    "count": 190
    },
    {
     "path": "/ar/destinations/al-nakheel-mall",
@@ -14525,6 +14565,10 @@
     "count": 3
    },
    {
+    "path": "/",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 2
    },
@@ -14535,10 +14579,6 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
-   },
-   {
-    "path": "/",
-    "count": 1
    },
    {
     "path": "/destinations/diriyah",
@@ -14615,7 +14655,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 560,
+   "count": 568,
    "ref_scheme": "o"
   },
   {
@@ -14627,7 +14667,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 17,
+   "count": 19,
    "ref_scheme": "g"
   },
   {
@@ -14677,7 +14717,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 704
+   "count": 714
   },
   {
    "id": "ara",
@@ -14719,7 +14759,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 593
+   "count": 603
   },
   {
    "id": "US",
@@ -14851,7 +14891,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 595
+   "count": 605
   },
   {
    "id": "tablet",
@@ -14878,12 +14918,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 397
+   "count": 399
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 345
+   "count": 347
   },
   {
    "id": "Firefox",
@@ -14892,19 +14932,19 @@
   },
   {
    "name": "",
-   "count": 3
+   "count": 9
   }
  ],
  "systems": [
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 337
+   "count": 345
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 258
+   "count": 260
   },
   {
    "id": "Windows",
