@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T13:58:24Z",
+ "generated": "2026-10-09T14:58:59Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
-  "total": 798,
-  "total_events": 516,
-  "total_utc": 798,
+  "total": 814,
+  "total_events": 527,
+  "total_utc": 814,
   "stats": [
    {
     "day": "2026-09-09",
@@ -698,7 +698,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 798
+    "monthly": 814
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 756
+    "weekly": 772
    },
    {
     "day": "2026-10-08",
@@ -931,15 +931,15 @@
      10,
      13,
      10,
-     6,
-     0,
+     11,
+     11,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 109
+    "daily": 125
    },
    {
     "day": "2026-10-10",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 252,
+   "count": 255,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -988,7 +988,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 34
+    "2026-10-09": 37
    }
   },
   {
@@ -996,10 +996,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 129,
+   "count": 133,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 33
+    "2026-10-09": 37
    }
   },
   {
@@ -1015,6 +1015,18 @@
    }
   },
   {
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 7,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "place/p_kafd_king_abdullah_financial_district/to",
    "path_id": 110300373,
    "title": "en|name",
@@ -1024,17 +1036,6 @@
     "2026-10-07": 2,
     "2026-10-08": 5,
     "2026-10-09": 2
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/from",
-   "path_id": 110315049,
-   "title": "en|name",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 7
    }
   },
   {
@@ -1052,11 +1053,11 @@
    "path_id": 110181103,
    "title": "en|name",
    "event": true,
-   "count": 6,
+   "count": 7,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3,
-    "2026-10-09": 1
+    "2026-10-09": 2
    }
   },
   {
@@ -1089,6 +1090,18 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
+   }
+  },
+  {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1
    }
   },
   {
@@ -1126,17 +1139,6 @@
   {
    "path": "place/p_al_masmak_fortress/from",
    "path_id": 110300993,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
    "title": "en|name",
    "event": true,
    "count": 4,
@@ -1218,6 +1220,27 @@
    "count": 2,
    "daily": {
     "2026-10-09": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 2
+   }
+  },
+  {
+   "path": "place/p_king_saud_university/from",
+   "path_id": 110486462,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
    }
   },
   {
@@ -1420,6 +1443,17 @@
    }
   },
   {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_national_museum",
+   "path_id": 110181108,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "/ar/stations/qasr-al-hokm",
    "path_id": 109804926,
    "title": "محطة قصر الحكم في مترو الرياض: المسارات والرحلات والمواعيد",
@@ -1439,6 +1473,36 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/masmak-fortress",
+   "path_id": 110748305,
+   "title": "محطة مترو قصر المصمك وسوق الزل: محطة قصر الحكم، 7 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/t12/khashm",
+   "path_id": 110744041,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/albilad/kfl",
+   "path_id": 110743998,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -1616,16 +1680,6 @@
    "path_id": 110643904,
    "title": "en|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-09": 1
@@ -2054,16 +2108,6 @@
   {
    "path": "station/moe/to",
    "path_id": 110486488,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "place/p_king_saud_university/from",
-   "path_id": 110486462,
    "title": "en|name",
    "event": true,
    "count": 1,
@@ -4182,16 +4226,6 @@
    }
   },
   {
-   "path": "route/p_king_khalid_airport_terminals_1_2/p_national_museum",
-   "path_id": 110181108,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "report/uthman/granadia",
    "path_id": 109978340,
    "title": "en|opened",
@@ -4244,9 +4278,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 282,
-  "events_total": 516,
-  "goatcounter_total_with_events": 798,
+  "visits": 287,
+  "events_total": 527,
+  "goatcounter_total_with_events": 814,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4255,21 +4289,21 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 43
+   "2026-10-09": 48
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 35
+   "2026-10-09": 39
   },
-  "visitor_days": 131,
+  "visitor_days": 135,
   "return_rate": 0.015,
-  "routes": 162,
+  "routes": 165,
   "routes_not_found": 0,
   "routes_per_visit": 0.57,
-  "routes_per_visitor_day": 1.05,
+  "routes_per_visitor_day": 1.04,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.02,
+  "failed_search_rate": 0.019,
   "failed_searches": [
    {
     "name": "محطة سلطانة",
@@ -4292,7 +4326,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 129,
+   "new": 133,
    "return": 2
   },
   "top_routes": [
@@ -4311,6 +4345,18 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
+    "count": 2
+   },
+   {
+    "name": "t12 > khashm",
+    "count": 1
+   },
+   {
+    "name": "albilad > kfl",
+    "count": 1
    },
    {
     "name": "moi > kah",
@@ -4343,24 +4389,16 @@
    {
     "name": "granadia > p_kafd_king_abdullah_financial_district",
     "count": 1
-   },
-   {
-    "name": "sultanah > hokm",
-    "count": 1
-   },
-   {
-    "name": "sultanah > p_al_murabba_palace",
-    "count": 1
-   },
-   {
-    "name": "albilad > nuzhah",
-    "count": 1
    }
   ],
   "top_origins": [
    {
     "name": "sab",
     "count": 10
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 8
    },
    {
     "name": "urubah",
@@ -4375,12 +4413,12 @@
     "count": 7
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
-    "count": 7
-   },
-   {
     "name": "khashm",
     "count": 6
+   },
+   {
+    "name": "t12",
+    "count": 5
    },
    {
     "name": "ksu",
@@ -4392,10 +4430,6 @@
    },
    {
     "name": "kafd",
-    "count": 4
-   },
-   {
-    "name": "granadia",
     "count": 4
    }
   ],
@@ -4417,6 +4451,10 @@
     "count": 5
    },
    {
+    "name": "p_national_museum",
+    "count": 5
+   },
+   {
     "name": "kafd",
     "count": 5
    },
@@ -4435,10 +4473,6 @@
    {
     "name": "museum",
     "count": 4
-   },
-   {
-    "name": "p_al_faisaliah_tower",
-    "count": 4
    }
   ]
  },
@@ -4446,18 +4480,18 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 196
+    "count": 198
    },
    {
     "name": "com.reddit.frontpage",
     "count": 48
    },
    {
-    "name": "Google",
-    "count": 2
+    "name": "t.co",
+    "count": 3
    },
    {
-    "name": "t.co",
+    "name": "Google",
     "count": 2
    },
    {
@@ -4499,6 +4533,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/diriyah": [
    {
     "name": "Google",
@@ -4523,6 +4563,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/masmak-fortress": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/stations/king-salman-oasis": [
    {
     "name": "Google",
@@ -4542,12 +4588,6 @@
    }
   ],
   "/destinations/diriyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-saadah": [
    {
     "name": "Google",
     "count": 1
@@ -4600,7 +4640,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 196
+    "count": 198
    },
    {
     "path": "/map",
@@ -4617,6 +4657,12 @@
     "count": 48
    }
   ],
+  "t.co": [
+   {
+    "path": "/",
+    "count": 3
+   }
+  ],
   "Google": [
    {
     "path": "/destinations/al-awwal-park",
@@ -4624,6 +4670,10 @@
    },
    {
     "path": "/",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-saadah",
     "count": 2
    },
    {
@@ -4647,6 +4697,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/masmak-fortress",
+    "count": 1
+   },
+   {
     "path": "/stations/king-salman-oasis",
     "count": 1
    },
@@ -4663,10 +4717,6 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-saadah",
-    "count": 1
-   },
-   {
     "path": "/districts/al-rawdah",
     "count": 1
    },
@@ -4677,12 +4727,6 @@
    {
     "path": "/destinations/riyadh-gallery-mall",
     "count": 1
-   }
-  ],
-  "t.co": [
-   {
-    "path": "/",
-    "count": 2
    }
   ],
   "riyadhmetro.fyi/map": [
@@ -4735,7 +4779,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 583,
+   "count": 595,
    "ref_scheme": "o"
   },
   {
@@ -4747,7 +4791,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 24,
+   "count": 26,
    "ref_scheme": "g"
   },
   {
@@ -4757,15 +4801,15 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/map",
-   "name": "riyadhmetro.fyi/map",
-   "count": 5,
+   "id": "t.co",
+   "name": "t.co",
+   "count": 6,
    "ref_scheme": "h"
   },
   {
-   "id": "t.co",
-   "name": "t.co",
-   "count": 4,
+   "id": "riyadhmetro.fyi/map",
+   "name": "riyadhmetro.fyi/map",
+   "count": 5,
    "ref_scheme": "h"
   },
   {
@@ -4803,12 +4847,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 740
+   "count": 755
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 38
+   "count": 39
   },
   {
    "id": "(unknown)",
@@ -4845,7 +4889,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 622
+   "count": 638
   },
   {
    "id": "US",
@@ -4977,7 +5021,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 634
+   "count": 643
   },
   {
    "id": "tablet",
@@ -4992,7 +5036,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 27
+   "count": 34
   },
   {
    "id": "unknown",
@@ -5004,16 +5048,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 416
+   "count": 424
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 354
+   "count": 360
   },
   {
    "name": "",
-   "count": 14
+   "count": 16
   },
   {
    "id": "Firefox",
@@ -5025,12 +5069,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 357
+   "count": 365
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 277
+   "count": 278
   },
   {
    "id": "Windows",
@@ -5040,7 +5084,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 31
+   "count": 38
   },
   {
    "id": "Linux",
