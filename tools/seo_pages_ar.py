@@ -575,7 +575,15 @@ def timings_page():
     body.append('<p>تمر القطارات كل 3–5 دقائق تقريباً في أوقات الذروة، وكل 5–10 دقائق في بقية اليوم، ونحو كل 10 دقائق في آخر المساء.</p>')
     body.append(fare_table())
     body.append('<p>الدفع ببطاقة درب أو تطبيق درب أو البطاقة البنكية اللاتلامسية. في القطارات درجة أولى وقسم للعائلات وقسم للأفراد.</p>')
-    write(path, frame(path, 'مواعيد مترو الرياض اليوم وأسعار التذاكر: أوقات التشغيل ويوم الجمعة', lead, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
+    H = D['hours']['metro']; groups = []
+    for d in [6, 0, 1, 2, 3, 4, 5]:   # Saturday first
+        if groups and groups[-1][1] == tuple(H[d]):
+            groups[-1][0].append(d)
+        else:
+            groups.append([[d], tuple(H[d])])
+    hm = lambda m: '%02d:%02d' % (m // 60 % 24, m % 60)
+    title = 'مواعيد مترو الرياض اليوم: %s' % '، '.join('%s %s–%s' % (DAYS[g[0]] if len(g) == 1 else DAYS[g[0]] + '–' + DAYS[g[-1]], hm(o), hm(c)) for g, (o, c) in groups)
+    write(path, frame(path, title, lead, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
 
 
 def map_page():

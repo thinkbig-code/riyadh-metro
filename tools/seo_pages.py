@@ -775,7 +775,9 @@ def timings_page():
     body.append('<p>Trains run about every 3–5 minutes at peak times and every 5–10 minutes the rest of the day, about every 10 minutes late in the evening.</p>')
     body.append(fare_table())
     body.append('<p>Pay with a darb card, the darb app or a contactless bank card. Trains have First Class, Family and Singles sections.</p>')
-    write(path, frame(path, 'Riyadh Metro Timings Today and Fares: Opening Hours, Friday, Tickets', lead, '\n'.join(body), [(path, 'Timings and fares')]))
+    # the answer in the title: people search 'what time metro open'
+    title = 'Riyadh Metro Timings: %s, Fares' % ', '.join('%s %s–%s' % (d, o, c.replace(' (next day)', '')) for d, o, c in hours_rows('metro'))
+    write(path, frame(path, title, lead, '\n'.join(body), [(path, 'Timings and fares')]))
 
 
 def pid_of(n):
