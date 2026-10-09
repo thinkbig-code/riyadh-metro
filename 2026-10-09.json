@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T13:01:20Z",
+ "generated": "2026-10-09T13:58:24Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
-  "total": 792,
-  "total_events": 513,
-  "total_utc": 792,
+  "total": 798,
+  "total_events": 516,
+  "total_utc": 798,
   "stats": [
    {
     "day": "2026-09-09",
@@ -698,7 +698,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 792
+    "monthly": 798
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 750
+    "weekly": 756
    },
    {
     "day": "2026-10-08",
@@ -931,7 +931,7 @@
      10,
      13,
      10,
-     0,
+     6,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 103
+    "daily": 109
    },
    {
     "day": "2026-10-10",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 249,
+   "count": 252,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -988,7 +988,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 31
+    "2026-10-09": 34
    }
   },
   {
@@ -996,10 +996,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 126,
+   "count": 129,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 30
+    "2026-10-09": 33
    }
   },
   {
@@ -4244,9 +4244,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 279,
-  "events_total": 513,
-  "goatcounter_total_with_events": 792,
+  "visits": 282,
+  "events_total": 516,
+  "goatcounter_total_with_events": 798,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4255,18 +4255,18 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 40
+   "2026-10-09": 43
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 32
+   "2026-10-09": 35
   },
-  "visitor_days": 128,
-  "return_rate": 0.016,
+  "visitor_days": 131,
+  "return_rate": 0.015,
   "routes": 162,
   "routes_not_found": 0,
-  "routes_per_visit": 0.58,
-  "routes_per_visitor_day": 1.07,
+  "routes_per_visit": 0.57,
+  "routes_per_visitor_day": 1.05,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.02,
@@ -4292,7 +4292,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 126,
+   "new": 129,
    "return": 2
   },
   "top_routes": [
@@ -4446,7 +4446,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 194
+    "count": 196
    },
    {
     "name": "com.reddit.frontpage",
@@ -4457,12 +4457,12 @@
     "count": 2
    },
    {
-    "name": "riyadhmetro.fyi/map",
+    "name": "t.co",
     "count": 2
    },
    {
-    "name": "t.co",
-    "count": 1
+    "name": "riyadhmetro.fyi/map",
+    "count": 2
    },
    {
     "name": "www.bing.com",
@@ -4600,7 +4600,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 194
+    "count": 196
    },
    {
     "path": "/map",
@@ -4679,16 +4679,16 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/map": [
+  "t.co": [
    {
     "path": "/",
     "count": 2
    }
   ],
-  "t.co": [
+  "riyadhmetro.fyi/map": [
    {
     "path": "/",
-    "count": 1
+    "count": 2
    }
   ],
   "www.bing.com": [
@@ -4735,7 +4735,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 579,
+   "count": 583,
    "ref_scheme": "o"
   },
   {
@@ -4763,6 +4763,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "t.co",
+   "name": "t.co",
+   "count": 4,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.bing.com",
    "name": "www.bing.com",
    "count": 4,
@@ -4773,12 +4779,6 @@
    "name": "Facebook",
    "count": 3,
    "ref_scheme": "c"
-  },
-  {
-   "id": "t.co",
-   "name": "t.co",
-   "count": 2,
-   "ref_scheme": "h"
   },
   {
    "id": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -4803,12 +4803,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 736
+   "count": 740
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 36
+   "count": 38
   },
   {
    "id": "(unknown)",
@@ -4845,7 +4845,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 616
+   "count": 622
   },
   {
    "id": "US",
@@ -4977,7 +4977,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 628
+   "count": 634
   },
   {
    "id": "tablet",
@@ -5009,23 +5009,23 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 350
+   "count": 354
+  },
+  {
+   "name": "",
+   "count": 14
   },
   {
    "id": "Firefox",
    "name": "Firefox",
    "count": 14
-  },
-  {
-   "name": "",
-   "count": 12
   }
  ],
  "systems": [
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 351
+   "count": 357
   },
   {
    "id": "Android",
