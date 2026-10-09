@@ -1,6 +1,6 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T17:55:50Z",
+ "generated": "2026-10-09T18:07:05Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
@@ -4546,10 +4546,6 @@
    }
   ]
  },
- "page_refs_error": {
-  "error": "HTTP 404",
-  "body": "{\"error\":\"not found\"}"
- },
  "page_refs": {
   "/": [
    {
@@ -4656,6 +4652,12 @@
    }
   ],
   "/stations/ministry-of-interior": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/stations": [
    {
     "name": "Google",
     "count": 1
@@ -4784,6 +4786,10 @@
    },
    {
     "path": "/stations/ministry-of-interior",
+    "count": 1
+   },
+   {
+    "path": "/stations",
     "count": 1
    },
    {
