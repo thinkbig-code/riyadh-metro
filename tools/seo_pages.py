@@ -368,7 +368,7 @@ def write(path, content):
 
 
 def plan(a, b, label='Open this route on the map', small=False):
-    return '<a class="cta%s" href="{ROOT}#%s~%s~en">%s</a>' % (' sm' if small else '', a, b, e(label))
+    return '<a class="cta%s" href="{ROOT}#%s~%s~en">%s</a>' % (' sm' if small else '', a, b or '', e(label))
 
 
 def route_card(a, b, heading=None, show_alt=True):
@@ -542,7 +542,7 @@ def station(cfg):
     ds = districts_of(sid)
     if ds:
         lead += ' It serves %s.' % and_en([d['en'] for d in ds[:4]])
-    body = ['<h1>%s metro station</h1>' % e(s['n']), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'Plan a route from here')]
+    body = ['<h1>%s metro station</h1>' % e(s['n']), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'Open the map from %s' % s['n'])]
     body.append('<h2>Station facts</h2>' + station_facts(sid))
     # neighbours on each line
     body.append('<h2>Next stations</h2><ul>')
@@ -620,7 +620,7 @@ def district(d):
     else:
         lead += ' The station has a Park & Ride car park.'
     body = ['<h1>Nearest metro station to %s, Riyadh</h1>' % e(d['en']), '<p class="lead">%s</p>' % e(lead),
-            plan(sid, next(x for x in STATIONS if x['id'] == sid)['to'][0], 'Plan a route from %s' % ST[sid]['n'])]
+            plan(sid, None, 'Open the map from %s' % ST[sid]['n'])]
     rows = [(x, dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
     rows = sorted(rows, key=lambda r: r[1])[:5]
     body.append('<h2>Metro stations for %s</h2><div class="scroll"><table><tr><th>Station</th><th>Lines</th><th>From the middle of the district</th></tr>' % e(d['en']))
@@ -802,8 +802,8 @@ def map_page():
     xs = sorted({sid for sid in ST if len(ST[sid]['lines']) > 1}, key=lambda i: ST[i]['n'])
     lead = 'A schematic map of all six Riyadh Metro lines: %s. %d stations in all, with every interchange.' % (
         ', '.join('%s (%d stations)' % (LINE_NAME[v['line']], len(v['stops'])) for v in D['services']), len(ST))
-    body = ['<h1>Riyadh Metro map 2026: all lines and stations</h1>', '<p class="lead">%s</p>' % e(lead),
-            '<a class="cta" href="{ROOT}">Open the interactive map</a>',
+    body = ['<h1>Riyadh Metro map 2026: all lines and stations</h1>',
+            '<a class="cta" href="{ROOT}">Open the interactive map</a>', '<p class="lead">%s</p>' % e(lead),
             '<figure style="margin:12px 0"><img src="{ROOT}%s" width="%d" height="%d" alt="%s" style="width:100%%;height:auto;border:1px solid var(--rule);border-radius:12px;background:#fff"><figcaption class="note">%s</figcaption></figure>' % (
                 MAP_IMG, MAP_W, MAP_H, e(MAP_ALT), 'Schematic, not to scale. Station names as of 2026. An unofficial map, not affiliated with Riyadh Public Transport.'),
             '<h2>How to read the map</h2><ul>']

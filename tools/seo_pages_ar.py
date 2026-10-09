@@ -178,7 +178,7 @@ def chips(v):
 
 
 def plan(a, b, label='افتح هذا المسار على الخريطة', small=False):
-    return '<a class="cta%s" href="{ROOT}ar.html#%s~%s~ar">%s</a>' % (' sm' if small else '', a, b, e(label))
+    return '<a class="cta%s" href="{ROOT}ar.html#%s~%s~ar">%s</a>' % (' sm' if small else '', a, b or '', e(label))
 
 
 def route_card(a, b, heading=None):
@@ -407,7 +407,7 @@ def station(cfg):
     ds = P.districts_of(sid)
     if ds:
         lead += ' وتخدم %s.' % and_join(d['ar'] for d in ds[:4])
-    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'خطّط رحلة من هنا')]
+    body = ['<h1>محطة %s، مترو الرياض</h1>' % e(sn(sid)), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'افتح الخريطة من هنا')]
     body.append('<h2>معلومات المحطة</h2>' + station_facts(sid))
     body.append('<h2>المحطات المجاورة</h2><ul>')
     seen = set()
@@ -486,7 +486,7 @@ def district(d):
     else:
         lead += ' وفي المحطة مواقف «اركن واركب» للسيارات.'
     cfg = next(x for x in P.STATIONS if x['id'] == sid)
-    body = ['<h1>أقرب محطة مترو ل%s في الرياض</h1>' % e(d['ar']), '<p class="lead">%s</p>' % e(lead), plan(sid, cfg['to'][0], 'خطّط رحلة من محطة %s' % sn(sid))]
+    body = ['<h1>أقرب محطة مترو ل%s في الرياض</h1>' % e(d['ar']), '<p class="lead">%s</p>' % e(lead), plan(sid, None, 'افتح الخريطة من محطة %s' % sn(sid))]
     rows = [(x, P.dist_km(d, x)) for x in d['inside']] + [(x, k) for x, k in d['near'] if x not in d['inside']]
     rows = sorted(rows, key=lambda r: r[1])[:5]
     body.append('<h2>محطات المترو ل%s</h2><div class="scroll"><table><tr><th>المحطة</th><th>المسارات</th><th>البعد عن وسط الحي</th></tr>' % e(d['ar']))
@@ -591,8 +591,8 @@ def map_page():
     xs = sorted({sid for sid in ST if len(ST[sid]['lines']) > 1}, key=sn)
     lead = 'خريطة تخطيطية للمسارات الستة لمترو الرياض: %s. %d محطة في المجموع مع جميع محطات التبديل.' % (
         '، '.join('%s (%s)' % (LN[v['line']], t('stops', n=len(v['stops']))) for v in D['services']), len(ST))
-    body = ['<h1>خريطة مترو الرياض 2026: جميع المسارات والمحطات</h1>', '<p class="lead">%s</p>' % e(lead),
-            '<a class="cta" href="{ROOT}ar.html">افتح الخريطة التفاعلية</a>',
+    body = ['<h1>خريطة مترو الرياض 2026: جميع المسارات والمحطات</h1>',
+            '<a class="cta" href="{ROOT}ar.html">افتح الخريطة التفاعلية</a>', '<p class="lead">%s</p>' % e(lead),
             '<figure style="margin:12px 0"><img src="{ROOT}%s" width="%d" height="%d" alt="%s" style="width:100%%;height:auto;border:1px solid var(--rule);border-radius:12px;background:#fff"><figcaption class="note">%s</figcaption></figure>' % (
                 MAP_IMG, P.MAP_W, P.MAP_H, e(MAP_ALT), 'خريطة تخطيطية بغير مقياس رسم، وأسماء المحطات كما في 2026. خريطة غير رسمية لا علاقة لها بالنقل العام بمدينة الرياض.'),
             '<h2>كيف تقرأ الخريطة</h2><ul>']

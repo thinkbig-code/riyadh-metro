@@ -1906,10 +1906,10 @@ function runValidation(){
 const SELFTEST=location.hash==="#selftest";
 let start=null,hashLang=null;
 let hashTour=null;
-try{const m=(location.hash||"").slice(1).split("~");if(m[0]==="tour"){hashTour=m[1]||"all";if(m[2]&&I18N[m[2]])hashLang=m[2];}else if(m.length>=2){const a=parseToken(m[0]),b=parseToken(m[1]);if(a&&b)start=[a,b];if(m[2]&&I18N[m[2]])hashLang=m[2];}}catch(e){}
+try{const m=(location.hash||"").slice(1).split("~");if(m[0]==="tour"){hashTour=m[1]||"all";if(m[2]&&I18N[m[2]])hashLang=m[2];}else if(m.length>=2){const a=parseToken(m[0]),b=parseToken(m[1]);if(a&&b)start=[a,b];else if(a&&!m[1])start=[a,null];if(m[2]&&I18N[m[2]])hashLang=m[2];}}catch(e){}
 // no link: open with empty fields
 if(!start)start=[null,null];
-state.from=start[0];state.to=start[1];if(start[0]&&start[1]){trkSrc="link";
+state.from=start[0];state.to=start[1];if(start[0]){trkSrc="link";
   // arrived from one of our guide pages: count it as that page's conversion ("landing:destinations-kingdom-centre")
   try{const r=new URL(document.referrer);if(r.host===location.host&&/^\/(?:riyadh-metro\/)?(destinations|routes|stations|lines|map)\//.test(r.pathname))trkSrc="landing:"+r.pathname.split("/").filter(Boolean).join("-");}catch(e){}}
 fromI.value=endName(state.from);toI.value=endName(state.to);
