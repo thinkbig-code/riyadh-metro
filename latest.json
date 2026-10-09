@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T07:57:16Z",
+ "generated": "2026-10-09T08:44:01Z",
  "start": "2026-09-09",
  "end": "2026-10-10",
  "total": {
-  "total": 744,
-  "total_events": 486,
-  "total_utc": 744,
+  "total": 753,
+  "total_events": 493,
+  "total_utc": 753,
   "stats": [
    {
     "day": "2026-09-09",
@@ -698,7 +698,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 744
+    "monthly": 753
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      42
     ],
     "daily": 106,
-    "weekly": 702
+    "weekly": 711
    },
    {
     "day": "2026-10-08",
@@ -926,7 +926,7 @@
      1,
      14,
      2,
-     0,
+     9,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 55
+    "daily": 64
    },
    {
     "day": "2026-10-10",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 235,
+   "count": 237,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -988,7 +988,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 17
+    "2026-10-09": 19
    }
   },
   {
@@ -996,10 +996,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 113,
+   "count": 115,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 17
+    "2026-10-09": 19
    }
   },
   {
@@ -1408,6 +1408,56 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/sab/murabba",
+   "path_id": 110677951,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/sab/murabba",
+   "path_id": 110677944,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/sab/albilad",
+   "path_id": 110677696,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/sab/albilad",
+   "path_id": 110677664,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/granadia/kafd",
+   "path_id": 110665718,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -4072,8 +4122,8 @@
   }
  ],
  "summary": {
-  "visits": 744,
-  "routes": 156,
+  "visits": 753,
+  "routes": 159,
   "routes_not_found": 0,
   "routes_per_visit": 0.21,
   "share_rate": 0.0,
@@ -4101,7 +4151,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 113
+   "new": 115
   },
   "top_routes": [
    {
@@ -4119,6 +4169,18 @@
    {
     "name": "khashm > p_kafd_king_abdullah_financial_district",
     "count": 2
+   },
+   {
+    "name": "sab > murabba",
+    "count": 1
+   },
+   {
+    "name": "sab > albilad",
+    "count": 1
+   },
+   {
+    "name": "granadia > kafd",
+    "count": 1
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_riyadh_international_convention_exhibition_center",
@@ -4151,31 +4213,19 @@
    {
     "name": "p_kafd_king_abdullah_financial_district > p_al_faisaliah_tower",
     "count": 1
-   },
-   {
-    "name": "p_kafd_king_abdullah_financial_district > p_security_forces_hospital",
-    "count": 1
-   },
-   {
-    "name": "p_security_forces_hospital > p_kafd_king_abdullah_financial_district",
-    "count": 1
-   },
-   {
-    "name": "granadia > oasis",
-    "count": 1
    }
   ],
   "top_origins": [
+   {
+    "name": "sab",
+    "count": 10
+   },
    {
     "name": "urubah",
     "count": 8
    },
    {
     "name": "murooj",
-    "count": 8
-   },
-   {
-    "name": "sab",
     "count": 8
    },
    {
@@ -4203,7 +4253,7 @@
     "count": 4
    },
    {
-    "name": "wizarat",
+    "name": "granadia",
     "count": 4
    }
   ],
@@ -4225,6 +4275,10 @@
     "count": 5
    },
    {
+    "name": "kafd",
+    "count": 5
+   },
+   {
     "name": "jeddahrd",
     "count": 5
    },
@@ -4241,10 +4295,6 @@
     "count": 4
    },
    {
-    "name": "kafd",
-    "count": 4
-   },
-   {
     "name": "p_national_museum",
     "count": 4
    }
@@ -4254,7 +4304,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 185
+    "count": 187
    },
    {
     "name": "com.reddit.frontpage",
@@ -4370,7 +4420,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 185
+    "count": 187
    },
    {
     "path": "/ar/destinations/al-nakheel-mall",
@@ -4475,7 +4525,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 548,
+   "count": 557,
    "ref_scheme": "o"
   },
   {
@@ -4537,7 +4587,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 690
+   "count": 699
   },
   {
    "id": "ara",
@@ -4574,7 +4624,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 580
+   "count": 589
   },
   {
    "id": "US",
@@ -4706,7 +4756,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 580
+   "count": 589
   },
   {
    "id": "tablet",
@@ -4733,12 +4783,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 389
+   "count": 395
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 338
+   "count": 341
   },
   {
    "id": "Firefox",
@@ -4754,12 +4804,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 330
+   "count": 333
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 250
+   "count": 256
   },
   {
    "id": "Windows",
