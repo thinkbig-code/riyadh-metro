@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T21:56:38Z",
+ "generated": "2026-10-09T22:56:28Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
-  "total": 879,
-  "total_events": 574,
-  "total_utc": 879,
+  "total": 887,
+  "total_events": 579,
+  "total_utc": 887,
   "stats": [
    {
     "day": "2025-10-09",
@@ -10748,7 +10748,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 879
+    "monthly": 887
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 731
+    "weekly": 739
    },
    {
     "day": "2026-10-09",
@@ -10995,8 +10995,8 @@
     "day": "2026-10-10",
     "hourly": [
      14,
-     2,
-     0,
+     4,
+     6,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 24
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 271,
+   "count": 274,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11039,7 +11039,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 5
+    "2026-10-10": 8
    }
   },
   {
@@ -11047,11 +11047,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 146,
+   "count": 149,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 3
+    "2026-10-10": 6
    }
   },
   {
@@ -11125,6 +11125,19 @@
    }
   },
   {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -11154,18 +11167,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
-   "title": "en|name",
-   "event": true,
-   "count": 5,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
-    "2026-10-09": 1
    }
   },
   {
@@ -11540,6 +11541,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/mod/p_national_museum",
+   "path_id": 110798940,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -14625,9 +14636,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 305,
-  "events_total": 574,
-  "goatcounter_total_with_events": 879,
+  "visits": 308,
+  "events_total": 579,
+  "goatcounter_total_with_events": 887,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14637,19 +14648,19 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 5
+   "2026-10-10": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 4
+   "2026-10-10": 7
   },
-  "visitor_days": 149,
+  "visitor_days": 152,
   "return_rate": 0.02,
-  "routes": 177,
+  "routes": 178,
   "routes_not_found": 0,
   "routes_per_visit": 0.58,
-  "routes_per_visitor_day": 1.02,
+  "routes_per_visitor_day": 1.01,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.018,
@@ -14675,7 +14686,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 146,
+   "new": 149,
    "return": 3
   },
   "top_routes": [
@@ -14698,6 +14709,10 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
     "count": 2
+   },
+   {
+    "name": "mod > p_national_museum",
+    "count": 1
    },
    {
     "name": "albilad > p_souq_al_zal",
@@ -14733,10 +14748,6 @@
    },
    {
     "name": "batha > urubah",
-    "count": 1
-   },
-   {
-    "name": "batha > baida",
     "count": 1
    }
   ],
@@ -14792,15 +14803,15 @@
     "count": 6
    },
    {
+    "name": "p_national_museum",
+    "count": 6
+   },
+   {
     "name": "t12",
     "count": 6
    },
    {
     "name": "t5",
-    "count": 5
-   },
-   {
-    "name": "p_national_museum",
     "count": 5
    },
    {
@@ -14829,7 +14840,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 211
+    "count": 214
    },
    {
     "name": "com.reddit.frontpage",
@@ -14999,7 +15010,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 211
+    "count": 214
    },
    {
     "path": "/map",
@@ -15148,7 +15159,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 642,
+   "count": 650,
    "ref_scheme": "o"
   },
   {
@@ -15222,7 +15233,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 811
+   "count": 819
   },
   {
    "id": "ara",
@@ -15264,7 +15275,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 689
+   "count": 693
   },
   {
    "id": "US",
@@ -15282,6 +15293,11 @@
    "count": 17
   },
   {
+   "id": "CA",
+   "name": "Canada",
+   "count": 13
+  },
+  {
    "id": "IN",
    "name": "India",
    "count": 11
@@ -15290,11 +15306,6 @@
    "id": "NL",
    "name": "Netherlands",
    "count": 11
-  },
-  {
-   "id": "CA",
-   "name": "Canada",
-   "count": 9
   },
   {
    "id": "BH",
@@ -15396,7 +15407,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 698
+   "count": 706
   },
   {
    "id": "tablet",
@@ -15423,12 +15434,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 465
+   "count": 469
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 384
+   "count": 388
   },
   {
    "name": "",
@@ -15444,12 +15455,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 389
+   "count": 393
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 315
+   "count": 319
   },
   {
    "id": "Windows",
