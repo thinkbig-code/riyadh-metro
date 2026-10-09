@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-09T18:07:37Z",
+ "generated": "2026-10-09T18:58:33Z",
  "start": "2025-10-09",
  "end": "2026-10-10",
  "total": {
-  "total": 835,
-  "total_events": 541,
-  "total_utc": 835,
+  "total": 850,
+  "total_events": 551,
+  "total_utc": 850,
   "stats": [
    {
     "day": "2025-10-09",
@@ -10748,7 +10748,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 835
+    "monthly": 850
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 687
+    "weekly": 702
    },
    {
     "day": "2026-10-09",
@@ -10986,10 +10986,10 @@
      8,
      2,
      11,
-     0,
+     15,
      0
     ],
-    "daily": 146
+    "daily": 161
    },
    {
     "day": "2026-10-10",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 261,
+   "count": 265,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11038,7 +11038,7 @@
     "2026-10-06": 4,
     "2026-10-07": 30,
     "2026-10-08": 157,
-    "2026-10-09": 43
+    "2026-10-09": 47
    }
   },
   {
@@ -11046,10 +11046,10 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 139,
+   "count": 142,
    "daily": {
     "2026-10-08": 96,
-    "2026-10-09": 43
+    "2026-10-09": 46
    }
   },
   {
@@ -11198,6 +11198,18 @@
    }
   },
   {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-04": 2,
+    "2026-10-05": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11239,17 +11251,6 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 2
-   }
-  },
-  {
-   "path": "/destinations/al-awwal-park",
-   "path_id": 109448541,
-   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-04": 2,
-    "2026-10-05": 1
    }
   },
   {
@@ -11523,6 +11524,76 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/batha/hamra",
+   "path_id": 110776140,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/hamra/to",
+   "path_id": 110776139,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/batha/urubah",
+   "path_id": 110776115,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/batha/baida",
+   "path_id": 110776101,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/batha/baida",
+   "path_id": 110776099,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/baida/to",
+   "path_id": 110776098,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/batha/from",
+   "path_id": 110776084,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -11993,6 +12064,16 @@
    "count": 1,
    "daily": {
     "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-09": 1
    }
   },
   {
@@ -14398,9 +14479,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 294,
-  "events_total": 541,
-  "goatcounter_total_with_events": 835,
+  "visits": 299,
+  "events_total": 552,
+  "goatcounter_total_with_events": 850,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14409,15 +14490,15 @@
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
-   "2026-10-09": 55
+   "2026-10-09": 60
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
-   "2026-10-09": 45
+   "2026-10-09": 48
   },
-  "visitor_days": 141,
+  "visitor_days": 144,
   "return_rate": 0.014,
-  "routes": 167,
+  "routes": 170,
   "routes_not_found": 0,
   "routes_per_visit": 0.57,
   "routes_per_visitor_day": 1.01,
@@ -14446,7 +14527,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 139,
+   "new": 142,
    "return": 2
   },
   "top_routes": [
@@ -14469,6 +14550,18 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
     "count": 2
+   },
+   {
+    "name": "batha > hamra",
+    "count": 1
+   },
+   {
+    "name": "batha > urubah",
+    "count": 1
+   },
+   {
+    "name": "batha > baida",
+    "count": 1
    },
    {
     "name": "moi > p_kafd_king_abdullah_financial_district",
@@ -14496,18 +14589,6 @@
    },
    {
     "name": "khurais > museum",
-    "count": 1
-   },
-   {
-    "name": "sab > murabba",
-    "count": 1
-   },
-   {
-    "name": "sab > albilad",
-    "count": 1
-   },
-   {
-    "name": "granadia > kafd",
     "count": 1
    }
   ],
@@ -14600,11 +14681,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 204
+    "count": 206
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 48
+    "count": 50
    },
    {
     "name": "t.co",
@@ -14625,6 +14706,10 @@
    {
     "name": "www.reddit.com",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/al-awwal-park",
+    "count": 1
    }
   ],
   "/ur.html": [
@@ -14640,7 +14725,7 @@
   "/destinations/al-awwal-park": [
    {
     "name": "Google",
-    "count": 3
+    "count": 4
    }
   ],
   "/map": [
@@ -14766,7 +14851,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 204
+    "count": 206
    },
    {
     "path": "/map",
@@ -14780,7 +14865,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 48
+    "count": 50
    }
   ],
   "t.co": [
@@ -14792,7 +14877,7 @@
   "Google": [
    {
     "path": "/destinations/al-awwal-park",
-    "count": 3
+    "count": 4
    },
    {
     "path": "/",
@@ -14877,6 +14962,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/destinations/al-awwal-park": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
   "www.facebook.com": [
    {
     "path": "/ur.html",
@@ -14909,19 +15000,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 615,
+   "count": 626,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 157,
+   "count": 162,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 27,
+   "count": 28,
    "ref_scheme": "g"
   },
   {
@@ -14971,18 +15062,24 @@
    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/destinations/al-awwal-park",
+   "name": "riyadhmetro.fyi/destinations/al-awwal-park",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 776
+   "count": 785
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 39
+   "count": 48
   },
   {
    "id": "(unknown)",
@@ -15019,7 +15116,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 653
+   "count": 669
   },
   {
    "id": "US",
@@ -15029,7 +15126,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 32
+   "count": 34
   },
   {
    "id": "GB",
@@ -15151,7 +15248,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 654
+   "count": 672
   },
   {
    "id": "tablet",
@@ -15178,12 +15275,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 437
+   "count": 453
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 368
+   "count": 370
   },
   {
    "name": "",
@@ -15199,12 +15296,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 373
+   "count": 375
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 287
+   "count": 303
   },
   {
    "id": "Windows",
