@@ -1980,6 +1980,494 @@
     "p_king_khalid_airport_terminals_1_2"
    ],
    "title_ar": "من مطار الرياض إلى برج المملكة بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-national-museum",
+   "title": "Riyadh Airport to National Museum by metro",
+   "query": "riyadh airport to national museum metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_national_museum"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_national_museum"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_national_museum"
+    ]
+   ],
+   "return": [
+    "p_national_museum",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى المتحف الوطني بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-masmak-fortress",
+   "title": "Riyadh Airport to Masmak Fortress by metro",
+   "query": "riyadh airport to masmak fortress metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_al_masmak_fortress"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_al_masmak_fortress"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_al_masmak_fortress"
+    ]
+   ],
+   "return": [
+    "p_al_masmak_fortress",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى قصر المصمك بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-riyadh-gallery-mall",
+   "title": "Riyadh Airport to Riyadh Gallery Mall by metro",
+   "query": "riyadh airport to riyadh gallery mall metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_riyadh_gallery_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_riyadh_gallery_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_riyadh_gallery_mall"
+    ]
+   ],
+   "return": [
+    "p_riyadh_gallery_mall",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى الرياض جاليري مول بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-olaya-street",
+   "title": "Riyadh Airport to Olaya Street by metro",
+   "query": "riyadh airport to olaya street metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_olaya_street"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_olaya_street"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_olaya_street"
+    ]
+   ],
+   "return": [
+    "p_olaya_street",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى شارع العليا بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-boulevard-city",
+   "title": "Riyadh Airport to Boulevard City by metro",
+   "query": "riyadh airport to boulevard city metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_boulevard_city"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_boulevard_city"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_boulevard_city"
+    ]
+   ],
+   "return": [
+    "p_boulevard_city",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى بوليفارد سيتي بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-diriyah",
+   "title": "Riyadh Airport to Diriyah by metro",
+   "query": "riyadh airport to diriyah metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_diriyah"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_diriyah"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_diriyah"
+    ]
+   ],
+   "return": [
+    "p_diriyah",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى الدرعية بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-riyadh-railway-station",
+   "title": "Riyadh Airport to Riyadh Railway Station by metro",
+   "query": "riyadh airport to riyadh railway station metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_riyadh_railway_station"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_riyadh_railway_station"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_riyadh_railway_station"
+    ]
+   ],
+   "return": [
+    "p_riyadh_railway_station",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى محطة قطار الرياض بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-diplomatic-quarter",
+   "title": "Riyadh Airport to Diplomatic Quarter by metro",
+   "query": "riyadh airport to diplomatic quarter metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_diplomatic_quarter"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_diplomatic_quarter"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_diplomatic_quarter"
+    ]
+   ],
+   "return": [
+    "p_diplomatic_quarter",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى الحي الدبلوماسي بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-granada-mall",
+   "title": "Riyadh Airport to Granada Mall by metro",
+   "query": "riyadh airport to granada mall metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_granada_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_granada_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_granada_mall"
+    ]
+   ],
+   "return": [
+    "p_granada_mall",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى غرناطة مول بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-riyadh-park-mall",
+   "title": "Riyadh Airport to Riyadh Park Mall by metro",
+   "query": "riyadh airport to riyadh park mall metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_riyadh_park_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_riyadh_park_mall"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_riyadh_park_mall"
+    ]
+   ],
+   "return": [
+    "p_riyadh_park_mall",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى الرياض بارك مول بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-kingdom-arena",
+   "title": "Riyadh Airport to Kingdom Arena by metro",
+   "query": "riyadh airport to kingdom arena metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_kingdom_arena"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_kingdom_arena"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_kingdom_arena"
+    ]
+   ],
+   "return": [
+    "p_kingdom_arena",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى المملكة أرينا بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-princess-nourah-university",
+   "title": "Riyadh Airport to Princess Nourah University by metro",
+   "query": "riyadh airport to princess nourah university metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_princess_nourah_university"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_princess_nourah_university"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_princess_nourah_university"
+    ]
+   ],
+   "return": [
+    "p_princess_nourah_university",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى جامعة الأميرة نورة بالمترو"
+  },
+  {
+   "slug": "riyadh-airport-to-king-saud-university",
+   "title": "Riyadh Airport to King Saud University by metro",
+   "query": "riyadh airport to king saud university metro",
+   "pairs": [
+    [
+     "p_king_khalid_airport_terminals_1_2",
+     "p_king_saud_university"
+    ],
+    [
+     "p_king_khalid_airport_terminals_3_4",
+     "p_king_saud_university"
+    ],
+    [
+     "p_king_khalid_airport_terminal_5",
+     "p_king_saud_university"
+    ]
+   ],
+   "return": [
+    "p_king_saud_university",
+    "p_king_khalid_airport_terminals_1_2"
+   ],
+   "title_ar": "من مطار الرياض إلى جامعة الملك سعود بالمترو"
+  },
+  {
+   "slug": "kafd-to-national-museum",
+   "title": "KAFD to National Museum by metro",
+   "query": "kafd to national museum metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_national_museum"
+    ]
+   ],
+   "return": [
+    "p_national_museum",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى المتحف الوطني بالمترو"
+  },
+  {
+   "slug": "kafd-to-masmak-fortress",
+   "title": "KAFD to Masmak Fortress by metro",
+   "query": "kafd to masmak fortress metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_al_masmak_fortress"
+    ]
+   ],
+   "return": [
+    "p_al_masmak_fortress",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى قصر المصمك بالمترو"
+  },
+  {
+   "slug": "kafd-to-kingdom-centre",
+   "title": "KAFD to Kingdom Centre by metro",
+   "query": "kafd to kingdom centre metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_kingdom_centre"
+    ]
+   ],
+   "return": [
+    "p_kingdom_centre",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى برج المملكة بالمترو"
+  },
+  {
+   "slug": "kafd-to-riyadh-gallery-mall",
+   "title": "KAFD to Riyadh Gallery Mall by metro",
+   "query": "kafd to riyadh gallery mall metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_riyadh_gallery_mall"
+    ]
+   ],
+   "return": [
+    "p_riyadh_gallery_mall",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى الرياض جاليري مول بالمترو"
+  },
+  {
+   "slug": "kafd-to-al-batha",
+   "title": "KAFD to Al Batha by metro",
+   "query": "kafd to al batha metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_al_batha"
+    ]
+   ],
+   "return": [
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى البطحاء بالمترو"
+  },
+  {
+   "slug": "kafd-to-diriyah",
+   "title": "KAFD to Diriyah by metro",
+   "query": "kafd to diriyah metro",
+   "pairs": [
+    [
+     "p_kafd_king_abdullah_financial_district",
+     "p_diriyah"
+    ]
+   ],
+   "return": [
+    "p_diriyah",
+    "p_kafd_king_abdullah_financial_district"
+   ],
+   "title_ar": "من المركز المالي (كافد) إلى الدرعية بالمترو"
+  },
+  {
+   "slug": "kingdom-centre-to-national-museum",
+   "title": "Kingdom Centre to National Museum by metro",
+   "query": "kingdom centre to national museum metro",
+   "pairs": [
+    [
+     "p_kingdom_centre",
+     "p_national_museum"
+    ]
+   ],
+   "return": [
+    "p_national_museum",
+    "p_kingdom_centre"
+   ],
+   "title_ar": "من برج المملكة إلى المتحف الوطني بالمترو"
+  },
+  {
+   "slug": "kingdom-centre-to-masmak-fortress",
+   "title": "Kingdom Centre to Masmak Fortress by metro",
+   "query": "kingdom centre to masmak fortress metro",
+   "pairs": [
+    [
+     "p_kingdom_centre",
+     "p_al_masmak_fortress"
+    ]
+   ],
+   "return": [
+    "p_al_masmak_fortress",
+    "p_kingdom_centre"
+   ],
+   "title_ar": "من برج المملكة إلى قصر المصمك بالمترو"
+  },
+  {
+   "slug": "al-batha-to-kafd",
+   "title": "Al Batha to KAFD by metro",
+   "query": "al batha to kafd metro",
+   "pairs": [
+    [
+     "p_al_batha",
+     "p_kafd_king_abdullah_financial_district"
+    ]
+   ],
+   "return": [
+    "p_kafd_king_abdullah_financial_district",
+    "p_al_batha"
+   ],
+   "title_ar": "من البطحاء إلى المركز المالي (كافد) بالمترو"
+  },
+  {
+   "slug": "al-batha-to-kingdom-centre",
+   "title": "Al Batha to Kingdom Centre by metro",
+   "query": "al batha to kingdom centre metro",
+   "pairs": [
+    [
+     "p_al_batha",
+     "p_kingdom_centre"
+    ]
+   ],
+   "return": [
+    "p_kingdom_centre",
+    "p_al_batha"
+   ],
+   "title_ar": "من البطحاء إلى برج المملكة بالمترو"
+  },
+  {
+   "slug": "riyadh-railway-station-to-kafd",
+   "title": "Riyadh Railway Station to KAFD by metro",
+   "query": "riyadh railway station to kafd metro",
+   "pairs": [
+    [
+     "p_riyadh_railway_station",
+     "p_kafd_king_abdullah_financial_district"
+    ]
+   ],
+   "return": [
+    "p_kafd_king_abdullah_financial_district",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "من محطة قطار الرياض إلى المركز المالي (كافد) بالمترو"
   }
  ],
  "extra_pairs": [],

@@ -454,9 +454,15 @@ def route_page(r):
     a, b = r['pairs'][0]
     v, _ = P.best(a, b)
     uses = ' ثم '.join(LN[l] if l != 'walk' else 'مسافة قصيرة سيراً' for l in P.lines_of(v))
-    lead = 'من %s اركب %s إلى %s: نحو %s من الباب إلى الباب مع %s، وتذكرة الساعتين بسعر %s.' % (
-        name_of(a), uses, name_of(b), t('minRange', a=v['time'], b=v['timeMax']).replace('نحو ', ''), xf_text(v['xf']), sar(P.fare(v)['std']))
-    body = ['<h1>%s</h1>' % e(r['title_ar']), '<p class="lead">%s</p>' % e(lead), plan(a, b)]
+    lm = P.end_of(b)['lm']
+    if lm and lm.get('note'):   # المترو لا يصل إليه: محطة النزول ثم سيارة أجرة أو حافلة
+        lead = 'من %s اركب %s إلى محطة %s، أقرب محطة إلى %s: نحو %s مع %s، وتذكرة الساعتين بسعر %s. ومن هناك أكمل بسيارة أجرة أو بالحافلة.' % (
+            name_of(a), uses, sn(P.end_of(b)['st']), name_of(b), t('minRange', a=v['time'], b=v['timeMax']).replace('نحو ', ''), xf_text(v['xf']), sar(P.fare(v)['std']))
+    else:
+        lead = 'من %s اركب %s إلى %s: نحو %s من الباب إلى الباب مع %s، وتذكرة الساعتين بسعر %s.' % (
+            name_of(a), uses, name_of(b), t('minRange', a=v['time'], b=v['timeMax']).replace('نحو ', ''), xf_text(v['xf']), sar(P.fare(v)['std']))
+    lead = lead.replace('مع بدون تبديل', 'دون تبديل')
+    body = ['<h1>%s</h1>' % e(r['title_ar']), app_frame(a, b, 'خريطة تفاعلية بهذه الرحلة جاهزة: غيّر نقطة الانطلاق أو الوجهة إن احتجت.'), '<p class="lead">%s</p>' % e(lead)]
     for x, y in r['pairs']:
         body.append(route_card(x, y, 'من %s إلى %s' % (name_of(x), name_of(y))))
     body.append(fare_table())

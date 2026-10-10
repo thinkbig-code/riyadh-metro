@@ -679,9 +679,13 @@ def route_page(r):
     A, B = end_of(a), end_of(b)
     f = fare(v)
     uses = ', then '.join(('the ' + LINE_NAME[l]) if l != 'walk' else 'a short walk' for l in lines_of(v))
-    lead = 'From %s, take %s to %s: about %d–%d minutes door to door with %s, SAR %s for a 2-hour ticket.' % (
-        A['name'], uses, B['name'], v['time'], v['timeMax'], xf_text(v['xf']), sar(f['std']))
-    body = ['<h1>%s</h1>' % e(r['title']), '<p class="lead">%s</p>' % e(lead), plan(a, b)]
+    if B['lm'] and B['lm'].get('note'):   # the metro does not reach it: say where to get off and that a taxi or bus is needed
+        lead = 'From %s, take %s to %s, the nearest station to %s: about %d–%d minutes with %s, SAR %s for a 2-hour ticket. From there continue by taxi or bus.' % (
+            A['name'], uses, ST[B['st']]['n'], B['name'], v['time'], v['timeMax'], xf_text(v['xf']), sar(f['std']))
+    else:
+        lead = 'From %s, take %s to %s: about %d–%d minutes door to door with %s, SAR %s for a 2-hour ticket.' % (
+            A['name'], uses, B['name'], v['time'], v['timeMax'], xf_text(v['xf']), sar(f['std']))
+    body = ['<h1>%s</h1>' % e(r['title']), app_frame(a, b, 'Interactive map with this trip already set up: change the start or the end if you need to.'), '<p class="lead">%s</p>' % e(lead)]
     for i, (x, y) in enumerate(r['pairs']):
         body.append(route_card(x, y, 'From %s to %s' % (end_of(x)['name'], end_of(y)['name'])))
     # fares for this trip
