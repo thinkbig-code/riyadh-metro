@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T07:53:51Z",
+ "generated": "2026-10-10T08:54:29Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 945,
-  "total_events": 613,
-  "total_utc": 945,
+  "total": 949,
+  "total_events": 614,
+  "total_utc": 949,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 945
+    "monthly": 949
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 797
+    "weekly": 801
    },
    {
     "day": "2026-10-09",
@@ -926,7 +926,7 @@
      2,
      2,
      10,
-     0,
+     4,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 82
+    "daily": 86
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 287,
+   "count": 288,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 21
+    "2026-10-10": 22
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 160,
+   "count": 161,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 17
+    "2026-10-10": 18
    }
   },
   {
@@ -1245,6 +1245,17 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 2
+   }
+  },
+  {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1
    }
   },
   {
@@ -1520,6 +1531,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-wisham",
+   "path_id": 110894791,
+   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -2107,16 +2128,6 @@
    "path_id": 110710876,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-09": 1
@@ -4815,9 +4826,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 332,
-  "events_total": 613,
-  "goatcounter_total_with_events": 945,
+  "visits": 335,
+  "events_total": 614,
+  "goatcounter_total_with_events": 949,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4827,19 +4838,19 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 32
+   "2026-10-10": 35
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 20
+   "2026-10-10": 21
   },
-  "visitor_days": 165,
+  "visitor_days": 166,
   "return_rate": 0.03,
   "routes": 186,
   "routes_not_found": 0,
   "routes_per_visit": 0.56,
-  "routes_per_visitor_day": 0.98,
+  "routes_per_visitor_day": 0.97,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.017,
@@ -4865,7 +4876,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 160,
+   "new": 161,
    "return": 5
   },
   "top_routes": [
@@ -5048,6 +5059,10 @@
    {
     "name": "riyadhmetro.fyi/destinations/al-awwal-park",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/stations",
+    "count": 1
    }
   ],
   "/ur.html": [
@@ -5078,6 +5093,12 @@
    {
     "name": "Google",
     "count": 4
+   }
+  ],
+  "/stations": [
+   {
+    "name": "Google",
+    "count": 2
    }
   ],
   "/ar/districts/al-saadah": [
@@ -5118,6 +5139,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-wisham": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/map": [
@@ -5187,12 +5214,6 @@
    }
   ],
   "/stations/ministry-of-interior": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/stations": [
    {
     "name": "Google",
     "count": 1
@@ -5284,6 +5305,10 @@
     "count": 2
    },
    {
+    "path": "/stations",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 2
    },
@@ -5302,6 +5327,10 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/ar/districts/al-wisham",
+    "count": 1
    },
    {
     "path": "/ar/map",
@@ -5333,10 +5362,6 @@
    },
    {
     "path": "/stations/ministry-of-interior",
-    "count": 1
-   },
-   {
-    "path": "/stations",
     "count": 1
    },
    {
@@ -5381,6 +5406,12 @@
    }
   ],
   "riyadhmetro.fyi/destinations/al-awwal-park": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/stations": [
    {
     "path": "/",
     "count": 1
@@ -5454,7 +5485,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 41,
+   "count": 43,
    "ref_scheme": "g"
   },
   {
@@ -5496,6 +5527,12 @@
   {
    "id": "riyadhmetro.fyi/ar/destinations/diriyah",
    "name": "riyadhmetro.fyi/ar/destinations/diriyah",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/stations",
+   "name": "riyadhmetro.fyi/stations",
    "count": 2,
    "ref_scheme": "h"
   },
@@ -5545,7 +5582,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 56
+   "count": 57
   },
   {
    "id": "(unknown)",
@@ -5558,6 +5595,11 @@
    "count": 6
   },
   {
+   "id": "fra",
+   "name": "French",
+   "count": 4
+  },
+  {
    "id": "deu",
    "name": "German",
    "count": 3
@@ -5566,11 +5608,6 @@
    "id": "ita",
    "name": "Italian",
    "count": 2
-  },
-  {
-   "id": "fra",
-   "name": "French",
-   "count": 1
   },
   {
    "id": "por",
@@ -5587,7 +5624,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 725
+   "count": 726
   },
   {
    "id": "US",
@@ -5635,6 +5672,11 @@
    "count": 5
   },
   {
+   "id": "IT",
+   "name": "Italy",
+   "count": 5
+  },
+  {
    "id": "PK",
    "name": "Pakistan",
    "count": 5
@@ -5668,11 +5710,6 @@
    "id": "SE",
    "name": "Sweden",
    "count": 3
-  },
-  {
-   "id": "IT",
-   "name": "Italy",
-   "count": 2
   },
   {
    "id": "MX",
@@ -5739,7 +5776,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 752
+   "count": 753
   },
   {
    "id": "tablet",
@@ -5749,7 +5786,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 128
+   "count": 131
   },
   {
    "id": "desktophd",
@@ -5766,7 +5803,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 488
+   "count": 492
   },
   {
    "id": "Safari",
@@ -5792,12 +5829,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 335
+   "count": 336
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 114
+   "count": 117
   },
   {
    "id": "macOS",
