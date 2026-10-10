@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T08:54:29Z",
+ "generated": "2026-10-10T09:54:33Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 949,
-  "total_events": 614,
-  "total_utc": 949,
+  "total": 952,
+  "total_events": 616,
+  "total_utc": 952,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 949
+    "monthly": 952
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 801
+    "weekly": 804
    },
    {
     "day": "2026-10-09",
@@ -927,7 +927,7 @@
      2,
      10,
      4,
-     0,
+     3,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 86
+    "daily": 89
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 288,
+   "count": 289,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 22
+    "2026-10-10": 23
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 161,
+   "count": 162,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 18
+    "2026-10-10": 19
    }
   },
   {
@@ -1531,6 +1531,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "noresult/indian_embassy",
+   "path_id": 110912081,
+   "title": "en|indian embassy",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -4826,9 +4836,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 335,
-  "events_total": 614,
-  "goatcounter_total_with_events": 949,
+  "visits": 336,
+  "events_total": 616,
+  "goatcounter_total_with_events": 952,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4838,23 +4848,27 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 35
+   "2026-10-10": 36
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 21
+   "2026-10-10": 22
   },
-  "visitor_days": 166,
+  "visitor_days": 167,
   "return_rate": 0.03,
   "routes": 186,
   "routes_not_found": 0,
-  "routes_per_visit": 0.56,
-  "routes_per_visitor_day": 0.97,
+  "routes_per_visit": 0.55,
+  "routes_per_visitor_day": 0.96,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.017,
+  "failed_search_rate": 0.022,
   "failed_searches": [
+   {
+    "name": "indian embassy",
+    "count": 1
+   },
    {
     "name": "محطة سلطانة",
     "count": 1
@@ -4876,7 +4890,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 161,
+   "new": 162,
    "return": 5
   },
   "top_routes": [
@@ -5038,7 +5052,7 @@
    },
    {
     "name": "Google",
-    "count": 4
+    "count": 5
    },
    {
     "name": "t.co",
@@ -5294,7 +5308,7 @@
   "Google": [
    {
     "path": "/",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -5485,7 +5499,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 43,
+   "count": 46,
    "ref_scheme": "g"
   },
   {
@@ -5577,7 +5591,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 867
+   "count": 870
   },
   {
    "id": "ara",
@@ -5687,6 +5701,11 @@
    "count": 4
   },
   {
+   "id": "DE",
+   "name": "Germany",
+   "count": 4
+  },
+  {
    "id": "FR",
    "name": "France",
    "count": 4
@@ -5737,11 +5756,6 @@
    "count": 1
   },
   {
-   "id": "DE",
-   "name": "Germany",
-   "count": 1
-  },
-  {
    "id": "FI",
    "name": "Finland",
    "count": 1
@@ -5776,7 +5790,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 753
+   "count": 756
   },
   {
    "id": "tablet",
@@ -5803,7 +5817,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 492
+   "count": 495
   },
   {
    "id": "Safari",
@@ -5829,7 +5843,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 336
+   "count": 339
   },
   {
    "id": "Windows",
