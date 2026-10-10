@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T03:55:35Z",
+ "generated": "2026-10-10T04:56:03Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 921,
-  "total_events": 599,
-  "total_utc": 921,
+  "total": 931,
+  "total_events": 606,
+  "total_utc": 931,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 921
+    "monthly": 931
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 773
+    "weekly": 783
    },
    {
     "day": "2026-10-09",
@@ -921,8 +921,8 @@
      0,
      3,
      0,
-     6,
-     0,
+     8,
+     8,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 58
+    "daily": 68
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 279,
+   "count": 282,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 13
+    "2026-10-10": 16
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 154,
+   "count": 155,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 11
+    "2026-10-10": 12
    }
   },
   {
@@ -1064,6 +1064,18 @@
    }
   },
   {
+   "path": "place/p_al_faisaliah_tower/to",
+   "path_id": 110407244,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-08": 4,
+    "2026-10-09": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/to",
    "path_id": 110299388,
    "title": "en|name",
@@ -1089,6 +1101,17 @@
    }
   },
   {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -1111,14 +1134,15 @@
    }
   },
   {
-   "path": "place/p_al_faisaliah_tower/to",
-   "path_id": 110407244,
+   "path": "place/p_al_masmak_fortress/from",
+   "path_id": 110300993,
    "title": "en|name",
    "event": true,
    "count": 5,
    "daily": {
-    "2026-10-08": 4,
-    "2026-10-09": 1
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-10": 1
    }
   },
   {
@@ -1133,17 +1157,6 @@
    }
   },
   {
-   "path": "visit/return/-",
-   "path_id": 110708664,
-   "title": "en",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 2
-   }
-  },
-  {
    "path": "place/p_king_khalid_airport_terminals_1_2/to",
    "path_id": 110315048,
    "title": "en|name",
@@ -1152,17 +1165,6 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "place/p_al_masmak_fortress/from",
-   "path_id": 110300993,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2
    }
   },
   {
@@ -1517,6 +1519,36 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/dhabab/hokm",
+   "path_id": 110854126,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/dhabab/hokm",
+   "path_id": 110854116,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/p_al_masmak_fortress/p_al_faisaliah_tower",
+   "path_id": 110854100,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -4762,9 +4794,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 322,
-  "events_total": 599,
-  "goatcounter_total_with_events": 921,
+  "visits": 325,
+  "events_total": 606,
+  "goatcounter_total_with_events": 931,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4774,16 +4806,16 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 22
+   "2026-10-10": 25
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 13
+   "2026-10-10": 15
   },
-  "visitor_days": 158,
-  "return_rate": 0.025,
-  "routes": 184,
+  "visitor_days": 160,
+  "return_rate": 0.031,
+  "routes": 186,
   "routes_not_found": 0,
   "routes_per_visit": 0.57,
   "routes_per_visitor_day": 1.01,
@@ -4812,8 +4844,8 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 154,
-   "return": 4
+   "new": 155,
+   "return": 5
   },
   "top_routes": [
    {
@@ -4841,6 +4873,14 @@
     "count": 2
    },
    {
+    "name": "dhabab > hokm",
+    "count": 1
+   },
+   {
+    "name": "p_al_masmak_fortress > p_al_faisaliah_tower",
+    "count": 1
+   },
+   {
     "name": "p_kafd_king_abdullah_financial_district > hokm",
     "count": 1
    },
@@ -4866,14 +4906,6 @@
    },
    {
     "name": "albilad > p_souq_al_zal",
-    "count": 1
-   },
-   {
-    "name": "kfl > p_riyadh_gallery_mall",
-    "count": 1
-   },
-   {
-    "name": "murabba > p_boulevard_city",
     "count": 1
    }
   ],
@@ -4933,6 +4965,10 @@
     "count": 6
    },
    {
+    "name": "p_al_faisaliah_tower",
+    "count": 6
+   },
+   {
     "name": "t12",
     "count": 6
    },
@@ -4942,10 +4978,6 @@
    },
    {
     "name": "p_souq_al_zal",
-    "count": 5
-   },
-   {
-    "name": "p_al_faisaliah_tower",
     "count": 5
    },
    {
@@ -4966,19 +4998,19 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 218
+    "count": 219
    },
    {
     "name": "com.reddit.frontpage",
     "count": 51
    },
    {
-    "name": "t.co",
-    "count": 3
+    "name": "Google",
+    "count": 4
    },
    {
-    "name": "Google",
-    "count": 2
+    "name": "t.co",
+    "count": 3
    },
    {
     "name": "riyadhmetro.fyi/map",
@@ -5186,7 +5218,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 218
+    "count": 219
    },
    {
     "path": "/map",
@@ -5211,20 +5243,14 @@
     "count": 51
    }
   ],
-  "t.co": [
-   {
-    "path": "/",
-    "count": 3
-   }
-  ],
   "Google": [
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/",
     "count": 4
    },
    {
-    "path": "/",
-    "count": 2
+    "path": "/destinations/al-awwal-park",
+    "count": 4
    },
    {
     "path": "/ar/districts/al-saadah",
@@ -5297,6 +5323,12 @@
    {
     "path": "/destinations/riyadh-gallery-mall",
     "count": 1
+   }
+  ],
+  "t.co": [
+   {
+    "path": "/",
+    "count": 3
    }
   ],
   "riyadhmetro.fyi/map": [
@@ -5379,7 +5411,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 672,
+   "count": 674,
    "ref_scheme": "o"
   },
   {
@@ -5391,7 +5423,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 31,
+   "count": 39,
    "ref_scheme": "g"
   },
   {
@@ -5477,7 +5509,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 845
+   "count": 855
   },
   {
    "id": "ara",
@@ -5529,7 +5561,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 34
+   "count": 42
   },
   {
    "id": "GB",
@@ -5607,6 +5639,11 @@
    "count": 2
   },
   {
+   "id": "TR",
+   "name": "Turkey",
+   "count": 2
+  },
+  {
    "id": "TW",
    "name": "Taiwan",
    "count": 2
@@ -5656,7 +5693,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 731
+   "count": 741
   },
   {
    "id": "tablet",
@@ -5683,12 +5720,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 475
+   "count": 483
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 416
+   "count": 418
   },
   {
    "name": "",
@@ -5704,12 +5741,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 412
+   "count": 414
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 325
+   "count": 333
   },
   {
    "id": "Windows",
