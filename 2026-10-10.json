@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T02:55:35Z",
+ "generated": "2026-10-10T03:55:35Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 915,
-  "total_events": 597,
-  "total_utc": 915,
+  "total": 921,
+  "total_events": 599,
+  "total_utc": 921,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 915
+    "monthly": 921
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 767
+    "weekly": 773
    },
    {
     "day": "2026-10-09",
@@ -921,7 +921,7 @@
      0,
      3,
      0,
-     0,
+     6,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 52
+    "daily": 58
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 278,
+   "count": 279,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 12
+    "2026-10-10": 13
    }
   },
   {
@@ -1133,6 +1133,17 @@
    }
   },
   {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 2
+   }
+  },
+  {
    "path": "place/p_king_khalid_airport_terminals_1_2/to",
    "path_id": 110315048,
    "title": "en|name",
@@ -1167,10 +1178,10 @@
    }
   },
   {
-   "path": "visit/return/-",
-   "path_id": 110708664,
-   "title": "en",
-   "event": true,
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
    "count": 3,
    "daily": {
     "2026-10-09": 2,
@@ -1234,16 +1245,6 @@
    }
   },
   {
-   "path": "/map",
-   "path_id": 110710457,
-   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-09": 2
-   }
-  },
-  {
    "path": "/ar/districts/al-saadah",
    "path_id": 110638521,
    "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
@@ -1262,6 +1263,17 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/ksu/hamra",
+   "path_id": 110442280,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
    }
   },
   {
@@ -1505,6 +1517,26 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-muhammadiyah",
+   "path_id": 110846046,
+   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-front",
+   "path_id": 110843025,
+   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -3268,16 +3300,6 @@
    }
   },
   {
-   "path": "route/ksu/hamra",
-   "path_id": 110442280,
-   "title": "en|swap|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/hamra/ksu",
    "path_id": 110442265,
    "title": "en|map|ok",
@@ -4740,9 +4762,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 318,
-  "events_total": 597,
-  "goatcounter_total_with_events": 915,
+  "visits": 322,
+  "events_total": 599,
+  "goatcounter_total_with_events": 921,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4752,18 +4774,18 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 18
+   "2026-10-10": 22
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 12
+   "2026-10-10": 13
   },
-  "visitor_days": 157,
-  "return_rate": 0.019,
-  "routes": 183,
+  "visitor_days": 158,
+  "return_rate": 0.025,
+  "routes": 184,
   "routes_not_found": 0,
-  "routes_per_visit": 0.58,
+  "routes_per_visit": 0.57,
   "routes_per_visitor_day": 1.01,
   "share_rate": 0.0,
   "shares": {},
@@ -4791,9 +4813,13 @@
   },
   "visitors_new_return": {
    "new": 154,
-   "return": 3
+   "return": 4
   },
   "top_routes": [
+   {
+    "name": "ksu > hamra",
+    "count": 2
+   },
    {
     "name": "khashm > p_kingdom_centre",
     "count": 2
@@ -4849,10 +4875,6 @@
    {
     "name": "murabba > p_boulevard_city",
     "count": 1
-   },
-   {
-    "name": "murabba > p_al_faisaliah_tower",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -4877,6 +4899,10 @@
     "count": 7
    },
    {
+    "name": "ksu",
+    "count": 6
+   },
+   {
     "name": "khashm",
     "count": 6
    },
@@ -4890,10 +4916,6 @@
    },
    {
     "name": "t12",
-    "count": 5
-   },
-   {
-    "name": "ksu",
     "count": 5
    }
   ],
@@ -4948,7 +4970,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 50
+    "count": 51
    },
    {
     "name": "t.co",
@@ -4999,6 +5021,10 @@
    {
     "name": "Google",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/riyadh-front",
+    "count": 1
    }
   ],
   "/ar/districts/al-saadah": [
@@ -5039,6 +5065,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-muhammadiyah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/riyadh-front": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/districts/west-umm-al-hamam": [
@@ -5155,6 +5193,10 @@
     "count": 1
    },
    {
+    "path": "/destinations/riyadh-front",
+    "count": 1
+   },
+   {
     "path": "/timings",
     "count": 1
    },
@@ -5166,7 +5208,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 50
+    "count": 51
    }
   ],
   "t.co": [
@@ -5206,6 +5248,10 @@
    },
    {
     "path": "/map",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
@@ -5293,6 +5339,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/destinations/riyadh-front": [
+   {
+    "path": "/map",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/destinations/diriyah": [
    {
     "path": "/ar.html",
@@ -5327,19 +5379,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 671,
+   "count": 672,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 172,
+   "count": 175,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 30,
+   "count": 31,
    "ref_scheme": "g"
   },
   {
@@ -5413,18 +5465,24 @@
    "name": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/destinations/riyadh-front",
+   "name": "riyadhmetro.fyi/destinations/riyadh-front",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 840
+   "count": 845
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 55
+   "count": 56
   },
   {
    "id": "(unknown)",
@@ -5461,7 +5519,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 710
+   "count": 716
   },
   {
    "id": "US",
@@ -5598,7 +5656,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 725
+   "count": 731
   },
   {
    "id": "tablet",
@@ -5625,12 +5683,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 470
+   "count": 475
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 415
+   "count": 416
   },
   {
    "name": "",
@@ -5646,12 +5704,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 411
+   "count": 412
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 320
+   "count": 325
   },
   {
    "id": "Windows",
