@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T15:54:05Z",
+ "generated": "2026-10-10T16:54:58Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 1016,
-  "total_events": 654,
-  "total_utc": 1016,
+  "total": 1028,
+  "total_events": 660,
+  "total_utc": 1028,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1016
+    "monthly": 1028
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 868
+    "weekly": 880
    },
    {
     "day": "2026-10-09",
@@ -933,13 +933,13 @@
      23,
      16,
      7,
-     6,
-     0,
+     7,
+     11,
      0,
      0,
      0
     ],
-    "daily": 153
+    "daily": 165
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 306,
+   "count": 309,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 40
+    "2026-10-10": 43
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 176,
+   "count": 179,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 33
+    "2026-10-10": 36
    }
   },
   {
@@ -1102,6 +1102,17 @@
    }
   },
   {
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3
+   }
+  },
+  {
    "path": "visit/return/-",
    "path_id": 110708664,
    "title": "en",
@@ -1155,17 +1166,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "/map",
-   "path_id": 110710457,
-   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 2
    }
   },
   {
@@ -1248,6 +1248,16 @@
    }
   },
   {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
    "path": "route/moi/p_kafd_king_abdullah_financial_district",
    "path_id": 110772718,
    "title": "en|search|ok",
@@ -1288,6 +1298,17 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/sabic/to",
+   "path_id": 110444036,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
    }
   },
   {
@@ -1556,9 +1577,9 @@
    }
   },
   {
-   "path": "/ar/stations/mew-a",
-   "path_id": 110975987,
-   "title": "محطة وزارة البيئة والمياه والزراعة، مترو الرياض: المسار الأخضر (رقم 70)",
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -1566,9 +1587,29 @@
    }
   },
   {
-   "path": "/ar/districts/middle-oraija",
-   "path_id": 110973042,
-   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "path": "route/habib/sabic",
+   "path_id": 110980441,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "station/habib/from",
+   "path_id": 110980410,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/ar/stations/mew-a",
+   "path_id": 110975987,
+   "title": "محطة وزارة البيئة والمياه والزراعة، مترو الرياض: المسار الأخضر (رقم 70)",
    "event": false,
    "count": 1,
    "daily": {
@@ -3596,16 +3637,6 @@
    }
   },
   {
-   "path": "station/sabic/to",
-   "path_id": 110444036,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/malaz/sab",
    "path_id": 110444020,
    "title": "en|search|ok",
@@ -5108,9 +5139,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 362,
-  "events_total": 654,
-  "goatcounter_total_with_events": 1016,
+  "visits": 368,
+  "events_total": 660,
+  "goatcounter_total_with_events": 1028,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5120,22 +5151,22 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 62
+   "2026-10-10": 68
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 36
+   "2026-10-10": 39
   },
-  "visitor_days": 181,
-  "return_rate": 0.028,
-  "routes": 198,
+  "visitor_days": 184,
+  "return_rate": 0.027,
+  "routes": 199,
   "routes_not_found": 0,
-  "routes_per_visit": 0.55,
-  "routes_per_visitor_day": 0.96,
+  "routes_per_visit": 0.54,
+  "routes_per_visitor_day": 0.95,
   "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": 0.022,
+  "failed_search_rate": 0.021,
   "failed_searches": [
    {
     "name": "indian embassy",
@@ -5162,7 +5193,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 176,
+   "new": 179,
    "return": 5
   },
   "top_routes": [
@@ -5195,6 +5226,10 @@
     "count": 2
    },
    {
+    "name": "habib > sabic",
+    "count": 1
+   },
+   {
     "name": "kafd > murabba",
     "count": 1
    },
@@ -5220,10 +5255,6 @@
    },
    {
     "name": "moi > baida",
-    "count": 1
-   },
-   {
-    "name": "moi > urubah",
     "count": 1
    }
   ],
@@ -5316,11 +5347,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 237
+    "count": 239
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 54
+    "count": 55
    },
    {
     "name": "Google",
@@ -5355,20 +5386,10 @@
     "count": 1
    }
   ],
-  "/ur.html": [
-   {
-    "name": "www.facebook.com",
-    "count": 3
-   },
-   {
-    "name": "Facebook",
-    "count": 2
-   }
-  ],
   "/map": [
    {
     "name": "Google",
-    "count": 2
+    "count": 3
    },
    {
     "name": "(direct or unknown)",
@@ -5379,10 +5400,26 @@
     "count": 1
    }
   ],
+  "/ur.html": [
+   {
+    "name": "www.facebook.com",
+    "count": 3
+   },
+   {
+    "name": "Facebook",
+    "count": 2
+   }
+  ],
   "/destinations/al-awwal-park": [
    {
     "name": "Google",
     "count": 4
+   }
+  ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 2
    }
   ],
   "/stations": [
@@ -5431,13 +5468,13 @@
     "count": 2
    }
   ],
-  "/ar/stations/mew-a": [
+  "/ar/districts/qurtubah": [
    {
     "name": "Google",
     "count": 1
    }
   ],
-  "/ar/districts/middle-oraija": [
+  "/ar/stations/mew-a": [
    {
     "name": "Google",
     "count": 1
@@ -5610,7 +5647,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 237
+    "count": 239
    },
    {
     "path": "/map",
@@ -5632,7 +5669,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 54
+    "count": 55
    }
   ],
   "Google": [
@@ -5646,6 +5683,10 @@
    },
    {
     "path": "/map",
+    "count": 3
+   },
+   {
+    "path": "/ar/districts/middle-oraija",
     "count": 2
    },
    {
@@ -5673,11 +5714,11 @@
     "count": 2
    },
    {
-    "path": "/ar/stations/mew-a",
+    "path": "/ar/districts/qurtubah",
     "count": 1
    },
    {
-    "path": "/ar/districts/middle-oraija",
+    "path": "/ar/stations/mew-a",
     "count": 1
    },
    {
@@ -5803,6 +5844,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/destinations/riyadh-front": [
+   {
+    "path": "/map",
+    "count": 1
+   }
+  ],
   "www.facebook.com": [
    {
     "path": "/ur.html",
@@ -5816,12 +5863,6 @@
    },
    {
     "path": "/tl.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/destinations/riyadh-front": [
-   {
-    "path": "/map",
     "count": 1
    }
   ],
@@ -5859,19 +5900,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 719,
+   "count": 732,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 195,
+   "count": 200,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 56,
+   "count": 58,
    "ref_scheme": "g"
   },
   {
@@ -5969,12 +6010,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 932
+   "count": 948
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 60
+   "count": 64
   },
   {
    "id": "(unknown)",
@@ -6016,7 +6057,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 769
+   "count": 789
   },
   {
    "id": "US",
@@ -6178,7 +6219,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 806
+   "count": 826
   },
   {
    "id": "tablet",
@@ -6205,12 +6246,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 535
+   "count": 541
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 452
+   "count": 466
   },
   {
    "name": "",
@@ -6226,12 +6267,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 448
+   "count": 462
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 364
+   "count": 370
   },
   {
    "id": "Windows",
