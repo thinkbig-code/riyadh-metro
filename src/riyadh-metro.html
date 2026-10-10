@@ -333,6 +333,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
 #north b{position:absolute;left:3px;top:1px;font-size:10px;font-weight:700;color:var(--fg)}
 
 .morewrap{display:none}
+.recent{display:flex;align-items:center;gap:6px;overflow-x:auto;padding:0 14px 10px;scrollbar-width:none}.recent[hidden]{display:none}.recent span{font-size:12px;color:var(--muted);flex:none}.recent button{flex:none;font:inherit;font-size:13px;padding:6px 10px;border-radius:999px;border:1px solid var(--rule);background:var(--bg);color:var(--fg);cursor:pointer;white-space:nowrap;max-width:80vw;overflow:hidden;text-overflow:ellipsis}
 #result .morewrap{display:flex;gap:8px;padding:2px 14px 12px}
 .morewrap .more{flex:1}
 .more.send{font:inherit;font-size:14px;font-weight:700;padding:9px;border-radius:12px;cursor:pointer;width:100%;background:var(--accent);color:var(--bg);border:1px solid var(--accent)}
@@ -1569,9 +1570,17 @@ document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest(".ab
 
 function hint(msg){const o=document.getElementById("infoBox")?.open;res.innerHTML=`<div class="hint">${esc(msg)}</div>`+footHTML();if(o)document.getElementById("infoBox").open=true;}
 
+// recent trips (this browser only)
+const REC_K="dm_recent",REC_LBL={"en": "Recent", "ar": "الأخيرة", "ur": "حالیہ", "hi": "हाल के", "bn": "সাম্প্রতিক", "tl": "Kamakailan", "ru": "Недавние", "fr": "Récents", "de": "Zuletzt", "zh": "最近"};
+function recLoad(){try{return JSON.parse(localStorage.getItem(REC_K)||"[]").filter(x=>x&&parseToken(x.f)&&parseToken(x.t));}catch(e){return [];}}
+function recSave(){try{const f=endToken(state.from),g=endToken(state.to);const a=recLoad().filter(x=>!(x.f===f&&x.t===g));a.unshift({f,t:g});localStorage.setItem(REC_K,JSON.stringify(a.slice(0,3)));}catch(e){}}
+function recShow(){let el=document.getElementById("recent");if(!el){const fs=document.querySelector(".fields");if(!fs)return;el=document.createElement("div");el.id="recent";el.className="recent";fs.after(el);
+ el.addEventListener("click",e=>{const b=e.target.closest("button[data-f]");if(!b)return;track("recent",b.dataset.f,b.dataset.t);trkSrc="recent";state.from=parseToken(b.dataset.f);fromI.value=endName(state.from);setEnd("to",parseToken(b.dataset.t));});}
+ const a=(!state.from&&!state.to)?recLoad():[];el.hidden=!a.length;
+ el.innerHTML=a.length?`<span>${esc(REC_LBL[LANG]||REC_LBL.en)}</span>`+a.map(x=>`<button data-f="${esc(x.f)}" data-t="${esc(x.t)}">${esc(endName(parseToken(x.f))+(LANG==="ar"?" ← ":" → ")+endName(parseToken(x.t)))}</button>`).join(""):"";}
 function update(fit,noAnim){
   drawPins();overlay.innerHTML="";base.querySelectorAll(".st.hid").forEach(n=>n.classList.remove("hid"));base.classList.remove("dim");writeHash();
-  const {from,to}=state;
+  const {from,to}=state;recShow();
   $("#panel").classList.toggle("has-route",!!(from&&to));
   $("#panel").classList.toggle("empty",!from&&!to);
   // a new trip opens with the short summary; details are one tap away (phones)
@@ -1691,7 +1700,7 @@ $("#card").addEventListener("click",e=>{if(e.target.id==="card")closeCard();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#card").hidden)closeCard();});
 
 const rng=(a,b)=>a===b?t("min",{n:a}):t("minRange",{a,b});
-function renderResult(r,variants){
+function renderResult(r,variants){recSave();
   lastRoute=r;
   const {from,to}=state;
   const steps=buildSteps(r);
