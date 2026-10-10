@@ -50,6 +50,13 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-ui);font-size:1
 .palm-halo line[stroke-width="6"]{stroke-width:14}
 .palm line,.palm path{stroke:var(--bg);stroke-linecap:round}
 .outside{fill:var(--outside)}
+.outside,.sheet-edge{display:none}
+#map.far .st:not(.big) text,#map.far .district,#map.far .water-label{visibility:hidden}
+#map.far .st.big text{font-size:calc(11px / var(--k));stroke-width:calc(3.5px / var(--k))}
+#map.far .st.big.fhid text,#map.far .st.big text:has(tspan+tspan){visibility:hidden}
+#map.far .ln{stroke-width:calc(4px / var(--k))}
+#map.far .st circle.mk{r:calc(2.6px / var(--k));stroke-width:calc(1.6px / var(--k))}
+#map.far .st circle.ix{r:calc(4px / var(--k));stroke-width:calc(1.6px / var(--k))}
 .sheet-edge{fill:none;stroke:var(--rule);stroke-width:1.5}
 .border{fill:none;stroke:var(--muted);stroke-width:1.6;stroke-dasharray:7 6;opacity:.45}
 .district{fill:var(--district);font-size:13px;font-weight:600;letter-spacing:.22em}
@@ -935,7 +942,7 @@ function smoothD(P,closed){
 }
 el("rect",{class:"land",x:-4000,y:-4000,width:8000,height:9000},waterG);
 // Wadi Hanifa runs north to south along the west of the city (drawn schematically)
-el("path",{class:"wadi",d:smoothD([[150,-200],[170,120],[200,330],[175,560],[200,780],[150,990],[110,1120],[150,1400]])},waterG);
+el("path",{class:"wadi",d:smoothD([[120,-1400],[150,-200],[170,120],[200,330],[175,560],[200,780],[150,990],[110,1120],[150,1400],[130,2600]])},waterG);
 const wl=el("text",{class:"water-label",x:205,y:470,"text-anchor":"middle"},waterG);wl.textContent="Wadi Hanifa";
 // quiet area names so the land is not empty (proper names, same in every language)
 [["AL OLAYA",330,720],["AL BATHA",320,880],["AL MALAZ",880,860],["← AD DIRIYAH",95,300],["AIRPORT",860,160],["AN NASEEM",990,775],["AL YASMIN",470,200],["AN NAKHEEL",280,400]]
@@ -1071,7 +1078,19 @@ function settleView(){
   if(dx||dy){view.x+=dx;view.y+=dy;apply(true);}
 }
 let settleT=0;const settleSoon=()=>{clearTimeout(settleT);settleT=setTimeout(settleView,350);};
-const apply=anim=>{world.classList.toggle("anim",!!anim);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`;placePop();};
+const apply=anim=>{world.classList.toggle("anim",!!anim);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`;world.style.setProperty("--k",view.k);map.classList.toggle("far",view.k<FAR_K);farSoon();placePop();};
+// overview names: the busiest interchanges first; a name that would overlap one already shown is hidden
+let farT=0;function farSoon(){clearTimeout(farT);farT=setTimeout(farLabels,60);}
+function farLabels(){const gs=[...document.querySelectorAll("#base .st.big")];gs.forEach(g=>g.classList.remove("fhid"));
+ if(!map.classList.contains("far"))return;const kept=[];
+ gs.sort((a,b)=>(ST[b.dataset.id].lines.size||ST[b.dataset.id].lines.length||0)-(ST[a.dataset.id].lines.size||ST[a.dataset.id].lines.length||0));
+ for(const g of gs){const t=g.querySelector("text");if(!t||t.querySelectorAll("tspan").length>1)continue;const r=t.getBoundingClientRect();
+  if(kept.some(q=>r.left<q.right+6&&r.right>q.left-6&&r.top<q.bottom+2&&r.bottom>q.top-2))g.classList.add("fhid");else kept.push(r);}}
+// below this scale the map switches to the overview: interchange names only, at a readable size
+const FAR_K=.55;
+// the smallest scale: the whole network (station positions plus room for names) fits the free space
+const NET=(()=>{const v=Object.values(ST);return {x0:Math.min(...v.map(s=>s.x))-90,y0:Math.min(...v.map(s=>s.y))-50,x1:Math.max(...v.map(s=>s.x))+110,y1:Math.max(...v.map(s=>s.y))+50};})();
+function minK(){const ins=panelInset(),W=Math.max(120,innerWidth-ins.l-ins.r),H=Math.max(120,innerHeight-ins.t-ins.b);return Math.min(W/(NET.x1-NET.x0),H/(NET.y1-NET.y0));}
 function panelInset(){
   const p=$("#panel").getBoundingClientRect();
   if(innerWidth<=720)return {l:8,t:8,r:8,b:Math.max(16,innerHeight-p.top+8)};
@@ -1104,7 +1123,7 @@ function fitBox(b,anim,maxK){
 }
 function zoomAt(f,cx,cy,anim){
   userMoved=true;
-  const k=Math.max(fitScale()*.6,Math.min(5,view.k*f));f=k/view.k;
+  const k=Math.max(Math.min(minK(),view.k),Math.min(5,view.k*f));f=k/view.k;
   view.x=cx-(cx-view.x)*f;view.y=cy-(cy-view.y)*f;view.k=k;apply(anim);
 }
 map.addEventListener("wheel",e=>{e.preventDefault();zoomAt(Math.exp(-e.deltaY*0.0015),e.clientX,e.clientY);settleSoon();},{passive:false});
