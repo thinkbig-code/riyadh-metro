@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T09:55:14Z",
+ "generated": "2026-10-10T10:54:47Z",
  "start": "2025-10-10",
  "end": "2026-10-11",
  "total": {
-  "total": 952,
-  "total_events": 616,
-  "total_utc": 952,
+  "total": 961,
+  "total_events": 622,
+  "total_utc": 961,
   "stats": [
    {
     "day": "2025-10-10",
@@ -10717,7 +10717,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 952
+    "monthly": 961
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 263
+    "weekly": 272
    },
    {
     "day": "2026-10-10",
@@ -10978,7 +10978,7 @@
      10,
      4,
      3,
-     0,
+     9,
      0,
      0,
      0,
@@ -10989,7 +10989,7 @@
      0,
      0
     ],
-    "daily": 89
+    "daily": 98
    },
    {
     "day": "2026-10-11",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 289,
+   "count": 291,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11039,7 +11039,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 23
+    "2026-10-10": 25
    }
   },
   {
@@ -11047,11 +11047,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 162,
+   "count": 164,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 19
+    "2026-10-10": 21
    }
   },
   {
@@ -11413,6 +11413,17 @@
    }
   },
   {
+   "path": "station/andalus/from",
+   "path_id": 110405822,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
    "path": "place/p_al_hamra_mall/to",
    "path_id": 110384422,
    "title": "en|name",
@@ -11581,6 +11592,46 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/districts/al-fayha",
+   "path_id": 110926200,
+   "title": "Nearest Metro Station to Al Fayha, Riyadh: Harun Ar Rashid Road (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/ksu/andalus",
+   "path_id": 110922129,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/andalus/ksu",
+   "path_id": 110922021,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "station/ksu/to",
+   "path_id": 110922020,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -14014,16 +14065,6 @@
    }
   },
   {
-   "path": "station/andalus/from",
-   "path_id": 110405822,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "view/sab/museum",
    "path_id": 110405806,
    "title": "en|details",
@@ -14886,9 +14927,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 336,
-  "events_total": 616,
-  "goatcounter_total_with_events": 952,
+  "visits": 339,
+  "events_total": 622,
+  "goatcounter_total_with_events": 961,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14898,16 +14939,16 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 36
+   "2026-10-10": 39
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 22
+   "2026-10-10": 24
   },
-  "visitor_days": 167,
+  "visitor_days": 169,
   "return_rate": 0.03,
-  "routes": 186,
+  "routes": 188,
   "routes_not_found": 0,
   "routes_per_visit": 0.55,
   "routes_per_visitor_day": 0.96,
@@ -14940,7 +14981,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 162,
+   "new": 164,
    "return": 5
   },
   "top_routes": [
@@ -14969,6 +15010,14 @@
     "count": 2
    },
    {
+    "name": "ksu > andalus",
+    "count": 1
+   },
+   {
+    "name": "andalus > ksu",
+    "count": 1
+   },
+   {
     "name": "dhabab > hokm",
     "count": 1
    },
@@ -14995,14 +15044,6 @@
    {
     "name": "p_king_abdullah_mosque_malaz > kfl",
     "count": 1
-   },
-   {
-    "name": "mod > p_national_museum",
-    "count": 1
-   },
-   {
-    "name": "albilad > p_souq_al_zal",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -15023,12 +15064,12 @@
     "count": 8
    },
    {
-    "name": "p_kingdom_centre",
+    "name": "ksu",
     "count": 7
    },
    {
-    "name": "ksu",
-    "count": 6
+    "name": "p_kingdom_centre",
+    "count": 7
    },
    {
     "name": "khashm",
@@ -15094,11 +15135,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 224
+    "count": 225
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 51
+    "count": 52
    },
    {
     "name": "Google",
@@ -15203,6 +15244,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/districts/al-fayha": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/districts/al-wisham": [
@@ -15330,7 +15377,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 224
+    "count": 225
    },
    {
     "path": "/map",
@@ -15352,7 +15399,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 51
+    "count": 52
    }
   ],
   "Google": [
@@ -15391,6 +15438,10 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/districts/al-fayha",
+    "count": 1
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -15537,19 +15588,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 686,
+   "count": 692,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 175,
+   "count": 177,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 46,
+   "count": 47,
    "ref_scheme": "g"
   },
   {
@@ -15641,7 +15692,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 870
+   "count": 879
   },
   {
    "id": "ara",
@@ -15688,7 +15739,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 726
+   "count": 733
   },
   {
    "id": "US",
@@ -15731,6 +15782,11 @@
    "count": 7
   },
   {
+   "id": "JO",
+   "name": "Hashemite Kingdom of Jordan",
+   "count": 6
+  },
+  {
    "id": "IE",
    "name": "Ireland",
    "count": 5
@@ -15758,11 +15814,6 @@
   {
    "id": "FR",
    "name": "France",
-   "count": 4
-  },
-  {
-   "id": "JO",
-   "name": "Hashemite Kingdom of Jordan",
    "count": 4
   },
   {
@@ -15840,7 +15891,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 756
+   "count": 759
   },
   {
    "id": "tablet",
@@ -15850,7 +15901,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 131
+   "count": 137
   },
   {
    "id": "desktophd",
@@ -15867,12 +15918,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 495
+   "count": 503
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 427
+   "count": 428
   },
   {
    "name": "",
@@ -15888,17 +15939,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 423
+   "count": 424
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 339
+   "count": 341
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 117
+   "count": 123
   },
   {
    "id": "macOS",
