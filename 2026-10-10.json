@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T10:54:06Z",
+ "generated": "2026-10-10T11:54:41Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 961,
+  "total": 964,
   "total_events": 622,
-  "total_utc": 961,
+  "total_utc": 964,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 961
+    "monthly": 964
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 813
+    "weekly": 816
    },
    {
     "day": "2026-10-09",
@@ -928,8 +928,8 @@
      10,
      4,
      3,
-     9,
-     0,
+     10,
+     2,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 98
+    "daily": 101
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 291,
+   "count": 293,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 25
+    "2026-10-10": 27
    }
   },
   {
@@ -1542,6 +1542,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -4877,9 +4887,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 339,
+  "visits": 342,
   "events_total": 622,
-  "goatcounter_total_with_events": 961,
+  "goatcounter_total_with_events": 964,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4889,7 +4899,7 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 39
+   "2026-10-10": 42
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -5085,7 +5095,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 225
+    "count": 227
    },
    {
     "name": "com.reddit.frontpage",
@@ -5194,6 +5204,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/districts/al-fayha": [
@@ -5327,7 +5343,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 225
+    "count": 227
    },
    {
     "path": "/map",
@@ -5388,6 +5404,10 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/ar/districts/al-sahafah",
+    "count": 1
    },
    {
     "path": "/districts/al-fayha",
@@ -5538,7 +5558,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 692,
+   "count": 694,
    "ref_scheme": "o"
   },
   {
@@ -5550,7 +5570,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 47,
+   "count": 48,
    "ref_scheme": "g"
   },
   {
@@ -5642,7 +5662,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 879
+   "count": 882
   },
   {
    "id": "ara",
@@ -5689,12 +5709,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 733
+   "count": 735
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 58
+   "count": 59
   },
   {
    "id": "AE",
@@ -5841,7 +5861,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 759
+   "count": 760
   },
   {
    "id": "tablet",
@@ -5851,7 +5871,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 137
+   "count": 139
   },
   {
    "id": "desktophd",
@@ -5868,7 +5888,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 503
+   "count": 506
   },
   {
    "id": "Safari",
@@ -5894,12 +5914,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 341
+   "count": 342
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 123
+   "count": 125
   },
   {
    "id": "macOS",
