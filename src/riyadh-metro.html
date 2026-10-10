@@ -1070,11 +1070,12 @@ function safeText(q){q=String(q||"").trim().toLowerCase().replace(/\s+/g," ").sl
 // it glides back after release. No limits are applied mid-gesture.
 function fitScale(){const b=BOX;return Math.min(innerWidth/(b.x1-b.x0),innerHeight/(b.y1-b.y0));}
 function settleView(){
-  const b=BOX,W=innerWidth,H=innerHeight,m=Math.min(W,H)*.25;
-  const L=view.x+b.x0*view.k,R=view.x+b.x1*view.k,T=view.y+b.y0*view.k,B=view.y+b.y1*view.k;
-  let dx=0,dy=0;
-  if(R<m)dx=m-R;else if(L>W-m)dx=(W-m)-L;
-  if(B<m)dy=m-B;else if(T>H-m)dy=(H-m)-T;
+  // after a drag or pinch the network glides back into the free part of the screen (above or beside the panel):
+  // when it fits, all of it stays visible; when it is larger, its edges may not come inside the free area
+  const ins=panelInset(),k=view.k,X0=ins.l,X1=innerWidth-ins.r,Y0=ins.t,Y1=innerHeight-ins.b;
+  const L=view.x+NET.x0*k,R=view.x+NET.x1*k,T=view.y+NET.y0*k,B=view.y+NET.y1*k;
+  const fit=(lo,hi,a,b)=>(b-a)<=(hi-lo)?(a<lo?lo-a:b>hi?hi-b:0):(a>lo?lo-a:b<hi?hi-b:0);
+  let dx=fit(X0,X1,L,R),dy=fit(Y0,Y1,T,B);
   if(dx||dy){view.x+=dx;view.y+=dy;apply(true);}
 }
 let settleT=0;const settleSoon=()=>{clearTimeout(settleT);settleT=setTimeout(settleView,350);};
