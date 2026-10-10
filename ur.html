@@ -328,7 +328,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
 .modes .mw{display:inline-flex;align-items:center;gap:3px;font-size:12.5px;color:var(--fg);background:var(--bg);border:1px dashed var(--muted);border-radius:6px;padding:2px 7px;font-variant-numeric:tabular-nums}
 .modes .mw svg{width:9px;height:12px}
 .modes .sep{width:10px;height:2px;background:var(--rule);border-radius:1px;flex:none}
-.dest .gm{white-space:nowrap;font-weight:600}
+.dest .gm,.sub .gm{white-space:nowrap;font-weight:600}
 .dest{display:flex;gap:8px;align-items:flex-start;margin:10px 16px 0;font-size:13px;line-height:1.4}
 .dest .pinb{flex:none;width:20px;height:20px;border-radius:50%;background:var(--pinB);color:#fff;font-size:11px;font-weight:700;display:grid;place-items:center}
 :root:lang(ar) #panel,:root:lang(ar) #pop,:root:lang(ar) #legend{font-family:"Noto Sans Arabic",var(--font-ui)}
@@ -1725,9 +1725,9 @@ function buildSteps(r){
     }
   });
   if(to.lm){
-    if(tailWalk)steps.push({walk:true,min:tailWalk.t+(to.lm.min||0),title:t("walkToPlace",{p:to.lm.n}),sub:t("onFootFrom",{n:tailWalk.t+(to.lm.min||0),x:ST[tailWalk.from].n})});
+    if(tailWalk)steps.push({walk:true,min:tailWalk.t+(to.lm.min||0),title:t("walkToPlace",{p:to.lm.n}),sub:t("onFootFrom",{n:tailWalk.t+(to.lm.min||0),x:ST[tailWalk.from].n}),gm:gmLink(to.lm,tailWalk.from)});
     else steps.push({walk:true,min:to.lm.min||0,title:to.lm.note?to.lm.n:t("walkToPlace",{p:to.lm.n}),
-      sub:to.lm.note?t(to.lm.note,{s:ST[to.lm.st].n}):to.lm.min?t("placeWalk",{n:to.lm.min,w:t(to.lm.walk)}):t("noWalkData")});
+      sub:to.lm.note?t(to.lm.note,{s:ST[to.lm.st].n}):to.lm.min?t("placeWalk",{n:to.lm.min,w:t(to.lm.walk)}):t("noWalkData"),gm:gmLink(to.lm,to.lm.st||to.st)});
   }else if(tailWalk)steps.push({walk:true,min:tailWalk.t,title:t("walkTo",{s:ST[tailWalk.to].n}),sub:t("onFootFrom",{n:tailWalk.t,x:ST[tailWalk.from].n})});
   return steps;
 }
@@ -1842,7 +1842,7 @@ function renderResult(r,variants){
   let k=0;
   h+=`<ol class="steps2">`+steps.map(s=>{k++;
     return `<li class="step${s.walk?" onfoot":""}" style="--c:${s.c||"var(--muted)"};--ink:${s.ink||"#fff"}"><span class="num" aria-hidden="true">${k}</span><div>
-      <div class="tt">${esc(s.title)}</div><div class="sub">${esc(s.sub)}</div>`+
+      <div class="tt">${esc(s.title)}</div><div class="sub">${esc(s.sub)}${s.gm||""}</div>`+
       (s.off?`<div class="off">${esc(t("getOff",{s:"\u0001"})).replace("\u0001","<b>"+esc(s.off)+"</b>")}</div>`:"")+
       (s.mid&&s.mid.length?`<details><summary>${esc(t("onWay"))}</summary><ul>${s.mid.map(x=>`<li>${sno(x)}${esc(ST[x].n)}</li>`).join("")}</ul></details>`:"")+
       `</div></li>`;}).join("")+
