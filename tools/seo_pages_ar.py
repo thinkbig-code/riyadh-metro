@@ -322,6 +322,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} أوقات الرحلات في هذه الصفحة ليوم عمل في منتصف النهار، مع الانتظار المعتاد للقطار.</p>
 <p>خريطة مستقلة غير تجارية، لا علاقة لها بالنقل العام بمدينة الرياض أو الهيئة الملكية لمدينة الرياض. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">الإبلاغ عن مشكلة</a> · <a href="{root}ar.html">افتح الخريطة التفاعلية</a></p>
+<p>&copy; 2026 خريطة مترو الرياض. جميع الحقوق محفوظة. البيانات المفتوحة للهيئة الملكية لمدينة الرياض. الأماكن: &copy; مساهمو OpenStreetMap (ODbL)، ويكيبيديا.</p>
 </footer>
 </body>
 </html>

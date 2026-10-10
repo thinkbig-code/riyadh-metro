@@ -357,6 +357,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <footer>
 <p>{e(t('foot'))} {e(t('attrib'))} Travel times on this page are for a weekday at midday, including typical waiting.</p>
 <p>An independent, non-commercial map, not affiliated with Riyadh Public Transport or the Royal Commission for Riyadh City. <a href="mailto:callmebackemail@protonmail.com?subject=Riyadh%20Metro%20Map">Report a problem</a> · <a href="{root}">Open the interactive map</a></p>
+<p>&copy; 2026 Riyadh Metro Map. All rights reserved. RCRC open data. Places: &copy; OpenStreetMap contributors (ODbL), Wikipedia.</p>
 </footer>
 </body>
 </html>

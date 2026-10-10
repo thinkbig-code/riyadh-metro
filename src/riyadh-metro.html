@@ -1485,7 +1485,7 @@ res.addEventListener("click",e=>{if(e.target.closest("[data-report]"))openReport
 function footHTML(){const ab=document.getElementById("about")?` · <a href="#" class="aboutlink">${esc(t("aboutLink"))}</a>`:"";
   // the data notes are kept, but inside the collapsed "Hours and fares" box, so the route stays short
   const inf=infoHTML(),cut=inf.lastIndexOf("</details>");
-  return inf.slice(0,cut)+`<p>${esc(t("foot"))}</p><p class="src">${esc(t("attrib"))}</p>`+inf.slice(cut)+`<div class="foot">${reportLink()}${ab}</div>`;}
+  return inf.slice(0,cut)+`<p>${esc(t("foot"))}</p><p class="src">${esc(t("attrib"))}</p>`+inf.slice(cut)+`<div class="foot">${reportLink()}${ab}</div>`+`<p class="src copy">© 2026 Riyadh Metro Map · RCRC open data · Places: © OpenStreetMap contributors (ODbL), Wikipedia</p>`;}
 // "About this map" (present on the public site): plain text for readers and search engines, opened as a dialog
 function openAbout(e){if(e)e.preventDefault();const a=document.getElementById("about");if(!a)return;a.classList.add("open");a.setAttribute("role","dialog");a.setAttribute("aria-modal","true");a.querySelector("button")?.focus();}
 if(document.getElementById("about"))document.getElementById("infoBtn").hidden=false;

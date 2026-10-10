@@ -71,3 +71,7 @@ After every push to `main` that changes a page, the GitHub Actions workflow `.gi
 ## Report a problem
 
 Use the **Report a problem** button on the site (it opens an e-mail to callmebackemail@protonmail.com with the route details), or open an issue in this repository.
+
+## Licence
+
+Copyright (c) 2026. All rights reserved; see [LICENSE](LICENSE). The code and texts are published to be viewed, not to be copied or republished. Third-party data stays under its own licence (see the notice in LICENSE).
