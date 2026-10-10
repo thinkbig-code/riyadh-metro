@@ -52,8 +52,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-ui);font-size:1
 .outside{fill:var(--outside)}
 .outside,.sheet-edge{display:none}
 #map.far .st:not(.big) text,#map.far .district,#map.far .water-label{visibility:hidden}
-#map.far .st.big text{font-size:calc(11px / var(--k));stroke-width:calc(3.5px / var(--k))}
-#map.far .st.big.fhid text,#map.far .st.big text:has(tspan+tspan){visibility:hidden}
+.ftx{display:none;pointer-events:none;font-weight:600;fill:var(--fg);paint-order:stroke;stroke:var(--bg);stroke-linejoin:round}
+#map.far .ftx{display:inline;font-size:calc(11px / var(--k));stroke-width:calc(3.5px / var(--k))}
+#map.far .st.big text,#map.far .ftx.fhid{visibility:hidden}
 #map.far .ln{stroke-width:calc(4px / var(--k))}
 #map.far .st circle.mk{r:calc(2.6px / var(--k));stroke-width:calc(1.6px / var(--k))}
 #map.far .st circle.ix{r:calc(4px / var(--k));stroke-width:calc(1.6px / var(--k))}
@@ -1082,11 +1083,26 @@ let settleT=0;const settleSoon=()=>{clearTimeout(settleT);settleT=setTimeout(set
 const apply=anim=>{world.classList.toggle("anim",!!anim);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`;world.style.setProperty("--k",view.k);map.classList.toggle("far",view.k<FAR_K);farSoon();placePop();};
 // overview names: the busiest interchanges first; a name that would overlap one already shown is hidden
 let farT=0;function farSoon(){clearTimeout(farT);farT=setTimeout(farLabels,60);}
-function farLabels(){const gs=[...document.querySelectorAll("#base .st.big")];gs.forEach(g=>g.classList.remove("fhid"));
+
+// a separate overview label per interchange: long names on two lines; offsets in em so they grow with the text
+const FTX={};let ftxG=null;
+function farText(g){const id=g.dataset.id,s=ST[id],key=LANG+"|"+s.n;let t=FTX[id];
+  if(!ftxG||!ftxG.isConnected){ftxG=el("g",{class:"ftxL"},base);for(const k in FTX)delete FTX[k];t=null;}
+  if(t&&t.dataset.key===key)return t;if(t)t.remove();
+  let L=typeof labelLines==="function"?labelLines(id):(LABEL_LINES[id]||[s.n]);if(L.length===1&&L[0].length>15&&L[0].includes(" ")){const n=L[0],sp=[...n].map((c,i)=>c===" "?i:-1).filter(i=>i>0);
+    const k=sp.reduce((a,b)=>Math.abs(b-n.length/2)<Math.abs(a-n.length/2)?b:a);L=[n.slice(0,k),n.slice(k+1)];}
+  const n=L.length;let anchor="start",dx=.55,dy=.35-(n-1)*.575;
+  switch(s.p){case "l":anchor="end";dx=-.55;break;case "t":anchor="middle";dx=0;dy=-.7-(n-1)*1.15;break;
+    case "b":anchor="middle";dx=0;dy=1.3;break;case "tl":case "tl2":anchor="end";dx=-.4;dy=-.5-(n-1)*1.15;break;case "br":dx=.2;dy=1.3;}
+  t=el("text",{class:"ftx",x:s.x,y:s.y,"text-anchor":anchor},ftxG);FTX[id]=t;t.dataset.key=key;
+  L.forEach((ln,i)=>{const sp=el("tspan",{x:s.x,dx:dx+"em",dy:(i?1.15:dy)+"em"},t);sp.textContent=ln;});
+  if(LANG==="ar"){t.setAttribute("direction","rtl");t.setAttribute("text-anchor",anchor==="start"?"end":anchor==="end"?"start":"middle");}
+  return t;}
+function farLabels(){const gs=[...document.querySelectorAll("#base .st.big")];Object.values(FTX).forEach(t=>t.classList.remove("fhid"));
  if(!map.classList.contains("far"))return;const kept=[];
- gs.sort((a,b)=>(ST[b.dataset.id].lines.size||ST[b.dataset.id].lines.length||0)-(ST[a.dataset.id].lines.size||ST[a.dataset.id].lines.length||0));
- for(const g of gs){const t=g.querySelector("text");if(!t||t.querySelectorAll("tspan").length>1)continue;const r=t.getBoundingClientRect();
-  if(kept.some(q=>r.left<q.right+6&&r.right>q.left-6&&r.top<q.bottom+2&&r.bottom>q.top-2))g.classList.add("fhid");else kept.push(r);}}
+ gs.sort((a,b)=>(ST[b.dataset.id].lines.size||0)-(ST[a.dataset.id].lines.size||0));
+ for(const g of gs){const t=farText(g),r=t.getBoundingClientRect();
+  if(kept.some(q=>r.left<q.right+6&&r.right>q.left-6&&r.top<q.bottom+2&&r.bottom>q.top-2))t.classList.add("fhid");else kept.push(r);}}
 // below this scale the map switches to the overview: interchange names only, at a readable size
 const FAR_K=.55;
 // the smallest scale: the whole network (station positions plus room for names) fits the free space
