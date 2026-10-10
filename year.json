@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T01:34:07Z",
+ "generated": "2026-10-10T01:56:10Z",
  "start": "2025-10-10",
  "end": "2026-10-11",
  "total": {
-  "total": 914,
+  "total": 915,
   "total_events": 597,
-  "total_utc": 914,
+  "total_utc": 915,
   "stats": [
    {
     "day": "2025-10-10",
@@ -10717,7 +10717,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 914
+    "monthly": 915
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 225
+    "weekly": 226
    },
    {
     "day": "2026-10-10",
@@ -10969,7 +10969,7 @@
      9,
      22,
      0,
-     2,
+     3,
      0,
      0,
      0,
@@ -10989,7 +10989,7 @@
      0,
      0
     ],
-    "daily": 51
+    "daily": 52
    },
    {
     "day": "2026-10-11",
@@ -11555,6 +11555,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/districts/west-umm-al-hamam",
+   "path_id": 110824381,
+   "title": "Nearest Metro Station to West Umm Al Hamam, Riyadh: King Saud University, 2.7 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -14780,9 +14790,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 317,
+  "visits": 318,
   "events_total": 597,
-  "goatcounter_total_with_events": 914,
+  "goatcounter_total_with_events": 915,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -14792,7 +14802,7 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 17
+   "2026-10-10": 18
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -15081,6 +15091,12 @@
     "count": 2
    }
   ],
+  "/districts/west-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-yarmuk": [
    {
     "name": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
@@ -15243,6 +15259,10 @@
     "count": 1
    },
    {
+    "path": "/districts/west-umm-al-hamam",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
@@ -15369,7 +15389,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 29,
+   "count": 30,
    "ref_scheme": "g"
   },
   {
@@ -15449,7 +15469,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 839
+   "count": 840
   },
   {
    "id": "ara",
@@ -15491,7 +15511,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 709
+   "count": 710
   },
   {
    "id": "US",
@@ -15628,7 +15648,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 724
+   "count": 725
   },
   {
    "id": "tablet",
@@ -15655,7 +15675,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 469
+   "count": 470
   },
   {
    "id": "Safari",
@@ -15681,7 +15701,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 319
+   "count": 320
   },
   {
    "id": "Windows",
