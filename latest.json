@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T14:53:47Z",
+ "generated": "2026-10-10T15:54:05Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 1010,
-  "total_events": 652,
-  "total_utc": 1010,
+  "total": 1016,
+  "total_events": 654,
+  "total_utc": 1016,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1010
+    "monthly": 1016
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 862
+    "weekly": 868
    },
    {
     "day": "2026-10-09",
@@ -933,13 +933,13 @@
      23,
      16,
      7,
-     0,
+     6,
      0,
      0,
      0,
      0
     ],
-    "daily": 147
+    "daily": 153
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 304,
+   "count": 306,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 38
+    "2026-10-10": 40
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 174,
+   "count": 176,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 31
+    "2026-10-10": 33
    }
   },
   {
@@ -1553,6 +1553,26 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/stations/mew-a",
+   "path_id": 110975987,
+   "title": "محطة وزارة البيئة والمياه والزراعة، مترو الرياض: المسار الأخضر (رقم 70)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -5088,9 +5108,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 358,
-  "events_total": 652,
-  "goatcounter_total_with_events": 1010,
+  "visits": 362,
+  "events_total": 654,
+  "goatcounter_total_with_events": 1016,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5100,19 +5120,19 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 58
+   "2026-10-10": 62
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 34
+   "2026-10-10": 36
   },
-  "visitor_days": 179,
+  "visitor_days": 181,
   "return_rate": 0.028,
   "routes": 198,
   "routes_not_found": 0,
   "routes_per_visit": 0.55,
-  "routes_per_visitor_day": 0.97,
+  "routes_per_visitor_day": 0.96,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.022,
@@ -5142,7 +5162,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 174,
+   "new": 176,
    "return": 5
   },
   "top_routes": [
@@ -5296,7 +5316,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 235
+    "count": 237
    },
    {
     "name": "com.reddit.frontpage",
@@ -5409,6 +5429,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/stations/mew-a": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/destinations/al-othaim-mall": [
@@ -5578,7 +5610,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 235
+    "count": 237
    },
    {
     "path": "/map",
@@ -5639,6 +5671,14 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/ar/stations/mew-a",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/middle-oraija",
+    "count": 1
    },
    {
     "path": "/destinations/al-othaim-mall",
@@ -5819,7 +5859,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 715,
+   "count": 719,
    "ref_scheme": "o"
   },
   {
@@ -5831,7 +5871,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 53,
+   "count": 56,
    "ref_scheme": "g"
   },
   {
@@ -5929,12 +5969,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 926
+   "count": 932
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 59
+   "count": 60
   },
   {
    "id": "(unknown)",
@@ -5976,7 +6016,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 762
+   "count": 769
   },
   {
    "id": "US",
@@ -6138,7 +6178,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 800
+   "count": 806
   },
   {
    "id": "tablet",
@@ -6148,7 +6188,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 141
+   "count": 142
   },
   {
    "id": "desktophd",
@@ -6165,12 +6205,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 534
+   "count": 535
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 446
+   "count": 452
   },
   {
    "name": "",
@@ -6186,7 +6226,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 442
+   "count": 448
   },
   {
    "id": "Android",
@@ -6196,7 +6236,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 127
+   "count": 128
   },
   {
    "id": "macOS",
