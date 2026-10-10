@@ -109,6 +109,7 @@ button.swap:focus-visible{outline:2px solid var(--accent)}
 .dd .nm{min-width:0}
 .dd small{display:block;color:var(--muted);font-size:12px}
 .dd .empty{color:var(--muted);cursor:default}
+.dd .hint{font-size:12.5px;line-height:1.35}
 
 #result{border-top:1px solid var(--rule);overflow-y:auto;min-height:0}
 #result:empty{display:none}
@@ -380,7 +381,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
   #result{max-height:calc(78vh - 150px)}
   .fields{position:relative}
   .inputs .field{position:static}
-  .dd{top:auto;bottom:calc(100% + 6px);left:10px;right:10px;max-height:min(52vh,420px);overflow-y:auto}
+  .dd{top:auto;bottom:calc(100% + 6px);left:10px;right:10px;max-height:min(34vh,300px);overflow-y:auto}
   .langmenu{top:auto;bottom:calc(100% + 8px)}
   #zoom{top:calc(12px + env(safe-area-inset-top,0px));bottom:auto;right:12px}
   #legend{display:none}
@@ -1796,23 +1797,24 @@ function matches(q){
   if(out.length<3)fuzzyMatches(n,out);
   return out.sort((a,b)=>a.score-b.score);
 }
+const DD_HINT={"en": "Type a station or place, or tap a station on the map", "ar": "اكتب اسم محطة أو مكان، أو اضغط على محطة في الخريطة", "ur": "اسٹیشن یا جگہ کا نام لکھیں، یا نقشے پر کسی اسٹیشن کو ٹیپ کریں", "hi": "स्टेशन या जगह का नाम लिखें, या नक्शे पर किसी स्टेशन पर टैप करें", "bn": "স্টেশন বা জায়গার নাম লিখুন, অথবা মানচিত্রে একটি স্টেশনে ট্যাপ করুন", "tl": "Mag-type ng istasyon o lugar, o i-tap ang isang istasyon sa mapa", "ru": "Введите станцию или место, или нажмите на станцию на карте", "fr": "Tapez une station ou un lieu, ou touchez une station sur la carte", "de": "Station oder Ort eingeben oder auf eine Station auf der Karte tippen", "zh": "输入车站或地点，或在地图上点击车站"};
 function combo(input,wrap,key){
   let ul=null,items=[],act=0;
   const close=()=>{if(ul){ul.remove();ul=null;}input.setAttribute("aria-expanded","false");};
   const render=()=>{
-    items=matches(input.value).slice(0,50);act=0;
+    const emp=!norm(input.value);items=emp?(key==="to"?POPULAR.slice(0,4).map(id=>({place:PLACE_BY_ID[id],score:0,pop:1})):[]):matches(input.value).slice(0,50);act=emp?-1:0;
     if(!ul){ul=document.createElement("ul");ul.className="dd";ul.setAttribute("role","listbox");wrap.appendChild(ul);}
     input.setAttribute("aria-expanded","true");
-    ul.innerHTML=items.length?items.map((m,i)=>{
+    ul.innerHTML=(emp?`<li class="empty hint">${esc(DD_HINT[LANG]||DD_HINT.en)}</li>`:"")+((items.length||emp)?items.map((m,i)=>{
       if(m.place){const p=m.place;return `<li role="option" data-i="${i}" class="${i===act?"on":""}"><i class="lm"></i><span class="nm">${esc(p.n)}<small>${esc(t("place"))} · ${esc(ST[p.st].n)}${p.min?` · ${esc(t("walkChip",{n:p.min}))}`:""}</small></span></li>`;}
       const s=ST[m.id];
       return `<li role="option" data-i="${i}" class="${i===act?"on":""}"><span class="dots">${[...s.lines].map(l=>`<i class="dot" style="background:${LINES[l].c}"></i>`).join("")}</span>
-        <span class="nm">${sno(m.id)}${esc(s.n)}<small>${esc(t("station"))} · ${[...s.lines].map(l=>esc(t(LINES[l].key))).join(LANG==="ar"?"، ":", ")}${m.via?` · ${esc(t("formerly",{x:m.via}))}`:""}</small></span></li>`;}).join(""):`<li class="empty">${esc(t("nothing"))}</li>`;
+        <span class="nm">${sno(m.id)}${esc(s.n)}<small>${esc(t("station"))} · ${[...s.lines].map(l=>esc(t(LINES[l].key))).join(LANG==="ar"?"، ":", ")}${m.via?` · ${esc(t("formerly",{x:m.via}))}`:""}</small></span></li>`;}).join(""):`<li class="empty">${esc(t("nothing"))}</li>`);
   };
   let chosen=false;
   const choose=i=>{const m=items[i];if(!m)return;chosen=true;
-    if(m.place)track("place",m.place.id,key,m.via?"alias":"name");else track("station",m.id,key,m.via?"former_name":"name");
-    close();trkSrc="search";setEnd(key,m.place?{st:m.place.st,lm:m.place}:{st:m.id});input.blur();};
+    if(m.place)track("place",m.place.id,key,m.pop?"popular":m.via?"alias":"name");else track("station",m.id,key,m.via?"former_name":"name");
+    close();trkSrc=m.pop?"popular":"search";setEnd(key,m.place?{st:m.place.st,lm:m.place}:{st:m.id});input.blur();};
   input.addEventListener("focus",()=>{chosen=false;input.select();render();closePop();});
   input.addEventListener("input",render);
   input.addEventListener("keydown",e=>{
@@ -1830,6 +1832,9 @@ function combo(input,wrap,key){
 }
 combo(fromI,$("#fFrom"),"from");
 combo(toI,$("#fTo"),"to");
+// the search list closes when the map is touched, and when the phone keyboard is put away
+map.addEventListener("pointerdown",()=>{const a=document.activeElement;if(a===fromI||a===toI)a.blur();},true);
+if(window.visualViewport){let vh=visualViewport.height;visualViewport.addEventListener("resize",()=>{const h=visualViewport.height;const a=document.activeElement;if(h-vh>120&&(a===fromI||a===toI))a.blur();vh=h;});}
 
 
 // ================= VALIDATION (development only) =================
