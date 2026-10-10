@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T11:54:41Z",
+ "generated": "2026-10-10T12:57:57Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 964,
-  "total_events": 622,
-  "total_utc": 964,
+  "total": 987,
+  "total_events": 638,
+  "total_utc": 987,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 964
+    "monthly": 987
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 816
+    "weekly": 839
    },
    {
     "day": "2026-10-09",
@@ -930,7 +930,7 @@
      3,
      10,
      2,
-     0,
+     23,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 101
+    "daily": 124
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 293,
+   "count": 297,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 27
+    "2026-10-10": 31
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 164,
+   "count": 167,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 21
+    "2026-10-10": 24
    }
   },
   {
@@ -1009,12 +1009,12 @@
    "path_id": 110300373,
    "title": "en|name",
    "event": true,
-   "count": 12,
+   "count": 13,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 5,
     "2026-10-09": 4,
-    "2026-10-10": 1
+    "2026-10-10": 2
    }
   },
   {
@@ -1022,12 +1022,12 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 12,
+   "count": 13,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 7,
     "2026-10-09": 2,
-    "2026-10-10": 1
+    "2026-10-10": 2
    }
   },
   {
@@ -1050,6 +1050,19 @@
    "count": 7,
    "daily": {
     "2026-10-08": 7
+   }
+  },
+  {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 2
    }
   },
   {
@@ -1085,19 +1098,6 @@
    "daily": {
     "2026-10-07": 3,
     "2026-10-08": 2,
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
-   "title": "en|name",
-   "event": true,
-   "count": 6,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
-    "2026-10-09": 1,
     "2026-10-10": 1
    }
   },
@@ -1245,6 +1245,17 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/moi/p_kafd_king_abdullah_financial_district",
+   "path_id": 110772718,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1
    }
   },
   {
@@ -1542,6 +1553,126 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/lines/yellow-line",
+   "path_id": 110955995,
+   "title": "Riyadh Metro Yellow Line (Line 4): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "view/moi/p_embassy_of_india",
+   "path_id": 110955018,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_embassy_of_india/to",
+   "path_id": 110954901,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/moi/p_embassy_of_india",
+   "path_id": 110954900,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "view/moi/sportcity",
+   "path_id": 110954560,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/moi/sportcity",
+   "path_id": 110954552,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "station/sportcity/to",
+   "path_id": 110954551,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/moi/baida",
+   "path_id": 110954511,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/moi/urubah",
+   "path_id": 110954495,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/albilad/urubah",
+   "path_id": 110954456,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/destinations/masmak-fortress",
+   "path_id": 110953409,
+   "title": "Al Masmak Fortress and Souq Al Zal Metro Station: Qasr Al Hokm, 7 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/ar/districts/west-oraija",
+   "path_id": 110947737,
+   "title": "أقرب محطة مترو لحي العريجاء الغربي في الرياض: محطة الدوح، 2.0 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -2068,16 +2199,6 @@
    "path": "view/moi/p_kafd_king_abdullah_financial_district",
    "path_id": 110772722,
    "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
-   "path": "route/moi/p_kafd_king_abdullah_financial_district",
-   "path_id": 110772718,
-   "title": "en|search|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -4887,9 +5008,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 342,
-  "events_total": 622,
-  "goatcounter_total_with_events": 964,
+  "visits": 349,
+  "events_total": 638,
+  "goatcounter_total_with_events": 987,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -4899,19 +5020,19 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 42
+   "2026-10-10": 49
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 24
+   "2026-10-10": 27
   },
-  "visitor_days": 169,
-  "return_rate": 0.03,
-  "routes": 188,
+  "visitor_days": 172,
+  "return_rate": 0.029,
+  "routes": 194,
   "routes_not_found": 0,
-  "routes_per_visit": 0.55,
-  "routes_per_visitor_day": 0.96,
+  "routes_per_visit": 0.56,
+  "routes_per_visitor_day": 0.98,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.022,
@@ -4934,17 +5055,21 @@
    }
   ],
   "nearest_station": {
-   "denied": 12,
+   "denied": 13,
    "ok": 16,
    "outside": 2,
    "far": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 164,
+   "new": 167,
    "return": 5
   },
   "top_routes": [
+   {
+    "name": "moi > p_kafd_king_abdullah_financial_district",
+    "count": 2
+   },
    {
     "name": "ksu > hamra",
     "count": 2
@@ -4970,6 +5095,26 @@
     "count": 2
    },
    {
+    "name": "moi > p_embassy_of_india",
+    "count": 1
+   },
+   {
+    "name": "moi > sportcity",
+    "count": 1
+   },
+   {
+    "name": "moi > baida",
+    "count": 1
+   },
+   {
+    "name": "moi > urubah",
+    "count": 1
+   },
+   {
+    "name": "albilad > urubah",
+    "count": 1
+   },
+   {
     "name": "ksu > andalus",
     "count": 1
    },
@@ -4979,30 +5124,6 @@
    },
    {
     "name": "dhabab > hokm",
-    "count": 1
-   },
-   {
-    "name": "p_al_masmak_fortress > p_al_faisaliah_tower",
-    "count": 1
-   },
-   {
-    "name": "p_kafd_king_abdullah_financial_district > hokm",
-    "count": 1
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2 > p_kingdom_centre",
-    "count": 1
-   },
-   {
-    "name": "p_king_abdullah_mosque_malaz > kbw",
-    "count": 1
-   },
-   {
-    "name": "p_king_abdullah_mosque_malaz > p_kafd_king_abdullah_financial_district",
-    "count": 1
-   },
-   {
-    "name": "p_king_abdullah_mosque_malaz > kfl",
     "count": 1
    }
   ],
@@ -5014,6 +5135,10 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2",
     "count": 9
+   },
+   {
+    "name": "moi",
+    "count": 8
    },
    {
     "name": "urubah",
@@ -5036,22 +5161,18 @@
     "count": 6
    },
    {
-    "name": "murabba",
+    "name": "albilad",
     "count": 6
    },
    {
-    "name": "albilad",
-    "count": 5
-   },
-   {
-    "name": "t12",
-    "count": 5
+    "name": "murabba",
+    "count": 6
    }
   ],
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 11
+    "count": 12
    },
    {
     "name": "p_kingdom_centre",
@@ -5074,6 +5195,10 @@
     "count": 5
    },
    {
+    "name": "urubah",
+    "count": 5
+   },
+   {
     "name": "p_souq_al_zal",
     "count": 5
    },
@@ -5084,10 +5209,6 @@
    {
     "name": "jeddahrd",
     "count": 5
-   },
-   {
-    "name": "sab",
-    "count": 5
    }
   ]
  },
@@ -5095,11 +5216,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 227
+    "count": 230
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 52
+    "count": 53
    },
    {
     "name": "Google",
@@ -5204,6 +5325,24 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/lines/yellow-line": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/masmak-fortress": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/districts/west-oraija": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/districts/al-sahafah": [
@@ -5343,7 +5482,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 227
+    "count": 230
    },
    {
     "path": "/map",
@@ -5365,7 +5504,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 52
+    "count": 53
    }
   ],
   "Google": [
@@ -5404,6 +5543,18 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/lines/yellow-line",
+    "count": 1
+   },
+   {
+    "path": "/destinations/masmak-fortress",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/west-oraija",
+    "count": 1
    },
    {
     "path": "/ar/districts/al-sahafah",
@@ -5558,19 +5709,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 694,
+   "count": 701,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 177,
+   "count": 190,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 48,
+   "count": 51,
    "ref_scheme": "g"
   },
   {
@@ -5662,12 +5813,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 882
+   "count": 904
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 57
+   "count": 58
   },
   {
    "id": "(unknown)",
@@ -5709,7 +5860,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 735
+   "count": 741
   },
   {
    "id": "US",
@@ -5719,7 +5870,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 42
+   "count": 55
   },
   {
    "id": "GB",
@@ -5747,6 +5898,11 @@
    "count": 8
   },
   {
+   "id": "PK",
+   "name": "Pakistan",
+   "count": 8
+  },
+  {
    "id": "ES",
    "name": "Spain",
    "count": 7
@@ -5764,11 +5920,6 @@
   {
    "id": "IT",
    "name": "Italy",
-   "count": 5
-  },
-  {
-   "id": "PK",
-   "name": "Pakistan",
    "count": 5
   },
   {
@@ -5817,6 +5968,11 @@
    "count": 2
   },
   {
+   "id": "BE",
+   "name": "Belgium",
+   "count": 1
+  },
+  {
    "id": "BN",
    "name": "Brunei",
    "count": 1
@@ -5861,7 +6017,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 760
+   "count": 783
   },
   {
    "id": "tablet",
@@ -5888,12 +6044,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 506
+   "count": 521
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 428
+   "count": 436
   },
   {
    "name": "",
@@ -5909,12 +6065,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 424
+   "count": 432
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 342
+   "count": 357
   },
   {
    "id": "Windows",
