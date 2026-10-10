@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T16:54:58Z",
+ "generated": "2026-10-10T17:53:33Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 1028,
-  "total_events": 660,
-  "total_utc": 1028,
+  "total": 1043,
+  "total_events": 671,
+  "total_utc": 1043,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1028
+    "monthly": 1043
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 880
+    "weekly": 895
    },
    {
     "day": "2026-10-09",
@@ -934,12 +934,12 @@
      16,
      7,
      7,
-     11,
-     0,
+     24,
+     2,
      0,
      0
     ],
-    "daily": 165
+    "daily": 180
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 309,
+   "count": 313,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 43
+    "2026-10-10": 47
    }
   },
   {
@@ -997,11 +997,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 179,
+   "count": 182,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 36
+    "2026-10-10": 39
    }
   },
   {
@@ -1252,6 +1252,36 @@
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
    "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "route/ksu/t12",
+   "path_id": 110966415,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "place/p_riyadh_gallery_mall/to",
+   "path_id": 110786266,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "geo/ok/kfl",
+   "path_id": 110786259,
+   "title": "en",
+   "event": true,
    "count": 2,
    "daily": {
     "2026-10-10": 2
@@ -1577,6 +1607,56 @@
    }
   },
   {
+   "path": "view/habib/p_riyadh_gallery_mall",
+   "path_id": 110983707,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/habib/p_riyadh_gallery_mall",
+   "path_id": 110983696,
+   "title": "en|geo|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "geo/ok/habib",
+   "path_id": 110983695,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "view/kfl/wizarat",
+   "path_id": 110983622,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/kfl/wizarat",
+   "path_id": 110983610,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -1640,16 +1720,6 @@
    "path": "view/ksu/t12",
    "path_id": 110966426,
    "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "route/ksu/t12",
-   "path_id": 110966415,
-   "title": "en|map|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -2150,26 +2220,6 @@
    "path": "route/kfl/p_riyadh_gallery_mall",
    "path_id": 110786267,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "place/p_riyadh_gallery_mall/to",
-   "path_id": 110786266,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "geo/ok/kfl",
-   "path_id": 110786259,
-   "title": "en",
    "event": true,
    "count": 1,
    "daily": {
@@ -5139,9 +5189,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 368,
-  "events_total": 660,
-  "goatcounter_total_with_events": 1028,
+  "visits": 372,
+  "events_total": 671,
+  "goatcounter_total_with_events": 1043,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5151,16 +5201,16 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 68
+   "2026-10-10": 72
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 39
+   "2026-10-10": 42
   },
-  "visitor_days": 184,
+  "visitor_days": 187,
   "return_rate": 0.027,
-  "routes": 199,
+  "routes": 202,
   "routes_not_found": 0,
   "routes_per_visit": 0.54,
   "routes_per_visitor_day": 0.95,
@@ -5187,16 +5237,20 @@
   ],
   "nearest_station": {
    "denied": 14,
-   "ok": 16,
+   "ok": 18,
    "outside": 2,
    "far": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 179,
+   "new": 182,
    "return": 5
   },
   "top_routes": [
+   {
+    "name": "ksu > t12",
+    "count": 2
+   },
    {
     "name": "moi > p_kafd_king_abdullah_financial_district",
     "count": 2
@@ -5226,15 +5280,19 @@
     "count": 2
    },
    {
+    "name": "habib > p_riyadh_gallery_mall",
+    "count": 1
+   },
+   {
+    "name": "kfl > wizarat",
+    "count": 1
+   },
+   {
     "name": "habib > sabic",
     "count": 1
    },
    {
     "name": "kafd > murabba",
-    "count": 1
-   },
-   {
-    "name": "ksu > t12",
     "count": 1
    },
    {
@@ -5248,20 +5306,16 @@
    {
     "name": "moi > p_embassy_of_india",
     "count": 1
-   },
-   {
-    "name": "moi > sportcity",
-    "count": 1
-   },
-   {
-    "name": "moi > baida",
-    "count": 1
    }
   ],
   "top_origins": [
    {
     "name": "sab",
     "count": 10
+   },
+   {
+    "name": "ksu",
+    "count": 9
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -5273,10 +5327,6 @@
    },
    {
     "name": "moi",
-    "count": 8
-   },
-   {
-    "name": "ksu",
     "count": 8
    },
    {
@@ -5306,11 +5356,11 @@
     "count": 12
    },
    {
-    "name": "p_kingdom_centre",
-    "count": 7
+    "name": "t12",
+    "count": 8
    },
    {
-    "name": "t12",
+    "name": "p_kingdom_centre",
     "count": 7
    },
    {
@@ -5347,7 +5397,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 239
+    "count": 243
    },
    {
     "name": "com.reddit.frontpage",
@@ -5647,7 +5697,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 239
+    "count": 243
    },
    {
     "path": "/map",
@@ -5900,7 +5950,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 732,
+   "count": 738,
    "ref_scheme": "o"
   },
   {
@@ -6010,7 +6060,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 948
+   "count": 954
   },
   {
    "id": "ara",
@@ -6057,7 +6107,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 789
+   "count": 795
   },
   {
    "id": "US",
@@ -6219,7 +6269,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 826
+   "count": 832
   },
   {
    "id": "tablet",
@@ -6251,7 +6301,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 466
+   "count": 472
   },
   {
    "name": "",
@@ -6267,7 +6317,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 462
+   "count": 468
   },
   {
    "id": "Android",
