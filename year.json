@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T12:58:44Z",
+ "generated": "2026-10-10T13:54:45Z",
  "start": "2025-10-10",
  "end": "2026-10-11",
  "total": {
-  "total": 987,
-  "total_events": 638,
-  "total_utc": 987,
+  "total": 1003,
+  "total_events": 647,
+  "total_utc": 1003,
   "stats": [
    {
     "day": "2025-10-10",
@@ -10717,7 +10717,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 987
+    "monthly": 1003
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 298
+    "weekly": 314
    },
    {
     "day": "2026-10-10",
@@ -10981,7 +10981,7 @@
      10,
      2,
      23,
-     0,
+     16,
      0,
      0,
      0,
@@ -10989,7 +10989,7 @@
      0,
      0
     ],
-    "daily": 124
+    "daily": 140
    },
    {
     "day": "2026-10-11",
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 297,
+   "count": 302,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11039,7 +11039,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 31
+    "2026-10-10": 36
    }
   },
   {
@@ -11047,11 +11047,11 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 167,
+   "count": 172,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 24
+    "2026-10-10": 29
    }
   },
   {
@@ -11603,6 +11603,66 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/ksu/t12",
+   "path_id": 110966426,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/ksu/t12",
+   "path_id": 110966415,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/destinations/al-othaim-mall",
+   "path_id": 110965979,
+   "title": "Al Othaim Mall (Rabwah) Metro Station: Jarir District (Orange Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/khaleej/kfl",
+   "path_id": 110964838,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/urubah/salhiyah",
+   "path_id": 110964317,
+   "title": "ar|link|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-faisaliah-tower",
+   "path_id": 110961469,
+   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -15058,9 +15118,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 349,
-  "events_total": 638,
-  "goatcounter_total_with_events": 987,
+  "visits": 356,
+  "events_total": 647,
+  "goatcounter_total_with_events": 1003,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15070,19 +15130,19 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 49
+   "2026-10-10": 56
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 27
+   "2026-10-10": 32
   },
-  "visitor_days": 172,
-  "return_rate": 0.029,
-  "routes": 194,
+  "visitor_days": 177,
+  "return_rate": 0.028,
+  "routes": 197,
   "routes_not_found": 0,
-  "routes_per_visit": 0.56,
-  "routes_per_visitor_day": 0.98,
+  "routes_per_visit": 0.55,
+  "routes_per_visitor_day": 0.97,
   "share_rate": 0.0,
   "shares": {},
   "failed_search_rate": 0.022,
@@ -15112,7 +15172,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 167,
+   "new": 172,
    "return": 5
   },
   "top_routes": [
@@ -15145,6 +15205,18 @@
     "count": 2
    },
    {
+    "name": "ksu > t12",
+    "count": 1
+   },
+   {
+    "name": "khaleej > kfl",
+    "count": 1
+   },
+   {
+    "name": "urubah > salhiyah",
+    "count": 1
+   },
+   {
     "name": "moi > p_embassy_of_india",
     "count": 1
    },
@@ -15163,18 +15235,6 @@
    {
     "name": "albilad > urubah",
     "count": 1
-   },
-   {
-    "name": "ksu > andalus",
-    "count": 1
-   },
-   {
-    "name": "andalus > ksu",
-    "count": 1
-   },
-   {
-    "name": "dhabab > hokm",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -15187,20 +15247,20 @@
     "count": 9
    },
    {
+    "name": "urubah",
+    "count": 9
+   },
+   {
     "name": "moi",
     "count": 8
    },
    {
-    "name": "urubah",
+    "name": "ksu",
     "count": 8
    },
    {
     "name": "murooj",
     "count": 8
-   },
-   {
-    "name": "ksu",
-    "count": 7
    },
    {
     "name": "p_kingdom_centre",
@@ -15229,6 +15289,10 @@
     "count": 7
    },
    {
+    "name": "t12",
+    "count": 7
+   },
+   {
     "name": "p_national_museum",
     "count": 6
    },
@@ -15237,11 +15301,11 @@
     "count": 6
    },
    {
-    "name": "t12",
-    "count": 6
+    "name": "t5",
+    "count": 5
    },
    {
-    "name": "t5",
+    "name": "kfl",
     "count": 5
    },
    {
@@ -15255,10 +15319,6 @@
    {
     "name": "kafd",
     "count": 5
-   },
-   {
-    "name": "jeddahrd",
-    "count": 5
    }
   ]
  },
@@ -15266,7 +15326,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 230
+    "count": 235
    },
    {
     "name": "com.reddit.frontpage",
@@ -15375,6 +15435,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/al-othaim-mall": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/al-faisaliah-tower": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/lines/yellow-line": [
@@ -15532,7 +15604,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 230
+    "count": 235
    },
    {
     "path": "/map",
@@ -15593,6 +15665,14 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/destinations/al-othaim-mall",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/al-faisaliah-tower",
+    "count": 1
    },
    {
     "path": "/lines/yellow-line",
@@ -15759,7 +15839,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 701,
+   "count": 715,
    "ref_scheme": "o"
   },
   {
@@ -15771,7 +15851,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 51,
+   "count": 53,
    "ref_scheme": "g"
   },
   {
@@ -15863,12 +15943,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 904
+   "count": 919
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 58
+   "count": 59
   },
   {
    "id": "(unknown)",
@@ -15910,7 +15990,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 741
+   "count": 757
   },
   {
    "id": "US",
@@ -16067,7 +16147,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 783
+   "count": 795
   },
   {
    "id": "tablet",
@@ -16082,7 +16162,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 35
+   "count": 39
   },
   {
    "id": "unknown",
@@ -16094,12 +16174,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 521
+   "count": 527
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 436
+   "count": 446
   },
   {
    "name": "",
@@ -16115,12 +16195,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 432
+   "count": 442
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 357
+   "count": 359
   },
   {
    "id": "Windows",
@@ -16135,7 +16215,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 19
+   "count": 23
   },
   {
    "id": "Chrome OS",
