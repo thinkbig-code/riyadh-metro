@@ -787,7 +787,7 @@ def timings_page():
     body.append(hours_html(['metro']))
     body.append('<p>Trains run about every 3–5 minutes at peak times and every 5–10 minutes the rest of the day, about every 10 minutes late in the evening.</p>')
     body.append(fare_table())
-    body.append('<p>Pay with a darb card, the darb app or a contactless bank card. Trains have First Class, Family and Singles sections.</p>')
+    body.append('<p>Pay with a darb card, the darb app or a contactless bank card. Trains have First Class, Family and Singles sections. <a href="{ROOT}rules/">Rules, fines and how to pay</a>.</p>')
     # the answer in the title: people search 'what time metro open'
     title = 'Riyadh Metro Timings: %s, Fares' % ', '.join('%s %s–%s' % (d, o, c.replace(' (next day)', '')) for d, o, c in hours_rows('metro'))
     desc = 'Opening and closing times for every day of the week, how often trains run, ticket prices (SAR %s for 2 hours) and a live map to plan your trip.' % sar(FARE['std'])
@@ -825,7 +825,7 @@ def map_page():
         body.append('<li><b>%s (Line %d)</b>: %s to %s. <a href="{ROOT}%s">Stations</a></li>' % (e(LINE_NAME[v['line']]), LINE_NUM[v['line']], e(ST[v['stops'][0]]['n']), e(ST[v['stops'][-1]]['n']), LINE_PAGE[v['line']]))
     body.append('<li><b>Interchanges</b>: %s.</li>' % e(', '.join(ST[x]['n'] for x in xs)))
     body.append('<li>The Yellow and Purple lines share the track and the four stations from KAFD to SABIC; on the map they run side by side there.</li></ul>')
-    body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}timings/">Timings and fares</a> · <a href="{ROOT}nearest-station/">Nearest station to me</a></p>')
+    body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}timings/">Timings and fares</a> · <a href="{ROOT}nearest-station/">Nearest station to me</a> · <a href="{ROOT}rules/">Rules and fines</a></p>')
     ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "Riyadh Metro map",
           "description": MAP_ALT, "width": MAP_W, "height": MAP_H, "encodingFormat": "image/png"}
     write(path, frame(path, 'Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)', lead, '\n'.join(body), [(path, 'Map')], ld, og_image=MAP_IMG))
@@ -848,9 +848,55 @@ def nearest_page():
     write(path, frame(path, 'Nearest Metro Station to Me in Riyadh: Find It by Location', desc, '\n'.join(body), [(path, 'Nearest station')]))
 
 
+RULE_SRC = [
+    ('Fines: the national Regulation on the Rights and Obligations of Public Transport Users (2023), table for rail lines inside cities, as published by Okaz', 'https://www.okaz.com.sa/ampArticle/2149078'),
+    ('The regulation in the official gazette Umm Al-Qura', 'https://www.uqn.gov.sa/details?p=24107'),
+    ('Fares, passes, children, paying at the gates: King Khalid International Airport', 'https://www.kkia.sa/en/Parking-And-Transport/Metro'),
+    ('Apple Pay Express Mode on Riyadh buses and metro', 'https://www.apple.com/sa/apple-pay/transport'),
+    ('50% discount groups (Riyadh Public Transport announcement, reported by Almuraba)', 'https://www.almuraba.net/?p=767093'),
+    ('Opening hours (Riyadh Public Transport, September 2025)', 'https://x.com/RiyadhTransport/status/1963922588771508440'),
+]
+
+
+def rules_page():
+    """rider guide: tickets, how to pay, the official fines, common mistakes; every fact with its source"""
+    path = 'rules/'
+    lead = ('What a new rider needs to know: which ticket to buy, how to pay at the gates, what is fined and how much, '
+            'and the mistakes people make in their first week. Fines are from the national public transport regulation; check the Darb app for any change.')
+    body = ['<h1>Riyadh Metro rules, fines and tickets</h1>', '<p class="lead">%s</p>' % e(lead),
+            '<a class="cta" href="{ROOT}">Open the interactive map</a>',
+            fare_table(),
+            '<p>Students, older people, people with disabilities, cancer patients and first-degree relatives of martyrs get 50% off on the metro and buses. '
+            'The discount is checked at a station ticket office; tapping a bank card at the gate always charges the full fare.</p>',
+            '<h2>How to pay</h2><ul>'
+            '<li><b>Contactless bank card or Apple Pay</b>: tap it at the gate, no ticket needed (full fare).</li>'
+            '<li><b>Darb card</b>: a reusable card for the metro and buses, sold at station ticket machines and ticket offices; top it up at the machines.</li>'
+            '<li><b>Darb app</b>: buy a ticket or pass and scan its QR code at the gate.</li></ul>',
+            '<h2>Fines</h2><table><tr><th>Violation</th><th>Fine</th></tr>']
+    for v, f in [('Getting in by climbing or jumping', 500), ('Getting on or off the train outside the doors, or once it is moving', 500),
+                 ('Putting any part of the body out of a door or window', 300), ('Disturbing passengers or staff', 200), ('Smoking', 200),
+                 ('Feet on the seats', 200), ('Bringing a non-folding bicycle, scooter or other wheeled device (strollers and wheelchairs are allowed)', 200),
+                 ('Eating on board (young children and medical needs excepted)', 100), ('Blocking the doors or not letting people get off', 100),
+                 ('Forcing your way into a full train', 100)]:
+        body.append('<tr><td>%s</td><td>SAR %d</td></tr>' % (e(v), f))
+    body.append('</table><p class="note">Amounts from the table for rail lines inside cities in the 2023 national regulation. Riding without a valid ticket, or in First Class on a standard ticket, is also fined.</p>')
+    body.append('<h2>Common mistakes</h2><ul>'
+                '<li>Sitting in First Class with a standard ticket.</li>'
+                '<li>Using a discounted ticket without the proof (student ID and so on) on you.</li>'
+                '<li>Tapping a bank card when you are entitled to a discount: the gate charges full fare.</li>'
+                '<li>Bringing a scooter or bicycle that does not fold.</li>'
+                '<li>Going to the wrong airport station: Airport T1-2, Airport T3-4 and Airport T5 are three different stations on the Yellow Line.</li>'
+                '<li>Arriving too early on Friday: the metro opens at 10:00 on Fridays (05:30 on other days).</li></ul>')
+    body.append('<h2>Sources</h2><ul>' + ''.join('<li><a href="%s" rel="nofollow">%s</a></li>' % (u, e(t_)) for t_, u in RULE_SRC) + '</ul>')
+    body.append('<p><a href="{ROOT}timings/">Timings and fares</a> · <a href="{ROOT}nearest-station/">Nearest station to me</a> · <a href="{ROOT}map/">Metro map</a></p>')
+    desc = 'Riyadh Metro fines from SAR 100 to SAR 500, which ticket to buy, paying with a bank card, Apple Pay or the Darb card, discounts, and the mistakes new riders make.'
+    write(path, frame(path, 'Riyadh Metro Rules and Fines 2026: Tickets, Darb Card, Common Mistakes', desc, '\n'.join(body), [(path, 'Rules and fines')]))
+
+
 def build():
     PAGES.clear()
     map_page()
+    rules_page()
     nearest_page()
     stations_list()
     timings_page()
