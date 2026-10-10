@@ -381,7 +381,8 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
 .recent{display:flex;align-items:center;gap:6px;overflow-x:auto;padding:0 14px 10px;scrollbar-width:none}.recent[hidden]{display:none}.recent span{font-size:12px;color:var(--muted);flex:none}.recent button{flex:none;font:inherit;font-size:13px;padding:6px 10px;border-radius:999px;border:1px solid var(--rule);background:var(--bg);color:var(--fg);cursor:pointer;white-space:nowrap;max-width:80vw;overflow:hidden;text-overflow:ellipsis}
 #result .morewrap{display:flex;gap:8px;padding:2px 14px 12px}
 .morewrap .more{flex:1}
-.more.send{font:inherit;font-size:14px;font-weight:700;padding:9px;border-radius:12px;cursor:pointer;width:100%;background:var(--accent);color:var(--bg);border:1px solid var(--accent)}
+#result .morewrap{flex-wrap:wrap}#result .morewrap .share,#result .morewrap .shout{flex-basis:100%;padding:2px 0 0}
+.more.shb{flex:0 0 auto;width:auto;font:inherit;font-size:14px;font-weight:600;padding:9px 14px;border-radius:12px;cursor:pointer;background:var(--bg);color:var(--accent);border:1px solid var(--rule)}
 @media (min-width:721px){#moreBtn{display:none}.morewrap{padding:4px 16px 12px}}
 #about{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 #about.open{position:fixed;inset:0;margin:auto;width:min(720px,calc(100% - 24px));height:min(86%,900px);overflow:auto;clip-path:none;white-space:normal;
@@ -1824,7 +1825,7 @@ function renderResult(r,variants){recSave();
   if(to.lm&&to.lm.min)chipsG.push(`<span class="mw" title="${esc(t("walking",{n:to.lm.min}))}">${walkIco}${to.lm.min}</span>`);
   h+=`<div class="modes" aria-label="${esc(t("routeModes"))}">${chipsG.join('<i class="sep" aria-hidden="true"></i>')}</div>`;
   const peek=$("#panel").classList.contains("peek");
-  h+=`<div class="morewrap"><button class="more" id="moreBtn" aria-expanded="${!peek}">${esc(t(peek?"more":"less"))} <span aria-hidden="true">${peek?"▴":"▾"}</span></button><button class="more send" id="sendBtn">${esc(SEND_LBL[LANG]||SEND_LBL.en)} <span aria-hidden="true">↗</span></button></div>`;
+  h+=`<div class="morewrap"><button class="more" id="moreBtn" aria-expanded="${!peek}">${esc(t(peek?"more":"less"))} <span aria-hidden="true">${peek?"▴":"▾"}</span></button><button class="more shb" id="sendBtn" aria-expanded="false">${esc(t("shareRoute"))} <span aria-hidden="true">↗</span></button></div>`;
   const tw=r.legs.length&&r.legs[r.legs.length-1].type==="walk"?r.legs[r.legs.length-1]:null;
   if(to.lm&&tw)h+=`<div class="dest"><span class="pinb">B</span><span>${esc(t("destInfo",{p:to.lm.n,n:tw.t+(to.lm.min||0),s:ST[tw.from].n}))}${gmLink(to.lm,tw.from)}</span></div>`;
   else if(to.lm&&to.lm.note)h+=`<div class="dest"><span class="pinb">B</span><span>${esc(to.lm.n+": "+t(to.lm.note,{s:ST[to.lm.st].n}))}${gmLink(to.lm,to.lm.st)}</span></div>`;
@@ -1868,9 +1869,12 @@ function renderResult(r,variants){recSave();
     <div class="shout" id="shOut" hidden><input id="shUrl" readonly value="${esc(url)}" aria-label="${esc(t("linkLabel"))}" dir="ltr"><div class="qr" id="qr" hidden></div></div>`+footHTML();
   const wasOpen=document.getElementById("infoBox")?.open;
   res.innerHTML=h;
-  $("#sendBtn").onclick=async()=>{track("share",tok(state.from),tok(state.to),"send");const txt=sendText(r);
-    if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({text:txt});track("share",tok(state.from),tok(state.to),"native");}catch(e){}return;}
-    const row=$("#shRow");if(row&&row.hidden)$("#shToggle").click();(row||$("#shToggle")).scrollIntoView({block:"center",behavior:"smooth"});};
+  {const mw=document.querySelector("#result .morewrap"),row=$("#shRow"),out=$("#shOut"),tg=$("#shToggle");
+   if(mw&&row){mw.append(row);if(out)mw.append(out);if(tg)tg.parentElement.style.display="none";
+    if(navigator.share&&!row.querySelector(".shn")){const nb=document.createElement("button");nb.className="shn";nb.textContent="…";nb.setAttribute("aria-label","More apps");
+     nb.onclick=async()=>{try{await navigator.share({text:sendText(r)});track("share",tok(state.from),tok(state.to),"native");}catch(e){}};row.append(nb);}}}
+  $("#sendBtn").onclick=()=>{const row=$("#shRow");if(!row)return;const o=row.hidden;row.hidden=!o;$("#sendBtn").setAttribute("aria-expanded",String(o));
+    if(o)track("share",tok(state.from),tok(state.to),"send");else{const out=$("#shOut");if(out)out.hidden=true;}};
   $("#moreBtn").onclick=()=>{if($("#panel").classList.contains("peek"))track("view",tok(from),tok(to),"details");$("#panel").classList.toggle("peek");renderResult(r,variants);if(routeBox)fitBox(routeBox,true,1.6);};
   if(wasOpen)document.getElementById("infoBox").open=true;
   res.querySelectorAll(".opt[data-o]").forEach(b=>b.onclick=()=>{const i=+b.dataset.o;if(i===state.opt)return;state.opt=i;track("view",tok(from),tok(to),"opt_"+(i+1));update(true);});
