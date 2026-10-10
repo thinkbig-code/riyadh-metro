@@ -194,7 +194,15 @@
    "title": "Diplomatic Quarter (embassies)",
    "main": "p_diplomatic_quarter",
    "also": [
-    "p_ritz_carlton_riyadh"
+    "p_ritz_carlton_riyadh",
+    "p_embassy_of_india",
+    "p_embassy_of_pakistan",
+    "p_embassy_of_the_philippines",
+    "p_embassy_of_bangladesh",
+    "p_embassy_of_egypt",
+    "p_embassy_of_the_united_states",
+    "p_british_embassy",
+    "p_embassy_of_indonesia"
    ],
    "origins": [
     "p_king_khalid_airport_terminals_1_2",
@@ -1576,6 +1584,150 @@
     "p_national_museum"
    ],
    "title_ar": "كراون بلازا الرياض المنهل"
+  },
+  {
+   "slug": "indian-embassy",
+   "title": "Indian Embassy Riyadh",
+   "main": "p_embassy_of_india",
+   "also": [],
+   "lead": "The Embassy of India is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 2.6 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة الهند في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 2.6 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة الهند في الرياض"
+  },
+  {
+   "slug": "pakistan-embassy",
+   "title": "Pakistan Embassy Riyadh",
+   "main": "p_embassy_of_pakistan",
+   "also": [],
+   "lead": "The Embassy of Pakistan is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 3.2 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة باكستان في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 3.2 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة باكستان في الرياض"
+  },
+  {
+   "slug": "philippine-embassy",
+   "title": "Philippine Embassy Riyadh",
+   "main": "p_embassy_of_the_philippines",
+   "also": [],
+   "lead": "The Embassy of the Philippines is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 3 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة الفلبين في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 3 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة الفلبين في الرياض"
+  },
+  {
+   "slug": "bangladesh-embassy",
+   "title": "Bangladesh Embassy Riyadh",
+   "main": "p_embassy_of_bangladesh",
+   "also": [],
+   "lead": "The Embassy of Bangladesh is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 2.7 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة بنغلاديش في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 2.7 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة بنغلاديش في الرياض"
+  },
+  {
+   "slug": "egyptian-embassy",
+   "title": "Egyptian Embassy Riyadh",
+   "main": "p_embassy_of_egypt",
+   "also": [],
+   "lead": "The Embassy of Egypt is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 4.2 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة مصر في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 4.2 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة مصر في الرياض"
+  },
+  {
+   "slug": "us-embassy",
+   "title": "US Embassy Riyadh",
+   "main": "p_embassy_of_the_united_states",
+   "also": [],
+   "lead": "The Embassy of the United States is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 3.2 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة الولايات المتحدة في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 3.2 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة الولايات المتحدة في الرياض"
+  },
+  {
+   "slug": "british-embassy",
+   "title": "British Embassy Riyadh",
+   "main": "p_british_embassy",
+   "also": [],
+   "lead": "The British Embassy is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 2.4 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع السفارة البريطانية في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 2.4 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "السفارة البريطانية في الرياض"
+  },
+  {
+   "slug": "indonesian-embassy",
+   "title": "Indonesian Embassy Riyadh",
+   "main": "p_embassy_of_indonesia",
+   "also": [],
+   "lead": "The Embassy of Indonesia is in the Diplomatic Quarter, which has no metro station. The nearest station is King Saud University, the western end of the Red Line, about 3.1 km away in a straight line; from there continue by taxi or bus.",
+   "lead_ar": "تقع سفارة إندونيسيا في الحي الدبلوماسي، ولا توجد فيه محطة مترو. أقرب محطة هي جامعة الملك سعود، نهاية المسار الأحمر من الغرب، وتبعد نحو 3.1 كم في خط مستقيم؛ أكمل من هناك بسيارة أجرة أو بالحافلة.",
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة إندونيسيا في الرياض"
+  },
+  {
+   "slug": "nepal-embassy",
+   "title": "Nepal Embassy Riyadh",
+   "main": "p_embassy_of_nepal",
+   "also": [],
+   "origins": [
+    "p_king_khalid_airport_terminals_1_2",
+    "p_al_batha",
+    "p_kafd_king_abdullah_financial_district",
+    "p_kingdom_centre",
+    "p_riyadh_railway_station"
+   ],
+   "title_ar": "سفارة نيبال في الرياض",
+   "lead": "The Embassy of Nepal is on Al Urubah Street in Sulaimaniyah, outside the Diplomatic Quarter. The nearest station is As Sulimaniyah on the Green Line, about 13 minutes on foot (estimated from the distance on the map).",
+   "lead_ar": "تقع سفارة نيبال في شارع العروبة بحي السليمانية، خارج الحي الدبلوماسي. أقرب محطة هي السليمانية على المسار الأخضر، على بُعد نحو 13 دقيقة سيراً (تقدير من المسافة على الخريطة)."
   }
  ],
  "stations": [
