@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T21:55:15Z",
+ "generated": "2026-10-10T22:55:03Z",
  "start": "2025-10-10",
  "end": "2026-10-11",
  "total": {
-  "total": 1092,
-  "total_events": 703,
-  "total_utc": 1092,
+  "total": 1098,
+  "total_events": 706,
+  "total_utc": 1098,
   "stats": [
    {
     "day": "2025-10-10",
@@ -10717,7 +10717,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1092
+    "monthly": 1098
    },
    {
     "day": "2026-10-02",
@@ -10959,7 +10959,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 403
+    "weekly": 409
    },
    {
     "day": "2026-10-10",
@@ -10996,7 +10996,7 @@
     "hourly": [
      9,
      18,
-     0,
+     6,
      0,
      0,
      0,
@@ -11019,7 +11019,7 @@
      0,
      0
     ],
-    "daily": 27
+    "daily": 33
    }
   ]
  },
@@ -11029,7 +11029,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 324,
+   "count": 326,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11040,7 +11040,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 6
+    "2026-10-11": 8
    }
   },
   {
@@ -11048,12 +11048,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 191,
+   "count": 193,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 6
+    "2026-10-11": 8
    }
   },
   {
@@ -11691,6 +11691,26 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/districts/al-uraija",
+   "path_id": 111023725,
+   "title": "Nearest Metro Station to Al Uraija, Riyadh: Dhahrat Al Badiah, 2.0 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/wurud2/pnu1",
+   "path_id": 111023166,
+   "title": "fr|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15446,9 +15466,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 389,
-  "events_total": 703,
-  "goatcounter_total_with_events": 1092,
+  "visits": 392,
+  "events_total": 706,
+  "goatcounter_total_with_events": 1098,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15459,21 +15479,21 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 11
+   "2026-10-11": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 6
+   "2026-10-11": 8
   },
-  "visitor_days": 197,
+  "visitor_days": 199,
   "return_rate": 0.03,
-  "routes": 212,
+  "routes": 213,
   "routes_not_found": 0,
   "routes_per_visit": 0.54,
-  "routes_per_visitor_day": 0.95,
-  "share_rate": 0.024,
+  "routes_per_visitor_day": 0.94,
+  "share_rate": 0.023,
   "shares": {
    "whatsapp": 1,
    "copy": 1,
@@ -15508,7 +15528,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 191,
+   "new": 193,
    "return": 6
   },
   "top_routes": [
@@ -15549,6 +15569,10 @@
     "count": 2
    },
    {
+    "name": "wurud2 > pnu1",
+    "count": 1
+   },
+   {
     "name": "p_kingdom_centre > p_souq_al_zal",
     "count": 1
    },
@@ -15566,10 +15590,6 @@
    },
    {
     "name": "jarir > p_sahara_mall",
-    "count": 1
-   },
-   {
-    "name": "wizarat > malaz",
     "count": 1
    }
   ],
@@ -15662,7 +15682,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 253
+    "count": 255
    },
    {
     "name": "com.reddit.frontpage",
@@ -15799,6 +15819,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/districts/al-uraija": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/lines/yellow-line": [
@@ -15986,7 +16012,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 253
+    "count": 255
    },
    {
     "path": "/map",
@@ -16055,6 +16081,10 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/districts/al-uraija",
+    "count": 1
    },
    {
     "path": "/ar/destinations/pif-tower",
@@ -16265,7 +16295,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 778,
+   "count": 783,
    "ref_scheme": "o"
   },
   {
@@ -16277,7 +16307,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 61,
+   "count": 62,
    "ref_scheme": "g"
   },
   {
@@ -16393,7 +16423,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 993
+   "count": 996
   },
   {
    "id": "ara",
@@ -16401,14 +16431,14 @@
    "count": 70
   },
   {
+   "id": "fra",
+   "name": "French",
+   "count": 9
+  },
+  {
    "id": "(unknown)",
    "name": "(unknown)",
    "count": 8
-  },
-  {
-   "id": "fra",
-   "name": "French",
-   "count": 6
   },
   {
    "id": "rus",
@@ -16440,7 +16470,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 827
+   "count": 830
   },
   {
    "id": "AE",
@@ -16460,7 +16490,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 13
+   "count": 16
   },
   {
    "id": "IN",
@@ -16602,7 +16632,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 873
+   "count": 874
   },
   {
    "id": "tablet",
@@ -16612,7 +16642,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 147
+   "count": 152
   },
   {
    "id": "desktophd",
@@ -16629,7 +16659,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 571
+   "count": 577
   },
   {
    "id": "Safari",
@@ -16655,7 +16685,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 392
+   "count": 393
   },
   {
    "id": "Windows",
@@ -16665,7 +16695,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 50
+   "count": 55
   },
   {
    "id": "Linux",
