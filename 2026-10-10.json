@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-10T13:53:58Z",
+ "generated": "2026-10-10T14:53:47Z",
  "start": "2026-09-10",
  "end": "2026-10-11",
  "total": {
-  "total": 1003,
-  "total_events": 647,
-  "total_utc": 1003,
+  "total": 1010,
+  "total_events": 652,
+  "total_utc": 1010,
   "stats": [
    {
     "day": "2026-09-10",
@@ -668,7 +668,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1003
+    "monthly": 1010
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      12
     ],
     "daily": 541,
-    "weekly": 855
+    "weekly": 862
    },
    {
     "day": "2026-10-09",
@@ -932,14 +932,14 @@
      2,
      23,
      16,
-     0,
+     7,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 140
+    "daily": 147
    },
    {
     "day": "2026-10-11",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 302,
+   "count": 304,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -989,7 +989,7 @@
     "2026-10-07": 30,
     "2026-10-08": 157,
     "2026-10-09": 48,
-    "2026-10-10": 36
+    "2026-10-10": 38
    }
   },
   {
@@ -997,11 +997,24 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 172,
+   "count": 174,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
-    "2026-10-10": 29
+    "2026-10-10": 31
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 14,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 7,
+    "2026-10-09": 2,
+    "2026-10-10": 3
    }
   },
   {
@@ -1014,19 +1027,6 @@
     "2026-10-07": 2,
     "2026-10-08": 5,
     "2026-10-09": 4,
-    "2026-10-10": 2
-   }
-  },
-  {
-   "path": "geo/denied/-",
-   "path_id": 110295286,
-   "title": "en",
-   "event": true,
-   "count": 13,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 7,
-    "2026-10-09": 2,
     "2026-10-10": 2
    }
   },
@@ -1553,6 +1553,26 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/kafd/murabba",
+   "path_id": 110972440,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "station/kafd/from",
+   "path_id": 110972439,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-10": 1
    }
   },
   {
@@ -5068,9 +5088,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 356,
-  "events_total": 647,
-  "goatcounter_total_with_events": 1003,
+  "visits": 358,
+  "events_total": 652,
+  "goatcounter_total_with_events": 1010,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5080,16 +5100,16 @@
    "2026-10-07": 35,
    "2026-10-08": 167,
    "2026-10-09": 61,
-   "2026-10-10": 56
+   "2026-10-10": 58
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
-   "2026-10-10": 32
+   "2026-10-10": 34
   },
-  "visitor_days": 177,
+  "visitor_days": 179,
   "return_rate": 0.028,
-  "routes": 197,
+  "routes": 198,
   "routes_not_found": 0,
   "routes_per_visit": 0.55,
   "routes_per_visitor_day": 0.97,
@@ -5115,14 +5135,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 13,
+   "denied": 14,
    "ok": 16,
    "outside": 2,
    "far": 1,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 172,
+   "new": 174,
    "return": 5
   },
   "top_routes": [
@@ -5155,6 +5175,10 @@
     "count": 2
    },
    {
+    "name": "kafd > murabba",
+    "count": 1
+   },
+   {
     "name": "ksu > t12",
     "count": 1
    },
@@ -5180,10 +5204,6 @@
    },
    {
     "name": "moi > urubah",
-    "count": 1
-   },
-   {
-    "name": "albilad > urubah",
     "count": 1
    }
   ],
@@ -5280,7 +5300,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 53
+    "count": 54
    },
    {
     "name": "Google",
@@ -5308,6 +5328,10 @@
    },
    {
     "name": "riyadhmetro.fyi/stations",
+    "count": 1
+   },
+   {
+    "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
     "count": 1
    }
   ],
@@ -5576,7 +5600,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 53
+    "count": 54
    }
   ],
   "Google": [
@@ -5733,6 +5757,12 @@
     "count": 1
    }
   ],
+  "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
   "www.facebook.com": [
    {
     "path": "/ur.html",
@@ -5795,7 +5825,7 @@
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 190,
+   "count": 195,
    "ref_scheme": "o"
   },
   {
@@ -5853,6 +5883,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
+   "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.reddit.com",
    "name": "www.reddit.com",
    "count": 1,
@@ -5893,7 +5929,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 919
+   "count": 926
   },
   {
    "id": "ara",
@@ -5940,7 +5976,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 757
+   "count": 762
   },
   {
    "id": "US",
@@ -6038,6 +6074,11 @@
    "count": 2
   },
   {
+   "id": "QA",
+   "name": "Qatar",
+   "count": 2
+  },
+  {
    "id": "TR",
    "name": "Turkey",
    "count": 2
@@ -6097,7 +6138,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 795
+   "count": 800
   },
   {
    "id": "tablet",
@@ -6107,7 +6148,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 139
+   "count": 141
   },
   {
    "id": "desktophd",
@@ -6124,7 +6165,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 527
+   "count": 534
   },
   {
    "id": "Safari",
@@ -6150,12 +6191,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 359
+   "count": 364
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 125
+   "count": 127
   },
   {
    "id": "macOS",
