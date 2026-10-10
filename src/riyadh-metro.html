@@ -1375,7 +1375,7 @@ function summarize(rt,from=state.from,to=state.to){
   const walk=endWalk+legs.filter(l=>l.type==="walk").reduce((a,l)=>a+l.t,0);
   const time=Math.round(ride+changeT+endWalk);
   const at=cityAt(state.departMs||Date.now());
-  const wait=rides.reduce((a,l)=>a+headwayFor(l,at),0);
+  const wait=rides.reduce((a,l)=>a+headwayFor(l,at)/2,0);   // average wait: half the interval for each train
   // a transfer = a new boarding after the first one; walking never counts
   return {legs,time,timeMax:Math.round(time+wait),walk,xf:Math.max(0,rides.length-1),rides:rides.length,
     stops:rides.reduce((a,l)=>a+l.stops.length-1,0),
