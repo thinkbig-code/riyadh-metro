@@ -314,7 +314,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">خريطة المترو</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/districts/">الأحياء</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}ar.html">خريطة مترو الرياض</a><a href="{root}ar/map/">خريطة المترو</a><a href="{root}ar/stations/">المحطات</a><a href="{root}ar/districts/">الأحياء</a><a href="{root}ar/nearest-station/">أقرب محطة</a><a href="{root}ar/timings/">المواعيد والأسعار</a><a href="{root}{en}" hreflang="en" lang="en">English</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}
@@ -393,9 +393,8 @@ def destination(d):
     title = 'محطة مترو %s: محطة %s (%s)%s' % (TT, sn(sid), lines_txt(s['lines']), walk)
     if len(title) > 75:     # too long for the search results: the lines are on the page anyway
         title = 'محطة مترو %s: محطة %s%s' % (TT, sn(sid), walk)
-    desc = 'أقرب محطة مترو إلى %s هي محطة %s على %s' % (T, sn(sid), lines_txt(s['lines']))
-    desc += ('، ثم بالحافلة أو سيارة الأجرة' if main.get('note') else ('، على بُعد نحو %s سيراً' % mins(main['min'])) if main.get('min') else '')
-    desc += '. وقت الرحلة من المطار ومناطق أخرى والسعر ومواعيد التشغيل.'
+    desc = 'خريطة تفاعلية وجهتها %s: اضغط على محطة انطلاقك لترى المسار والتبديلات ووقت الرحلة والسعر. أقرب محطة: %s%s.' % (
+        T, sn(sid), '، ثم بالحافلة أو سيارة الأجرة' if main.get('note') else '')
     write(path, frame(path, title, desc, '\n'.join(body), [(path, T)]))
 
 
@@ -444,7 +443,7 @@ def station(cfg):
     body.append(hours_html())
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LN[l])) for l in ls) + '<li><a href="{ROOT}ar/stations/">جميع المحطات</a></li></ul>')
     title = 'محطة %s، مترو الرياض: %s%s' % (sn(sid), lines_txt(ls), (' (رقم %d)' % P.ST_NO[sid]) if sid in P.ST_NO else '')
-    write(path, frame(path, title, lead.split('. ')[0] + '. المسارات والرحلات والمواعيد.', '\n'.join(body), [('ar/stations/', 'المحطات'), (path, sn(sid))],
+    write(path, frame(path, title, 'خريطة تفاعلية تبدأ من محطة %s (%s): اضغط على أي محطة أو مكان لترى المسار والتبديلات ووقت الرحلة والسعر. الأماكن القريبة والمواعيد.' % (sn(sid), lines_txt(ls)), '\n'.join(body), [('ar/stations/', 'المحطات'), (path, sn(sid))],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": sn(sid), "alternateName": s['n'],
                        "geo": {"@type": "GeoCoordinates", "latitude": D['geo'][sid][0], "longitude": D['geo'][sid][1]}} if sid in D['geo'] else None))
 
@@ -591,7 +590,8 @@ def timings_page():
             groups.append([[d], tuple(H[d])])
     hm = lambda m: '%02d:%02d' % (m // 60 % 24, m % 60)
     title = 'مواعيد مترو الرياض اليوم: %s' % '، '.join('%s %s–%s' % (DAYS[g[0]] if len(g) == 1 else DAYS[g[0]] + '–' + DAYS[g[-1]], hm(o), hm(c)) for g, (o, c) in groups)
-    write(path, frame(path, title, lead, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
+    desc = 'مواعيد فتح وإغلاق المترو لكل أيام الأسبوع، وتكرار القطارات، وسعر التذكرة (%s لساعتين)، وخريطة تفاعلية لتخطيط رحلتك.' % sar(FARE['std'])
+    write(path, frame(path, title, desc, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
 
 
 def map_page():
@@ -608,15 +608,31 @@ def map_page():
         body.append('<li><b>%s (المسار %d)</b>: من %s إلى %s. <a href="{ROOT}%s">المحطات</a></li>' % (e(LN[v['line']]), NUM[v['line']], e(sn(v['stops'][0])), e(sn(v['stops'][-1])), LINE_PAGE[v['line']]))
     body.append('<li><b>محطات التبديل</b>: %s.</li>' % e('، '.join(sn(x) for x in xs)))
     body.append('<li>يشترك المساران الأصفر والبنفسجي في المسار وفي المحطات الأربع من المركز المالي إلى سابك، ويظهران على الخريطة متجاورين هناك.</li></ul>')
-    body.append('<p><a href="{ROOT}ar/stations/">جميع المحطات</a> · <a href="{ROOT}ar/timings/">المواعيد والأسعار</a></p>')
+    body.append('<p><a href="{ROOT}ar/stations/">جميع المحطات</a> · <a href="{ROOT}ar/timings/">المواعيد والأسعار</a> · <a href="{ROOT}ar/nearest-station/">أقرب محطة إلي</a></p>')
     ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "خريطة مترو الرياض",
           "description": MAP_ALT, "width": P.MAP_W, "height": P.MAP_H, "encodingFormat": "image/png", "inLanguage": "ar"}
     write(path, frame(path, 'خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)', lead, '\n'.join(body), [(path, 'الخريطة')], ld, og_image=MAP_IMG))
 
 
+def nearest_page():
+    """people search 'اقرب محطة مترو': one button that finds the nearest station from the phone's location"""
+    path = 'ar/nearest-station/'
+    lead = 'اضغط على الزر لتعرف أقرب محطة مترو إليك الآن. يستخدم الموقع موقع هاتفك لمرة واحدة ليجد أقرب محطة ويضعها في خانة الانطلاق، ثم تختار وجهتك وترى المسار ووقت الرحلة والسعر.'
+    body = ['<h1>أقرب محطة مترو إليك في الرياض</h1>', '<p class="lead">%s</p>' % e(lead),
+            '<a class="cta" href="{ROOT}ar.html#near">ابحث عن أقرب محطة</a>',
+            '<p class="note">تبقى إحداثيات موقعك على هاتفك: تُحسب أقرب محطة داخل المتصفح، ونحصي فقط المحطة التي وُجدت دون أي بيانات شخصية. إذا رفضت مشاركة الموقع، اضغط على أي محطة في الخريطة أو اكتب اسم الحي.</p>',
+            app_frame(None, None, 'الخريطة التفاعلية: اضغط زر الموقع داخلها أو اختر محطة.'),
+            '<h2>لا تريد مشاركة الموقع؟</h2>',
+            '<p>ابحث عن حيّك في <a href="{ROOT}ar/districts/">قائمة الأحياء وأقرب محطة لكل حي</a>، أو تصفح <a href="{ROOT}ar/stations/">جميع المحطات</a>.</p>',
+            hours_html()]
+    desc = 'اعرف أقرب محطة مترو إليك في الرياض بضغطة واحدة من موقع هاتفك، ثم المسار ووقت الرحلة والسعر إلى وجهتك على خريطة تفاعلية.'
+    write(path, frame(path, 'أقرب محطة مترو إلي في الرياض: ابحث بموقعك', desc, '\n'.join(body), [(path, 'أقرب محطة')]))
+
+
 def build():
     PAGES.clear()
     map_page()
+    nearest_page()
     stations_list()
     timings_page()
     line_pages()

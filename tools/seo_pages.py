@@ -349,7 +349,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <style>{CSS}</style>
 </head>
 <body>
-<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Metro map</a><a href="{root}stations/">Stations</a><a href="{root}districts/">Districts</a><a href="{root}timings/">Timings and fares</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
+<header class="top"><nav><a class="brand" href="{root}">Riyadh Metro Map</a><a href="{root}map/">Metro map</a><a href="{root}stations/">Stations</a><a href="{root}districts/">Districts</a><a href="{root}timings/">Timings and fares</a><a href="{root}nearest-station/">Nearest station</a><a href="{root}ar/{path}" hreflang="ar" lang="ar">العربية</a></nav></header>
 <main>
 <div class="crumbs">{crumb_html}</div>
 {body}
@@ -526,7 +526,9 @@ def destination(d):
     body.append(hours_html(kinds))
     body.append('<h2>Nearby on this map</h2>' + related_dest(d['slug']))
     title = answer_title(d['title'], kind_word, main, sid)
-    desc = answer_desc(d['title'], kind_word, main, sid, 'Travel times from the airport and other areas, fare and hours.')
+    # the title already answers 'which station'; the description says what only the page gives (the live map, set up for this trip)
+    desc = 'Live map with %s as your destination: tap the station you start from to see the route, changes, travel time and fare. Nearest station: %s%s.' % (
+        d['title'], s['n'], ', then bus or taxi' if main.get('note') else '')
     write(path, frame(path, title, desc, '\n'.join(body), [(path, d['title'])]))
 
 
@@ -585,7 +587,8 @@ def station(cfg):
     body.append(hours_html(sorted({LINE_KIND[l] for l in lines}, key=['metro', 'tram', 'mono'].index)))
     body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s</a></li>' % (LINE_PAGE[l], e(LINE_NAME[l])) for l in lines) + '<li><a href="{ROOT}stations/">All stations and their former names</a></li></ul>')
     title = '%s Metro Station, Riyadh: %s%s' % (s['n'], short_lines(lines), (', No. %d' % ST_NO[sid]) if sid in ST_NO else '')
-    desc = lead.split('. ')[0] + '. ' + ('Also called %s. ' % ', '.join(other_names(sid)) if other_names(sid) else '') + 'Routes, lines and hours.'
+    desc = ('Live map from %s (%s): tap any station or place to see the route, changes, travel time and fare. ' % (s['n'], ', '.join(LINE_NAME[l] for l in lines))
+            + ('Also called %s. ' % ', '.join(other_names(sid)) if other_names(sid) else '') + 'Nearby places and hours.')
     write(path, frame(path, title, desc, '\n'.join(body), [('stations/', 'Stations'), (path, s['n'])],
                       {"@context": "https://schema.org", "@type": "SubwayStation", "name": s['n'], **({"alternateName": s['f']} if s['f'] else {}),
                        "geo": {"@type": "GeoCoordinates", "latitude": D['geo'][sid][0], "longitude": D['geo'][sid][1]}} if sid in D['geo'] else None))
@@ -787,7 +790,8 @@ def timings_page():
     body.append('<p>Pay with a darb card, the darb app or a contactless bank card. Trains have First Class, Family and Singles sections.</p>')
     # the answer in the title: people search 'what time metro open'
     title = 'Riyadh Metro Timings: %s, Fares' % ', '.join('%s %s–%s' % (d, o, c.replace(' (next day)', '')) for d, o, c in hours_rows('metro'))
-    write(path, frame(path, title, lead, '\n'.join(body), [(path, 'Timings and fares')]))
+    desc = 'Opening and closing times for every day of the week, how often trains run, ticket prices (SAR %s for 2 hours) and a live map to plan your trip.' % sar(FARE['std'])
+    write(path, frame(path, title, desc, '\n'.join(body), [(path, 'Timings and fares')]))
 
 
 def pid_of(n):
@@ -821,15 +825,33 @@ def map_page():
         body.append('<li><b>%s (Line %d)</b>: %s to %s. <a href="{ROOT}%s">Stations</a></li>' % (e(LINE_NAME[v['line']]), LINE_NUM[v['line']], e(ST[v['stops'][0]]['n']), e(ST[v['stops'][-1]]['n']), LINE_PAGE[v['line']]))
     body.append('<li><b>Interchanges</b>: %s.</li>' % e(', '.join(ST[x]['n'] for x in xs)))
     body.append('<li>The Yellow and Purple lines share the track and the four stations from KAFD to SABIC; on the map they run side by side there.</li></ul>')
-    body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}timings/">Timings and fares</a></p>')
+    body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}timings/">Timings and fares</a> · <a href="{ROOT}nearest-station/">Nearest station to me</a></p>')
     ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "Riyadh Metro map",
           "description": MAP_ALT, "width": MAP_W, "height": MAP_H, "encodingFormat": "image/png"}
     write(path, frame(path, 'Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)', lead, '\n'.join(body), [(path, 'Map')], ld, og_image=MAP_IMG))
 
 
+def nearest_page():
+    """people search 'nearest metro station' / 'metro near me': one button that finds it from the phone's location"""
+    path = 'nearest-station/'
+    lead = ('Tap the button to find the Riyadh Metro station nearest to you right now. The map uses your phone\'s location once, '
+            'puts the nearest station in the From field, and then you pick where you are going to see the route, travel time and fare.')
+    body = ['<h1>Nearest Riyadh Metro station to me</h1>', '<p class="lead">%s</p>' % e(lead),
+            '<a class="cta" href="{ROOT}#near">Find my nearest station</a>',
+            '<p class="note">Your coordinates stay on your phone: the nearest station is worked out in the browser. We only count which station was found, with no personal data. '
+            'If you would rather not share it, tap any station on the map or type your area.</p>',
+            app_frame(None, None, 'The interactive map: tap its location button or pick a station.'),
+            '<h2>Rather not share your location?</h2>',
+            '<p>Find your area in the <a href="{ROOT}districts/">list of districts with their nearest station</a>, or browse <a href="{ROOT}stations/">all stations</a>.</p>',
+            hours_html(['metro'])]
+    desc = 'Find the Riyadh Metro station closest to you with one tap from your phone\'s location, then the route, travel time and fare to where you are going on a live map.'
+    write(path, frame(path, 'Nearest Metro Station to Me in Riyadh: Find It by Location', desc, '\n'.join(body), [(path, 'Nearest station')]))
+
+
 def build():
     PAGES.clear()
     map_page()
+    nearest_page()
     stations_list()
     timings_page()
     line_pages()
