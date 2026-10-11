@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T03:47:38Z",
+ "generated": "2026-10-11T04:06:01Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1106,
-  "total_events": 709,
-  "total_utc": 1106,
+  "total": 1110,
+  "total_events": 712,
+  "total_utc": 1110,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1106
+    "monthly": 1110
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 243
+    "weekly": 247
    },
    {
     "day": "2026-10-11",
@@ -10972,7 +10972,7 @@
      4,
      0,
      2,
-     2,
+     6,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 41
+    "daily": 45
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 329,
+   "count": 330,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 11
+    "2026-10-11": 12
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 195,
+   "count": 196,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 10
+    "2026-10-11": 11
    }
   },
   {
@@ -11694,6 +11694,26 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/hokm/kbw",
+   "path_id": 111064985,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/hokm/kbw",
+   "path_id": 111064974,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15469,9 +15489,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 397,
-  "events_total": 709,
-  "goatcounter_total_with_events": 1106,
+  "visits": 398,
+  "events_total": 712,
+  "goatcounter_total_with_events": 1110,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15482,17 +15502,17 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 19
+   "2026-10-11": 20
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 11
+   "2026-10-11": 12
   },
-  "visitor_days": 202,
-  "return_rate": 0.035,
-  "routes": 213,
+  "visitor_days": 203,
+  "return_rate": 0.034,
+  "routes": 214,
   "routes_not_found": 0,
   "routes_per_visit": 0.54,
   "routes_per_visitor_day": 0.93,
@@ -15531,7 +15551,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 195,
+   "new": 196,
    "return": 7
   },
   "top_routes": [
@@ -15572,6 +15592,10 @@
     "count": 2
    },
    {
+    "name": "hokm > kbw",
+    "count": 1
+   },
+   {
     "name": "wurud2 > pnu1",
     "count": 1
    },
@@ -15589,10 +15613,6 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_pif_tower",
-    "count": 1
-   },
-   {
-    "name": "jarir > p_sahara_mall",
     "count": 1
    }
   ],
@@ -15685,7 +15705,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 258
+    "count": 259
    },
    {
     "name": "com.reddit.frontpage",
@@ -16015,7 +16035,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 258
+    "count": 259
    },
    {
     "path": "/map",
@@ -16298,7 +16318,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 789,
+   "count": 793,
    "ref_scheme": "o"
   },
   {
@@ -16426,7 +16446,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1002
+   "count": 1006
   },
   {
    "id": "ara",
@@ -16473,7 +16493,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 832
+   "count": 836
   },
   {
    "id": "AE",
@@ -16635,7 +16655,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 878
+   "count": 882
   },
   {
    "id": "tablet",
@@ -16667,7 +16687,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 491
+   "count": 495
   },
   {
    "name": "",
@@ -16683,7 +16703,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 487
+   "count": 491
   },
   {
    "id": "Android",
