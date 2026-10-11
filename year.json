@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T08:56:03Z",
+ "generated": "2026-10-11T09:56:17Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1137,
-  "total_events": 726,
-  "total_utc": 1137,
+  "total": 1151,
+  "total_events": 735,
+  "total_utc": 1151,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1137
+    "monthly": 1151
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 274
+    "weekly": 288
    },
    {
     "day": "2026-10-11",
@@ -10978,7 +10978,7 @@
      2,
      12,
      3,
-     0,
+     14,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 72
+    "daily": 86
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 338,
+   "count": 342,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 20
+    "2026-10-11": 24
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 205,
+   "count": 208,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 20
+    "2026-10-11": 23
    }
   },
   {
@@ -11096,6 +11096,20 @@
    }
   },
   {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 2,
+    "2026-10-11": 1
+   }
+  },
+  {
    "path": "/map",
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
@@ -11127,19 +11141,6 @@
    "count": 7,
    "daily": {
     "2026-10-08": 7
-   }
-  },
-  {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
-   "title": "en|name",
-   "event": true,
-   "count": 7,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
-    "2026-10-09": 1,
-    "2026-10-10": 2
    }
   },
   {
@@ -11706,6 +11707,66 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "view/alinma/p_national_museum",
+   "path_id": 111106959,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/alinma/p_national_museum",
+   "path_id": 111106902,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/alinma/from",
+   "path_id": 111106867,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/north-mathar",
+   "path_id": 111103818,
+   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "view/uthman/museum",
+   "path_id": 111098479,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/uthman/museum",
+   "path_id": 111098465,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15561,9 +15622,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 411,
-  "events_total": 726,
-  "goatcounter_total_with_events": 1137,
+  "visits": 416,
+  "events_total": 735,
+  "goatcounter_total_with_events": 1151,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15574,19 +15635,19 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 33
+   "2026-10-11": 38
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 21
+   "2026-10-11": 24
   },
-  "visitor_days": 212,
+  "visitor_days": 215,
   "return_rate": 0.033,
-  "routes": 216,
+  "routes": 218,
   "routes_not_found": 0,
-  "routes_per_visit": 0.53,
+  "routes_per_visit": 0.52,
   "routes_per_visitor_day": 0.9,
   "share_rate": 0.023,
   "shares": {
@@ -15627,7 +15688,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 205,
+   "new": 208,
    "return": 7
   },
   "top_routes": [
@@ -15668,6 +15729,14 @@
     "count": 2
    },
    {
+    "name": "alinma > p_national_museum",
+    "count": 1
+   },
+   {
+    "name": "uthman > museum",
+    "count": 1
+   },
+   {
     "name": "stc > malaz",
     "count": 1
    },
@@ -15681,14 +15750,6 @@
    },
    {
     "name": "wurud2 > pnu1",
-    "count": 1
-   },
-   {
-    "name": "p_kingdom_centre > p_souq_al_zal",
-    "count": 1
-   },
-   {
-    "name": "jarir > t34",
     "count": 1
    }
   ],
@@ -15749,7 +15810,7 @@
    },
    {
     "name": "p_national_museum",
-    "count": 6
+    "count": 7
    },
    {
     "name": "kafd",
@@ -15772,7 +15833,7 @@
     "count": 5
    },
    {
-    "name": "kfl",
+    "name": "museum",
     "count": 5
    }
   ]
@@ -15781,7 +15842,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 265
+    "count": 269
    },
    {
     "name": "com.reddit.frontpage",
@@ -15928,6 +15989,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/north-mathar": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/districts/al-nafel": [
@@ -16127,7 +16194,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 265
+    "count": 269
    },
    {
     "path": "/map",
@@ -16199,6 +16266,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/north-mathar",
     "count": 1
    },
    {
@@ -16422,7 +16493,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 809,
+   "count": 822,
    "ref_scheme": "o"
   },
   {
@@ -16434,7 +16505,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 69,
+   "count": 70,
    "ref_scheme": "g"
   },
   {
@@ -16550,12 +16621,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1029
+   "count": 1042
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 76
+   "count": 77
   },
   {
    "id": "fra",
@@ -16597,16 +16668,16 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 863
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 63
+   "count": 876
   },
   {
    "id": "US",
    "name": "United States",
+   "count": 64
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
    "count": 63
   },
   {
@@ -16759,7 +16830,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 905
+   "count": 919
   },
   {
    "id": "tablet",
@@ -16786,12 +16857,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 603
+   "count": 604
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 504
+   "count": 517
   },
   {
    "name": "",
@@ -16807,12 +16878,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 500
+   "count": 513
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 411
+   "count": 412
   },
   {
    "id": "Windows",
