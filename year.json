@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T07:00:47Z",
+ "generated": "2026-10-11T07:55:52Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1122,
-  "total_events": 717,
-  "total_utc": 1122,
+  "total": 1134,
+  "total_events": 725,
+  "total_utc": 1134,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1122
+    "monthly": 1134
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 259
+    "weekly": 271
    },
    {
     "day": "2026-10-11",
@@ -10976,7 +10976,7 @@
      4,
      6,
      2,
-     0,
+     12,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 57
+    "daily": 69
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 334,
+   "count": 337,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 16
+    "2026-10-11": 19
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 201,
+   "count": 204,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 16
+    "2026-10-11": 19
    }
   },
   {
@@ -11093,6 +11093,18 @@
     "2026-10-07": 1,
     "2026-10-08": 7,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-11": 2
    }
   },
   {
@@ -11140,18 +11152,6 @@
     "2026-10-07": 2,
     "2026-10-08": 3,
     "2026-10-09": 2
-   }
-  },
-  {
-   "path": "/map",
-   "path_id": 110710457,
-   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 3,
-    "2026-10-11": 1
    }
   },
   {
@@ -11706,6 +11706,56 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "place/p_boulevard_world/to",
+   "path_id": 111087040,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "noresult/baba_sweet",
+   "path_id": 111087036,
+   "title": "en|baba sweet",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/stc/malaz",
+   "path_id": 111085383,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "view/malaz/kafd",
+   "path_id": 111084289,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/malaz/kafd",
+   "path_id": 111084283,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15501,9 +15551,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 405,
-  "events_total": 717,
-  "goatcounter_total_with_events": 1122,
+  "visits": 409,
+  "events_total": 725,
+  "goatcounter_total_with_events": 1134,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15514,17 +15564,17 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 27
+   "2026-10-11": 31
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 17
+   "2026-10-11": 20
   },
-  "visitor_days": 208,
-  "return_rate": 0.034,
-  "routes": 214,
+  "visitor_days": 211,
+  "return_rate": 0.033,
+  "routes": 216,
   "routes_not_found": 0,
   "routes_per_visit": 0.53,
   "routes_per_visitor_day": 0.91,
@@ -15536,8 +15586,12 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.021,
+  "failed_search_rate": 0.026,
   "failed_searches": [
+   {
+    "name": "baba sweet",
+    "count": 1
+   },
    {
     "name": "indian embassy",
     "count": 1
@@ -15563,7 +15617,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 201,
+   "new": 204,
    "return": 7
   },
   "top_routes": [
@@ -15604,6 +15658,14 @@
     "count": 2
    },
    {
+    "name": "stc > malaz",
+    "count": 1
+   },
+   {
+    "name": "malaz > kafd",
+    "count": 1
+   },
+   {
     "name": "hokm > kbw",
     "count": 1
    },
@@ -15617,14 +15679,6 @@
    },
    {
     "name": "jarir > t34",
-    "count": 1
-   },
-   {
-    "name": "malaz > t34",
-    "count": 1
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2 > p_pif_tower",
     "count": 1
    }
   ],
@@ -15662,11 +15716,11 @@
     "count": 7
    },
    {
-    "name": "khashm",
-    "count": 6
+    "name": "malaz",
+    "count": 7
    },
    {
-    "name": "malaz",
+    "name": "khashm",
     "count": 6
    }
   ],
@@ -15688,6 +15742,10 @@
     "count": 6
    },
    {
+    "name": "kafd",
+    "count": 6
+   },
+   {
     "name": "p_souq_al_zal",
     "count": 6
    },
@@ -15706,10 +15764,6 @@
    {
     "name": "kfl",
     "count": 5
-   },
-   {
-    "name": "urubah",
-    "count": 5
    }
   ]
  },
@@ -15717,11 +15771,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 263
+    "count": 265
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 55
+    "count": 56
    },
    {
     "name": "Google",
@@ -15763,7 +15817,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 4
+    "count": 5
    },
    {
     "name": "(direct or unknown)",
@@ -16057,7 +16111,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 263
+    "count": 265
    },
    {
     "path": "/map",
@@ -16079,7 +16133,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 55
+    "count": 56
    }
   ],
   "Google": [
@@ -16089,7 +16143,7 @@
    },
    {
     "path": "/map",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/map",
@@ -16348,19 +16402,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 802,
+   "count": 809,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 200,
+   "count": 204,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 67,
+   "count": 68,
    "ref_scheme": "g"
   },
   {
@@ -16476,7 +16530,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1015
+   "count": 1027
   },
   {
    "id": "ara",
@@ -16523,7 +16577,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 848
+   "count": 860
   },
   {
    "id": "AE",
@@ -16685,7 +16739,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 891
+   "count": 902
   },
   {
    "id": "tablet",
@@ -16695,7 +16749,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 157
+   "count": 158
   },
   {
    "id": "desktophd",
@@ -16712,12 +16766,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 592
+   "count": 601
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 500
+   "count": 503
   },
   {
    "name": "",
@@ -16733,17 +16787,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 496
+   "count": 499
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 401
+   "count": 409
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 141
+   "count": 142
   },
   {
    "id": "macOS",
