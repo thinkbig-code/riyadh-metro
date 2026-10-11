@@ -1,6 +1,6 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-10-11T01:33:29Z",
+ "generated": "2026-10-11T03:48:40Z",
  "property": "sc-domain:riyadhmetro.fyi",
  "properties_visible": [
   "sc-domain:dubaimetro.fyi",
@@ -67,13 +67,20 @@
   },
   {
    "date": "2026-10-08",
-   "clicks": 2,
-   "impressions": 201,
-   "ctr": 0.01,
-   "position": 8.5
+   "clicks": 6,
+   "impressions": 810,
+   "ctr": 0.0074,
+   "position": 8.0
   }
  ],
  "queries": [
+  {
+   "query": "othman bin affan metro station",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 8.8
+  },
   {
    "query": "محطة الدرعية مترو",
    "clicks": 1,
@@ -98,9 +105,23 @@
   {
    "query": "abu dhabi square metro station",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "query": "al aziziyah riyadh metro station",
+   "clicks": 0,
+   "impressions": 1,
    "ctr": 0,
    "position": 12
+  },
+  {
+   "query": "al hamra metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "al naseem riyadh metro station",
@@ -110,6 +131,20 @@
    "position": 66
   },
   {
+   "query": "al rabi metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "al salam metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
    "query": "al urubah metro station to kingdom tower",
    "clicks": 0,
    "impressions": 6,
@@ -117,11 +152,67 @@
    "position": 6.7
   },
   {
+   "query": "ar rabi metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "aziziyah metro station riyadh",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "boulevard city metro station",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "closest metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
    "query": "diriyah to riyadh distance",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 93
+  },
+  {
+   "query": "friday metro bus timing",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "friday metro open time",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "friday metro opening time",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "friday metro train schedule",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
   },
   {
    "query": "friday riyadh metro timing",
@@ -152,6 +243,20 @@
    "position": 8
   },
   {
+   "query": "is the metro running now",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "is the metro running today",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
    "query": "ishbiliyah metro station",
    "clicks": 0,
    "impressions": 1,
@@ -166,6 +271,20 @@
    "position": 3
   },
   {
+   "query": "khalid bin waleed metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "king fahad district",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "king fahad district metro station to riyadh gallery mall",
    "clicks": 0,
    "impressions": 2,
@@ -175,9 +294,9 @@
   {
    "query": "kingdom tower metro station",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 5,
    "ctr": 0,
-   "position": 6.2
+   "position": 6
   },
   {
    "query": "kingdom tower metro station name",
@@ -196,9 +315,9 @@
   {
    "query": "kingdom tower riyadh metro station",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 11,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.2
   },
   {
    "query": "last metro time",
@@ -231,9 +350,30 @@
   {
    "query": "metro closing time",
    "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "query": "metro friday opening time",
+   "clicks": 0,
    "impressions": 2,
    "ctr": 0,
    "position": 6.5
+  },
+  {
+   "query": "metro hours today",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "metro in friday",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
   },
   {
    "query": "metro kitne baje chalu hoti hai",
@@ -264,6 +404,13 @@
    "position": 7
   },
   {
+   "query": "metro near me now",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "metro open at what time",
    "clicks": 0,
    "impressions": 1,
@@ -273,14 +420,14 @@
   {
    "query": "metro open time",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.7
+   "position": 7
   },
   {
    "query": "metro open time today",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 6
   },
@@ -294,9 +441,23 @@
   {
    "query": "metro opening time today",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
    "ctr": 0,
    "position": 7
+  },
+  {
+   "query": "metro operating hours today",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "metro operating time",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "metro operation time",
@@ -315,9 +476,16 @@
   {
    "query": "metro riyadh open time",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.2
+  },
+  {
+   "query": "metro riyadh time",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
   },
   {
    "query": "metro schedule",
@@ -325,6 +493,13 @@
    "impressions": 1,
    "ctr": 0,
    "position": 7
+  },
+  {
+   "query": "metro schedule friday",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
   },
   {
    "query": "metro schedule tomorrow",
@@ -341,18 +516,25 @@
    "position": 10
   },
   {
-   "query": "metro station close time",
+   "query": "metro starting time today",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 6
   },
   {
+   "query": "metro station close time",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
    "query": "metro station diriyah",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 11,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.6
   },
   {
    "query": "metro station near kingdom tower riyadh",
@@ -378,16 +560,16 @@
   {
    "query": "metro station open time today",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 5
   },
   {
    "query": "metro station schedule today",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 6
+   "position": 7
   },
   {
    "query": "metro station time schedule",
@@ -395,6 +577,20 @@
    "impressions": 1,
    "ctr": 0,
    "position": 11
+  },
+  {
+   "query": "metro station today open",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "metro station working hours",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "metro time open",
@@ -406,16 +602,23 @@
   {
    "query": "metro time schedule",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7
+   "position": 8
   },
   {
    "query": "metro time today",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 9,
    "ctr": 0,
-   "position": 9
+   "position": 7.3
+  },
+  {
+   "query": "metro timing on weekends",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
   },
   {
    "query": "metro timing start",
@@ -425,6 +628,13 @@
    "position": 12
   },
   {
+   "query": "metro timings on friday",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
    "query": "metro timings riyadh",
    "clicks": 0,
    "impressions": 1,
@@ -432,11 +642,25 @@
    "position": 8
   },
   {
+   "query": "metro tomorrow open time",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "metro train closing time",
    "clicks": 0,
    "impressions": 3,
    "ctr": 0,
    "position": 6.3
+  },
+  {
+   "query": "metro train station schedule",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "metro train time",
@@ -469,9 +693,9 @@
   {
    "query": "national museum metro",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 11.3
+   "position": 10.8
   },
   {
    "query": "national museum metro station",
@@ -483,9 +707,9 @@
   {
    "query": "national museum riyadh metro station",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 9
+   "position": 10
   },
   {
    "query": "nearby metro",
@@ -509,16 +733,23 @@
    "position": 8
   },
   {
-   "query": "othman bin affan metro station",
+   "query": "open metro station today",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 6
+  },
+  {
+   "query": "riyadh",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "riyadh gallery mall metro station name",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 11
   },
@@ -532,16 +763,16 @@
   {
    "query": "riyadh metro closing time",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
    "position": 10
   },
   {
    "query": "riyadh metro closing time today",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 8.7
+   "position": 8.8
   },
   {
    "query": "riyadh metro hours changes",
@@ -574,9 +805,16 @@
   {
    "query": "riyadh metro opening time",
    "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "query": "riyadh metro opening time today",
+   "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 13
+   "position": 9
   },
   {
    "query": "riyadh metro operation time",
@@ -584,6 +822,13 @@
    "impressions": 2,
    "ctr": 0,
    "position": 13
+  },
+  {
+   "query": "riyadh metro red line route map",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "query": "riyadh metro station map",
@@ -600,6 +845,20 @@
    "position": 47
   },
   {
+   "query": "sultana metro station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "sultanah metro station",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
    "query": "thumairi gold market",
    "clicks": 0,
    "impressions": 1,
@@ -614,11 +873,32 @@
    "position": 13
   },
   {
-   "query": "today riyadh metro open time",
+   "query": "time metro opens today",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 11
+   "position": 6
+  },
+  {
+   "query": "today metro time",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "today riyadh metro open time",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "query": "today what time close metro",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
   },
   {
    "query": "train opening hours",
@@ -642,6 +922,20 @@
    "position": 83
   },
   {
+   "query": "until what time metro today",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "until what time the metro is open",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "uthman bin affan road",
    "clicks": 0,
    "impressions": 1,
@@ -649,46 +943,60 @@
    "position": 11
   },
   {
-   "query": "what time close metro today",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 10
-  },
-  {
-   "query": "what time does riyadh metro open",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 6.5
-  },
-  {
-   "query": "what time does the metro open",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 10
-  },
-  {
-   "query": "what time metro close",
+   "query": "weekday metro timings",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 6
   },
   {
-   "query": "what time metro close today",
+   "query": "what time close metro today",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "query": "what time does metro open and close",
    "clicks": 0,
    "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "what time does riyadh metro open",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "what time does the metro open",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "what time metro close",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "what time metro close today",
+   "clicks": 0,
+   "impressions": 2,
    "ctr": 0,
    "position": 11
   },
   {
    "query": "what time metro open",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 10,
    "ctr": 0,
-   "position": 9.8
+   "position": 9.7
   },
   {
    "query": "what time metro open on saturday",
@@ -703,6 +1011,13 @@
    "impressions": 2,
    "ctr": 0,
    "position": 6.5
+  },
+  {
+   "query": "what time metro station open",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "what time metro station open today",
@@ -721,9 +1036,9 @@
   {
    "query": "what time open metro station",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 8
+   "position": 10.7
   },
   {
    "query": "what time open metro today",
@@ -749,23 +1064,30 @@
   {
    "query": "what time riyadh metro open",
    "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "what time the metro close today",
+   "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 9
+   "position": 8
   },
   {
    "query": "what time the metro open today",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.7
   },
   {
    "query": "what time the metro open tomorrow",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 9.2
+   "position": 9.5
   },
   {
    "query": "what time the train close today",
@@ -773,6 +1095,13 @@
    "impressions": 1,
    "ctr": 0,
    "position": 5
+  },
+  {
+   "query": "when does metro close",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "query": "yellow line metro stations",
@@ -803,11 +1132,25 @@
    "position": 9
   },
   {
+   "query": "اخر مترو الساعة كام",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "اخر موعد للمترو",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 9.7
+   "position": 9
+  },
+  {
+   "query": "اخر موعد للمترو اليوم",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
   },
   {
    "query": "اخر موعد مترو",
@@ -868,9 +1211,9 @@
   {
    "query": "الرياض جاليري اي محطة مترو",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 12,
    "ctr": 0,
-   "position": 9.4
+   "position": 9.6
   },
   {
    "query": "الرياض جاليري اي محطه في المترو",
@@ -887,11 +1230,32 @@
    "position": 10.3
   },
   {
+   "query": "المترو شغال يوم الجمعه",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "query": "المترو يوم الجمعة",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "المواصلات إلى متحف التاريخ الطبيعي",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 71
+  },
+  {
+   "query": "النخيل مول بالمترو",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
   },
   {
    "query": "خريطة المترو",
@@ -924,9 +1288,9 @@
   {
    "query": "سوق الثميري",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 65
+   "position": 63
   },
   {
    "query": "سوق الثميري الرياض",
@@ -1001,9 +1365,9 @@
   {
    "query": "مترو",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 36
+   "position": 24.5
   },
   {
    "query": "مترو الدرعية",
@@ -1015,9 +1379,16 @@
   {
    "query": "مترو الرياض",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 9,
    "ctr": 0,
-   "position": 65.5
+   "position": 66.7
+  },
+  {
+   "query": "مترو الرياض الجمعة",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 11
   },
   {
    "query": "مترو الرياض المسار الأحمر",
@@ -1062,6 +1433,20 @@
    "position": 9
   },
   {
+   "query": "مترو المتحف الوطني",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "query": "متى يشتغل مترو الرياض يوم الجمعه",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "متى يغلق المترو في الرياض",
    "clicks": 0,
    "impressions": 2,
@@ -1104,6 +1489,13 @@
    "position": 12
   },
   {
+   "query": "محطة المتحف الوطني اي مسار",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "محطة المترو الرياض جاليري",
    "clicks": 0,
    "impressions": 2,
@@ -1113,14 +1505,21 @@
   {
    "query": "محطة المملكة",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 8.9
+   "position": 8.5
+  },
+  {
+   "query": "محطة النزهه اي مسار",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
   },
   {
    "query": "محطة برج المملكة مترو",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 7
   },
@@ -1148,9 +1547,16 @@
   {
    "query": "محطة قصر الحكم مترو",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 11.5
+   "position": 11.3
+  },
+  {
+   "query": "محطة قصر الحكم مترو الرياض",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "query": "محطة قصر المحاكم",
@@ -1176,23 +1582,23 @@
   {
    "query": "محطة مترو",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 77
+   "position": 80
   },
   {
    "query": "محطة مترو الدرعية",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 5
+   "position": 7
   },
   {
    "query": "محطة مترو الرياض جاليري",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 9.4
+   "position": 9.3
   },
   {
    "query": "محطة مترو السلي الرياض",
@@ -1202,11 +1608,18 @@
    "position": 87
   },
   {
+   "query": "محطة مترو الصناعية الاولى",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
    "query": "محطة مترو المتحف الوطني",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 9
+   "position": 9.1
   },
   {
    "query": "محطة مترو المنصورة",
@@ -1218,9 +1631,9 @@
   {
    "query": "محطة مترو برج المملكة",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.3
   },
   {
    "query": "محطة مترو حي السفارات الرياض",
@@ -1253,9 +1666,9 @@
   {
    "query": "محطه قصر الحكم",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 8
+   "position": 8.3
   },
   {
    "query": "مسار الخط البرتقالي",
@@ -1300,7 +1713,21 @@
    "position": 80
   },
   {
+   "query": "مواعيد المترو اليوم",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "مواعيد المترو يوم الخميس",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "مواعيد عمل المترو يوم الجمعة",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
@@ -1321,76 +1748,125 @@
    "position": 58
   },
   {
+   "query": "موعد اخر مترو",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "موعد مترو الرياض يوم الجمعه",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "ميعاد قفل المترو",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 11
+  },
+  {
+   "query": "هل المترو يعمل يوم الجمعه",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "هل يعمل المترو يوم الجمعة",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
   }
  ],
  "pages": [
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/diriyah/",
    "clicks": 2,
-   "impressions": 158,
-   "ctr": 0.0127,
-   "position": 7.3
+   "impressions": 180,
+   "ctr": 0.0111,
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/king-abdullah-park/",
    "clicks": 2,
-   "impressions": 49,
-   "ctr": 0.0408,
-   "position": 6.6
+   "impressions": 56,
+   "ctr": 0.0357,
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-gallery-mall/",
    "clicks": 2,
-   "impressions": 103,
-   "ctr": 0.0194,
-   "position": 7.4
+   "impressions": 116,
+   "ctr": 0.0172,
+   "position": 7.2
+  },
+  {
+   "page": "https://riyadhmetro.fyi/",
+   "clicks": 1,
+   "impressions": 511,
+   "ctr": 0.002,
+   "position": 8.0
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/destinations/al-nakheel-mall/",
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333,
+   "position": 8
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/destinations/gold-souq/",
+   "clicks": 1,
+   "impressions": 38,
+   "ctr": 0.0263,
+   "position": 17.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall/",
    "clicks": 1,
-   "impressions": 223,
-   "ctr": 0.0045,
-   "position": 9.0
+   "impressions": 247,
+   "ctr": 0.004,
+   "position": 8.8
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-saadah/",
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/qasr-al-hokm/",
    "clicks": 1,
-   "impressions": 49,
-   "ctr": 0.0204,
-   "position": 8.3
+   "impressions": 63,
+   "ctr": 0.0159,
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-awwal-park/",
    "clicks": 1,
-   "impressions": 27,
-   "ctr": 0.037,
-   "position": 5.1
+   "impressions": 36,
+   "ctr": 0.0278,
+   "position": 5.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-rawdah/",
    "clicks": 1,
-   "impressions": 2,
-   "ctr": 0.5,
-   "position": 2.5
-  },
-  {
-   "page": "https://riyadhmetro.fyi/",
-   "clicks": 0,
-   "impressions": 410,
-   "ctr": 0,
-   "position": 8.1
+   "impressions": 7,
+   "ctr": 0.1429,
+   "position": 3.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar.html",
    "clicks": 0,
-   "impressions": 38,
+   "impressions": 42,
    "ctr": 0,
-   "position": 43.3
+   "position": 41.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-awwal-park/",
@@ -1398,6 +1874,13 @@
    "impressions": 16,
    "ctr": 0,
    "position": 5.9
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/destinations/al-faisaliah-tower/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/boulevard-city/",
@@ -1414,13 +1897,6 @@
    "position": 8.8
   },
   {
-   "page": "https://riyadhmetro.fyi/ar/destinations/gold-souq/",
-   "clicks": 0,
-   "impressions": 33,
-   "ctr": 0,
-   "position": 17.8
-  },
-  {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-abdullah-park/",
    "clicks": 0,
    "impressions": 13,
@@ -1430,58 +1906,135 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-arena/",
    "clicks": 0,
-   "impressions": 18,
+   "impressions": 22,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 84,
+   "impressions": 110,
    "ctr": 0,
-   "position": 8.0
+   "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/masmak-fortress/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 24,
    "ctr": 0,
-   "position": 6.8
+   "position": 7.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/national-museum/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 23,
    "ctr": 0,
-   "position": 8.1
+   "position": 8.3
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-airport/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-park-mall/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-fayha/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-khalidiyah/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-maseef/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-muruj/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-wizarat/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/king-fahd/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/map/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/",
    "clicks": 0,
-   "impressions": 48,
+   "impressions": 53,
    "ctr": 0,
-   "position": 56.3
+   "position": 53.6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/stations/an-nuzhah/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 0,
-   "impressions": 92,
+   "impressions": 150,
    "ctr": 0,
-   "position": 11.3
+   "position": 10.5
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/boulevard-city/",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 35,
    "ctr": 0,
-   "position": 6.7
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/diriyah/",
    "clicks": 0,
-   "impressions": 84,
+   "impressions": 96,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/gold-souq/",
@@ -1491,39 +2044,81 @@
    "position": 8
   },
   {
+   "page": "https://riyadhmetro.fyi/destinations/granada-mall/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://riyadhmetro.fyi/destinations/kafd/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
    "page": "https://riyadhmetro.fyi/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 97,
+   "impressions": 115,
    "ctr": 0,
    "position": 6.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/masmak-fortress/",
    "clicks": 0,
-   "impressions": 17,
+   "impressions": 19,
    "ctr": 0,
-   "position": 5.4
+   "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/national-museum/",
    "clicks": 0,
-   "impressions": 74,
+   "impressions": 81,
    "ctr": 0,
    "position": 9.2
   },
   {
+   "page": "https://riyadhmetro.fyi/destinations/riyadh-airport/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
    "page": "https://riyadhmetro.fyi/districts/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 19,
    "ctr": 0,
-   "position": 6.7
+   "position": 8.5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-arid/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-aziziyah/",
    "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-fayha/",
+   "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 5
+   "position": 8
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-malaz/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-olaya/",
@@ -1533,11 +2128,53 @@
    "position": 11.5
   },
   {
-   "page": "https://riyadhmetro.fyi/districts/ar-rabie/",
+   "page": "https://riyadhmetro.fyi/districts/al-raed/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 9
+   "position": 11
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-salam/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-sinaiyah/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-suwaidi/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-woroud/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/al-zahrah/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/ar-rabie/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/districts/ar-rabwah/",
@@ -1547,49 +2184,120 @@
    "position": 5
   },
   {
+   "page": "https://riyadhmetro.fyi/districts/dhahrat-al-badeah/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "page": "https://riyadhmetro.fyi/districts/ishbiliyah/",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://riyadhmetro.fyi/map/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/ad-douh/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/al-hamra/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/al-rajhi-grand-mosque/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/hassan-bin-thabit-street/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/jarir-district/",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/khalid-bin-alwaleed-road/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/king-fahad-district/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/national-museum/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/sultanah/",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/uthman-bin-affan-road/",
    "clicks": 0,
    "impressions": 2,
    "ctr": 0,
    "position": 8.5
   },
   {
-   "page": "https://riyadhmetro.fyi/stations/al-rajhi-grand-mosque/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 6
-  },
-  {
-   "page": "https://riyadhmetro.fyi/stations/jarir-district/",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 4
-  },
-  {
-   "page": "https://riyadhmetro.fyi/stations/national-museum/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 7
-  },
-  {
-   "page": "https://riyadhmetro.fyi/stations/uthman-bin-affan-road/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
-  },
-  {
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 179,
+   "impressions": 336,
    "ctr": 0,
-   "position": 8.3
+   "position": 8.1
+  },
+  {
+   "page": "https://www.riyadhmetro.fyi/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   }
  ],
  "query_page": [
+  {
+   "query": "othman bin affan metro station",
+   "page": "https://riyadhmetro.fyi/",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 8.8
+  },
   {
    "query": "محطة الدرعية مترو",
    "page": "https://riyadhmetro.fyi/ar/destinations/diriyah/",
@@ -1618,9 +2326,25 @@
    "query": "abu dhabi square metro station",
    "page": "https://riyadhmetro.fyi/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "query": "al aziziyah riyadh metro station",
+   "page": "https://riyadhmetro.fyi/districts/al-aziziyah/",
+   "clicks": 0,
+   "impressions": 1,
    "ctr": 0,
    "position": 12
+  },
+  {
+   "query": "al hamra metro station",
+   "page": "https://riyadhmetro.fyi/stations/al-hamra/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "al naseem riyadh metro station",
@@ -1631,6 +2355,22 @@
    "position": 66
   },
   {
+   "query": "al rabi metro station",
+   "page": "https://riyadhmetro.fyi/districts/ar-rabie/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "al salam metro station",
+   "page": "https://riyadhmetro.fyi/districts/al-salam/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
    "query": "al urubah metro station to kingdom tower",
    "page": "https://riyadhmetro.fyi/destinations/kingdom-centre/",
    "clicks": 0,
@@ -1639,12 +2379,76 @@
    "position": 6.7
   },
   {
+   "query": "ar rabi metro station",
+   "page": "https://riyadhmetro.fyi/districts/ar-rabie/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "aziziyah metro station riyadh",
+   "page": "https://riyadhmetro.fyi/districts/al-aziziyah/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "boulevard city metro station",
+   "page": "https://riyadhmetro.fyi/destinations/boulevard-city/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "closest metro station",
+   "page": "https://riyadhmetro.fyi/districts/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
    "query": "diriyah to riyadh distance",
    "page": "https://riyadhmetro.fyi/destinations/diriyah/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 93
+  },
+  {
+   "query": "friday metro bus timing",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "friday metro open time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "friday metro opening time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "friday metro train schedule",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
   },
   {
    "query": "friday riyadh metro timing",
@@ -1679,6 +2483,22 @@
    "position": 8
   },
   {
+   "query": "is the metro running now",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "is the metro running today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
    "query": "ishbiliyah metro station",
    "page": "https://riyadhmetro.fyi/districts/ishbiliyah/",
    "clicks": 0,
@@ -1695,6 +2515,22 @@
    "position": 3
   },
   {
+   "query": "khalid bin waleed metro station",
+   "page": "https://riyadhmetro.fyi/stations/khalid-bin-alwaleed-road/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "king fahad district",
+   "page": "https://riyadhmetro.fyi/stations/king-fahad-district/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "king fahad district metro station to riyadh gallery mall",
    "page": "https://riyadhmetro.fyi/destinations/riyadh-gallery-mall/",
    "clicks": 0,
@@ -1706,9 +2542,9 @@
    "query": "kingdom tower metro station",
    "page": "https://riyadhmetro.fyi/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 5,
    "ctr": 0,
-   "position": 6.2
+   "position": 6
   },
   {
    "query": "kingdom tower metro station name",
@@ -1730,9 +2566,9 @@
    "query": "kingdom tower riyadh metro station",
    "page": "https://riyadhmetro.fyi/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 11,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.2
   },
   {
    "query": "last metro time",
@@ -1770,9 +2606,33 @@
    "query": "metro closing time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "query": "metro friday opening time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
    "impressions": 2,
    "ctr": 0,
    "position": 6.5
+  },
+  {
+   "query": "metro hours today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "metro in friday",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
   },
   {
    "query": "metro kitne baje chalu hoti hai",
@@ -1807,6 +2667,14 @@
    "position": 7
   },
   {
+   "query": "metro near me now",
+   "page": "https://riyadhmetro.fyi/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "metro open at what time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
@@ -1818,15 +2686,15 @@
    "query": "metro open time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.7
+   "position": 7
   },
   {
    "query": "metro open time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 6
   },
@@ -1842,9 +2710,25 @@
    "query": "metro opening time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
    "ctr": 0,
    "position": 7
+  },
+  {
+   "query": "metro operating hours today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "metro operating time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "metro operation time",
@@ -1866,9 +2750,17 @@
    "query": "metro riyadh open time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.2
+  },
+  {
+   "query": "metro riyadh time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
   },
   {
    "query": "metro schedule",
@@ -1877,6 +2769,14 @@
    "impressions": 1,
    "ctr": 0,
    "position": 7
+  },
+  {
+   "query": "metro schedule friday",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
   },
   {
    "query": "metro schedule tomorrow",
@@ -1895,7 +2795,7 @@
    "position": 10
   },
   {
-   "query": "metro station close time",
+   "query": "metro starting time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 1,
@@ -1903,12 +2803,20 @@
    "position": 6
   },
   {
+   "query": "metro station close time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
    "query": "metro station diriyah",
    "page": "https://riyadhmetro.fyi/destinations/diriyah/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 11,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.6
   },
   {
    "query": "metro station near kingdom tower riyadh",
@@ -1938,7 +2846,7 @@
    "query": "metro station open time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 5
   },
@@ -1946,9 +2854,9 @@
    "query": "metro station schedule today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 6
+   "position": 7
   },
   {
    "query": "metro station time schedule",
@@ -1957,6 +2865,22 @@
    "impressions": 1,
    "ctr": 0,
    "position": 11
+  },
+  {
+   "query": "metro station today open",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "metro station working hours",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "metro time open",
@@ -1970,17 +2894,25 @@
    "query": "metro time schedule",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7
+   "position": 8
   },
   {
    "query": "metro time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 9,
    "ctr": 0,
-   "position": 9
+   "position": 7.3
+  },
+  {
+   "query": "metro timing on weekends",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
   },
   {
    "query": "metro timing start",
@@ -1991,6 +2923,14 @@
    "position": 12
   },
   {
+   "query": "metro timings on friday",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
    "query": "metro timings riyadh",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
@@ -1999,12 +2939,28 @@
    "position": 8
   },
   {
+   "query": "metro tomorrow open time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "metro train closing time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 3,
    "ctr": 0,
    "position": 6.3
+  },
+  {
+   "query": "metro train station schedule",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "query": "metro train time",
@@ -2042,9 +2998,9 @@
    "query": "national museum metro",
    "page": "https://riyadhmetro.fyi/destinations/national-museum/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 11.3
+   "position": 10.8
   },
   {
    "query": "national museum metro station",
@@ -2061,6 +3017,14 @@
    "impressions": 3,
    "ctr": 0,
    "position": 9
+  },
+  {
+   "query": "national museum riyadh metro station",
+   "page": "https://riyadhmetro.fyi/stations/national-museum/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
   },
   {
    "query": "nearby metro",
@@ -2087,18 +3051,26 @@
    "position": 8
   },
   {
-   "query": "othman bin affan metro station",
-   "page": "https://riyadhmetro.fyi/",
+   "query": "open metro station today",
+   "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 6
+  },
+  {
+   "query": "riyadh",
+   "page": "https://riyadhmetro.fyi/map/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "riyadh gallery mall metro station name",
    "page": "https://riyadhmetro.fyi/destinations/riyadh-gallery-mall/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 11
   },
@@ -2122,7 +3094,7 @@
    "query": "riyadh metro closing time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
    "position": 10
   },
@@ -2130,9 +3102,9 @@
    "query": "riyadh metro closing time today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 8.7
+   "position": 8.8
   },
   {
    "query": "riyadh metro hours changes",
@@ -2170,9 +3142,17 @@
    "query": "riyadh metro opening time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "query": "riyadh metro opening time today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 13
+   "position": 9
   },
   {
    "query": "riyadh metro operation time",
@@ -2181,6 +3161,14 @@
    "impressions": 2,
    "ctr": 0,
    "position": 13
+  },
+  {
+   "query": "riyadh metro red line route map",
+   "page": "https://riyadhmetro.fyi/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "query": "riyadh metro station map",
@@ -2199,6 +3187,22 @@
    "position": 47
   },
   {
+   "query": "sultana metro station",
+   "page": "https://riyadhmetro.fyi/stations/sultanah/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "sultanah metro station",
+   "page": "https://riyadhmetro.fyi/stations/sultanah/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
    "query": "thumairi gold market",
    "page": "https://riyadhmetro.fyi/destinations/gold-souq/",
    "clicks": 0,
@@ -2215,12 +3219,36 @@
    "position": 13
   },
   {
-   "query": "today riyadh metro open time",
+   "query": "time metro opens today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 11
+   "position": 6
+  },
+  {
+   "query": "today metro time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "today riyadh metro open time",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "query": "today what time close metro",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
   },
   {
    "query": "train opening hours",
@@ -2247,6 +3275,22 @@
    "position": 83
   },
   {
+   "query": "until what time metro today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "until what time the metro is open",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "uthman bin affan road",
    "page": "https://riyadhmetro.fyi/stations/uthman-bin-affan-road/",
    "clicks": 0,
@@ -2255,31 +3299,7 @@
    "position": 11
   },
   {
-   "query": "what time close metro today",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 10
-  },
-  {
-   "query": "what time does riyadh metro open",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 6.5
-  },
-  {
-   "query": "what time does the metro open",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 10
-  },
-  {
-   "query": "what time metro close",
+   "query": "weekday metro timings",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 1,
@@ -2287,10 +3307,50 @@
    "position": 6
   },
   {
-   "query": "what time metro close today",
+   "query": "what time close metro today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "query": "what time does metro open and close",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
    "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "what time does riyadh metro open",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "what time does the metro open",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "what time metro close",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "what time metro close today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 2,
    "ctr": 0,
    "position": 11
   },
@@ -2298,9 +3358,9 @@
    "query": "what time metro open",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 10,
    "ctr": 0,
-   "position": 9.8
+   "position": 9.7
   },
   {
    "query": "what time metro open on saturday",
@@ -2317,6 +3377,14 @@
    "impressions": 2,
    "ctr": 0,
    "position": 6.5
+  },
+  {
+   "query": "what time metro station open",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "query": "what time metro station open today",
@@ -2338,9 +3406,9 @@
    "query": "what time open metro station",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 8
+   "position": 10.7
   },
   {
    "query": "what time open metro today",
@@ -2370,25 +3438,33 @@
    "query": "what time riyadh metro open",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "what time the metro close today",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 9
+   "position": 8
   },
   {
    "query": "what time the metro open today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.7
   },
   {
    "query": "what time the metro open tomorrow",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 9.2
+   "position": 9.5
   },
   {
    "query": "what time the train close today",
@@ -2397,6 +3473,14 @@
    "impressions": 1,
    "ctr": 0,
    "position": 5
+  },
+  {
+   "query": "when does metro close",
+   "page": "https://riyadhmetro.fyi/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "query": "yellow line metro stations",
@@ -2431,12 +3515,28 @@
    "position": 9
   },
   {
+   "query": "اخر مترو الساعة كام",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "اخر موعد للمترو",
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 9.7
+   "position": 9
+  },
+  {
+   "query": "اخر موعد للمترو اليوم",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
   },
   {
    "query": "اخر موعد مترو",
@@ -2506,9 +3606,9 @@
    "query": "الرياض جاليري اي محطة مترو",
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 12,
    "ctr": 0,
-   "position": 9.4
+   "position": 9.6
   },
   {
    "query": "الرياض جاليري اي محطه في المترو",
@@ -2527,12 +3627,36 @@
    "position": 10.3
   },
   {
+   "query": "المترو شغال يوم الجمعه",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "query": "المترو يوم الجمعة",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "المواصلات إلى متحف التاريخ الطبيعي",
    "page": "https://riyadhmetro.fyi/destinations/national-museum/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 71
+  },
+  {
+   "query": "النخيل مول بالمترو",
+   "page": "https://riyadhmetro.fyi/ar/destinations/al-nakheel-mall/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
   },
   {
    "query": "خريطة المترو",
@@ -2578,9 +3702,9 @@
    "query": "سوق الثميري",
    "page": "https://riyadhmetro.fyi/ar/destinations/gold-souq/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 65
+   "position": 63
   },
   {
    "query": "سوق الثميري الرياض",
@@ -2674,9 +3798,9 @@
    "query": "مترو",
    "page": "https://riyadhmetro.fyi/ar/stations/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 36
+   "position": 24.5
   },
   {
    "query": "مترو الدرعية",
@@ -2690,9 +3814,17 @@
    "query": "مترو الرياض",
    "page": "https://riyadhmetro.fyi/ar.html",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 9,
    "ctr": 0,
-   "position": 65.5
+   "position": 66.7
+  },
+  {
+   "query": "مترو الرياض الجمعة",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 11
   },
   {
    "query": "مترو الرياض المسار الأحمر",
@@ -2751,6 +3883,22 @@
    "position": 9
   },
   {
+   "query": "مترو المتحف الوطني",
+   "page": "https://riyadhmetro.fyi/ar/destinations/national-museum/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "query": "متى يشتغل مترو الرياض يوم الجمعه",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "متى يغلق المترو في الرياض",
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 0,
@@ -2799,6 +3947,14 @@
    "position": 12
   },
   {
+   "query": "محطة المتحف الوطني اي مسار",
+   "page": "https://riyadhmetro.fyi/ar/destinations/national-museum/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
    "query": "محطة المترو الرياض جاليري",
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall/",
    "clicks": 0,
@@ -2810,15 +3966,23 @@
    "query": "محطة المملكة",
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 8.9
+   "position": 8.5
+  },
+  {
+   "query": "محطة النزهه اي مسار",
+   "page": "https://riyadhmetro.fyi/ar/stations/an-nuzhah/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
   },
   {
    "query": "محطة برج المملكة مترو",
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
    "position": 7
   },
@@ -2850,9 +4014,17 @@
    "query": "محطة قصر الحكم مترو",
    "page": "https://riyadhmetro.fyi/ar/stations/qasr-al-hokm/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 11.5
+   "position": 11.3
+  },
+  {
+   "query": "محطة قصر الحكم مترو الرياض",
+   "page": "https://riyadhmetro.fyi/ar/stations/qasr-al-hokm/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "query": "محطة قصر المحاكم",
@@ -2882,25 +4054,25 @@
    "query": "محطة مترو",
    "page": "https://riyadhmetro.fyi/ar/stations/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 77
+   "position": 80
   },
   {
    "query": "محطة مترو الدرعية",
    "page": "https://riyadhmetro.fyi/ar/destinations/diriyah/",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 5
+   "position": 7
   },
   {
    "query": "محطة مترو الرياض جاليري",
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 9.4
+   "position": 9.3
   },
   {
    "query": "محطة مترو السلي الرياض",
@@ -2911,12 +4083,20 @@
    "position": 87
   },
   {
+   "query": "محطة مترو الصناعية الاولى",
+   "page": "https://riyadhmetro.fyi/ar/stations/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
    "query": "محطة مترو المتحف الوطني",
    "page": "https://riyadhmetro.fyi/ar/destinations/national-museum/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 9
+   "position": 9.1
   },
   {
    "query": "محطة مترو المنصورة",
@@ -2930,9 +4110,9 @@
    "query": "محطة مترو برج المملكة",
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-centre/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.3
   },
   {
    "query": "محطة مترو حي السفارات الرياض",
@@ -2970,9 +4150,9 @@
    "query": "محطه قصر الحكم",
    "page": "https://riyadhmetro.fyi/ar/stations/qasr-al-hokm/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 8
+   "position": 8.3
   },
   {
    "query": "مسار الخط البرتقالي",
@@ -3031,7 +4211,23 @@
    "position": 92.7
   },
   {
+   "query": "مواعيد المترو اليوم",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "مواعيد المترو يوم الخميس",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "مواعيد عمل المترو يوم الجمعة",
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 0,
    "impressions": 1,
@@ -3055,21 +4251,53 @@
    "position": 58
   },
   {
+   "query": "موعد اخر مترو",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "موعد مترو الرياض يوم الجمعه",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
    "query": "ميعاد قفل المترو",
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 11
+  },
+  {
+   "query": "هل المترو يعمل يوم الجمعه",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "هل يعمل المترو يوم الجمعة",
+   "page": "https://riyadhmetro.fyi/ar/timings/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
   }
  ],
  "countries": [
   {
    "country": "sau",
-   "clicks": 9,
-   "impressions": 1911,
-   "ctr": 0.0047,
-   "position": 9.9
+   "clicks": 13,
+   "impressions": 2496,
+   "ctr": 0.0052,
+   "position": 9.5
   },
   {
    "country": "sdn",
@@ -3081,16 +4309,16 @@
   {
    "country": "are",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 11,
    "ctr": 0,
-   "position": 7.1
+   "position": 6.9
   },
   {
    "country": "aus",
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 9
+   "position": 7
   },
   {
    "country": "bgr",
@@ -3144,9 +4372,9 @@
   {
    "country": "egy",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 11,
    "ctr": 0,
-   "position": 8
+   "position": 8.4
   },
   {
    "country": "esp",
@@ -3158,7 +4386,14 @@
   {
    "country": "gbr",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 6.8
+  },
+  {
+   "country": "hnd",
+   "clicks": 0,
+   "impressions": 1,
    "ctr": 0,
    "position": 7
   },
@@ -3172,9 +4407,9 @@
   {
    "country": "ind",
    "clicks": 0,
-   "impressions": 18,
+   "impressions": 20,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.7
   },
   {
    "country": "irl",
@@ -3198,6 +4433,13 @@
    "position": 4.7
   },
   {
+   "country": "lbn",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
    "country": "mar",
    "clicks": 0,
    "impressions": 3,
@@ -3219,11 +4461,18 @@
    "position": 3
   },
   {
+   "country": "nga",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
    "country": "pak",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 5.4
+   "position": 6.1
   },
   {
    "country": "phl",
@@ -3240,11 +4489,32 @@
    "position": 7
   },
   {
+   "country": "rou",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "country": "rus",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
    "country": "sgp",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 5
+  },
+  {
+   "country": "swe",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
   },
   {
    "country": "tha",
@@ -3282,39 +4552,46 @@
    "position": 16.2
   },
   {
-   "country": "zaf",
+   "country": "vnm",
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 4
+   "position": 7
+  },
+  {
+   "country": "zaf",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
   }
  ],
  "devices": [
   {
    "device": "MOBILE",
-   "clicks": 9,
-   "impressions": 1765,
-   "ctr": 0.0051,
-   "position": 8.0
+   "clicks": 13,
+   "impressions": 2344,
+   "ctr": 0.0055,
+   "position": 7.9
   },
   {
    "device": "DESKTOP",
    "clicks": 1,
-   "impressions": 227,
-   "ctr": 0.0044,
-   "position": 24.5
+   "impressions": 255,
+   "ctr": 0.0039,
+   "position": 23.2
   },
   {
    "device": "TABLET",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 4.4
+   "position": 4.1
   }
  ],
  "totals": {
-  "clicks": 10,
-  "impressions": 1997
+  "clicks": 14,
+  "impressions": 2606
  },
  "sitemaps": [
   {
