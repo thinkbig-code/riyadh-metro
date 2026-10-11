@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T17:55:31Z",
+ "generated": "2026-10-11T18:58:14Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1218,
-  "total_events": 772,
-  "total_utc": 1218,
+  "total": 1223,
+  "total_events": 775,
+  "total_utc": 1223,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1218
+    "monthly": 1223
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 355
+    "weekly": 360
    },
    {
     "day": "2026-10-11",
@@ -10986,11 +10986,11 @@
      12,
      15,
      9,
-     5,
-     0,
+     9,
+     1,
      0
     ],
-    "daily": 153
+    "daily": 158
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 358,
+   "count": 359,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 40
+    "2026-10-11": 41
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 222,
+   "count": 223,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 37
+    "2026-10-11": 38
    }
   },
   {
@@ -11382,6 +11382,17 @@
    }
   },
   {
+   "path": "station/kafd/from",
+   "path_id": 110972439,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
    "path": "route/ksu/t12",
    "path_id": 110966415,
    "title": "en|map|ok",
@@ -11395,6 +11406,17 @@
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-qadisiyah",
+   "path_id": 110820839,
+   "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
    "count": 2,
    "daily": {
@@ -11762,6 +11784,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/kafd/gosi",
+   "path_id": 111506919,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -12505,16 +12537,6 @@
    }
   },
   {
-   "path": "station/kafd/from",
-   "path_id": 110972439,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
    "path": "view/ksu/t12",
    "path_id": 110966426,
    "title": "en|details",
@@ -12818,16 +12840,6 @@
    "path": "/ar/districts/al-yarmuk",
    "path_id": 110820919,
    "title": "أقرب محطة مترو لحي اليرموك في الرياض: محطة اليرموك، 2.5 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-qadisiyah",
-   "path_id": 110820839,
-   "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -15907,9 +15919,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 446,
-  "events_total": 772,
-  "goatcounter_total_with_events": 1218,
+  "visits": 448,
+  "events_total": 775,
+  "goatcounter_total_with_events": 1223,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15920,17 +15932,17 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 68
+   "2026-10-11": 70
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 39
+   "2026-10-11": 40
   },
-  "visitor_days": 230,
+  "visitor_days": 231,
   "return_rate": 0.035,
-  "routes": 230,
+  "routes": 231,
   "routes_not_found": 0,
   "routes_per_visit": 0.52,
   "routes_per_visitor_day": 0.89,
@@ -15942,7 +15954,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.025,
+  "failed_search_rate": 0.024,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -15973,7 +15985,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 222,
+   "new": 223,
    "return": 8
   },
   "top_routes": [
@@ -16014,6 +16026,10 @@
     "count": 2
    },
    {
+    "name": "kafd > gosi",
+    "count": 1
+   },
+   {
     "name": "sulimaniyah > sab",
     "count": 1
    },
@@ -16031,10 +16047,6 @@
    },
    {
     "name": "p_olaya_towers > kbw",
-    "count": 1
-   },
-   {
-    "name": "t12 > stc",
     "count": 1
    }
   ],
@@ -16127,7 +16139,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 284
+    "count": 285
    },
    {
     "name": "com.reddit.frontpage",
@@ -16260,6 +16272,12 @@
    {
     "name": "Google",
     "count": 1
+   }
+  ],
+  "/ar/districts/al-qadisiyah": [
+   {
+    "name": "Google",
+    "count": 2
    }
   ],
   "/timings": [
@@ -16458,12 +16476,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-qadisiyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/timings": [
    {
     "name": "riyadhmetro.fyi/timings",
@@ -16541,7 +16553,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 284
+    "count": 285
    },
    {
     "path": "/map",
@@ -16609,6 +16621,10 @@
    },
    {
     "path": "/ar/districts/middle-oraija",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-qadisiyah",
     "count": 2
    },
    {
@@ -16721,10 +16737,6 @@
    },
    {
     "path": "/districts/west-umm-al-hamam",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
    {
@@ -16886,7 +16898,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 872,
+   "count": 876,
    "ref_scheme": "o"
   },
   {
@@ -16898,7 +16910,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 80,
+   "count": 81,
    "ref_scheme": "g"
   },
   {
@@ -17020,7 +17032,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1103
+   "count": 1108
   },
   {
    "id": "ara",
@@ -17067,7 +17079,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 939
+   "count": 944
   },
   {
    "id": "AE",
@@ -17229,7 +17241,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 976
+   "count": 981
   },
   {
    "id": "tablet",
@@ -17256,12 +17268,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 625
+   "count": 626
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 563
+   "count": 567
   },
   {
    "name": "",
@@ -17277,12 +17289,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 559
+   "count": 563
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 423
+   "count": 424
   },
   {
    "id": "Windows",
