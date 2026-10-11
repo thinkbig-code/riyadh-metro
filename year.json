@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T18:58:14Z",
+ "generated": "2026-10-11T19:55:01Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1223,
+  "total": 1224,
   "total_events": 775,
-  "total_utc": 1223,
+  "total_utc": 1224,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1223
+    "monthly": 1224
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 360
+    "weekly": 361
    },
    {
     "day": "2026-10-11",
@@ -10988,9 +10988,9 @@
      9,
      9,
      1,
-     0
+     1
     ],
-    "daily": 158
+    "daily": 159
    },
    {
     "day": "2026-10-12",
@@ -11358,6 +11358,18 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-04": 1,
+    "2026-10-06": 1,
     "2026-10-11": 1
    }
   },
@@ -11773,17 +11785,6 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
-   }
-  },
-  {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-04": 1,
-    "2026-10-06": 1
    }
   },
   {
@@ -15919,9 +15920,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 448,
+  "visits": 449,
   "events_total": 775,
-  "goatcounter_total_with_events": 1223,
+  "goatcounter_total_with_events": 1224,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15932,7 +15933,7 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 70
+   "2026-10-11": 71
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -15944,7 +15945,7 @@
   "return_rate": 0.035,
   "routes": 231,
   "routes_not_found": 0,
-  "routes_per_visit": 0.52,
+  "routes_per_visit": 0.51,
   "routes_per_visitor_day": 0.89,
   "share_rate": 0.022,
   "shares": {
@@ -16252,6 +16253,12 @@
     "count": 1
    }
   ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/al-maseef": [
    {
     "name": "Google",
@@ -16303,12 +16310,6 @@
    }
   ],
   "/ar/stations/qasr-al-hokm": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/destinations/king-abdullah-park": [
    {
     "name": "Google",
     "count": 2
@@ -16612,6 +16613,10 @@
     "count": 3
    },
    {
+    "path": "/destinations/king-abdullah-park",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 2
    },
@@ -16637,10 +16642,6 @@
    },
    {
     "path": "/ar/stations/qasr-al-hokm",
-    "count": 2
-   },
-   {
-    "path": "/destinations/king-abdullah-park",
     "count": 2
    },
    {
@@ -16910,7 +16911,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 81,
+   "count": 82,
    "ref_scheme": "g"
   },
   {
@@ -17032,7 +17033,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1108
+   "count": 1109
   },
   {
    "id": "ara",
@@ -17079,7 +17080,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 944
+   "count": 945
   },
   {
    "id": "AE",
@@ -17241,7 +17242,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 981
+   "count": 982
   },
   {
    "id": "tablet",
@@ -17273,7 +17274,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 567
+   "count": 568
   },
   {
    "name": "",
@@ -17289,7 +17290,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 563
+   "count": 564
   },
   {
    "id": "Android",
