@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T04:05:08Z",
+ "generated": "2026-10-11T04:55:42Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1110,
-  "total_events": 712,
-  "total_utc": 1110,
+  "total": 1114,
+  "total_events": 714,
+  "total_utc": 1114,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1110
+    "monthly": 1114
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 421
+    "weekly": 425
    },
    {
     "day": "2026-10-10",
@@ -922,7 +922,7 @@
      0,
      2,
      6,
-     0,
+     4,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 45
+    "daily": 49
    },
    {
     "day": "2026-10-12",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 330,
+   "count": 332,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -990,7 +990,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 12
+    "2026-10-11": 14
    }
   },
   {
@@ -998,12 +998,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 196,
+   "count": 198,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 11
+    "2026-10-11": 13
    }
   },
   {
@@ -5438,9 +5438,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 398,
-  "events_total": 712,
-  "goatcounter_total_with_events": 1110,
+  "visits": 400,
+  "events_total": 714,
+  "goatcounter_total_with_events": 1114,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5451,20 +5451,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 20
+   "2026-10-11": 22
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 12
+   "2026-10-11": 14
   },
-  "visitor_days": 203,
+  "visitor_days": 205,
   "return_rate": 0.034,
   "routes": 214,
   "routes_not_found": 0,
   "routes_per_visit": 0.54,
-  "routes_per_visitor_day": 0.93,
+  "routes_per_visitor_day": 0.92,
   "share_rate": 0.023,
   "shares": {
    "whatsapp": 1,
@@ -5500,7 +5500,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 196,
+   "new": 198,
    "return": 7
   },
   "top_routes": [
@@ -5654,7 +5654,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 259
+    "count": 261
    },
    {
     "name": "com.reddit.frontpage",
@@ -5984,7 +5984,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 259
+    "count": 261
    },
    {
     "path": "/map",
@@ -6267,7 +6267,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 793,
+   "count": 797,
    "ref_scheme": "o"
   },
   {
@@ -6395,12 +6395,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1006
+   "count": 1008
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 72
+   "count": 74
   },
   {
    "id": "fra",
@@ -6442,7 +6442,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 836
+   "count": 840
   },
   {
    "id": "AE",
@@ -6604,7 +6604,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 882
+   "count": 884
   },
   {
    "id": "tablet",
@@ -6614,7 +6614,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 154
+   "count": 156
   },
   {
    "id": "desktophd",
@@ -6631,7 +6631,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 585
+   "count": 589
   },
   {
    "id": "Safari",
@@ -6657,12 +6657,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 397
+   "count": 399
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 138
+   "count": 140
   },
   {
    "id": "macOS",
