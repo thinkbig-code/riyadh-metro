@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T10:54:52Z",
+ "generated": "2026-10-11T11:54:49Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1152,
-  "total_events": 735,
-  "total_utc": 1152,
+  "total": 1155,
+  "total_events": 736,
+  "total_utc": 1155,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1152
+    "monthly": 1155
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 463
+    "weekly": 466
    },
    {
     "day": "2026-10-10",
@@ -929,7 +929,7 @@
      3,
      14,
      1,
-     0,
+     3,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 87
+    "daily": 90
    },
    {
     "day": "2026-10-12",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 342,
+   "count": 343,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -990,7 +990,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 24
+    "2026-10-11": 25
    }
   },
   {
@@ -998,12 +998,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 208,
+   "count": 209,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 23
+    "2026-10-11": 24
    }
   },
   {
@@ -1316,6 +1316,17 @@
    "count": 2,
    "daily": {
     "2026-10-10": 2
+   }
+  },
+  {
+   "path": "/destinations/riyadh-front",
+   "path_id": 110843025,
+   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
    }
   },
   {
@@ -2432,16 +2443,6 @@
    "path": "/ar/districts/al-muhammadiyah",
    "path_id": 110846046,
    "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/destinations/riyadh-front",
-   "path_id": 110843025,
-   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
    "event": false,
    "count": 1,
    "daily": {
@@ -5581,9 +5582,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 417,
-  "events_total": 735,
-  "goatcounter_total_with_events": 1152,
+  "visits": 419,
+  "events_total": 736,
+  "goatcounter_total_with_events": 1155,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5594,20 +5595,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 39
+   "2026-10-11": 41
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 24
+   "2026-10-11": 25
   },
-  "visitor_days": 215,
-  "return_rate": 0.033,
+  "visitor_days": 216,
+  "return_rate": 0.032,
   "routes": 218,
   "routes_not_found": 0,
   "routes_per_visit": 0.52,
-  "routes_per_visitor_day": 0.9,
+  "routes_per_visitor_day": 0.89,
   "share_rate": 0.023,
   "shares": {
    "whatsapp": 1,
@@ -5647,7 +5648,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 208,
+   "new": 209,
    "return": 7
   },
   "top_routes": [
@@ -5801,7 +5802,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 269
+    "count": 270
    },
    {
     "name": "com.reddit.frontpage",
@@ -5908,6 +5909,16 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/riyadh-front": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/timings": [
@@ -6058,12 +6069,6 @@
     "count": 1
    }
   ],
-  "/destinations/riyadh-front": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
   "/districts/west-umm-al-hamam": [
    {
     "name": "Google",
@@ -6159,18 +6164,18 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 269
+    "count": 270
    },
    {
     "path": "/map",
     "count": 1
    },
    {
-    "path": "/timings",
+    "path": "/destinations/riyadh-front",
     "count": 1
    },
    {
-    "path": "/destinations/riyadh-front",
+    "path": "/timings",
     "count": 1
    },
    {
@@ -6228,6 +6233,10 @@
    {
     "path": "/destinations/king-abdullah-park",
     "count": 2
+   },
+   {
+    "path": "/destinations/riyadh-front",
+    "count": 1
    },
    {
     "path": "/timings",
@@ -6462,7 +6471,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 822,
+   "count": 824,
    "ref_scheme": "o"
   },
   {
@@ -6474,7 +6483,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 71,
+   "count": 72,
    "ref_scheme": "g"
   },
   {
@@ -6590,7 +6599,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1042
+   "count": 1045
   },
   {
    "id": "ara",
@@ -6637,7 +6646,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 877
+   "count": 879
   },
   {
    "id": "US",
@@ -6695,6 +6704,11 @@
    "count": 6
   },
   {
+   "id": "CH",
+   "name": "Switzerland",
+   "count": 5
+  },
+  {
    "id": "IE",
    "name": "Ireland",
    "count": 5
@@ -6703,11 +6717,6 @@
    "id": "IT",
    "name": "Italy",
    "count": 5
-  },
-  {
-   "id": "CH",
-   "name": "Switzerland",
-   "count": 4
   },
   {
    "id": "DE",
@@ -6799,7 +6808,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 920
+   "count": 922
   },
   {
    "id": "tablet",
@@ -6809,7 +6818,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 158
+   "count": 159
   },
   {
    "id": "desktophd",
@@ -6826,12 +6835,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 604
+   "count": 605
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 518
+   "count": 520
   },
   {
    "name": "",
@@ -6847,7 +6856,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 514
+   "count": 516
   },
   {
    "id": "Android",
@@ -6862,7 +6871,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 55
+   "count": 56
   },
   {
    "id": "Linux",
