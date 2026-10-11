@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T15:55:55Z",
+ "generated": "2026-10-11T16:56:41Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1204,
-  "total_events": 765,
-  "total_utc": 1204,
+  "total": 1213,
+  "total_events": 771,
+  "total_utc": 1213,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1204
+    "monthly": 1213
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 341
+    "weekly": 350
    },
    {
     "day": "2026-10-11",
@@ -10985,12 +10985,12 @@
      2,
      12,
      15,
-     0,
+     9,
      0,
      0,
      0
     ],
-    "daily": 139
+    "daily": 148
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 355,
+   "count": 357,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 37
+    "2026-10-11": 39
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 220,
+   "count": 222,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 35
+    "2026-10-11": 37
    }
   },
   {
@@ -11752,6 +11752,56 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/stations/airport-t5",
+   "path_id": 111455200,
+   "title": "Airport T5 Metro Station, Riyadh: Yellow Line, No. 66",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/sulimaniyah/sab",
+   "path_id": 111430832,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/sab/sulimaniyah",
+   "path_id": 111430552,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/sulimaniyah/to",
+   "path_id": 111430551,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/sab/from",
+   "path_id": 111430157,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15837,9 +15887,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 439,
-  "events_total": 765,
-  "goatcounter_total_with_events": 1204,
+  "visits": 442,
+  "events_total": 771,
+  "goatcounter_total_with_events": 1213,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15850,20 +15900,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 61
+   "2026-10-11": 64
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 36
+   "2026-10-11": 38
   },
-  "visitor_days": 227,
+  "visitor_days": 229,
   "return_rate": 0.031,
-  "routes": 228,
+  "routes": 230,
   "routes_not_found": 0,
   "routes_per_visit": 0.52,
-  "routes_per_visitor_day": 0.89,
+  "routes_per_visitor_day": 0.9,
   "share_rate": 0.022,
   "shares": {
    "whatsapp": 1,
@@ -15903,7 +15953,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 220,
+   "new": 222,
    "return": 7
   },
   "top_routes": [
@@ -15944,6 +15994,14 @@
     "count": 2
    },
    {
+    "name": "sulimaniyah > sab",
+    "count": 1
+   },
+   {
+    "name": "sab > sulimaniyah",
+    "count": 1
+   },
+   {
     "name": "sabic > passport",
     "count": 1
    },
@@ -15958,20 +16016,12 @@
    {
     "name": "t12 > stc",
     "count": 1
-   },
-   {
-    "name": "oasis > t12",
-    "count": 1
-   },
-   {
-    "name": "oasis > naseem",
-    "count": 1
    }
   ],
   "top_origins": [
    {
     "name": "sab",
-    "count": 11
+    "count": 12
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -16028,6 +16078,10 @@
     "count": 7
    },
    {
+    "name": "sab",
+    "count": 6
+   },
+   {
     "name": "kafd",
     "count": 6
    },
@@ -16046,10 +16100,6 @@
    {
     "name": "t5",
     "count": 5
-   },
-   {
-    "name": "museum",
-    "count": 5
    }
   ]
  },
@@ -16057,7 +16107,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 281
+    "count": 283
    },
    {
     "name": "com.reddit.frontpage",
@@ -16218,6 +16268,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/stations/airport-t5": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/stations/sab-bank": [
@@ -16453,7 +16509,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 281
+    "count": 283
    },
    {
     "path": "/map",
@@ -16469,6 +16525,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/stations/airport-t5",
     "count": 1
    },
    {
@@ -16784,7 +16844,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 860,
+   "count": 869,
    "ref_scheme": "o"
   },
   {
@@ -16912,7 +16972,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1090
+   "count": 1099
   },
   {
    "id": "ara",
@@ -16959,17 +17019,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 926
+   "count": 934
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "count": 64
   },
   {
    "id": "US",
    "name": "United States",
    "count": 64
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 63
   },
   {
    "id": "GB",
@@ -17121,7 +17181,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 964
+   "count": 973
   },
   {
    "id": "tablet",
@@ -17153,7 +17213,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 551
+   "count": 560
   },
   {
    "name": "",
@@ -17169,7 +17229,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 547
+   "count": 556
   },
   {
    "id": "Android",
