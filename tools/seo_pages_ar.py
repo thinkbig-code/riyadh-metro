@@ -582,6 +582,26 @@ def stations_list():
     write(path, frame(path, 'محطات مترو الرياض: القائمة الكاملة للمسارات الستة', lead, '\n'.join(body), [(path, 'المحطات')]))
 
 
+def day_answers_ar(H):
+    hm = P.hm
+    o, c, fo, fc = hm(H[0][0]), hm(H[0][1]), hm(H[5][0]), hm(H[5][1])
+    return ('<h2>هل يعمل المترو اليوم وغداً والخميس والجمعة؟</h2><ul>'
+            '<li><b>اليوم وغداً:</b> من السبت إلى الخميس يفتح المترو الساعة <span dir="ltr">%s</span> ويغلق الساعة <span dir="ltr">%s</span>. ويوم الجمعة يفتح <span dir="ltr">%s</span> ويغلق <span dir="ltr">%s</span>.</li>'
+            '<li><b>مواعيد المترو يوم الخميس:</b> من <span dir="ltr">%s</span> إلى <span dir="ltr">%s</span>، مثل بقية أيام الأسبوع.</li>'
+            '<li><b>هل يعمل المترو يوم الجمعة؟</b> نعم، من <span dir="ltr">%s</span> إلى <span dir="ltr">%s</span>، ويبدأ متأخراً عن بقية الأيام.</li>'
+            '<li><b>عطلة نهاية الأسبوع:</b> الجمعة والسبت، ومواعيد السبت من <span dir="ltr">%s</span> إلى <span dir="ltr">%s</span>.</li>'
+            '<li><b>آخر قطار:</b> الساعة <span dir="ltr">%s</span> هي موعد إغلاق النظام المنشور وليست جدولاً للقطارات، وقد يغادر آخر قطار من محطتك قبل ذلك، فتأكد من شاشة المحطة مساءً.</li></ul>') % (o, c, fo, fc, o, c, fo, fc, o, c, c)
+
+
+def TIMES_JS_AR(H):
+    import json as _j
+    hh = _j.dumps([[x[0], x[1]] for x in H])
+    return ('<script>(function(){var H=%s,el=document.getElementById("nowopen");if(!el)return;try{var f=new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Riyadh",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()),o={};f.forEach(function(x){o[x.type]=x.value});'
+            'var d={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[o.weekday],m=(+o.hour%%24)*60+(+o.minute),h=H[d],t=function(x){x=x%%1440;return("0"+((x/60)|0)).slice(-2)+":"+("0"+x%%60).slice(-2)};'
+            'el.textContent=m>=h[0]&&m<h[1]?"المترو يعمل الآن (بتوقيت الرياض) ويغلق الساعة "+t(h[1])+" الليلة.":m<h[0]?"المترو مغلق الآن (بتوقيت الرياض) ويفتح اليوم الساعة "+t(h[0])+".":"المترو مغلق الآن (بتوقيت الرياض) ويفتح غداً الساعة "+t(H[(d+1)%%7][0])+".";'
+            'el.hidden=false}catch(e){}})();</script>') % hh
+
+
 def timings_page():
     path = 'ar/timings/'
     H = D['hours']['metro']
@@ -589,7 +609,10 @@ def timings_page():
         P.hm(H[0][0]), P.hm(H[0][1]), P.hm(H[5][0]), P.hm(H[5][1]), sar(FARE['std']), sar(FARE['first']))
     body = ['<h1>مواعيد مترو الرياض وأسعار التذاكر</h1>', '<p class="lead">%s</p>' % e(lead),
             plan(P.pid_of('King Khalid Airport Terminals 1-2'), P.pid_of('Kingdom Centre'), 'خطّط رحلة')]
+    body.append('<p id="nowopen" class="note" hidden></p>')
     body.append(hours_html())
+    body.append(day_answers_ar(H))
+    body.append(TIMES_JS_AR(H))
     body.append('<p>تمر القطارات كل 3–5 دقائق تقريباً في أوقات الذروة، وكل 5–10 دقائق في بقية اليوم، ونحو كل 10 دقائق في آخر المساء.</p>')
     body.append(fare_table())
     body.append('<p>الدفع ببطاقة درب أو تطبيق درب أو البطاقة البنكية اللاتلامسية. في القطارات درجة أولى وقسم للعائلات وقسم للأفراد. <a href="{ROOT}ar/rules/">القواعد والغرامات وطرق الدفع</a>.</p>')
@@ -600,8 +623,8 @@ def timings_page():
         else:
             groups.append([[d], tuple(H[d])])
     hm = lambda m: '%02d:%02d' % (m // 60 % 24, m % 60)
-    title = 'مواعيد مترو الرياض اليوم: %s' % '، '.join('%s %s–%s' % (DAYS[g[0]] if len(g) == 1 else DAYS[g[0]] + '–' + DAYS[g[-1]], hm(o), hm(c)) for g, (o, c) in groups)
-    desc = 'مواعيد فتح وإغلاق المترو لكل أيام الأسبوع، وتكرار القطارات، وسعر التذكرة (%s لساعتين)، وخريطة تفاعلية لتخطيط رحلتك.' % sar(FARE['std'])
+    title = 'مواعيد مترو الرياض: وقت الفتح والإغلاق ويوم الجمعة والأسعار'
+    desc = 'اعرف هل المترو يعمل الآن، مع مواعيد الخميس والجمعة وعطلة نهاية الأسبوع، وتكرار القطارات والأسعار، وخطّط رحلتك على الخريطة التفاعلية.'
     write(path, frame(path, title, desc, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
 
 

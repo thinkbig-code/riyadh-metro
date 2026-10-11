@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares</title>
-<meta name="description" content="Opening and closing times for every day of the week, how often trains run, ticket prices (SAR 4 for 2 hours) and a live map to plan your trip.">
+<title>Riyadh Metro Timings: Opening and Closing Times, Friday Hours, Fares</title>
+<meta name="description" content="See if the Riyadh Metro is open right now, with Thursday, Friday and weekend hours, how often trains run and fares. Plan your trip on the live map.">
 <link rel="canonical" href="https://riyadhmetro.fyi/timings/">
 <link rel="alternate" hreflang="en" href="https://riyadhmetro.fyi/timings/">
 <link rel="alternate" hreflang="ar" href="https://riyadhmetro.fyi/ar/timings/">
@@ -12,8 +12,8 @@
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://riyadhmetro.fyi/timings/">
-<meta property="og:title" content="Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares">
-<meta property="og:description" content="Opening and closing times for every day of the week, how often trains run, ticket prices (SAR 4 for 2 hours) and a live map to plan your trip.">
+<meta property="og:title" content="Riyadh Metro Timings: Opening and Closing Times, Friday Hours, Fares">
+<meta property="og:description" content="See if the Riyadh Metro is open right now, with Thursday, Friday and weekend hours, how often trains run and fares. Plan your trip on the live map.">
 <meta property="og:image" content="https://riyadhmetro.fyi/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F4F7F8" media="(prefers-color-scheme: light)">
@@ -69,12 +69,15 @@ ul.links{padding-inline-start:18px}
 <h1>Riyadh Metro timings and fares</h1>
 <p class="lead">The Riyadh Metro runs Saturday to Thursday 05:30–00:00 and on Friday 10:00–00:00. One 2-hour ticket costs SAR 4 (first class SAR 10) with any number of rides and transfers.</p>
 <a class="cta" href="../#p_king_khalid_airport_terminals_1_2~p_kingdom_centre~en">Plan a trip</a>
+<p id="nowopen" class="note" hidden></p>
 <h2 id="hours">Opening hours</h2>
 <table class="hrs"><caption>Riyadh Metro</caption><tr><th>Days</th><th>First</th><th>Closes</th></tr>
 <tr><td>Sat–Thu</td><td>05:30</td><td>00:00</td></tr>
 <tr><td>Fri</td><td>10:00</td><td>00:00</td></tr>
 </table>
 <p class="note">These are published service hours, not last-train times. Depending on direction, the last train through a station can leave well before closing; late in the evening check the station screens or the darb app. Hours change during Ramadan and on public holidays.</p>
+<h2>Open today, tomorrow, Thursday and Friday</h2><ul><li><b>Today and tomorrow:</b> Saturday to Thursday the metro opens at 05:30 and closes at 00:00. On Friday it opens at 10:00 and closes at 00:00.</li><li><b>Thursday:</b> 05:30 to 00:00, the same as the rest of the week.</li><li><b>Does the metro run on Friday?</b> Yes, from 10:00 to 00:00. It opens later than on other days.</li><li><b>Weekend:</b> the Saudi weekend is Friday and Saturday. Saturday hours are 05:30 to 00:00.</li><li><b>Last train:</b> 00:00 is the published closing time of the system, not a timetable. The last train from a given station can leave earlier, so check the station screen in the evening.</li></ul>
+<script>(function(){var H=[[330, 1440], [330, 1440], [330, 1440], [330, 1440], [330, 1440], [600, 1440], [330, 1440]],el=document.getElementById("nowopen");if(!el)return;try{var f=new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Riyadh",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()),o={};f.forEach(function(x){o[x.type]=x.value});var d={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[o.weekday],m=(+o.hour%24)*60+(+o.minute),h=H[d],t=function(x){x=x%1440;return("0"+((x/60)|0)).slice(-2)+":"+("0"+x%60).slice(-2)};el.textContent=m>=h[0]&&m<h[1]?"Open now (Riyadh time). Closes at "+t(h[1])+" tonight.":m<h[0]?"Closed now (Riyadh time). Opens today at "+t(h[0])+".":"Closed now (Riyadh time). Opens tomorrow at "+t(H[(d+1)%7][0])+".";el.hidden=false}catch(e){}})();</script>
 <p>Trains run about every 3–5 minutes at peak times and every 5–10 minutes the rest of the day, about every 10 minutes late in the evening.</p>
 <h2>Fare</h2><table><tr><th>Ticket</th><th>Standard</th><th>First class</th></tr>
 <tr><td>2-hour ticket</td><td>SAR 4</td><td>SAR 10</td></tr>

@@ -783,19 +783,42 @@ def stations_list():
     write(path, frame(path, 'Riyadh Metro Stations: Full List of All 6 Lines', lead, '\n'.join(body), [(path, 'Stations')]))
 
 
+def day_answers_en(H):
+    o, c = hm(H[0][0]), hm(H[0][1])
+    fo, fc = hm(H[5][0]), hm(H[5][1])
+    return ('<h2>Open today, tomorrow, Thursday and Friday</h2><ul>'
+            '<li><b>Today and tomorrow:</b> Saturday to Thursday the metro opens at %s and closes at %s. On Friday it opens at %s and closes at %s.</li>'
+            '<li><b>Thursday:</b> %s to %s, the same as the rest of the week.</li>'
+            '<li><b>Does the metro run on Friday?</b> Yes, from %s to %s. It opens later than on other days.</li>'
+            '<li><b>Weekend:</b> the Saudi weekend is Friday and Saturday. Saturday hours are %s to %s.</li>'
+            '<li><b>Last train:</b> %s is the published closing time of the system, not a timetable. The last train from a given station can leave earlier, so check the station screen in the evening.</li></ul>') % (o, c, fo, fc, o, c, fo, fc, o, c, c)
+
+
+def TIMES_JS_EN(H):
+    import json as _j
+    hh = _j.dumps([[x[0], x[1]] for x in H])
+    return ('<script>(function(){var H=%s,el=document.getElementById("nowopen");if(!el)return;try{var f=new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Riyadh",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()),o={};f.forEach(function(x){o[x.type]=x.value});'
+            'var d={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[o.weekday],m=(+o.hour%%24)*60+(+o.minute),h=H[d],t=function(x){x=x%%1440;return("0"+((x/60)|0)).slice(-2)+":"+("0"+x%%60).slice(-2)};'
+            'el.textContent=m>=h[0]&&m<h[1]?"Open now (Riyadh time). Closes at "+t(h[1])+" tonight.":m<h[0]?"Closed now (Riyadh time). Opens today at "+t(h[0])+".":"Closed now (Riyadh time). Opens tomorrow at "+t(H[(d+1)%%7][0])+".";'
+            'el.hidden=false}catch(e){}})();</script>') % hh
+
+
 def timings_page():
     path = 'timings/'
     H = D['hours']['metro']
     lead = 'The Riyadh Metro runs Saturday to Thursday %s–%s and on Friday %s–%s. One 2-hour ticket costs SAR %s (first class SAR %s) with any number of rides and transfers.' % (
         hm(H[0][0]), hm(H[0][1]), hm(H[5][0]), hm(H[5][1]), sar(FARE['std']), sar(FARE['first']))
     body = ['<h1>Riyadh Metro timings and fares</h1>', '<p class="lead">%s</p>' % e(lead), plan(pid_of('King Khalid Airport Terminals 1-2'), pid_of('Kingdom Centre'), 'Plan a trip')]
+    body.append('<p id="nowopen" class="note" hidden></p>')
     body.append(hours_html(['metro']))
+    body.append(day_answers_en(H))
+    body.append(TIMES_JS_EN(H))
     body.append('<p>Trains run about every 3–5 minutes at peak times and every 5–10 minutes the rest of the day, about every 10 minutes late in the evening.</p>')
     body.append(fare_table())
     body.append('<p>Pay with a darb card, the darb app or a contactless bank card. Trains have First Class, Family and Singles sections. <a href="{ROOT}rules/">Rules, fines and how to pay</a>.</p>')
     # the answer in the title: people search 'what time metro open'
-    title = 'Riyadh Metro Timings: %s, Fares' % ', '.join('%s %s–%s' % (d, o, c.replace(' (next day)', '')) for d, o, c in hours_rows('metro'))
-    desc = 'Opening and closing times for every day of the week, how often trains run, ticket prices (SAR %s for 2 hours) and a live map to plan your trip.' % sar(FARE['std'])
+    title = 'Riyadh Metro Timings: Opening and Closing Times, Friday Hours, Fares'
+    desc = 'See if the Riyadh Metro is open right now, with Thursday, Friday and weekend hours, how often trains run and fares. Plan your trip on the live map.'
     write(path, frame(path, title, desc, '\n'.join(body), [(path, 'Timings and fares')]))
 
 
