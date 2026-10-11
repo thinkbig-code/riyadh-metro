@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T13:54:47Z",
+ "generated": "2026-10-11T14:54:56Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1177,
-  "total_events": 750,
-  "total_utc": 1177,
+  "total": 1189,
+  "total_events": 757,
+  "total_utc": 1189,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1177
+    "monthly": 1189
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 488
+    "weekly": 500
    },
    {
     "day": "2026-10-10",
@@ -932,14 +932,14 @@
      12,
      11,
      2,
-     0,
+     12,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 112
+    "daily": 124
    },
    {
     "day": "2026-10-12",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 347,
+   "count": 350,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -990,7 +990,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 29
+    "2026-10-11": 32
    }
   },
   {
@@ -998,12 +998,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 213,
+   "count": 216,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 28
+    "2026-10-11": 31
    }
   },
   {
@@ -1353,6 +1353,17 @@
    }
   },
   {
+   "path": "station/kbw/to",
+   "path_id": 110801710,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
    "path": "place/p_riyadh_gallery_mall/to",
    "path_id": 110786266,
    "title": "en|name",
@@ -1679,6 +1690,56 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "route/kbw/p_olaya_towers",
+   "path_id": 111329048,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/p_olaya_towers/kbw",
+   "path_id": 111328693,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "place/p_olaya_towers/from",
+   "path_id": 111328515,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-ghadeer",
+   "path_id": 111322351,
+   "title": "أقرب محطة مترو لحي الغدير في الرياض: محطة المركز المالي، 1.2 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/destinations/king-fahad-medical-city",
+   "path_id": 111271831,
+   "title": "King Fahad Medical City Metro Station: GOSI (Green Line), 21 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -2655,16 +2716,6 @@
    "path": "route/p_king_abdullah_mosque_malaz/kbw",
    "path_id": 110801711,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "station/kbw/to",
-   "path_id": 110801710,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -5694,9 +5745,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 427,
-  "events_total": 750,
-  "goatcounter_total_with_events": 1177,
+  "visits": 432,
+  "events_total": 757,
+  "goatcounter_total_with_events": 1189,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5707,17 +5758,17 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 49
+   "2026-10-11": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 29
+   "2026-10-11": 32
   },
-  "visitor_days": 220,
-  "return_rate": 0.032,
-  "routes": 225,
+  "visitor_days": 223,
+  "return_rate": 0.031,
+  "routes": 227,
   "routes_not_found": 0,
   "routes_per_visit": 0.53,
   "routes_per_visitor_day": 0.91,
@@ -5760,7 +5811,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 213,
+   "new": 216,
    "return": 7
   },
   "top_routes": [
@@ -5801,6 +5852,14 @@
     "count": 2
    },
    {
+    "name": "kbw > p_olaya_towers",
+    "count": 1
+   },
+   {
+    "name": "p_olaya_towers > kbw",
+    "count": 1
+   },
+   {
     "name": "t12 > stc",
     "count": 1
    },
@@ -5814,14 +5873,6 @@
    },
    {
     "name": "oasis > salhiyah",
-    "count": 1
-   },
-   {
-    "name": "oasis > aziziah",
-    "count": 1
-   },
-   {
-    "name": "oasis > dhabab",
     "count": 1
    }
   ],
@@ -5914,11 +5965,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 274
+    "count": 276
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 57
+    "count": 58
    },
    {
     "name": "Google",
@@ -6075,6 +6126,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-ghadeer": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/king-fahad-medical-city": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/destinations/al-batha": [
@@ -6292,7 +6355,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 274
+    "count": 276
    },
    {
     "path": "/map",
@@ -6318,7 +6381,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 57
+    "count": 58
    }
   ],
   "Google": [
@@ -6372,6 +6435,14 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-ghadeer",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-fahad-medical-city",
     "count": 1
    },
    {
@@ -6611,19 +6682,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 843,
+   "count": 847,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 206,
+   "count": 212,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 75,
+   "count": 77,
    "ref_scheme": "g"
   },
   {
@@ -6739,12 +6810,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1064
+   "count": 1075
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 81
+   "count": 82
   },
   {
    "id": "fra",
@@ -6786,7 +6857,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 901
+   "count": 911
   },
   {
    "id": "US",
@@ -6839,6 +6910,11 @@
    "count": 7
   },
   {
+   "id": "DE",
+   "name": "Germany",
+   "count": 6
+  },
+  {
    "id": "JO",
    "name": "Hashemite Kingdom of Jordan",
    "count": 6
@@ -6857,11 +6933,6 @@
    "id": "IT",
    "name": "Italy",
    "count": 5
-  },
-  {
-   "id": "DE",
-   "name": "Germany",
-   "count": 4
   },
   {
    "id": "FR",
@@ -6948,7 +7019,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 938
+   "count": 950
   },
   {
    "id": "tablet",
@@ -6975,12 +7046,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 615
+   "count": 621
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 532
+   "count": 538
   },
   {
    "name": "",
@@ -6996,12 +7067,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 528
+   "count": 534
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 416
+   "count": 422
   },
   {
    "id": "Windows",
