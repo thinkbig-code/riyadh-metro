@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T19:53:50Z",
+ "generated": "2026-10-11T20:55:06Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1224,
-  "total_events": 775,
-  "total_utc": 1224,
+  "total": 1231,
+  "total_events": 779,
+  "total_utc": 1231,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1224
+    "monthly": 1231
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 535
+    "weekly": 542
    },
    {
     "day": "2026-10-10",
@@ -944,7 +944,7 @@
    {
     "day": "2026-10-12",
     "hourly": [
-     0,
+     7,
      0,
      0,
      0,
@@ -969,7 +969,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 7
    }
   ]
  },
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 359,
+   "count": 362,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -990,7 +990,8 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 41
+    "2026-10-11": 41,
+    "2026-10-12": 3
    }
   },
   {
@@ -998,12 +999,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 223,
+   "count": 226,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 38
+    "2026-10-11": 38,
+    "2026-10-12": 3
    }
   },
   {
@@ -1734,6 +1736,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "geo/ok/yarmuk",
+   "path_id": 111539245,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -5869,9 +5881,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 449,
-  "events_total": 775,
-  "goatcounter_total_with_events": 1224,
+  "visits": 452,
+  "events_total": 779,
+  "goatcounter_total_with_events": 1231,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5882,20 +5894,22 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 71
+   "2026-10-11": 71,
+   "2026-10-12": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 40
+   "2026-10-11": 40,
+   "2026-10-12": 3
   },
-  "visitor_days": 231,
-  "return_rate": 0.035,
+  "visitor_days": 234,
+  "return_rate": 0.034,
   "routes": 231,
   "routes_not_found": 0,
   "routes_per_visit": 0.51,
-  "routes_per_visitor_day": 0.89,
+  "routes_per_visitor_day": 0.88,
   "share_rate": 0.022,
   "shares": {
    "whatsapp": 1,
@@ -5929,13 +5943,13 @@
   ],
   "nearest_station": {
    "denied": 14,
-   "ok": 18,
+   "ok": 19,
    "far": 2,
    "outside": 2,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 223,
+   "new": 226,
    "return": 8
   },
   "top_routes": [
@@ -6089,11 +6103,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 285
+    "count": 287
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 58
+    "count": 59
    },
    {
     "name": "Google",
@@ -6503,7 +6517,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 285
+    "count": 287
    },
    {
     "path": "/map",
@@ -6537,7 +6551,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 58
+    "count": 59
    }
   ],
   "Google": [
@@ -6848,13 +6862,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 876,
+   "count": 881,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 212,
+   "count": 214,
    "ref_scheme": "o"
   },
   {
@@ -6982,7 +6996,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1109
+   "count": 1116
   },
   {
    "id": "ara",
@@ -7029,7 +7043,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 945
+   "count": 950
   },
   {
    "id": "AE",
@@ -7082,6 +7096,11 @@
    "count": 7
   },
   {
+   "id": "IE",
+   "name": "Ireland",
+   "count": 7
+  },
+  {
    "id": "DE",
    "name": "Germany",
    "count": 6
@@ -7094,11 +7113,6 @@
   {
    "id": "CH",
    "name": "Switzerland",
-   "count": 5
-  },
-  {
-   "id": "IE",
-   "name": "Ireland",
    "count": 5
   },
   {
@@ -7191,7 +7205,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 982
+   "count": 989
   },
   {
    "id": "tablet",
@@ -7218,12 +7232,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 626
+   "count": 628
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 568
+   "count": 573
   },
   {
    "name": "",
@@ -7239,12 +7253,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 564
+   "count": 569
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 424
+   "count": 426
   },
   {
    "id": "Windows",
