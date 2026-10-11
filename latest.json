@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T16:55:38Z",
+ "generated": "2026-10-11T17:54:14Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1213,
-  "total_events": 771,
-  "total_utc": 1213,
+  "total": 1218,
+  "total_events": 772,
+  "total_utc": 1218,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1213
+    "monthly": 1218
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 524
+    "weekly": 529
    },
    {
     "day": "2026-10-10",
@@ -935,11 +935,11 @@
      12,
      15,
      9,
-     0,
+     5,
      0,
      0
     ],
-    "daily": 148
+    "daily": 153
    },
    {
     "day": "2026-10-12",
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 357,
+   "count": 358,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -990,7 +990,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 39
+    "2026-10-11": 40
    }
   },
   {
@@ -1057,6 +1057,18 @@
    }
   },
   {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 4,
+    "2026-10-11": 2
+   }
+  },
+  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -1067,18 +1079,6 @@
     "2026-10-08": 2,
     "2026-10-09": 1,
     "2026-10-10": 2,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "visit/return/-",
-   "path_id": 110708664,
-   "title": "en",
-   "event": true,
-   "count": 7,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 4,
     "2026-10-11": 1
    }
   },
@@ -1308,6 +1308,16 @@
     "2026-10-07": 1,
     "2026-10-08": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 2
    }
   },
   {
@@ -1704,6 +1714,26 @@
    }
   },
   {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-taawun",
+   "path_id": 111501833,
+   "title": "أقرب محطة مترو لحي التعاون في الرياض: محطة طريق عثمان بن عفان، 3.1 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
    "path": "/stations/airport-t5",
    "path_id": 111455200,
    "title": "Airport T5 Metro Station, Riyadh: Yellow Line, No. 66",
@@ -1948,16 +1978,6 @@
    "path_id": 111156691,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-maseef",
-   "path_id": 111125799,
-   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -5836,9 +5856,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 442,
-  "events_total": 771,
-  "goatcounter_total_with_events": 1213,
+  "visits": 446,
+  "events_total": 772,
+  "goatcounter_total_with_events": 1218,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5849,20 +5869,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 64
+   "2026-10-11": 68
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 38
+   "2026-10-11": 39
   },
-  "visitor_days": 229,
-  "return_rate": 0.031,
+  "visitor_days": 230,
+  "return_rate": 0.035,
   "routes": 230,
   "routes_not_found": 0,
   "routes_per_visit": 0.52,
-  "routes_per_visitor_day": 0.9,
+  "routes_per_visitor_day": 0.89,
   "share_rate": 0.022,
   "shares": {
    "whatsapp": 1,
@@ -5903,7 +5923,7 @@
   },
   "visitors_new_return": {
    "new": 222,
-   "return": 7
+   "return": 8
   },
   "top_routes": [
    {
@@ -6056,7 +6076,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 283
+    "count": 284
    },
    {
     "name": "com.reddit.frontpage",
@@ -6169,6 +6189,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-maseef": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/middle-oraija": [
    {
     "name": "Google",
@@ -6219,6 +6245,18 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-arid": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-taawun": [
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-maseef",
+    "count": 1
+   }
+  ],
   "/stations/airport-t5": [
    {
     "name": "(direct or unknown)",
@@ -6250,12 +6288,6 @@
    }
   ],
   "/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-maseef": [
    {
     "name": "Google",
     "count": 1
@@ -6458,7 +6490,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 283
+    "count": 284
    },
    {
     "path": "/map",
@@ -6474,6 +6506,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-arid",
     "count": 1
    },
    {
@@ -6514,6 +6550,10 @@
    },
    {
     "path": "/ar/destinations/diriyah",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-maseef",
     "count": 2
    },
    {
@@ -6562,10 +6602,6 @@
    },
    {
     "path": "/districts/ar-rabwah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-maseef",
     "count": 1
    },
    {
@@ -6771,6 +6807,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/districts/al-maseef": [
+   {
+    "path": "/ar/districts/al-taawun",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/districts/al-qadisiyah": [
    {
     "path": "/ar/districts/al-yarmuk",
@@ -6793,7 +6835,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 869,
+   "count": 872,
    "ref_scheme": "o"
   },
   {
@@ -6805,7 +6847,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 79,
+   "count": 80,
    "ref_scheme": "g"
   },
   {
@@ -6915,18 +6957,24 @@
    "name": "riyadhmetro.fyi",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/districts/al-maseef",
+   "name": "riyadhmetro.fyi/ar/districts/al-maseef",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1099
+   "count": 1103
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 82
+   "count": 83
   },
   {
    "id": "fra",
@@ -6968,7 +7016,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 934
+   "count": 939
   },
   {
    "id": "AE",
@@ -7130,7 +7178,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 973
+   "count": 976
   },
   {
    "id": "tablet",
@@ -7145,7 +7193,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 42
+   "count": 44
   },
   {
    "id": "unknown",
@@ -7157,12 +7205,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 623
+   "count": 625
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 560
+   "count": 563
   },
   {
    "name": "",
@@ -7178,7 +7226,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 556
+   "count": 559
   },
   {
    "id": "Android",
@@ -7198,7 +7246,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 25
+   "count": 27
   },
   {
    "id": "Chrome OS",
