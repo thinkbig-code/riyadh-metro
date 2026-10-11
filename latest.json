@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T05:55:01Z",
+ "generated": "2026-10-11T06:59:41Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1120,
-  "total_events": 716,
-  "total_utc": 1120,
+  "total": 1122,
+  "total_events": 717,
+  "total_utc": 1122,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1120
+    "monthly": 1122
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 431
+    "weekly": 433
    },
    {
     "day": "2026-10-10",
@@ -924,7 +924,7 @@
      6,
      4,
      6,
-     0,
+     2,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 55
+    "daily": 57
    },
    {
     "day": "2026-10-12",
@@ -998,12 +998,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 200,
+   "count": 201,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 15
+    "2026-10-11": 16
    }
   },
   {
@@ -1655,6 +1655,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-awaly",
+   "path_id": 111083087,
+   "title": "أقرب محطة مترو لحي العوالي في الرياض: محطة المحطة الغربية، 2.6 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -5440,9 +5450,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 404,
-  "events_total": 716,
-  "goatcounter_total_with_events": 1120,
+  "visits": 405,
+  "events_total": 717,
+  "goatcounter_total_with_events": 1122,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5453,15 +5463,15 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 26
+   "2026-10-11": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 16
+   "2026-10-11": 17
   },
-  "visitor_days": 207,
+  "visitor_days": 208,
   "return_rate": 0.034,
   "routes": 214,
   "routes_not_found": 0,
@@ -5502,7 +5512,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 200,
+   "new": 201,
    "return": 7
   },
   "top_routes": [
@@ -5805,6 +5815,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-awaly": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/districts/al-uraija": [
    {
     "name": "Google",
@@ -6065,6 +6081,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-awaly",
+    "count": 1
+   },
+   {
     "path": "/districts/al-uraija",
     "count": 1
    },
@@ -6277,7 +6297,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 801,
+   "count": 802,
    "ref_scheme": "o"
   },
   {
@@ -6289,7 +6309,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 66,
+   "count": 67,
    "ref_scheme": "g"
   },
   {
@@ -6405,12 +6425,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1014
+   "count": 1015
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 74
+   "count": 75
   },
   {
    "id": "fra",
@@ -6452,7 +6472,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 846
+   "count": 848
   },
   {
    "id": "AE",
@@ -6614,7 +6634,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 889
+   "count": 891
   },
   {
    "id": "tablet",
@@ -6641,12 +6661,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 591
+   "count": 592
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 499
+   "count": 500
   },
   {
    "name": "",
@@ -6662,12 +6682,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 495
+   "count": 496
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 400
+   "count": 401
   },
   {
    "id": "Windows",
