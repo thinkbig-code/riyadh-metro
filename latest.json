@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T09:55:11Z",
+ "generated": "2026-10-11T10:54:52Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1151,
+  "total": 1152,
   "total_events": 735,
-  "total_utc": 1151,
+  "total_utc": 1152,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1151
+    "monthly": 1152
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 462
+    "weekly": 463
    },
    {
     "day": "2026-10-10",
@@ -928,7 +928,7 @@
      12,
      3,
      14,
-     0,
+     1,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 86
+    "daily": 87
    },
    {
     "day": "2026-10-12",
@@ -1656,6 +1656,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -5571,9 +5581,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 416,
+  "visits": 417,
   "events_total": 735,
-  "goatcounter_total_with_events": 1151,
+  "goatcounter_total_with_events": 1152,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5584,7 +5594,7 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 38
+   "2026-10-11": 39
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -5940,6 +5950,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-maseef": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/north-mathar": [
    {
     "name": "Google",
@@ -6218,6 +6234,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-maseef",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/north-mathar",
     "count": 1
    },
@@ -6454,7 +6474,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 70,
+   "count": 71,
    "ref_scheme": "g"
   },
   {
@@ -6575,7 +6595,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 77
+   "count": 78
   },
   {
    "id": "fra",
@@ -6617,7 +6637,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 876
+   "count": 877
   },
   {
    "id": "US",
@@ -6779,7 +6799,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 919
+   "count": 920
   },
   {
    "id": "tablet",
@@ -6811,7 +6831,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 517
+   "count": 518
   },
   {
    "name": "",
@@ -6827,7 +6847,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 513
+   "count": 514
   },
   {
    "id": "Android",
