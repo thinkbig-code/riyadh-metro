@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T07:55:52Z",
+ "generated": "2026-10-11T08:56:03Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1134,
-  "total_events": 725,
-  "total_utc": 1134,
+  "total": 1137,
+  "total_events": 726,
+  "total_utc": 1137,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1134
+    "monthly": 1137
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 271
+    "weekly": 274
    },
    {
     "day": "2026-10-11",
@@ -10977,7 +10977,7 @@
      6,
      2,
      12,
-     0,
+     3,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 69
+    "daily": 72
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 337,
+   "count": 338,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 19
+    "2026-10-11": 20
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 204,
+   "count": 205,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 19
+    "2026-10-11": 20
    }
   },
   {
@@ -11706,6 +11706,16 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15551,9 +15561,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 409,
-  "events_total": 725,
-  "goatcounter_total_with_events": 1134,
+  "visits": 411,
+  "events_total": 726,
+  "goatcounter_total_with_events": 1137,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15564,20 +15574,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 31
+   "2026-10-11": 33
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 20
+   "2026-10-11": 21
   },
-  "visitor_days": 211,
+  "visitor_days": 212,
   "return_rate": 0.033,
   "routes": 216,
   "routes_not_found": 0,
   "routes_per_visit": 0.53,
-  "routes_per_visitor_day": 0.91,
+  "routes_per_visitor_day": 0.9,
   "share_rate": 0.023,
   "shares": {
    "whatsapp": 1,
@@ -15617,7 +15627,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 204,
+   "new": 205,
    "return": 7
   },
   "top_routes": [
@@ -15775,7 +15785,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 56
+    "count": 57
    },
    {
     "name": "Google",
@@ -15918,6 +15928,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-nafel": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/districts/al-awaly": [
@@ -16133,7 +16149,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 56
+    "count": 57
    }
   ],
   "Google": [
@@ -16183,6 +16199,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-nafel",
     "count": 1
    },
    {
@@ -16408,13 +16428,13 @@
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 204,
+   "count": 206,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 68,
+   "count": 69,
    "ref_scheme": "g"
   },
   {
@@ -16530,12 +16550,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1027
+   "count": 1029
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 75
+   "count": 76
   },
   {
    "id": "fra",
@@ -16577,7 +16597,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 860
+   "count": 863
   },
   {
    "id": "AE",
@@ -16739,7 +16759,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 902
+   "count": 905
   },
   {
    "id": "tablet",
@@ -16766,12 +16786,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 601
+   "count": 603
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 503
+   "count": 504
   },
   {
    "name": "",
@@ -16787,12 +16807,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 499
+   "count": 500
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 409
+   "count": 411
   },
   {
    "id": "Windows",
