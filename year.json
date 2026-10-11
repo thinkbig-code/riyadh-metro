@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T14:55:58Z",
+ "generated": "2026-10-11T15:55:55Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1189,
-  "total_events": 757,
-  "total_utc": 1189,
+  "total": 1204,
+  "total_events": 765,
+  "total_utc": 1204,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1189
+    "monthly": 1204
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 326
+    "weekly": 341
    },
    {
     "day": "2026-10-11",
@@ -10984,13 +10984,13 @@
      11,
      2,
      12,
-     0,
+     15,
      0,
      0,
      0,
      0
     ],
-    "daily": 124
+    "daily": 139
    },
    {
     "day": "2026-10-12",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 350,
+   "count": 355,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11041,7 +11041,7 @@
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
-    "2026-10-11": 32
+    "2026-10-11": 37
    }
   },
   {
@@ -11049,12 +11049,12 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 216,
+   "count": 220,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
-    "2026-10-11": 31
+    "2026-10-11": 35
    }
   },
   {
@@ -11180,6 +11180,17 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -11222,17 +11233,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 2
    }
   },
   {
@@ -11645,6 +11645,17 @@
    }
   },
   {
+   "path": "station/sabic/from",
+   "path_id": 110312410,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
    "path": "station/t12/from",
    "path_id": 110311096,
    "title": "en|name",
@@ -11741,6 +11752,46 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1
+   }
+  },
+  {
+   "path": "/stations/sab-bank",
+   "path_id": 111407985,
+   "title": "SAB Bank Metro Station, Riyadh: Blue Line, No. 1",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "view/sabic/passport",
+   "path_id": 111350089,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/sabic/passport",
+   "path_id": 111349948,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/passport/to",
+   "path_id": 111349947,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
    }
   },
   {
@@ -15364,16 +15415,6 @@
    }
   },
   {
-   "path": "station/sabic/from",
-   "path_id": 110312410,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "/destinations/riyadh-gallery-mall",
    "path_id": 110311601,
    "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
@@ -15796,9 +15837,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 432,
-  "events_total": 757,
-  "goatcounter_total_with_events": 1189,
+  "visits": 439,
+  "events_total": 765,
+  "goatcounter_total_with_events": 1204,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15809,20 +15850,20 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 54
+   "2026-10-11": 61
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
-   "2026-10-11": 32
+   "2026-10-11": 36
   },
-  "visitor_days": 223,
+  "visitor_days": 227,
   "return_rate": 0.031,
-  "routes": 227,
+  "routes": 228,
   "routes_not_found": 0,
-  "routes_per_visit": 0.53,
-  "routes_per_visitor_day": 0.91,
+  "routes_per_visit": 0.52,
+  "routes_per_visitor_day": 0.89,
   "share_rate": 0.022,
   "shares": {
    "whatsapp": 1,
@@ -15862,7 +15903,7 @@
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 216,
+   "new": 220,
    "return": 7
   },
   "top_routes": [
@@ -15903,6 +15944,10 @@
     "count": 2
    },
    {
+    "name": "sabic > passport",
+    "count": 1
+   },
+   {
     "name": "kbw > p_olaya_towers",
     "count": 1
    },
@@ -15920,10 +15965,6 @@
    },
    {
     "name": "oasis > naseem",
-    "count": 1
-   },
-   {
-    "name": "oasis > salhiyah",
     "count": 1
    }
   ],
@@ -16016,7 +16057,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 276
+    "count": 281
    },
    {
     "name": "com.reddit.frontpage",
@@ -16073,6 +16114,12 @@
     "count": 1
    }
   ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -16081,12 +16128,6 @@
    {
     "name": "Facebook",
     "count": 2
-   }
-  ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 4
    }
   ],
   "/ar.html": [
@@ -16177,6 +16218,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/stations/sab-bank": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/districts/al-ghadeer": [
@@ -16406,7 +16453,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 276
+    "count": 281
    },
    {
     "path": "/map",
@@ -16446,7 +16493,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -16486,6 +16533,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/stations/sab-bank",
     "count": 1
    },
    {
@@ -16733,7 +16784,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 847,
+   "count": 860,
    "ref_scheme": "o"
   },
   {
@@ -16745,7 +16796,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 77,
+   "count": 79,
    "ref_scheme": "g"
   },
   {
@@ -16861,7 +16912,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1075
+   "count": 1090
   },
   {
    "id": "ara",
@@ -16908,7 +16959,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 911
+   "count": 926
   },
   {
    "id": "US",
@@ -17070,7 +17121,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 950
+   "count": 964
   },
   {
    "id": "tablet",
@@ -17080,7 +17131,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 165
+   "count": 166
   },
   {
    "id": "desktophd",
@@ -17097,12 +17148,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 621
+   "count": 623
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 538
+   "count": 551
   },
   {
    "name": "",
@@ -17118,17 +17169,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 534
+   "count": 547
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 422
+   "count": 423
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 143
+   "count": 144
   },
   {
    "id": "macOS",
