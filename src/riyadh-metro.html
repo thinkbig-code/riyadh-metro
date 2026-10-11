@@ -1839,7 +1839,8 @@ function matches(q){
   if(!n)return POPULAR.map(id=>({place:PLACE_BY_ID[id],score:0})).concat(IDS.slice().sort((a,b)=>ST[a].n.localeCompare(ST[b].n)).map(id=>({id,score:1})));
   const out=[];
   PLACES.forEach(p=>{const nn=norm(p.n);
-    if(nn.startsWith(n))out.push({place:p,score:0});
+    if(nn!==n&&p.aka.some(x=>norm(x)===n))out.push({place:p,score:0.1});
+    else if(nn.startsWith(n))out.push({place:p,score:0});
     else if(nn.includes(n))out.push({place:p,score:2});
     else{const a=p.aka.find(x=>norm(x).includes(n));if(a)out.push({place:p,score:2.5,via:a});}
   });

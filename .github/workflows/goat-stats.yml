@@ -50,9 +50,14 @@ jobs:
         run: |
           pip install --quiet google-auth requests
           python3 tools/gsc_stats.py --host "$SITE_HOST" --sitemap sitemap.xml --prev "$RUNNER_TEMP/w" --out "$RUNNER_TEMP/stats" --inspect 150
+      - name: Search opportunity report (report.md and report.json)
+        if: env.HAS_GSC == 'true' && ((github.event_name == 'schedule' && github.event.schedule == '17 1 * * *') || (github.event_name == 'workflow_dispatch' && inputs.quick == false))
+        continue-on-error: true
+        run: python3 tools/gsc_report.py --stats "$RUNNER_TEMP/stats" --prev "$RUNNER_TEMP/w" --sitemap sitemap.xml --out "$RUNNER_TEMP/stats"
       - name: Commit to the stats branch
         run: |
           cp "$RUNNER_TEMP"/stats/*.json "$RUNNER_TEMP/w/"
+          cp "$RUNNER_TEMP"/stats/*.md "$RUNNER_TEMP/w/" 2>/dev/null || true
           cd "$RUNNER_TEMP/w"
           git add -A
           git commit -qm "stats $(date -u +%F)" || { echo "no change"; exit 0; }
