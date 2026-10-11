@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T21:56:15Z",
+ "generated": "2026-10-11T22:56:16Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1240,
+  "total": 1241,
   "total_events": 786,
-  "total_utc": 1240,
+  "total_utc": 1241,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1240
+    "monthly": 1241
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 377
+    "weekly": 378
    },
    {
     "day": "2026-10-11",
@@ -10997,7 +10997,7 @@
     "hourly": [
      7,
      9,
-     0,
+     1,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 17
    }
   ]
  },
@@ -11800,6 +11800,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-duraihemiyah",
+   "path_id": 111560480,
+   "title": "أقرب محطة مترو لحي الدريهمية في الرياض: محطة سلطانة، 3.0 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -15975,9 +15985,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 454,
+  "visits": 455,
   "events_total": 786,
-  "goatcounter_total_with_events": 1240,
+  "goatcounter_total_with_events": 1241,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15989,7 +15999,7 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 5
+   "2026-10-12": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16376,6 +16386,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-duraihemiyah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-arid": [
    {
     "name": "(direct or unknown)",
@@ -16714,6 +16730,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-duraihemiyah",
+    "count": 1
+   },
+   {
     "path": "/stations/sab-bank",
     "count": 1
    },
@@ -16972,7 +16992,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 83,
+   "count": 84,
    "ref_scheme": "g"
   },
   {
@@ -17099,7 +17119,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 83
+   "count": 84
   },
   {
    "id": "fra",
@@ -17141,7 +17161,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 959
+   "count": 960
   },
   {
    "id": "AE",
@@ -17303,7 +17323,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 998
+   "count": 999
   },
   {
    "id": "tablet",
@@ -17335,7 +17355,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 582
+   "count": 583
   },
   {
    "name": "",
@@ -17351,7 +17371,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 578
+   "count": 579
   },
   {
    "id": "Android",
