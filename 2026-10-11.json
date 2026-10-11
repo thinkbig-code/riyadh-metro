@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T01:54:54Z",
+ "generated": "2026-10-11T02:55:54Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1102,
+  "total": 1104,
   "total_events": 708,
-  "total_utc": 1102,
+  "total_utc": 1104,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1102
+    "monthly": 1104
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 413
+    "weekly": 415
    },
    {
     "day": "2026-10-10",
@@ -920,7 +920,7 @@
      0,
      4,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -939,7 +939,7 @@
      0,
      0
     ],
-    "daily": 37
+    "daily": 39
    },
    {
     "day": "2026-10-12",
@@ -1172,6 +1172,17 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 2
+   }
+  },
+  {
    "path": "place/p_king_khalid_airport_terminals_1_2/to",
    "path_id": 110315048,
    "title": "en|name",
@@ -1207,13 +1218,13 @@
    }
   },
   {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
    "event": false,
    "count": 3,
    "daily": {
-    "2026-10-10": 2,
+    "2026-10-09": 2,
     "2026-10-11": 1
    }
   },
@@ -1345,16 +1356,6 @@
    "daily": {
     "2026-10-09": 1,
     "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-09": 2
    }
   },
   {
@@ -5417,9 +5418,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 394,
+  "visits": 396,
   "events_total": 708,
-  "goatcounter_total_with_events": 1102,
+  "goatcounter_total_with_events": 1104,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5430,7 +5431,7 @@
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
-   "2026-10-11": 16
+   "2026-10-11": 18
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -5700,6 +5701,12 @@
     "count": 2
    }
   ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -5724,7 +5731,7 @@
     "count": 4
    }
   ],
-  "/ar/map": [
+  "/ar/districts/al-saadah": [
    {
     "name": "Google",
     "count": 3
@@ -5737,12 +5744,6 @@
    }
   ],
   "/stations": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/ar/districts/al-saadah": [
    {
     "name": "Google",
     "count": 2
@@ -5994,6 +5995,10 @@
     "count": 5
    },
    {
+    "path": "/ar/map",
+    "count": 4
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 4
    },
@@ -6002,7 +6007,7 @@
     "count": 3
    },
    {
-    "path": "/ar/map",
+    "path": "/ar/districts/al-saadah",
     "count": 3
    },
    {
@@ -6011,10 +6016,6 @@
    },
    {
     "path": "/stations",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-saadah",
     "count": 2
    },
    {
@@ -6258,7 +6259,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 62,
+   "count": 64,
    "ref_scheme": "g"
   },
   {
@@ -6379,7 +6380,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 70
+   "count": 72
   },
   {
    "id": "fra",
@@ -6421,7 +6422,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 830
+   "count": 832
   },
   {
    "id": "AE",
@@ -6583,7 +6584,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 876
+   "count": 878
   },
   {
    "id": "tablet",
@@ -6610,7 +6611,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 581
+   "count": 583
   },
   {
    "id": "Safari",
@@ -6636,7 +6637,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 395
+   "count": 397
   },
   {
    "id": "Windows",
