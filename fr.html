@@ -1901,7 +1901,33 @@ function renderResult(r,variants){recSave();
 
 // ================= SEARCH =================
 // Latin and Arabic-script letters; diacritics dropped, letter variants folded (alef forms, ta marbuta, Urdu ye/kaf/he)
-const norm=s=>s.toLowerCase().replace(/[\u064B-\u065F\u0670\u0640]/g,"").replace(/[أإآٱ]/g,"ا").replace(/ة/g,"ه").replace(/[ىیے]/g,"ي").replace(/ک/g,"ك").replace(/[ہۃھ]/g,"ه").replace(/ئ/g,"").replace(/[^a-z0-9&\u0621-\u064A]/g,"");
+// Russian, Hindi and Bengali typing: names are stored in Latin and Arabic script only, so Cyrillic,
+// Devanagari and Bengali are spelled out in Latin first ("марина", "मरीना", "মারিনা" find Marina)
+const CYR={а:"a",б:"b",в:"v",г:"g",д:"d",е:"e",ё:"e",ж:"zh",з:"z",и:"i",й:"i",к:"k",л:"l",м:"m",н:"n",о:"o",п:"p",р:"r",с:"s",т:"t",у:"u",ф:"f",х:"kh",ц:"ts",ч:"ch",ш:"sh",щ:"sch",ъ:"",ы:"y",ь:"",э:"e",ю:"yu",я:"ya"};
+const DV_C={क:"k",ख:"kh",ग:"g",घ:"gh",ङ:"n",च:"ch",छ:"chh",ज:"j",झ:"jh",ञ:"n",ट:"t",ठ:"th",ड:"d",ढ:"dh",ण:"n",त:"t",थ:"th",द:"d",ध:"dh",न:"n",प:"p",फ:"f",ब:"b",भ:"bh",म:"m",य:"y",र:"r",ल:"l",व:"v",श:"sh",ष:"sh",स:"s",ह:"h",क़:"q",ख़:"kh",ग़:"g",ज़:"z",ड़:"r",ढ़:"rh",फ़:"f",य़:"y"};
+const DV_M={"ा":"a","ि":"i","ी":"i","ु":"u","ू":"u","ृ":"ri","े":"e","ै":"ai","ॉ":"o","ो":"o","ौ":"au"};
+const DV_V={अ:"a",आ:"a",इ:"i",ई:"i",उ:"u",ऊ:"u",ऋ:"ri",ए:"e",ऐ:"ai",ऑ:"o",ओ:"o",औ:"au","ं":"n","ँ":"n","ः":"h"};
+function toLatin(s){
+  if(!/[\u0400-\u04FF\u0900-\u09FF]/.test(s))return s;
+  s=s.toLowerCase().replace(/дж/g,"j").replace(/[\u0400-\u04FF]/g,ch=>CYR[ch]??ch);
+  // Hindi/Bengali: consonants carry an "a" that is not spoken at the end of a word or between
+  // a vowel and a voiced syllable ("किंगडम" kingdam, "बतहा" batha); decided right to left
+  let o="",u=[];
+  const flush=()=>{for(let i=u.length-1;i>=0;i--){const x=u[i];if(x.v!==null)continue;
+      const nx=u[i+1];x.v=!nx?"":(i>0&&nx.c&&nx.v)?"":"a";}
+    o+=u.map(x=>x.c+x.v+x.t).join("");u=[];};
+  for(const ch0 of s){let c=ch0.codePointAt(0);if(c>=0x980&&c<=0x9FF)c-=0x80;const ch=String.fromCodePoint(c),x=u[u.length-1];
+    if(c<0x900||c>0x97F){flush();o+=ch;}
+    else if(DV_C[ch]!==undefined)u.push({c:DV_C[ch],v:null,t:""});
+    else if(DV_M[ch]!==undefined){if(x)x.v=DV_M[ch];}
+    else if(ch==="\u093C"){if(x&&x.c==="j")x.c="z";}                   // nukta: ज़ = z
+    else if(ch==="\u094D"){if(x)x.v="";}                                // virama: no vowel
+    else if("ंँः".includes(ch)){if(x)x.t+=ch0==="ং"?"ng":DV_V[ch];}         // Bengali ং is "ng"
+    else u.push({c:"",v:DV_V[ch]||"",t:""});
+  }
+  flush();return o;
+}
+const norm=s=>toLatin(s).toLowerCase().replace(/[\u064B-\u065F\u0670\u0640]/g,"").replace(/[أإآٱ]/g,"ا").replace(/ة/g,"ه").replace(/[ىیے]/g,"ي").replace(/ک/g,"ك").replace(/[ہۃھ]/g,"ه").replace(/ئ/g,"").replace(/[^a-z0-9&\u0621-\u064A]/g,"");
 const IDS=Object.keys(ST);
 // typo-tolerant fallback: edit distance between the query and the start of any word of a name
 function editDist(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;
