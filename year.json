@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T22:56:16Z",
+ "generated": "2026-10-11T23:55:44Z",
  "start": "2025-10-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1241,
-  "total_events": 786,
-  "total_utc": 1241,
+  "total": 1251,
+  "total_events": 794,
+  "total_utc": 1251,
   "stats": [
    {
     "day": "2025-10-11",
@@ -10688,7 +10688,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1241
+    "monthly": 1251
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 378
+    "weekly": 388
    },
    {
     "day": "2026-10-11",
@@ -10998,7 +10998,7 @@
      7,
      9,
      1,
-     0,
+     10,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 17
+    "daily": 27
    }
   ]
  },
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 363,
+   "count": 365,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 4
+    "2026-10-12": 6
    }
   },
   {
@@ -11050,13 +11050,27 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 227,
+   "count": 228,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 4
+    "2026-10-12": 5
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 15,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 7,
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-12": 1
    }
   },
   {
@@ -11069,19 +11083,6 @@
     "2026-10-07": 2,
     "2026-10-08": 5,
     "2026-10-09": 4,
-    "2026-10-10": 3
-   }
-  },
-  {
-   "path": "geo/denied/-",
-   "path_id": 110295286,
-   "title": "en",
-   "event": true,
-   "count": 14,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 7,
-    "2026-10-09": 2,
     "2026-10-10": 3
    }
   },
@@ -11483,6 +11484,28 @@
    }
   },
   {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/batha/from",
+   "path_id": 110776084,
+   "title": "ar|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "route/moi/p_kafd_king_abdullah_financial_district",
    "path_id": 110772718,
    "title": "en|search|ok",
@@ -11770,6 +11793,17 @@
    }
   },
   {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "/ar/destinations/riyadh-gallery-mall",
    "path_id": 110184768,
    "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
@@ -11800,6 +11834,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/p_lulu_hypermarket_murabba/ksp",
+   "path_id": 111571606,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/ksp/to",
+   "path_id": 111571605,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_lulu_hypermarket_murabba/from",
+   "path_id": 111571480,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -13153,16 +13217,6 @@
    }
   },
   {
-   "path": "station/murabba/from",
-   "path_id": 110779379,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
    "path": "route/batha/hamra",
    "path_id": 110776140,
    "title": "ar|search|ok",
@@ -13215,16 +13269,6 @@
   {
    "path": "station/baida/to",
    "path_id": 110776098,
-   "title": "ar|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
-   "path": "station/batha/from",
-   "path_id": 110776084,
    "title": "ar|name",
    "event": true,
    "count": 1,
@@ -15843,16 +15887,6 @@
    }
   },
   {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/p_al_othaim_mall_rabwah/p_souq_al_zal",
    "path_id": 110299389,
    "title": "en|search|ok",
@@ -15985,9 +16019,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 455,
-  "events_total": 786,
-  "goatcounter_total_with_events": 1241,
+  "visits": 457,
+  "events_total": 794,
+  "goatcounter_total_with_events": 1251,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -15999,18 +16033,18 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 6
+   "2026-10-12": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 4
+   "2026-10-12": 5
   },
-  "visitor_days": 235,
+  "visitor_days": 236,
   "return_rate": 0.034,
-  "routes": 233,
+  "routes": 234,
   "routes_not_found": 0,
   "routes_per_visit": 0.51,
   "routes_per_visitor_day": 0.89,
@@ -16022,7 +16056,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.029,
+  "failed_search_rate": 0.028,
   "failed_searches": [
    {
     "name": "الجيومكانية",
@@ -16050,14 +16084,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 14,
+   "denied": 15,
    "ok": 20,
+   "fail": 2,
    "far": 2,
-   "outside": 2,
-   "fail": 1
+   "outside": 2
   },
   "visitors_new_return": {
-   "new": 227,
+   "new": 228,
    "return": 8
   },
   "top_routes": [
@@ -16098,6 +16132,10 @@
     "count": 2
    },
    {
+    "name": "p_lulu_hypermarket_murabba > ksp",
+    "count": 1
+   },
+   {
     "name": "sab > p_king_khalid_airport_terminals_1_2",
     "count": 1
    },
@@ -16115,10 +16153,6 @@
    },
    {
     "name": "sab > sulimaniyah",
-    "count": 1
-   },
-   {
-    "name": "sabic > passport",
     "count": 1
    }
   ],
@@ -16211,11 +16245,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 288
+    "count": 289
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 59
+    "count": 60
    },
    {
     "name": "Google",
@@ -16631,7 +16665,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 288
+    "count": 289
    },
    {
     "path": "/map",
@@ -16665,7 +16699,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 59
+    "count": 60
    }
   ],
   "Google": [
@@ -16980,13 +17014,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 889,
+   "count": 895,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 214,
+   "count": 218,
    "ref_scheme": "o"
   },
   {
@@ -17114,7 +17148,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1125
+   "count": 1135
   },
   {
    "id": "ara",
@@ -17161,7 +17195,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 960
+   "count": 970
   },
   {
    "id": "AE",
@@ -17323,7 +17357,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 999
+   "count": 1009
   },
   {
    "id": "tablet",
@@ -17350,7 +17384,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 628
+   "count": 638
   },
   {
    "id": "Safari",
@@ -17376,7 +17410,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 426
+   "count": 435
   },
   {
    "id": "Windows",
@@ -17391,7 +17425,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 27
+   "count": 28
   },
   {
    "id": "Chrome OS",
