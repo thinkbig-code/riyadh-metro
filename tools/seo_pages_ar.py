@@ -297,6 +297,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <link rel="canonical" href="{url}">
 <link rel="alternate" hreflang="ar" href="{url}">
 <link rel="alternate" hreflang="en" href="{SITE}{en}">
+<link rel="alternate" hreflang="x-default" href="{SITE}{en}">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ar_SA">
@@ -393,6 +394,8 @@ def destination(d):
     title = 'محطة مترو %s: محطة %s (%s)%s' % (TT, sn(sid), lines_txt(s['lines']), walk)
     if len(title) > 75:     # too long for the search results: the lines are on the page anyway
         title = 'محطة مترو %s: محطة %s%s' % (TT, sn(sid), walk)
+    if len(title) > 75:     # still too long: the walking time is on the page anyway
+        title = 'محطة مترو %s: محطة %s' % (TT, sn(sid))
     desc = 'خريطة تفاعلية وجهتها %s: اضغط على محطة انطلاقك لترى المسار والتبديلات ووقت الرحلة والسعر. أقرب محطة: %s%s.' % (
         T, sn(sid), '، ثم بالحافلة أو سيارة الأجرة' if main.get('note') else '')
     write(path, frame(path, title, desc, '\n'.join(body), [(path, T)]))
@@ -516,6 +519,8 @@ def district(d):
                 '<li><a href="{ROOT}ar/districts/">جميع الأحياء</a></li></ul>')
     body.append(hours_html())
     title = 'أقرب محطة مترو ل%s في الرياض: محطة %s%s' % (d['ar'], sn(sid), ' (داخل الحي)' if d['inside'] else '، %s' % kmt(k0))
+    if len(title) > 75:     # long district and station names: the city is in the site name anyway
+        title = title.replace(' في الرياض:', ':', 1)
     desc = '. '.join(lead.split('. ')[:2]).rstrip('.') + '. المسافة ومواقف السيارات ووقت الرحلة بالمترو.'
     ld = {"@context": "https://schema.org", "@type": "Place", "name": d['ar'] + '، الرياض', "alternateName": d['en'],
           "geo": {"@type": "GeoCoordinates", "latitude": d['mid'][0], "longitude": d['mid'][1]}}

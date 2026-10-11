@@ -17,6 +17,7 @@ GOAT = os.environ.get('GOAT', '')   # GoatCounter address, e.g. https://riyadhme
 s = open(os.path.join(ROOT, 'src', 'riyadh-metro.html'), encoding='utf-8').read()
 s, n = re.subn(r'const BASE_URL="[^"]*";', '// On your own site, shared links point to wherever this page is hosted\nconst BASE_URL=location.origin+location.pathname;', s)
 assert n == 1, "BASE_URL line not found"
+s = s.replace('#about h1{', '#about h1,#aboutH{', 1)   # the about block uses an H2 (one H1 per page)
 te = s.index('</title>') + len('</title>'); rest = s[te:]
 i_map = rest.index('<div id="map"')
 
@@ -80,7 +81,7 @@ def page(L):
     guide_links = f'<p class="lst">{GUIDE_LINKS_AR}</p>' if L == 'ar' else f'<p class="lst" dir="ltr">{GUIDE_LINKS}</p>'
     about = f'''<section id="about" aria-labelledby="aboutH" lang="{L}" dir="{X["dir"]}">
 <button id="aboutClose" aria-label="{html.escape(X["close"])}">×</button>
-<h1 id="aboutH">{html.escape(X["h1"])}</h1>
+<h2 id="aboutH">{html.escape(X["h1"])}</h2>
 <p>{html.escape(X["intro"])}</p>
 <p><a href="{"ar/map/" if L == "ar" else "map/"}"><img src="{mapimg}" width="{seo_pages.MAP_W}" height="{seo_pages.MAP_H}" alt="{html.escape(seo_pages_ar.MAP_ALT if L == 'ar' else seo_pages.MAP_ALT)}" loading="lazy" style="width:100%;height:auto;border-radius:12px"></a></p>
 <h2>{html.escape(X["popular"])}</h2>
@@ -153,10 +154,16 @@ today = datetime.date.today().isoformat()
 xl = '\n'.join(f'    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in ORDER) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}"/>'
 IMG = f'\n    <image:image><image:loc>{SITE}{seo_pages.MAP_IMG}</image:loc></image:image>'
 urls = '\n'.join(f'  <url>\n    <loc>{url(L)}</loc>\n    <lastmod>{today}</lastmod>\n{xl}{IMG.replace(seo_pages.MAP_IMG, "riyadh-metro-map-ar.png") if L == "ar" else IMG}\n  </url>' for L in ORDER)
-gx = lambda p: f'\n    <xhtml:link rel="alternate" hreflang="en" href="{SITE}{p}"/>\n    <xhtml:link rel="alternate" hreflang="ar" href="{SITE}ar/{p}"/>'
+gx = lambda p: f'\n    <xhtml:link rel="alternate" hreflang="en" href="{SITE}{p}"/>\n    <xhtml:link rel="alternate" hreflang="ar" href="{SITE}ar/{p}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{p}"/>'
 urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p)}{IMG if p in ("map/", "stations/") else ""}\n  </url>' for p in GUIDES)
 IMG_AR = f'\n    <image:image><image:loc>{SITE}riyadh-metro-map-ar.png</image:loc></image:image>'
 urls += '\n' + '\n'.join(f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>{gx(p[3:])}{IMG_AR if p in ("ar/map/", "ar/stations/") else ""}\n  </url>' for p in GUIDES_AR)
 open(OUT + 'sitemap.xml', 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n{urls}\n</urlset>\n')
 open(OUT + 'robots.txt', 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n')
 print("deploy built:", ', '.join(TX[L]["file"] for L in ORDER), "+", len(GUIDES), "guide pages +", len(GUIDES_AR), "Arabic guide pages")
+
+# last step: SEO check of everything just built (stops with an error if a canonical, hreflang, sitemap URL or link is broken)
+import subprocess as _sp
+_r = _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'seo_check.py'), os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')])
+if _r.returncode:
+    sys.exit('SEO check found errors: fix them before publishing')

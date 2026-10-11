@@ -333,6 +333,7 @@ def frame(path, title, desc, body, crumbs, ld_extra=None, og_image='og-image.png
 <link rel="canonical" href="{url}">
 <link rel="alternate" hreflang="en" href="{url}">
 <link rel="alternate" hreflang="ar" href="{SITE}ar/{path}">
+<link rel="alternate" hreflang="x-default" href="{url}">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{url}">
