@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T20:55:06Z",
+ "generated": "2026-10-11T21:55:09Z",
  "start": "2026-09-11",
  "end": "2026-10-12",
  "total": {
-  "total": 1231,
-  "total_events": 779,
-  "total_utc": 1231,
+  "total": 1240,
+  "total_events": 786,
+  "total_utc": 1240,
   "stats": [
    {
     "day": "2026-09-11",
@@ -637,7 +637,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1231
+    "monthly": 1240
    },
    {
     "day": "2026-10-02",
@@ -879,7 +879,7 @@
      0
     ],
     "daily": 174,
-    "weekly": 542
+    "weekly": 551
    },
    {
     "day": "2026-10-10",
@@ -945,7 +945,7 @@
     "day": "2026-10-12",
     "hourly": [
      7,
-     0,
+     9,
      0,
      0,
      0,
@@ -969,7 +969,7 @@
      0,
      0
     ],
-    "daily": 7
+    "daily": 16
    }
   ]
  },
@@ -979,7 +979,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 362,
+   "count": 363,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -991,7 +991,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 3
+    "2026-10-12": 4
    }
   },
   {
@@ -999,13 +999,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 226,
+   "count": 227,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 3
+    "2026-10-12": 4
    }
   },
   {
@@ -1164,6 +1164,18 @@
    }
   },
   {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 3,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_al_masmak_fortress/from",
    "path_id": 110300993,
    "title": "en|name",
@@ -1187,17 +1199,6 @@
    }
   },
   {
-   "path": "place/p_king_khalid_airport_terminals_1_2/to",
-   "path_id": 110315048,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 3
-   }
-  },
-  {
    "path": "/ar.html",
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
@@ -1207,6 +1208,19 @@
     "2026-10-07": 1,
     "2026-10-10": 1,
     "2026-10-11": 2
+   }
+  },
+  {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-04": 1,
+    "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 1
    }
   },
   {
@@ -1309,18 +1323,6 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 1,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-04": 1,
-    "2026-10-06": 1,
     "2026-10-11": 1
    }
   },
@@ -1568,6 +1570,17 @@
    }
   },
   {
+   "path": "geo/ok/sab",
+   "path_id": 110405774,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_al_hamra_mall/to",
    "path_id": 110384422,
    "title": "en|name",
@@ -1736,6 +1749,46 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/sab/p_king_khalid_airport_terminals_1_2",
+   "path_id": 111541914,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/sab/murooj",
+   "path_id": 111541887,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/murooj/to",
+   "path_id": 111541886,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/الجيومكانية",
+   "path_id": 111541861,
+   "title": "en|الجيومكانية",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -5069,16 +5122,6 @@
    }
   },
   {
-   "path": "geo/ok/sab",
-   "path_id": 110405774,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "view/sab/granadia",
    "path_id": 110404992,
    "title": "en|details",
@@ -5881,9 +5924,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 452,
-  "events_total": 779,
-  "goatcounter_total_with_events": 1231,
+  "visits": 454,
+  "events_total": 786,
+  "goatcounter_total_with_events": 1240,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5895,22 +5938,22 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 3
+   "2026-10-12": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 3
+   "2026-10-12": 4
   },
-  "visitor_days": 234,
+  "visitor_days": 235,
   "return_rate": 0.034,
-  "routes": 231,
+  "routes": 233,
   "routes_not_found": 0,
   "routes_per_visit": 0.51,
-  "routes_per_visitor_day": 0.88,
-  "share_rate": 0.022,
+  "routes_per_visitor_day": 0.89,
+  "share_rate": 0.021,
   "shares": {
    "whatsapp": 1,
    "copy": 1,
@@ -5918,8 +5961,12 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.024,
+  "failed_search_rate": 0.029,
   "failed_searches": [
+   {
+    "name": "الجيومكانية",
+    "count": 1
+   },
    {
     "name": "baba sweet",
     "count": 1
@@ -5943,13 +5990,13 @@
   ],
   "nearest_station": {
    "denied": 14,
-   "ok": 19,
+   "ok": 20,
    "far": 2,
    "outside": 2,
    "fail": 1
   },
   "visitors_new_return": {
-   "new": 226,
+   "new": 227,
    "return": 8
   },
   "top_routes": [
@@ -5990,6 +6037,14 @@
     "count": 2
    },
    {
+    "name": "sab > p_king_khalid_airport_terminals_1_2",
+    "count": 1
+   },
+   {
+    "name": "sab > murooj",
+    "count": 1
+   },
+   {
     "name": "kafd > gosi",
     "count": 1
    },
@@ -6004,20 +6059,12 @@
    {
     "name": "sabic > passport",
     "count": 1
-   },
-   {
-    "name": "kbw > p_olaya_towers",
-    "count": 1
-   },
-   {
-    "name": "p_olaya_towers > kbw",
-    "count": 1
    }
   ],
   "top_origins": [
    {
     "name": "sab",
-    "count": 12
+    "count": 14
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -6103,7 +6150,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 287
+    "count": 288
    },
    {
     "name": "com.reddit.frontpage",
@@ -6194,6 +6241,12 @@
     "count": 1
    }
   ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/destinations/al-awwal-park": [
    {
     "name": "Google",
@@ -6214,12 +6267,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/districts/al-maseef": [
@@ -6517,7 +6564,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 287
+    "count": 288
    },
    {
     "path": "/map",
@@ -6568,15 +6615,15 @@
     "count": 5
    },
    {
+    "path": "/destinations/king-abdullah-park",
+    "count": 4
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 4
    },
    {
     "path": "/ar/districts/al-saadah",
-    "count": 3
-   },
-   {
-    "path": "/destinations/king-abdullah-park",
     "count": 3
    },
    {
@@ -6862,7 +6909,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 881,
+   "count": 889,
    "ref_scheme": "o"
   },
   {
@@ -6874,7 +6921,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 82,
+   "count": 83,
    "ref_scheme": "g"
   },
   {
@@ -6996,7 +7043,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1116
+   "count": 1125
   },
   {
    "id": "ara",
@@ -7043,7 +7090,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 950
+   "count": 959
   },
   {
    "id": "AE",
@@ -7205,7 +7252,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 989
+   "count": 998
   },
   {
    "id": "tablet",
@@ -7237,7 +7284,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 573
+   "count": 582
   },
   {
    "name": "",
@@ -7253,7 +7300,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 569
+   "count": 578
   },
   {
    "id": "Android",
