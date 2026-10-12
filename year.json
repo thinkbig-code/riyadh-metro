@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T05:00:25Z",
+ "generated": "2026-10-12T05:58:40Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1260,
-  "total_events": 798,
-  "total_utc": 1260,
+  "total": 1267,
+  "total_events": 802,
+  "total_utc": 1267,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1260
+    "monthly": 1267
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 195
+    "weekly": 202
    },
    {
     "day": "2026-10-12",
@@ -10974,7 +10974,7 @@
      3,
      0,
      0,
-     0,
+     7,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 36
+    "daily": 43
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 369,
+   "count": 371,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 10
+    "2026-10-12": 12
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 232,
+   "count": 233,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 9
+    "2026-10-12": 10
    }
   },
   {
@@ -11087,6 +11087,19 @@
    }
   },
   {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 4,
+    "2026-10-11": 2,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/from",
    "path_id": 110315049,
    "title": "en|name",
@@ -11108,18 +11121,6 @@
     "2026-10-09": 2,
     "2026-10-10": 3,
     "2026-10-11": 3
-   }
-  },
-  {
-   "path": "visit/return/-",
-   "path_id": 110708664,
-   "title": "en",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 4,
-    "2026-10-11": 2
    }
   },
   {
@@ -11159,6 +11160,18 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -11180,17 +11193,6 @@
     "2026-10-07": 3,
     "2026-10-08": 2,
     "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3
    }
   },
   {
@@ -11386,6 +11388,28 @@
    "count": 2,
    "daily": {
     "2026-10-11": 2
+   }
+  },
+  {
+   "path": "place/p_boulevard_world/to",
+   "path_id": 111087040,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/baba_sweet",
+   "path_id": 111087036,
+   "title": "en|baba sweet",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
    }
   },
   {
@@ -12281,26 +12305,6 @@
    "path_id": 111088602,
    "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
    "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "place/p_boulevard_world/to",
-   "path_id": 111087040,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "noresult/baba_sweet",
-   "path_id": 111087036,
-   "title": "en|baba sweet",
-   "event": true,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -16029,9 +16033,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 462,
-  "events_total": 798,
-  "goatcounter_total_with_events": 1260,
+  "visits": 465,
+  "events_total": 802,
+  "goatcounter_total_with_events": 1267,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16043,21 +16047,21 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 13
+   "2026-10-12": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 9
+   "2026-10-12": 11
   },
-  "visitor_days": 240,
-  "return_rate": 0.033,
+  "visitor_days": 242,
+  "return_rate": 0.037,
   "routes": 234,
   "routes_not_found": 0,
-  "routes_per_visit": 0.51,
-  "routes_per_visitor_day": 0.87,
+  "routes_per_visit": 0.5,
+  "routes_per_visitor_day": 0.86,
   "share_rate": 0.021,
   "shares": {
    "whatsapp": 1,
@@ -16066,14 +16070,14 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.028,
+  "failed_search_rate": 0.033,
   "failed_searches": [
    {
-    "name": "الجيومكانية",
-    "count": 1
+    "name": "baba sweet",
+    "count": 2
    },
    {
-    "name": "baba sweet",
+    "name": "الجيومكانية",
     "count": 1
    },
    {
@@ -16101,8 +16105,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 232,
-   "return": 8
+   "new": 233,
+   "return": 9
   },
   "top_routes": [
    {
@@ -16255,7 +16259,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 292
+    "count": 294
    },
    {
     "name": "com.reddit.frontpage",
@@ -16315,7 +16319,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 5
+    "count": 6
    }
   ],
   "/ur.html": [
@@ -16681,7 +16685,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 292
+    "count": 294
    },
    {
     "path": "/map",
@@ -16729,7 +16733,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 5
+    "count": 6
    },
    {
     "path": "/destinations/king-abdullah-park",
@@ -17034,7 +17038,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 901,
+   "count": 908,
    "ref_scheme": "o"
   },
   {
@@ -17046,7 +17050,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 87,
+   "count": 88,
    "ref_scheme": "g"
   },
   {
@@ -17168,7 +17172,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1143
+   "count": 1151
   },
   {
    "id": "ara",
@@ -17215,7 +17219,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 975
+   "count": 983
   },
   {
    "id": "US",
@@ -17377,7 +17381,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1018
+   "count": 1026
   },
   {
    "id": "tablet",
@@ -17404,7 +17408,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 640
+   "count": 648
   },
   {
    "id": "Safari",
@@ -17430,7 +17434,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 437
+   "count": 445
   },
   {
    "id": "Windows",
