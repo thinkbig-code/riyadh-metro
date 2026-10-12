@@ -1948,6 +1948,14 @@ function fuzzyMatches(n,out){
 }
 // words around a name that are not part of it ("محطة سلطانة", "Sultanah metro station")
 const NOISE_RE=/(^|\s)(metro|station|stn|stop|tram|monorail|line|nearest|محطة|محطه|مترو|ترام|قطار|اقرب|أقرب|اسٹیشن|میٹرو|स्टेशन|मेट्रो|স্টেশন|মেট্রো|istasyon|станция|метро|métro|gare|bahnhof|haltestelle|车站|地铁站|地铁)(?=\s|$)/gi;
+// every word typed must be found somewhere in the name or its other names, in any order; filler words ("the", "riyadh") are ignored
+const TOK_STOP=new Set(["the","a","an","in","at","to","from","of","by","for","and","near","nearest","how","get","go","riyadh","dubai","ksa","uae","saudi","city","في","الى","إلى","من","و","قرب","عند","الرياض","دبي","مول"]);
+function tokenMatches(q,out){
+  const toks=String(q).toLowerCase().split(/\s+/).filter(w=>!TOK_STOP.has(w)).map(norm).filter(w=>w.length>1);
+  if(!toks.length)return;
+  PLACES.forEach(p=>{const h=norm(p.n+" "+p.aka.join(" "));if(toks.every(w=>h.includes(w)))out.push({place:p,score:2.8});});
+  IDS.forEach(id=>{const s=ST[id];const h=norm(s.n+" "+(ALIAS[id]||[]).join(" ")+" "+s.f.join(" "));if(toks.every(w=>h.includes(w)))out.push({id,score:2.9});});
+}
 function matches(q){
   {const s=String(q).replace(NOISE_RE," ").replace(/\s+/g," ").trim();if(s)q=s;}
   const n=norm(q);
@@ -1967,6 +1975,7 @@ function matches(q){
     else{const f=s.f.find(x=>norm(x).includes(n));if(f)out.push({id,score:3,via:f});}
   });
   if(out.length<3)fuzzyMatches(n,out);
+  if(!out.length)tokenMatches(q,out);
   return out.sort((a,b)=>a.score-b.score);
 }
 const DD_HINT={"en": "Type a station or place, or tap a station on the map", "ar": "اكتب اسم محطة أو مكان، أو اضغط على محطة في الخريطة", "ur": "اسٹیشن یا جگہ کا نام لکھیں، یا نقشے پر کسی اسٹیشن کو ٹیپ کریں", "hi": "स्टेशन या जगह का नाम लिखें, या नक्शे पर किसी स्टेशन पर टैप करें", "bn": "স্টেশন বা জায়গার নাম লিখুন, অথবা মানচিত্রে একটি স্টেশনে ট্যাপ করুন", "tl": "Mag-type ng istasyon o lugar, o i-tap ang isang istasyon sa mapa", "ru": "Введите станцию или место, или нажмите на станцию на карте", "fr": "Tapez une station ou un lieu, ou touchez une station sur la carte", "de": "Station oder Ort eingeben oder auf eine Station auf der Karte tippen", "zh": "输入车站或地点，或在地图上点击车站"};
