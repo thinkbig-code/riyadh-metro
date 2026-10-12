@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T19:02:11Z",
+ "generated": "2026-10-12T19:57:37Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1351,
+  "total": 1352,
   "total_events": 849,
-  "total_utc": 1351,
+  "total_utc": 1352,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1351
+    "monthly": 1352
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 286
+    "weekly": 287
    },
    {
     "day": "2026-10-12",
@@ -10988,9 +10988,9 @@
      1,
      9,
      12,
-     0
+     1
     ],
-    "daily": 127
+    "daily": 128
    },
    {
     "day": "2026-10-13",
@@ -11175,6 +11175,19 @@
    }
   },
   {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-04": 2,
+    "2026-10-05": 1,
+    "2026-10-09": 1,
+    "2026-10-12": 3
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -11209,19 +11222,6 @@
     "2026-10-06": 1,
     "2026-10-11": 1,
     "2026-10-12": 3
-   }
-  },
-  {
-   "path": "/destinations/al-awwal-park",
-   "path_id": 109448541,
-   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-04": 2,
-    "2026-10-05": 1,
-    "2026-10-09": 1,
-    "2026-10-12": 2
    }
   },
   {
@@ -16255,9 +16255,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 502,
+  "visits": 503,
   "events_total": 849,
-  "goatcounter_total_with_events": 1351,
+  "goatcounter_total_with_events": 1352,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16269,7 +16269,7 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 53
+   "2026-10-12": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16560,13 +16560,13 @@
     "count": 8
    }
   ],
-  "/destinations/king-abdullah-park": [
+  "/destinations/al-awwal-park": [
    {
     "name": "Google",
-    "count": 6
+    "count": 7
    }
   ],
-  "/destinations/al-awwal-park": [
+  "/destinations/king-abdullah-park": [
    {
     "name": "Google",
     "count": 6
@@ -16998,15 +16998,15 @@
     "count": 7
    },
    {
+    "path": "/destinations/al-awwal-park",
+    "count": 7
+   },
+   {
     "path": "/",
     "count": 6
    },
    {
     "path": "/destinations/king-abdullah-park",
-    "count": 6
-   },
-   {
-    "path": "/destinations/al-awwal-park",
     "count": 6
    },
    {
@@ -17336,7 +17336,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 100,
+   "count": 101,
    "ref_scheme": "g"
   },
   {
@@ -17464,7 +17464,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1220
+   "count": 1221
   },
   {
    "id": "ara",
@@ -17536,7 +17536,7 @@
   {
    "id": "IN",
    "name": "India",
-   "count": 11
+   "count": 12
   },
   {
    "id": "NL",
@@ -17673,7 +17673,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1087
+   "count": 1088
   },
   {
    "id": "tablet",
@@ -17700,7 +17700,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 692
+   "count": 693
   },
   {
    "id": "Safari",
@@ -17726,7 +17726,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 467
+   "count": 468
   },
   {
    "id": "Windows",
