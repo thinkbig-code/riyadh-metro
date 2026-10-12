@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T13:18:02Z",
+ "generated": "2026-10-12T14:05:53Z",
  "start": "2026-09-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1320,
+  "total": 1322,
   "total_events": 833,
-  "total_utc": 1320,
+  "total_utc": 1322,
   "stats": [
    {
     "day": "2026-09-12",
@@ -608,7 +608,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1320
+    "monthly": 1322
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 457
+    "weekly": 459
    },
    {
     "day": "2026-10-11",
@@ -932,7 +932,7 @@
      5,
      6,
      16,
-     0,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 96
+    "daily": 98
    },
    {
     "day": "2026-10-13",
@@ -1231,6 +1231,19 @@
    }
   },
   {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-04": 1,
+    "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 2
+   }
+  },
+  {
    "path": "station/hokm/to",
    "path_id": 110432185,
    "title": "en|name",
@@ -1240,19 +1253,6 @@
     "2026-10-08": 1,
     "2026-10-09": 1,
     "2026-10-10": 1,
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-04": 1,
-    "2026-10-06": 1,
-    "2026-10-11": 1,
     "2026-10-12": 1
    }
   },
@@ -1825,6 +1825,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/king-faisal-specialist-hospital",
+   "path_id": 111739456,
+   "title": "King Faisal Specialist Hospital Metro Station: Ministry of Interior",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -6130,9 +6140,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 487,
+  "visits": 489,
   "events_total": 833,
-  "goatcounter_total_with_events": 1320,
+  "goatcounter_total_with_events": 1322,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6144,7 +6154,7 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 38
+   "2026-10-12": 40
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6472,7 +6482,7 @@
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
-    "count": 4
+    "count": 5
    }
   ],
   "/ar/districts/al-qadisiyah": [
@@ -6555,6 +6565,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/king-faisal-specialist-hospital": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/destinations/ministry-of-municipal-rural-affairs-and-housing": [
@@ -6862,7 +6878,7 @@
    },
    {
     "path": "/destinations/king-abdullah-park",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/districts/al-saadah",
@@ -6906,6 +6922,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-faisal-specialist-hospital",
     "count": 1
    },
    {
@@ -7177,7 +7197,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 93,
+   "count": 95,
    "ref_scheme": "g"
   },
   {
@@ -7305,7 +7325,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1195
+   "count": 1197
   },
   {
    "id": "ara",
@@ -7352,7 +7372,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1030
+   "count": 1032
   },
   {
    "id": "US",
@@ -7514,7 +7534,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1064
+   "count": 1066
   },
   {
    "id": "tablet",
@@ -7546,7 +7566,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 621
+   "count": 623
   },
   {
    "name": "",
@@ -7562,7 +7582,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 617
+   "count": 619
   },
   {
    "id": "Android",
