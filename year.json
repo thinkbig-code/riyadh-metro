@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T14:07:01Z",
+ "generated": "2026-10-12T15:04:52Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1322,
-  "total_events": 833,
-  "total_utc": 1322,
+  "total": 1326,
+  "total_events": 834,
+  "total_utc": 1326,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1322
+    "monthly": 1326
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 257
+    "weekly": 261
    },
    {
     "day": "2026-10-12",
@@ -10983,14 +10983,14 @@
      6,
      16,
      2,
-     0,
+     4,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 98
+    "daily": 102
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 386,
+   "count": 387,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 27
+    "2026-10-12": 28
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 246,
+   "count": 247,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 23
+    "2026-10-12": 24
    }
   },
   {
@@ -11101,6 +11101,19 @@
    }
   },
   {
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
+   "count": 9,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-11": 3,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/from",
    "path_id": 110315049,
    "title": "en|name",
@@ -11122,18 +11135,6 @@
     "2026-10-10": 2,
     "2026-10-11": 3,
     "2026-10-12": 3
-   }
-  },
-  {
-   "path": "/map",
-   "path_id": 110710457,
-   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 3,
-    "2026-10-11": 3
    }
   },
   {
@@ -11875,6 +11876,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-foreign-affairs",
+   "path_id": 111741323,
+   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -16190,9 +16201,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 489,
-  "events_total": 833,
-  "goatcounter_total_with_events": 1322,
+  "visits": 492,
+  "events_total": 834,
+  "goatcounter_total_with_events": 1326,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16204,16 +16215,16 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 40
+   "2026-10-12": 43
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 25
+   "2026-10-12": 26
   },
-  "visitor_days": 256,
+  "visitor_days": 257,
   "return_rate": 0.039,
   "routes": 241,
   "routes_not_found": 0,
@@ -16274,7 +16285,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 246,
+   "new": 247,
    "return": 10
   },
   "top_routes": [
@@ -16428,7 +16439,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 308
+    "count": 309
    },
    {
     "name": "com.reddit.frontpage",
@@ -16471,16 +16482,10 @@
     "count": 1
    }
   ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 8
-   }
-  ],
   "/map": [
    {
     "name": "Google",
-    "count": 6
+    "count": 7
    },
    {
     "name": "(direct or unknown)",
@@ -16489,6 +16494,12 @@
    {
     "name": "riyadhmetro.fyi/destinations/riyadh-front",
     "count": 1
+   }
+  ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 8
    }
   ],
   "/destinations/al-awwal-park": [
@@ -16615,6 +16626,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/destinations/ministry-of-foreign-affairs": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/destinations/king-faisal-specialist-hospital": [
@@ -16868,7 +16885,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 308
+    "count": 309
    },
    {
     "path": "/map",
@@ -16915,11 +16932,11 @@
     "count": 8
    },
    {
-    "path": "/",
-    "count": 6
+    "path": "/map",
+    "count": 7
    },
    {
-    "path": "/map",
+    "path": "/",
     "count": 6
    },
    {
@@ -16972,6 +16989,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/ministry-of-foreign-affairs",
     "count": 1
    },
    {
@@ -17235,7 +17256,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 948,
+   "count": 950,
    "ref_scheme": "o"
   },
   {
@@ -17247,7 +17268,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 96,
+   "count": 97,
    "ref_scheme": "g"
   },
   {
@@ -17375,7 +17396,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1197
+   "count": 1200
   },
   {
    "id": "ara",
@@ -17422,12 +17443,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1033
+   "count": 1034
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 67
+   "count": 69
   },
   {
    "id": "AE",
@@ -17584,12 +17605,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1067
+   "count": 1068
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 32
+   "count": 34
   },
   {
    "id": "desktop",
@@ -17611,7 +17632,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 670
+   "count": 673
   },
   {
    "id": "Safari",
@@ -17637,12 +17658,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 453
+   "count": 454
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 156
+   "count": 158
   },
   {
    "id": "macOS",
