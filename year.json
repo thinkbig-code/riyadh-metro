@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T08:03:15Z",
+ "generated": "2026-10-12T09:03:11Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1275,
-  "total_events": 806,
-  "total_utc": 1275,
+  "total": 1286,
+  "total_events": 811,
+  "total_utc": 1286,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1275
+    "monthly": 1286
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 210
+    "weekly": 221
    },
    {
     "day": "2026-10-12",
@@ -10977,7 +10977,7 @@
      8,
      3,
      4,
-     0,
+     11,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 51
+    "daily": 62
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 374,
+   "count": 379,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 15
+    "2026-10-12": 20
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 236,
+   "count": 238,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 13
+    "2026-10-12": 15
    }
   },
   {
@@ -11091,12 +11091,12 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 9,
+   "count": 10,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
-    "2026-10-12": 1
+    "2026-10-12": 2
    }
   },
   {
@@ -11138,6 +11138,18 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 2
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11157,18 +11169,6 @@
     "2026-10-07": 2,
     "2026-10-08": 3,
     "2026-10-09": 2
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3,
-    "2026-10-12": 1
    }
   },
   {
@@ -11859,6 +11859,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/rabi/kfl",
+   "path_id": 111691827,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/t12/douh",
+   "path_id": 111682426,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -16044,9 +16064,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 469,
-  "events_total": 806,
-  "goatcounter_total_with_events": 1275,
+  "visits": 475,
+  "events_total": 811,
+  "goatcounter_total_with_events": 1286,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16058,18 +16078,18 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 20
+   "2026-10-12": 26
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 14
+   "2026-10-12": 17
   },
-  "visitor_days": 245,
-  "return_rate": 0.037,
-  "routes": 234,
+  "visitor_days": 248,
+  "return_rate": 0.04,
+  "routes": 236,
   "routes_not_found": 0,
   "routes_per_visit": 0.5,
   "routes_per_visitor_day": 0.85,
@@ -16120,8 +16140,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 236,
-   "return": 9
+   "new": 238,
+   "return": 10
   },
   "top_routes": [
    {
@@ -16161,6 +16181,14 @@
     "count": 2
    },
    {
+    "name": "rabi > kfl",
+    "count": 1
+   },
+   {
+    "name": "t12 > douh",
+    "count": 1
+   },
+   {
     "name": "p_lulu_hypermarket_murabba > ksp",
     "count": 1
    },
@@ -16174,14 +16202,6 @@
    },
    {
     "name": "kafd > gosi",
-    "count": 1
-   },
-   {
-    "name": "sulimaniyah > sab",
-    "count": 1
-   },
-   {
-    "name": "sab > sulimaniyah",
     "count": 1
    }
   ],
@@ -16219,12 +16239,12 @@
     "count": 7
    },
    {
-    "name": "malaz",
+    "name": "t12",
     "count": 7
    },
    {
-    "name": "khashm",
-    "count": 6
+    "name": "malaz",
+    "count": 7
    }
   ],
   "top_destinations": [
@@ -16245,6 +16265,10 @@
     "count": 7
    },
    {
+    "name": "kfl",
+    "count": 6
+   },
+   {
     "name": "sab",
     "count": 6
    },
@@ -16263,10 +16287,6 @@
    {
     "name": "alinma",
     "count": 5
-   },
-   {
-    "name": "t5",
-    "count": 5
    }
   ]
  },
@@ -16274,7 +16294,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 297
+    "count": 302
    },
    {
     "name": "com.reddit.frontpage",
@@ -16334,7 +16354,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 6
+    "count": 7
    }
   ],
   "/ur.html": [
@@ -16700,7 +16720,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 297
+    "count": 302
    },
    {
     "path": "/map",
@@ -16739,15 +16759,15 @@
   ],
   "Google": [
    {
+    "path": "/ar/map",
+    "count": 7
+   },
+   {
     "path": "/",
     "count": 6
    },
    {
     "path": "/map",
-    "count": 6
-   },
-   {
-    "path": "/ar/map",
     "count": 6
    },
    {
@@ -17053,7 +17073,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 914,
+   "count": 924,
    "ref_scheme": "o"
   },
   {
@@ -17065,7 +17085,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 89,
+   "count": 90,
    "ref_scheme": "g"
   },
   {
@@ -17187,12 +17207,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1158
+   "count": 1168
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 85
+   "count": 86
   },
   {
    "id": "fra",
@@ -17234,16 +17254,16 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 986
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 66
+   "count": 996
   },
   {
    "id": "US",
    "name": "United States",
+   "count": 67
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
    "count": 66
   },
   {
@@ -17396,7 +17416,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1031
+   "count": 1036
   },
   {
    "id": "tablet",
@@ -17406,7 +17426,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 166
+   "count": 172
   },
   {
    "id": "desktophd",
@@ -17423,12 +17443,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 651
+   "count": 658
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 594
+   "count": 598
   },
   {
    "name": "",
@@ -17444,17 +17464,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 590
+   "count": 594
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 446
+   "count": 447
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 144
+   "count": 150
   },
   {
    "id": "macOS",
