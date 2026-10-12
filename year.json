@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T10:01:24Z",
+ "generated": "2026-10-12T11:00:39Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1293,
-  "total_events": 815,
-  "total_utc": 1293,
+  "total": 1298,
+  "total_events": 818,
+  "total_utc": 1298,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1293
+    "monthly": 1298
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 228
+    "weekly": 233
    },
    {
     "day": "2026-10-12",
@@ -10979,7 +10979,7 @@
      4,
      11,
      7,
-     0,
+     5,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 69
+    "daily": 74
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 379,
+   "count": 381,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 20
+    "2026-10-12": 22
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 239,
+   "count": 241,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 16
+    "2026-10-12": 18
    }
   },
   {
@@ -11861,6 +11861,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/wurud/sab",
+   "path_id": 111712587,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -16096,9 +16106,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 478,
-  "events_total": 815,
-  "goatcounter_total_with_events": 1293,
+  "visits": 480,
+  "events_total": 818,
+  "goatcounter_total_with_events": 1298,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16110,18 +16120,18 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 29
+   "2026-10-12": 31
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 18
+   "2026-10-12": 20
   },
-  "visitor_days": 249,
+  "visitor_days": 251,
   "return_rate": 0.04,
-  "routes": 237,
+  "routes": 238,
   "routes_not_found": 0,
   "routes_per_visit": 0.5,
   "routes_per_visitor_day": 0.85,
@@ -16172,7 +16182,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 239,
+   "new": 241,
    "return": 10
   },
   "top_routes": [
@@ -16213,6 +16223,10 @@
     "count": 2
    },
    {
+    "name": "wurud > sab",
+    "count": 1
+   },
+   {
     "name": "salam > khaleej",
     "count": 1
    },
@@ -16230,10 +16244,6 @@
    },
    {
     "name": "sab > p_king_khalid_airport_terminals_1_2",
-    "count": 1
-   },
-   {
-    "name": "sab > murooj",
     "count": 1
    }
   ],
@@ -16297,11 +16307,11 @@
     "count": 7
    },
    {
-    "name": "kfl",
-    "count": 6
+    "name": "sab",
+    "count": 7
    },
    {
-    "name": "sab",
+    "name": "kfl",
     "count": 6
    },
    {
@@ -16326,7 +16336,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 302
+    "count": 304
    },
    {
     "name": "com.reddit.frontpage",
@@ -16760,7 +16770,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 302
+    "count": 304
    },
    {
     "path": "/map",
@@ -17123,7 +17133,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 925,
+   "count": 930,
    "ref_scheme": "o"
   },
   {
@@ -17263,7 +17273,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1168
+   "count": 1173
   },
   {
    "id": "ara",
@@ -17310,7 +17320,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1003
+   "count": 1008
   },
   {
    "id": "US",
@@ -17472,7 +17482,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1037
+   "count": 1042
   },
   {
    "id": "tablet",
@@ -17504,7 +17514,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 598
+   "count": 603
   },
   {
    "name": "",
@@ -17520,7 +17530,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 594
+   "count": 599
   },
   {
    "id": "Android",
