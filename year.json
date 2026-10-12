@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T09:03:11Z",
+ "generated": "2026-10-12T10:01:24Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1286,
-  "total_events": 811,
-  "total_utc": 1286,
+  "total": 1293,
+  "total_events": 815,
+  "total_utc": 1293,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1286
+    "monthly": 1293
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 221
+    "weekly": 228
    },
    {
     "day": "2026-10-12",
@@ -10978,7 +10978,7 @@
      3,
      4,
      11,
-     0,
+     7,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 62
+    "daily": 69
    },
    {
     "day": "2026-10-13",
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 238,
+   "count": 239,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 15
+    "2026-10-12": 16
    }
   },
   {
@@ -11112,6 +11112,18 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 3
+   }
+  },
+  {
    "path": "/map",
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
@@ -11135,18 +11147,6 @@
     "2026-10-09": 1,
     "2026-10-10": 2,
     "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3,
-    "2026-10-12": 2
    }
   },
   {
@@ -11253,6 +11253,19 @@
    }
   },
   {
+   "path": "/ar.html",
+   "path_id": 110284017,
+   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 2,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "/destinations/al-awwal-park",
    "path_id": 109448541,
    "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
@@ -11266,18 +11279,6 @@
    }
   },
   {
-   "path": "/ar.html",
-   "path_id": 110284017,
-   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-10": 1,
-    "2026-10-11": 2
-   }
-  },
-  {
    "path": "/destinations/king-abdullah-park",
    "path_id": 109503763,
    "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
@@ -11286,6 +11287,18 @@
    "daily": {
     "2026-10-04": 1,
     "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-qadisiyah",
+   "path_id": 110820839,
+   "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-12": 1
    }
@@ -11448,17 +11461,6 @@
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-qadisiyah",
-   "path_id": 110820839,
-   "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
    "count": 2,
    "daily": {
@@ -11859,6 +11861,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/salam/khaleej",
+   "path_id": 111702875,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/khaleej/to",
+   "path_id": 111702874,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -16064,9 +16096,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 475,
-  "events_total": 811,
-  "goatcounter_total_with_events": 1286,
+  "visits": 478,
+  "events_total": 815,
+  "goatcounter_total_with_events": 1293,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16078,18 +16110,18 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 26
+   "2026-10-12": 29
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 17
+   "2026-10-12": 18
   },
-  "visitor_days": 248,
+  "visitor_days": 249,
   "return_rate": 0.04,
-  "routes": 236,
+  "routes": 237,
   "routes_not_found": 0,
   "routes_per_visit": 0.5,
   "routes_per_visitor_day": 0.85,
@@ -16140,7 +16172,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 238,
+   "new": 239,
    "return": 10
   },
   "top_routes": [
@@ -16181,6 +16213,10 @@
     "count": 2
    },
    {
+    "name": "salam > khaleej",
+    "count": 1
+   },
+   {
     "name": "rabi > kfl",
     "count": 1
    },
@@ -16198,10 +16234,6 @@
    },
    {
     "name": "sab > murooj",
-    "count": 1
-   },
-   {
-    "name": "kafd > gosi",
     "count": 1
    }
   ],
@@ -16337,6 +16369,12 @@
     "count": 1
    }
   ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 8
+   }
+  ],
   "/map": [
    {
     "name": "Google",
@@ -16351,12 +16389,6 @@
     "count": 1
    }
   ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 7
-   }
-  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -16365,12 +16397,6 @@
    {
     "name": "Facebook",
     "count": 2
-   }
-  ],
-  "/destinations/al-awwal-park": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/ar.html": [
@@ -16389,12 +16415,32 @@
    {
     "name": "riyadhmetro.fyi",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   }
+  ],
+  "/destinations/al-awwal-park": [
+   {
+    "name": "Google",
+    "count": 5
    }
   ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
     "count": 4
+   }
+  ],
+  "/ar/districts/al-qadisiyah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/ar/districts/al-saadah": [
@@ -16433,12 +16479,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-qadisiyah": [
-   {
-    "name": "Google",
-    "count": 2
    }
   ],
   "/timings": [
@@ -16727,6 +16767,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-qadisiyah",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 1
    },
@@ -16760,7 +16804,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/",
@@ -16783,6 +16827,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-qadisiyah",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 2
    },
@@ -16792,10 +16840,6 @@
    },
    {
     "path": "/ar/districts/middle-oraija",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-qadisiyah",
     "count": 2
    },
    {
@@ -17045,6 +17089,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/map": [
+   {
+    "path": "/ar.html",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/districts/al-maseef": [
    {
     "path": "/ar/districts/al-taawun",
@@ -17073,7 +17123,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 924,
+   "count": 925,
    "ref_scheme": "o"
   },
   {
@@ -17085,7 +17135,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 90,
+   "count": 91,
    "ref_scheme": "g"
   },
   {
@@ -17103,6 +17153,12 @@
   {
    "id": "riyadhmetro.fyi/map",
    "name": "riyadhmetro.fyi/map",
+   "count": 5,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/map",
+   "name": "riyadhmetro.fyi/ar/map",
    "count": 5,
    "ref_scheme": "h"
   },
@@ -17212,7 +17268,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 86
+   "count": 93
   },
   {
    "id": "fra",
@@ -17254,7 +17310,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 996
+   "count": 1003
   },
   {
    "id": "US",
@@ -17416,7 +17472,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1036
+   "count": 1037
   },
   {
    "id": "tablet",
@@ -17426,7 +17482,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 172
+   "count": 178
   },
   {
    "id": "desktophd",
@@ -17443,7 +17499,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 658
+   "count": 665
   },
   {
    "id": "Safari",
@@ -17469,12 +17525,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 447
+   "count": 448
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 150
+   "count": 156
   },
   {
    "id": "macOS",
