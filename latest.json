@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T05:57:29Z",
+ "generated": "2026-10-12T07:08:51Z",
  "start": "2026-09-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1265,
-  "total_events": 800,
-  "total_utc": 1265,
+  "total": 1271,
+  "total_events": 804,
+  "total_utc": 1271,
   "stats": [
    {
     "day": "2026-09-12",
@@ -608,7 +608,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1265
+    "monthly": 1271
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      10
     ],
     "daily": 202,
-    "weekly": 402
+    "weekly": 408
    },
    {
     "day": "2026-10-11",
@@ -924,8 +924,8 @@
      3,
      0,
      0,
-     5,
-     0,
+     8,
+     3,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 41
+    "daily": 47
    },
    {
     "day": "2026-10-13",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 371,
+   "count": 372,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -992,7 +992,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 12
+    "2026-10-12": 13
    }
   },
   {
@@ -1000,13 +1000,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 233,
+   "count": 234,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 10
+    "2026-10-12": 11
    }
   },
   {
@@ -1203,6 +1203,19 @@
    }
   },
   {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-04": 2,
+    "2026-10-05": 1,
+    "2026-10-09": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "/ar.html",
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
@@ -1225,18 +1238,6 @@
     "2026-10-06": 1,
     "2026-10-11": 1,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/destinations/al-awwal-park",
-   "path_id": 109448541,
-   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-04": 2,
-    "2026-10-05": 1,
-    "2026-10-09": 1
    }
   },
   {
@@ -1338,6 +1339,28 @@
    "count": 2,
    "daily": {
     "2026-10-11": 2
+   }
+  },
+  {
+   "path": "place/p_boulevard_world/to",
+   "path_id": 111087040,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/baba_sweet",
+   "path_id": 111087036,
+   "title": "en|baba sweet",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
    }
   },
   {
@@ -1789,6 +1812,16 @@
    }
   },
   {
+   "path": "noresult/quetta_grill",
+   "path_id": 111640490,
+   "title": "en|quetta grill",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "/ar/destinations/ministry-of-municipal-rural-affairs-and-housing",
    "path_id": 111606931,
    "title": "محطة مترو وزارة الشؤون البلدية والقروية والإسكان: محطة stc، 6 دقائق سيراً",
@@ -2233,26 +2266,6 @@
    "path_id": 111088602,
    "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
    "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "place/p_boulevard_world/to",
-   "path_id": 111087040,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "noresult/baba_sweet",
-   "path_id": 111087036,
-   "title": "en|baba sweet",
-   "event": true,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -5981,9 +5994,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 465,
-  "events_total": 800,
-  "goatcounter_total_with_events": 1265,
+  "visits": 467,
+  "events_total": 804,
+  "goatcounter_total_with_events": 1271,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -5995,16 +6008,16 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 16
+   "2026-10-12": 18
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 11
+   "2026-10-12": 12
   },
-  "visitor_days": 242,
+  "visitor_days": 243,
   "return_rate": 0.037,
   "routes": 234,
   "routes_not_found": 0,
@@ -6018,14 +6031,18 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.028,
+  "failed_search_rate": 0.037,
   "failed_searches": [
    {
-    "name": "الجيومكانية",
+    "name": "baba sweet",
+    "count": 2
+   },
+   {
+    "name": "quetta grill",
     "count": 1
    },
    {
-    "name": "baba sweet",
+    "name": "الجيومكانية",
     "count": 1
    },
    {
@@ -6053,7 +6070,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 233,
+   "new": 234,
    "return": 9
   },
   "top_routes": [
@@ -6207,7 +6224,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 294
+    "count": 295
    },
    {
     "name": "com.reddit.frontpage",
@@ -6280,6 +6297,12 @@
     "count": 2
    }
   ],
+  "/destinations/al-awwal-park": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -6299,12 +6322,6 @@
    }
   ],
   "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 4
-   }
-  ],
-  "/destinations/al-awwal-park": [
    {
     "name": "Google",
     "count": 4
@@ -6633,7 +6650,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 294
+    "count": 295
    },
    {
     "path": "/map",
@@ -6684,11 +6701,11 @@
     "count": 6
    },
    {
-    "path": "/destinations/king-abdullah-park",
-    "count": 4
+    "path": "/destinations/al-awwal-park",
+    "count": 5
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/destinations/king-abdullah-park",
     "count": 4
    },
    {
@@ -6986,7 +7003,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 905,
+   "count": 910,
    "ref_scheme": "o"
   },
   {
@@ -6998,7 +7015,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 88,
+   "count": 89,
    "ref_scheme": "g"
   },
   {
@@ -7120,7 +7137,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1148
+   "count": 1154
   },
   {
    "id": "ara",
@@ -7167,17 +7184,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 980
+   "count": 984
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "count": 66
   },
   {
    "id": "US",
    "name": "United States",
    "count": 66
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 64
   },
   {
    "id": "GB",
@@ -7329,7 +7346,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1025
+   "count": 1029
   },
   {
    "id": "tablet",
@@ -7356,12 +7373,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 647
+   "count": 649
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 590
+   "count": 592
   },
   {
    "name": "",
@@ -7377,12 +7394,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 586
+   "count": 588
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 444
+   "count": 446
   },
   {
    "id": "Windows",
