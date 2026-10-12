@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-11T23:55:44Z",
- "start": "2025-10-11",
- "end": "2026-10-12",
+ "generated": "2026-10-12T01:07:07Z",
+ "start": "2025-10-12",
+ "end": "2026-10-13",
  "total": {
-  "total": 1251,
-  "total_events": 794,
-  "total_utc": 1251,
+  "total": 1255,
+  "total_events": 796,
+  "total_utc": 1255,
   "stats": [
-   {
-    "day": "2025-10-11",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-10-12",
     "hourly": [
@@ -10536,8 +10506,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 5
+    "daily": 0
    },
    {
     "day": "2026-09-27",
@@ -10567,7 +10536,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 14
    },
    {
     "day": "2026-09-28",
@@ -10688,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1251
+    "monthly": 1255
    },
    {
     "day": "2026-10-02",
@@ -10748,8 +10718,7 @@
      0,
      0
     ],
-    "daily": 9,
-    "weekly": 858
+    "daily": 9
    },
    {
     "day": "2026-10-04",
@@ -10779,7 +10748,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 1051
    },
    {
     "day": "2026-10-05",
@@ -10959,8 +10929,7 @@
      12,
      10
     ],
-    "daily": 202,
-    "weekly": 388
+    "daily": 202
    },
    {
     "day": "2026-10-11",
@@ -10990,7 +10959,8 @@
      1,
      1
     ],
-    "daily": 159
+    "daily": 159,
+    "weekly": 190
    },
    {
     "day": "2026-10-12",
@@ -10999,6 +10969,36 @@
      9,
      1,
      10,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 31
+   },
+   {
+    "day": "2026-10-13",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 27
+    "daily": 0
    }
   ]
  },
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 365,
+   "count": 367,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 6
+    "2026-10-12": 8
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 228,
+   "count": 230,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 5
+    "2026-10-12": 7
    }
   },
   {
@@ -16019,9 +16019,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 457,
-  "events_total": 794,
-  "goatcounter_total_with_events": 1251,
+  "visits": 459,
+  "events_total": 796,
+  "goatcounter_total_with_events": 1255,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16033,21 +16033,21 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 8
+   "2026-10-12": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 5
+   "2026-10-12": 7
   },
-  "visitor_days": 236,
+  "visitor_days": 238,
   "return_rate": 0.034,
   "routes": 234,
   "routes_not_found": 0,
   "routes_per_visit": 0.51,
-  "routes_per_visitor_day": 0.89,
+  "routes_per_visitor_day": 0.88,
   "share_rate": 0.021,
   "shares": {
    "whatsapp": 1,
@@ -16091,7 +16091,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 228,
+   "new": 230,
    "return": 8
   },
   "top_routes": [
@@ -16245,7 +16245,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 289
+    "count": 290
    },
    {
     "name": "com.reddit.frontpage",
@@ -16253,7 +16253,7 @@
    },
    {
     "name": "Google",
-    "count": 5
+    "count": 6
    },
    {
     "name": "t.co",
@@ -16665,7 +16665,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 289
+    "count": 290
    },
    {
     "path": "/map",
@@ -16704,12 +16704,12 @@
   ],
   "Google": [
    {
-    "path": "/map",
+    "path": "/",
     "count": 6
    },
    {
-    "path": "/",
-    "count": 5
+    "path": "/map",
+    "count": 6
    },
    {
     "path": "/ar/map",
@@ -17014,7 +17014,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 895,
+   "count": 897,
    "ref_scheme": "o"
   },
   {
@@ -17026,7 +17026,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 84,
+   "count": 86,
    "ref_scheme": "g"
   },
   {
@@ -17148,7 +17148,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1135
+   "count": 1139
   },
   {
    "id": "ara",
@@ -17195,7 +17195,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 970
+   "count": 974
   },
   {
    "id": "AE",
@@ -17357,7 +17357,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1009
+   "count": 1013
   },
   {
    "id": "tablet",
@@ -17384,12 +17384,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 638
+   "count": 640
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 583
+   "count": 585
   },
   {
    "name": "",
@@ -17405,12 +17405,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 579
+   "count": 581
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 435
+   "count": 437
   },
   {
    "id": "Windows",
