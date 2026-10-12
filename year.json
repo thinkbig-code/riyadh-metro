@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T15:04:52Z",
+ "generated": "2026-10-12T15:59:55Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1326,
-  "total_events": 834,
-  "total_utc": 1326,
+  "total": 1329,
+  "total_events": 835,
+  "total_utc": 1329,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1326
+    "monthly": 1329
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 261
+    "weekly": 264
    },
    {
     "day": "2026-10-12",
@@ -10984,13 +10984,13 @@
      16,
      2,
      4,
-     0,
+     3,
      0,
      0,
      0,
      0
     ],
-    "daily": 102
+    "daily": 105
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 387,
+   "count": 388,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 28
+    "2026-10-12": 29
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 247,
+   "count": 248,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 24
+    "2026-10-12": 25
    }
   },
   {
@@ -11199,6 +11199,19 @@
    }
   },
   {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-04": 1,
+    "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 3
+   }
+  },
+  {
    "path": "/destinations/al-awwal-park",
    "path_id": 109448541,
    "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
@@ -11279,19 +11292,6 @@
     "2026-10-10": 1,
     "2026-10-11": 2,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-04": 1,
-    "2026-10-06": 1,
-    "2026-10-11": 1,
-    "2026-10-12": 2
    }
   },
   {
@@ -16201,9 +16201,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 492,
-  "events_total": 834,
-  "goatcounter_total_with_events": 1326,
+  "visits": 494,
+  "events_total": 835,
+  "goatcounter_total_with_events": 1329,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16215,16 +16215,16 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 43
+   "2026-10-12": 45
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 26
+   "2026-10-12": 27
   },
-  "visitor_days": 257,
+  "visitor_days": 258,
   "return_rate": 0.039,
   "routes": 241,
   "routes_not_found": 0,
@@ -16285,7 +16285,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 247,
+   "new": 248,
    "return": 10
   },
   "top_routes": [
@@ -16439,7 +16439,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 309
+    "count": 310
    },
    {
     "name": "com.reddit.frontpage",
@@ -16502,6 +16502,12 @@
     "count": 8
    }
   ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
   "/destinations/al-awwal-park": [
    {
     "name": "Google",
@@ -16538,12 +16544,6 @@
    {
     "name": "riyadhmetro.fyi/ar/map",
     "count": 1
-   }
-  ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/ar/districts/al-qadisiyah": [
@@ -16885,7 +16885,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 309
+    "count": 310
    },
    {
     "path": "/map",
@@ -16940,12 +16940,12 @@
     "count": 6
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/destinations/king-abdullah-park",
     "count": 6
    },
    {
-    "path": "/destinations/king-abdullah-park",
-    "count": 5
+    "path": "/destinations/al-awwal-park",
+    "count": 6
    },
    {
     "path": "/ar/districts/al-saadah",
@@ -17256,7 +17256,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 950,
+   "count": 952,
    "ref_scheme": "o"
   },
   {
@@ -17268,7 +17268,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 97,
+   "count": 98,
    "ref_scheme": "g"
   },
   {
@@ -17396,7 +17396,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1200
+   "count": 1203
   },
   {
    "id": "ara",
@@ -17443,7 +17443,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1034
+   "count": 1037
   },
   {
    "id": "US",
@@ -17605,7 +17605,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1068
+   "count": 1069
   },
   {
    "id": "tablet",
@@ -17615,7 +17615,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 178
+   "count": 180
   },
   {
    "id": "desktophd",
@@ -17632,12 +17632,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 673
+   "count": 675
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 623
+   "count": 624
   },
   {
    "name": "",
@@ -17653,7 +17653,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 619
+   "count": 620
   },
   {
    "id": "Android",
@@ -17663,7 +17663,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 158
+   "count": 160
   },
   {
    "id": "macOS",
