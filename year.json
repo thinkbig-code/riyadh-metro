@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-12T17:57:05Z",
+ "generated": "2026-10-12T19:02:11Z",
  "start": "2025-10-12",
  "end": "2026-10-13",
  "total": {
-  "total": 1338,
-  "total_events": 840,
-  "total_utc": 1338,
+  "total": 1351,
+  "total_events": 849,
+  "total_utc": 1351,
   "stats": [
    {
     "day": "2025-10-12",
@@ -10658,7 +10658,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1338
+    "monthly": 1351
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 273
+    "weekly": 286
    },
    {
     "day": "2026-10-12",
@@ -10986,11 +10986,11 @@
      4,
      3,
      1,
-     8,
-     0,
+     9,
+     12,
      0
     ],
-    "daily": 114
+    "daily": 127
    },
    {
     "day": "2026-10-13",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 391,
+   "count": 394,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11042,7 +11042,7 @@
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
-    "2026-10-12": 32
+    "2026-10-12": 35
    }
   },
   {
@@ -11050,13 +11050,13 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 252,
+   "count": 255,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
-    "2026-10-12": 29
+    "2026-10-12": 32
    }
   },
   {
@@ -11343,6 +11343,17 @@
    }
   },
   {
+   "path": "place/p_panorama_mall/to",
+   "path_id": 110418739,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11396,6 +11407,17 @@
     "2026-10-07": 1,
     "2026-10-08": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
    }
   },
   {
@@ -11570,6 +11592,28 @@
    }
   },
   {
+   "path": "route/gosi/p_panorama_mall",
+   "path_id": 110512953,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/gosi/from",
+   "path_id": 110512848,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
    "path": "place/p_king_saud_university/from",
    "path_id": 110486462,
    "title": "en|name",
@@ -11622,16 +11666,6 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1
-   }
-  },
-  {
-   "path": "place/p_panorama_mall/to",
-   "path_id": 110418739,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
    }
   },
   {
@@ -11876,6 +11910,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/gosi/p_panorama_mall",
+   "path_id": 111781294,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_al_othaim_mall_rabwah",
+   "path_id": 111781200,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/to",
+   "path_id": 111781168,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
    }
   },
   {
@@ -12163,16 +12227,6 @@
    "path_id": 111506919,
    "title": "en|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-arid",
-   "path_id": 111505455,
-   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -13902,26 +13956,6 @@
    "path": "route/granadia/oasis",
    "path_id": 110514767,
    "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/gosi/p_panorama_mall",
-   "path_id": 110512953,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/gosi/from",
-   "path_id": 110512848,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -16221,9 +16255,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 498,
-  "events_total": 840,
-  "goatcounter_total_with_events": 1338,
+  "visits": 502,
+  "events_total": 849,
+  "goatcounter_total_with_events": 1351,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16235,22 +16269,22 @@
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
-   "2026-10-12": 49
+   "2026-10-12": 53
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
    "2026-10-09": 49,
    "2026-10-10": 46,
    "2026-10-11": 40,
-   "2026-10-12": 31
+   "2026-10-12": 34
   },
-  "visitor_days": 262,
+  "visitor_days": 265,
   "return_rate": 0.038,
-  "routes": 242,
+  "routes": 244,
   "routes_not_found": 0,
   "routes_per_visit": 0.49,
   "routes_per_visitor_day": 0.83,
-  "share_rate": 0.021,
+  "share_rate": 0.02,
   "shares": {
    "whatsapp": 1,
    "copy": 1,
@@ -16258,7 +16292,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.045,
+  "failed_search_rate": 0.044,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -16305,7 +16339,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 252,
+   "new": 255,
    "return": 10
   },
   "top_routes": [
@@ -16319,6 +16353,10 @@
    },
    {
     "name": "moi > p_kafd_king_abdullah_financial_district",
+    "count": 2
+   },
+   {
+    "name": "gosi > p_panorama_mall",
     "count": 2
    },
    {
@@ -16346,6 +16384,10 @@
     "count": 2
    },
    {
+    "name": "gosi > p_al_othaim_mall_rabwah",
+    "count": 1
+   },
+   {
     "name": "abudhabi > alinma",
     "count": 1
    },
@@ -16359,14 +16401,6 @@
    },
    {
     "name": "pnu1 > p_kafd_king_abdullah_financial_district",
-    "count": 1
-   },
-   {
-    "name": "wurud > sab",
-    "count": 1
-   },
-   {
-    "name": "salam > khaleej",
     "count": 1
    }
   ],
@@ -16459,7 +16493,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 311
+    "count": 314
    },
    {
     "name": "com.reddit.frontpage",
@@ -16596,6 +16630,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-arid": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-maseef": [
    {
     "name": "Google",
@@ -16679,12 +16723,6 @@
   "/ar/districts/al-duraihemiyah": [
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-arid": [
-   {
-    "name": "(direct or unknown)",
     "count": 1
    }
   ],
@@ -16909,7 +16947,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 311
+    "count": 314
    },
    {
     "path": "/map",
@@ -16924,15 +16962,15 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-arid",
+    "count": 1
+   },
+   {
     "path": "/destinations/riyadh-front",
     "count": 1
    },
    {
     "path": "/timings",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-arid",
     "count": 1
    },
    {
@@ -17006,6 +17044,10 @@
    {
     "path": "/ar/stations/qasr-al-hokm",
     "count": 2
+   },
+   {
+    "path": "/ar/districts/al-arid",
+    "count": 1
    },
    {
     "path": "/destinations/riyadh-front",
@@ -17282,7 +17324,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 956,
+   "count": 968,
    "ref_scheme": "o"
   },
   {
@@ -17294,7 +17336,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 99,
+   "count": 100,
    "ref_scheme": "g"
   },
   {
@@ -17422,12 +17464,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1208
+   "count": 1220
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 95
+   "count": 96
   },
   {
    "id": "fra",
@@ -17469,7 +17511,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1039
+   "count": 1052
   },
   {
    "id": "US",
@@ -17631,7 +17673,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1074
+   "count": 1087
   },
   {
    "id": "tablet",
@@ -17658,12 +17700,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 683
+   "count": 692
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 625
+   "count": 629
   },
   {
    "name": "",
@@ -17679,12 +17721,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 621
+   "count": 625
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 458
+   "count": 467
   },
   {
    "id": "Windows",
