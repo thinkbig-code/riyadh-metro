@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T02:58:51Z",
+ "generated": "2026-10-13T04:00:35Z",
  "start": "2025-10-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1377,
-  "total_events": 864,
-  "total_utc": 1377,
+  "total": 1382,
+  "total_events": 866,
+  "total_utc": 1382,
   "stats": [
    {
     "day": "2025-10-13",
@@ -10628,7 +10628,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1377
+    "monthly": 1382
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 153
+    "weekly": 158
    },
    {
     "day": "2026-10-13",
@@ -10972,8 +10972,8 @@
      0,
      2,
      10,
-     0,
-     0,
+     1,
+     4,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 25
+    "daily": 30
    },
    {
     "day": "2026-10-14",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 399,
+   "count": 401,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11043,7 +11043,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 5
+    "2026-10-13": 7
    }
   },
   {
@@ -11051,14 +11051,14 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 261,
+   "count": 263,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 6
+    "2026-10-13": 8
    }
   },
   {
@@ -11928,6 +11928,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-tv-tower",
+   "path_id": 111838109,
+   "title": "Riyadh TV Tower Metro Station: National Museum (Blue/Green lines)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
    }
   },
   {
@@ -16343,9 +16353,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 513,
-  "events_total": 864,
-  "goatcounter_total_with_events": 1377,
+  "visits": 516,
+  "events_total": 866,
+  "goatcounter_total_with_events": 1382,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16358,7 +16368,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 10
+   "2026-10-13": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16366,14 +16376,14 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 6
+   "2026-10-13": 8
   },
-  "visitor_days": 271,
+  "visitor_days": 273,
   "return_rate": 0.037,
   "routes": 246,
   "routes_not_found": 0,
   "routes_per_visit": 0.48,
-  "routes_per_visitor_day": 0.82,
+  "routes_per_visitor_day": 0.81,
   "share_rate": 0.02,
   "shares": {
    "whatsapp": 1,
@@ -16429,7 +16439,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 261,
+   "new": 263,
    "return": 10
   },
   "top_routes": [
@@ -16583,11 +16593,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 317
+    "count": 318
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 63
+    "count": 64
    },
    {
     "name": "Google",
@@ -16794,6 +16804,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/riyadh-tv-tower": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/ar/districts/al-khalidiyah": [
@@ -17029,19 +17045,13 @@
     "name": "Facebook",
     "count": 1
    }
-  ],
-  "/destinations/riyadh-gallery-mall": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 317
+    "count": 318
    },
    {
     "path": "/map",
@@ -17068,6 +17078,10 @@
     "count": 1
    },
    {
+    "path": "/destinations/riyadh-tv-tower",
+    "count": 1
+   },
+   {
     "path": "/stations/airport-t5",
     "count": 1
    },
@@ -17079,7 +17093,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 63
+    "count": 64
    }
   ],
   "Google": [
@@ -17282,10 +17296,6 @@
    {
     "path": "/ar/destinations/gold-souq",
     "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
-    "count": 1
    }
   ],
   "t.co": [
@@ -17424,13 +17434,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 981,
+   "count": 986,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 228,
+   "count": 230,
    "ref_scheme": "o"
   },
   {
@@ -17570,7 +17580,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1243
+   "count": 1250
   },
   {
    "id": "ara",
@@ -17622,7 +17632,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 72
+   "count": 73
   },
   {
    "id": "AE",
@@ -17637,17 +17647,17 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 16
+   "count": 18
+  },
+  {
+   "id": "NL",
+   "name": "Netherlands",
+   "count": 13
   },
   {
    "id": "IN",
    "name": "India",
    "count": 12
-  },
-  {
-   "id": "NL",
-   "name": "Netherlands",
-   "count": 11
   },
   {
    "id": "ES",
@@ -17685,6 +17695,11 @@
    "count": 6
   },
   {
+   "id": "FR",
+   "name": "France",
+   "count": 6
+  },
+  {
    "id": "JO",
    "name": "Hashemite Kingdom of Jordan",
    "count": 6
@@ -17698,11 +17713,6 @@
    "id": "SE",
    "name": "Sweden",
    "count": 5
-  },
-  {
-   "id": "FR",
-   "name": "France",
-   "count": 4
   },
   {
    "id": "TR",
@@ -17784,17 +17794,17 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1111
+   "count": 1115
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 35
+   "count": 37
   },
   {
    "id": "desktop",
    "name": "",
-   "count": 181
+   "count": 182
   },
   {
    "id": "desktophd",
@@ -17811,12 +17821,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 706
+   "count": 711
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 641
+   "count": 643
   },
   {
    "name": "",
@@ -17832,12 +17842,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 637
+   "count": 639
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 479
+   "count": 481
   },
   {
    "id": "Windows",
@@ -17852,7 +17862,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 28
+   "count": 31
   },
   {
    "id": "Chrome OS",

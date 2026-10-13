@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T02:57:43Z",
+ "generated": "2026-10-13T03:59:11Z",
  "start": "2026-09-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1377,
+  "total": 1378,
   "total_events": 864,
-  "total_utc": 1377,
+  "total_utc": 1378,
   "stats": [
    {
     "day": "2026-09-13",
@@ -578,7 +578,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1377
+    "monthly": 1378
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 312
+    "weekly": 313
    },
    {
     "day": "2026-10-12",
@@ -922,7 +922,7 @@
      0,
      2,
      10,
-     0,
+     1,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 25
+    "daily": 26
    },
    {
     "day": "2026-10-14",
@@ -1878,6 +1878,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-tv-tower",
+   "path_id": 111838109,
+   "title": "Riyadh TV Tower Metro Station: National Museum (Blue/Green lines)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
    }
   },
   {
@@ -6293,9 +6303,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 513,
+  "visits": 514,
   "events_total": 864,
-  "goatcounter_total_with_events": 1377,
+  "goatcounter_total_with_events": 1378,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6308,7 +6318,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 10
+   "2026-10-13": 11
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6746,6 +6756,12 @@
     "count": 2
    }
   ],
+  "/destinations/riyadh-tv-tower": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-khalidiyah": [
    {
     "name": "Google",
@@ -6979,12 +6995,6 @@
     "name": "Facebook",
     "count": 1
    }
-  ],
-  "/destinations/riyadh-gallery-mall": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -7015,6 +7025,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/destinations/riyadh-tv-tower",
     "count": 1
    },
    {
@@ -7232,10 +7246,6 @@
    {
     "path": "/ar/destinations/gold-souq",
     "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
-    "count": 1
    }
   ],
   "t.co": [
@@ -7374,7 +7384,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 981,
+   "count": 982,
    "ref_scheme": "o"
   },
   {
@@ -7520,7 +7530,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1243
+   "count": 1244
   },
   {
    "id": "ara",
@@ -7572,7 +7582,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 72
+   "count": 73
   },
   {
    "id": "AE",
@@ -7744,7 +7754,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 181
+   "count": 182
   },
   {
    "id": "desktophd",
@@ -7761,7 +7771,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 706
+   "count": 707
   },
   {
    "id": "Safari",
@@ -7802,7 +7812,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 28
+   "count": 29
   },
   {
    "id": "Chrome OS",
