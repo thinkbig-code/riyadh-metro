@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T09:58:58Z",
+ "generated": "2026-10-13T11:00:06Z",
  "start": "2026-09-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1421,
-  "total_events": 886,
-  "total_utc": 1421,
+  "total": 1427,
+  "total_events": 889,
+  "total_utc": 1427,
   "stats": [
    {
     "day": "2026-09-13",
@@ -578,7 +578,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1421
+    "monthly": 1427
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 356
+    "weekly": 362
    },
    {
     "day": "2026-10-12",
@@ -929,7 +929,7 @@
      2,
      1,
      12,
-     0,
+     6,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 69
+    "daily": 75
    },
    {
     "day": "2026-10-14",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 411,
+   "count": 413,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -993,7 +993,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 17
+    "2026-10-13": 19
    }
   },
   {
@@ -1041,6 +1041,20 @@
    }
   },
   {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 14,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 4,
+    "2026-10-11": 2,
+    "2026-10-12": 2,
+    "2026-10-13": 4
+   }
+  },
+  {
    "path": "/map",
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
@@ -1052,20 +1066,6 @@
     "2026-10-11": 3,
     "2026-10-12": 1,
     "2026-10-13": 3
-   }
-  },
-  {
-   "path": "visit/return/-",
-   "path_id": 110708664,
-   "title": "en",
-   "event": true,
-   "count": 12,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 4,
-    "2026-10-11": 2,
-    "2026-10-12": 2,
-    "2026-10-13": 2
    }
   },
   {
@@ -1562,6 +1562,17 @@
    }
   },
   {
+   "path": "route/granadia/oasis",
+   "path_id": 110514767,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
    "path": "route/gosi/p_panorama_mall",
    "path_id": 110512953,
    "title": "en|search|ok",
@@ -1592,6 +1603,17 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-rawdah",
+   "path_id": 110465981,
+   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1
    }
   },
   {
@@ -4123,16 +4145,6 @@
    }
   },
   {
-   "path": "route/granadia/oasis",
-   "path_id": 110514767,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/urubah/officers",
    "path_id": 110511106,
    "title": "en|map|ok",
@@ -4817,16 +4829,6 @@
    "path_id": 110467747,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "/districts/al-rawdah",
-   "path_id": 110465981,
-   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-08": 1
@@ -6425,9 +6427,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 535,
-  "events_total": 886,
-  "goatcounter_total_with_events": 1421,
+  "visits": 538,
+  "events_total": 889,
+  "goatcounter_total_with_events": 1427,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6440,7 +6442,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 32
+   "2026-10-13": 35
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6448,11 +6450,11 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 20
+   "2026-10-13": 22
   },
-  "visitor_days": 285,
-  "return_rate": 0.042,
-  "routes": 251,
+  "visitor_days": 287,
+  "return_rate": 0.049,
+  "routes": 252,
   "routes_not_found": 0,
   "routes_per_visit": 0.47,
   "routes_per_visitor_day": 0.79,
@@ -6512,7 +6514,7 @@
   },
   "visitors_new_return": {
    "new": 273,
-   "return": 12
+   "return": 14
   },
   "top_routes": [
    {
@@ -6525,6 +6527,10 @@
    },
    {
     "name": "moi > p_kafd_king_abdullah_financial_district",
+    "count": 2
+   },
+   {
+    "name": "granadia > oasis",
     "count": 2
    },
    {
@@ -6570,10 +6576,6 @@
    {
     "name": "ksp > manfouhah",
     "count": 1
-   },
-   {
-    "name": "granadia > sabic",
-    "count": 1
    }
   ],
   "top_origins": [
@@ -6610,11 +6612,11 @@
     "count": 7
    },
    {
-    "name": "t12",
+    "name": "granadia",
     "count": 7
    },
    {
-    "name": "malaz",
+    "name": "t12",
     "count": 7
    }
   ],
@@ -6665,7 +6667,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 327
+    "count": 329
    },
    {
     "name": "com.reddit.frontpage",
@@ -6861,6 +6863,12 @@
    }
   ],
   "/stations": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/districts/al-rawdah": [
    {
     "name": "Google",
     "count": 2
@@ -7111,19 +7119,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/destinations/diriyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 327
+    "count": 329
    },
    {
     "path": "/map",
@@ -7215,6 +7217,10 @@
    },
    {
     "path": "/stations",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-rawdah",
     "count": 2
    },
    {
@@ -7364,10 +7370,6 @@
    {
     "path": "/stations/ministry-of-interior",
     "count": 1
-   },
-   {
-    "path": "/destinations/diriyah",
-    "count": 1
    }
   ],
   "t.co": [
@@ -7508,7 +7510,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1011,
+   "count": 1016,
    "ref_scheme": "o"
   },
   {
@@ -7520,7 +7522,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 115,
+   "count": 116,
    "ref_scheme": "g"
   },
   {
@@ -7660,7 +7662,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1285
+   "count": 1291
   },
   {
    "id": "ara",
@@ -7707,7 +7709,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1104
+   "count": 1110
   },
   {
    "id": "US",
@@ -7874,12 +7876,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1143
+   "count": 1146
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 37
+   "count": 40
   },
   {
    "id": "desktop",
@@ -7901,12 +7903,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 727
+   "count": 728
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 658
+   "count": 663
   },
   {
    "name": "",
@@ -7922,12 +7924,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 658
+   "count": 660
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 490
+   "count": 491
   },
   {
    "id": "Windows",
@@ -7937,7 +7939,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 67
+   "count": 70
   },
   {
    "id": "Linux",
