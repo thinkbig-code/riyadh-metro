@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T01:57:25Z",
+ "generated": "2026-10-13T02:57:43Z",
  "start": "2026-09-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1367,
-  "total_events": 857,
-  "total_utc": 1367,
+  "total": 1377,
+  "total_events": 864,
+  "total_utc": 1377,
   "stats": [
    {
     "day": "2026-09-13",
@@ -578,7 +578,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1367
+    "monthly": 1377
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 302
+    "weekly": 312
    },
    {
     "day": "2026-10-12",
@@ -921,7 +921,7 @@
      8,
      0,
      2,
-     0,
+     10,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 25
    },
    {
     "day": "2026-10-14",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 398,
+   "count": 399,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -993,7 +993,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 4
+    "2026-10-13": 5
    }
   },
   {
@@ -1001,14 +1001,14 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 259,
+   "count": 261,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 4
+    "2026-10-13": 6
    }
   },
   {
@@ -1167,6 +1167,20 @@
    }
   },
   {
+   "path": "/ar.html",
+   "path_id": 110284017,
+   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 2,
+    "2026-10-12": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
    "path": "/destinations/king-abdullah-park",
    "path_id": 109503763,
    "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
@@ -1234,19 +1248,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "/ar.html",
-   "path_id": 110284017,
-   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-10": 1,
-    "2026-10-11": 2,
-    "2026-10-12": 1
    }
   },
   {
@@ -1448,6 +1449,17 @@
    "count": 2,
    "daily": {
     "2026-10-10": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-wisham",
+   "path_id": 110894791,
+   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1
    }
   },
   {
@@ -1866,6 +1878,56 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/owd/ishbiliyah",
+   "path_id": 111827735,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/owd/ishbiliyah",
+   "path_id": 111827695,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/owd/from",
+   "path_id": 111827694,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/ishbiliyah/to",
+   "path_id": 111827658,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/aishah/to",
+   "path_id": 111827625,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
    }
   },
   {
@@ -3143,16 +3205,6 @@
    "path_id": 110912081,
    "title": "en|indian embassy",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-wisham",
-   "path_id": 110894791,
-   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-10": 1
@@ -6241,9 +6293,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 510,
-  "events_total": 857,
-  "goatcounter_total_with_events": 1367,
+  "visits": 513,
+  "events_total": 864,
+  "goatcounter_total_with_events": 1377,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6256,7 +6308,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 7
+   "2026-10-13": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6264,11 +6316,11 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 4
+   "2026-10-13": 6
   },
-  "visitor_days": 269,
+  "visitor_days": 271,
   "return_rate": 0.037,
-  "routes": 245,
+  "routes": 246,
   "routes_not_found": 0,
   "routes_per_visit": 0.48,
   "routes_per_visitor_day": 0.82,
@@ -6280,7 +6332,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.044,
+  "failed_search_rate": 0.043,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -6327,7 +6379,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 259,
+   "new": 261,
    "return": 10
   },
   "top_routes": [
@@ -6372,6 +6424,10 @@
     "count": 2
    },
    {
+    "name": "owd > ishbiliyah",
+    "count": 1
+   },
+   {
     "name": "p_hayat_mall > p_kafd_king_abdullah_financial_district",
     "count": 1
    },
@@ -6385,10 +6441,6 @@
    },
    {
     "name": "pnu1 > hokm",
-    "count": 1
-   },
-   {
-    "name": "pnu1 > p_kingdom_centre",
     "count": 1
    }
   ],
@@ -6481,7 +6533,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 316
+    "count": 317
    },
    {
     "name": "com.reddit.frontpage",
@@ -6554,22 +6606,6 @@
     "count": 7
    }
   ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 6
-   }
-  ],
-  "/ur.html": [
-   {
-    "name": "www.facebook.com",
-    "count": 3
-   },
-   {
-    "name": "Facebook",
-    "count": 2
-   }
-  ],
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -6590,6 +6626,26 @@
    {
     "name": "riyadhmetro.fyi/ar/map",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-wisham",
+    "count": 1
+   }
+  ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
+  "/ur.html": [
+   {
+    "name": "www.facebook.com",
+    "count": 3
+   },
+   {
+    "name": "Facebook",
+    "count": 2
    }
   ],
   "/ar/districts/middle-oraija": [
@@ -6641,6 +6697,12 @@
    }
   ],
   "/ar/districts/north-mathar": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/ar/districts/al-wisham": [
    {
     "name": "Google",
     "count": 2
@@ -6840,12 +6902,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-wisham": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-muhammadiyah": [
    {
     "name": "Google",
@@ -6935,7 +6991,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 316
+    "count": 317
    },
    {
     "path": "/map",
@@ -7019,6 +7075,10 @@
    },
    {
     "path": "/ar/districts/north-mathar",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-wisham",
     "count": 2
    },
    {
@@ -7138,10 +7198,6 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-wisham",
-    "count": 1
-   },
-   {
     "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
@@ -7246,16 +7302,6 @@
     "count": 1
    }
   ],
-  "Facebook": [
-   {
-    "path": "/ur.html",
-    "count": 2
-   },
-   {
-    "path": "/tl.html",
-    "count": 1
-   }
-  ],
   "riyadhmetro.fyi/ar/destinations/diriyah": [
    {
     "path": "/ar.html",
@@ -7290,6 +7336,22 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/districts/al-wisham": [
+   {
+    "path": "/ar.html",
+    "count": 1
+   }
+  ],
+  "Facebook": [
+   {
+    "path": "/ur.html",
+    "count": 2
+   },
+   {
+    "path": "/tl.html",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/districts/al-maseef": [
    {
     "path": "/ar/districts/al-taawun",
@@ -7312,7 +7374,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 973,
+   "count": 981,
    "ref_scheme": "o"
   },
   {
@@ -7324,7 +7386,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 103,
+   "count": 104,
    "ref_scheme": "g"
   },
   {
@@ -7446,13 +7508,19 @@
    "name": "riyadhmetro.fyi/ar/districts/al-maseef",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/districts/al-wisham",
+   "name": "riyadhmetro.fyi/ar/districts/al-wisham",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1233
+   "count": 1243
   },
   {
    "id": "ara",
@@ -7499,7 +7567,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1064
+   "count": 1074
   },
   {
    "id": "US",
@@ -7666,7 +7734,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1101
+   "count": 1111
   },
   {
    "id": "tablet",
@@ -7693,12 +7761,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 704
+   "count": 706
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 633
+   "count": 641
   },
   {
    "name": "",
@@ -7714,12 +7782,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 629
+   "count": 637
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 477
+   "count": 479
   },
   {
    "id": "Windows",
