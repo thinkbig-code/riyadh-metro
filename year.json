@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T08:01:50Z",
+ "generated": "2026-10-13T09:00:16Z",
  "start": "2025-10-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1408,
+  "total": 1409,
   "total_events": 880,
-  "total_utc": 1408,
+  "total_utc": 1409,
   "stats": [
    {
     "day": "2025-10-13",
@@ -10628,7 +10628,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1408
+    "monthly": 1409
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 184
+    "weekly": 185
    },
    {
     "day": "2026-10-13",
@@ -10977,7 +10977,7 @@
      11,
      4,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 56
+    "daily": 57
    },
    {
     "day": "2026-10-14",
@@ -11929,6 +11929,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/stc",
+   "path_id": 111871403,
+   "title": "stc Metro Station, Riyadh: Blue/Red lines, No. 7",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
    }
   },
   {
@@ -16404,9 +16414,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 528,
+  "visits": 529,
   "events_total": 880,
-  "goatcounter_total_with_events": 1408,
+  "goatcounter_total_with_events": 1409,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16419,7 +16429,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 25
+   "2026-10-13": 26
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16857,6 +16867,12 @@
     "count": 2
    }
   ],
+  "/stations/stc": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/king-fahd-stadium": [
    {
     "name": "chatgpt.com",
@@ -17090,12 +17106,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -17221,6 +17231,10 @@
     "count": 1
    },
    {
+    "path": "/stations/stc",
+    "count": 1
+   },
+   {
     "path": "/destinations/jawazat",
     "count": 1
    },
@@ -17342,10 +17356,6 @@
    },
    {
     "path": "/destinations/diriyah",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-rawdah",
     "count": 1
    }
   ],
@@ -17499,7 +17509,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 110,
+   "count": 111,
    "ref_scheme": "g"
   },
   {
@@ -17639,7 +17649,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1273
+   "count": 1274
   },
   {
    "id": "ara",
@@ -17686,7 +17696,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1091
+   "count": 1092
   },
   {
    "id": "US",
@@ -17863,7 +17873,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 187
+   "count": 188
   },
   {
    "id": "desktophd",
@@ -17880,7 +17890,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 722
+   "count": 723
   },
   {
    "id": "Safari",
@@ -17911,7 +17921,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 168
+   "count": 169
   },
   {
    "id": "macOS",
