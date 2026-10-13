@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T04:59:19Z",
+ "generated": "2026-10-13T05:57:52Z",
  "start": "2026-09-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1391,
-  "total_events": 872,
-  "total_utc": 1391,
+  "total": 1400,
+  "total_events": 876,
+  "total_utc": 1400,
   "stats": [
    {
     "day": "2026-09-13",
@@ -578,7 +578,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1391
+    "monthly": 1400
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 326
+    "weekly": 335
    },
    {
     "day": "2026-10-12",
@@ -924,7 +924,7 @@
      10,
      1,
      13,
-     0,
+     9,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 39
+    "daily": 48
    },
    {
     "day": "2026-10-14",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 404,
+   "count": 408,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -993,7 +993,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 10
+    "2026-10-13": 14
    }
   },
   {
@@ -1001,14 +1001,14 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 267,
+   "count": 271,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 12
+    "2026-10-13": 16
    }
   },
   {
@@ -1055,6 +1055,19 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 3,
+    "2026-10-13": 2
+   }
+  },
+  {
    "path": "/map",
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
@@ -1065,19 +1078,6 @@
     "2026-10-10": 3,
     "2026-10-11": 3,
     "2026-10-12": 1,
-    "2026-10-13": 1
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3,
-    "2026-10-12": 3,
     "2026-10-13": 1
    }
   },
@@ -6314,9 +6314,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 519,
-  "events_total": 872,
-  "goatcounter_total_with_events": 1391,
+  "visits": 524,
+  "events_total": 876,
+  "goatcounter_total_with_events": 1400,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6329,7 +6329,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 16
+   "2026-10-13": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6337,14 +6337,14 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 13
+   "2026-10-13": 17
   },
-  "visitor_days": 278,
-  "return_rate": 0.04,
+  "visitor_days": 282,
+  "return_rate": 0.039,
   "routes": 247,
   "routes_not_found": 0,
-  "routes_per_visit": 0.48,
-  "routes_per_visitor_day": 0.8,
+  "routes_per_visit": 0.47,
+  "routes_per_visitor_day": 0.79,
   "share_rate": 0.02,
   "shares": {
    "whatsapp": 1,
@@ -6400,7 +6400,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 267,
+   "new": 271,
    "return": 11
   },
   "top_routes": [
@@ -6554,7 +6554,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 321
+    "count": 325
    },
    {
     "name": "com.reddit.frontpage",
@@ -6601,6 +6601,12 @@
     "count": 1
    }
   ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 10
+   }
+  ],
   "/map": [
    {
     "name": "Google",
@@ -6613,12 +6619,6 @@
    {
     "name": "riyadhmetro.fyi/destinations/riyadh-front",
     "count": 1
-   }
-  ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 9
    }
   ],
   "/destinations/al-awwal-park": [
@@ -7012,7 +7012,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 321
+    "count": 325
    },
    {
     "path": "/map",
@@ -7060,7 +7060,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 9
+    "count": 10
    },
    {
     "path": "/map",
@@ -7395,7 +7395,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 993,
+   "count": 1001,
    "ref_scheme": "o"
   },
   {
@@ -7407,7 +7407,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 104,
+   "count": 105,
    "ref_scheme": "g"
   },
   {
@@ -7541,12 +7541,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1257
+   "count": 1265
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 98
+   "count": 99
   },
   {
    "id": "(unknown)",
@@ -7588,7 +7588,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1079
+   "count": 1088
   },
   {
    "id": "US",
@@ -7755,7 +7755,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1120
+   "count": 1128
   },
   {
    "id": "tablet",
@@ -7765,7 +7765,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 184
+   "count": 185
   },
   {
    "id": "desktophd",
@@ -7782,16 +7782,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 715
+   "count": 716
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 646
+   "count": 648
   },
   {
    "name": "",
-   "count": 16
+   "count": 22
   },
   {
    "id": "Firefox",
@@ -7803,7 +7803,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 640
+   "count": 648
   },
   {
    "id": "Android",
@@ -7813,7 +7813,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 165
+   "count": 166
   },
   {
    "id": "macOS",
