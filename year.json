@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T11:59:46Z",
+ "generated": "2026-10-13T13:09:43Z",
  "start": "2025-10-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1427,
-  "total_events": 889,
-  "total_utc": 1427,
+  "total": 1436,
+  "total_events": 892,
+  "total_utc": 1436,
   "stats": [
    {
     "day": "2025-10-13",
@@ -10628,7 +10628,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1427
+    "monthly": 1436
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 203
+    "weekly": 212
    },
    {
     "day": "2026-10-13",
@@ -10981,8 +10981,8 @@
      12,
      6,
      0,
-     0,
-     0,
+     8,
+     1,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 75
+    "daily": 84
    },
    {
     "day": "2026-10-14",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 413,
+   "count": 415,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11043,7 +11043,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 19
+    "2026-10-13": 21
    }
   },
   {
@@ -11051,14 +11051,14 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 273,
+   "count": 274,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 18
+    "2026-10-13": 19
    }
   },
   {
@@ -11440,6 +11440,16 @@
    }
   },
   {
+   "path": "/districts/al-yasmeen",
+   "path_id": 111876907,
+   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 2
+   }
+  },
+  {
    "path": "/ar/districts/al-maseef",
    "path_id": 111125799,
    "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
@@ -11480,6 +11490,17 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1
    }
   },
   {
@@ -11955,9 +11976,39 @@
    }
   },
   {
-   "path": "/districts/al-yasmeen",
-   "path_id": 111876907,
-   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "path": "/ar/districts/dhahrat-al-badeah",
+   "path_id": 111898727,
+   "title": "أقرب محطة مترو لحي ظهرة البديعة: محطة شارع عائشة بنت أبي بكر (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/khashm/dhabab",
+   "path_id": 111895980,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/khashm/dhabab",
+   "path_id": 111895763,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-salman-oasis",
+   "path_id": 111893705,
+   "title": "محطة مترو واحة الملك سلمان: محطة واحة الملك سلمان (المسار الأحمر)",
    "event": false,
    "count": 1,
    "daily": {
@@ -13129,16 +13180,6 @@
    "path_id": 110983610,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-10": 1
@@ -16477,9 +16518,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 538,
-  "events_total": 889,
-  "goatcounter_total_with_events": 1427,
+  "visits": 544,
+  "events_total": 892,
+  "goatcounter_total_with_events": 1436,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16492,7 +16533,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 35
+   "2026-10-13": 41
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16500,11 +16541,11 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 22
+   "2026-10-13": 23
   },
-  "visitor_days": 287,
+  "visitor_days": 288,
   "return_rate": 0.049,
-  "routes": 252,
+  "routes": 253,
   "routes_not_found": 0,
   "routes_per_visit": 0.47,
   "routes_per_visitor_day": 0.79,
@@ -16563,7 +16604,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 273,
+   "new": 274,
    "return": 14
   },
   "top_routes": [
@@ -16612,6 +16653,10 @@
     "count": 2
    },
    {
+    "name": "khashm > dhabab",
+    "count": 1
+   },
+   {
     "name": "uthman > kfl",
     "count": 1
    },
@@ -16621,10 +16666,6 @@
    },
    {
     "name": "mof > kbw",
-    "count": 1
-   },
-   {
-    "name": "ksp > manfouhah",
     "count": 1
    }
   ],
@@ -16666,7 +16707,7 @@
     "count": 7
    },
    {
-    "name": "t12",
+    "name": "khashm",
     "count": 7
    }
   ],
@@ -16717,7 +16758,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 329
+    "count": 330
    },
    {
     "name": "com.reddit.frontpage",
@@ -16725,7 +16766,7 @@
    },
    {
     "name": "Google",
-    "count": 7
+    "count": 8
    },
    {
     "name": "t.co",
@@ -16874,6 +16915,12 @@
     "count": 1
    }
   ],
+  "/districts/al-yasmeen": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-maseef": [
    {
     "name": "Google",
@@ -16881,6 +16928,12 @@
    }
   ],
   "/ar/districts/north-mathar": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/ar/districts/qurtubah": [
    {
     "name": "Google",
     "count": 2
@@ -16936,7 +16989,13 @@
     "count": 2
    }
   ],
-  "/districts/al-yasmeen": [
+  "/ar/districts/dhahrat-al-badeah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/king-salman-oasis": [
    {
     "name": "Google",
     "count": 1
@@ -17068,12 +17127,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/stations/mew-a": [
    {
     "name": "Google",
@@ -17157,25 +17210,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/stations/king-salman-oasis": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/stations/ministry-of-interior": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 329
+    "count": 330
    },
    {
     "path": "/map",
@@ -17227,7 +17268,7 @@
    },
    {
     "path": "/",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -17254,11 +17295,19 @@
     "count": 2
    },
    {
+    "path": "/districts/al-yasmeen",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-maseef",
     "count": 2
    },
    {
     "path": "/ar/districts/north-mathar",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/qurtubah",
     "count": 2
    },
    {
@@ -17294,7 +17343,11 @@
     "count": 1
    },
    {
-    "path": "/districts/al-yasmeen",
+    "path": "/ar/districts/dhahrat-al-badeah",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/king-salman-oasis",
     "count": 1
    },
    {
@@ -17362,10 +17415,6 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/qurtubah",
-    "count": 1
-   },
-   {
     "path": "/ar/stations/mew-a",
     "count": 1
    },
@@ -17411,14 +17460,6 @@
    },
    {
     "path": "/ar/destinations/masmak-fortress",
-    "count": 1
-   },
-   {
-    "path": "/stations/king-salman-oasis",
-    "count": 1
-   },
-   {
-    "path": "/stations/ministry-of-interior",
     "count": 1
    }
   ],
@@ -17560,7 +17601,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1016,
+   "count": 1017,
    "ref_scheme": "o"
   },
   {
@@ -17572,7 +17613,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 116,
+   "count": 124,
    "ref_scheme": "g"
   },
   {
@@ -17712,12 +17753,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1291
+   "count": 1297
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 100
+   "count": 103
   },
   {
    "id": "(unknown)",
@@ -17759,17 +17800,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1110
+   "count": 1115
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "count": 74
   },
   {
    "id": "US",
    "name": "United States",
    "count": 73
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 70
   },
   {
    "id": "GB",
@@ -17926,7 +17967,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1146
+   "count": 1150
   },
   {
    "id": "tablet",
@@ -17936,7 +17977,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 190
+   "count": 195
   },
   {
    "id": "desktophd",
@@ -17953,12 +17994,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 728
+   "count": 736
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 663
+   "count": 664
   },
   {
    "name": "",
@@ -17974,17 +18015,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 660
+   "count": 661
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 491
+   "count": 494
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 171
+   "count": 176
   },
   {
    "id": "macOS",
