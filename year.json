@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T05:59:01Z",
+ "generated": "2026-10-13T07:09:31Z",
  "start": "2025-10-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1400,
-  "total_events": 876,
-  "total_utc": 1400,
+  "total": 1408,
+  "total_events": 880,
+  "total_utc": 1408,
   "stats": [
    {
     "day": "2025-10-13",
@@ -10628,7 +10628,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1400
+    "monthly": 1408
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 176
+    "weekly": 184
    },
    {
     "day": "2026-10-13",
@@ -10974,9 +10974,9 @@
      10,
      1,
      13,
-     9,
-     0,
-     0,
+     11,
+     4,
+     2,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 48
+    "daily": 56
    },
    {
     "day": "2026-10-14",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 408,
+   "count": 410,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11043,7 +11043,7 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 14
+    "2026-10-13": 16
    }
   },
   {
@@ -11051,14 +11051,14 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 271,
+   "count": 272,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 16
+    "2026-10-13": 17
    }
   },
   {
@@ -11095,13 +11095,13 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 11,
+   "count": 12,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
     "2026-10-12": 2,
-    "2026-10-13": 1
+    "2026-10-13": 2
    }
   },
   {
@@ -11929,6 +11929,46 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/king-fahd-stadium",
+   "path_id": 111855450,
+   "title": "King Fahd Stadium Metro Station: King Fahad Stadium, 8 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/jawazat",
+   "path_id": 111853560,
+   "title": "Jawazat (Passports Office) Metro Station: Passport Department, 4 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/mof/kbw",
+   "path_id": 111852142,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/ksp/manfouhah",
+   "path_id": 111852115,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
    }
   },
   {
@@ -16364,9 +16404,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 524,
-  "events_total": 876,
-  "goatcounter_total_with_events": 1400,
+  "visits": 528,
+  "events_total": 880,
+  "goatcounter_total_with_events": 1408,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16379,7 +16419,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 21
+   "2026-10-13": 25
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16387,11 +16427,11 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 17
+   "2026-10-13": 19
   },
-  "visitor_days": 282,
-  "return_rate": 0.039,
-  "routes": 247,
+  "visitor_days": 284,
+  "return_rate": 0.042,
+  "routes": 249,
   "routes_not_found": 0,
   "routes_per_visit": 0.47,
   "routes_per_visitor_day": 0.79,
@@ -16450,8 +16490,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 271,
-   "return": 11
+   "new": 272,
+   "return": 12
   },
   "top_routes": [
    {
@@ -16495,6 +16535,14 @@
     "count": 2
    },
    {
+    "name": "mof > kbw",
+    "count": 1
+   },
+   {
+    "name": "ksp > manfouhah",
+    "count": 1
+   },
+   {
     "name": "granadia > sabic",
     "count": 1
    },
@@ -16504,14 +16552,6 @@
    },
    {
     "name": "p_hayat_mall > p_kafd_king_abdullah_financial_district",
-    "count": 1
-   },
-   {
-    "name": "gosi > p_al_othaim_mall_rabwah",
-    "count": 1
-   },
-   {
-    "name": "abudhabi > alinma",
     "count": 1
    }
   ],
@@ -16604,7 +16644,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 325
+    "count": 326
    },
    {
     "name": "com.reddit.frontpage",
@@ -16612,7 +16652,7 @@
    },
    {
     "name": "Google",
-    "count": 6
+    "count": 7
    },
    {
     "name": "t.co",
@@ -16815,6 +16855,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/king-fahd-stadium": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/destinations/jawazat": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/destinations/riyadh-tv-tower": [
@@ -17044,25 +17096,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/gold-souq": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/tl.html": [
-   {
-    "name": "Facebook",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 325
+    "count": 326
    },
    {
     "path": "/map",
@@ -17113,16 +17153,16 @@
     "count": 10
    },
    {
+    "path": "/",
+    "count": 7
+   },
+   {
     "path": "/map",
     "count": 7
    },
    {
     "path": "/destinations/al-awwal-park",
     "count": 7
-   },
-   {
-    "path": "/",
-    "count": 6
    },
    {
     "path": "/destinations/king-abdullah-park",
@@ -17178,6 +17218,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/destinations/jawazat",
     "count": 1
    },
    {
@@ -17303,10 +17347,6 @@
    {
     "path": "/districts/al-rawdah",
     "count": 1
-   },
-   {
-    "path": "/ar/destinations/gold-souq",
-    "count": 1
    }
   ],
   "t.co": [
@@ -17417,9 +17457,11 @@
    {
     "path": "/ur.html",
     "count": 2
-   },
+   }
+  ],
+  "chatgpt.com": [
    {
-    "path": "/tl.html",
+    "path": "/destinations/king-fahd-stadium",
     "count": 1
    }
   ],
@@ -17445,7 +17487,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1001,
+   "count": 1003,
    "ref_scheme": "o"
   },
   {
@@ -17457,7 +17499,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 105,
+   "count": 110,
    "ref_scheme": "g"
   },
   {
@@ -17539,6 +17581,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 1,
+   "ref_scheme": "c"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
    "count": 1,
@@ -17591,7 +17639,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1265
+   "count": 1273
   },
   {
    "id": "ara",
@@ -17638,7 +17686,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1088
+   "count": 1091
   },
   {
    "id": "US",
@@ -17648,7 +17696,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 66
+   "count": 70
   },
   {
    "id": "GB",
@@ -17661,14 +17709,14 @@
    "count": 18
   },
   {
-   "id": "NL",
-   "name": "Netherlands",
+   "id": "IN",
+   "name": "India",
    "count": 13
   },
   {
-   "id": "IN",
-   "name": "India",
-   "count": 12
+   "id": "NL",
+   "name": "Netherlands",
+   "count": 13
   },
   {
    "id": "ES",
@@ -17805,7 +17853,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1128
+   "count": 1134
   },
   {
    "id": "tablet",
@@ -17815,7 +17863,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 185
+   "count": 187
   },
   {
    "id": "desktophd",
@@ -17832,12 +17880,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 716
+   "count": 722
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 648
+   "count": 650
   },
   {
    "name": "",
@@ -17853,17 +17901,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 648
+   "count": 650
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 485
+   "count": 489
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 166
+   "count": 168
   },
   {
    "id": "macOS",
