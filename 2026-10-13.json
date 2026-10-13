@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T01:36:36Z",
+ "generated": "2026-10-13T01:57:25Z",
  "start": "2026-09-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1365,
+  "total": 1367,
   "total_events": 857,
-  "total_utc": 1365,
+  "total_utc": 1367,
   "stats": [
    {
     "day": "2026-09-13",
@@ -578,7 +578,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1365
+    "monthly": 1367
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 159,
-    "weekly": 300
+    "weekly": 302
    },
    {
     "day": "2026-10-12",
@@ -920,7 +920,7 @@
      2,
      8,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 13
+    "daily": 15
    },
    {
     "day": "2026-10-14",
@@ -1041,6 +1041,20 @@
    }
   },
   {
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-11": 3,
+    "2026-10-12": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
    "path": "visit/return/-",
    "path_id": 110708664,
    "title": "en",
@@ -1064,19 +1078,6 @@
     "2026-10-11": 3,
     "2026-10-12": 3,
     "2026-10-13": 1
-   }
-  },
-  {
-   "path": "/map",
-   "path_id": 110710457,
-   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-10": 3,
-    "2026-10-11": 3,
-    "2026-10-12": 1
    }
   },
   {
@@ -1262,6 +1263,17 @@
    }
   },
   {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-13": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-qadisiyah",
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
@@ -1415,16 +1427,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/ar/districts/middle-oraija",
-   "path_id": 110973042,
-   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 2
    }
   },
   {
@@ -6239,9 +6241,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 508,
+  "visits": 510,
   "events_total": 857,
-  "goatcounter_total_with_events": 1365,
+  "goatcounter_total_with_events": 1367,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6254,7 +6256,7 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 5
+   "2026-10-13": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6526,12 +6528,6 @@
     "count": 1
    }
   ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 9
-   }
-  ],
   "/map": [
    {
     "name": "Google",
@@ -6539,11 +6535,17 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
+    "count": 2
    },
    {
     "name": "riyadhmetro.fyi/destinations/riyadh-front",
     "count": 1
+   }
+  ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 9
    }
   ],
   "/destinations/al-awwal-park": [
@@ -6590,6 +6592,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -6633,12 +6641,6 @@
    }
   ],
   "/ar/districts/north-mathar": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/ar/districts/middle-oraija": [
    {
     "name": "Google",
     "count": 2
@@ -6937,7 +6939,7 @@
    },
    {
     "path": "/map",
-    "count": 1
+    "count": 2
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -6996,6 +6998,10 @@
     "count": 6
    },
    {
+    "path": "/ar/districts/middle-oraija",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 3
    },
@@ -7013,10 +7019,6 @@
    },
    {
     "path": "/ar/districts/north-mathar",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/middle-oraija",
     "count": 2
    },
    {
@@ -7310,7 +7312,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 972,
+   "count": 973,
    "ref_scheme": "o"
   },
   {
@@ -7322,7 +7324,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 102,
+   "count": 103,
    "ref_scheme": "g"
   },
   {
@@ -7455,17 +7457,17 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 97
+   "count": 98
+  },
+  {
+   "id": "(unknown)",
+   "name": "(unknown)",
+   "count": 9
   },
   {
    "id": "fra",
    "name": "French",
    "count": 9
-  },
-  {
-   "id": "(unknown)",
-   "name": "(unknown)",
-   "count": 8
   },
   {
    "id": "rus",
@@ -7497,12 +7499,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1063
+   "count": 1064
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 71
+   "count": 72
   },
   {
    "id": "AE",
@@ -7664,12 +7666,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1100
+   "count": 1101
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 34
+   "count": 35
   },
   {
    "id": "desktop",
@@ -7691,7 +7693,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 702
+   "count": 704
   },
   {
    "id": "Safari",
@@ -7717,7 +7719,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 476
+   "count": 477
   },
   {
    "id": "Windows",
@@ -7727,7 +7729,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 63
+   "count": 64
   },
   {
    "id": "Linux",
