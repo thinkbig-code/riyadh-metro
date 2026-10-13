@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T20:08:39Z",
+ "generated": "2026-10-13T21:10:57Z",
  "start": "2025-10-13",
  "end": "2026-10-14",
  "total": {
-  "total": 1482,
-  "total_events": 918,
-  "total_utc": 1482,
+  "total": 1486,
+  "total_events": 920,
+  "total_utc": 1486,
   "stats": [
    {
     "day": "2025-10-13",
@@ -10628,7 +10628,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1482
+    "monthly": 1486
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 258
+    "weekly": 262
    },
    {
     "day": "2026-10-13",
@@ -10995,7 +10995,7 @@
    {
     "day": "2026-10-14",
     "hourly": [
-     0,
+     4,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 429,
+   "count": 430,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11043,7 +11043,8 @@
     "2026-10-10": 52,
     "2026-10-11": 41,
     "2026-10-12": 35,
-    "2026-10-13": 35
+    "2026-10-13": 35,
+    "2026-10-14": 1
    }
   },
   {
@@ -11051,14 +11052,15 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 287,
+   "count": 288,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
     "2026-10-10": 42,
     "2026-10-11": 38,
     "2026-10-12": 32,
-    "2026-10-13": 32
+    "2026-10-13": 32,
+    "2026-10-14": 1
    }
   },
   {
@@ -11393,6 +11395,18 @@
    "daily": {
     "2026-10-08": 2,
     "2026-10-12": 1
+   }
+  },
+  {
+   "path": "geo/ok/sab",
+   "path_id": 110405774,
+   "title": "en",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1,
+    "2026-10-14": 1
    }
   },
   {
@@ -11804,17 +11818,6 @@
    }
   },
   {
-   "path": "geo/ok/sab",
-   "path_id": 110405774,
-   "title": "en",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-12": 1
-   }
-  },
-  {
    "path": "place/p_al_hamra_mall/to",
    "path_id": 110384422,
    "title": "en|name",
@@ -11994,6 +11997,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/hayat-national-hospital-rabwah",
+   "path_id": 111957180,
+   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -16639,9 +16652,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 564,
-  "events_total": 918,
-  "goatcounter_total_with_events": 1482,
+  "visits": 566,
+  "events_total": 920,
+  "goatcounter_total_with_events": 1486,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16654,7 +16667,8 @@
    "2026-10-10": 78,
    "2026-10-11": 71,
    "2026-10-12": 54,
-   "2026-10-13": 61
+   "2026-10-13": 61,
+   "2026-10-14": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16662,9 +16676,10 @@
    "2026-10-10": 46,
    "2026-10-11": 40,
    "2026-10-12": 34,
-   "2026-10-13": 38
+   "2026-10-13": 38,
+   "2026-10-14": 1
   },
-  "visitor_days": 303,
+  "visitor_days": 304,
   "return_rate": 0.053,
   "routes": 259,
   "routes_not_found": 0,
@@ -16719,13 +16734,13 @@
   ],
   "nearest_station": {
    "denied": 15,
-   "ok": 22,
+   "ok": 23,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 287,
+   "new": 288,
    "return": 16
   },
   "top_routes": [
@@ -16879,7 +16894,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 343
+    "count": 344
    },
    {
     "name": "com.reddit.frontpage",
@@ -17110,6 +17125,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/hayat-national-hospital-rabwah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/king-khalid-eye-specialist-hospital": [
    {
     "name": "(direct or unknown)",
@@ -17325,19 +17346,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/districts/al-yarmuk": [
-   {
-    "name": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 343
+    "count": 344
    },
    {
     "path": "/map",
@@ -17473,6 +17488,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 1
    },
    {
@@ -17709,18 +17728,12 @@
     "path": "/ar/districts/al-taawun",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/ar/districts/al-qadisiyah": [
-   {
-    "path": "/ar/districts/al-yarmuk",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1059,
+   "count": 1065,
    "ref_scheme": "o"
   },
   {
@@ -17732,7 +17745,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 126,
+   "count": 127,
    "ref_scheme": "g"
   },
   {
@@ -17872,12 +17885,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1333
+   "count": 1339
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 104
+   "count": 105
   },
   {
    "id": "(unknown)",
@@ -17919,7 +17932,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1142
+   "count": 1149
   },
   {
    "id": "US",
@@ -18096,7 +18109,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1189
+   "count": 1196
   },
   {
    "id": "tablet",
@@ -18123,12 +18136,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 751
+   "count": 755
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 695
+   "count": 698
   },
   {
    "name": "",
@@ -18144,12 +18157,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 692
+   "count": 695
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 502
+   "count": 506
   },
   {
    "id": "Windows",
