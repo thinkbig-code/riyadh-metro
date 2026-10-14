@@ -414,6 +414,7 @@ ol.steps2{list-style:none;margin:0;padding:14px 16px 8px}
   #panel>.ph{grid-column:1/-1;grid-row:2;padding:0 10px 8px 14px;align-items:center}
   /* handle: tap to fold the sheet down to one line */
   .grab{display:flex;justify-content:center;align-items:center;width:100%;height:26px;border:0;background:none;cursor:pointer;padding:0}
+  .grab,.minbar{touch-action:none}
   .grab i{display:block;width:44px;height:5px;border-radius:3px;background:var(--rule)}
   .grab:focus-visible i{background:var(--accent)}
   #panel.min>:not(.grab):not(.minbar){display:none}
@@ -1562,8 +1563,17 @@ function setMin(on){const p=$("#panel");p.classList.toggle("min",on);$("#grab").
 function renderMinbar(){const {from,to}=state;const mb=$("#minbar");
   if(from&&to&&lastRoute)mb.innerHTML=`<b>${esc(rng(lastRoute.time,lastRoute.timeMax))}</b><span>${esc(endName(from)+" → "+endName(to))}</span><em>▴</em>`;
   else mb.innerHTML=`<span>${esc(t("phTo"))}</span><em>▴</em>`;}
-$("#grab").onclick=()=>{renderMinbar();setMin(!$("#panel").classList.contains("min"));};
-$("#minbar").onclick=()=>setMin(false);
+// pointer swipe on the handle and on the one-line bar: down folds the sheet, up opens it; a tap still toggles
+let swiped=false;
+const swipe=el=>{let y0=null;
+  el.addEventListener("pointerdown",e=>{y0=e.clientY;try{el.setPointerCapture(e.pointerId);}catch(_){}});
+  el.addEventListener("pointerup",e=>{if(y0===null)return;const dy=e.clientY-y0;y0=null;if(Math.abs(dy)<24)return;
+    swiped=true;setTimeout(()=>{swiped=false;},350);
+    if(dy>0){if(!$("#panel").classList.contains("min")){renderMinbar();setMin(true);}}else setMin(false);});
+  el.addEventListener("pointercancel",()=>{y0=null;});};
+swipe($("#grab"));swipe($("#minbar"));
+$("#grab").onclick=()=>{if(swiped)return;renderMinbar();setMin(!$("#panel").classList.contains("min"));};
+$("#minbar").onclick=()=>{if(swiped)return;setMin(false);};
 $("#tog").onclick=()=>{const p=$("#panel");const c=p.classList.toggle("collapsed");$("#tog").textContent=t(c?"show":"hide");$("#tog").setAttribute("aria-expanded",String(!c));};
 
 // popular places
