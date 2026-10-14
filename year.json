@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T18:12:44Z",
+ "generated": "2026-10-14T19:16:59Z",
  "start": "2025-10-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1634,
-  "total_events": 1002,
-  "total_utc": 1634,
+  "total": 1643,
+  "total_events": 1005,
+  "total_utc": 1643,
   "stats": [
    {
     "day": "2025-10-14",
@@ -10598,7 +10598,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1634
+    "monthly": 1643
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 130,
-    "weekly": 282
+    "weekly": 291
    },
    {
     "day": "2026-10-14",
@@ -10987,10 +10987,10 @@
      2,
      10,
      7,
-     2,
+     11,
      0
     ],
-    "daily": 152
+    "daily": 161
    },
    {
     "day": "2026-10-15",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 462,
+   "count": 464,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11044,7 +11044,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 33
+    "2026-10-14": 35
    }
   },
   {
@@ -11068,14 +11068,14 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 19,
+   "count": 21,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
     "2026-10-12": 2,
     "2026-10-13": 6,
-    "2026-10-14": 3
+    "2026-10-14": 5
    }
   },
   {
@@ -11094,6 +11094,20 @@
    }
   },
   {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 17,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 3,
+    "2026-10-13": 4,
+    "2026-10-14": 5
+   }
+  },
+  {
    "path": "place/p_kafd_king_abdullah_financial_district/to",
    "path_id": 110300373,
    "title": "en|name",
@@ -11107,20 +11121,6 @@
     "2026-10-12": 1,
     "2026-10-13": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 16,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3,
-    "2026-10-12": 3,
-    "2026-10-13": 4,
-    "2026-10-14": 4
    }
   },
   {
@@ -11599,6 +11599,17 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-14": 1
    }
   },
   {
@@ -12137,6 +12148,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "geo/ok/albilad",
+   "path_id": 112087664,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/districts/al-nada",
+   "path_id": 112087429,
+   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/districts/al-mathar",
+   "path_id": 112085340,
+   "title": "Nearest Metro Station to Al Mathar, Riyadh: Ministry of Interior, 2.4 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -13574,16 +13615,6 @@
    "path_id": 111098465,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nafel",
-   "path_id": 111088602,
-   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -17172,9 +17203,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 632,
-  "events_total": 1002,
-  "goatcounter_total_with_events": 1634,
+  "visits": 638,
+  "events_total": 1005,
+  "goatcounter_total_with_events": 1643,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17188,7 +17219,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 68
+   "2026-10-14": 74
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17197,14 +17228,14 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 34
+   "2026-10-14": 36
   },
-  "visitor_days": 337,
-  "return_rate": 0.056,
+  "visitor_days": 339,
+  "return_rate": 0.062,
   "routes": 280,
   "routes_not_found": 0,
   "routes_per_visit": 0.44,
-  "routes_per_visitor_day": 0.76,
+  "routes_per_visitor_day": 0.75,
   "share_rate": 0.018,
   "shares": {
    "whatsapp": 1,
@@ -17266,14 +17297,14 @@
   ],
   "nearest_station": {
    "denied": 18,
-   "ok": 25,
+   "ok": 26,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
    "new": 318,
-   "return": 19
+   "return": 21
   },
   "top_routes": [
    {
@@ -17426,7 +17457,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 372
+    "count": 373
    },
    {
     "name": "com.reddit.frontpage",
@@ -17457,6 +17488,10 @@
     "count": 1
    },
    {
+    "name": "www.facebook.com",
+    "count": 1
+   },
+   {
     "name": "www.reddit.com",
     "count": 1
    },
@@ -17476,7 +17511,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 15
+    "count": 16
    },
    {
     "name": "riyadhmetro.fyi/ar/stations",
@@ -17663,6 +17698,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-nafel": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/al-faisaliah-tower": [
    {
     "name": "Google",
@@ -17701,6 +17742,18 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/districts/al-nada": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/districts/al-mathar": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/ar/destinations/olaya-street": [
@@ -17876,31 +17929,13 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/stations/sab-bank": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-ghadeer": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/king-fahad-medical-city": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 372
+    "count": 373
    },
    {
     "path": "/districts/al-taawun",
@@ -17944,6 +17979,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-nada",
     "count": 1
    },
    {
@@ -17992,7 +18031,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/map",
@@ -18051,6 +18090,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-nafel",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/al-faisaliah-tower",
     "count": 2
    },
@@ -18080,6 +18123,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-mathar",
     "count": 1
    },
    {
@@ -18145,18 +18192,6 @@
    {
     "path": "/ar/districts/al-duraihemiyah",
     "count": 1
-   },
-   {
-    "path": "/stations/sab-bank",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-ghadeer",
-    "count": 1
-   },
-   {
-    "path": "/destinations/king-fahad-medical-city",
-    "count": 1
    }
   ],
   "t.co": [
@@ -18173,6 +18208,10 @@
    {
     "path": "/",
     "count": 2
+   },
+   {
+    "path": "/",
+    "count": 1
    }
   ],
   "riyadhmetro.fyi/map": [
@@ -18303,7 +18342,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1176,
+   "count": 1180,
    "ref_scheme": "o"
   },
   {
@@ -18315,7 +18354,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 144,
+   "count": 147,
    "ref_scheme": "g"
   },
   {
@@ -18369,6 +18408,12 @@
   {
    "id": "Yahoo",
    "name": "Yahoo",
+   "count": 2,
+   "ref_scheme": "g"
+  },
+  {
+   "id": "www.facebook.com",
+   "name": "www.facebook.com",
    "count": 2,
    "ref_scheme": "g"
   },
@@ -18473,12 +18518,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1457
+   "count": 1463
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 127
+   "count": 130
   },
   {
    "id": "rus",
@@ -18525,7 +18570,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1245
+   "count": 1254
   },
   {
    "id": "US",
@@ -18722,7 +18767,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1284
+   "count": 1293
   },
   {
    "id": "tablet",
@@ -18749,16 +18794,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 842
+   "count": 844
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 754
+   "count": 759
   },
   {
    "name": "",
-   "count": 22
+   "count": 24
   },
   {
    "id": "Firefox",
@@ -18770,12 +18815,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 741
+   "count": 748
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 548
+   "count": 550
   },
   {
    "id": "Windows",
