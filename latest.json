@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T02:06:52Z",
+ "generated": "2026-10-14T03:08:06Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1506,
-  "total_events": 929,
-  "total_utc": 1506,
+  "total": 1515,
+  "total_events": 934,
+  "total_utc": 1515,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1506
+    "monthly": 1515
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 282
+    "weekly": 291
    },
    {
     "day": "2026-10-13",
@@ -921,7 +921,7 @@
      5,
      2,
      3,
-     0,
+     9,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 24
+    "daily": 33
    },
    {
     "day": "2026-10-15",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 435,
+   "count": 437,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -994,7 +994,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 6
+    "2026-10-14": 8
    }
   },
   {
@@ -1002,7 +1002,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 293,
+   "count": 295,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1010,7 +1010,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 6
+    "2026-10-14": 8
    }
   },
   {
@@ -1533,6 +1533,17 @@
    }
   },
   {
+   "path": "/ar/destinations/al-faisaliah-tower",
+   "path_id": 110961469,
+   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -1715,6 +1726,17 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/urubah/from",
+   "path_id": 110432165,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
    }
   },
   {
@@ -1959,6 +1981,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/urubah/t5",
+   "path_id": 111994612,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/t5/to",
+   "path_id": 111994611,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-malqa",
+   "path_id": 111993666,
+   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -3406,16 +3458,6 @@
    "path_id": 110964317,
    "title": "ar|link|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-faisaliah-tower",
-   "path_id": 110961469,
-   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-10": 1
@@ -5442,16 +5484,6 @@
    }
   },
   {
-   "path": "station/urubah/from",
-   "path_id": 110432165,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "view/p_king_khalid_airport_terminals_3_4/kafd",
    "path_id": 110431509,
    "title": "en|details",
@@ -6664,9 +6696,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 577,
-  "events_total": 929,
-  "goatcounter_total_with_events": 1506,
+  "visits": 581,
+  "events_total": 934,
+  "goatcounter_total_with_events": 1515,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6680,7 +6712,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 13
+   "2026-10-14": 17
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6689,11 +6721,11 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 7
+   "2026-10-14": 9
   },
-  "visitor_days": 310,
-  "return_rate": 0.055,
-  "routes": 261,
+  "visitor_days": 312,
+  "return_rate": 0.054,
+  "routes": 262,
   "routes_not_found": 0,
   "routes_per_visit": 0.45,
   "routes_per_visitor_day": 0.76,
@@ -6752,7 +6784,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 293,
+   "new": 295,
    "return": 17
   },
   "top_routes": [
@@ -6809,11 +6841,11 @@
     "count": 2
    },
    {
-    "name": "kafd > salam",
+    "name": "urubah > t5",
     "count": 1
    },
    {
-    "name": "hokm > kafd",
+    "name": "kafd > salam",
     "count": 1
    }
   ],
@@ -6827,11 +6859,11 @@
     "count": 10
    },
    {
-    "name": "ksu",
-    "count": 9
+    "name": "urubah",
+    "count": 10
    },
    {
-    "name": "urubah",
+    "name": "ksu",
     "count": 9
    },
    {
@@ -6893,11 +6925,11 @@
     "count": 6
    },
    {
-    "name": "p_souq_al_zal",
+    "name": "t5",
     "count": 6
    },
    {
-    "name": "p_al_faisaliah_tower",
+    "name": "p_souq_al_zal",
     "count": 6
    }
   ]
@@ -6906,7 +6938,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 348
+    "count": 350
    },
    {
     "name": "com.reddit.frontpage",
@@ -7103,6 +7135,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/al-faisaliah-tower": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -7141,6 +7179,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-malqa": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/lines/blue-line": [
@@ -7329,12 +7373,6 @@
     "count": 1
    }
   ],
-  "/ar/destinations/al-faisaliah-tower": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/lines/yellow-line": [
    {
     "name": "Google",
@@ -7352,19 +7390,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/districts/al-sahafah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 348
+    "count": 350
    },
    {
     "path": "/map",
@@ -7392,6 +7424,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-malqa",
     "count": 1
    },
    {
@@ -7484,6 +7520,10 @@
    },
    {
     "path": "/ar/districts/north-mathar",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/al-faisaliah-tower",
     "count": 2
    },
    {
@@ -7599,10 +7639,6 @@
     "count": 1
    },
    {
-    "path": "/ar/destinations/al-faisaliah-tower",
-    "count": 1
-   },
-   {
     "path": "/lines/yellow-line",
     "count": 1
    },
@@ -7612,10 +7648,6 @@
    },
    {
     "path": "/ar/districts/west-oraija",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-sahafah",
     "count": 1
    }
   ],
@@ -7745,7 +7777,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1079,
+   "count": 1087,
    "ref_scheme": "o"
   },
   {
@@ -7757,7 +7789,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 128,
+   "count": 129,
    "ref_scheme": "g"
   },
   {
@@ -7897,12 +7929,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1352
+   "count": 1359
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 107
+   "count": 109
   },
   {
    "id": "rus",
@@ -7944,7 +7976,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1151
+   "count": 1158
   },
   {
    "id": "US",
@@ -7977,6 +8009,11 @@
    "count": 13
   },
   {
+   "id": "PK",
+   "name": "Pakistan",
+   "count": 12
+  },
+  {
    "id": "DE",
    "name": "Germany",
    "count": 10
@@ -7984,11 +8021,6 @@
   {
    "id": "ES",
    "name": "Spain",
-   "count": 10
-  },
-  {
-   "id": "PK",
-   "name": "Pakistan",
    "count": 10
   },
   {
@@ -8126,12 +8158,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1209
+   "count": 1216
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 41
+   "count": 43
   },
   {
    "id": "desktop",
@@ -8153,12 +8185,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 766
+   "count": 772
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 702
+   "count": 705
   },
   {
    "name": "",
@@ -8174,12 +8206,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 699
+   "count": 700
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 515
+   "count": 521
   },
   {
    "id": "Windows",
@@ -8189,7 +8221,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 75
+   "count": 77
   },
   {
    "id": "Linux",
