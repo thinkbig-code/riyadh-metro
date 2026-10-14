@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T16:13:37Z",
+ "generated": "2026-10-14T17:12:55Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1615,
-  "total_events": 991,
-  "total_utc": 1615,
+  "total": 1625,
+  "total_events": 999,
+  "total_utc": 1625,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1615
+    "monthly": 1625
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 391
+    "weekly": 401
    },
    {
     "day": "2026-10-13",
@@ -935,12 +935,12 @@
      2,
      5,
      2,
-     0,
+     10,
      0,
      0,
      0
     ],
-    "daily": 133
+    "daily": 143
    },
    {
     "day": "2026-10-15",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 459,
+   "count": 460,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -994,7 +994,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 30
+    "2026-10-14": 31
    }
   },
   {
@@ -1002,7 +1002,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 316,
+   "count": 317,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1010,7 +1010,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 29
+    "2026-10-14": 30
    }
   },
   {
@@ -1216,6 +1216,17 @@
    }
   },
   {
+   "path": "/districts/al-yasmeen",
+   "path_id": 111876907,
+   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-13": 2,
+    "2026-10-14": 3
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -1271,17 +1282,6 @@
    }
   },
   {
-   "path": "/districts/al-yasmeen",
-   "path_id": 111876907,
-   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-13": 2,
-    "2026-10-14": 2
-   }
-  },
-  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -1304,6 +1304,18 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/malaz/from",
+   "path_id": 110309312,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2,
+    "2026-10-14": 1
    }
   },
   {
@@ -1409,17 +1421,6 @@
     "2026-10-08": 1,
     "2026-10-12": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "station/malaz/from",
-   "path_id": 110309312,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 2
    }
   },
   {
@@ -1758,6 +1759,28 @@
    }
   },
   {
+   "path": "route/malaz/sab",
+   "path_id": 110444020,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/sab/to",
+   "path_id": 110444019,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "route/ksu/hamra",
    "path_id": 110442280,
    "title": "en|swap|ok",
@@ -2054,6 +2077,46 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/malaz/t12",
+   "path_id": 112076530,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/t12/to",
+   "path_id": 112076529,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/malaz/gosi",
+   "path_id": 112076489,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/gosi/to",
+   "path_id": 112076488,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -5627,26 +5690,6 @@
    }
   },
   {
-   "path": "route/malaz/sab",
-   "path_id": 110444020,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/sab/to",
-   "path_id": 110444019,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/malaz/p_king_fahd_sports_city_stadium",
    "path_id": 110443989,
    "title": "en|search|ok",
@@ -7039,9 +7082,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 624,
-  "events_total": 991,
-  "goatcounter_total_with_events": 1615,
+  "visits": 626,
+  "events_total": 999,
+  "goatcounter_total_with_events": 1625,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7055,7 +7098,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 60
+   "2026-10-14": 62
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7064,14 +7107,14 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 31
+   "2026-10-14": 32
   },
-  "visitor_days": 334,
+  "visitor_days": 335,
   "return_rate": 0.054,
-  "routes": 276,
+  "routes": 279,
   "routes_not_found": 0,
-  "routes_per_visit": 0.44,
-  "routes_per_visitor_day": 0.75,
+  "routes_per_visit": 0.45,
+  "routes_per_visitor_day": 0.76,
   "share_rate": 0.018,
   "shares": {
    "whatsapp": 1,
@@ -7080,7 +7123,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.053,
+  "failed_search_rate": 0.052,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -7139,7 +7182,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 316,
+   "new": 317,
    "return": 18
   },
   "top_routes": [
@@ -7172,6 +7215,10 @@
     "count": 2
    },
    {
+    "name": "malaz > sab",
+    "count": 2
+   },
+   {
     "name": "ksu > hamra",
     "count": 2
    },
@@ -7198,16 +7245,16 @@
    {
     "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
     "count": 2
-   },
-   {
-    "name": "rajhi > habib",
-    "count": 1
    }
   ],
   "top_origins": [
    {
     "name": "sab",
     "count": 16
+   },
+   {
+    "name": "malaz",
+    "count": 10
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -7240,10 +7287,6 @@
    {
     "name": "wizarat",
     "count": 7
-   },
-   {
-    "name": "uthman",
-    "count": 7
    }
   ],
   "top_destinations": [
@@ -7252,19 +7295,19 @@
     "count": 15
    },
    {
+    "name": "t12",
+    "count": 10
+   },
+   {
     "name": "kfl",
     "count": 9
    },
    {
-    "name": "t12",
+    "name": "sab",
     "count": 9
    },
    {
     "name": "p_kingdom_centre",
-    "count": 8
-   },
-   {
-    "name": "sab",
     "count": 8
    },
    {
@@ -7293,7 +7336,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 369
+    "count": 370
    },
    {
     "name": "com.reddit.frontpage",
@@ -7406,6 +7449,12 @@
     "count": 6
    }
   ],
+  "/districts/al-yasmeen": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -7419,12 +7468,6 @@
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
-    "count": 4
-   }
-  ],
-  "/districts/al-yasmeen": [
-   {
-    "name": "Google",
     "count": 4
    }
   ],
@@ -7767,7 +7810,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 369
+    "count": 370
    },
    {
     "path": "/districts/al-taawun",
@@ -7879,7 +7922,7 @@
    },
    {
     "path": "/districts/al-yasmeen",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -8170,7 +8213,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1161,
+   "count": 1170,
    "ref_scheme": "o"
   },
   {
@@ -8182,7 +8225,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 140,
+   "count": 141,
    "ref_scheme": "g"
   },
   {
@@ -8340,7 +8383,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1442
+   "count": 1452
   },
   {
    "id": "ara",
@@ -8392,7 +8435,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1231
+   "count": 1240
   },
   {
    "id": "US",
@@ -8407,7 +8450,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 34
+   "count": 35
   },
   {
    "id": "CA",
@@ -8589,7 +8632,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1277
+   "count": 1278
   },
   {
    "id": "tablet",
@@ -8599,7 +8642,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 237
+   "count": 246
   },
   {
    "id": "desktophd",
@@ -8616,12 +8659,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 826
+   "count": 835
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 751
+   "count": 752
   },
   {
    "name": "",
@@ -8637,7 +8680,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 738
+   "count": 739
   },
   {
    "id": "Android",
@@ -8647,7 +8690,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 206
+   "count": 215
   },
   {
    "id": "macOS",
