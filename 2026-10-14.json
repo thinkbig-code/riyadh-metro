@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T11:10:27Z",
+ "generated": "2026-10-14T12:09:38Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1595,
-  "total_events": 980,
-  "total_utc": 1595,
+  "total": 1605,
+  "total_events": 987,
+  "total_utc": 1605,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1595
+    "monthly": 1605
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 371
+    "weekly": 381
    },
    {
     "day": "2026-10-13",
@@ -930,8 +930,8 @@
      6,
      16,
      18,
-     2,
-     0,
+     11,
+     1,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 113
+    "daily": 123
    },
    {
     "day": "2026-10-15",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 454,
+   "count": 455,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -994,7 +994,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 25
+    "2026-10-14": 26
    }
   },
   {
@@ -1002,7 +1002,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 311,
+   "count": 312,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1010,7 +1010,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 24
+    "2026-10-14": 25
    }
   },
   {
@@ -1064,13 +1064,13 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 13,
+   "count": 14,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
     "2026-10-12": 3,
     "2026-10-13": 4,
-    "2026-10-14": 1
+    "2026-10-14": 2
    }
   },
   {
@@ -2054,6 +2054,76 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/rajhi/habib",
+   "path_id": 112044555,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/harun/habib",
+   "path_id": 112043834,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/habib/harun",
+   "path_id": 112043718,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/harun/habib",
+   "path_id": 112043710,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/habib/to",
+   "path_id": 112043709,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "geo/ok/harun",
+   "path_id": 112043686,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/destinations/king-khalid-university-hospital",
+   "path_id": 112038785,
+   "title": "King Khalid University Hospital Metro Station: King Saud University, 12 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -6969,9 +7039,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 615,
-  "events_total": 980,
-  "goatcounter_total_with_events": 1595,
+  "visits": 618,
+  "events_total": 987,
+  "goatcounter_total_with_events": 1605,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6985,7 +7055,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 51
+   "2026-10-14": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6994,14 +7064,14 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 26
+   "2026-10-14": 27
   },
-  "visitor_days": 329,
+  "visitor_days": 330,
   "return_rate": 0.055,
-  "routes": 273,
+  "routes": 276,
   "routes_not_found": 0,
-  "routes_per_visit": 0.44,
-  "routes_per_visitor_day": 0.75,
+  "routes_per_visit": 0.45,
+  "routes_per_visitor_day": 0.76,
   "share_rate": 0.018,
   "shares": {
    "whatsapp": 1,
@@ -7063,13 +7133,13 @@
   ],
   "nearest_station": {
    "denied": 18,
-   "ok": 24,
+   "ok": 25,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 311,
+   "new": 312,
    "return": 18
   },
   "top_routes": [
@@ -7130,7 +7200,7 @@
     "count": 2
    },
    {
-    "name": "p_granada_mall > p_al_batha",
+    "name": "rajhi > habib",
     "count": 1
    }
   ],
@@ -7223,7 +7293,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 366
+    "count": 367
    },
    {
     "name": "com.reddit.frontpage",
@@ -7273,7 +7343,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 12
+    "count": 13
    },
    {
     "name": "riyadhmetro.fyi/ar/stations",
@@ -7494,6 +7564,12 @@
     "count": 2
    }
   ],
+  "/destinations/king-khalid-university-hospital": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/stations/al-malaz": [
    {
     "name": "riyadhmetro.fyi/ar/districts/al-malaz",
@@ -7685,19 +7761,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/districts/al-awaly": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 366
+    "count": 367
    },
    {
     "path": "/districts/al-taawun",
@@ -7789,7 +7859,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 12
+    "count": 13
    },
    {
     "path": "/map",
@@ -7954,10 +8024,6 @@
    {
     "path": "/ar/districts/al-nafel",
     "count": 1
-   },
-   {
-    "path": "/ar/districts/al-awaly",
-    "count": 1
    }
   ],
   "t.co": [
@@ -8078,15 +8144,19 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/districts/al-malaz": [
+  "chatgpt.com": [
    {
-    "path": "/ar/stations/al-malaz",
+    "path": "/destinations/king-khalid-university-hospital",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-fahd-stadium",
     "count": 1
    }
   ],
-  "chatgpt.com": [
+  "riyadhmetro.fyi/ar/districts/al-malaz": [
    {
-    "path": "/destinations/king-fahd-stadium",
+    "path": "/ar/stations/al-malaz",
     "count": 1
    }
   ],
@@ -8100,7 +8170,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1149,
+   "count": 1157,
    "ref_scheme": "o"
   },
   {
@@ -8112,7 +8182,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 137,
+   "count": 138,
    "ref_scheme": "g"
   },
   {
@@ -8170,6 +8240,12 @@
    "ref_scheme": "g"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 2,
+   "ref_scheme": "c"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/diriyah",
    "name": "riyadhmetro.fyi/ar/destinations/diriyah",
    "count": 2,
@@ -8192,12 +8268,6 @@
    "name": "www.reddit.com",
    "count": 1,
    "ref_scheme": "h"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 1,
-   "ref_scheme": "c"
   },
   {
    "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
@@ -8270,12 +8340,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1425
+   "count": 1434
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 120
+   "count": 121
   },
   {
    "id": "rus",
@@ -8322,7 +8392,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1215
+   "count": 1225
   },
   {
    "id": "US",
@@ -8514,7 +8584,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1267
+   "count": 1269
   },
   {
    "id": "tablet",
@@ -8524,7 +8594,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 229
+   "count": 237
   },
   {
    "id": "desktophd",
@@ -8541,12 +8611,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 810
+   "count": 819
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 747
+   "count": 748
   },
   {
    "name": "",
@@ -8562,17 +8632,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 734
+   "count": 735
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 538
+   "count": 539
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 198
+   "count": 206
   },
   {
    "id": "macOS",
