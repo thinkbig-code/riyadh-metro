@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T14:11:31Z",
+ "generated": "2026-10-14T15:13:34Z",
  "start": "2025-10-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1610,
-  "total_events": 989,
-  "total_utc": 1610,
+  "total": 1613,
+  "total_events": 990,
+  "total_utc": 1613,
   "stats": [
    {
     "day": "2025-10-14",
@@ -10598,7 +10598,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1610
+    "monthly": 1613
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 130,
-    "weekly": 258
+    "weekly": 261
    },
    {
     "day": "2026-10-14",
@@ -10983,14 +10983,14 @@
      11,
      2,
      2,
-     2,
+     5,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 128
+    "daily": 131
    },
    {
     "day": "2026-10-15",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 457,
+   "count": 458,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11044,7 +11044,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 28
+    "2026-10-14": 29
    }
   },
   {
@@ -11052,7 +11052,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 314,
+   "count": 315,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11060,7 +11060,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 27
+    "2026-10-14": 28
    }
   },
   {
@@ -11114,13 +11114,13 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
     "2026-10-12": 3,
     "2026-10-13": 4,
-    "2026-10-14": 3
+    "2026-10-14": 4
    }
   },
   {
@@ -17089,9 +17089,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 621,
-  "events_total": 989,
-  "goatcounter_total_with_events": 1610,
+  "visits": 623,
+  "events_total": 990,
+  "goatcounter_total_with_events": 1613,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17105,7 +17105,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 57
+   "2026-10-14": 59
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17114,14 +17114,14 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 29
+   "2026-10-14": 30
   },
-  "visitor_days": 332,
+  "visitor_days": 333,
   "return_rate": 0.054,
   "routes": 276,
   "routes_not_found": 0,
   "routes_per_visit": 0.44,
-  "routes_per_visitor_day": 0.76,
+  "routes_per_visitor_day": 0.75,
   "share_rate": 0.018,
   "shares": {
    "whatsapp": 1,
@@ -17189,7 +17189,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 314,
+   "new": 315,
    "return": 18
   },
   "top_routes": [
@@ -17347,7 +17347,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 67
+    "count": 68
    },
    {
     "name": "Google",
@@ -17903,7 +17903,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 67
+    "count": 68
    }
   ],
   "Google": [
@@ -18226,7 +18226,7 @@
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 241,
+   "count": 243,
    "ref_scheme": "o"
   },
   {
@@ -18390,7 +18390,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1438
+   "count": 1440
   },
   {
    "id": "ara",
@@ -18590,6 +18590,11 @@
    "count": 2
   },
   {
+   "id": "OM",
+   "name": "Oman",
+   "count": 2
+  },
+  {
    "id": "QA",
    "name": "Qatar",
    "count": 2
@@ -18634,7 +18639,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1273
+   "count": 1275
   },
   {
    "id": "tablet",
@@ -18661,7 +18666,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 822
+   "count": 824
   },
   {
    "id": "Safari",
@@ -18687,7 +18692,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 540
+   "count": 542
   },
   {
    "id": "Windows",
