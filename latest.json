@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T17:12:55Z",
+ "generated": "2026-10-14T18:11:29Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1625,
-  "total_events": 999,
-  "total_utc": 1625,
+  "total": 1634,
+  "total_events": 1002,
+  "total_utc": 1634,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1625
+    "monthly": 1634
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 401
+    "weekly": 410
    },
    {
     "day": "2026-10-13",
@@ -936,11 +936,11 @@
      5,
      2,
      10,
-     0,
-     0,
+     7,
+     2,
      0
     ],
-    "daily": 143
+    "daily": 152
    },
    {
     "day": "2026-10-15",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 460,
+   "count": 462,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -994,7 +994,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 31
+    "2026-10-14": 33
    }
   },
   {
@@ -1002,7 +1002,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 317,
+   "count": 318,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1010,7 +1010,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 30
+    "2026-10-14": 31
    }
   },
   {
@@ -1018,14 +1018,14 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 18,
+   "count": 19,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
     "2026-10-12": 2,
     "2026-10-13": 6,
-    "2026-10-14": 2
+    "2026-10-14": 3
    }
   },
   {
@@ -1484,6 +1484,16 @@
    "path": "/ar/stations",
    "path_id": 112000986,
    "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-malqa",
+   "path_id": 111993666,
+   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
    "event": false,
    "count": 2,
    "daily": {
@@ -2080,6 +2090,46 @@
    }
   },
   {
+   "path": "/ar/destinations/olaya-street",
+   "path_id": 112084034,
+   "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/taibah-markets",
+   "path_id": 112083999,
+   "title": "محطة مترو أسواق طيبة: محطة حي الملك فهد 2 (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/t12/hokm",
+   "path_id": 112080379,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "route/malaz/t12",
    "path_id": 112076530,
    "title": "en|search|ok",
@@ -2454,16 +2504,6 @@
    "path_id": 111994611,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-malqa",
-   "path_id": 111993666,
-   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-14": 1
@@ -7082,9 +7122,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 626,
-  "events_total": 999,
-  "goatcounter_total_with_events": 1625,
+  "visits": 632,
+  "events_total": 1002,
+  "goatcounter_total_with_events": 1634,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7098,7 +7138,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 62
+   "2026-10-14": 68
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7107,13 +7147,13 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 32
+   "2026-10-14": 34
   },
-  "visitor_days": 335,
-  "return_rate": 0.054,
-  "routes": 279,
+  "visitor_days": 337,
+  "return_rate": 0.056,
+  "routes": 280,
   "routes_not_found": 0,
-  "routes_per_visit": 0.45,
+  "routes_per_visit": 0.44,
   "routes_per_visitor_day": 0.76,
   "share_rate": 0.018,
   "shares": {
@@ -7182,8 +7222,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 317,
-   "return": 18
+   "new": 318,
+   "return": 19
   },
   "top_routes": [
    {
@@ -7281,12 +7321,12 @@
     "count": 8
    },
    {
-    "name": "murooj",
+    "name": "t12",
     "count": 8
    },
    {
-    "name": "wizarat",
-    "count": 7
+    "name": "murooj",
+    "count": 8
    }
   ],
   "top_destinations": [
@@ -7336,7 +7376,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 370
+    "count": 372
    },
    {
     "name": "com.reddit.frontpage",
@@ -7545,6 +7585,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-malqa": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-manar": [
    {
     "name": "(direct or unknown)",
@@ -7607,6 +7653,24 @@
     "count": 2
    }
   ],
+  "/ar/destinations/olaya-street": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/taibah-markets": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/aster-sanad-hospital": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/king-khalid-university-hospital": [
    {
     "name": "chatgpt.com",
@@ -7650,12 +7714,6 @@
    }
   ],
   "/ar/districts": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-malqa": [
    {
     "name": "(direct or unknown)",
     "count": 1
@@ -7786,31 +7844,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/destinations/al-batha": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-nafel": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 370
+    "count": 372
    },
    {
     "path": "/districts/al-taawun",
@@ -7822,6 +7862,10 @@
    },
    {
     "path": "/ar/districts/al-arid",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-malqa",
     "count": 2
    },
    {
@@ -7862,10 +7906,6 @@
    },
    {
     "path": "/ar/districts",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-malqa",
     "count": 1
    },
    {
@@ -7993,6 +8033,18 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/olaya-street",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/taibah-markets",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-malaz",
     "count": 1
    },
@@ -8054,18 +8106,6 @@
    },
    {
     "path": "/destinations/king-fahad-medical-city",
-    "count": 1
-   },
-   {
-    "path": "/destinations/al-batha",
-    "count": 1
-   },
-   {
-    "path": "/districts/ar-rabwah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-nafel",
     "count": 1
    }
   ],
@@ -8213,7 +8253,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1170,
+   "count": 1176,
    "ref_scheme": "o"
   },
   {
@@ -8225,7 +8265,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 141,
+   "count": 144,
    "ref_scheme": "g"
   },
   {
@@ -8383,12 +8423,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1452
+   "count": 1457
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 123
+   "count": 127
   },
   {
    "id": "rus",
@@ -8435,7 +8475,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1240
+   "count": 1245
   },
   {
    "id": "US",
@@ -8458,13 +8498,13 @@
    "count": 25
   },
   {
-   "id": "IN",
-   "name": "India",
-   "count": 15
-  },
-  {
    "id": "NL",
    "name": "Netherlands",
+   "count": 16
+  },
+  {
+   "id": "IN",
+   "name": "India",
    "count": 15
   },
   {
@@ -8481,6 +8521,11 @@
    "id": "ES",
    "name": "Spain",
    "count": 10
+  },
+  {
+   "id": "JO",
+   "name": "Hashemite Kingdom of Jordan",
+   "count": 9
   },
   {
    "id": "PL",
@@ -8515,11 +8560,6 @@
   {
    "id": "FR",
    "name": "France",
-   "count": 6
-  },
-  {
-   "id": "JO",
-   "name": "Hashemite Kingdom of Jordan",
    "count": 6
   },
   {
@@ -8632,7 +8672,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1278
+   "count": 1284
   },
   {
    "id": "tablet",
@@ -8642,7 +8682,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 246
+   "count": 249
   },
   {
    "id": "desktophd",
@@ -8659,12 +8699,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 835
+   "count": 842
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 752
+   "count": 754
   },
   {
    "name": "",
@@ -8680,12 +8720,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 739
+   "count": 741
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 544
+   "count": 548
   },
   {
    "id": "Windows",
@@ -8695,7 +8735,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 88
+   "count": 91
   },
   {
    "id": "Linux",
