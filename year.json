@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T10:13:23Z",
+ "generated": "2026-10-14T11:11:48Z",
  "start": "2025-10-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1575,
-  "total_events": 967,
-  "total_utc": 1575,
+  "total": 1595,
+  "total_events": 980,
+  "total_utc": 1595,
   "stats": [
    {
     "day": "2025-10-14",
@@ -10598,7 +10598,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1575
+    "monthly": 1595
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 130,
-    "weekly": 223
+    "weekly": 243
    },
    {
     "day": "2026-10-14",
@@ -10979,8 +10979,8 @@
      5,
      6,
      16,
-     0,
-     0,
+     18,
+     2,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 93
+    "daily": 113
    },
    {
     "day": "2026-10-15",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 451,
+   "count": 454,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11044,7 +11044,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 22
+    "2026-10-14": 25
    }
   },
   {
@@ -11052,7 +11052,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 309,
+   "count": 311,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11060,7 +11060,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 22
+    "2026-10-14": 24
    }
   },
   {
@@ -11068,14 +11068,29 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 17,
+   "count": 18,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
     "2026-10-12": 2,
     "2026-10-13": 6,
-    "2026-10-14": 1
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 18,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 7,
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 3
    }
   },
   {
@@ -11095,18 +11110,17 @@
    }
   },
   {
-   "path": "geo/denied/-",
-   "path_id": 110295286,
-   "title": "en",
-   "event": true,
-   "count": 17,
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 13,
    "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 7,
-    "2026-10-09": 2,
-    "2026-10-10": 3,
-    "2026-10-12": 1,
-    "2026-10-14": 2
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 3,
+    "2026-10-13": 4,
+    "2026-10-14": 1
    }
   },
   {
@@ -11120,19 +11134,6 @@
     "2026-10-10": 3,
     "2026-10-11": 3,
     "2026-10-12": 1,
-    "2026-10-13": 4
-   }
-  },
-  {
-   "path": "/ar/map",
-   "path_id": 110886300,
-   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
-   "event": false,
-   "count": 12,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-11": 3,
-    "2026-10-12": 3,
     "2026-10-13": 4
    }
   },
@@ -11174,6 +11175,19 @@
    }
   },
   {
+   "path": "place/p_al_faisaliah_tower/to",
+   "path_id": 110407244,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-08": 4,
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "/ar.html",
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
@@ -11211,18 +11225,6 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-12": 3
-   }
-  },
-  {
-   "path": "place/p_al_faisaliah_tower/to",
-   "path_id": 110407244,
-   "title": "en|name",
-   "event": true,
-   "count": 6,
-   "daily": {
-    "2026-10-08": 4,
-    "2026-10-09": 1,
-    "2026-10-10": 1
    }
   },
   {
@@ -11471,6 +11473,18 @@
    }
   },
   {
+   "path": "place/p_granada_mall/from",
+   "path_id": 110301445,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "place/p_granada_mall/to",
    "path_id": 110301082,
    "title": "en|name",
@@ -11513,6 +11527,16 @@
     "2026-10-07": 1,
     "2026-10-08": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/stations",
+   "path_id": 112000986,
+   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 2
    }
   },
   {
@@ -11868,6 +11892,17 @@
    }
   },
   {
+   "path": "route/p_granada_mall/p_al_faisaliah_tower",
+   "path_id": 110407243,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "station/andalus/from",
    "path_id": 110405822,
    "title": "en|name",
@@ -11973,20 +12008,20 @@
    }
   },
   {
-   "path": "geo/ok/urubah",
-   "path_id": 110302101,
-   "title": "en",
+   "path": "place/p_al_batha/to",
+   "path_id": 110302142,
+   "title": "en|alias",
    "event": true,
    "count": 2,
    "daily": {
     "2026-10-07": 1,
-    "2026-10-08": 1
+    "2026-10-14": 1
    }
   },
   {
-   "path": "place/p_granada_mall/from",
-   "path_id": 110301445,
-   "title": "en|name",
+   "path": "geo/ok/urubah",
+   "path_id": 110302101,
+   "title": "en",
    "event": true,
    "count": 2,
    "daily": {
@@ -12028,6 +12063,17 @@
    }
   },
   {
+   "path": "place/p_al_othaim_mall_rabwah/from",
+   "path_id": 110299344,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "/ar/destinations/riyadh-gallery-mall",
    "path_id": 110184768,
    "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
@@ -12058,6 +12104,66 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-malaz",
+   "path_id": 112035318,
+   "title": "محطة الملز، مترو الرياض: المسار البرتقالي (رقم 54)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/p_granada_mall/p_al_batha",
+   "path_id": 112035276,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-malaz",
+   "path_id": 112035044,
+   "title": "أقرب محطة مترو لحي الملز في الرياض: محطة الملز (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/p_al_othaim_mall_rabwah/tuwaiq",
+   "path_id": 112034364,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/p_al_othaim_mall_rabwah/tuwaiq",
+   "path_id": 112034343,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/tuwaiq/to",
+   "path_id": 112034342,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -12194,16 +12300,6 @@
    "path": "/ar/nearest-station",
    "path_id": 112000992,
    "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/ar/stations",
-   "path_id": 112000986,
-   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
    "event": false,
    "count": 1,
    "daily": {
@@ -16111,16 +16207,6 @@
    }
   },
   {
-   "path": "route/p_granada_mall/p_al_faisaliah_tower",
-   "path_id": 110407243,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/sab/t12",
    "path_id": 110406395,
    "title": "en|map|ok",
@@ -16701,16 +16787,6 @@
    }
   },
   {
-   "path": "place/p_al_batha/to",
-   "path_id": 110302142,
-   "title": "en|alias",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/p_granada_mall/p_national_museum",
    "path_id": 110301446,
    "title": "en|search|ok",
@@ -16831,16 +16907,6 @@
    }
   },
   {
-   "path": "place/p_al_othaim_mall_rabwah/from",
-   "path_id": 110299344,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/p_king_abdulaziz_manakh_park/p_olaya_street",
    "path_id": 110295324,
    "title": "en|search|ok",
@@ -16953,9 +17019,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 608,
-  "events_total": 967,
-  "goatcounter_total_with_events": 1575,
+  "visits": 615,
+  "events_total": 980,
+  "goatcounter_total_with_events": 1595,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -16969,7 +17035,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 44
+   "2026-10-14": 51
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -16978,15 +17044,15 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 23
+   "2026-10-14": 26
   },
-  "visitor_days": 326,
-  "return_rate": 0.052,
-  "routes": 270,
+  "visitor_days": 329,
+  "return_rate": 0.055,
+  "routes": 273,
   "routes_not_found": 0,
   "routes_per_visit": 0.44,
   "routes_per_visitor_day": 0.75,
-  "share_rate": 0.019,
+  "share_rate": 0.018,
   "shares": {
    "whatsapp": 1,
    "copy": 1,
@@ -16994,7 +17060,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.054,
+  "failed_search_rate": 0.053,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -17046,15 +17112,15 @@
    }
   ],
   "nearest_station": {
-   "denied": 17,
+   "denied": 18,
    "ok": 24,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 309,
-   "return": 17
+   "new": 311,
+   "return": 18
   },
   "top_routes": [
    {
@@ -17094,6 +17160,10 @@
     "count": 2
    },
    {
+    "name": "p_granada_mall > p_al_faisaliah_tower",
+    "count": 2
+   },
+   {
     "name": "kafd > t5",
     "count": 2
    },
@@ -17110,11 +17180,7 @@
     "count": 2
    },
    {
-    "name": "sab > jeddahrd",
-    "count": 1
-   },
-   {
-    "name": "sab > khurais",
+    "name": "p_granada_mall > p_al_batha",
     "count": 1
    }
   ],
@@ -17182,6 +17248,10 @@
     "count": 8
    },
    {
+    "name": "p_al_faisaliah_tower",
+    "count": 7
+   },
+   {
     "name": "p_national_museum",
     "count": 7
    },
@@ -17196,10 +17266,6 @@
    {
     "name": "t5",
     "count": 6
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2",
-    "count": 6
    }
   ]
  },
@@ -17207,11 +17273,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 364
+    "count": 366
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 66
+    "count": 67
    },
    {
     "name": "Google",
@@ -17254,6 +17320,16 @@
     "count": 1
    }
   ],
+  "/ar/map": [
+   {
+    "name": "Google",
+    "count": 12
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
+   }
+  ],
   "/map": [
    {
     "name": "Google",
@@ -17266,12 +17342,6 @@
    {
     "name": "riyadhmetro.fyi/destinations/riyadh-front",
     "count": 1
-   }
-  ],
-  "/ar/map": [
-   {
-    "name": "Google",
-    "count": 12
    }
   ],
   "/ar.html": [
@@ -17402,6 +17472,16 @@
     "count": 1
    }
   ],
+  "/ar/stations": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-manar": [
    {
     "name": "(direct or unknown)",
@@ -17464,6 +17544,18 @@
     "count": 2
    }
   ],
+  "/ar/stations/al-malaz": [
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-malaz",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-malaz": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/stations/king-saud-university": [
    {
     "name": "Google",
@@ -17483,12 +17575,6 @@
    }
   ],
   "/ar/nearest-station": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/stations": [
    {
     "name": "(direct or unknown)",
     "count": 1
@@ -17655,25 +17741,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/districts/al-uraija": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/lines/yellow-line": [
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 364
+    "count": 366
    },
    {
     "path": "/districts/al-taawun",
@@ -17704,6 +17778,10 @@
     "count": 1
    },
    {
+    "path": "/ar/stations",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-manar",
     "count": 1
    },
@@ -17717,10 +17795,6 @@
    },
    {
     "path": "/ar/nearest-station",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations",
     "count": 1
    },
    {
@@ -17759,7 +17833,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 66
+    "count": 67
    }
   ],
   "Google": [
@@ -17856,6 +17930,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-malaz",
+    "count": 1
+   },
+   {
     "path": "/stations/king-saud-university",
     "count": 1
    },
@@ -17930,10 +18008,6 @@
    {
     "path": "/ar/districts/al-awaly",
     "count": 1
-   },
-   {
-    "path": "/districts/al-uraija",
-    "count": 1
    }
   ],
   "t.co": [
@@ -17994,6 +18068,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/stations": [
+   {
+    "path": "/ar/map",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/riyadh-front": [
    {
     "path": "/map",
@@ -18015,10 +18095,6 @@
   "riyadhmetro.fyi/ar/destinations/pif-tower": [
    {
     "path": "/ar.html",
-    "count": 1
-   },
-   {
-    "path": "/ar/lines/yellow-line",
     "count": 1
    }
   ],
@@ -18046,6 +18122,18 @@
     "count": 2
    }
   ],
+  "riyadhmetro.fyi/ar/stations/al-malaz": [
+   {
+    "path": "/ar/stations",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/districts/al-malaz": [
+   {
+    "path": "/ar/stations/al-malaz",
+    "count": 1
+   }
+  ],
   "chatgpt.com": [
    {
     "path": "/destinations/king-fahd-stadium",
@@ -18062,19 +18150,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1140,
+   "count": 1149,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 234,
+   "count": 241,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 136,
+   "count": 137,
    "ref_scheme": "g"
   },
   {
@@ -18208,18 +18296,36 @@
    "name": "riyadhmetro.fyi/ar/districts/al-wisham",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/districts/al-malaz",
+   "name": "riyadhmetro.fyi/ar/districts/al-malaz",
+   "count": 1,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/stations/al-malaz",
+   "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+   "count": 1,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/stations",
+   "name": "riyadhmetro.fyi/ar/stations",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1409
+   "count": 1425
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 116
+   "count": 120
   },
   {
    "id": "rus",
@@ -18266,7 +18372,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1197
+   "count": 1215
   },
   {
    "id": "US",
@@ -18394,6 +18500,11 @@
    "count": 3
   },
   {
+   "id": "BA",
+   "name": "Bosnia and Herzegovina",
+   "count": 2
+  },
+  {
    "id": "GE",
    "name": "Georgia",
    "count": 2
@@ -18453,7 +18564,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1258
+   "count": 1267
   },
   {
    "id": "tablet",
@@ -18463,7 +18574,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 218
+   "count": 229
   },
   {
    "id": "desktophd",
@@ -18480,7 +18591,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 790
+   "count": 810
   },
   {
    "id": "Safari",
@@ -18506,12 +18617,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 529
+   "count": 538
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 187
+   "count": 198
   },
   {
    "id": "macOS",
