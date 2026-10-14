@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T04:11:14Z",
+ "generated": "2026-10-14T05:10:24Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1538,
+  "total": 1539,
   "total_events": 948,
-  "total_utc": 1538,
+  "total_utc": 1539,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1538
+    "monthly": 1539
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 314
+    "weekly": 315
    },
    {
     "day": "2026-10-13",
@@ -923,7 +923,7 @@
      3,
      9,
      19,
-     4,
+     5,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 56
+    "daily": 57
    },
    {
     "day": "2026-10-15",
@@ -1994,6 +1994,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-commerce",
+   "path_id": 112004919,
+   "title": "محطة مترو وزارة التجارة: محطة سكة الحديد (المسار البرتقالي)، 14 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -6789,9 +6799,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 590,
+  "visits": 591,
   "events_total": 948,
-  "goatcounter_total_with_events": 1538,
+  "goatcounter_total_with_events": 1539,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6805,7 +6815,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 26
+   "2026-10-14": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7290,6 +7300,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/ministry-of-commerce": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/nearest-station": [
    {
     "name": "(direct or unknown)",
@@ -7493,12 +7509,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/destinations/al-othaim-mall": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -7537,6 +7547,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/ministry-of-commerce",
     "count": 1
    },
    {
@@ -7758,10 +7772,6 @@
    {
     "path": "/ar/stations/mew-a",
     "count": 1
-   },
-   {
-    "path": "/destinations/al-othaim-mall",
-    "count": 1
    }
   ],
   "t.co": [
@@ -7890,7 +7900,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1110,
+   "count": 1111,
    "ref_scheme": "o"
   },
   {
@@ -8042,7 +8052,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1377
+   "count": 1378
   },
   {
    "id": "ara",
@@ -8089,7 +8099,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1173
+   "count": 1174
   },
   {
    "id": "US",
@@ -8271,7 +8281,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1235
+   "count": 1236
   },
   {
    "id": "tablet",
@@ -8303,7 +8313,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 719
+   "count": 720
   },
   {
    "name": "",
@@ -8319,7 +8329,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 714
+   "count": 715
   },
   {
    "id": "Android",
