@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T21:10:21Z",
+ "generated": "2026-10-14T22:09:46Z",
  "start": "2025-10-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1647,
+  "total": 1648,
   "total_events": 1006,
-  "total_utc": 1647,
+  "total_utc": 1648,
   "stats": [
    {
     "day": "2025-10-14",
@@ -10598,7 +10598,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1647
+    "monthly": 1648
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 130,
-    "weekly": 295
+    "weekly": 296
    },
    {
     "day": "2026-10-14",
@@ -10996,7 +10996,7 @@
     "day": "2026-10-15",
     "hourly": [
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -12149,6 +12149,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-15": 1
    }
   },
   {
@@ -17204,9 +17214,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 641,
+  "visits": 642,
   "events_total": 1006,
-  "goatcounter_total_with_events": 1647,
+  "goatcounter_total_with_events": 1648,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17220,7 +17230,8 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 77
+   "2026-10-14": 77,
+   "2026-10-15": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17745,6 +17756,12 @@
     "count": 2
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/districts/al-nada": [
    {
     "name": "(direct or unknown)",
@@ -17924,12 +17941,6 @@
     "name": "riyadhmetro.fyi/ar/districts/al-maseef",
     "count": 1
    }
-  ],
-  "/stations/airport-t5": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18016,10 +18027,6 @@
    },
    {
     "path": "/destinations/riyadh-tv-tower",
-    "count": 1
-   },
-   {
-    "path": "/stations/airport-t5",
     "count": 1
    }
   ],
@@ -18124,6 +18131,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-arid",
     "count": 1
    },
    {
@@ -18355,7 +18366,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 149,
+   "count": 150,
    "ref_scheme": "g"
   },
   {
@@ -18519,7 +18530,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1465
+   "count": 1466
   },
   {
    "id": "ara",
@@ -18571,7 +18582,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1258
+   "count": 1259
   },
   {
    "id": "US",
@@ -18778,7 +18789,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 249
+   "count": 250
   },
   {
    "id": "desktophd",
@@ -18795,7 +18806,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 846
+   "count": 847
   },
   {
    "id": "Safari",
@@ -18826,7 +18837,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 215
+   "count": 216
   },
   {
    "id": "macOS",
