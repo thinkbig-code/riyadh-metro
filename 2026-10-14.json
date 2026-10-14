@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-14T00:02:08Z",
+ "generated": "2026-10-14T01:16:26Z",
  "start": "2026-09-14",
  "end": "2026-10-15",
  "total": {
-  "total": 1501,
-  "total_events": 927,
-  "total_utc": 1501,
+  "total": 1504,
+  "total_events": 928,
+  "total_utc": 1504,
   "stats": [
    {
     "day": "2026-09-14",
@@ -548,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1501
+    "monthly": 1504
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      1
     ],
     "daily": 128,
-    "weekly": 277
+    "weekly": 280
    },
    {
     "day": "2026-10-13",
@@ -919,8 +919,8 @@
      9,
      1,
      5,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 19
+    "daily": 22
    },
    {
     "day": "2026-10-15",
@@ -1018,13 +1018,14 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 16,
+   "count": 17,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
     "2026-10-11": 2,
     "2026-10-12": 2,
-    "2026-10-13": 6
+    "2026-10-13": 6,
+    "2026-10-14": 1
    }
   },
   {
@@ -1289,6 +1290,18 @@
    }
   },
   {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
    "path": "/ar/districts/middle-oraija",
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
@@ -1496,17 +1509,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1
    }
   },
   {
@@ -1957,6 +1959,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/lines/blue-line",
+   "path_id": 111981325,
+   "title": "Riyadh Metro Blue Line (Line 1): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -6652,9 +6664,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 574,
-  "events_total": 927,
-  "goatcounter_total_with_events": 1501,
+  "visits": 576,
+  "events_total": 928,
+  "goatcounter_total_with_events": 1504,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6668,7 +6680,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 10
+   "2026-10-14": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6677,14 +6689,14 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 5
+   "2026-10-14": 6
   },
-  "visitor_days": 308,
-  "return_rate": 0.052,
+  "visitor_days": 309,
+  "return_rate": 0.055,
   "routes": 261,
   "routes_not_found": 0,
   "routes_per_visit": 0.45,
-  "routes_per_visitor_day": 0.77,
+  "routes_per_visitor_day": 0.76,
   "share_rate": 0.019,
   "shares": {
    "whatsapp": 1,
@@ -6741,7 +6753,7 @@
   },
   "visitors_new_return": {
    "new": 292,
-   "return": 16
+   "return": 17
   },
   "top_routes": [
    {
@@ -7025,6 +7037,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/middle-oraija": [
    {
     "name": "Google",
@@ -7085,12 +7103,6 @@
     "count": 2
    }
   ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -7129,6 +7141,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/lines/blue-line": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/ar/districts/al-manar": [
@@ -7340,12 +7358,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/districts/al-fayha": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -7380,6 +7392,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/lines/blue-line",
     "count": 1
    },
    {
@@ -7435,6 +7451,10 @@
     "count": 6
    },
    {
+    "path": "/ar/districts/qurtubah",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/middle-oraija",
     "count": 3
    },
@@ -7464,10 +7484,6 @@
    },
    {
     "path": "/ar/districts/north-mathar",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/qurtubah",
     "count": 2
    },
    {
@@ -7601,10 +7617,6 @@
    {
     "path": "/ar/districts/al-sahafah",
     "count": 1
-   },
-   {
-    "path": "/districts/al-fayha",
-    "count": 1
    }
   ],
   "t.co": [
@@ -7733,7 +7745,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1075,
+   "count": 1077,
    "ref_scheme": "o"
   },
   {
@@ -7745,7 +7757,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 127,
+   "count": 128,
    "ref_scheme": "g"
   },
   {
@@ -7885,12 +7897,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1350
+   "count": 1352
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 106
+   "count": 107
   },
   {
    "id": "(unknown)",
@@ -7932,17 +7944,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1150
+   "count": 1151
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 79
+   "count": 80
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 74
+   "count": 75
   },
   {
    "id": "GB",
@@ -8114,7 +8126,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1206
+   "count": 1209
   },
   {
    "id": "tablet",
@@ -8141,12 +8153,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 762
+   "count": 764
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 701
+   "count": 702
   },
   {
    "name": "",
@@ -8162,12 +8174,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 698
+   "count": 699
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 513
+   "count": 515
   },
   {
    "id": "Windows",
