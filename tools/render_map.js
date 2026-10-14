@@ -10,13 +10,14 @@ const SRC = process.env.SRC || path.join(ROOT, 'src', 'riyadh-metro.html');
 // MAP_LANG=ar draws the Arabic map (Arabic station and area names) for the Arabic pages
 const AR = process.env.MAP_LANG === 'ar';
 const OUT = path.join(ROOT, AR ? 'riyadh-metro-map-ar.png' : 'riyadh-metro-map.png');
-const W = 1600, H = 1760;
+const W = 1600, H = 1760;   // H = the map area; the address band below it adds BAND
+const BAND = 120;
 const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:local("Liberation Sans"),local("Arial")}
 @font-face{font-family:"Unbounded";font-weight:600;src:local("Poppins SemiBold"),local("Poppins Bold"),local("Liberation Sans Bold")}`;
 
 (async () => {
   const b = await chromium.launch();
-  const p = await b.newPage({viewport: {width: W, height: H}, deviceScaleFactor: 1, colorScheme: 'light', locale: 'en-US'});
+  const p = await b.newPage({viewport: {width: W, height: H + BAND}, deviceScaleFactor: 1, colorScheme: 'light', locale: 'en-US'});
   let fallback = false;
   await p.route(/fonts\.googleapis\.com/, async r => {
     // use the web fonts only if the font files themselves can be downloaded
@@ -35,7 +36,10 @@ const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:lo
   await p.evaluate(() => document.fonts.ready);
   // the map alone: no panel, buttons or pop-ups; a title strip with the address instead
   await p.addStyleTag({content: `#panel,#zoom,#pop,#toast,#card{display:none!important}
-    #legend{left:24px!important;right:auto!important;bottom:22px!important;top:auto!important;font-size:15px!important}
+    #legend{left:24px!important;right:auto!important;bottom:${BAND + 22}px!important;top:auto!important;font-size:15px!important}
+    #imgband{position:fixed;left:0;right:0;bottom:0;height:${BAND}px;z-index:60;background:#0B6E99;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 44px;box-sizing:border-box}
+    #imgband b{font:600 54px/1 "Unbounded","Poppins","Golos Text",sans-serif;letter-spacing:.5px;direction:ltr}
+    #imgband span{font:500 30px/1.25 "Golos Text","Noto Sans Arabic",sans-serif;text-align:end}
     #imgtitle{position:fixed;top:22px;left:28px;z-index:50;font:600 30px/1.2 "Unbounded","Golos Text",sans-serif;color:#14202B}
     #imgtitle small{display:block;font:500 17px/1.5 "Golos Text",sans-serif;color:#46535E;margin-top:6px}`});
   // the date of the station names (last checked against the RTA network map), not today's date
@@ -47,6 +51,12 @@ const FALLBACK = `@font-face{font-family:"Golos Text";font-weight:400 700;src:lo
                      : 'Riyadh Metro map<small>All 6 lines and 83 stations · Station names as of ' + date + ' · Unofficial · ' + SITE_LABEL + '</small>';
     if (AR) { d.dir = 'rtl'; d.style.left = 'auto'; d.style.right = '28px'; d.style.fontFamily = '"Noto Sans Arabic",sans-serif'; }
     document.body.appendChild(d);
+    // the address in large type: people who only look at the picture in image search still learn where it lives
+    const band = document.createElement('div'); band.id = 'imgband';
+    band.innerHTML = AR ? '<b>riyadhmetro.fyi</b><span dir="rtl">اضغط على محطتين لترى<br>المسار والوقت والسعر</span>'
+                        : '<b>riyadhmetro.fyi</b><span>Tap two stations to see<br>the route, time and fare</span>';
+    if (AR) band.dir = 'rtl';
+    document.body.appendChild(band);
   }, [date, SITE_LABEL, AR]);
   await p.waitForTimeout(800); // let the app finish re-framing after the panel was hidden
   // frame the whole network below the title

@@ -645,7 +645,8 @@ def map_page():
     body.append('<p><a href="{ROOT}ar/stations/">جميع المحطات</a> · <a href="{ROOT}ar/timings/">المواعيد والأسعار</a> · <a href="{ROOT}ar/nearest-station/">أقرب محطة إلي</a> · <a href="{ROOT}ar/rules/">القواعد والغرامات</a></p>')
     ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "خريطة مترو الرياض",
           "description": MAP_ALT, "width": P.MAP_W, "height": P.MAP_H, "encodingFormat": "image/png", "inLanguage": "ar"}
-    write(path, frame(path, 'خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)', lead, '\n'.join(body), [(path, 'الخريطة')], ld, og_image=MAP_IMG))
+    desc = 'خريطة مترو الرياض بمساراتها الستة و%d محطة، مع مخطط رحلات تفاعلي: اضغط على محطتين لترى المسار والتبديلات ووقت الرحلة والسعر.' % len(ST)
+    write(path, frame(path, 'خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)', desc, '\n'.join(body), [(path, 'الخريطة')], ld, og_image=MAP_IMG))
 
 
 def nearest_page():

@@ -828,7 +828,7 @@ def pid_of(n):
 
 
 MAP_IMG = 'riyadh-metro-map.png'
-MAP_W, MAP_H = 1600, 1760
+MAP_W, MAP_H = 1600, 1880   # the map 1760 high + the address band (tools/render_map.js)
 MAP_ALT = 'Riyadh Metro map: Blue, Red, Orange, Yellow, Green and Purple lines with all stations and interchanges'
 
 
@@ -856,7 +856,8 @@ def map_page():
     body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}timings/">Timings and fares</a> · <a href="{ROOT}nearest-station/">Nearest station to me</a> · <a href="{ROOT}rules/">Rules and fines</a></p>')
     ld = {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": SITE + MAP_IMG, "name": "Riyadh Metro map",
           "description": MAP_ALT, "width": MAP_W, "height": MAP_H, "encodingFormat": "image/png"}
-    write(path, frame(path, 'Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)', lead, '\n'.join(body), [(path, 'Map')], ld, og_image=MAP_IMG))
+    desc = 'The Riyadh Metro map with all 6 lines and %d stations, plus a live planner: tap two stations to see the route, changes, travel time and fare.' % len(ST)
+    write(path, frame(path, 'Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)', desc, '\n'.join(body), [(path, 'Map')], ld, og_image=MAP_IMG))
 
 
 def nearest_page():
