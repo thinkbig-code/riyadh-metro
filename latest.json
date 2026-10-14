@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-13T23:05:24Z",
- "start": "2026-09-13",
- "end": "2026-10-14",
+ "generated": "2026-10-14T00:02:08Z",
+ "start": "2026-09-14",
+ "end": "2026-10-15",
  "total": {
-  "total": 1496,
-  "total_events": 924,
-  "total_utc": 1496,
+  "total": 1501,
+  "total_events": 927,
+  "total_utc": 1501,
   "stats": [
-   {
-    "day": "2026-09-13",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2026-09-14",
     "hourly": [
@@ -456,8 +426,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 14
+    "daily": 0
    },
    {
     "day": "2026-09-28",
@@ -487,7 +456,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 23
    },
    {
     "day": "2026-09-29",
@@ -578,7 +548,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1496
+    "monthly": 1501
    },
    {
     "day": "2026-10-02",
@@ -668,8 +638,7 @@
      0,
      0
     ],
-    "daily": 9,
-    "weekly": 1051
+    "daily": 9
    },
    {
     "day": "2026-10-05",
@@ -699,7 +668,8 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 12,
+    "weekly": 1201
    },
    {
     "day": "2026-10-06",
@@ -879,8 +849,7 @@
      1,
      1
     ],
-    "daily": 159,
-    "weekly": 431
+    "daily": 159
    },
    {
     "day": "2026-10-12",
@@ -910,7 +879,8 @@
      12,
      1
     ],
-    "daily": 128
+    "daily": 128,
+    "weekly": 277
    },
    {
     "day": "2026-10-13",
@@ -948,6 +918,36 @@
      4,
      9,
      1,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 19
+   },
+   {
+    "day": "2026-10-15",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -970,7 +970,7 @@
      0,
      0
     ],
-    "daily": 14
+    "daily": 0
    }
   ]
  },
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 433,
+   "count": 434,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -994,7 +994,7 @@
     "2026-10-11": 41,
     "2026-10-12": 35,
     "2026-10-13": 35,
-    "2026-10-14": 4
+    "2026-10-14": 5
    }
   },
   {
@@ -1002,7 +1002,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 291,
+   "count": 292,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1010,7 +1010,7 @@
     "2026-10-11": 38,
     "2026-10-12": 32,
     "2026-10-13": 32,
-    "2026-10-14": 4
+    "2026-10-14": 5
    }
   },
   {
@@ -1957,6 +1957,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/kafd/salam",
+   "path_id": 111975826,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/kafd/salam",
+   "path_id": 111975805,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-manar",
+   "path_id": 111972641,
+   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
    }
   },
   {
@@ -6622,9 +6652,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 572,
-  "events_total": 924,
-  "goatcounter_total_with_events": 1496,
+  "visits": 574,
+  "events_total": 927,
+  "goatcounter_total_with_events": 1501,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -6638,7 +6668,7 @@
    "2026-10-11": 71,
    "2026-10-12": 54,
    "2026-10-13": 61,
-   "2026-10-14": 8
+   "2026-10-14": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -6647,11 +6677,11 @@
    "2026-10-11": 40,
    "2026-10-12": 34,
    "2026-10-13": 38,
-   "2026-10-14": 4
+   "2026-10-14": 5
   },
-  "visitor_days": 307,
+  "visitor_days": 308,
   "return_rate": 0.052,
-  "routes": 260,
+  "routes": 261,
   "routes_not_found": 0,
   "routes_per_visit": 0.45,
   "routes_per_visitor_day": 0.77,
@@ -6710,7 +6740,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 291,
+   "new": 292,
    "return": 16
   },
   "top_routes": [
@@ -6767,11 +6797,11 @@
     "count": 2
    },
    {
-    "name": "hokm > kafd",
+    "name": "kafd > salam",
     "count": 1
    },
    {
-    "name": "kfl > uthman",
+    "name": "hokm > kafd",
     "count": 1
    }
   ],
@@ -6864,7 +6894,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 346
+    "count": 347
    },
    {
     "name": "com.reddit.frontpage",
@@ -7101,6 +7131,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-manar": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/destinations/hayat-national-hospital-rabwah": [
    {
     "name": "Google",
@@ -7310,19 +7346,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/districts/al-muhammadiyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 346
+    "count": 347
    },
    {
     "path": "/map",
@@ -7350,6 +7380,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-manar",
     "count": 1
    },
    {
@@ -7571,10 +7605,6 @@
    {
     "path": "/districts/al-fayha",
     "count": 1
-   },
-   {
-    "path": "/ar/districts/al-muhammadiyah",
-    "count": 1
    }
   ],
   "t.co": [
@@ -7703,7 +7733,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1070,
+   "count": 1075,
    "ref_scheme": "o"
   },
   {
@@ -7855,12 +7885,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1346
+   "count": 1350
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 105
+   "count": 106
   },
   {
    "id": "(unknown)",
@@ -7902,7 +7932,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1149
+   "count": 1150
   },
   {
    "id": "US",
@@ -7922,7 +7952,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 18
+   "count": 22
   },
   {
    "id": "IN",
@@ -8084,7 +8114,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1201
+   "count": 1206
   },
   {
    "id": "tablet",
@@ -8111,7 +8141,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 757
+   "count": 762
   },
   {
    "id": "Safari",
@@ -8137,7 +8167,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 508
+   "count": 513
   },
   {
    "id": "Windows",
