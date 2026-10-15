@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T15:16:01Z",
+ "generated": "2026-10-15T16:12:51Z",
  "start": "2025-10-15",
  "end": "2026-10-16",
  "total": {
-  "total": 1702,
+  "total": 1703,
   "total_events": 1034,
-  "total_utc": 1702,
+  "total_utc": 1703,
   "stats": [
    {
     "day": "2025-10-15",
@@ -10568,7 +10568,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1702
+    "monthly": 1703
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 220
+    "weekly": 221
    },
    {
     "day": "2026-10-15",
@@ -10984,13 +10984,13 @@
      6,
      7,
      10,
-     0,
+     1,
      0,
      0,
      0,
      0
     ],
-    "daily": 55
+    "daily": 56
    },
    {
     "day": "2026-10-16",
@@ -12191,6 +12191,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/prince-sultan-university",
+   "path_id": 112174965,
+   "title": "محطة مترو جامعة الأمير سلطان: محطة صلاح الدين، 17 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-15": 1
    }
   },
   {
@@ -17426,9 +17436,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 668,
+  "visits": 669,
   "events_total": 1034,
-  "goatcounter_total_with_events": 1702,
+  "goatcounter_total_with_events": 1703,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17443,7 +17453,7 @@
    "2026-10-12": 54,
    "2026-10-13": 61,
    "2026-10-14": 77,
-   "2026-10-15": 27
+   "2026-10-15": 28
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17987,6 +17997,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/prince-sultan-university": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/stations/national-museum": [
    {
     "name": "(direct or unknown)",
@@ -18160,12 +18176,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/ar/districts/al-khalidiyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18216,6 +18226,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/prince-sultan-university",
     "count": 1
    },
    {
@@ -18425,10 +18439,6 @@
    {
     "path": "/destinations/jawazat",
     "count": 1
-   },
-   {
-    "path": "/ar/districts/al-khalidiyah",
-    "count": 1
    }
   ],
   "t.co": [
@@ -18595,7 +18605,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1198,
+   "count": 1199,
    "ref_scheme": "o"
   },
   {
@@ -18789,7 +18799,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1510
+   "count": 1511
   },
   {
    "id": "ara",
@@ -18841,7 +18851,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1310
+   "count": 1311
   },
   {
    "id": "US",
@@ -19043,7 +19053,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1326
+   "count": 1327
   },
   {
    "id": "tablet",
@@ -19075,7 +19085,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 770
+   "count": 771
   },
   {
    "name": "",
@@ -19091,7 +19101,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 756
+   "count": 757
   },
   {
    "id": "Android",
