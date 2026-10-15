@@ -1,6 +1,6 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T00:01:29Z",
+ "generated": "2026-10-15T01:16:30Z",
  "start": "2025-10-15",
  "end": "2026-10-16",
  "total": {
@@ -11024,6 +11024,9 @@
    }
   ]
  },
+ "hits_error": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
  "hits": [
   {
    "path": "/",
@@ -17171,52 +17174,12 @@
    "daily": {
     "2026-10-06": 1
    }
-  },
-  {
-   "path": "route/uthman/granadia",
-   "path_id": 109978172,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-06": 1
-   }
-  },
-  {
-   "path": "route/albilad/p_al_masmak_fortress",
-   "path_id": 109280206,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-02": 1
-   }
-  },
-  {
-   "path": "route/alinma/p_kingdom_centre",
-   "path_id": 109278822,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-02": 1
-   }
-  },
-  {
-   "path": "route/abudhabi/yarmuk",
-   "path_id": 109278762,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-02": 1
-   }
   }
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
   "visits": 643,
-  "events_total": 1006,
+  "events_total": 1002,
   "goatcounter_total_with_events": 1649,
   "page_loads_by_day": {
    "2026-10-02": 2,
@@ -17245,9 +17208,9 @@
   },
   "visitor_days": 340,
   "return_rate": 0.062,
-  "routes": 280,
+  "routes": 276,
   "routes_not_found": 0,
-  "routes_per_visit": 0.44,
+  "routes_per_visit": 0.43,
   "routes_per_visitor_day": 0.75,
   "share_rate": 0.018,
   "shares": {
@@ -17442,7 +17405,7 @@
    },
    {
     "name": "p_kingdom_centre",
-    "count": 8
+    "count": 7
    },
    {
     "name": "p_al_faisaliah_tower",
@@ -17465,6 +17428,9 @@
     "count": 6
    }
   ]
+ },
+ "page_refs_error": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
  },
  "page_refs": {
   "/": [
@@ -17545,36 +17511,6 @@
     "count": 1
    }
   ],
-  "/ar.html": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/diriyah",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/timings",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts/al-wisham",
-    "count": 1
-   }
-  ],
   "/destinations/al-awwal-park": [
    {
     "name": "Google",
@@ -17593,35 +17529,9 @@
     "count": 5
    }
   ],
-  "/ar/districts/al-qadisiyah": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ur.html": [
-   {
-    "name": "www.facebook.com",
-    "count": 3
-   },
-   {
-    "name": "Facebook",
-    "count": 2
-   }
-  ],
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
-    "count": 4
-   }
-  ],
-  "/ar/districts/al-wisham": [
-   {
-    "name": "Google",
     "count": 4
    }
   ],
@@ -17635,26 +17545,10 @@
     "count": 1
    }
   ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
   "/ar/districts/middle-oraija": [
    {
     "name": "Google",
     "count": 3
-   }
-  ],
-  "/destinations/riyadh-front": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
    }
   ],
   "/ar/districts/al-saadah": [
@@ -17705,12 +17599,6 @@
     "count": 2
    }
   ],
-  "/ar/districts/north-mathar": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
   "/ar/districts/al-nafel": [
    {
     "name": "Google",
@@ -17731,18 +17619,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/stations": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 2
    }
   ],
   "/ar/destinations/riyadh-gallery-mall": [
@@ -17769,25 +17645,7 @@
     "count": 1
    }
   ],
-  "/districts/al-mathar": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/olaya-street": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/destinations/taibah-markets": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
     "count": 1
@@ -17796,18 +17654,6 @@
   "/destinations/king-khalid-university-hospital": [
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/stations/al-malaz": [
-   {
-    "name": "riyadhmetro.fyi/ar/districts/al-malaz",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-malaz": [
-   {
-    "name": "Google",
     "count": 1
    }
   ],
@@ -17853,12 +17699,6 @@
     "count": 1
    }
   ],
-  "/destinations/king-khalid-eye-specialist-hospital": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
   "/destinations/pakistan-embassy": [
    {
     "name": "(direct or unknown)",
@@ -17895,18 +17735,6 @@
     "count": 1
    }
   ],
-  "/destinations/jawazat": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/riyadh-tv-tower": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-khalidiyah": [
    {
     "name": "Google",
@@ -17914,12 +17742,6 @@
    }
   ],
   "/ar/destinations/ministry-of-foreign-affairs": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/king-faisal-specialist-hospital": [
    {
     "name": "Google",
     "count": 1
@@ -17967,18 +17789,6 @@
     "count": 2
    },
    {
-    "path": "/ar.html",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-qadisiyah",
-    "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-front",
-    "count": 1
-   },
-   {
     "path": "/ar/destinations/diriyah",
     "count": 1
    },
@@ -18015,19 +17825,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   },
-   {
     "path": "/destinations/pakistan-embassy",
     "count": 1
    },
    {
     "path": "/ar/destinations/olaya-mall",
-    "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-tv-tower",
     "count": 1
    }
   ],
@@ -18063,28 +17865,12 @@
     "count": 5
    },
    {
-    "path": "/ar/districts/al-qadisiyah",
-    "count": 4
-   },
-   {
-    "path": "/ar/districts/al-wisham",
-    "count": 4
-   },
-   {
-    "path": "/ar/districts/qurtubah",
-    "count": 3
-   },
-   {
     "path": "/ar/districts/middle-oraija",
     "count": 3
    },
    {
     "path": "/ar/districts/al-saadah",
     "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-front",
-    "count": 2
    },
    {
     "path": "/ar/destinations/diriyah",
@@ -18095,23 +17881,11 @@
     "count": 2
    },
    {
-    "path": "/ar/districts/north-mathar",
-    "count": 2
-   },
-   {
     "path": "/ar/districts/al-nafel",
     "count": 2
    },
    {
     "path": "/ar/destinations/al-faisaliah-tower",
-    "count": 2
-   },
-   {
-    "path": "/stations",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-rawdah",
     "count": 2
    },
    {
@@ -18139,23 +17913,7 @@
     "count": 1
    },
    {
-    "path": "/districts/al-mathar",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/olaya-street",
-    "count": 1
-   },
-   {
     "path": "/ar/destinations/taibah-markets",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-malaz",
     "count": 1
    },
    {
@@ -18183,19 +17941,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/jawazat",
-    "count": 1
-   },
-   {
     "path": "/ar/districts/al-khalidiyah",
     "count": 1
    },
    {
     "path": "/ar/destinations/ministry-of-foreign-affairs",
-    "count": 1
-   },
-   {
-    "path": "/destinations/king-faisal-specialist-hospital",
     "count": 1
    },
    {
@@ -18214,10 +17964,6 @@
    }
   ],
   "www.facebook.com": [
-   {
-    "path": "/ur.html",
-    "count": 3
-   },
    {
     "path": "/",
     "count": 2
@@ -18281,48 +18027,6 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/destinations/diriyah": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/timings": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/destinations/pif-tower": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/map": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/districts/al-wisham": [
-   {
-    "path": "/ar.html",
-    "count": 1
-   }
-  ],
-  "Facebook": [
-   {
-    "path": "/ur.html",
-    "count": 2
-   }
-  ],
   "riyadhmetro.fyi/ar/stations/al-malaz": [
    {
     "path": "/ar/stations",
@@ -18339,12 +18043,6 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/districts/al-malaz": [
-   {
-    "path": "/ar/stations/al-malaz",
-    "count": 1
-   }
-  ],
   "riyadhmetro.fyi/ar/districts/al-maseef": [
    {
     "path": "/ar/districts/al-taawun",
@@ -18352,181 +18050,9 @@
    }
   ]
  },
- "toprefs": [
-  {
-   "name": "",
-   "count": 1180,
-   "ref_scheme": "o"
-  },
-  {
-   "id": "com.reddit.frontpage",
-   "name": "com.reddit.frontpage",
-   "count": 245,
-   "ref_scheme": "o"
-  },
-  {
-   "id": "Google",
-   "name": "Google",
-   "count": 151,
-   "ref_scheme": "g"
-  },
-  {
-   "id": "www.facebook.com",
-   "name": "www.facebook.com",
-   "count": 18,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "t.co",
-   "name": "t.co",
-   "count": 6,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/map",
-   "name": "riyadhmetro.fyi/map",
-   "count": 5,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/map",
-   "name": "riyadhmetro.fyi/ar/map",
-   "count": 5,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "www.bing.com",
-   "name": "www.bing.com",
-   "count": 4,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "www.facebook.com",
-   "name": "www.facebook.com",
-   "count": 4,
-   "ref_scheme": "g"
-  },
-  {
-   "id": "Facebook",
-   "name": "Facebook",
-   "count": 3,
-   "ref_scheme": "c"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/timings",
-   "name": "riyadhmetro.fyi/ar/timings",
-   "count": 3,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/pif-tower",
-   "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-   "count": 3,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "Yahoo",
-   "name": "Yahoo",
-   "count": 2,
-   "ref_scheme": "g"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 2,
-   "ref_scheme": "c"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/diriyah",
-   "name": "riyadhmetro.fyi/ar/destinations/diriyah",
-   "count": 2,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/stations",
-   "name": "riyadhmetro.fyi/stations",
-   "count": 2,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
-   "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
-   "count": 2,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "www.reddit.com",
-   "name": "www.reddit.com",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-   "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/destinations/al-awwal-park",
-   "name": "riyadhmetro.fyi/destinations/al-awwal-park",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/timings",
-   "name": "riyadhmetro.fyi/timings",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
-   "name": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/destinations/riyadh-front",
-   "name": "riyadhmetro.fyi/destinations/riyadh-front",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi",
-   "name": "riyadhmetro.fyi",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts/al-maseef",
-   "name": "riyadhmetro.fyi/ar/districts/al-maseef",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts/al-wisham",
-   "name": "riyadhmetro.fyi/ar/districts/al-wisham",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts/al-malaz",
-   "name": "riyadhmetro.fyi/ar/districts/al-malaz",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/stations/al-malaz",
-   "name": "riyadhmetro.fyi/ar/stations/al-malaz",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/stations",
-   "name": "riyadhmetro.fyi/ar/stations",
-   "count": 1,
-   "ref_scheme": "h"
-  }
- ],
+ "toprefs": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
  "languages": [
   {
    "id": "eng",
@@ -18803,27 +18329,9 @@
    "count": 0
   }
  ],
- "browsers": [
-  {
-   "id": "Chrome",
-   "name": "Chrome",
-   "count": 847
-  },
-  {
-   "id": "Safari",
-   "name": "Safari",
-   "count": 762
-  },
-  {
-   "name": "",
-   "count": 24
-  },
-  {
-   "id": "Firefox",
-   "name": "Firefox",
-   "count": 16
-  }
- ],
+ "browsers": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
  "systems": [
   {
    "id": "iOS",
@@ -18860,5 +18368,7 @@
    "count": 1
   }
  ],
- "campaigns": []
+ "campaigns": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ }
 }
