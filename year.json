@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T20:08:06Z",
+ "generated": "2026-10-15T21:12:15Z",
  "start": "2025-10-15",
  "end": "2026-10-16",
  "total": {
-  "total": 1714,
+  "total": 1718,
   "total_events": 1039,
-  "total_utc": 1714,
+  "total_utc": 1718,
   "stats": [
    {
     "day": "2025-10-15",
@@ -10568,7 +10568,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1714
+    "monthly": 1718
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 232
+    "weekly": 236
    },
    {
     "day": "2026-10-15",
@@ -10995,7 +10995,7 @@
    {
     "day": "2026-10-16",
     "hourly": [
-     0,
+     4,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -11070,14 +11070,15 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 26,
+   "count": 29,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
     "2026-10-12": 3,
     "2026-10-13": 4,
     "2026-10-14": 5,
-    "2026-10-15": 9
+    "2026-10-15": 9,
+    "2026-10-16": 3
    }
   },
   {
@@ -12192,6 +12193,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/panorama-mall",
+   "path_id": 112211315,
+   "title": "محطة مترو بانوراما مول: محطة بنك البلاد (المسار الأزرق)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
    }
   },
   {
@@ -17457,9 +17468,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 675,
+  "visits": 679,
   "events_total": 1039,
-  "goatcounter_total_with_events": 1714,
+  "goatcounter_total_with_events": 1718,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17474,7 +17485,8 @@
    "2026-10-12": 54,
    "2026-10-13": 61,
    "2026-10-14": 77,
-   "2026-10-15": 34
+   "2026-10-15": 34,
+   "2026-10-16": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17771,7 +17783,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 24
+    "count": 27
    },
    {
     "name": "www.bing.com",
@@ -18018,6 +18030,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/panorama-mall": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/prince-sultan-university": [
    {
     "name": "(direct or unknown)",
@@ -18191,12 +18209,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/destinations/riyadh-tv-tower": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18288,10 +18300,6 @@
    {
     "path": "/ar/destinations/olaya-mall",
     "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-tv-tower",
-    "count": 1
    }
   ],
   "com.reddit.frontpage": [
@@ -18303,7 +18311,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 24
+    "count": 27
    },
    {
     "path": "/map",
@@ -18399,6 +18407,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/panorama-mall",
     "count": 1
    },
    {
@@ -18638,7 +18650,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 168,
+   "count": 172,
    "ref_scheme": "g"
   },
   {
@@ -18820,12 +18832,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1519
+   "count": 1520
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 145
+   "count": 148
   },
   {
    "id": "rus",
@@ -18872,7 +18884,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1321
+   "count": 1325
   },
   {
    "id": "US",
@@ -19079,7 +19091,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1333
+   "count": 1337
   },
   {
    "id": "tablet",
@@ -19106,12 +19118,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 899
+   "count": 903
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 775
+   "count": 778
   },
   {
    "name": "",
@@ -19127,17 +19139,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 761
+   "count": 764
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 576
+   "count": 578
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 244
+   "count": 246
   },
   {
    "id": "macOS",
