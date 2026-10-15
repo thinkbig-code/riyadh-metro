@@ -1,42 +1,58 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "gsc_period": [
-  "2026-09-16",
-  "2026-10-14"
+  "2026-09-17",
+  "2026-10-15"
  ],
- "index_checked": "2026-10-14T01:45:57Z",
+ "index_checked": "2026-10-15T01:53:59Z",
  "low_ctr_queries": [
   {
    "query": "خريطة المترو",
-   "impressions": 216,
-   "clicks": 1,
-   "position": 2.5,
+   "impressions": 329,
+   "clicks": 4,
+   "position": 2.0,
    "page": "/ar/map/",
-   "lost_clicks": 31.4
+   "lost_clicks": 45.35
   },
   {
    "query": "riyadh metro map",
-   "impressions": 113,
+   "impressions": 127,
    "clicks": 1,
-   "position": 1.9,
+   "position": 1.8,
    "page": "/map/",
-   "lost_clicks": 15.95
+   "lost_clicks": 18.05
   },
   {
-   "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "impressions": 18,
+   "query": "اقرب محطه",
+   "impressions": 101,
    "clicks": 0,
-   "position": 2.8,
-   "page": "/nearest-station/",
-   "lost_clicks": 1.8
+   "position": 6.9,
+   "page": "/ar/nearest-station/",
+   "lost_clicks": 3.03
   },
   {
    "query": "استاد الملك فهد",
-   "impressions": 6,
+   "impressions": 8,
    "clicks": 0,
    "position": 1,
    "page": "/ar/destinations/king-fahd-stadium/",
+   "lost_clicks": 2.24
+  },
+  {
+   "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
+   "impressions": 21,
+   "clicks": 0,
+   "position": 3.1,
+   "page": "/nearest-station/",
+   "lost_clicks": 2.1
+  },
+  {
+   "query": "خريطة الميترو",
+   "impressions": 6,
+   "clicks": 0,
+   "position": 1,
+   "page": "/ar/map/",
    "lost_clicks": 1.68
   },
   {
@@ -56,28 +72,36 @@
    "lost_clicks": 1.52
   },
   {
-   "query": "اقرب محطه",
-   "impressions": 49,
+   "query": "محطة الدار البيضاء",
+   "impressions": 29,
    "clicks": 0,
-   "position": 9.5,
-   "page": "/ar/nearest-station/",
-   "lost_clicks": 1.47
-  },
-  {
-   "query": "\"dar al uloom university\"",
-   "impressions": 9,
-   "clicks": 0,
-   "position": 2.2,
-   "page": "/destinations/princess-nourah-university/",
-   "lost_clicks": 1.35
+   "position": 5.5,
+   "page": "/ar/stations/ad-dar-al-baida/",
+   "lost_clicks": 1.45
   },
   {
    "query": "national museum metro station",
-   "impressions": 38,
+   "impressions": 40,
    "clicks": 0,
    "position": 9.7,
    "page": "/stations/national-museum/",
-   "lost_clicks": 1.14
+   "lost_clicks": 1.2
+  },
+  {
+   "query": "jarir metro station",
+   "impressions": 4,
+   "clicks": 0,
+   "position": 1.5,
+   "page": "/stations/jarir-district/",
+   "lost_clicks": 1.12
+  },
+  {
+   "query": "king fahad library metro station",
+   "impressions": 4,
+   "clicks": 0,
+   "position": 1,
+   "page": "/stations/king-fahad-library/",
+   "lost_clicks": 1.12
   },
   {
    "query": "riyadh metro station map",
@@ -88,110 +112,86 @@
    "lost_clicks": 1.12
   },
   {
-   "query": "محطة الدار البيضاء",
-   "impressions": 20,
+   "query": "al andalus metro station",
+   "impressions": 11,
    "clicks": 0,
-   "position": 5.4,
-   "page": "/ar/stations/ad-dar-al-baida/",
-   "lost_clicks": 1.0
-  },
-  {
-   "query": "محطة سليمان الحبيب",
-   "impressions": 31,
-   "clicks": 0,
-   "position": 9.5,
-   "page": "/ar/stations/dr-sulaiman-al-habib/",
-   "lost_clicks": 0.93
+   "position": 3.5,
+   "page": "/stations/al-andalus/",
+   "lost_clicks": 1.1
   },
   {
    "query": "andalus metro station",
-   "impressions": 9,
+   "impressions": 11,
    "clicks": 0,
-   "position": 2.8,
+   "position": 2.9,
    "page": "/stations/al-andalus/",
-   "lost_clicks": 0.9
+   "lost_clicks": 1.1
   },
   {
-   "query": "king fahad library metro station",
-   "impressions": 3,
+   "query": "\"dar al uloom university\"",
+   "impressions": 10,
    "clicks": 0,
-   "position": 1,
-   "page": "/stations/king-fahad-library/",
-   "lost_clicks": 0.84
+   "position": 2.7,
+   "page": "/destinations/princess-nourah-university/",
+   "lost_clicks": 1.0
   },
   {
    "query": "manfuha metro station",
-   "impressions": 28,
+   "impressions": 32,
    "clicks": 0,
    "position": 6.7,
    "page": "/stations/manfouhah/",
-   "lost_clicks": 0.84
+   "lost_clicks": 0.96
   },
   {
-   "query": "خريطة الميترو",
-   "impressions": 3,
+   "query": "محطة سليمان الحبيب",
+   "impressions": 32,
    "clicks": 0,
-   "position": 1,
-   "page": "/ar/map/",
-   "lost_clicks": 0.84
+   "position": 9.5,
+   "page": "/ar/stations/dr-sulaiman-al-habib/",
+   "lost_clicks": 0.96
   },
   {
-   "query": "صورة محطات المترو",
-   "impressions": 3,
+   "query": "sab metro station",
+   "impressions": 30,
    "clicks": 0,
-   "position": 1,
-   "page": "/ar/map/",
-   "lost_clicks": 0.84
+   "position": 7.9,
+   "page": "/stations/sab-bank/",
+   "lost_clicks": 0.9
   },
   {
-   "query": "محطة مترو العود",
-   "impressions": 3,
+   "query": "مترو الدار البيضاء",
+   "impressions": 29,
    "clicks": 0,
-   "position": 1,
-   "page": "/stations/al-owd/",
-   "lost_clicks": 0.84
-  },
-  {
-   "query": "jeddah road metro station",
-   "impressions": 25,
-   "clicks": 0,
-   "position": 7.7,
-   "page": "/stations/jeddah-road/",
-   "lost_clicks": 0.75
-  },
-  {
-   "query": "محطة النزهه اي مسار",
-   "impressions": 10,
-   "clicks": 0,
-   "position": 4.2,
-   "page": "/ar/stations/an-nuzhah/",
-   "lost_clicks": 0.7
+   "position": 6.1,
+   "page": "/ar/stations/ad-dar-al-baida/",
+   "lost_clicks": 0.87
   }
  ],
  "near_page_one": [
   {
    "query": "خريطة مترو الرياض",
-   "impressions": 59,
-   "position": 10.6,
+   "impressions": 78,
+   "position": 12.4,
    "page": "/ar/map/"
   },
   {
    "query": "مترو الرياض خريطة",
-   "impressions": 20,
-   "position": 15.5,
+   "impressions": 24,
+   "position": 13.1,
    "page": "/ar/map/"
   },
   {
-   "query": "near me metro station",
-   "impressions": 10,
+   "query": "محطة قصر الحكم مترو",
+   "impressions": 15,
    "position": 10.9,
-   "page": "/nearest-station/"
+   "page": "/ar/stations/qasr-al-hokm/"
   },
   {
-   "query": "محطة قصر الحكم مترو",
-   "impressions": 10,
+   "query": "near me metro station",
+   "impressions": 13,
    "position": 10.8,
-   "page": "/ar/stations/qasr-al-hokm/"
+   "page": "/nearest-station/"
   },
   {
    "query": "national museum metro",
@@ -200,16 +200,16 @@
    "page": "/destinations/national-museum/"
   },
   {
+   "query": "riyadh metro red line stations list",
+   "impressions": 8,
+   "position": 10.6,
+   "page": "/stations/"
+  },
+  {
    "query": "tuwaiq riyadh metro station",
    "impressions": 8,
    "position": 17.6,
    "page": "/districts/tuwaiq/"
-  },
-  {
-   "query": "محطة الخليج",
-   "impressions": 8,
-   "position": 11.4,
-   "page": "/ar/stations/al-khaleej/"
   },
   {
    "query": "محطة عثمان بن عفان",
@@ -218,10 +218,10 @@
    "page": "/ar/districts/al-wadi/"
   },
   {
-   "query": "riyadh metro red line stations list",
+   "query": "محطة قصر الحكم",
    "impressions": 7,
-   "position": 10.7,
-   "page": "/stations/"
+   "position": 17.6,
+   "page": "/ar/stations/qasr-al-hokm/"
   },
   {
    "query": "thumairi gold market",
@@ -233,13 +233,7 @@
    "query": "مواعيد المترو يوم الخميس",
    "impressions": 7,
    "position": 10.7,
-   "page": "/ar/timings/"
-  },
-  {
-   "query": "محطة قصر الحكم",
-   "impressions": 6,
-   "position": 19,
-   "page": "/ar/stations/qasr-al-hokm/"
+   "page": "/"
   },
   {
    "query": "abu dhabi square metro station",
@@ -258,33 +252,54 @@
    "impressions": 6,
    "position": 10.7,
    "page": "/stations/sab-bank/"
+  },
+  {
+   "query": "أقرب محطة مترو من موقعي الرياض",
+   "impressions": 6,
+   "position": 10.8,
+   "page": "/ar/districts/"
   }
  ],
  "pages_no_clicks": [
   {
    "page": "/ar/districts/",
-   "impressions": 292,
-   "position": 9.1
-  },
-  {
-   "page": "/ar/timings/",
-   "impressions": 203,
+   "impressions": 327,
    "position": 10.1
   },
   {
+   "page": "/ar/timings/",
+   "impressions": 220,
+   "position": 9.9
+  },
+  {
    "page": "/destinations/kingdom-centre/",
-   "impressions": 201,
-   "position": 6.4
+   "impressions": 216,
+   "position": 6.5
   },
   {
    "page": "/ar/destinations/imam-university/",
-   "impressions": 144,
+   "impressions": 165,
    "position": 6.7
   },
   {
+   "page": "/ar/nearest-station/",
+   "impressions": 151,
+   "position": 7.6
+  },
+  {
+   "page": "/ar/stations/sab-bank/",
+   "impressions": 123,
+   "position": 8.5
+  },
+  {
    "page": "/destinations/national-museum/",
-   "impressions": 118,
+   "impressions": 121,
    "position": 8.9
+  },
+  {
+   "page": "/nearest-station/",
+   "impressions": 119,
+   "position": 9.3
   },
   {
    "page": "/ar/destinations/diplomatic-quarter/",
@@ -293,59 +308,44 @@
   },
   {
    "page": "/ar/destinations/kingdom-centre/",
-   "impressions": 111,
+   "impressions": 112,
    "position": 7.7
   },
   {
-   "page": "/ar/stations/sab-bank/",
-   "impressions": 106,
-   "position": 8.6
-  },
-  {
    "page": "/ar/destinations/princess-nourah-university/",
-   "impressions": 96,
+   "impressions": 107,
    "position": 8.4
   },
   {
-   "page": "/destinations/boulevard-city/",
-   "impressions": 81,
-   "position": 6.1
+   "page": "/ar/stations/ad-dar-al-baida/",
+   "impressions": 98,
+   "position": 6.3
   },
   {
-   "page": "/ar/destinations/riyadh-park-mall/",
-   "impressions": 79,
-   "position": 7.5
+   "page": "/ar/stations/an-nuzhah/",
+   "impressions": 93,
+   "position": 5.0
   },
   {
    "page": "/stations/al-aziziah/",
-   "impressions": 79,
+   "impressions": 91,
    "position": 5.8
   },
   {
-   "page": "/ar/stations/",
-   "impressions": 78,
-   "position": 47.9
-  },
-  {
-   "page": "/nearest-station/",
-   "impressions": 74,
-   "position": 9.6
-  },
-  {
-   "page": "/ar/stations/ad-dar-al-baida/",
-   "impressions": 72,
-   "position": 6.2
+   "page": "/ar/destinations/riyadh-park-mall/",
+   "impressions": 87,
+   "position": 7.6
   }
  ],
  "index_by_type": {
   "ar destinations": {
-   "indexed": 91,
-   "not_indexed": 39,
+   "indexed": 105,
+   "not_indexed": 25,
    "not_checked": 0
   },
   "ar districts": {
-   "indexed": 55,
-   "not_indexed": 62,
+   "indexed": 56,
+   "not_indexed": 61,
    "not_checked": 0
   },
   "ar home": {
@@ -364,13 +364,13 @@
    "not_checked": 0
   },
   "ar nearest-station": {
-   "indexed": 0,
-   "not_indexed": 1,
+   "indexed": 1,
+   "not_indexed": 0,
    "not_checked": 0
   },
   "ar routes": {
-   "indexed": 3,
-   "not_indexed": 24,
+   "indexed": 5,
+   "not_indexed": 22,
    "not_checked": 0
   },
   "ar rules": {
@@ -389,8 +389,8 @@
    "not_checked": 0
   },
   "en destinations": {
-   "indexed": 99,
-   "not_indexed": 31,
+   "indexed": 126,
+   "not_indexed": 4,
    "not_checked": 0
   },
   "en districts": {
@@ -424,8 +424,8 @@
    "not_checked": 0
   },
   "en routes": {
-   "indexed": 0,
-   "not_indexed": 27,
+   "indexed": 13,
+   "not_indexed": 14,
    "not_checked": 0
   },
   "en rules": {
@@ -434,8 +434,8 @@
    "not_checked": 0
   },
   "en stations": {
-   "indexed": 71,
-   "not_indexed": 13,
+   "indexed": 72,
+   "not_indexed": 12,
    "not_checked": 0
   },
   "en timings": {
@@ -445,25 +445,25 @@
   }
  },
  "request_today": [
-  "https://riyadhmetro.fyi/routes/riyadh-airport-to-diplomatic-quarter/",
-  "https://riyadhmetro.fyi/routes/riyadh-airport-to-diriyah/",
-  "https://riyadhmetro.fyi/routes/riyadh-airport-to-granada-mall/",
-  "https://riyadhmetro.fyi/routes/riyadh-airport-to-kafd/",
-  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-diriyah/",
-  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-granada-mall/",
-  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-king-saud-university/",
-  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-kingdom-arena/",
-  "https://riyadhmetro.fyi/destinations/al-nakheel-mall/",
-  "https://riyadhmetro.fyi/destinations/al-nakheel-tower/"
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-king-saud-university/",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-kingdom-arena/",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-kingdom-centre/",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-masmak-fortress/",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-masmak-fortress/",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-national-museum/",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-olaya-street/",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-princess-nourah-university/",
+  "https://riyadhmetro.fyi/destinations/royal-mall/",
+  "https://riyadhmetro.fyi/destinations/shola-mall/"
  ],
  "languages": {
   "en": {
-   "impressions": 1473,
-   "clicks": 7
+   "impressions": 1736,
+   "clicks": 8
   },
   "ar": {
-   "impressions": 1367,
-   "clicks": 10
+   "impressions": 1848,
+   "clicks": 14
   }
  },
  "suggested_history": {
@@ -506,7 +506,17 @@
   "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-king-saud-university/": "2026-10-14",
   "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-kingdom-arena/": "2026-10-14",
   "https://riyadhmetro.fyi/destinations/al-nakheel-mall/": "2026-10-14",
-  "https://riyadhmetro.fyi/destinations/al-nakheel-tower/": "2026-10-14"
+  "https://riyadhmetro.fyi/destinations/al-nakheel-tower/": "2026-10-14",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-king-saud-university/": "2026-10-15",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-kingdom-arena/": "2026-10-15",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-kingdom-centre/": "2026-10-15",
+  "https://riyadhmetro.fyi/routes/riyadh-airport-to-masmak-fortress/": "2026-10-15",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-masmak-fortress/": "2026-10-15",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-national-museum/": "2026-10-15",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-olaya-street/": "2026-10-15",
+  "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-princess-nourah-university/": "2026-10-15",
+  "https://riyadhmetro.fyi/destinations/royal-mall/": "2026-10-15",
+  "https://riyadhmetro.fyi/destinations/shola-mall/": "2026-10-15"
  },
  "_about": "Built by tools/gsc_report.py from gsc.json and gsc_index.json. Positions are averages over the period; lost_clicks = impressions x typical CTR for that position - clicks (a ranking aid, not a forecast)."
 }
