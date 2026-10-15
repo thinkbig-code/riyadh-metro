@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T10:12:12Z",
+ "generated": "2026-10-15T11:10:20Z",
  "start": "2026-09-15",
  "end": "2026-10-16",
  "total": {
-  "total": 1673,
-  "total_events": 1022,
-  "total_utc": 1673,
+  "total": 1679,
+  "total_events": 1023,
+  "total_utc": 1679,
   "stats": [
    {
     "day": "2026-09-15",
@@ -518,7 +518,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1673
+    "monthly": 1679
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      4
     ],
     "daily": 130,
-    "weekly": 321
+    "weekly": 327
    },
    {
     "day": "2026-10-14",
@@ -929,8 +929,8 @@
      7,
      11,
      0,
-     0,
-     0,
+     4,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 26
+    "daily": 32
    },
    {
     "day": "2026-10-16",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 468,
+   "count": 469,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -995,7 +995,7 @@
     "2026-10-12": 35,
     "2026-10-13": 35,
     "2026-10-14": 36,
-    "2026-10-15": 3
+    "2026-10-15": 4
    }
   },
   {
@@ -1020,7 +1020,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 23,
+   "count": 24,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1028,7 +1028,7 @@
     "2026-10-12": 2,
     "2026-10-13": 6,
     "2026-10-14": 5,
-    "2026-10-15": 2
+    "2026-10-15": 3
    }
   },
   {
@@ -1036,14 +1036,14 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 20,
+   "count": 21,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
     "2026-10-12": 3,
     "2026-10-13": 4,
     "2026-10-14": 5,
-    "2026-10-15": 3
+    "2026-10-15": 4
    }
   },
   {
@@ -1301,6 +1301,19 @@
    }
   },
   {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -1347,18 +1360,6 @@
     "2026-10-11": 1,
     "2026-10-12": 1,
     "2026-10-13": 1
-   }
-  },
-  {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1
    }
   },
   {
@@ -2086,6 +2087,17 @@
    }
   },
   {
+   "path": "/ar/lines/blue-line",
+   "path_id": 110184814,
+   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-15": 1
+   }
+  },
+  {
    "path": "/ar/destinations/riyadh-gallery-mall",
    "path_id": 110184768,
    "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
@@ -2116,6 +2128,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/king-fahad-library",
+   "path_id": 112143913,
+   "title": "محطة مكتبة الملك فهد، مترو الرياض: المسار الأزرق (رقم 12)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-15": 1
    }
   },
   {
@@ -7239,16 +7261,6 @@
    }
   },
   {
-   "path": "/ar/lines/blue-line",
-   "path_id": 110184814,
-   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "report/uthman/granadia",
    "path_id": 109978340,
    "title": "en|opened",
@@ -7301,9 +7313,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 651,
-  "events_total": 1022,
-  "goatcounter_total_with_events": 1673,
+  "visits": 656,
+  "events_total": 1023,
+  "goatcounter_total_with_events": 1679,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7318,7 +7330,7 @@
    "2026-10-12": 54,
    "2026-10-13": 61,
    "2026-10-14": 77,
-   "2026-10-15": 10
+   "2026-10-15": 15
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7328,10 +7340,10 @@
    "2026-10-12": 34,
    "2026-10-13": 38,
    "2026-10-14": 37,
-   "2026-10-15": 3
+   "2026-10-15": 4
   },
-  "visitor_days": 343,
-  "return_rate": 0.067,
+  "visitor_days": 344,
+  "return_rate": 0.07,
   "routes": 293,
   "routes_not_found": 0,
   "routes_per_visit": 0.45,
@@ -7404,7 +7416,7 @@
   },
   "visitors_new_return": {
    "new": 320,
-   "return": 23
+   "return": 24
   },
   "top_routes": [
    {
@@ -7557,7 +7569,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 375
+    "count": 376
    },
    {
     "name": "com.reddit.frontpage",
@@ -7615,7 +7627,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 18
+    "count": 19
    },
    {
     "name": "www.bing.com",
@@ -7714,6 +7726,12 @@
     "count": 4
    }
   ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -7728,12 +7746,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/districts/middle-oraija": [
@@ -7840,6 +7852,16 @@
     "count": 2
    }
   ],
+  "/ar/lines/blue-line": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
+    "count": 1
+   }
+  ],
   "/ar/destinations/riyadh-gallery-mall": [
    {
     "name": "Google",
@@ -7850,6 +7872,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/stations/king-fahad-library": [
+   {
+    "name": "riyadhmetro.fyi/ar/lines/blue-line",
+    "count": 1
    }
   ],
   "/destinations/lulu-hypermarket-murabba": [
@@ -8025,25 +8053,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/ministry-of-municipal-rural-affairs-and-housing": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-duraihemiyah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 375
+    "count": 376
    },
    {
     "path": "/districts/al-taawun",
@@ -8135,7 +8151,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 18
+    "count": 19
    },
    {
     "path": "/map",
@@ -8162,12 +8178,12 @@
     "count": 4
    },
    {
-    "path": "/ar/districts/al-wisham",
+    "path": "/ar/districts/qurtubah",
     "count": 4
    },
    {
-    "path": "/ar/districts/qurtubah",
-    "count": 3
+    "path": "/ar/districts/al-wisham",
+    "count": 4
    },
    {
     "path": "/ar/districts/middle-oraija",
@@ -8227,6 +8243,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/lines/blue-line",
     "count": 1
    },
    {
@@ -8295,14 +8315,6 @@
    },
    {
     "path": "/destinations/king-faisal-specialist-hospital",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/ministry-of-municipal-rural-affairs-and-housing",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-duraihemiyah",
     "count": 1
    }
   ],
@@ -8438,6 +8450,18 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
+   {
+    "path": "/ar/lines/blue-line",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/lines/blue-line": [
+   {
+    "path": "/ar/stations/king-fahad-library",
+    "count": 1
+   }
+  ],
   "chatgpt.com": [
    {
     "path": "/destinations/king-khalid-university-hospital",
@@ -8458,7 +8482,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1188,
+   "count": 1190,
    "ref_scheme": "o"
   },
   {
@@ -8470,7 +8494,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 154,
+   "count": 157,
    "ref_scheme": "g"
   },
   {
@@ -8576,6 +8600,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/lines/blue-line",
+   "name": "riyadhmetro.fyi/ar/lines/blue-line",
+   "count": 1,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/destinations/al-awwal-park",
    "name": "riyadhmetro.fyi/destinations/al-awwal-park",
    "count": 1,
@@ -8640,12 +8670,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1489
+   "count": 1493
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 134
+   "count": 136
   },
   {
    "id": "rus",
@@ -8692,7 +8722,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1283
+   "count": 1289
   },
   {
    "id": "US",
@@ -8894,7 +8924,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1304
+   "count": 1306
   },
   {
    "id": "tablet",
@@ -8904,7 +8934,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 268
+   "count": 272
   },
   {
    "id": "desktophd",
@@ -8921,12 +8951,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 870
+   "count": 875
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 763
+   "count": 764
   },
   {
    "name": "",
@@ -8942,17 +8972,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 751
+   "count": 752
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 557
+   "count": 558
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 234
+   "count": 238
   },
   {
    "id": "macOS",
