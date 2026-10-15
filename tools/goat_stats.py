@@ -4,6 +4,7 @@
 Usage:  GOATCOUNTER_TOKEN=... python3 tools/goat_stats.py --site https://riyadhmetro.goatcounter.com --out DIR [--days 30]
 
 Writes DIR/latest.json (last N days) and DIR/YYYY-MM-DD.json (a copy, so changes over time can be compared).
+If GoatCounter cannot be read in full (after retries), it writes nothing and exits with code 2.
 Only aggregate counts are stored (pages, events, referrers and the pages each referrer sent visitors to, languages, countries, screen sizes);
 GoatCounter keeps no personal data. The token needs only "Read statistics".
 """
@@ -27,17 +28,18 @@ def get(path, **q):
     q = {k: v for k, v in q.items() if v is not None}
     url = a.site.rstrip('/') + '/api/v0/' + path + ('?' + urllib.parse.urlencode(q) if q else '')
     req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json'})
-    for attempt in range(4):
+    waits = [3, 8, 20, 45]   # dropped connections and server errors are often short: wait longer each time
+    for attempt in range(len(waits) + 1):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 3:      # rate limit: wait and try again
-                time.sleep(2 + attempt * 2); continue
+            if (e.code == 429 or e.code >= 500) and attempt < len(waits):
+                time.sleep(waits[attempt]); continue
             return {'error': 'HTTP %d' % e.code, 'body': e.read().decode()[:500]}
-        except Exception as e:  # network problems are recorded, not fatal
-            if attempt < 3:
-                time.sleep(2); continue
+        except Exception as e:  # network problems: retried, then recorded
+            if attempt < len(waits):
+                time.sleep(waits[attempt]); continue
             return {'error': str(e)}
 
 
@@ -61,6 +63,11 @@ for _ in range(20):
         break
     time.sleep(0.5)
 out['hits'] = sorted(hits, key=lambda h: -(h['count'] or 0))
+if (isinstance(out['total'], dict) and out['total'].get('error')) or out.get('hits_error') or not hits:
+    # stop here: the remaining requests would fail the same way and only make the run longer
+    print('GoatCounter download incomplete (total or hits): nothing written', file=sys.stderr)
+    print(json.dumps({k: out.get(k) for k in ('total', 'hits_error')}, ensure_ascii=False)[:800], file=sys.stderr)
+    sys.exit(2)
 
 
 def summary(hits, visits):
@@ -148,6 +155,15 @@ for page in ['toprefs', 'languages', 'locations', 'sizes', 'browsers', 'systems'
     out[page] = r.get('stats', r)
     time.sleep(0.5)
 
+# an incomplete download must not replace the last good one: write nothing and fail, so the
+# workflow keeps the previous files on the stats branch and shows the run as failed
+problems = [k for k in ('total', 'toprefs') if isinstance(out.get(k), dict) and out[k].get('error')]
+if out.get('hits_error') or not out['hits']:
+    problems.append('hits')
+if problems:
+    print('GoatCounter download incomplete (%s): nothing written' % ', '.join(problems), file=sys.stderr)
+    print(json.dumps({k: out.get(k) for k in ('total', 'hits_error', 'toprefs') if out.get(k)}, ensure_ascii=False)[:800], file=sys.stderr)
+    sys.exit(2)
 os.makedirs(a.out, exist_ok=True)
 for name in ('latest.json', today.isoformat() + '.json'):
     json.dump(out, open(os.path.join(a.out, name), 'w'), ensure_ascii=False, indent=1)

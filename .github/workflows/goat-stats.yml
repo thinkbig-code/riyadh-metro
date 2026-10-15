@@ -36,6 +36,8 @@ jobs:
             cd "$RUNNER_TEMP/w" && git checkout --orphan stats && git rm -rq --cached . && find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           fi
       - name: Download visit statistics
+        id: goat
+        continue-on-error: true    # Search Console still runs; the last step marks the run as failed
         env:
           GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
         run: |
@@ -56,9 +58,14 @@ jobs:
         run: python3 tools/gsc_report.py --stats "$RUNNER_TEMP/stats" --prev "$RUNNER_TEMP/w" --sitemap sitemap.xml --out "$RUNNER_TEMP/stats"
       - name: Commit to the stats branch
         run: |
-          cp "$RUNNER_TEMP"/stats/*.json "$RUNNER_TEMP/w/"
+          cp "$RUNNER_TEMP"/stats/*.json "$RUNNER_TEMP/w/" 2>/dev/null || true   # nothing from GoatCounter after a failed download: the old files stay
           cp "$RUNNER_TEMP"/stats/*.md "$RUNNER_TEMP/w/" 2>/dev/null || true
           cd "$RUNNER_TEMP/w"
           git add -A
           git commit -qm "stats $(date -u +%F)" || { echo "no change"; exit 0; }
           git push origin stats
+      - name: Report a failed visit download
+        if: steps.goat.outcome == 'failure'
+        run: |
+          echo "::error::GoatCounter could not be read in full; the previous latest.json and year.json were kept"
+          exit 1
