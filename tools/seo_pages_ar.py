@@ -561,8 +561,26 @@ def line_pages():
         body.append('</table></div>')
         body.append(hours_html())
         body.append(fare_table())
-        body.append('<h2>المسارات الأخرى</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (المسار %d)</a></li>' % (LINE_PAGE[o], e(LN[o]), NUM[o]) for o in COLORS if o != c) + '</ul>')
+        body.append('<h2>المسارات الأخرى</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (المسار %d)</a></li>' % (LINE_PAGE[o], e(LN[o]), NUM[o]) for o in COLORS if o != c) + '<li><a href="{ROOT}ar/lines/">جميع المسارات الستة</a></li></ul>')
         write(path, frame(path, '%s مترو الرياض (المسار %d): المحطات والخريطة والمواعيد' % (LN[c], n), lead, '\n'.join(body), [(path, LN[c])]))
+
+
+def lines_list():
+    """people search 'مسار مترو الرياض' and 'خطوط مترو الرياض': the six lines (مسارات) side by side"""
+    path = 'ar/lines/'
+    lead = 'يضم مترو الرياض ستة مسارات (خطوط) و%d محطة. لكل مسار لون ورقم، ويبيّن الجدول من أين يبدأ كل مسار وأين ينتهي وعدد محطاته ومحطات التبديل إلى المسارات الأخرى.' % len(ST)
+    body = ['<h1>مسارات مترو الرياض: الخطوط الستة ومحطاتها</h1>', '<p class="lead">%s</p>' % e(lead),
+            '<a class="cta" href="{ROOT}ar.html">افتح الخريطة التفاعلية</a>', map_figure()]
+    body.append('<h2>المسارات الستة في جدول واحد</h2><div class="scroll"><table><tr><th>المسار</th><th>من – إلى</th><th>المحطات</th><th>التبديل إلى مسارات أخرى</th></tr>')
+    for v in D['services']:
+        c = v['line']; ids = v['stops']
+        xs = [x for x in ids if len(ST[x]['lines']) > 1]
+        body.append('<tr><td><a href="{ROOT}%s"><b style="color:%s">●</b> %s (المسار %d)</a></td><td>%s – %s</td><td>%d</td><td>%s</td></tr>' % (
+            LINE_PAGE[c], P.LINE_COLOR[c], e(LN[c]), NUM[c], e(sn(ids[0])), e(sn(ids[-1])), len(ids), e('، '.join(sn(x) for x in xs))))
+    body.append('</table></div>')
+    body.append('<p>يشترك المساران الأصفر والبنفسجي في المحطات الأربع من المركز المالي إلى سابك. تذكرة الساعتين تكفي لعدد غير محدود من الرحلات والتبديل بين المسارات.</p>')
+    body.append('<p><a href="{ROOT}ar/stations/">جميع المحطات</a> · <a href="{ROOT}ar/map/">خريطة المترو</a> · <a href="{ROOT}ar/timings/">المواعيد والأسعار</a></p>')
+    write(path, frame(path, 'مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها', lead, '\n'.join(body), [(path, 'المسارات')]))
 
 
 def stations_list():
@@ -578,7 +596,7 @@ def stations_list():
     for i in ids:
         body.append('<tr><td>%s</td><td>%s</td></tr>' % (st_cell(i), e(lines_txt(ST[i]['lines']))))
     body.append('</table></div>')
-    body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (المسار %d)</a></li>' % (LINE_PAGE[l], e(LN[l]), NUM[l]) for l in COLORS) + '</ul>')
+    body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (المسار %d)</a></li>' % (LINE_PAGE[l], e(LN[l]), NUM[l]) for l in COLORS) + '<li><a href="{ROOT}ar/lines/">مقارنة المسارات الستة</a></li></ul>')
     write(path, frame(path, 'محطات مترو الرياض: القائمة الكاملة للمسارات الستة', lead, '\n'.join(body), [(path, 'المحطات')]))
 
 
@@ -623,7 +641,7 @@ def timings_page():
         else:
             groups.append([[d], tuple(H[d])])
     hm = lambda m: '%02d:%02d' % (m // 60 % 24, m % 60)
-    title = 'مواعيد مترو الرياض: وقت الفتح والإغلاق ويوم الجمعة والأسعار'
+    title = 'مواعيد مترو الرياض وأسعار التذاكر: وقت الفتح والإغلاق ويوم الجمعة'
     desc = 'اعرف هل المترو يعمل الآن، مع مواعيد الخميس والجمعة وعطلة نهاية الأسبوع، وتكرار القطارات والأسعار، وخطّط رحلتك على الخريطة التفاعلية.'
     write(path, frame(path, title, desc, '\n'.join(body), [(path, 'المواعيد والأسعار')]))
 
@@ -706,6 +724,7 @@ def build():
     stations_list()
     timings_page()
     line_pages()
+    lines_list()
     for d in CFG['destinations']:
         destination(d)
     for s in P.STATIONS:

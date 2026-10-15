@@ -760,8 +760,27 @@ def line_pages():
         body.append('<h2>Stations</h2>' + station_table(ids, c))
         body.append(hours_html(['metro']))
         body.append(fare_table())
-        body.append('<h2>Other lines</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (Line %d)</a></li>' % (LINE_PAGE[o], e(LINE_NAME[o]), LINE_NUM[o]) for o in COLORS if o != c) + '</ul>')
+        body.append('<h2>Other lines</h2><ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (Line %d)</a></li>' % (LINE_PAGE[o], e(LINE_NAME[o]), LINE_NUM[o]) for o in COLORS if o != c) + '<li><a href="{ROOT}lines/">All six lines</a></li></ul>')
         write(path, frame(path, 'Riyadh Metro %s (Line %d): Stations, Map and Hours' % (LINE_NAME[c], n), lead, '\n'.join(body), [(path, LINE_NAME[c])]))
+
+
+def lines_list():
+    """people search 'riyadh metro lines': the six lines side by side, with their ends, stations and interchanges"""
+    path = 'lines/'
+    total = len(ST)
+    lead = 'The Riyadh Metro has six lines and %d stations. Each line has a colour and a number; the table shows where each one runs, how many stations it has and where you can change to another line.' % total
+    body = ['<h1>Riyadh Metro lines: the six lines and their stations</h1>', '<p class="lead">%s</p>' % e(lead),
+            '<a class="cta" href="{ROOT}">Open the interactive map</a>', map_figure()]
+    body.append('<h2>All lines at a glance</h2><div class="scroll"><table><tr><th>Line</th><th>From – to</th><th>Stations</th><th>Change to other lines at</th></tr>')
+    for v in D['services']:
+        c = v['line']; ids = v['stops']
+        xs = [x for x in ids if len(ST[x]['lines']) > 1]
+        body.append('<tr><td><a href="{ROOT}%s"><b style="color:%s">●</b> %s (Line %d)</a></td><td>%s – %s</td><td>%d</td><td>%s</td></tr>' % (
+            LINE_PAGE[c], LINE_COLOR[c], e(LINE_NAME[c]), LINE_NUM[c], e(ST[ids[0]]['n']), e(ST[ids[-1]]['n']), len(ids), e(', '.join(ST[x]['n'] for x in xs))))
+    body.append('</table></div>')
+    body.append('<p>The Yellow and Purple lines share the four stations from KAFD to SABIC. One 2-hour ticket covers any number of rides and changes between lines.</p>')
+    body.append('<p><a href="{ROOT}stations/">All stations A–Z</a> · <a href="{ROOT}map/">Metro map</a> · <a href="{ROOT}timings/">Timings and fares</a></p>')
+    write(path, frame(path, 'Riyadh Metro Lines: All 6 Lines, Stations and Interchanges', lead, '\n'.join(body), [(path, 'Lines')]))
 
 
 def stations_list():
@@ -779,7 +798,7 @@ def stations_list():
     for i in ids:
         body.append('<tr><td>%s</td><td>%s</td></tr>' % (st_cell(i), e(', '.join(LINE_NAME[l] for l in ST[i]['lines']))))
     body.append('</table></div>')
-    body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (Line %d)</a></li>' % (LINE_PAGE[l], e(LINE_NAME[l]), LINE_NUM[l]) for l in COLORS) + '</ul>')
+    body.append('<ul class="links">' + ''.join('<li><a href="{ROOT}%s">%s (Line %d)</a></li>' % (LINE_PAGE[l], e(LINE_NAME[l]), LINE_NUM[l]) for l in COLORS) + '<li><a href="{ROOT}lines/">All six lines compared</a></li></ul>')
     write(path, frame(path, 'Riyadh Metro Stations: Full List of All 6 Lines', lead, '\n'.join(body), [(path, 'Stations')]))
 
 
@@ -930,6 +949,7 @@ def build():
     stations_list()
     timings_page()
     line_pages()
+    lines_list()
     for d in CFG['destinations']:
         destination(d)
     for s in STATIONS:
