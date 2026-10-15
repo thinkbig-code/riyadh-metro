@@ -1,6 +1,6 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T02:10:54Z",
+ "generated": "2026-10-15T03:15:03Z",
  "start": "2025-10-15",
  "end": "2026-10-16",
  "total": {
@@ -9,32 +9,2860 @@
  "hits_error": {
   "error": "<urlopen error [Errno 104] Connection reset by peer>"
  },
- "hits": [],
+ "hits": [
+  {
+   "path": "/",
+   "path_id": 109278741,
+   "title": "Interactive Riyadh Metro Map: all 6 lines",
+   "event": false,
+   "count": 465,
+   "daily": {
+    "2026-10-02": 2,
+    "2026-10-03": 9,
+    "2026-10-04": 6,
+    "2026-10-05": 10,
+    "2026-10-06": 4,
+    "2026-10-07": 30,
+    "2026-10-08": 157,
+    "2026-10-09": 48,
+    "2026-10-10": 52,
+    "2026-10-11": 41,
+    "2026-10-12": 35,
+    "2026-10-13": 35,
+    "2026-10-14": 36
+   }
+  },
+  {
+   "path": "visit/new/-",
+   "path_id": 110432364,
+   "title": "en",
+   "event": true,
+   "count": 319,
+   "daily": {
+    "2026-10-08": 96,
+    "2026-10-09": 47,
+    "2026-10-10": 42,
+    "2026-10-11": 38,
+    "2026-10-12": 32,
+    "2026-10-13": 32,
+    "2026-10-14": 32
+   }
+  },
+  {
+   "path": "visit/return/-",
+   "path_id": 110708664,
+   "title": "en",
+   "event": true,
+   "count": 21,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 4,
+    "2026-10-11": 2,
+    "2026-10-12": 2,
+    "2026-10-13": 6,
+    "2026-10-14": 5
+   }
+  },
+  {
+   "path": "/ar/map",
+   "path_id": 110886300,
+   "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
+   "event": false,
+   "count": 18,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-11": 3,
+    "2026-10-12": 3,
+    "2026-10-13": 4,
+    "2026-10-14": 5,
+    "2026-10-15": 1
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 18,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 7,
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 3
+   }
+  },
+  {
+   "path": "place/p_kafd_king_abdullah_financial_district/to",
+   "path_id": 110300373,
+   "title": "en|name",
+   "event": true,
+   "count": 17,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 5,
+    "2026-10-09": 4,
+    "2026-10-10": 3,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/map",
+   "path_id": 110710457,
+   "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
+   "event": false,
+   "count": 14,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-11": 3,
+    "2026-10-12": 1,
+    "2026-10-13": 4,
+    "2026-10-15": 1
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 7,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/to",
+   "path_id": 110409518,
+   "title": "en|name",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-08": 7,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 2,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "place/p_al_faisaliah_tower/to",
+   "path_id": 110407244,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-08": 4,
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar.html",
+   "path_id": 110284017,
+   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 2,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/from",
+   "path_id": 110181103,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 3,
+    "2026-10-09": 2
+   }
+  },
+  {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-04": 2,
+    "2026-10-05": 1,
+    "2026-10-09": 1,
+    "2026-10-12": 3
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/to",
+   "path_id": 110299388,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 3,
+    "2026-10-08": 2,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-04": 1,
+    "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 3
+   }
+  },
+  {
+   "path": "/districts/al-yasmeen",
+   "path_id": 111876907,
+   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-13": 2,
+    "2026-10-14": 3
+   }
+  },
+  {
+   "path": "/ar/districts/al-qadisiyah",
+   "path_id": 110820839,
+   "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "/ur.html",
+   "path_id": 110487827,
+   "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-08": 5
+   }
+  },
+  {
+   "path": "place/p_kafd_king_abdullah_financial_district/from",
+   "path_id": 110418694,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-09": 2,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/from",
+   "path_id": 110300993,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/from",
+   "path_id": 110295276,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 3
+   }
+  },
+  {
+   "path": "/districts/al-taawun",
+   "path_id": 111962269,
+   "title": "Nearest Metro Station to Al Taawun, Riyadh: Uthman Bin Affan Road, 3.1 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 4
+   }
+  },
+  {
+   "path": "/ar/districts/al-wisham",
+   "path_id": 110894791,
+   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "station/hokm/to",
+   "path_id": 110432185,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/malaz/from",
+   "path_id": 110309312,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-front",
+   "path_id": 110843025,
+   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/wizarat/alinma",
+   "path_id": 110527795,
+   "title": "en|geo|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "place/p_panorama_mall/to",
+   "path_id": 110418739,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "geo/ok/sab",
+   "path_id": 110405774,
+   "title": "en",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_granada_mall/from",
+   "path_id": 110301445,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_granada_mall/to",
+   "path_id": 110301082,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_king_fahd_national_library/to",
+   "path_id": 110299419,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "noresult/from/-",
+   "path_id": 110298937,
+   "title": "en|minisi",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "/ar/destinations/diriyah",
+   "path_id": 110283859,
+   "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/stations",
+   "path_id": 112000986,
+   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-malqa",
+   "path_id": 111993666,
+   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-manar",
+   "path_id": 111972641,
+   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 2
+   }
+  },
+  {
+   "path": "route/p_king_fahd_national_library/railway",
+   "path_id": 111943914,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 2
+   }
+  },
+  {
+   "path": "route/uthman/kfl",
+   "path_id": 111876852,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 2
+   }
+  },
+  {
+   "path": "/ar/districts/north-mathar",
+   "path_id": 111103818,
+   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_boulevard_world/to",
+   "path_id": 111087040,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/baba_sweet",
+   "path_id": 111087036,
+   "title": "en|baba sweet",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/kafd/from",
+   "path_id": 110972439,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/ksu/t12",
+   "path_id": 110966415,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "/ar/destinations/al-faisaliah-tower",
+   "path_id": 110961469,
+   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/timings",
+   "path_id": 110802013,
+   "title": "Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/kbw/to",
+   "path_id": 110801710,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_gallery_mall/to",
+   "path_id": 110786266,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "geo/ok/kfl",
+   "path_id": 110786259,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 2
+   }
+  },
+  {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/batha/from",
+   "path_id": 110776084,
+   "title": "ar|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/moi/p_kafd_king_abdullah_financial_district",
+   "path_id": 110772718,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/granadia/oasis",
+   "path_id": 110514767,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_panorama_mall",
+   "path_id": 110512953,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/gosi/from",
+   "path_id": 110512848,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_king_saud_university/from",
+   "path_id": 110486462,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-rawdah",
+   "path_id": 110465981,
+   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/rabi/from",
+   "path_id": 110461292,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/sabic/to",
+   "path_id": 110444036,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "route/malaz/sab",
+   "path_id": 110444020,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/sab/to",
+   "path_id": 110444019,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/ksu/hamra",
+   "path_id": 110442280,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_riyadh_railway_station/to",
+   "path_id": 110440013,
+   "title": "en|alias",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/urubah/from",
+   "path_id": 110432165,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "geo/ok/granadia",
+   "path_id": 110423149,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "station/mof/to",
+   "path_id": 110415608,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "geo/ok/wizarat",
+   "path_id": 110415533,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/khashm/p_kingdom_centre",
+   "path_id": 110409517,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "geo/ok/khashm",
+   "path_id": 110409467,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/p_granada_mall/p_al_faisaliah_tower",
+   "path_id": 110407243,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/andalus/from",
+   "path_id": 110405822,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_al_hamra_mall/to",
+   "path_id": 110384422,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "place/p_sahara_mall/to",
+   "path_id": 110384416,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/wurud2/to",
+   "path_id": 110360650,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "place/p_national_museum/from",
+   "path_id": 110323701,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "station/alinma/to",
+   "path_id": 110318254,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/kafd/t5",
+   "path_id": 110317668,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
+   "path_id": 110315050,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/sabic/from",
+   "path_id": 110312410,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/t12/from",
+   "path_id": 110311096,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "place/p_al_batha/to",
+   "path_id": 110302142,
+   "title": "en|alias",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "geo/ok/urubah",
+   "path_id": 110302101,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/to",
+   "path_id": 110301057,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/khashm/p_kafd_king_abdullah_financial_district",
+   "path_id": 110300415,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/from",
+   "path_id": 110299344,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-gallery-mall",
+   "path_id": 110184768,
+   "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_national_museum",
+   "path_id": 110181108,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/qasr-al-hokm",
+   "path_id": 109804926,
+   "title": "محطة قصر الحكم في مترو الرياض: المسارات والرحلات والمواعيد",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-05": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-15": 1
+   }
+  },
+  {
+   "path": "geo/ok/albilad",
+   "path_id": 112087664,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/districts/al-nada",
+   "path_id": 112087429,
+   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/districts/al-mathar",
+   "path_id": 112085340,
+   "title": "Nearest Metro Station to Al Mathar, Riyadh: Ministry of Interior, 2.4 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/olaya-street",
+   "path_id": 112084034,
+   "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/taibah-markets",
+   "path_id": 112083999,
+   "title": "محطة مترو أسواق طيبة: محطة حي الملك فهد 2 (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/t12/hokm",
+   "path_id": 112080379,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/malaz/t12",
+   "path_id": 112076530,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/t12/to",
+   "path_id": 112076529,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/malaz/gosi",
+   "path_id": 112076489,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/gosi/to",
+   "path_id": 112076488,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/rajhi/habib",
+   "path_id": 112044555,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/harun/habib",
+   "path_id": 112043834,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/habib/harun",
+   "path_id": 112043718,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/harun/habib",
+   "path_id": 112043710,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/habib/to",
+   "path_id": 112043709,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "geo/ok/harun",
+   "path_id": 112043686,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/destinations/king-khalid-university-hospital",
+   "path_id": 112038785,
+   "title": "King Khalid University Hospital Metro Station: King Saud University, 12 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-malaz",
+   "path_id": 112035318,
+   "title": "محطة الملز، مترو الرياض: المسار البرتقالي (رقم 54)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/p_granada_mall/p_al_batha",
+   "path_id": 112035276,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-malaz",
+   "path_id": 112035044,
+   "title": "أقرب محطة مترو لحي الملز في الرياض: محطة الملز (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/p_al_othaim_mall_rabwah/tuwaiq",
+   "path_id": 112034364,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/p_al_othaim_mall_rabwah/tuwaiq",
+   "path_id": 112034343,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/tuwaiq/to",
+   "path_id": 112034342,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/sab/jeddahrd",
+   "path_id": 112030732,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/sab/khurais",
+   "path_id": 112030054,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/khurais/sab",
+   "path_id": 112030049,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/khurais/courts",
+   "path_id": 112030032,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/sulimaniyah/p_king_khalid_airport_terminals_1_2",
+   "path_id": 112027939,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/sulimaniyah/p_king_khalid_airport_terminals_1_2",
+   "path_id": 112027919,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "geo/ok/sulimaniyah",
+   "path_id": 112027885,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/stations/king-saud-university",
+   "path_id": 112015343,
+   "title": "King Saud University Metro Station, Riyadh: Red Line, No. 26",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/dhabab/kfl",
+   "path_id": 112010416,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/routes/kafd-to-national-museum",
+   "path_id": 112008710,
+   "title": "KAFD to National Museum by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-commerce",
+   "path_id": 112004919,
+   "title": "محطة مترو وزارة التجارة: محطة سكة الحديد (المسار البرتقالي)، 14 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/moe/moi",
+   "path_id": 112003063,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/granadia/moe",
+   "path_id": 112003034,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "noresult/al_forsan",
+   "path_id": 111999218,
+   "title": "en|al forsan",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_prince_sultan_military_medical_city/from",
+   "path_id": 111999186,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "noresult/pss",
+   "path_id": 111999147,
+   "title": "en|pss",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "noresult/ma'aden",
+   "path_id": 111998779,
+   "title": "en|ma'aden",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/districts",
+   "path_id": 111998625,
+   "title": "أقرب محطة مترو لكل أحياء الرياض",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/urubah/t5",
+   "path_id": 111994612,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "station/t5/to",
+   "path_id": 111994611,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/lines/blue-line",
+   "path_id": 111981325,
+   "title": "Riyadh Metro Blue Line (Line 1): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "view/kafd/salam",
+   "path_id": 111975826,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/kafd/salam",
+   "path_id": 111975805,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "route/hokm/kafd",
+   "path_id": 111960970,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/hayat-national-hospital-rabwah",
+   "path_id": 111957180,
+   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/destinations/king-khalid-eye-specialist-hospital",
+   "path_id": 111949296,
+   "title": "King Khalid Eye Specialist Hospital Metro Station: King Saud University",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/pakistan-embassy",
+   "path_id": 111947827,
+   "title": "Pakistan Embassy Riyadh Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/p_king_fahd_national_library/railway",
+   "path_id": 111943946,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/railway/to",
+   "path_id": 111943913,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "place/p_king_fahd_national_library/from",
+   "path_id": 111943846,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/kfl/uthman",
+   "path_id": 111938239,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/kfl/uthman",
+   "path_id": 111937978,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/olaya-mall",
+   "path_id": 111921193,
+   "title": "محطة مترو العليا مول: محطة العروبة (المسار الأزرق)، 5 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/jarradiyah/stc",
+   "path_id": 111920377,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/jarradiyah/stc",
+   "path_id": 111920350,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/kfd2/kbw",
+   "path_id": 111912358,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/districts/dhahrat-al-badeah",
+   "path_id": 111898727,
+   "title": "أقرب محطة مترو لحي ظهرة البديعة: محطة شارع عائشة بنت أبي بكر (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/khashm/dhabab",
+   "path_id": 111895980,
+   "title": "en|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/khashm/dhabab",
+   "path_id": 111895763,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-salman-oasis",
+   "path_id": 111893705,
+   "title": "محطة مترو واحة الملك سلمان: محطة واحة الملك سلمان (المسار الأحمر)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/uthman/kfl",
+   "path_id": 111876864,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/habib/moi",
+   "path_id": 111876337,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/habib/moi",
+   "path_id": 111876325,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "geo/ok/uthman",
+   "path_id": 111876114,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/stations/stc",
+   "path_id": 111871403,
+   "title": "stc Metro Station, Riyadh: Blue/Red lines, No. 7",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/king-fahd-stadium",
+   "path_id": 111855450,
+   "title": "King Fahd Stadium Metro Station: King Fahad Stadium, 8 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/jawazat",
+   "path_id": 111853560,
+   "title": "Jawazat (Passports Office) Metro Station: Passport Department, 4 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/mof/kbw",
+   "path_id": 111852142,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/ksp/manfouhah",
+   "path_id": 111852115,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/granadia/sabic",
+   "path_id": 111843058,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-tv-tower",
+   "path_id": 111838109,
+   "title": "Riyadh TV Tower Metro Station: National Museum (Blue/Green lines)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/owd/ishbiliyah",
+   "path_id": 111827735,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/owd/ishbiliyah",
+   "path_id": 111827695,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/owd/from",
+   "path_id": 111827694,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/ishbiliyah/to",
+   "path_id": 111827658,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "station/aishah/to",
+   "path_id": 111827625,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/p_hayat_mall/p_kafd_king_abdullah_financial_district",
+   "path_id": 111811494,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "route/p_hayat_mall/p_kafd_king_abdullah_financial_district",
+   "path_id": 111811491,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "place/p_hayat_mall/from",
+   "path_id": 111811488,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-13": 1
+   }
+  },
+  {
+   "path": "view/gosi/p_panorama_mall",
+   "path_id": 111781294,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_al_othaim_mall_rabwah",
+   "path_id": 111781200,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/to",
+   "path_id": 111781168,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-khalidiyah",
+   "path_id": 111772785,
+   "title": "أقرب محطة مترو لحي الخالدية في الرياض: محطة الصالحية، 2.7 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/abudhabi/alinma",
+   "path_id": 111770662,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-foreign-affairs",
+   "path_id": 111741323,
+   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "/destinations/king-faisal-specialist-hospital",
+   "path_id": 111739456,
+   "title": "King Faisal Specialist Hospital Metro Station: Ministry of Interior",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/saudi_energy",
+   "path_id": 111724051,
+   "title": "en|saudi energy",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "view/pnu1/hokm",
+   "path_id": 111724015,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/pnu1/hokm",
+   "path_id": 111723994,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/pnu1/p_kingdom_centre",
+   "path_id": 111723939,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "geo/ok/pnu1",
+   "path_id": 111723894,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/pnu1/p_kafd_king_abdullah_financial_district",
+   "path_id": 111723893,
+   "title": "en|geo|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "noresult/azure",
+   "path_id": 111723888,
+   "title": "en|azure",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/wurud/sab",
+   "path_id": 111712587,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "route/salam/khaleej",
+   "path_id": 111702875,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  },
+  {
+   "path": "station/khaleej/to",
+   "path_id": 111702874,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-12": 1
+   }
+  }
+ ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": null,
-  "events_total": 0,
+  "visits": 610,
+  "events_total": 636,
   "goatcounter_total_with_events": null,
-  "page_loads_by_day": {},
-  "visitor_days_by_day": {},
-  "visitor_days": 0,
-  "return_rate": null,
-  "routes": 0,
+  "page_loads_by_day": {
+   "2026-10-02": 2,
+   "2026-10-03": 9,
+   "2026-10-04": 9,
+   "2026-10-05": 12,
+   "2026-10-06": 5,
+   "2026-10-07": 33,
+   "2026-10-08": 165,
+   "2026-10-09": 55,
+   "2026-10-10": 67,
+   "2026-10-11": 60,
+   "2026-10-12": 52,
+   "2026-10-13": 61,
+   "2026-10-14": 77,
+   "2026-10-15": 3
+  },
+  "visitor_days_by_day": {
+   "2026-10-08": 96,
+   "2026-10-09": 49,
+   "2026-10-10": 46,
+   "2026-10-11": 40,
+   "2026-10-12": 34,
+   "2026-10-13": 38,
+   "2026-10-14": 37
+  },
+  "visitor_days": 340,
+  "return_rate": 0.062,
+  "routes": 67,
   "routes_not_found": 0,
-  "routes_per_visit": null,
-  "routes_per_visitor_day": null,
-  "share_rate": null,
+  "routes_per_visit": 0.11,
+  "routes_per_visitor_day": 0.19,
+  "share_rate": 0.0,
   "shares": {},
-  "failed_search_rate": null,
-  "failed_searches": [],
-  "nearest_station": {},
-  "visitors_new_return": {},
-  "top_routes": [],
-  "top_origins": [],
-  "top_destinations": []
+  "failed_search_rate": 0.04,
+  "failed_searches": [
+   {
+    "name": "baba sweet",
+    "count": 2
+   },
+   {
+    "name": "al forsan",
+    "count": 1
+   },
+   {
+    "name": "pss",
+    "count": 1
+   },
+   {
+    "name": "ma'aden",
+    "count": 1
+   },
+   {
+    "name": "saudi energy",
+    "count": 1
+   },
+   {
+    "name": "azure",
+    "count": 1
+   }
+  ],
+  "nearest_station": {
+   "denied": 18,
+   "ok": 18,
+   "fail": 2
+  },
+  "visitors_new_return": {
+   "new": 319,
+   "return": 21
+  },
+  "top_routes": [
+   {
+    "name": "wizarat > alinma",
+    "count": 3
+   },
+   {
+    "name": "p_king_fahd_national_library > railway",
+    "count": 2
+   },
+   {
+    "name": "uthman > kfl",
+    "count": 2
+   },
+   {
+    "name": "ksu > t12",
+    "count": 2
+   },
+   {
+    "name": "moi > p_kafd_king_abdullah_financial_district",
+    "count": 2
+   },
+   {
+    "name": "granadia > oasis",
+    "count": 2
+   },
+   {
+    "name": "gosi > p_panorama_mall",
+    "count": 2
+   },
+   {
+    "name": "malaz > sab",
+    "count": 2
+   },
+   {
+    "name": "ksu > hamra",
+    "count": 2
+   },
+   {
+    "name": "khashm > p_kingdom_centre",
+    "count": 2
+   },
+   {
+    "name": "p_granada_mall > p_al_faisaliah_tower",
+    "count": 2
+   },
+   {
+    "name": "kafd > t5",
+    "count": 2
+   },
+   {
+    "name": "p_kingdom_centre > p_king_khalid_airport_terminals_1_2",
+    "count": 2
+   },
+   {
+    "name": "khashm > p_kafd_king_abdullah_financial_district",
+    "count": 2
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2 > p_national_museum",
+    "count": 2
+   }
+  ],
+  "top_origins": [
+   {
+    "name": "khashm",
+    "count": 5
+   },
+   {
+    "name": "ksu",
+    "count": 4
+   },
+   {
+    "name": "granadia",
+    "count": 4
+   },
+   {
+    "name": "malaz",
+    "count": 4
+   },
+   {
+    "name": "wizarat",
+    "count": 3
+   },
+   {
+    "name": "gosi",
+    "count": 3
+   },
+   {
+    "name": "p_granada_mall",
+    "count": 3
+   },
+   {
+    "name": "kafd",
+    "count": 3
+   },
+   {
+    "name": "pnu1",
+    "count": 3
+   },
+   {
+    "name": "p_king_fahd_national_library",
+    "count": 2
+   }
+  ],
+  "top_destinations": [
+   {
+    "name": "p_kafd_king_abdullah_financial_district",
+    "count": 6
+   },
+   {
+    "name": "alinma",
+    "count": 4
+   },
+   {
+    "name": "sab",
+    "count": 4
+   },
+   {
+    "name": "kfl",
+    "count": 3
+   },
+   {
+    "name": "t12",
+    "count": 3
+   },
+   {
+    "name": "p_kingdom_centre",
+    "count": 3
+   },
+   {
+    "name": "t5",
+    "count": 3
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 3
+   },
+   {
+    "name": "railway",
+    "count": 2
+   },
+   {
+    "name": "oasis",
+    "count": 2
+   }
+  ]
  },
- "page_refs": {},
- "ref_pages": {},
+ "page_refs_error": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ "page_refs": {
+  "/": [
+   {
+    "name": "(direct or unknown)",
+    "count": 373
+   },
+   {
+    "name": "com.reddit.frontpage",
+    "count": 69
+   },
+   {
+    "name": "Google",
+    "count": 8
+   },
+   {
+    "name": "t.co",
+    "count": 3
+   },
+   {
+    "name": "www.facebook.com",
+    "count": 2
+   },
+   {
+    "name": "www.facebook.com",
+    "count": 2
+   },
+   {
+    "name": "riyadhmetro.fyi/map",
+    "count": 2
+   },
+   {
+    "name": "Yahoo",
+    "count": 1
+   },
+   {
+    "name": "www.bing.com",
+    "count": 1
+   },
+   {
+    "name": "www.reddit.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/al-awwal-park",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/stations",
+    "count": 1
+   },
+   {
+    "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
+    "count": 1
+   }
+  ],
+  "/destinations/al-awwal-park": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
+  "/ar/districts/al-qadisiyah": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-wisham": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
+  "/ar/districts/al-arid": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
+  "/ar/destinations/diriyah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/stations": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-malqa": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
+  "/ar/districts/al-manar": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/districts/north-mathar": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/ar/destinations/al-faisaliah-tower": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/ar/destinations/riyadh-gallery-mall": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/districts/al-mathar": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/olaya-street": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/king-khalid-university-hospital": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/ar/stations/al-malaz": [
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-malaz",
+    "count": 1
+   }
+  ],
+  "/stations/king-saud-university": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/routes/kafd-to-national-museum": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/nearest-station": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/lines/blue-line": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/hayat-national-hospital-rabwah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/king-khalid-eye-specialist-hospital": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/destinations/pakistan-embassy": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/olaya-mall": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/districts/dhahrat-al-badeah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/king-fahd-stadium": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/destinations/jawazat": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/king-faisal-specialist-hospital": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ]
+ },
+ "ref_pages": {
+  "(direct or unknown)": [
+   {
+    "path": "/",
+    "count": 373
+   },
+   {
+    "path": "/ar/districts/al-arid",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-malqa",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-qadisiyah",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/diriyah",
+    "count": 1
+   },
+   {
+    "path": "/ar/stations",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-manar",
+    "count": 1
+   },
+   {
+    "path": "/ar/nearest-station",
+    "count": 1
+   },
+   {
+    "path": "/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-khalid-eye-specialist-hospital",
+    "count": 1
+   },
+   {
+    "path": "/destinations/pakistan-embassy",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/olaya-mall",
+    "count": 1
+   }
+  ],
+  "com.reddit.frontpage": [
+   {
+    "path": "/",
+    "count": 69
+   }
+  ],
+  "Google": [
+   {
+    "path": "/",
+    "count": 8
+   },
+   {
+    "path": "/destinations/al-awwal-park",
+    "count": 7
+   },
+   {
+    "path": "/destinations/king-abdullah-park",
+    "count": 6
+   },
+   {
+    "path": "/ar/districts/al-qadisiyah",
+    "count": 4
+   },
+   {
+    "path": "/ar/districts/al-wisham",
+    "count": 4
+   },
+   {
+    "path": "/ar/districts/qurtubah",
+    "count": 3
+   },
+   {
+    "path": "/ar/destinations/diriyah",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/north-mathar",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/al-faisaliah-tower",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-rawdah",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/riyadh-gallery-mall",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-arid",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-manar",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-mathar",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/olaya-street",
+    "count": 1
+   },
+   {
+    "path": "/stations/king-saud-university",
+    "count": 1
+   },
+   {
+    "path": "/routes/kafd-to-national-museum",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/hayat-national-hospital-rabwah",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/dhahrat-al-badeah",
+    "count": 1
+   },
+   {
+    "path": "/destinations/jawazat",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-faisal-specialist-hospital",
+    "count": 1
+   }
+  ],
+  "t.co": [
+   {
+    "path": "/",
+    "count": 3
+   }
+  ],
+  "www.facebook.com": [
+   {
+    "path": "/",
+    "count": 2
+   },
+   {
+    "path": "/",
+    "count": 2
+   }
+  ],
+  "riyadhmetro.fyi/map": [
+   {
+    "path": "/",
+    "count": 2
+   }
+  ],
+  "Yahoo": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "www.bing.com": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "www.reddit.com": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/destinations/al-awwal-park": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/stations": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/al-malaz": [
+   {
+    "path": "/ar/stations",
+    "count": 1
+   }
+  ],
+  "chatgpt.com": [
+   {
+    "path": "/destinations/king-khalid-university-hospital",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-fahd-stadium",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/districts/al-malaz": [
+   {
+    "path": "/ar/stations/al-malaz",
+    "count": 1
+   }
+  ]
+ },
  "toprefs": [
   {
    "name": "",
@@ -50,7 +2878,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 151,
+   "count": 152,
    "ref_scheme": "g"
   },
   {
@@ -210,91 +3038,235 @@
    "ref_scheme": "h"
   }
  ],
- "languages": [
+ "languages": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ "locations": [
   {
-   "id": "eng",
-   "name": "English",
-   "count": 1466
+   "id": "SA",
+   "name": "Saudi Arabia",
+   "count": 1260
   },
   {
-   "id": "ara",
-   "name": "Arabic",
-   "count": 133
+   "id": "US",
+   "name": "United States",
+   "count": 80
   },
   {
-   "id": "rus",
-   "name": "Russian",
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "count": 75
+  },
+  {
+   "id": "GB",
+   "name": "United Kingdom",
+   "count": 35
+  },
+  {
+   "id": "CA",
+   "name": "Canada",
+   "count": 25
+  },
+  {
+   "id": "NL",
+   "name": "Netherlands",
+   "count": 16
+  },
+  {
+   "id": "IN",
+   "name": "India",
+   "count": 15
+  },
+  {
+   "id": "PK",
+   "name": "Pakistan",
    "count": 12
   },
   {
-   "id": "(unknown)",
-   "name": "(unknown)",
+   "id": "DE",
+   "name": "Germany",
    "count": 10
   },
   {
-   "id": "fra",
-   "name": "French",
+   "id": "ES",
+   "name": "Spain",
+   "count": 10
+  },
+  {
+   "id": "JO",
+   "name": "Hashemite Kingdom of Jordan",
    "count": 9
   },
   {
-   "id": "deu",
-   "name": "German",
+   "id": "PL",
+   "name": "Poland",
+   "count": 9
+  },
+  {
+   "id": "BH",
+   "name": "Bahrain",
+   "count": 8
+  },
+  {
+   "id": "CH",
+   "name": "Switzerland",
+   "count": 8
+  },
+  {
+   "id": "IE",
+   "name": "Ireland",
    "count": 7
   },
   {
-   "id": "spa",
-   "name": "Spanish",
+   "id": "IT",
+   "name": "Italy",
+   "count": 7
+  },
+  {
+   "id": "AU",
+   "name": "Australia",
    "count": 6
   },
   {
-   "id": "zho",
-   "name": "Chinese",
+   "id": "FR",
+   "name": "France",
+   "count": 6
+  },
+  {
+   "id": "MX",
+   "name": "Mexico",
+   "count": 6
+  },
+  {
+   "id": "SE",
+   "name": "Sweden",
+   "count": 5
+  },
+  {
+   "id": "HK",
+   "name": "Hong Kong",
+   "count": 4
+  },
+  {
+   "id": "TR",
+   "name": "Turkey",
+   "count": 4
+  },
+  {
+   "id": "CZ",
+   "name": "Czechia",
    "count": 3
   },
   {
-   "id": "ita",
-   "name": "Italian",
+   "id": "NO",
+   "name": "Norway",
+   "count": 3
+  },
+  {
+   "id": "PE",
+   "name": "Peru",
+   "count": 3
+  },
+  {
+   "id": "RU",
+   "name": "Russia",
+   "count": 3
+  },
+  {
+   "id": "BA",
+   "name": "Bosnia and Herzegovina",
    "count": 2
   },
   {
-   "id": "por",
-   "name": "Portuguese",
+   "id": "GE",
+   "name": "Georgia",
+   "count": 2
+  },
+  {
+   "id": "KZ",
+   "name": "Kazakhstan",
+   "count": 2
+  },
+  {
+   "id": "LB",
+   "name": "Lebanon",
+   "count": 2
+  },
+  {
+   "id": "OM",
+   "name": "Oman",
+   "count": 2
+  },
+  {
+   "id": "QA",
+   "name": "Qatar",
+   "count": 2
+  },
+  {
+   "id": "TW",
+   "name": "Taiwan",
+   "count": 2
+  },
+  {
+   "id": "BE",
+   "name": "Belgium",
+   "count": 1
+  },
+  {
+   "id": "BN",
+   "name": "Brunei",
+   "count": 1
+  },
+  {
+   "id": "BR",
+   "name": "Brazil",
+   "count": 1
+  },
+  {
+   "id": "FI",
+   "name": "Finland",
+   "count": 1
+  },
+  {
+   "id": "PH",
+   "name": "Philippines",
+   "count": 1
+  },
+  {
+   "id": "SC",
+   "name": "Seychelles",
+   "count": 1
+  },
+  {
+   "id": "SD",
+   "name": "Sudan",
    "count": 1
   }
  ],
- "locations": {
+ "sizes": {
   "error": "<urlopen error [Errno 104] Connection reset by peer>"
  },
- "sizes": [
+ "browsers": [
   {
-   "id": "phone",
-   "name": "",
-   "count": 1298
+   "id": "Chrome",
+   "name": "Chrome",
+   "count": 848
   },
   {
-   "id": "tablet",
-   "name": "",
-   "count": 45
+   "id": "Safari",
+   "name": "Safari",
+   "count": 762
   },
   {
-   "id": "desktop",
    "name": "",
-   "count": 250
+   "count": 24
   },
   {
-   "id": "desktophd",
-   "name": "",
-   "count": 56
-  },
-  {
-   "id": "unknown",
-   "name": "",
-   "count": 0
+   "id": "Firefox",
+   "name": "Firefox",
+   "count": 16
   }
  ],
- "browsers": {
-  "error": "<urlopen error [Errno 104] Connection reset by peer>"
- },
  "systems": [
   {
    "id": "iOS",
@@ -309,7 +3281,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 216
+   "count": 217
   },
   {
    "id": "macOS",
@@ -331,5 +3303,7 @@
    "count": 1
   }
  ],
- "campaigns": []
+ "campaigns": {
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ }
 }
