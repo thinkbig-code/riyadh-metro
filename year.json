@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T10:13:07Z",
+ "generated": "2026-10-16T11:11:09Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1754,
-  "total_events": 1049,
-  "total_utc": 1754,
+  "total": 1766,
+  "total_events": 1057,
+  "total_utc": 1766,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1754
+    "monthly": 1766
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 107
+    "weekly": 119
    },
    {
     "day": "2026-10-16",
@@ -10979,7 +10979,7 @@
      5,
      1,
      5,
-     1,
+     13,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 40
+    "daily": 52
    },
    {
     "day": "2026-10-17",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 483,
+   "count": 485,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11046,7 +11046,7 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 9
+    "2026-10-16": 11
    }
   },
   {
@@ -11054,7 +11054,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 332,
+   "count": 335,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11064,7 +11064,7 @@
     "2026-10-13": 32,
     "2026-10-14": 32,
     "2026-10-15": 6,
-    "2026-10-16": 7
+    "2026-10-16": 10
    }
   },
   {
@@ -11072,7 +11072,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 31,
+   "count": 32,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11080,7 +11080,7 @@
     "2026-10-13": 4,
     "2026-10-14": 5,
     "2026-10-15": 9,
-    "2026-10-16": 5
+    "2026-10-16": 6
    }
   },
   {
@@ -11105,14 +11105,15 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 18,
+   "count": 19,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 7,
     "2026-10-09": 2,
     "2026-10-10": 3,
     "2026-10-12": 1,
-    "2026-10-14": 3
+    "2026-10-14": 3,
+    "2026-10-16": 1
    }
   },
   {
@@ -11148,6 +11149,23 @@
    }
   },
   {
+   "path": "/ar.html",
+   "path_id": 110284017,
+   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 2,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 2,
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/from",
    "path_id": 110315049,
    "title": "en|name",
@@ -11157,22 +11175,6 @@
     "2026-10-07": 1,
     "2026-10-08": 7,
     "2026-10-09": 1
-   }
-  },
-  {
-   "path": "/ar.html",
-   "path_id": 110284017,
-   "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-10": 1,
-    "2026-10-11": 2,
-    "2026-10-12": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-15": 2
    }
   },
   {
@@ -12191,6 +12193,17 @@
    }
   },
   {
+   "path": "place/p_olaya_street/to",
+   "path_id": 110295227,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "/ar/lines/blue-line",
    "path_id": 110184814,
    "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
@@ -12232,6 +12245,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/kbw/p_olaya_street",
+   "path_id": 112310592,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "noresult/التكنولوجيا_الذهبية",
+   "path_id": 112310132,
+   "title": "ar|التكنولوجيا الذهبية",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "station/kbw/from",
+   "path_id": 112310108,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
    }
   },
   {
@@ -17475,16 +17518,6 @@
    }
   },
   {
-   "path": "place/p_olaya_street/to",
-   "path_id": 110295227,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/p_king_khalid_airport_terminals_1_2/p_diriyah",
    "path_id": 110284022,
    "title": "ar|link|ok",
@@ -17547,9 +17580,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 705,
-  "events_total": 1049,
-  "goatcounter_total_with_events": 1754,
+  "visits": 709,
+  "events_total": 1057,
+  "goatcounter_total_with_events": 1766,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17565,7 +17598,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 30
+   "2026-10-16": 34
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17576,14 +17609,14 @@
    "2026-10-13": 38,
    "2026-10-14": 37,
    "2026-10-15": 11,
-   "2026-10-16": 9
+   "2026-10-16": 12
   },
-  "visitor_days": 360,
-  "return_rate": 0.078,
-  "routes": 298,
+  "visitor_days": 363,
+  "return_rate": 0.077,
+  "routes": 299,
   "routes_not_found": 0,
   "routes_per_visit": 0.42,
-  "routes_per_visitor_day": 0.76,
+  "routes_per_visitor_day": 0.75,
   "share_rate": 0.017,
   "shares": {
    "whatsapp": 1,
@@ -17592,11 +17625,15 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.051,
+  "failed_search_rate": 0.054,
   "failed_searches": [
    {
     "name": "baba sweet",
     "count": 2
+   },
+   {
+    "name": "التكنولوجيا الذهبية",
+    "count": 1
    },
    {
     "name": "al forsan",
@@ -17644,14 +17681,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 18,
+   "denied": 19,
    "ok": 26,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 332,
+   "new": 335,
    "return": 28
   },
   "top_routes": [
@@ -17730,6 +17767,10 @@
     "count": 10
    },
    {
+    "name": "kbw",
+    "count": 10
+   },
+   {
     "name": "urubah",
     "count": 10
    },
@@ -17739,10 +17780,6 @@
    },
    {
     "name": "p_kingdom_centre",
-    "count": 9
-   },
-   {
-    "name": "kbw",
     "count": 9
    },
    {
@@ -17817,7 +17854,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 5
+    "count": 7
    },
    {
     "name": "t.co",
@@ -17871,7 +17908,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 29
+    "count": 30
    },
    {
     "name": "www.bing.com",
@@ -17903,7 +17940,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
+    "count": 2
    },
    {
     "name": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -18314,16 +18351,16 @@
     "count": 3
    },
    {
+    "path": "/ar.html",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-arid",
     "count": 2
    },
    {
     "path": "/ar/districts/al-malqa",
     "count": 2
-   },
-   {
-    "path": "/ar.html",
-    "count": 1
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -18387,7 +18424,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 29
+    "count": 30
    },
    {
     "path": "/map",
@@ -18557,7 +18594,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 5
+    "count": 7
    }
   ],
   "t.co": [
@@ -18742,7 +18779,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1217,
+   "count": 1222,
    "ref_scheme": "o"
   },
   {
@@ -18754,7 +18791,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 186,
+   "count": 187,
    "ref_scheme": "g"
   },
   {
@@ -18768,6 +18805,12 @@
    "name": "riyadhmetro.fyi/ar/map",
    "count": 17,
    "ref_scheme": "h"
+  },
+  {
+   "id": "tiktok_ad",
+   "name": "tiktok_ad",
+   "count": 7,
+   "ref_scheme": "c"
   },
   {
    "id": "t.co",
@@ -18788,16 +18831,16 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/map",
-   "name": "riyadhmetro.fyi/map",
+   "id": "www.tiktok.com",
+   "name": "www.tiktok.com",
    "count": 5,
    "ref_scheme": "h"
   },
   {
-   "id": "tiktok_ad",
-   "name": "tiktok_ad",
+   "id": "riyadhmetro.fyi/map",
+   "name": "riyadhmetro.fyi/map",
    "count": 5,
-   "ref_scheme": "c"
+   "ref_scheme": "h"
   },
   {
    "id": "www.facebook.com",
@@ -18810,12 +18853,6 @@
    "name": "Facebook",
    "count": 3,
    "ref_scheme": "c"
-  },
-  {
-   "id": "www.tiktok.com",
-   "name": "www.tiktok.com",
-   "count": 3,
-   "ref_scheme": "h"
   },
   {
    "id": "chatgpt.com",
@@ -18966,12 +19003,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1539
+   "count": 1546
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 161
+   "count": 164
   },
   {
    "id": "(unknown)",
@@ -19018,7 +19055,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1357
+   "count": 1367
   },
   {
    "id": "US",
@@ -19225,7 +19262,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1371
+   "count": 1381
   },
   {
    "id": "tablet",
@@ -19252,12 +19289,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 919
+   "count": 927
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 793
+   "count": 795
   },
   {
    "name": "",
@@ -19273,12 +19310,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 783
+   "count": 785
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 592
+   "count": 600
   },
   {
    "id": "Windows",
