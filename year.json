@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-15T23:03:55Z",
- "start": "2025-10-15",
- "end": "2026-10-16",
+ "generated": "2026-10-16T00:00:19Z",
+ "start": "2025-10-16",
+ "end": "2026-10-17",
  "total": {
-  "total": 1726,
+  "total": 1728,
   "total_events": 1040,
-  "total_utc": 1726,
+  "total_utc": 1728,
   "stats": [
-   {
-    "day": "2025-10-15",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-10-16",
     "hourly": [
@@ -10536,8 +10506,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 42
+    "daily": 0
    },
    {
     "day": "2026-10-01",
@@ -10568,7 +10537,8 @@
      0
     ],
     "daily": 0,
-    "monthly": 1726
+    "weekly": 148,
+    "monthly": 1728
    },
    {
     "day": "2026-10-02",
@@ -10748,8 +10718,7 @@
      44,
      42
     ],
-    "daily": 106,
-    "weekly": 1440
+    "daily": 106
    },
    {
     "day": "2026-10-08",
@@ -10779,7 +10748,8 @@
      9,
      12
     ],
-    "daily": 541
+    "daily": 541,
+    "weekly": 1499
    },
    {
     "day": "2026-10-09",
@@ -10959,8 +10929,7 @@
      11,
      4
     ],
-    "daily": 165,
-    "weekly": 244
+    "daily": 165
    },
    {
     "day": "2026-10-15",
@@ -10990,7 +10959,8 @@
      4,
      0
     ],
-    "daily": 67
+    "daily": 67,
+    "weekly": 81
    },
    {
     "day": "2026-10-16",
@@ -10998,6 +10968,36 @@
      4,
      7,
      1,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 14
+   },
+   {
+    "day": "2026-10-17",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 0
    }
   ]
  },
@@ -11071,7 +11071,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 30,
+   "count": 31,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11079,7 +11079,7 @@
     "2026-10-13": 4,
     "2026-10-14": 5,
     "2026-10-15": 9,
-    "2026-10-16": 4
+    "2026-10-16": 5
    }
   },
   {
@@ -11605,6 +11605,17 @@
    "count": 2,
    "daily": {
     "2026-10-14": 2
+   }
+  },
+  {
+   "path": "/ar/destinations/hayat-national-hospital-rabwah",
+   "path_id": 111957180,
+   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1
    }
   },
   {
@@ -12973,16 +12984,6 @@
    "path_id": 111960970,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/hayat-national-hospital-rabwah",
-   "path_id": 111957180,
-   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-14": 1
@@ -17511,9 +17512,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 686,
+  "visits": 688,
   "events_total": 1040,
-  "goatcounter_total_with_events": 1726,
+  "goatcounter_total_with_events": 1728,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17529,7 +17530,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 11
+   "2026-10-16": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17827,7 +17828,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 28
+    "count": 29
    },
    {
     "name": "www.bing.com",
@@ -18004,6 +18005,12 @@
    {
     "name": "Google",
     "count": 1
+   }
+  ],
+  "/ar/destinations/hayat-national-hospital-rabwah": [
+   {
+    "name": "Google",
+    "count": 2
    }
   ],
   "/districts/ar-rabwah": [
@@ -18230,12 +18237,6 @@
     "count": 1
    }
   ],
-  "/ar/destinations/hayat-national-hospital-rabwah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/destinations/king-khalid-eye-specialist-hospital": [
    {
     "name": "(direct or unknown)",
@@ -18355,7 +18356,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 28
+    "count": 29
    },
    {
     "path": "/map",
@@ -18403,6 +18404,10 @@
    },
    {
     "path": "/ar/destinations/diriyah",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 2
    },
    {
@@ -18503,10 +18508,6 @@
    },
    {
     "path": "/routes/kafd-to-national-museum",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 1
    }
   ],
@@ -18698,7 +18699,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 175,
+   "count": 177,
    "ref_scheme": "g"
   },
   {
@@ -18897,7 +18898,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 152
+   "count": 154
   },
   {
    "id": "rus",
@@ -18944,7 +18945,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1333
+   "count": 1335
   },
   {
    "id": "US",
@@ -19151,7 +19152,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1343
+   "count": 1345
   },
   {
    "id": "tablet",
@@ -19183,7 +19184,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 782
+   "count": 784
   },
   {
    "name": "",
@@ -19199,7 +19200,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 768
+   "count": 770
   },
   {
    "id": "Android",
