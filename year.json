@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T07:21:22Z",
+ "generated": "2026-10-16T08:13:18Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1745,
-  "total_events": 1046,
-  "total_utc": 1745,
+  "total": 1748,
+  "total_events": 1047,
+  "total_utc": 1748,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1745
+    "monthly": 1748
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 98
+    "weekly": 101
    },
    {
     "day": "2026-10-16",
@@ -10976,8 +10976,8 @@
      2,
      12,
      0,
-     3,
-     0,
+     5,
+     1,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 31
+    "daily": 34
    },
    {
     "day": "2026-10-17",
@@ -11054,7 +11054,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 330,
+   "count": 331,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11064,7 +11064,7 @@
     "2026-10-13": 32,
     "2026-10-14": 32,
     "2026-10-15": 6,
-    "2026-10-16": 5
+    "2026-10-16": 6
    }
   },
   {
@@ -11214,6 +11214,18 @@
    }
   },
   {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-13": 1,
+    "2026-10-16": 4
+   }
+  },
+  {
    "path": "/ar/districts/al-qadisiyah",
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
@@ -11312,18 +11324,6 @@
    "daily": {
     "2026-10-13": 2,
     "2026-10-14": 3
-   }
-  },
-  {
-   "path": "/ar/districts/middle-oraija",
-   "path_id": 110973042,
-   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-13": 1,
-    "2026-10-16": 2
    }
   },
   {
@@ -17517,9 +17517,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 699,
-  "events_total": 1046,
-  "goatcounter_total_with_events": 1745,
+  "visits": 701,
+  "events_total": 1047,
+  "goatcounter_total_with_events": 1748,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17535,7 +17535,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 24
+   "2026-10-16": 26
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17546,9 +17546,9 @@
    "2026-10-13": 38,
    "2026-10-14": 37,
    "2026-10-15": 11,
-   "2026-10-16": 7
+   "2026-10-16": 8
   },
-  "visitor_days": 358,
+  "visitor_days": 359,
   "return_rate": 0.078,
   "routes": 297,
   "routes_not_found": 0,
@@ -17621,7 +17621,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 330,
+   "new": 331,
    "return": 28
   },
   "top_routes": [
@@ -17898,6 +17898,12 @@
     "count": 7
    }
   ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -17921,12 +17927,6 @@
    }
   ],
   "/districts/al-yasmeen": [
-   {
-    "name": "Google",
-    "count": 5
-   }
-  ],
-  "/ar/districts/middle-oraija": [
    {
     "name": "Google",
     "count": 5
@@ -18376,6 +18376,10 @@
     "count": 7
    },
    {
+    "path": "/ar/districts/middle-oraija",
+    "count": 7
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 7
    },
@@ -18389,10 +18393,6 @@
    },
    {
     "path": "/districts/al-yasmeen",
-    "count": 5
-   },
-   {
-    "path": "/ar/districts/middle-oraija",
     "count": 5
    },
    {
@@ -18714,7 +18714,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 182,
+   "count": 184,
    "ref_scheme": "g"
   },
   {
@@ -18772,6 +18772,12 @@
    "ref_scheme": "c"
   },
   {
+   "id": "www.tiktok.com",
+   "name": "www.tiktok.com",
+   "count": 3,
+   "ref_scheme": "h"
+  },
+  {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
    "count": 3,
@@ -18794,12 +18800,6 @@
    "name": "Yahoo",
    "count": 2,
    "ref_scheme": "g"
-  },
-  {
-   "id": "www.tiktok.com",
-   "name": "www.tiktok.com",
-   "count": 2,
-   "ref_scheme": "h"
   },
   {
    "id": "riyadhmetro.fyi/ar/destinations/diriyah",
@@ -18920,7 +18920,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1531
+   "count": 1534
   },
   {
    "id": "ara",
@@ -18972,7 +18972,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1348
+   "count": 1351
   },
   {
    "id": "US",
@@ -19179,7 +19179,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1362
+   "count": 1365
   },
   {
    "id": "tablet",
@@ -19206,12 +19206,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 913
+   "count": 914
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 788
+   "count": 790
   },
   {
    "name": "",
@@ -19227,12 +19227,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 778
+   "count": 780
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 588
+   "count": 589
   },
   {
    "id": "Windows",
