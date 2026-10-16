@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T15:10:56Z",
+ "generated": "2026-10-16T16:12:02Z",
  "start": "2026-09-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1877,
-  "total_events": 1116,
-  "total_utc": 1877,
+  "total": 1891,
+  "total_events": 1121,
+  "total_utc": 1891,
   "stats": [
    {
     "day": "2026-09-16",
@@ -488,7 +488,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1877
+    "monthly": 1891
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 395
+    "weekly": 409
    },
    {
     "day": "2026-10-15",
@@ -934,13 +934,13 @@
      45,
      18,
      8,
-     4,
-     0,
+     16,
+     2,
      0,
      0,
      0
     ],
-    "daily": 163
+    "daily": 177
    },
    {
     "day": "2026-10-17",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 522,
+   "count": 526,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -996,7 +996,7 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 48
+    "2026-10-16": 52
    }
   },
   {
@@ -1004,7 +1004,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 369,
+   "count": 374,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1014,7 +1014,7 @@
     "2026-10-13": 32,
     "2026-10-14": 32,
     "2026-10-15": 6,
-    "2026-10-16": 44
+    "2026-10-16": 49
    }
   },
   {
@@ -1022,7 +1022,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 33,
+   "count": 34,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1030,7 +1030,7 @@
     "2026-10-13": 4,
     "2026-10-14": 5,
     "2026-10-15": 9,
-    "2026-10-16": 7
+    "2026-10-16": 8
    }
   },
   {
@@ -1477,6 +1477,17 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/gold-souq",
+   "path_id": 110461167,
+   "title": "محطة مترو سوق الذهب بالرياض: محطة قصر الحكم، 5 دقائق سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-16": 2
    }
   },
   {
@@ -2286,6 +2297,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-maigliah-market",
+   "path_id": 112354112,
+   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ru.html",
+   "path_id": 112351595,
+   "title": "Интерактивная схема метро Эр-Рияда: все 6 линий",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
    }
   },
   {
@@ -6239,16 +6270,6 @@
    }
   },
   {
-   "path": "/ar/destinations/gold-souq",
-   "path_id": 110461167,
-   "title": "محطة مترو سوق الذهب بالرياض: محطة قصر الحكم، 5 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/gosi/rajhi",
    "path_id": 110458146,
    "title": "en|map|ok",
@@ -7721,9 +7742,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 761,
-  "events_total": 1116,
-  "goatcounter_total_with_events": 1877,
+  "visits": 770,
+  "events_total": 1121,
+  "goatcounter_total_with_events": 1891,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7739,7 +7760,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 86
+   "2026-10-16": 95
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7750,14 +7771,14 @@
    "2026-10-13": 38,
    "2026-10-14": 37,
    "2026-10-15": 11,
-   "2026-10-16": 49
+   "2026-10-16": 54
   },
-  "visitor_days": 400,
+  "visitor_days": 405,
   "return_rate": 0.077,
   "routes": 306,
   "routes_not_found": 0,
   "routes_per_visit": 0.4,
-  "routes_per_visitor_day": 0.7,
+  "routes_per_visitor_day": 0.69,
   "share_rate": 0.016,
   "shares": {
    "whatsapp": 1,
@@ -7829,7 +7850,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 369,
+   "new": 374,
    "return": 31
   },
   "top_routes": [
@@ -7983,7 +8004,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 388
+    "count": 389
    },
    {
     "name": "com.reddit.frontpage",
@@ -7991,7 +8012,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 40
+    "count": 43
    },
    {
     "name": "Google",
@@ -8049,7 +8070,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 31
+    "count": 32
    },
    {
     "name": "www.bing.com",
@@ -8190,6 +8211,12 @@
    {
     "name": "(direct or unknown)",
     "count": 1
+   }
+  ],
+  "/ar/destinations/gold-souq": [
+   {
+    "name": "Google",
+    "count": 3
    }
   ],
   "/ar/destinations/diriyah": [
@@ -8340,6 +8367,18 @@
     "count": 2
    }
   ],
+  "/ar/destinations/al-maigliah-market": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/ru.html": [
+   {
+    "name": "Yandex",
+    "count": 1
+   }
+  ],
   "/districts/al-ezdihar": [
    {
     "name": "chatgpt.com",
@@ -8465,31 +8504,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/olaya-street": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/taibah-markets": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/aster-sanad-hospital": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 388
+    "count": 389
    },
    {
     "path": "/districts/al-taawun",
@@ -8569,13 +8590,13 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 40
+    "count": 43
    }
   ],
   "Google": [
    {
     "path": "/ar/map",
-    "count": 31
+    "count": 32
    },
    {
     "path": "/map",
@@ -8616,6 +8637,10 @@
    {
     "path": "/ar/districts/al-saadah",
     "count": 4
+   },
+   {
+    "path": "/ar/destinations/gold-souq",
+    "count": 3
    },
    {
     "path": "/ar/districts/al-arid",
@@ -8735,18 +8760,6 @@
    },
    {
     "path": "/districts/al-mathar",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/olaya-street",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/taibah-markets",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/aster-sanad-hospital",
     "count": 1
    }
   ],
@@ -8902,6 +8915,10 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/ar/destinations/al-maigliah-market",
+    "count": 1
+   },
+   {
     "path": "/districts/al-ezdihar",
     "count": 1
    },
@@ -8911,6 +8928,12 @@
    },
    {
     "path": "/lines/orange-line",
+    "count": 1
+   }
+  ],
+  "Yandex": [
+   {
+    "path": "/ru.html",
     "count": 1
    }
   ],
@@ -8936,7 +8959,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1243,
+   "count": 1244,
    "ref_scheme": "o"
   },
   {
@@ -8948,19 +8971,19 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 197,
+   "count": 200,
    "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 48,
+   "count": 53,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 40,
+   "count": 44,
    "ref_scheme": "c"
   },
   {
@@ -8982,6 +9005,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 6,
+   "ref_scheme": "c"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/districts/qurtubah",
    "name": "riyadhmetro.fyi/ar/districts/qurtubah",
    "count": 6,
@@ -8992,12 +9021,6 @@
    "name": "www.bing.com",
    "count": 5,
    "ref_scheme": "h"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 5,
-   "ref_scheme": "c"
   },
   {
    "id": "riyadhmetro.fyi/map",
@@ -9038,6 +9061,12 @@
   {
    "id": "Yahoo",
    "name": "Yahoo",
+   "count": 2,
+   "ref_scheme": "g"
+  },
+  {
+   "id": "Yandex",
+   "name": "Yandex",
    "count": 2,
    "ref_scheme": "g"
   },
@@ -9166,22 +9195,22 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1600
+   "count": 1606
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 221
+   "count": 228
   },
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 16
+   "count": 17
   },
   {
    "id": "rus",
    "name": "Russian",
-   "count": 12
+   "count": 14
   },
   {
    "id": "fra",
@@ -9218,7 +9247,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1475
+   "count": 1491
   },
   {
    "id": "US",
@@ -9425,17 +9454,17 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1482
+   "count": 1496
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 52
+   "count": 53
   },
   {
    "id": "desktop",
    "name": "",
-   "count": 287
+   "count": 288
   },
   {
    "id": "desktophd",
@@ -9452,12 +9481,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 989
+   "count": 993
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 844
+   "count": 856
   },
   {
    "name": "",
@@ -9473,12 +9502,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 826
+   "count": 837
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 662
+   "count": 666
   },
   {
    "id": "Windows",
@@ -9488,7 +9517,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 102
+   "count": 103
   },
   {
    "id": "Linux",
