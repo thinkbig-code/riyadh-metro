@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T12:08:27Z",
+ "generated": "2026-10-16T13:20:27Z",
  "start": "2026-09-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1807,
-  "total_events": 1083,
-  "total_utc": 1807,
+  "total": 1850,
+  "total_events": 1105,
+  "total_utc": 1850,
   "stats": [
    {
     "day": "2026-09-16",
@@ -488,7 +488,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1807
+    "monthly": 1850
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 325
+    "weekly": 368
    },
    {
     "day": "2026-10-15",
@@ -931,8 +931,8 @@
      5,
      13,
      36,
-     5,
-     0,
+     45,
+     3,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 93
+    "daily": 136
    },
    {
     "day": "2026-10-17",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 498,
+   "count": 514,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -996,7 +996,7 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 24
+    "2026-10-16": 40
    }
   },
   {
@@ -1004,7 +1004,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 347,
+   "count": 361,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1014,7 +1014,7 @@
     "2026-10-13": 32,
     "2026-10-14": 32,
     "2026-10-15": 6,
-    "2026-10-16": 22
+    "2026-10-16": 36
    }
   },
   {
@@ -1038,7 +1038,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 29,
+   "count": 31,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1047,7 +1047,7 @@
     "2026-10-13": 6,
     "2026-10-14": 5,
     "2026-10-15": 5,
-    "2026-10-16": 3
+    "2026-10-16": 5
    }
   },
   {
@@ -1055,7 +1055,7 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 20,
+   "count": 21,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 7,
@@ -1063,7 +1063,7 @@
     "2026-10-10": 3,
     "2026-10-12": 1,
     "2026-10-14": 3,
-    "2026-10-16": 2
+    "2026-10-16": 3
    }
   },
   {
@@ -1087,7 +1087,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1095,7 +1095,7 @@
     "2026-10-12": 1,
     "2026-10-13": 4,
     "2026-10-15": 1,
-    "2026-10-16": 1
+    "2026-10-16": 2
    }
   },
   {
@@ -1116,6 +1116,18 @@
    }
   },
   {
+   "path": "place/p_kingdom_centre/to",
+   "path_id": 110409518,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-08": 7,
+    "2026-10-12": 1,
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/from",
    "path_id": 110315049,
    "title": "en|name",
@@ -1125,17 +1137,6 @@
     "2026-10-07": 1,
     "2026-10-08": 7,
     "2026-10-09": 1
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/to",
-   "path_id": 110409518,
-   "title": "en|name",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-08": 7,
-    "2026-10-12": 1
    }
   },
   {
@@ -1407,6 +1408,18 @@
    }
   },
   {
+   "path": "station/kafd/from",
+   "path_id": 110972439,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
@@ -1544,6 +1557,16 @@
    }
   },
   {
+   "path": "/ar/destinations/panorama-mall",
+   "path_id": 112211315,
+   "title": "محطة مترو بانوراما مول: محطة بنك البلاد (المسار الأزرق)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 2
+   }
+  },
+  {
    "path": "route/rajhi/habib",
    "path_id": 112044555,
    "title": "en|map|ok",
@@ -1552,6 +1575,17 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-15": 1
+   }
+  },
+  {
+   "path": "station/habib/to",
+   "path_id": 112043709,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1
    }
   },
   {
@@ -1700,17 +1734,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "station/kafd/from",
-   "path_id": 110972439,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-11": 1
    }
   },
   {
@@ -2241,6 +2264,56 @@
    }
   },
   {
+   "path": "/ar/districts/ghirnatah",
+   "path_id": 112332486,
+   "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-fayha",
+   "path_id": 112330224,
+   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "geo/ok/salam",
+   "path_id": 112324898,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "route/kafd/p_kingdom_centre",
+   "path_id": 112323319,
+   "title": "ar|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "route/manfouhah/stc",
    "path_id": 112321394,
    "title": "en|geo|ok",
@@ -2404,16 +2477,6 @@
    "path": "/stations/al-aziziah",
    "path_id": 112216859,
    "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/panorama-mall",
-   "path_id": 112211315,
-   "title": "محطة مترو بانوراما مول: محطة بنك البلاد (المسار الأزرق)",
    "event": false,
    "count": 1,
    "daily": {
@@ -2794,16 +2857,6 @@
    "path": "route/harun/habib",
    "path_id": 112043710,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "station/habib/to",
-   "path_id": 112043709,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -7623,9 +7676,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 724,
-  "events_total": 1083,
-  "goatcounter_total_with_events": 1807,
+  "visits": 745,
+  "events_total": 1105,
+  "goatcounter_total_with_events": 1850,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7641,7 +7694,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 49
+   "2026-10-16": 70
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7652,14 +7705,14 @@
    "2026-10-13": 38,
    "2026-10-14": 37,
    "2026-10-15": 11,
-   "2026-10-16": 25
+   "2026-10-16": 41
   },
-  "visitor_days": 376,
-  "return_rate": 0.077,
-  "routes": 304,
+  "visitor_days": 392,
+  "return_rate": 0.079,
+  "routes": 305,
   "routes_not_found": 0,
-  "routes_per_visit": 0.42,
-  "routes_per_visitor_day": 0.74,
+  "routes_per_visit": 0.41,
+  "routes_per_visitor_day": 0.71,
   "share_rate": 0.016,
   "shares": {
    "whatsapp": 1,
@@ -7724,15 +7777,15 @@
    }
   ],
   "nearest_station": {
-   "denied": 20,
-   "ok": 28,
+   "denied": 21,
+   "ok": 29,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 347,
-   "return": 29
+   "new": 361,
+   "return": 31
   },
   "top_routes": [
    {
@@ -7834,7 +7887,7 @@
     "count": 8
    },
    {
-    "name": "t12",
+    "name": "kafd",
     "count": 8
    }
   ],
@@ -7856,12 +7909,12 @@
     "count": 9
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
+    "name": "p_kingdom_centre",
     "count": 9
    },
    {
-    "name": "p_kingdom_centre",
-    "count": 8
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 9
    },
    {
     "name": "p_al_faisaliah_tower",
@@ -7885,7 +7938,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 385
+    "count": 386
    },
    {
     "name": "com.reddit.frontpage",
@@ -7893,7 +7946,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 19
+    "count": 35
    },
    {
     "name": "Google",
@@ -7965,7 +8018,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 11
+    "count": 12
    },
    {
     "name": "(direct or unknown)",
@@ -8110,6 +8163,16 @@
     "count": 2
    }
   ],
+  "/ar/destinations/panorama-mall": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/stations": [
    {
     "name": "(direct or unknown)",
@@ -8222,6 +8285,24 @@
     "count": 2
    }
   ],
+  "/ar/districts/ghirnatah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-fayha": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/wadi-namar-park": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/owais-market": [
    {
     "name": "Google",
@@ -8253,12 +8334,6 @@
    }
   ],
   "/stations/al-aziziah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/panorama-mall": [
    {
     "name": "Google",
     "count": 1
@@ -8359,31 +8434,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/ministry-of-commerce": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/nearest-station": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/districts": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 385
+    "count": 386
    },
    {
     "path": "/districts/al-taawun",
@@ -8418,6 +8475,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/panorama-mall",
+    "count": 1
+   },
+   {
     "path": "/ar/stations",
     "count": 1
    },
@@ -8440,18 +8501,6 @@
    {
     "path": "/districts/al-nada",
     "count": 1
-   },
-   {
-    "path": "/ar/destinations/ministry-of-commerce",
-    "count": 1
-   },
-   {
-    "path": "/ar/nearest-station",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts",
-    "count": 1
    }
   ],
   "com.reddit.frontpage": [
@@ -8463,7 +8512,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 19
+    "count": 35
    }
   ],
   "Google": [
@@ -8473,7 +8522,7 @@
    },
    {
     "path": "/map",
-    "count": 11
+    "count": 12
    },
    {
     "path": "/",
@@ -8572,6 +8621,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/panorama-mall",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-manar",
     "count": 1
    },
@@ -8584,6 +8637,18 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/ghirnatah",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-fayha",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/owais-market",
     "count": 1
    },
@@ -8593,10 +8658,6 @@
    },
    {
     "path": "/stations/al-aziziah",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/panorama-mall",
     "count": 1
    },
    {
@@ -8822,7 +8883,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1230,
+   "count": 1235,
    "ref_scheme": "o"
   },
   {
@@ -8834,19 +8895,19 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 189,
+   "count": 193,
    "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 23,
+   "count": 43,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 19,
+   "count": 35,
    "ref_scheme": "c"
   },
   {
@@ -9046,12 +9107,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1566
+   "count": 1583
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 185
+   "count": 213
   },
   {
    "id": "(unknown)",
@@ -9098,7 +9159,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1408
+   "count": 1450
   },
   {
    "id": "US",
@@ -9118,12 +9179,12 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 25
+   "count": 26
   },
   {
    "id": "NL",
    "name": "Netherlands",
-   "count": 18
+   "count": 20
   },
   {
    "id": "IN",
@@ -9305,7 +9366,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1422
+   "count": 1466
   },
   {
    "id": "tablet",
@@ -9315,7 +9376,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 284
+   "count": 285
   },
   {
    "id": "desktophd",
@@ -9332,12 +9393,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 944
+   "count": 978
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 819
+   "count": 830
   },
   {
    "name": "",
@@ -9353,12 +9414,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 809
+   "count": 819
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 617
+   "count": 651
   },
   {
    "id": "Windows",
@@ -9368,7 +9429,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 94
+   "count": 95
   },
   {
    "id": "Linux",
