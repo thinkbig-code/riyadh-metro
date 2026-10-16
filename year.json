@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T17:55:40Z",
+ "generated": "2026-10-16T18:08:47Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1918,
-  "total_events": 1136,
-  "total_utc": 1918,
+  "total": 1920,
+  "total_events": 1137,
+  "total_utc": 1920,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1918
+    "monthly": 1920
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 271
+    "weekly": 273
    },
    {
     "day": "2026-10-16",
@@ -10987,10 +10987,10 @@
      16,
      17,
      12,
-     0,
+     2,
      0
     ],
-    "daily": 204
+    "daily": 206
    },
    {
     "day": "2026-10-17",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 533,
+   "count": 534,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11046,7 +11046,7 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 59
+    "2026-10-16": 60
    }
   },
   {
@@ -11388,6 +11388,16 @@
    }
   },
   {
+   "path": "route/kfl/yarmuk",
+   "path_id": 112365147,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 4
+   }
+  },
+  {
    "path": "/districts/al-taawun",
    "path_id": 111962269,
    "title": "Nearest Metro Station to Al Taawun, Riyadh: Uthman Bin Affan Road, 3.1 km",
@@ -11462,16 +11472,6 @@
    "path": "view/kfl/yarmuk",
    "path_id": 112365338,
    "title": "en|details",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 3
-   }
-  },
-  {
-   "path": "route/kfl/yarmuk",
-   "path_id": 112365147,
-   "title": "en|map|ok",
    "event": true,
    "count": 3,
    "daily": {
@@ -17832,9 +17832,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 782,
-  "events_total": 1136,
-  "goatcounter_total_with_events": 1918,
+  "visits": 783,
+  "events_total": 1137,
+  "goatcounter_total_with_events": 1920,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17850,7 +17850,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 107
+   "2026-10-16": 108
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17865,7 +17865,7 @@
   },
   "visitor_days": 413,
   "return_rate": 0.075,
-  "routes": 309,
+  "routes": 310,
   "routes_not_found": 0,
   "routes_per_visit": 0.4,
   "routes_per_visitor_day": 0.69,
@@ -17946,7 +17946,7 @@
   "top_routes": [
    {
     "name": "kfl > yarmuk",
-    "count": 3
+    "count": 4
    },
    {
     "name": "p_king_fahd_national_library > railway",
@@ -18094,7 +18094,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 392
+    "count": 393
    },
    {
     "name": "com.reddit.frontpage",
@@ -18604,7 +18604,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 392
+    "count": 393
    },
    {
     "path": "/districts/al-taawun",
@@ -19057,7 +19057,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1256,
+   "count": 1258,
    "ref_scheme": "o"
   },
   {
@@ -19293,7 +19293,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1621
+   "count": 1623
   },
   {
    "id": "ara",
@@ -19345,7 +19345,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1516
+   "count": 1518
   },
   {
    "id": "US",
@@ -19552,7 +19552,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1518
+   "count": 1520
   },
   {
    "id": "tablet",
@@ -19584,7 +19584,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 880
+   "count": 882
   },
   {
    "name": "",
@@ -19600,7 +19600,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 861
+   "count": 863
   },
   {
    "id": "Android",
