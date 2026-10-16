@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T22:07:48Z",
+ "generated": "2026-10-16T23:05:01Z",
  "start": "2026-09-16",
  "end": "2026-10-17",
  "total": {
-  "total": 2002,
-  "total_events": 1181,
-  "total_utc": 2002,
+  "total": 2008,
+  "total_events": 1182,
+  "total_utc": 2008,
   "stats": [
    {
     "day": "2026-09-16",
@@ -488,7 +488,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2002
+    "monthly": 2008
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 520
+    "weekly": 526
    },
    {
     "day": "2026-10-15",
@@ -947,7 +947,7 @@
     "hourly": [
      13,
      21,
-     2,
+     8,
      0,
      0,
      0,
@@ -970,7 +970,7 @@
      0,
      0
     ],
-    "daily": 36
+    "daily": 42
    }
   ]
  },
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 570,
+   "count": 573,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -997,7 +997,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 15
+    "2026-10-17": 18
    }
   },
   {
@@ -1005,7 +1005,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 419,
+   "count": 420,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1016,7 +1016,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 15
+    "2026-10-17": 16
    }
   },
   {
@@ -1024,7 +1024,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 35,
+   "count": 36,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1032,7 +1032,8 @@
     "2026-10-13": 4,
     "2026-10-14": 5,
     "2026-10-15": 9,
-    "2026-10-16": 9
+    "2026-10-16": 9,
+    "2026-10-17": 1
    }
   },
   {
@@ -2364,6 +2365,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-rawdah",
+   "path_id": 112412104,
+   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -7819,9 +7830,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 821,
-  "events_total": 1181,
-  "goatcounter_total_with_events": 2002,
+  "visits": 826,
+  "events_total": 1182,
+  "goatcounter_total_with_events": 2008,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7838,7 +7849,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 16
+   "2026-10-17": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7850,9 +7861,9 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 15
+   "2026-10-17": 16
   },
-  "visitor_days": 450,
+  "visitor_days": 451,
   "return_rate": 0.069,
   "routes": 312,
   "routes_not_found": 0,
@@ -7929,7 +7940,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 419,
+   "new": 420,
    "return": 31
   },
   "top_routes": [
@@ -8087,7 +8098,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 83
+    "count": 86
    },
    {
     "name": "com.reddit.frontpage",
@@ -8149,7 +8160,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 33
+    "count": 34
    },
    {
     "name": "www.bing.com",
@@ -8466,6 +8477,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/king-faisal": [
    {
     "name": "Google",
@@ -8585,12 +8602,6 @@
     "name": "riyadhmetro.fyi/ar/lines/blue-line",
     "count": 1
    }
-  ],
-  "/destinations/lulu-hypermarket-murabba": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -8667,7 +8678,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 83
+    "count": 86
    }
   ],
   "com.reddit.frontpage": [
@@ -8679,7 +8690,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 33
+    "count": 34
    },
    {
     "path": "/map",
@@ -8806,6 +8817,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-rawdah",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/king-faisal",
     "count": 1
    },
@@ -8843,10 +8858,6 @@
    },
    {
     "path": "/destinations/hamad-tower",
-    "count": 1
-   },
-   {
-    "path": "/destinations/lulu-hypermarket-murabba",
     "count": 1
    }
   ],
@@ -9068,19 +9079,19 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 205,
+   "count": 207,
    "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 99,
+   "count": 100,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 83,
+   "count": 86,
    "ref_scheme": "c"
   },
   {
@@ -9292,12 +9303,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1652
+   "count": 1654
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 285
+   "count": 289
   },
   {
    "id": "(unknown)",
@@ -9344,7 +9355,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1600
+   "count": 1606
   },
   {
    "id": "US",
@@ -9551,7 +9562,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1598
+   "count": 1604
   },
   {
    "id": "tablet",
@@ -9578,12 +9589,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1026
+   "count": 1031
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 932
+   "count": 933
   },
   {
    "name": "",
@@ -9599,12 +9610,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 913
+   "count": 914
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 699
+   "count": 704
   },
   {
    "id": "Windows",
