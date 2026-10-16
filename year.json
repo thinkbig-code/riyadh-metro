@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T21:09:44Z",
+ "generated": "2026-10-16T22:08:59Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1981,
-  "total_events": 1168,
-  "total_utc": 1981,
+  "total": 2002,
+  "total_events": 1181,
+  "total_utc": 2002,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1981
+    "monthly": 2002
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 334
+    "weekly": 355
    },
    {
     "day": "2026-10-16",
@@ -10996,8 +10996,8 @@
     "day": "2026-10-17",
     "hourly": [
      13,
+     21,
      2,
-     0,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 36
    }
   ]
  },
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 562,
+   "count": 570,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11047,7 +11047,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 7
+    "2026-10-17": 15
    }
   },
   {
@@ -11055,7 +11055,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 411,
+   "count": 419,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11066,7 +11066,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 7
+    "2026-10-17": 15
    }
   },
   {
@@ -11448,6 +11448,18 @@
    }
   },
   {
+   "path": "place/p_panorama_mall/to",
+   "path_id": 110418739,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-12": 1,
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "station/malaz/from",
    "path_id": 110309312,
    "title": "en|name",
@@ -11573,17 +11585,6 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-15": 1
-   }
-  },
-  {
-   "path": "place/p_panorama_mall/to",
-   "path_id": 110418739,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-08": 2,
-    "2026-10-12": 1
    }
   },
   {
@@ -11777,6 +11778,28 @@
    "count": 2,
    "daily": {
     "2026-10-13": 2
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/to",
+   "path_id": 111781168,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -12391,6 +12414,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/salam/p_al_othaim_mall_rabwah",
+   "path_id": 112406660,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "route/salam/p_panorama_mall",
+   "path_id": 112406615,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -13734,16 +13777,6 @@
    }
   },
   {
-   "path": "place/p_al_othaim_mall_rabwah/to",
-   "path_id": 111781168,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-khalidiyah",
    "path_id": 111772785,
    "title": "أقرب محطة مترو لحي الخالدية في الرياض: محطة الصالحية، 2.7 كم",
@@ -13876,16 +13909,6 @@
   {
    "path": "station/khaleej/to",
    "path_id": 111702874,
-   "title": "ar|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "station/salam/from",
-   "path_id": 111702847,
    "title": "ar|name",
    "event": true,
    "count": 1,
@@ -17846,9 +17869,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 813,
-  "events_total": 1168,
-  "goatcounter_total_with_events": 1981,
+  "visits": 821,
+  "events_total": 1181,
+  "goatcounter_total_with_events": 2002,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17865,7 +17888,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 8
+   "2026-10-17": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17877,11 +17900,11 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 7
+   "2026-10-17": 15
   },
-  "visitor_days": 442,
-  "return_rate": 0.07,
-  "routes": 310,
+  "visitor_days": 450,
+  "return_rate": 0.069,
+  "routes": 312,
   "routes_not_found": 0,
   "routes_per_visit": 0.38,
   "routes_per_visitor_day": 0.64,
@@ -17893,7 +17916,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.052,
+  "failed_search_rate": 0.051,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -17956,7 +17979,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 411,
+   "new": 419,
    "return": 31
   },
   "top_routes": [
@@ -18114,7 +18137,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 75
+    "count": 83
    },
    {
     "name": "com.reddit.frontpage",
@@ -18694,7 +18717,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 75
+    "count": 83
    }
   ],
   "com.reddit.frontpage": [
@@ -19101,13 +19124,13 @@
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 86,
+   "count": 99,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 75,
+   "count": 83,
    "ref_scheme": "c"
   },
   {
@@ -19319,17 +19342,17 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1639
+   "count": 1652
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 278
+   "count": 285
   },
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 20
+   "count": 21
   },
   {
    "id": "rus",
@@ -19371,7 +19394,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1579
+   "count": 1600
   },
   {
    "id": "US",
@@ -19578,12 +19601,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1581
+   "count": 1598
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 54
+   "count": 58
   },
   {
    "id": "desktop",
@@ -19605,12 +19628,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1018
+   "count": 1026
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 919
+   "count": 932
   },
   {
    "name": "",
@@ -19626,12 +19649,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 900
+   "count": 913
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 691
+   "count": 699
   },
   {
    "id": "Windows",
