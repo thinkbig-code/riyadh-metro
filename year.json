@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T19:13:16Z",
+ "generated": "2026-10-16T21:09:44Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1926,
-  "total_events": 1140,
-  "total_utc": 1926,
+  "total": 1981,
+  "total_events": 1168,
+  "total_utc": 1981,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1926
+    "monthly": 1981
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 279
+    "weekly": 334
    },
    {
     "day": "2026-10-16",
@@ -10988,15 +10988,15 @@
      17,
      12,
      6,
-     2
+     42
     ],
-    "daily": 212
+    "daily": 252
    },
    {
     "day": "2026-10-17",
     "hourly": [
-     0,
-     0,
+     13,
+     2,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 15
    }
   ]
  },
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 536,
+   "count": 562,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11046,7 +11046,8 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 62
+    "2026-10-16": 81,
+    "2026-10-17": 7
    }
   },
   {
@@ -11054,7 +11055,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 385,
+   "count": 411,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11064,7 +11065,8 @@
     "2026-10-13": 32,
     "2026-10-14": 32,
     "2026-10-15": 6,
-    "2026-10-16": 60
+    "2026-10-16": 79,
+    "2026-10-17": 7
    }
   },
   {
@@ -11149,6 +11151,31 @@
    }
   },
   {
+   "path": "place/p_kingdom_centre/to",
+   "path_id": 110409518,
+   "title": "en|name",
+   "event": true,
+   "count": 10,
+   "daily": {
+    "2026-10-08": 7,
+    "2026-10-12": 1,
+    "2026-10-16": 2
+   }
+  },
+  {
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
+   "title": "en|name",
+   "event": true,
+   "count": 10,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 7,
+    "2026-10-09": 1,
+    "2026-10-16": 1
+   }
+  },
+  {
    "path": "/ar.html",
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
@@ -11163,30 +11190,6 @@
     "2026-10-14": 1,
     "2026-10-15": 2,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/to",
-   "path_id": 110409518,
-   "title": "en|name",
-   "event": true,
-   "count": 9,
-   "daily": {
-    "2026-10-08": 7,
-    "2026-10-12": 1,
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "place/p_kingdom_centre/from",
-   "path_id": 110315049,
-   "title": "en|name",
-   "event": true,
-   "count": 9,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 7,
-    "2026-10-09": 1
    }
   },
   {
@@ -11882,6 +11885,17 @@
    "daily": {
     "2026-10-10": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ar/timings",
+   "path_id": 110802018,
+   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -15000,16 +15014,6 @@
    }
   },
   {
-   "path": "/ar/timings",
-   "path_id": 110802018,
-   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
    "path": "route/p_king_abdullah_mosque_malaz/kbw",
    "path_id": 110801711,
    "title": "en|search|ok",
@@ -17842,9 +17846,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 786,
-  "events_total": 1140,
-  "goatcounter_total_with_events": 1926,
+  "visits": 813,
+  "events_total": 1168,
+  "goatcounter_total_with_events": 1981,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17860,7 +17864,8 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 111
+   "2026-10-16": 130,
+   "2026-10-17": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17871,14 +17876,15 @@
    "2026-10-13": 38,
    "2026-10-14": 37,
    "2026-10-15": 11,
-   "2026-10-16": 65
+   "2026-10-16": 84,
+   "2026-10-17": 7
   },
-  "visitor_days": 416,
-  "return_rate": 0.075,
+  "visitor_days": 442,
+  "return_rate": 0.07,
   "routes": 310,
   "routes_not_found": 0,
-  "routes_per_visit": 0.39,
-  "routes_per_visitor_day": 0.69,
+  "routes_per_visit": 0.38,
+  "routes_per_visitor_day": 0.64,
   "share_rate": 0.016,
   "shares": {
    "whatsapp": 1,
@@ -17950,7 +17956,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 385,
+   "new": 411,
    "return": 31
   },
   "top_routes": [
@@ -18107,12 +18113,12 @@
     "count": 393
    },
    {
-    "name": "com.reddit.frontpage",
-    "count": 69
+    "name": "tiktok_ad",
+    "count": 75
    },
    {
-    "name": "tiktok_ad",
-    "count": 49
+    "name": "com.reddit.frontpage",
+    "count": 69
    },
    {
     "name": "Google",
@@ -18433,6 +18439,16 @@
     "count": 2
    }
   ],
+  "/ar/timings": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/timings",
+    "count": 1
+   }
+  ],
   "/timings": [
    {
     "name": "(direct or unknown)",
@@ -18602,12 +18618,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18681,16 +18691,16 @@
     "count": 1
    }
   ],
+  "tiktok_ad": [
+   {
+    "path": "/",
+    "count": 75
+   }
+  ],
   "com.reddit.frontpage": [
    {
     "path": "/",
     "count": 69
-   }
-  ],
-  "tiktok_ad": [
-   {
-    "path": "/",
-    "count": 49
    }
   ],
   "Google": [
@@ -18811,6 +18821,10 @@
     "count": 1
    },
    {
+    "path": "/ar/timings",
+    "count": 1
+   },
+   {
     "path": "/timings",
     "count": 1
    },
@@ -18860,10 +18874,6 @@
    },
    {
     "path": "/destinations/lulu-hypermarket-murabba",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-arid",
     "count": 1
    }
   ],
@@ -19021,6 +19031,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/timings": [
+   {
+    "path": "/ar/timings",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
    {
     "path": "/ar/lines/blue-line",
@@ -19067,7 +19083,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1258,
+   "count": 1261,
    "ref_scheme": "o"
   },
   {
@@ -19079,19 +19095,19 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 204,
+   "count": 205,
    "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 61,
+   "count": 86,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 49,
+   "count": 75,
    "ref_scheme": "c"
   },
   {
@@ -19303,12 +19319,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1623
+   "count": 1639
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 239
+   "count": 278
   },
   {
    "id": "(unknown)",
@@ -19355,7 +19371,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1524
+   "count": 1579
   },
   {
    "id": "US",
@@ -19562,7 +19578,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1526
+   "count": 1581
   },
   {
    "id": "tablet",
@@ -19589,12 +19605,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 995
+   "count": 1018
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 887
+   "count": 919
   },
   {
    "name": "",
@@ -19610,12 +19626,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 868
+   "count": 900
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 668
+   "count": 691
   },
   {
    "id": "Windows",
