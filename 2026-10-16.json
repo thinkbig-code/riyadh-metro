@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T06:08:53Z",
+ "generated": "2026-10-16T07:20:05Z",
  "start": "2026-09-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1742,
+  "total": 1745,
   "total_events": 1046,
-  "total_utc": 1742,
+  "total_utc": 1745,
   "stats": [
    {
     "day": "2026-09-16",
@@ -488,7 +488,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 1742
+    "monthly": 1745
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      4
     ],
     "daily": 165,
-    "weekly": 260
+    "weekly": 263
    },
    {
     "day": "2026-10-15",
@@ -926,7 +926,7 @@
      2,
      12,
      0,
-     0,
+     3,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 28
+    "daily": 31
    },
    {
     "day": "2026-10-17",
@@ -1086,14 +1086,15 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 14,
+   "count": 15,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
     "2026-10-11": 3,
     "2026-10-12": 1,
     "2026-10-13": 4,
-    "2026-10-15": 1
+    "2026-10-15": 1,
+    "2026-10-16": 1
    }
   },
   {
@@ -1264,6 +1265,18 @@
    }
   },
   {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-13": 1,
+    "2026-10-16": 2
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -1316,18 +1329,6 @@
    "count": 4,
    "daily": {
     "2026-10-14": 4
-   }
-  },
-  {
-   "path": "/ar/districts/middle-oraija",
-   "path_id": 110973042,
-   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-10": 2,
-    "2026-10-13": 1,
-    "2026-10-16": 1
    }
   },
   {
@@ -1697,6 +1698,17 @@
    "daily": {
     "2026-10-10": 1,
     "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/districts/al-fayha",
+   "path_id": 110926200,
+   "title": "Nearest Metro Station to Al Fayha, Riyadh: Harun Ar Rashid Road (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-16": 1
    }
   },
   {
@@ -4426,16 +4438,6 @@
    "path": "/ar/districts/al-sahafah",
    "path_id": 110937894,
    "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/districts/al-fayha",
-   "path_id": 110926200,
-   "title": "Nearest Metro Station to Al Fayha, Riyadh: Harun Ar Rashid Road (in the district)",
    "event": false,
    "count": 1,
    "daily": {
@@ -7465,9 +7467,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 696,
+  "visits": 699,
   "events_total": 1046,
-  "goatcounter_total_with_events": 1742,
+  "goatcounter_total_with_events": 1745,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7483,7 +7485,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 21
+   "2026-10-16": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7500,7 +7502,7 @@
   "return_rate": 0.078,
   "routes": 297,
   "routes_not_found": 0,
-  "routes_per_visit": 0.43,
+  "routes_per_visit": 0.42,
   "routes_per_visitor_day": 0.76,
   "share_rate": 0.017,
   "shares": {
@@ -7799,7 +7801,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 10
+    "count": 11
    },
    {
     "name": "(direct or unknown)",
@@ -7874,6 +7876,12 @@
     "count": 5
    }
   ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -7887,12 +7895,6 @@
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
-    "count": 4
-   }
-  ],
-  "/ar/districts/middle-oraija": [
-   {
-    "name": "Google",
     "count": 4
    }
   ],
@@ -7995,6 +7997,12 @@
    }
   ],
   "/ar/destinations/al-faisaliah-tower": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/districts/al-fayha": [
    {
     "name": "Google",
     "count": 2
@@ -8205,12 +8213,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/ar/destinations/olaya-mall": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -8298,10 +8300,6 @@
    {
     "path": "/destinations/pakistan-embassy",
     "count": 1
-   },
-   {
-    "path": "/ar/destinations/olaya-mall",
-    "count": 1
    }
   ],
   "com.reddit.frontpage": [
@@ -8317,7 +8315,7 @@
    },
    {
     "path": "/map",
-    "count": 10
+    "count": 11
    },
    {
     "path": "/",
@@ -8345,7 +8343,7 @@
    },
    {
     "path": "/ar/districts/middle-oraija",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -8385,6 +8383,10 @@
    },
    {
     "path": "/ar/destinations/al-faisaliah-tower",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-fayha",
     "count": 2
    },
    {
@@ -8662,7 +8664,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 179,
+   "count": 182,
    "ref_scheme": "g"
   },
   {
@@ -8868,12 +8870,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1529
+   "count": 1531
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 159
+   "count": 160
   },
   {
    "id": "(unknown)",
@@ -8920,7 +8922,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1345
+   "count": 1348
   },
   {
    "id": "US",
@@ -9127,7 +9129,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1359
+   "count": 1362
   },
   {
    "id": "tablet",
@@ -9154,12 +9156,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 911
+   "count": 913
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 787
+   "count": 788
   },
   {
    "name": "",
@@ -9175,12 +9177,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 777
+   "count": 778
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 586
+   "count": 588
   },
   {
    "id": "Windows",
