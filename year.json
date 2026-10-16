@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-16T08:13:18Z",
+ "generated": "2026-10-16T09:14:03Z",
  "start": "2025-10-16",
  "end": "2026-10-17",
  "total": {
-  "total": 1748,
-  "total_events": 1047,
-  "total_utc": 1748,
+  "total": 1751,
+  "total_events": 1048,
+  "total_utc": 1751,
   "stats": [
    {
     "day": "2025-10-16",
@@ -10538,7 +10538,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 1748
+    "monthly": 1751
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 101
+    "weekly": 104
    },
    {
     "day": "2026-10-16",
@@ -10978,7 +10978,7 @@
      0,
      5,
      1,
-     0,
+     3,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 34
+    "daily": 37
    },
    {
     "day": "2026-10-17",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 481,
+   "count": 482,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11046,7 +11046,7 @@
     "2026-10-13": 35,
     "2026-10-14": 36,
     "2026-10-15": 9,
-    "2026-10-16": 7
+    "2026-10-16": 8
    }
   },
   {
@@ -12232,6 +12232,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_al_qasr_mall",
+   "path_id": 112303360,
+   "title": "en|landing:destinations-al-qasr-mall|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/destinations/al-qasr-mall",
+   "path_id": 112303146,
+   "title": "Al Qasr Mall Metro Station: Sultanah (Orange Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-16": 1
    }
   },
   {
@@ -17517,9 +17537,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 701,
-  "events_total": 1047,
-  "goatcounter_total_with_events": 1748,
+  "visits": 703,
+  "events_total": 1048,
+  "goatcounter_total_with_events": 1751,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17535,7 +17555,7 @@
    "2026-10-13": 61,
    "2026-10-14": 77,
    "2026-10-15": 34,
-   "2026-10-16": 26
+   "2026-10-16": 28
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17550,7 +17570,7 @@
   },
   "visitor_days": 359,
   "return_rate": 0.078,
-  "routes": 297,
+  "routes": 298,
   "routes_not_found": 0,
   "routes_per_visit": 0.42,
   "routes_per_visitor_day": 0.76,
@@ -17708,6 +17728,10 @@
     "count": 9
    },
    {
+    "name": "p_kingdom_centre",
+    "count": 9
+   },
+   {
     "name": "kbw",
     "count": 9
    },
@@ -17717,10 +17741,6 @@
    },
    {
     "name": "granadia",
-    "count": 8
-   },
-   {
-    "name": "p_kingdom_centre",
     "count": 8
    },
    {
@@ -17831,6 +17851,10 @@
    },
    {
     "name": "riyadhmetro.fyi/destinations/lulu-hypermarket-murabba",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/al-qasr-mall",
     "count": 1
    }
   ],
@@ -18102,6 +18126,12 @@
     "count": 2
    }
   ],
+  "/destinations/al-qasr-mall": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/stations/jeddah-road": [
    {
     "name": "riyadhmetro.fyi/ar/lines/orange-line",
@@ -18257,12 +18287,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/destinations/pakistan-embassy": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18345,10 +18369,6 @@
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   },
-   {
-    "path": "/destinations/pakistan-embassy",
     "count": 1
    }
   ],
@@ -18469,6 +18489,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/destinations/al-qasr-mall",
     "count": 1
    },
    {
@@ -18598,6 +18622,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/destinations/al-qasr-mall": [
+   {
+    "path": "/",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/stations": [
    {
     "path": "/ar/map",
@@ -18714,7 +18744,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 184,
+   "count": 185,
    "ref_scheme": "g"
   },
   {
@@ -18826,6 +18856,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/destinations/al-qasr-mall",
+   "name": "riyadhmetro.fyi/destinations/al-qasr-mall",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.reddit.com",
    "name": "www.reddit.com",
    "count": 1,
@@ -18920,7 +18956,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1534
+   "count": 1537
   },
   {
    "id": "ara",
@@ -18972,7 +19008,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1351
+   "count": 1354
   },
   {
    "id": "US",
@@ -19179,7 +19215,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1365
+   "count": 1368
   },
   {
    "id": "tablet",
@@ -19211,7 +19247,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 790
+   "count": 793
   },
   {
    "name": "",
@@ -19227,7 +19263,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 780
+   "count": 783
   },
   {
    "id": "Android",
