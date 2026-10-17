@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T19:06:15Z",
+ "generated": "2026-10-17T19:59:27Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2113,
+  "total": 2116,
   "total_events": 1229,
-  "total_utc": 2113,
+  "total_utc": 2116,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2113
+    "monthly": 2116
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 466
+    "weekly": 469
    },
    {
     "day": "2026-10-16",
@@ -938,9 +938,9 @@
      3,
      2,
      9,
-     0
+     3
     ],
-    "daily": 147
+    "daily": 150
    },
    {
     "day": "2026-10-18",
@@ -2477,6 +2477,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-yamamah-university",
+   "path_id": 112559294,
+   "title": "محطة مترو جامعة اليمامة: محطة بنك الأول (المسار الأزرق)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/destinations/al-yamamah-university",
+   "path_id": 112559288,
+   "title": "Al Yamamah University Metro Station: SAB Bank (Blue Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/districts/al-murabba",
+   "path_id": 112555949,
+   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -8002,9 +8032,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 884,
+  "visits": 887,
   "events_total": 1229,
-  "goatcounter_total_with_events": 2113,
+  "goatcounter_total_with_events": 2116,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8021,7 +8051,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 79
+   "2026-10-17": 82
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8701,6 +8731,24 @@
     "count": 2
    }
   ],
+  "/ar/destinations/al-yamamah-university": [
+   {
+    "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
+    "count": 1
+   }
+  ],
+  "/destinations/al-yamamah-university": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/districts/al-murabba": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/crowne-plaza-riyadh-palace": [
    {
     "name": "(direct or unknown)",
@@ -8768,24 +8816,6 @@
    }
   ],
   "/districts/al-ezdihar": [
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-amal": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/stations/ministry-of-education": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/al-suwaidi-park": [
    {
     "name": "chatgpt.com",
     "count": 1
@@ -8860,10 +8890,6 @@
    },
    {
     "path": "/ar/destinations/crowne-plaza-riyadh-palace",
-    "count": 1
-   },
-   {
-    "path": "/stations/ministry-of-education",
     "count": 1
    }
   ],
@@ -9033,6 +9059,10 @@
     "count": 1
    },
    {
+    "path": "/districts/al-murabba",
+    "count": 1
+   },
+   {
     "path": "/ar/routes/riyadh-airport-to-boulevard-city",
     "count": 1
    },
@@ -9066,10 +9096,6 @@
    },
    {
     "path": "/ar/districts/al-khuzama",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-amal",
     "count": 1
    }
   ],
@@ -9239,21 +9265,27 @@
     "count": 1
    },
    {
+    "path": "/destinations/al-yamamah-university",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 1
    },
    {
     "path": "/districts/al-ezdihar",
     "count": 1
-   },
-   {
-    "path": "/ar/destinations/al-suwaidi-park",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/destinations/al-yamamah-university": [
+   {
+    "path": "/ar/destinations/al-yamamah-university",
     "count": 1
    }
   ]
@@ -9273,7 +9305,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 233,
+   "count": 234,
    "ref_scheme": "g"
   },
   {
@@ -9303,7 +9335,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 7,
+   "count": 8,
    "ref_scheme": "c"
   },
   {
@@ -9491,18 +9523,24 @@
    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/destinations/al-yamamah-university",
+   "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1702
+   "count": 1703
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 343
+   "count": 345
   },
   {
    "id": "(unknown)",
@@ -9554,7 +9592,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1705
+   "count": 1708
   },
   {
    "id": "US",
@@ -9766,7 +9804,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1699
+   "count": 1702
   },
   {
    "id": "tablet",
@@ -9798,7 +9836,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 992
+   "count": 995
   },
   {
    "name": "",
@@ -9814,7 +9852,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 972
+   "count": 975
   },
   {
    "id": "Android",
