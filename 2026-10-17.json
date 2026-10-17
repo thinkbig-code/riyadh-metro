@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T10:32:48Z",
+ "generated": "2026-10-17T11:02:53Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2080,
-  "total_events": 1216,
-  "total_utc": 2080,
+  "total": 2087,
+  "total_events": 1222,
+  "total_utc": 2087,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2080
+    "monthly": 2087
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 433
+    "weekly": 440
    },
    {
     "day": "2026-10-16",
@@ -929,7 +929,7 @@
      0,
      2,
      6,
-     2,
+     9,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 114
+    "daily": 121
    },
    {
     "day": "2026-10-18",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 598,
+   "count": 599,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -997,7 +997,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 43
+    "2026-10-17": 44
    }
   },
   {
@@ -1005,7 +1005,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 445,
+   "count": 446,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1016,7 +1016,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 41
+    "2026-10-17": 42
    }
   },
   {
@@ -1312,6 +1312,18 @@
    }
   },
   {
+   "path": "place/p_panorama_mall/to",
+   "path_id": 110418739,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-12": 1,
+    "2026-10-17": 2
+   }
+  },
+  {
    "path": "place/p_kafd_king_abdullah_financial_district/from",
    "path_id": 110418694,
    "title": "en|name",
@@ -1401,18 +1413,6 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 1
-   }
-  },
-  {
-   "path": "place/p_panorama_mall/to",
-   "path_id": 110418739,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-08": 2,
-    "2026-10-12": 1,
-    "2026-10-17": 1
    }
   },
   {
@@ -1602,6 +1602,16 @@
    }
   },
   {
+   "path": "route/salam/p_panorama_mall",
+   "path_id": 112406615,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 2
+   }
+  },
+  {
    "path": "/ru.html",
    "path_id": 112351595,
    "title": "Интерактивная схема метро Эр-Рияда: все 6 линий",
@@ -1609,6 +1619,17 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
+   }
+  },
+  {
+   "path": "geo/ok/salam",
+   "path_id": 112324898,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -2085,6 +2106,17 @@
    }
   },
   {
+   "path": "station/jeddahrd/to",
+   "path_id": 110435923,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "station/urubah/from",
    "path_id": 110432165,
    "title": "en|name",
@@ -2395,6 +2427,16 @@
    }
   },
   {
+   "path": "route/salam/jeddahrd",
+   "path_id": 112487905,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "/ar/lines/red-line",
    "path_id": 112486392,
    "title": "المسار الأحمر مترو الرياض (المسار 2): المحطات والخريطة والمواعيد",
@@ -2487,16 +2529,6 @@
   {
    "path": "route/salam/p_al_othaim_mall_rabwah",
    "path_id": 112406660,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
-   "path": "route/salam/p_panorama_mall",
-   "path_id": 112406615,
    "title": "en|search|ok",
    "event": true,
    "count": 1,
@@ -2599,16 +2631,6 @@
    "path_id": 112330224,
    "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
    "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "geo/ok/salam",
-   "path_id": 112324898,
-   "title": "en",
-   "event": true,
    "count": 1,
    "daily": {
     "2026-10-16": 1
@@ -6725,16 +6747,6 @@
    }
   },
   {
-   "path": "station/jeddahrd/to",
-   "path_id": 110435923,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "station/yarmuk/from",
    "path_id": 110435913,
    "title": "en|name",
@@ -7917,9 +7929,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 864,
-  "events_total": 1216,
-  "goatcounter_total_with_events": 2080,
+  "visits": 865,
+  "events_total": 1222,
+  "goatcounter_total_with_events": 2087,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7936,7 +7948,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 59
+   "2026-10-17": 60
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7948,13 +7960,13 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 42
+   "2026-10-17": 43
   },
-  "visitor_days": 477,
+  "visitor_days": 478,
   "return_rate": 0.067,
-  "routes": 315,
+  "routes": 317,
   "routes_not_found": 0,
-  "routes_per_visit": 0.36,
+  "routes_per_visit": 0.37,
   "routes_per_visitor_day": 0.61,
   "share_rate": 0.016,
   "shares": {
@@ -8025,13 +8037,13 @@
   ],
   "nearest_station": {
    "denied": 22,
-   "ok": 30,
+   "ok": 31,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 445,
+   "new": 446,
    "return": 32
   },
   "top_routes": [
@@ -8046,6 +8058,10 @@
    {
     "name": "wizarat > alinma",
     "count": 3
+   },
+   {
+    "name": "salam > p_panorama_mall",
+    "count": 2
    },
    {
     "name": "p_kingdom_centre > p_al_qasr_mall",
@@ -8089,10 +8105,6 @@
    },
    {
     "name": "p_granada_mall > p_al_faisaliah_tower",
-    "count": 2
-   },
-   {
-    "name": "kafd > t5",
     "count": 2
    }
   ],
@@ -8172,11 +8184,11 @@
     "count": 7
    },
    {
-    "name": "kbw",
+    "name": "jeddahrd",
     "count": 7
    },
    {
-    "name": "hokm",
+    "name": "kbw",
     "count": 7
    }
   ]
@@ -8185,7 +8197,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 394
+    "count": 395
    },
    {
     "name": "tiktok_ad",
@@ -8707,7 +8719,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 394
+    "count": 395
    },
    {
     "path": "/districts/al-taawun",
@@ -9172,7 +9184,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1268,
+   "count": 1275,
    "ref_scheme": "o"
   },
   {
@@ -9408,7 +9420,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1680
+   "count": 1687
   },
   {
    "id": "ara",
@@ -9460,7 +9472,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1676
+   "count": 1683
   },
   {
    "id": "US",
@@ -9672,7 +9684,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1667
+   "count": 1674
   },
   {
    "id": "tablet",
@@ -9704,7 +9716,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 973
+   "count": 980
   },
   {
    "name": "",
@@ -9720,7 +9732,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 954
+   "count": 961
   },
   {
    "id": "Android",
