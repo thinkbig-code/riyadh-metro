@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T15:02:27Z",
+ "generated": "2026-10-17T16:02:28Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2095,
+  "total": 2099,
   "total_events": 1225,
-  "total_utc": 2095,
+  "total_utc": 2099,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2095
+    "monthly": 2099
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 448
+    "weekly": 452
    },
    {
     "day": "2026-10-16",
@@ -934,13 +934,13 @@
      3,
      2,
      0,
-     0,
+     4,
      0,
      0,
      0,
      0
     ],
-    "daily": 129
+    "daily": 133
    },
    {
     "day": "2026-10-18",
@@ -1602,6 +1602,16 @@
    }
   },
   {
+   "path": "/destinations/u-walk",
+   "path_id": 112527155,
+   "title": "U Walk Metro Station: King Salman Oasis (Red Line)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 2
+   }
+  },
+  {
    "path": "route/salam/p_panorama_mall",
    "path_id": 112406615,
    "title": "en|search|ok",
@@ -1971,6 +1981,17 @@
    "daily": {
     "2026-10-09": 1,
     "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/districts/qurtubah",
+   "path_id": 110768019,
+   "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -2424,6 +2445,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/routes/riyadh-airport-to-boulevard-city",
+   "path_id": 112533023,
+   "title": "من مطار الرياض إلى بوليفارد سيتي بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -5407,16 +5438,6 @@
    }
   },
   {
-   "path": "/districts/qurtubah",
-   "path_id": 110768019,
-   "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
    "path": "view/harun/p_kafd_king_abdullah_financial_district",
    "path_id": 110754466,
    "title": "en|details",
@@ -7959,9 +7980,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 870,
+  "visits": 874,
   "events_total": 1225,
-  "goatcounter_total_with_events": 2095,
+  "goatcounter_total_with_events": 2099,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7978,7 +7999,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 65
+   "2026-10-17": 69
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8464,6 +8485,12 @@
     "count": 1
    }
   ],
+  "/destinations/u-walk": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ru.html": [
    {
     "name": "Yandex",
@@ -8584,6 +8611,16 @@
     "count": 1
    }
   ],
+  "/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -8622,6 +8659,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/routes/riyadh-airport-to-boulevard-city": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/destinations/atyaf-mall": [
@@ -8723,24 +8766,6 @@
   "/ar/destinations/owais-market": [
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-yasmeen": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/stations/jeddah-road": [
-   {
-    "name": "riyadhmetro.fyi/ar/lines/orange-line",
-    "count": 1
-   }
-  ],
-  "/ar/lines/orange-line": [
-   {
-    "name": "riyadhmetro.fyi/lines/orange-line",
     "count": 1
    }
   ]
@@ -8890,6 +8915,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/u-walk",
+    "count": 2
+   },
+   {
     "path": "/destinations/al-qasr-mall",
     "count": 2
    },
@@ -8958,7 +8987,15 @@
     "count": 1
    },
    {
+    "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/ar/routes/riyadh-airport-to-boulevard-city",
     "count": 1
    },
    {
@@ -9011,10 +9048,6 @@
    },
    {
     "path": "/ar/destinations/owais-market",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-yasmeen",
     "count": 1
    }
   ],
@@ -9178,13 +9211,11 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
-   {
-    "path": "/ar/lines/blue-line",
-    "count": 1
-   }
-  ],
   "chatgpt.com": [
+   {
+    "path": "/districts/qurtubah",
+    "count": 1
+   },
    {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 1
@@ -9198,15 +9229,9 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/lines/orange-line": [
+  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
    {
-    "path": "/ar/stations/jeddah-road",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/lines/orange-line": [
-   {
-    "path": "/ar/lines/orange-line",
+    "path": "/ar/lines/blue-line",
     "count": 1
    }
   ]
@@ -9226,7 +9251,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 223,
+   "count": 226,
    "ref_scheme": "g"
   },
   {
@@ -9254,16 +9279,16 @@
    "ref_scheme": "h"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 7,
+   "ref_scheme": "c"
+  },
+  {
    "id": "t.co",
    "name": "t.co",
    "count": 6,
    "ref_scheme": "h"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 6,
-   "ref_scheme": "c"
   },
   {
    "id": "riyadhmetro.fyi/ar/districts/qurtubah",
@@ -9450,12 +9475,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1693
+   "count": 1695
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 336
+   "count": 338
   },
   {
    "id": "(unknown)",
@@ -9502,7 +9527,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1689
+   "count": 1693
   },
   {
    "id": "US",
@@ -9714,7 +9739,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1681
+   "count": 1685
   },
   {
    "id": "tablet",
@@ -9741,12 +9766,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1068
+   "count": 1069
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 983
+   "count": 986
   },
   {
    "name": "",
@@ -9762,12 +9787,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 963
+   "count": 966
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 734
+   "count": 735
   },
   {
    "id": "Windows",
