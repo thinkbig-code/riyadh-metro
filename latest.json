@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T16:02:28Z",
+ "generated": "2026-10-17T17:03:56Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2099,
-  "total_events": 1225,
-  "total_utc": 2099,
+  "total": 2102,
+  "total_events": 1226,
+  "total_utc": 2102,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2099
+    "monthly": 2102
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 452
+    "weekly": 455
    },
    {
     "day": "2026-10-16",
@@ -935,12 +935,12 @@
      2,
      0,
      4,
-     0,
+     3,
      0,
      0,
      0
     ],
-    "daily": 133
+    "daily": 136
    },
    {
     "day": "2026-10-18",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 600,
+   "count": 601,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -997,7 +997,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 45
+    "2026-10-17": 46
    }
   },
   {
@@ -1041,7 +1041,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 34,
+   "count": 35,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1051,7 +1051,7 @@
     "2026-10-14": 5,
     "2026-10-15": 5,
     "2026-10-16": 5,
-    "2026-10-17": 3
+    "2026-10-17": 4
    }
   },
   {
@@ -2445,6 +2445,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/east-umm-al-hamam",
+   "path_id": 112535111,
+   "title": "Nearest Metro Station to East Umm Al Hamam, Riyadh: Bank Albilad, 2.8 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -7980,9 +7990,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 874,
-  "events_total": 1225,
-  "goatcounter_total_with_events": 2099,
+  "visits": 876,
+  "events_total": 1226,
+  "goatcounter_total_with_events": 2102,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7999,7 +8009,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 69
+   "2026-10-17": 71
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8011,10 +8021,10 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 46
+   "2026-10-17": 47
   },
-  "visitor_days": 481,
-  "return_rate": 0.071,
+  "visitor_days": 482,
+  "return_rate": 0.073,
   "routes": 317,
   "routes_not_found": 0,
   "routes_per_visit": 0.36,
@@ -8095,7 +8105,7 @@
   },
   "visitors_new_return": {
    "new": 447,
-   "return": 34
+   "return": 35
   },
   "top_routes": [
    {
@@ -8248,7 +8258,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 395
+    "count": 396
    },
    {
     "name": "tiktok_ad",
@@ -8661,6 +8671,12 @@
     "count": 2
    }
   ],
+  "/districts/east-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/routes/riyadh-airport-to-boulevard-city": [
    {
     "name": "Google",
@@ -8762,19 +8778,13 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/owais-market": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 395
+    "count": 396
    },
    {
     "path": "/districts/al-taawun",
@@ -8995,6 +9005,10 @@
     "count": 1
    },
    {
+    "path": "/districts/east-umm-al-hamam",
+    "count": 1
+   },
+   {
     "path": "/ar/routes/riyadh-airport-to-boulevard-city",
     "count": 1
    },
@@ -9044,10 +9058,6 @@
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/owais-market",
     "count": 1
    }
   ],
@@ -9239,7 +9249,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1277,
+   "count": 1279,
    "ref_scheme": "o"
   },
   {
@@ -9251,7 +9261,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 226,
+   "count": 227,
    "ref_scheme": "g"
   },
   {
@@ -9475,7 +9485,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1695
+   "count": 1698
   },
   {
    "id": "ara",
@@ -9527,7 +9537,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1693
+   "count": 1694
   },
   {
    "id": "US",
@@ -9542,7 +9552,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 35
+   "count": 37
   },
   {
    "id": "CA",
@@ -9739,7 +9749,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1685
+   "count": 1688
   },
   {
    "id": "tablet",
@@ -9766,7 +9776,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1069
+   "count": 1072
   },
   {
    "id": "Safari",
@@ -9792,7 +9802,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 735
+   "count": 738
   },
   {
    "id": "Windows",
