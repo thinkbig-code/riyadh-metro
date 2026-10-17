@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T10:04:37Z",
+ "generated": "2026-10-17T10:32:48Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2078,
-  "total_events": 1215,
-  "total_utc": 2078,
+  "total": 2080,
+  "total_events": 1216,
+  "total_utc": 2080,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2078
+    "monthly": 2080
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 431
+    "weekly": 433
    },
    {
     "day": "2026-10-16",
@@ -929,7 +929,7 @@
      0,
      2,
      6,
-     0,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 112
+    "daily": 114
    },
    {
     "day": "2026-10-18",
@@ -2392,6 +2392,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/lines/red-line",
+   "path_id": 112486392,
+   "title": "المسار الأحمر مترو الرياض (المسار 2): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "route/sabic/batha",
+   "path_id": 112485503,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -7897,9 +7917,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 863,
-  "events_total": 1215,
-  "goatcounter_total_with_events": 2078,
+  "visits": 864,
+  "events_total": 1216,
+  "goatcounter_total_with_events": 2080,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7916,7 +7936,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 58
+   "2026-10-17": 59
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7932,7 +7952,7 @@
   },
   "visitor_days": 477,
   "return_rate": 0.067,
-  "routes": 314,
+  "routes": 315,
   "routes_not_found": 0,
   "routes_per_visit": 0.36,
   "routes_per_visitor_day": 0.61,
@@ -8562,6 +8582,12 @@
     "count": 2
    }
   ],
+  "/ar/lines/red-line": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/stations/al-malaz": [
    {
     "name": "Google",
@@ -8675,12 +8701,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/stations/national-museum": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -8755,10 +8775,6 @@
    },
    {
     "path": "/ar/destinations/prince-sultan-university",
-    "count": 1
-   },
-   {
-    "path": "/stations/national-museum",
     "count": 1
    }
   ],
@@ -8905,6 +8921,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/ar/lines/red-line",
     "count": 1
    },
    {
@@ -9152,7 +9172,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1267,
+   "count": 1268,
    "ref_scheme": "o"
   },
   {
@@ -9164,7 +9184,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 218,
+   "count": 219,
    "ref_scheme": "g"
   },
   {
@@ -9388,12 +9408,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1679
+   "count": 1680
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 333
+   "count": 334
   },
   {
    "id": "(unknown)",
@@ -9440,7 +9460,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1674
+   "count": 1676
   },
   {
    "id": "US",
@@ -9652,7 +9672,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1666
+   "count": 1667
   },
   {
    "id": "tablet",
@@ -9662,7 +9682,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 297
+   "count": 298
   },
   {
    "id": "desktophd",
@@ -9679,12 +9699,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1062
+   "count": 1063
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 972
+   "count": 973
   },
   {
    "name": "",
@@ -9700,7 +9720,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 953
+   "count": 954
   },
   {
    "id": "Android",
@@ -9710,7 +9730,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 252
+   "count": 253
   },
   {
    "id": "macOS",
