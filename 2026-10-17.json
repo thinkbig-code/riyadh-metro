@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T12:01:49Z",
+ "generated": "2026-10-17T13:13:17Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2090,
-  "total_events": 1222,
-  "total_utc": 2090,
+  "total": 2095,
+  "total_events": 1225,
+  "total_utc": 2095,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2090
+    "monthly": 2095
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 443
+    "weekly": 448
    },
    {
     "day": "2026-10-16",
@@ -931,8 +931,8 @@
      6,
      9,
      3,
-     0,
-     0,
+     3,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 124
+    "daily": 129
    },
    {
     "day": "2026-10-18",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 599,
+   "count": 600,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -997,7 +997,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 44
+    "2026-10-17": 45
    }
   },
   {
@@ -1005,7 +1005,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 446,
+   "count": 447,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1016,7 +1016,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 42
+    "2026-10-17": 43
    }
   },
   {
@@ -1041,7 +1041,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 32,
+   "count": 34,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1051,7 +1051,7 @@
     "2026-10-14": 5,
     "2026-10-15": 5,
     "2026-10-16": 5,
-    "2026-10-17": 1
+    "2026-10-17": 3
    }
   },
   {
@@ -2424,6 +2424,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/atyaf-mall",
+   "path_id": 112505051,
+   "title": "Atyaf Mall Metro Station: Al Yarmuk (Purple Line), 5 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -7949,9 +7959,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 868,
-  "events_total": 1222,
-  "goatcounter_total_with_events": 2090,
+  "visits": 870,
+  "events_total": 1225,
+  "goatcounter_total_with_events": 2095,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7968,7 +7978,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 63
+   "2026-10-17": 65
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7980,13 +7990,13 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 43
+   "2026-10-17": 46
   },
-  "visitor_days": 478,
-  "return_rate": 0.067,
+  "visitor_days": 481,
+  "return_rate": 0.071,
   "routes": 317,
   "routes_not_found": 0,
-  "routes_per_visit": 0.37,
+  "routes_per_visit": 0.36,
   "routes_per_visitor_day": 0.61,
   "share_rate": 0.016,
   "shares": {
@@ -8063,8 +8073,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 446,
-   "return": 32
+   "new": 447,
+   "return": 34
   },
   "top_routes": [
    {
@@ -8225,7 +8235,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 69
+    "count": 70
    },
    {
     "name": "Google",
@@ -8614,6 +8624,12 @@
     "count": 2
    }
   ],
+  "/destinations/atyaf-mall": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/stations/sultanah": [
    {
     "name": "Google",
@@ -8727,12 +8743,6 @@
     "name": "riyadhmetro.fyi/lines/orange-line",
     "count": 1
    }
-  ],
-  "/lines/orange-line": [
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -8815,7 +8825,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 69
+    "count": 70
    }
   ],
   "Google": [
@@ -8949,6 +8959,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/destinations/atyaf-mall",
     "count": 1
    },
    {
@@ -9182,10 +9196,6 @@
    {
     "path": "/ar/destinations/al-suwaidi-park",
     "count": 1
-   },
-   {
-    "path": "/lines/orange-line",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/lines/orange-line": [
@@ -9204,19 +9214,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1275,
+   "count": 1277,
    "ref_scheme": "o"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 245,
+   "count": 247,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 222,
+   "count": 223,
    "ref_scheme": "g"
   },
   {
@@ -9440,7 +9450,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1688
+   "count": 1693
   },
   {
    "id": "ara",
@@ -9492,7 +9502,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1686
+   "count": 1689
   },
   {
    "id": "US",
@@ -9530,6 +9540,11 @@
    "count": 12
   },
   {
+   "id": "BH",
+   "name": "Bahrain",
+   "count": 10
+  },
+  {
    "id": "DE",
    "name": "Germany",
    "count": 10
@@ -9548,11 +9563,6 @@
    "id": "PL",
    "name": "Poland",
    "count": 9
-  },
-  {
-   "id": "BH",
-   "name": "Bahrain",
-   "count": 8
   },
   {
    "id": "CH",
@@ -9704,7 +9714,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1677
+   "count": 1681
   },
   {
    "id": "tablet",
@@ -9714,7 +9724,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 298
+   "count": 299
   },
   {
    "id": "desktophd",
@@ -9731,12 +9741,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1064
+   "count": 1068
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 982
+   "count": 983
   },
   {
    "name": "",
@@ -9757,7 +9767,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 730
+   "count": 734
   },
   {
    "id": "Windows",
@@ -9767,7 +9777,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 105
+   "count": 106
   },
   {
    "id": "Linux",
