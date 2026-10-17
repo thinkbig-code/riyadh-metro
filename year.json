@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T00:00:05Z",
+ "generated": "2026-10-17T01:16:30Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2023,
-  "total_events": 1189,
-  "total_utc": 2023,
+  "total": 2032,
+  "total_events": 1193,
+  "total_utc": 2032,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2023
+    "monthly": 2032
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 309
+    "weekly": 318
    },
    {
     "day": "2026-10-17",
@@ -10969,8 +10969,8 @@
      21,
      8,
      15,
-     0,
-     0,
+     8,
+     1,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 57
+    "daily": 66
    },
    {
     "day": "2026-10-18",
@@ -11030,7 +11030,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 580,
+   "count": 584,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11047,7 +11047,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 25
+    "2026-10-17": 29
    }
   },
   {
@@ -11055,7 +11055,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 427,
+   "count": 431,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11066,7 +11066,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 23
+    "2026-10-17": 27
    }
   },
   {
@@ -11074,7 +11074,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 37,
+   "count": 38,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11083,7 +11083,7 @@
     "2026-10-14": 5,
     "2026-10-15": 9,
     "2026-10-16": 9,
-    "2026-10-17": 2
+    "2026-10-17": 3
    }
   },
   {
@@ -17880,9 +17880,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 834,
-  "events_total": 1189,
-  "goatcounter_total_with_events": 2023,
+  "visits": 839,
+  "events_total": 1193,
+  "goatcounter_total_with_events": 2032,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17899,7 +17899,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 29
+   "2026-10-17": 34
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -17911,14 +17911,14 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 23
+   "2026-10-17": 27
   },
-  "visitor_days": 458,
-  "return_rate": 0.068,
+  "visitor_days": 462,
+  "return_rate": 0.067,
   "routes": 312,
   "routes_not_found": 0,
   "routes_per_visit": 0.37,
-  "routes_per_visitor_day": 0.63,
+  "routes_per_visitor_day": 0.62,
   "share_rate": 0.016,
   "shares": {
    "whatsapp": 1,
@@ -17990,7 +17990,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 427,
+   "new": 431,
    "return": 31
   },
   "top_routes": [
@@ -18148,7 +18148,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 93
+    "count": 97
    },
    {
     "name": "com.reddit.frontpage",
@@ -18210,7 +18210,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 34
+    "count": 35
    },
    {
     "name": "(direct or unknown)",
@@ -18736,7 +18736,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 93
+    "count": 97
    }
   ],
   "com.reddit.frontpage": [
@@ -18748,7 +18748,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 34
+    "count": 35
    },
    {
     "path": "/map",
@@ -19137,19 +19137,19 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 207,
+   "count": 208,
    "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 107,
+   "count": 111,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 93,
+   "count": 97,
    "ref_scheme": "c"
   },
   {
@@ -19366,7 +19366,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 303
+   "count": 312
   },
   {
    "id": "(unknown)",
@@ -19413,7 +19413,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1621
+   "count": 1630
   },
   {
    "id": "US",
@@ -19620,7 +19620,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1617
+   "count": 1626
   },
   {
    "id": "tablet",
@@ -19647,12 +19647,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1037
+   "count": 1043
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 942
+   "count": 945
   },
   {
    "name": "",
@@ -19668,12 +19668,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 923
+   "count": 926
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 710
+   "count": 716
   },
   {
    "id": "Windows",
