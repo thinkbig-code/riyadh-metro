@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T20:00:51Z",
+ "generated": "2026-10-17T22:03:09Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2116,
-  "total_events": 1229,
-  "total_utc": 2116,
+  "total": 2121,
+  "total_events": 1230,
+  "total_utc": 2121,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2116
+    "monthly": 2121
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 402
+    "weekly": 407
    },
    {
     "day": "2026-10-17",
@@ -10995,7 +10995,7 @@
    {
     "day": "2026-10-18",
     "hourly": [
-     0,
+     5,
      0,
      0,
      0,
@@ -11020,7 +11020,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 5
    }
   ]
  },
@@ -11055,7 +11055,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 450,
+   "count": 451,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11066,7 +11066,8 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 46
+    "2026-10-17": 46,
+    "2026-10-18": 1
    }
   },
   {
@@ -11074,7 +11075,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 45,
+   "count": 46,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11083,7 +11084,8 @@
     "2026-10-14": 5,
     "2026-10-15": 9,
     "2026-10-16": 9,
-    "2026-10-17": 10
+    "2026-10-17": 10,
+    "2026-10-18": 1
    }
   },
   {
@@ -11652,6 +11654,17 @@
    }
   },
   {
+   "path": "/districts/al-murabba",
+   "path_id": 112555949,
+   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "/districts/east-umm-al-hamam",
    "path_id": 112535111,
    "title": "Nearest Metro Station to East Umm Al Hamam, Riyadh: Bank Albilad, 2.8 km",
@@ -11669,6 +11682,17 @@
    "count": 2,
    "daily": {
     "2026-10-17": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-rawdah",
+   "path_id": 112412104,
+   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 1
    }
   },
   {
@@ -11700,6 +11724,17 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-yasmeen",
+   "path_id": 112309648,
+   "title": "أقرب محطة مترو لحي الياسمين في الرياض: محطة د. سليمان الحبيب، 2.1 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-18": 1
    }
   },
   {
@@ -12550,16 +12585,6 @@
    }
   },
   {
-   "path": "/districts/al-murabba",
-   "path_id": 112555949,
-   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
    "path": "/ar/destinations/crowne-plaza-riyadh-palace",
    "path_id": 112542870,
    "title": "محطة مترو كراون بلازا قصر الرياض: محطة وزارة الدفاع، 12 دقيقة سيراً",
@@ -12694,16 +12719,6 @@
    "path_id": 112433466,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-rawdah",
-   "path_id": 112412104,
-   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-17": 1
@@ -12954,16 +12969,6 @@
    "path_id": 112310108,
    "title": "ar|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-yasmeen",
-   "path_id": 112309648,
-   "title": "أقرب محطة مترو لحي الياسمين في الرياض: محطة د. سليمان الحبيب، 2.1 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-16": 1
@@ -18082,9 +18087,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 887,
-  "events_total": 1229,
-  "goatcounter_total_with_events": 2116,
+  "visits": 891,
+  "events_total": 1230,
+  "goatcounter_total_with_events": 2121,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18101,7 +18106,8 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 82
+   "2026-10-17": 82,
+   "2026-10-18": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18113,9 +18119,10 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 50
+   "2026-10-17": 50,
+   "2026-10-18": 1
   },
-  "visitor_days": 485,
+  "visitor_days": 486,
   "return_rate": 0.072,
   "routes": 317,
   "routes_not_found": 0,
@@ -18196,7 +18203,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 450,
+   "new": 451,
    "return": 35
   },
   "top_routes": [
@@ -18420,7 +18427,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 2
+    "count": 3
    },
    {
     "name": "www.bing.com",
@@ -18587,6 +18594,12 @@
     "count": 1
    }
   ],
+  "/districts/al-murabba": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/districts/east-umm-al-hamam": [
    {
     "name": "Google",
@@ -18599,9 +18612,21 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ru.html": [
    {
     "name": "Yandex",
+    "count": 2
+   }
+  ],
+  "/ar/districts/al-yasmeen": [
+   {
+    "name": "Google",
     "count": 2
    }
   ],
@@ -18793,12 +18818,6 @@
     "count": 1
    }
   ],
-  "/districts/al-murabba": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/destinations/crowne-plaza-riyadh-palace": [
    {
     "name": "(direct or unknown)",
@@ -18841,12 +18860,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/districts/king-faisal": [
    {
     "name": "Google",
@@ -18864,12 +18877,6 @@
     "name": "chatgpt.com",
     "count": 1
    }
-  ],
-  "/districts/al-ezdihar": [
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18883,12 +18890,12 @@
     "count": 4
    },
    {
-    "path": "/map",
+    "path": "/ar/map",
     "count": 3
    },
    {
-    "path": "/ar/map",
-    "count": 2
+    "path": "/map",
+    "count": 3
    },
    {
     "path": "/ar.html",
@@ -19017,11 +19024,23 @@
     "count": 2
    },
    {
+    "path": "/districts/al-murabba",
+    "count": 2
+   },
+   {
     "path": "/districts/east-umm-al-hamam",
     "count": 2
    },
    {
     "path": "/destinations/u-walk",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-rawdah",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-yasmeen",
     "count": 2
    },
    {
@@ -19109,10 +19128,6 @@
     "count": 1
    },
    {
-    "path": "/districts/al-murabba",
-    "count": 1
-   },
-   {
     "path": "/ar/routes/riyadh-airport-to-boulevard-city",
     "count": 1
    },
@@ -19134,10 +19149,6 @@
    },
    {
     "path": "/stations/al-malaz",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rawdah",
     "count": 1
    },
    {
@@ -19321,10 +19332,6 @@
    {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 1
-   },
-   {
-    "path": "/districts/al-ezdihar",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
@@ -19343,7 +19350,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1284,
+   "count": 1286,
    "ref_scheme": "o"
   },
   {
@@ -19355,7 +19362,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 234,
+   "count": 237,
    "ref_scheme": "g"
   },
   {
@@ -19585,12 +19592,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1703
+   "count": 1706
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 345
+   "count": 347
   },
   {
    "id": "(unknown)",
@@ -19642,7 +19649,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1708
+   "count": 1712
   },
   {
    "id": "US",
@@ -19652,7 +19659,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 78
+   "count": 79
   },
   {
    "id": "GB",
@@ -19854,7 +19861,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1702
+   "count": 1707
   },
   {
    "id": "tablet",
@@ -19881,12 +19888,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1077
+   "count": 1080
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 995
+   "count": 997
   },
   {
    "name": "",
@@ -19902,12 +19909,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 975
+   "count": 977
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 743
+   "count": 746
   },
   {
    "id": "Windows",
