@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T08:04:05Z",
+ "generated": "2026-10-17T09:05:23Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2070,
+  "total": 2073,
   "total_events": 1213,
-  "total_utc": 2070,
+  "total_utc": 2073,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2070
+    "monthly": 2073
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 423
+    "weekly": 426
    },
    {
     "day": "2026-10-16",
@@ -927,8 +927,8 @@
      2,
      3,
      0,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 104
+    "daily": 107
    },
    {
     "day": "2026-10-18",
@@ -1024,7 +1024,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 40,
+   "count": 42,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1033,7 +1033,7 @@
     "2026-10-14": 5,
     "2026-10-15": 9,
     "2026-10-16": 9,
-    "2026-10-17": 5
+    "2026-10-17": 7
    }
   },
   {
@@ -2247,6 +2247,17 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-gallery-mall",
+   "path_id": 110311601,
+   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -7512,16 +7523,6 @@
    }
   },
   {
-   "path": "/destinations/riyadh-gallery-mall",
-   "path_id": 110311601,
-   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "view/t12/rajhi",
    "path_id": 110311173,
    "title": "en|opt_2",
@@ -7884,9 +7885,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 857,
+  "visits": 860,
   "events_total": 1213,
-  "goatcounter_total_with_events": 2070,
+  "goatcounter_total_with_events": 2073,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7903,7 +7904,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 52
+   "2026-10-17": 55
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7921,7 +7922,7 @@
   "return_rate": 0.065,
   "routes": 313,
   "routes_not_found": 0,
-  "routes_per_visit": 0.37,
+  "routes_per_visit": 0.36,
   "routes_per_visitor_day": 0.61,
   "share_rate": 0.016,
   "shares": {
@@ -8218,7 +8219,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 36
+    "count": 38
    },
    {
     "name": "(direct or unknown)",
@@ -8517,6 +8518,12 @@
     "count": 2
    }
   ],
+  "/destinations/riyadh-gallery-mall": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/lines/blue-line": [
    {
     "name": "Google",
@@ -8658,12 +8665,6 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/destinations/hamad-tower": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -8756,7 +8757,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 36
+    "count": 38
    },
    {
     "path": "/map",
@@ -8855,6 +8856,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/riyadh-gallery-mall",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/riyadh-gallery-mall",
     "count": 2
    },
@@ -8924,10 +8929,6 @@
    },
    {
     "path": "/stations/al-aziziah",
-    "count": 1
-   },
-   {
-    "path": "/destinations/hamad-tower",
     "count": 1
    }
   ],
@@ -9143,7 +9144,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 214,
+   "count": 217,
    "ref_scheme": "g"
   },
   {
@@ -9367,12 +9368,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1673
+   "count": 1675
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 332
+   "count": 333
   },
   {
    "id": "(unknown)",
@@ -9419,7 +9420,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1667
+   "count": 1670
   },
   {
    "id": "US",
@@ -9626,7 +9627,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1662
+   "count": 1665
   },
   {
    "id": "tablet",
@@ -9653,12 +9654,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1057
+   "count": 1058
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 969
+   "count": 971
   },
   {
    "name": "",
@@ -9674,12 +9675,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 950
+   "count": 952
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 728
+   "count": 729
   },
   {
    "id": "Windows",
