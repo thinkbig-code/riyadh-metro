@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T05:08:07Z",
+ "generated": "2026-10-17T06:06:14Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2065,
+  "total": 2067,
   "total_events": 1213,
-  "total_utc": 2065,
+  "total_utc": 2067,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2065
+    "monthly": 2067
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 351
+    "weekly": 353
    },
    {
     "day": "2026-10-17",
@@ -10974,7 +10974,7 @@
      27,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 99
+    "daily": 101
    },
    {
     "day": "2026-10-18",
@@ -11125,7 +11125,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 17,
+   "count": 18,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11133,7 +11133,8 @@
     "2026-10-12": 1,
     "2026-10-13": 4,
     "2026-10-15": 1,
-    "2026-10-16": 3
+    "2026-10-16": 3,
+    "2026-10-17": 1
    }
   },
   {
@@ -11286,6 +11287,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-16": 2,
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "place/p_king_khalid_airport_terminals_1_2/to",
    "path_id": 110315048,
    "title": "en|name",
@@ -11332,19 +11347,6 @@
    "daily": {
     "2026-10-13": 2,
     "2026-10-14": 3
-   }
-  },
-  {
-   "path": "/ar/districts/al-arid",
-   "path_id": 111505455,
-   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-12": 1,
-    "2026-10-13": 1,
-    "2026-10-16": 2
    }
   },
   {
@@ -17922,9 +17924,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 852,
+  "visits": 854,
   "events_total": 1213,
-  "goatcounter_total_with_events": 2065,
+  "goatcounter_total_with_events": 2067,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17941,7 +17943,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 47
+   "2026-10-17": 49
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18274,7 +18276,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 12
+    "count": 13
    },
    {
     "name": "(direct or unknown)",
@@ -18347,6 +18349,16 @@
     "count": 7
    }
   ],
+  "/ar/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
@@ -18357,16 +18369,6 @@
    {
     "name": "Google",
     "count": 5
-   }
-  ],
-  "/ar/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 2
    }
   ],
   "/ur.html": [
@@ -18798,7 +18800,7 @@
    },
    {
     "path": "/map",
-    "count": 12
+    "count": 13
    },
    {
     "path": "/",
@@ -18829,16 +18831,16 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-arid",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/al-wisham",
     "count": 4
    },
    {
     "path": "/ar/districts/al-saadah",
     "count": 4
-   },
-   {
-    "path": "/ar/districts/al-arid",
-    "count": 3
    },
    {
     "path": "/ar/destinations/gold-souq",
@@ -19183,7 +19185,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 210,
+   "count": 212,
    "ref_scheme": "g"
   },
   {
@@ -19407,7 +19409,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1668
+   "count": 1670
   },
   {
    "id": "ara",
@@ -19459,7 +19461,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1663
+   "count": 1664
   },
   {
    "id": "US",
@@ -19469,7 +19471,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 77
+   "count": 78
   },
   {
    "id": "GB",
@@ -19676,7 +19678,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 292
+   "count": 294
   },
   {
    "id": "desktophd",
@@ -19693,7 +19695,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1054
+   "count": 1056
   },
   {
    "id": "Safari",
@@ -19724,12 +19726,12 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 248
+   "count": 249
   },
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 103
+   "count": 104
   },
   {
    "id": "Linux",
