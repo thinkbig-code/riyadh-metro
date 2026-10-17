@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T06:06:14Z",
+ "generated": "2026-10-17T07:18:36Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2067,
+  "total": 2070,
   "total_events": 1213,
-  "total_utc": 2067,
+  "total_utc": 2070,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2067
+    "monthly": 2070
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 353
+    "weekly": 356
    },
    {
     "day": "2026-10-17",
@@ -10975,7 +10975,7 @@
      0,
      0,
      2,
-     0,
+     3,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 101
+    "daily": 104
    },
    {
     "day": "2026-10-18",
@@ -11074,7 +11074,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 38,
+   "count": 40,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11083,7 +11083,7 @@
     "2026-10-14": 5,
     "2026-10-15": 9,
     "2026-10-16": 9,
-    "2026-10-17": 3
+    "2026-10-17": 5
    }
   },
   {
@@ -12429,6 +12429,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/al-malaz",
+   "path_id": 112456364,
+   "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -17924,9 +17934,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 854,
+  "visits": 857,
   "events_total": 1213,
-  "goatcounter_total_with_events": 2067,
+  "goatcounter_total_with_events": 2070,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17943,7 +17953,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 49
+   "2026-10-17": 52
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18258,11 +18268,11 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 35
+    "count": 36
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
+    "count": 2
    },
    {
     "name": "www.bing.com",
@@ -18579,6 +18589,12 @@
     "count": 2
    }
   ],
+  "/stations/al-malaz": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-rawdah": [
    {
     "name": "Google",
@@ -18698,12 +18714,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/stations/king-fahad-library": [
-   {
-    "name": "riyadhmetro.fyi/ar/lines/blue-line",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18721,6 +18731,10 @@
     "count": 3
    },
    {
+    "path": "/ar/map",
+    "count": 2
+   },
+   {
     "path": "/ar.html",
     "count": 2
    },
@@ -18731,10 +18745,6 @@
    {
     "path": "/ar/districts/al-malqa",
     "count": 2
-   },
-   {
-    "path": "/ar/map",
-    "count": 1
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -18796,7 +18806,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 35
+    "count": 36
    },
    {
     "path": "/map",
@@ -18920,6 +18930,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/stations/al-malaz",
     "count": 1
    },
    {
@@ -19162,18 +19176,12 @@
     "path": "/ar/lines/orange-line",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/ar/lines/blue-line": [
-   {
-    "path": "/ar/stations/king-fahad-library",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1262,
+   "count": 1263,
    "ref_scheme": "o"
   },
   {
@@ -19185,7 +19193,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 212,
+   "count": 214,
    "ref_scheme": "g"
   },
   {
@@ -19409,7 +19417,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1670
+   "count": 1673
   },
   {
    "id": "ara",
@@ -19461,7 +19469,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1664
+   "count": 1667
   },
   {
    "id": "US",
@@ -19668,7 +19676,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1659
+   "count": 1662
   },
   {
    "id": "tablet",
@@ -19695,12 +19703,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1056
+   "count": 1057
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 967
+   "count": 969
   },
   {
    "name": "",
@@ -19716,12 +19724,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 948
+   "count": 950
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 727
+   "count": 728
   },
   {
    "id": "Windows",
