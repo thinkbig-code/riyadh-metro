@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T17:05:23Z",
+ "generated": "2026-10-17T18:00:38Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2102,
+  "total": 2104,
   "total_events": 1226,
-  "total_utc": 2102,
+  "total_utc": 2104,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2102
+    "monthly": 2104
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 388
+    "weekly": 390
    },
    {
     "day": "2026-10-17",
@@ -10986,11 +10986,11 @@
      0,
      4,
      3,
-     0,
+     2,
      0,
      0
     ],
-    "daily": 136
+    "daily": 138
    },
    {
     "day": "2026-10-18",
@@ -11948,6 +11948,17 @@
    }
   },
   {
+   "path": "/ar/districts/west-oraija",
+   "path_id": 110947737,
+   "title": "أقرب محطة مترو لحي العريجاء الغربي في الرياض: محطة الدوح، 2.0 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "/districts/al-fayha",
    "path_id": 110926200,
    "title": "Nearest Metro Station to Al Fayha, Riyadh: Harun Ar Rashid Road (in the district)",
@@ -12495,6 +12506,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/crowne-plaza-riyadh-palace",
+   "path_id": 112542870,
+   "title": "محطة مترو كراون بلازا قصر الرياض: محطة وزارة الدفاع، 12 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -15061,16 +15082,6 @@
    "path": "/destinations/masmak-fortress",
    "path_id": 110953409,
    "title": "Al Masmak Fortress and Souq Al Zal Metro Station: Qasr Al Hokm, 7 min walk",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/west-oraija",
-   "path_id": 110947737,
-   "title": "أقرب محطة مترو لحي العريجاء الغربي في الرياض: محطة الدوح، 2.0 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -18040,9 +18051,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 876,
+  "visits": 878,
   "events_total": 1226,
-  "goatcounter_total_with_events": 2102,
+  "goatcounter_total_with_events": 2104,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18059,7 +18070,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 71
+   "2026-10-17": 73
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18645,6 +18656,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/west-oraija": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/districts/al-fayha": [
    {
     "name": "Google",
@@ -18719,6 +18736,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/destinations/crowne-plaza-riyadh-palace": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
    }
   ],
   "/districts/east-umm-al-hamam": [
@@ -18816,18 +18839,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/districts/al-fayha": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/wadi-namar-park": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18894,6 +18905,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/crowne-plaza-riyadh-palace",
     "count": 1
    },
    {
@@ -19007,6 +19022,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/west-oraija",
+    "count": 2
+   },
+   {
     "path": "/districts/al-fayha",
     "count": 2
    },
@@ -19100,14 +19119,6 @@
    },
    {
     "path": "/ar/districts/ghirnatah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-fayha",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/wadi-namar-park",
     "count": 1
    }
   ],
@@ -19299,7 +19310,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1279,
+   "count": 1280,
    "ref_scheme": "o"
   },
   {
@@ -19311,7 +19322,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 227,
+   "count": 228,
    "ref_scheme": "g"
   },
   {
@@ -19535,12 +19546,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1698
+   "count": 1699
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 338
+   "count": 339
   },
   {
    "id": "(unknown)",
@@ -19587,7 +19598,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1694
+   "count": 1696
   },
   {
    "id": "US",
@@ -19799,7 +19810,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1688
+   "count": 1690
   },
   {
    "id": "tablet",
@@ -19826,12 +19837,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1072
+   "count": 1073
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 986
+   "count": 987
   },
   {
    "name": "",
@@ -19847,12 +19858,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 966
+   "count": 967
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 738
+   "count": 739
   },
   {
    "id": "Windows",
