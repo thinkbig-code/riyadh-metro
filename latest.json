@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T02:07:32Z",
+ "generated": "2026-10-17T03:07:31Z",
  "start": "2026-09-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2038,
-  "total_events": 1196,
-  "total_utc": 2038,
+  "total": 2065,
+  "total_events": 1213,
+  "total_utc": 2065,
   "stats": [
    {
     "day": "2026-09-17",
@@ -458,7 +458,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2038
+    "monthly": 2065
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      0
     ],
     "daily": 67,
-    "weekly": 391
+    "weekly": 418
    },
    {
     "day": "2026-10-16",
@@ -921,7 +921,7 @@
      15,
      8,
      7,
-     0,
+     27,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 72
+    "daily": 99
    },
    {
     "day": "2026-10-18",
@@ -980,7 +980,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 587,
+   "count": 597,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -997,7 +997,7 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 32
+    "2026-10-17": 42
    }
   },
   {
@@ -1005,7 +1005,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 434,
+   "count": 445,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1016,7 +1016,7 @@
     "2026-10-14": 32,
     "2026-10-15": 6,
     "2026-10-16": 79,
-    "2026-10-17": 30
+    "2026-10-17": 41
    }
   },
   {
@@ -1058,7 +1058,7 @@
    "path_id": 110295286,
    "title": "en",
    "event": true,
-   "count": 21,
+   "count": 22,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 7,
@@ -1066,7 +1066,8 @@
     "2026-10-10": 3,
     "2026-10-12": 1,
     "2026-10-14": 3,
-    "2026-10-16": 3
+    "2026-10-16": 3,
+    "2026-10-17": 1
    }
   },
   {
@@ -1656,6 +1657,17 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "geo/ok/harun",
+   "path_id": 112043686,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-17": 1
    }
   },
   {
@@ -2368,6 +2380,46 @@
    }
   },
   {
+   "path": "place/p_al_awwal_park/to",
+   "path_id": 112435041,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "noresult/الشفاء",
+   "path_id": 112435031,
+   "title": "ar|الشفاء",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "place/p_al_awwal_park/from",
+   "path_id": 112435009,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "route/passport/khaleej",
+   "path_id": 112433466,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rawdah",
    "path_id": 112412104,
    "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
@@ -3071,16 +3123,6 @@
    "path": "route/harun/habib",
    "path_id": 112043710,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "geo/ok/harun",
-   "path_id": 112043686,
-   "title": "en",
    "event": true,
    "count": 1,
    "daily": {
@@ -7830,9 +7872,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 842,
-  "events_total": 1196,
-  "goatcounter_total_with_events": 2038,
+  "visits": 852,
+  "events_total": 1213,
+  "goatcounter_total_with_events": 2065,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -7849,7 +7891,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 37
+   "2026-10-17": 47
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -7861,14 +7903,14 @@
    "2026-10-14": 37,
    "2026-10-15": 11,
    "2026-10-16": 84,
-   "2026-10-17": 30
+   "2026-10-17": 41
   },
-  "visitor_days": 465,
-  "return_rate": 0.067,
-  "routes": 312,
+  "visitor_days": 476,
+  "return_rate": 0.065,
+  "routes": 313,
   "routes_not_found": 0,
   "routes_per_visit": 0.37,
-  "routes_per_visitor_day": 0.62,
+  "routes_per_visitor_day": 0.61,
   "share_rate": 0.016,
   "shares": {
    "whatsapp": 1,
@@ -7877,11 +7919,15 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.051,
+  "failed_search_rate": 0.054,
   "failed_searches": [
    {
     "name": "baba sweet",
     "count": 2
+   },
+   {
+    "name": "الشفاء",
+    "count": 1
    },
    {
     "name": "التكنولوجيا الذهبية",
@@ -7933,14 +7979,14 @@
    }
   ],
   "nearest_station": {
-   "denied": 21,
-   "ok": 29,
+   "denied": 22,
+   "ok": 30,
    "fail": 2,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 434,
+   "new": 445,
    "return": 31
   },
   "top_routes": [
@@ -8098,7 +8144,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 99
+    "count": 109
    },
    {
     "name": "com.reddit.frontpage",
@@ -8686,7 +8732,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 99
+    "count": 109
    }
   ],
   "com.reddit.frontpage": [
@@ -9093,13 +9139,13 @@
   {
    "id": "www.tiktok.com",
    "name": "www.tiktok.com",
-   "count": 113,
+   "count": 130,
    "ref_scheme": "h"
   },
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 99,
+   "count": 109,
    "ref_scheme": "c"
   },
   {
@@ -9311,12 +9357,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1657
+   "count": 1668
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 316
+   "count": 332
   },
   {
    "id": "(unknown)",
@@ -9363,7 +9409,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1636
+   "count": 1663
   },
   {
    "id": "US",
@@ -9570,7 +9616,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1632
+   "count": 1659
   },
   {
    "id": "tablet",
@@ -9597,12 +9643,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1043
+   "count": 1054
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 951
+   "count": 967
   },
   {
    "name": "",
@@ -9618,12 +9664,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 932
+   "count": 948
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 716
+   "count": 727
   },
   {
    "id": "Windows",
