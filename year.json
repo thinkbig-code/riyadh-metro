@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T11:04:16Z",
+ "generated": "2026-10-17T12:03:12Z",
  "start": "2025-10-17",
  "end": "2026-10-18",
  "total": {
-  "total": 2087,
+  "total": 2090,
   "total_events": 1222,
-  "total_utc": 2087,
+  "total_utc": 2090,
   "stats": [
    {
     "day": "2025-10-17",
@@ -10507,7 +10507,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2087
+    "monthly": 2090
    },
    {
     "day": "2026-10-02",
@@ -10960,7 +10960,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 373
+    "weekly": 376
    },
    {
     "day": "2026-10-17",
@@ -10980,7 +10980,7 @@
      2,
      6,
      9,
-     0,
+     3,
      0,
      0,
      0,
@@ -10990,7 +10990,7 @@
      0,
      0
     ],
-    "daily": 121
+    "daily": 124
    },
    {
     "day": "2026-10-18",
@@ -11074,7 +11074,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 43,
+   "count": 44,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11083,7 +11083,7 @@
     "2026-10-14": 5,
     "2026-10-15": 9,
     "2026-10-16": 9,
-    "2026-10-17": 8
+    "2026-10-17": 9
    }
   },
   {
@@ -12474,6 +12474,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/sultanah",
+   "path_id": 112493653,
+   "title": "محطة سلطانة، مترو الرياض: المسار البرتقالي (رقم 46)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/destinations/sahara-mall",
+   "path_id": 112492787,
+   "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-17": 1
    }
   },
   {
@@ -17979,9 +17999,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 865,
+  "visits": 868,
   "events_total": 1222,
-  "goatcounter_total_with_events": 2087,
+  "goatcounter_total_with_events": 2090,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -17998,7 +18018,7 @@
    "2026-10-14": 77,
    "2026-10-15": 34,
    "2026-10-16": 130,
-   "2026-10-17": 60
+   "2026-10-17": 63
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18313,7 +18333,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 39
+    "count": 40
    },
    {
     "name": "(direct or unknown)",
@@ -18644,6 +18664,18 @@
     "count": 2
    }
   ],
+  "/ar/stations/sultanah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/destinations/sahara-mall": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/lines/red-line": [
    {
     "name": "Google",
@@ -18751,18 +18783,6 @@
     "name": "chatgpt.com",
     "count": 1
    }
-  ],
-  "/stations/al-aziziah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/prince-sultan-university": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -18834,10 +18854,6 @@
    {
     "path": "/stations/ministry-of-education",
     "count": 1
-   },
-   {
-    "path": "/ar/destinations/prince-sultan-university",
-    "count": 1
    }
   ],
   "tiktok_ad": [
@@ -18855,7 +18871,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 39
+    "count": 40
    },
    {
     "path": "/map",
@@ -18986,6 +19002,14 @@
     "count": 1
    },
    {
+    "path": "/ar/stations/sultanah",
+    "count": 1
+   },
+   {
+    "path": "/destinations/sahara-mall",
+    "count": 1
+   },
+   {
     "path": "/ar/lines/red-line",
     "count": 1
    },
@@ -19027,10 +19051,6 @@
    },
    {
     "path": "/ar/districts/al-yasmeen",
-    "count": 1
-   },
-   {
-    "path": "/stations/al-aziziah",
     "count": 1
    }
   ],
@@ -19246,7 +19266,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 219,
+   "count": 222,
    "ref_scheme": "g"
   },
   {
@@ -19470,12 +19490,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1687
+   "count": 1688
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 334
+   "count": 336
   },
   {
    "id": "(unknown)",
@@ -19522,7 +19542,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1683
+   "count": 1686
   },
   {
    "id": "US",
@@ -19734,7 +19754,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1674
+   "count": 1677
   },
   {
    "id": "tablet",
@@ -19761,12 +19781,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1063
+   "count": 1064
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 980
+   "count": 982
   },
   {
    "name": "",
@@ -19782,12 +19802,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 961
+   "count": 963
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 729
+   "count": 730
   },
   {
    "id": "Windows",
