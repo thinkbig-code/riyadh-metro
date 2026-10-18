@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T18:01:11Z",
+ "generated": "2026-10-18T19:07:10Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2165,
-  "total_events": 1244,
-  "total_utc": 2165,
+  "total": 2168,
+  "total_events": 1246,
+  "total_utc": 2168,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2165
+    "monthly": 2168
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 199
+    "weekly": 202
    },
    {
     "day": "2026-10-18",
@@ -10988,10 +10988,10 @@
      3,
      0,
      2,
-     0,
-     0
+     2,
+     1
     ],
-    "daily": 49
+    "daily": 52
    },
    {
     "day": "2026-10-19",
@@ -11057,7 +11057,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 452,
+   "count": 453,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11069,7 +11069,7 @@
     "2026-10-15": 6,
     "2026-10-16": 79,
     "2026-10-17": 46,
-    "2026-10-18": 2
+    "2026-10-18": 3
    }
   },
   {
@@ -11095,7 +11095,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 38,
+   "count": 39,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11106,7 +11106,7 @@
     "2026-10-15": 5,
     "2026-10-16": 5,
     "2026-10-17": 4,
-    "2026-10-18": 3
+    "2026-10-18": 4
    }
   },
   {
@@ -12638,6 +12638,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-nafel",
+   "path_id": 112790868,
+   "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -18283,9 +18293,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 921,
-  "events_total": 1244,
-  "goatcounter_total_with_events": 2165,
+  "visits": 922,
+  "events_total": 1246,
+  "goatcounter_total_with_events": 2168,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18303,7 +18313,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 34
+   "2026-10-18": 35
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18316,10 +18326,10 @@
    "2026-10-15": 11,
    "2026-10-16": 84,
    "2026-10-17": 50,
-   "2026-10-18": 5
+   "2026-10-18": 7
   },
-  "visitor_days": 490,
-  "return_rate": 0.078,
+  "visitor_days": 492,
+  "return_rate": 0.079,
   "routes": 325,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
@@ -18399,8 +18409,8 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 452,
-   "return": 38
+   "new": 453,
+   "return": 39
   },
   "top_routes": [
    {
@@ -19042,6 +19052,12 @@
     "count": 2
    }
   ],
+  "/districts/al-nafel": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-farooq": [
    {
     "name": "Google",
@@ -19081,12 +19097,6 @@
   "/ar/destinations/king-saud-medical-city": [
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/stations/qasr-al-hokm": [
-   {
-    "name": "Google",
     "count": 1
    }
   ]
@@ -19374,10 +19384,6 @@
    {
     "path": "/stations/transportation-center",
     "count": 1
-   },
-   {
-    "path": "/stations/qasr-al-hokm",
-    "count": 1
    }
   ],
   "t.co": [
@@ -19532,6 +19538,10 @@
     "count": 1
    },
    {
+    "path": "/districts/al-nafel",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/king-saud-medical-city",
     "count": 1
    }
@@ -19576,7 +19586,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1295,
+   "count": 1297,
    "ref_scheme": "o"
   },
   {
@@ -19618,7 +19628,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 14,
+   "count": 15,
    "ref_scheme": "c"
   },
   {
@@ -19830,7 +19840,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1736
+   "count": 1739
   },
   {
    "id": "ara",
@@ -19887,7 +19897,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1751
+   "count": 1753
   },
   {
    "id": "US",
@@ -20015,6 +20025,11 @@
    "count": 3
   },
   {
+   "id": "QA",
+   "name": "Qatar",
+   "count": 3
+  },
+  {
    "id": "RU",
    "name": "Russia",
    "count": 3
@@ -20047,11 +20062,6 @@
   {
    "id": "OM",
    "name": "Oman",
-   "count": 2
-  },
-  {
-   "id": "QA",
-   "name": "Qatar",
    "count": 2
   },
   {
@@ -20099,7 +20109,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1736
+   "count": 1738
   },
   {
    "id": "tablet",
@@ -20109,7 +20119,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 313
+   "count": 314
   },
   {
    "id": "desktophd",
@@ -20131,7 +20141,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1013
+   "count": 1016
   },
   {
    "name": "",
@@ -20147,7 +20157,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 992
+   "count": 994
   },
   {
    "id": "Android",
@@ -20162,7 +20172,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 107
+   "count": 108
   },
   {
    "id": "Linux",
