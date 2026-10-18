@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-17T23:58:59Z",
- "start": "2025-10-17",
- "end": "2026-10-18",
+ "generated": "2026-10-18T01:16:17Z",
+ "start": "2025-10-18",
+ "end": "2026-10-19",
  "total": {
-  "total": 2124,
-  "total_events": 1230,
-  "total_utc": 2124,
+  "total": 2125,
+  "total_events": 1231,
+  "total_utc": 2125,
   "stats": [
-   {
-    "day": "2025-10-17",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-10-18",
     "hourly": [
@@ -10356,7 +10326,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 5
    },
    {
     "day": "2026-09-27",
@@ -10507,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2124
+    "monthly": 2125
    },
    {
     "day": "2026-10-02",
@@ -10537,8 +10508,7 @@
      0,
      0
     ],
-    "daily": 5,
-    "weekly": 689
+    "daily": 5
    },
    {
     "day": "2026-10-03",
@@ -10568,7 +10538,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 858
    },
    {
     "day": "2026-10-04",
@@ -10748,8 +10719,7 @@
      28,
      0
     ],
-    "daily": 174,
-    "weekly": 1025
+    "daily": 174
    },
    {
     "day": "2026-10-10",
@@ -10779,7 +10749,8 @@
      12,
      10
     ],
-    "daily": 202
+    "daily": 202,
+    "weekly": 1103
    },
    {
     "day": "2026-10-11",
@@ -10959,8 +10930,7 @@
      6,
      42
     ],
-    "daily": 252,
-    "weekly": 410
+    "daily": 252
    },
    {
     "day": "2026-10-17",
@@ -10990,7 +10960,8 @@
      9,
      3
     ],
-    "daily": 150
+    "daily": 150,
+    "weekly": 159
    },
    {
     "day": "2026-10-18",
@@ -10999,6 +10970,36 @@
      0,
      2,
      1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 9
+   },
+   {
+    "day": "2026-10-19",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11020,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 0
    }
   ]
  },
@@ -11093,7 +11094,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 35,
+   "count": 36,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11103,7 +11104,8 @@
     "2026-10-14": 5,
     "2026-10-15": 5,
     "2026-10-16": 5,
-    "2026-10-17": 4
+    "2026-10-17": 4,
+    "2026-10-18": 1
    }
   },
   {
@@ -18088,8 +18090,8 @@
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
   "visits": 894,
-  "events_total": 1230,
-  "goatcounter_total_with_events": 2124,
+  "events_total": 1231,
+  "goatcounter_total_with_events": 2125,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18120,10 +18122,10 @@
    "2026-10-15": 11,
    "2026-10-16": 84,
    "2026-10-17": 50,
-   "2026-10-18": 1
+   "2026-10-18": 2
   },
-  "visitor_days": 486,
-  "return_rate": 0.072,
+  "visitor_days": 487,
+  "return_rate": 0.074,
   "routes": 317,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
@@ -18204,7 +18206,7 @@
   },
   "visitors_new_return": {
    "new": 451,
-   "return": 35
+   "return": 36
   },
   "top_routes": [
    {
@@ -19350,7 +19352,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1286,
+   "count": 1287,
    "ref_scheme": "o"
   },
   {
@@ -19592,7 +19594,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1706
+   "count": 1707
   },
   {
    "id": "ara",
@@ -19702,6 +19704,11 @@
    "count": 10
   },
   {
+   "id": "CH",
+   "name": "Switzerland",
+   "count": 9
+  },
+  {
    "id": "JO",
    "name": "Hashemite Kingdom of Jordan",
    "count": 9
@@ -19710,11 +19717,6 @@
    "id": "PL",
    "name": "Poland",
    "count": 9
-  },
-  {
-   "id": "CH",
-   "name": "Switzerland",
-   "count": 8
   },
   {
    "id": "IE",
@@ -19861,7 +19863,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1709
+   "count": 1710
   },
   {
    "id": "tablet",
@@ -19893,7 +19895,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 998
+   "count": 999
   },
   {
    "name": "",
@@ -19909,7 +19911,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 977
+   "count": 978
   },
   {
    "id": "Android",
