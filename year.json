@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T15:04:18Z",
+ "generated": "2026-10-18T16:04:12Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2160,
-  "total_events": 1242,
-  "total_utc": 2160,
+  "total": 2163,
+  "total_events": 1244,
+  "total_utc": 2163,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2160
+    "monthly": 2163
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 194
+    "weekly": 197
    },
    {
     "day": "2026-10-18",
@@ -10985,13 +10985,13 @@
      1,
      3,
      5,
-     0,
+     3,
      0,
      0,
      0,
      0
     ],
-    "daily": 44
+    "daily": 47
    },
    {
     "day": "2026-10-19",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 605,
+   "count": 606,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11049,7 +11049,7 @@
     "2026-10-15": 9,
     "2026-10-16": 81,
     "2026-10-17": 49,
-    "2026-10-18": 1
+    "2026-10-18": 2
    }
   },
   {
@@ -11095,7 +11095,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 37,
+   "count": 38,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11106,7 +11106,7 @@
     "2026-10-15": 5,
     "2026-10-16": 5,
     "2026-10-17": 4,
-    "2026-10-18": 2
+    "2026-10-18": 3
    }
   },
   {
@@ -11565,6 +11565,17 @@
    }
   },
   {
+   "path": "route/uthman/kfl",
+   "path_id": 111876852,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-13": 2,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "/districts/ar-rabwah",
    "path_id": 111168177,
    "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
@@ -11914,16 +11925,6 @@
    "daily": {
     "2026-10-13": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "route/uthman/kfl",
-   "path_id": 111876852,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-13": 2
    }
   },
   {
@@ -18272,9 +18273,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 918,
-  "events_total": 1242,
-  "goatcounter_total_with_events": 2160,
+  "visits": 919,
+  "events_total": 1244,
+  "goatcounter_total_with_events": 2163,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18292,7 +18293,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 31
+   "2026-10-18": 32
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18305,11 +18306,11 @@
    "2026-10-15": 11,
    "2026-10-16": 84,
    "2026-10-17": 50,
-   "2026-10-18": 4
+   "2026-10-18": 5
   },
-  "visitor_days": 489,
-  "return_rate": 0.076,
-  "routes": 324,
+  "visitor_days": 490,
+  "return_rate": 0.078,
+  "routes": 325,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
   "routes_per_visitor_day": 0.61,
@@ -18389,7 +18390,7 @@
   },
   "visitors_new_return": {
    "new": 452,
-   "return": 37
+   "return": 38
   },
   "top_routes": [
    {
@@ -18398,6 +18399,10 @@
    },
    {
     "name": "p_king_fahd_national_library > railway",
+    "count": 3
+   },
+   {
+    "name": "uthman > kfl",
     "count": 3
    },
    {
@@ -18414,10 +18419,6 @@
    },
    {
     "name": "rajhi > habib",
-    "count": 2
-   },
-   {
-    "name": "uthman > kfl",
     "count": 2
    },
    {
@@ -18483,12 +18484,12 @@
     "count": 10
    },
    {
-    "name": "ksu",
+    "name": "uthman",
     "count": 9
    },
    {
-    "name": "uthman",
-    "count": 8
+    "name": "ksu",
+    "count": 9
    },
    {
     "name": "moi",
@@ -18501,12 +18502,12 @@
     "count": 15
    },
    {
-    "name": "t12",
+    "name": "kfl",
     "count": 10
    },
    {
-    "name": "kfl",
-    "count": 9
+    "name": "t12",
+    "count": 10
    },
    {
     "name": "sab",
@@ -18542,7 +18543,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 399
+    "count": 400
    },
    {
     "name": "tiktok_ad",
@@ -19084,7 +19085,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 399
+    "count": 400
    },
    {
     "path": "/ar/map",
@@ -19567,7 +19568,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1291,
+   "count": 1294,
    "ref_scheme": "o"
   },
   {
@@ -19821,7 +19822,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1732
+   "count": 1735
   },
   {
    "id": "ara",
@@ -19878,7 +19879,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1746
+   "count": 1749
   },
   {
    "id": "US",
@@ -20090,7 +20091,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1731
+   "count": 1734
   },
   {
    "id": "tablet",
@@ -20122,7 +20123,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1009
+   "count": 1012
   },
   {
    "name": "",
@@ -20138,7 +20139,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 988
+   "count": 991
   },
   {
    "id": "Android",
