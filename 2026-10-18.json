@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T22:02:08Z",
+ "generated": "2026-10-18T23:00:51Z",
  "start": "2026-09-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2172,
+  "total": 2174,
   "total_events": 1247,
-  "total_utc": 2172,
+  "total_utc": 2174,
   "stats": [
    {
     "day": "2026-09-18",
@@ -427,7 +427,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2172
+    "monthly": 2174
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 458
+    "weekly": 460
    },
    {
     "day": "2026-10-17",
@@ -947,7 +947,7 @@
     "hourly": [
      1,
      2,
-     0,
+     2,
      0,
      0,
      0,
@@ -970,7 +970,7 @@
      0,
      0
     ],
-    "daily": 3
+    "daily": 5
    }
   ]
  },
@@ -1719,6 +1719,17 @@
    "count": 2,
    "daily": {
     "2026-10-17": 2
+   }
+  },
+  {
+   "path": "/ar/districts/king-faisal",
+   "path_id": 112382531,
+   "title": "أقرب محطة مترو لحي الملك فيصل في الرياض: محطة الحمراء، 1.6 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -2593,6 +2604,16 @@
    }
   },
   {
+   "path": "/routes/riyadh-airport-to-kingdom-centre",
+   "path_id": 112828479,
+   "title": "Riyadh Airport to Kingdom Centre by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
+   }
+  },
+  {
    "path": "/districts/al-nafel",
    "path_id": 112790868,
    "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
@@ -2950,16 +2971,6 @@
    "count": 1,
    "daily": {
     "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/districts/king-faisal",
-   "path_id": 112382531,
-   "title": "أقرب محطة مترو لحي الملك فيصل في الرياض: محطة الحمراء، 1.6 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
    }
   },
   {
@@ -8245,9 +8256,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 925,
+  "visits": 927,
   "events_total": 1247,
-  "goatcounter_total_with_events": 2172,
+  "goatcounter_total_with_events": 2174,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8266,7 +8277,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 2
+   "2026-10-19": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8818,6 +8829,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/king-faisal": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ru.html": [
    {
     "name": "Yandex",
@@ -9006,6 +9023,12 @@
     "count": 2
    }
   ],
+  "/routes/riyadh-airport-to-kingdom-centre": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-nafel": [
    {
     "name": "chatgpt.com",
@@ -9039,18 +9062,6 @@
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/stations/transportation-center": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/king-saud-medical-city": [
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ]
@@ -9232,6 +9243,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/king-faisal",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-yasmeen",
     "count": 2
    },
@@ -9333,10 +9348,6 @@
    },
    {
     "path": "/ar/districts/ar-rabwah",
-    "count": 1
-   },
-   {
-    "path": "/stations/transportation-center",
     "count": 1
    }
   ],
@@ -9492,11 +9503,11 @@
     "count": 1
    },
    {
-    "path": "/districts/al-nafel",
+    "path": "/routes/riyadh-airport-to-kingdom-centre",
     "count": 1
    },
    {
-    "path": "/ar/destinations/king-saud-medical-city",
+    "path": "/districts/al-nafel",
     "count": 1
    }
   ],
@@ -9546,7 +9557,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 253,
+   "count": 254,
    "ref_scheme": "g"
   },
   {
@@ -9582,7 +9593,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 15,
+   "count": 16,
    "ref_scheme": "c"
   },
   {
@@ -9799,7 +9810,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 360
+   "count": 361
   },
   {
    "id": "(unknown)",
@@ -9832,14 +9843,14 @@
    "count": 3
   },
   {
-   "id": "zho",
-   "name": "Chinese",
+   "id": "ita",
+   "name": "Italian",
    "count": 3
   },
   {
-   "id": "ita",
-   "name": "Italian",
-   "count": 2
+   "id": "zho",
+   "name": "Chinese",
+   "count": 3
   },
   {
    "id": "por",
@@ -9851,7 +9862,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1754
+   "count": 1755
   },
   {
    "id": "US",
@@ -9919,6 +9930,11 @@
    "count": 9
   },
   {
+   "id": "IT",
+   "name": "Italy",
+   "count": 8
+  },
+  {
    "id": "FR",
    "name": "France",
    "count": 7
@@ -9926,11 +9942,6 @@
   {
    "id": "IE",
    "name": "Ireland",
-   "count": 7
-  },
-  {
-   "id": "IT",
-   "name": "Italy",
    "count": 7
   },
   {
@@ -10063,7 +10074,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1740
+   "count": 1742
   },
   {
    "id": "tablet",
@@ -10090,7 +10101,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1109
+   "count": 1111
   },
   {
    "id": "Safari",
@@ -10116,7 +10127,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 761
+   "count": 763
   },
   {
    "id": "Windows",
