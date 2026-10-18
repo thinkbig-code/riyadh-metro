@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T08:05:54Z",
+ "generated": "2026-10-18T09:06:33Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2128,
-  "total_events": 1231,
-  "total_utc": 2128,
+  "total": 2131,
+  "total_events": 1232,
+  "total_utc": 2131,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2128
+    "monthly": 2131
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 162
+    "weekly": 165
    },
    {
     "day": "2026-10-18",
@@ -10978,7 +10978,7 @@
      2,
      0,
      0,
-     0,
+     3,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 15
    },
    {
     "day": "2026-10-19",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 604,
+   "count": 605,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11048,7 +11048,8 @@
     "2026-10-14": 36,
     "2026-10-15": 9,
     "2026-10-16": 81,
-    "2026-10-17": 49
+    "2026-10-17": 49,
+    "2026-10-18": 1
    }
   },
   {
@@ -11094,7 +11095,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 36,
+   "count": 37,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11105,7 +11106,7 @@
     "2026-10-15": 5,
     "2026-10-16": 5,
     "2026-10-17": 4,
-    "2026-10-18": 1
+    "2026-10-18": 2
    }
   },
   {
@@ -11345,6 +11346,17 @@
    }
   },
   {
+   "path": "/districts/al-taawun",
+   "path_id": 111962269,
+   "title": "Nearest Metro Station to Al Taawun, Riyadh: Uthman Bin Affan Road, 3.1 km",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-14": 4,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "/districts/al-yasmeen",
    "path_id": 111876907,
    "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
@@ -11420,16 +11432,6 @@
    "count": 4,
    "daily": {
     "2026-10-16": 4
-   }
-  },
-  {
-   "path": "/districts/al-taawun",
-   "path_id": 111962269,
-   "title": "Nearest Metro Station to Al Taawun, Riyadh: Uthman Bin Affan Road, 3.1 km",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-14": 4
    }
   },
   {
@@ -18101,9 +18103,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 897,
-  "events_total": 1231,
-  "goatcounter_total_with_events": 2128,
+  "visits": 899,
+  "events_total": 1232,
+  "goatcounter_total_with_events": 2131,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18121,7 +18123,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 10
+   "2026-10-18": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18134,10 +18136,10 @@
    "2026-10-15": 11,
    "2026-10-16": 84,
    "2026-10-17": 50,
-   "2026-10-18": 2
+   "2026-10-18": 3
   },
-  "visitor_days": 487,
-  "return_rate": 0.074,
+  "visitor_days": 488,
+  "return_rate": 0.076,
   "routes": 317,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
@@ -18218,7 +18220,7 @@
   },
   "visitors_new_return": {
    "new": 451,
-   "return": 36
+   "return": 37
   },
   "top_routes": [
    {
@@ -18371,7 +18373,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 398
+    "count": 399
    },
    {
     "name": "tiktok_ad",
@@ -18548,6 +18550,16 @@
     "count": 6
    }
   ],
+  "/districts/al-taawun": [
+   {
+    "name": "(direct or unknown)",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-yasmeen": [
    {
     "name": "Google",
@@ -18562,12 +18574,6 @@
    {
     "name": "Facebook",
     "count": 2
-   }
-  ],
-  "/districts/al-taawun": [
-   {
-    "name": "(direct or unknown)",
-    "count": 4
    }
   ],
   "/ar/districts/al-wisham": [
@@ -18901,7 +18907,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 398
+    "count": 399
    },
    {
     "path": "/districts/al-taawun",
@@ -19308,16 +19314,14 @@
     "count": 1
    }
   ],
-  "Facebook": [
-   {
-    "path": "/ur.html",
-    "count": 2
-   }
-  ],
   "chatgpt.com": [
    {
     "path": "/districts/qurtubah",
     "count": 2
+   },
+   {
+    "path": "/districts/al-taawun",
+    "count": 1
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
@@ -19326,6 +19330,12 @@
    {
     "path": "/destinations/al-yamamah-university",
     "count": 1
+   }
+  ],
+  "Facebook": [
+   {
+    "path": "/ur.html",
+    "count": 2
    }
   ],
   "Yandex": [
@@ -19374,7 +19384,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1287,
+   "count": 1289,
    "ref_scheme": "o"
   },
   {
@@ -19416,7 +19426,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 10,
+   "count": 11,
    "ref_scheme": "c"
   },
   {
@@ -19622,7 +19632,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1708
+   "count": 1711
   },
   {
    "id": "ara",
@@ -19694,7 +19704,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 37
+   "count": 39
   },
   {
    "id": "CA",
@@ -19817,6 +19827,11 @@
    "count": 2
   },
   {
+   "id": "EG",
+   "name": "Egypt",
+   "count": 2
+  },
+  {
    "id": "GE",
    "name": "Georgia",
    "count": 2
@@ -19862,11 +19877,6 @@
    "count": 1
   },
   {
-   "id": "EG",
-   "name": "Egypt",
-   "count": 1
-  },
-  {
    "id": "FI",
    "name": "Finland",
    "count": 1
@@ -19891,7 +19901,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1713
+   "count": 1716
   },
   {
    "id": "tablet",
@@ -19918,12 +19928,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1082
+   "count": 1084
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1002
+   "count": 1003
   },
   {
    "name": "",
@@ -19939,12 +19949,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 981
+   "count": 982
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 748
+   "count": 750
   },
   {
    "id": "Windows",
