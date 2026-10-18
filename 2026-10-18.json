@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T11:03:34Z",
+ "generated": "2026-10-18T12:01:15Z",
  "start": "2026-09-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2148,
+  "total": 2151,
   "total_events": 1242,
-  "total_utc": 2148,
+  "total_utc": 2151,
   "stats": [
    {
     "day": "2026-09-18",
@@ -427,7 +427,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2148
+    "monthly": 2151
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 434
+    "weekly": 437
    },
    {
     "day": "2026-10-17",
@@ -930,7 +930,7 @@
      3,
      13,
      4,
-     0,
+     3,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 32
+    "daily": 35
    },
    {
     "day": "2026-10-19",
@@ -1759,6 +1759,17 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "route/rajhi/habib",
    "path_id": 112044555,
    "title": "en|map|ok",
@@ -2556,6 +2567,26 @@
    }
   },
   {
+   "path": "/ar/destinations/king-saud-medical-city",
+   "path_id": 112701768,
+   "title": "محطة مترو مدينة الملك سعود الطبية: محطة الجرادية، 21 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/stations/qasr-al-hokm",
+   "path_id": 112701195,
+   "title": "Qasr Al Hokm Metro Station, Riyadh: Blue/Orange lines, No. 18",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "/ar/destinations/al-rajhi-grand-mosque",
    "path_id": 112682250,
    "title": "محطة مترو جامع الراجحي: محطة جامع الراجحي (المسار البرتقالي)، 5 دقائق سيراً",
@@ -3330,16 +3361,6 @@
    "path_id": 112134222,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-15": 1
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-15": 1
@@ -8148,9 +8169,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 906,
+  "visits": 909,
   "events_total": 1242,
-  "goatcounter_total_with_events": 2148,
+  "goatcounter_total_with_events": 2151,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8168,7 +8189,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 19
+   "2026-10-18": 22
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8737,6 +8758,16 @@
     "count": 1
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/nearest-station": [
    {
     "name": "(direct or unknown)",
@@ -8885,6 +8916,18 @@
     "count": 2
    }
   ],
+  "/ar/destinations/king-saud-medical-city": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/stations/qasr-al-hokm": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/al-rajhi-grand-mosque": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
@@ -8928,24 +8971,6 @@
    }
   ],
   "/ar/routes/riyadh-airport-to-boulevard-city": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/atyaf-mall": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/stations/sultanah": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/sahara-mall": [
    {
     "name": "Google",
     "count": 1
@@ -9189,6 +9214,10 @@
     "count": 1
    },
    {
+    "path": "/districts/al-arid",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-manar",
     "count": 1
    },
@@ -9205,6 +9234,10 @@
     "count": 1
    },
    {
+    "path": "/stations/qasr-al-hokm",
+    "count": 1
+   },
+   {
     "path": "/stations/riyadh-exhibition-center",
     "count": 1
    },
@@ -9214,18 +9247,6 @@
    },
    {
     "path": "/ar/routes/riyadh-airport-to-boulevard-city",
-    "count": 1
-   },
-   {
-    "path": "/destinations/atyaf-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/sultanah",
-    "count": 1
-   },
-   {
-    "path": "/destinations/sahara-mall",
     "count": 1
    }
   ],
@@ -9373,7 +9394,15 @@
     "count": 1
    },
    {
+    "path": "/districts/al-arid",
+    "count": 1
+   },
+   {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/king-saud-medical-city",
     "count": 1
    },
    {
@@ -9451,7 +9480,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 243,
+   "count": 244,
    "ref_scheme": "g"
   },
   {
@@ -9481,7 +9510,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 12,
+   "count": 14,
    "ref_scheme": "c"
   },
   {
@@ -9693,12 +9722,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1724
+   "count": 1726
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 356
+   "count": 357
   },
   {
    "id": "(unknown)",
@@ -9750,7 +9779,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1735
+   "count": 1738
   },
   {
    "id": "US",
@@ -9962,7 +9991,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1719
+   "count": 1722
   },
   {
    "id": "tablet",
@@ -9989,12 +10018,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1100
+   "count": 1101
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1004
+   "count": 1006
   },
   {
    "name": "",
@@ -10010,12 +10039,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 983
+   "count": 985
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 752
+   "count": 753
   },
   {
    "id": "Windows",
