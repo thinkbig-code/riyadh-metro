@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T13:14:53Z",
+ "generated": "2026-10-18T14:04:15Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2153,
+  "total": 2156,
   "total_events": 1242,
-  "total_utc": 2153,
+  "total_utc": 2156,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2153
+    "monthly": 2156
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 187
+    "weekly": 190
    },
    {
     "day": "2026-10-18",
@@ -10983,15 +10983,15 @@
      4,
      3,
      1,
+     3,
      1,
-     0,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 37
+    "daily": 40
    },
    {
     "day": "2026-10-19",
@@ -11077,7 +11077,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 49,
+   "count": 50,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11087,7 +11087,7 @@
     "2026-10-15": 9,
     "2026-10-16": 9,
     "2026-10-17": 10,
-    "2026-10-18": 4
+    "2026-10-18": 5
    }
   },
   {
@@ -12143,6 +12143,17 @@
    }
   },
   {
+   "path": "/stations/king-salman-oasis",
+   "path_id": 110731203,
+   "title": "King Salman Oasis Metro Station, Riyadh: Red Line, No. 27",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "/stations",
    "path_id": 110710632,
    "title": "Riyadh Metro Stations: Full List of All 6 Lines",
@@ -12615,6 +12626,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -15768,16 +15789,6 @@
    }
   },
   {
-   "path": "/stations/king-salman-oasis",
-   "path_id": 110731203,
-   "title": "King Salman Oasis Metro Station, Riyadh: Red Line, No. 27",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
    "path": "/stations/ministry-of-interior",
    "path_id": 110730611,
    "title": "Ministry of Interior Metro Station, Riyadh: Blue Line, No. 13",
@@ -18230,9 +18241,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 911,
+  "visits": 914,
   "events_total": 1242,
-  "goatcounter_total_with_events": 2153,
+  "goatcounter_total_with_events": 2156,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18250,7 +18261,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 24
+   "2026-10-18": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18269,7 +18280,7 @@
   "return_rate": 0.076,
   "routes": 324,
   "routes_not_found": 0,
-  "routes_per_visit": 0.36,
+  "routes_per_visit": 0.35,
   "routes_per_visitor_day": 0.61,
   "share_rate": 0.015,
   "shares": {
@@ -18570,7 +18581,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 3
+    "count": 4
    },
    {
     "name": "www.bing.com",
@@ -18937,6 +18948,12 @@
     "count": 1
    }
   ],
+  "/stations/king-salman-oasis": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -18975,6 +18992,12 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 1
    }
   ],
   "/stations/transportation-center": [
@@ -19024,18 +19047,6 @@
     "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
     "count": 1
    }
-  ],
-  "/destinations/al-yamamah-university": [
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/crowne-plaza-riyadh-palace": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -19045,12 +19056,12 @@
     "count": 399
    },
    {
-    "path": "/districts/al-taawun",
+    "path": "/ar/map",
     "count": 4
    },
    {
-    "path": "/ar/map",
-    "count": 3
+    "path": "/districts/al-taawun",
+    "count": 4
    },
    {
     "path": "/map",
@@ -19106,10 +19117,6 @@
    },
    {
     "path": "/timings",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/crowne-plaza-riyadh-palace",
     "count": 1
    }
   ],
@@ -19251,6 +19258,10 @@
     "count": 2
    },
    {
+    "path": "/stations/king-salman-oasis",
+    "count": 2
+   },
+   {
     "path": "/stations",
     "count": 2
    },
@@ -19292,6 +19303,10 @@
    },
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/ar-rabwah",
     "count": 1
    },
    {
@@ -19465,10 +19480,6 @@
    {
     "path": "/ar/destinations/king-saud-medical-city",
     "count": 1
-   },
-   {
-    "path": "/destinations/al-yamamah-university",
-    "count": 1
    }
   ],
   "Facebook": [
@@ -19529,20 +19540,20 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1289,
+   "count": 1290,
    "ref_scheme": "o"
+  },
+  {
+   "id": "Google",
+   "name": "Google",
+   "count": 248,
+   "ref_scheme": "g"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
    "count": 247,
    "ref_scheme": "o"
-  },
-  {
-   "id": "Google",
-   "name": "Google",
-   "count": 246,
-   "ref_scheme": "g"
   },
   {
    "id": "www.tiktok.com",
@@ -19783,12 +19794,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1728
+   "count": 1729
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 357
+   "count": 359
   },
   {
    "id": "(unknown)",
@@ -19840,7 +19851,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1740
+   "count": 1742
   },
   {
    "id": "US",
@@ -19908,6 +19919,11 @@
    "count": 9
   },
   {
+   "id": "FR",
+   "name": "France",
+   "count": 7
+  },
+  {
    "id": "IE",
    "name": "Ireland",
    "count": 7
@@ -19920,11 +19936,6 @@
   {
    "id": "AU",
    "name": "Australia",
-   "count": 6
-  },
-  {
-   "id": "FR",
-   "name": "France",
    "count": 6
   },
   {
@@ -20052,7 +20063,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1724
+   "count": 1727
   },
   {
    "id": "tablet",
@@ -20079,12 +20090,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1103
+   "count": 1105
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1006
+   "count": 1007
   },
   {
    "name": "",
@@ -20100,12 +20111,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 985
+   "count": 986
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 755
+   "count": 757
   },
   {
    "id": "Windows",
