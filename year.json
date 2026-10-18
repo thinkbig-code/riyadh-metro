@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T21:03:56Z",
+ "generated": "2026-10-18T22:03:19Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2170,
-  "total_events": 1246,
-  "total_utc": 2170,
+  "total": 2172,
+  "total_events": 1247,
+  "total_utc": 2172,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2170
+    "monthly": 2172
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 204
+    "weekly": 206
    },
    {
     "day": "2026-10-18",
@@ -10997,7 +10997,7 @@
     "day": "2026-10-19",
     "hourly": [
      1,
-     0,
+     2,
      0,
      0,
      0,
@@ -11021,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 3
    }
   ]
  },
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 607,
+   "count": 608,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11049,7 +11049,8 @@
     "2026-10-15": 9,
     "2026-10-16": 81,
     "2026-10-17": 49,
-    "2026-10-18": 3
+    "2026-10-18": 3,
+    "2026-10-19": 1
    }
   },
   {
@@ -11057,7 +11058,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 453,
+   "count": 454,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11069,7 +11070,8 @@
     "2026-10-15": 6,
     "2026-10-16": 79,
     "2026-10-17": 46,
-    "2026-10-18": 3
+    "2026-10-18": 3,
+    "2026-10-19": 1
    }
   },
   {
@@ -18294,9 +18296,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 924,
-  "events_total": 1246,
-  "goatcounter_total_with_events": 2170,
+  "visits": 925,
+  "events_total": 1247,
+  "goatcounter_total_with_events": 2172,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18315,7 +18317,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 1
+   "2026-10-19": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18328,9 +18330,10 @@
    "2026-10-15": 11,
    "2026-10-16": 84,
    "2026-10-17": 50,
-   "2026-10-18": 7
+   "2026-10-18": 7,
+   "2026-10-19": 1
   },
-  "visitor_days": 492,
+  "visitor_days": 493,
   "return_rate": 0.079,
   "routes": 325,
   "routes_not_found": 0,
@@ -18411,7 +18414,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 453,
+   "new": 454,
    "return": 39
   },
   "top_routes": [
@@ -18565,7 +18568,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 401
+    "count": 402
    },
    {
     "name": "tiktok_ad",
@@ -19107,7 +19110,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 401
+    "count": 402
    },
    {
     "path": "/ar/map",
@@ -19588,13 +19591,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1298,
+   "count": 1300,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 253,
+   "count": 254,
    "ref_scheme": "g"
   },
   {
@@ -19842,12 +19845,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1741
+   "count": 1743
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 360
+   "count": 361
   },
   {
    "id": "(unknown)",
@@ -19899,7 +19902,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1754
+   "count": 1755
   },
   {
    "id": "US",
@@ -19932,6 +19935,11 @@
    "count": 17
   },
   {
+   "id": "DE",
+   "name": "Germany",
+   "count": 12
+  },
+  {
    "id": "PK",
    "name": "Pakistan",
    "count": 12
@@ -19939,11 +19947,6 @@
   {
    "id": "BH",
    "name": "Bahrain",
-   "count": 10
-  },
-  {
-   "id": "DE",
-   "name": "Germany",
    "count": 10
   },
   {
@@ -20111,7 +20114,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1740
+   "count": 1741
   },
   {
    "id": "tablet",
@@ -20121,7 +20124,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 314
+   "count": 316
   },
   {
    "id": "desktophd",
@@ -20138,7 +20141,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1109
+   "count": 1110
   },
   {
    "id": "Safari",
@@ -20152,7 +20155,7 @@
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 16
+   "count": 18
   }
  ],
  "systems": [
@@ -20164,7 +20167,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 761
+   "count": 762
   },
   {
    "id": "Windows",
@@ -20179,7 +20182,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 35
+   "count": 37
   },
   {
    "id": "Chrome OS",
