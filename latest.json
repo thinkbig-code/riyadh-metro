@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T14:03:04Z",
+ "generated": "2026-10-18T15:02:53Z",
  "start": "2026-09-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2156,
+  "total": 2160,
   "total_events": 1242,
-  "total_utc": 2156,
+  "total_utc": 2160,
   "stats": [
    {
     "day": "2026-09-18",
@@ -427,7 +427,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2156
+    "monthly": 2160
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 442
+    "weekly": 446
    },
    {
     "day": "2026-10-17",
@@ -933,14 +933,14 @@
      3,
      1,
      3,
-     1,
+     5,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 40
+    "daily": 44
    },
    {
     "day": "2026-10-19",
@@ -1974,6 +1974,17 @@
    }
   },
   {
+   "path": "/districts/al-uraija",
+   "path_id": 111023725,
+   "title": "Nearest Metro Station to Al Uraija, Riyadh: Dhahrat Al Badiah, 2.0 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "route/ksu/t12",
    "path_id": 110966415,
    "title": "en|map|ok",
@@ -2575,6 +2586,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/khalid-bin-alwaleed-road",
+   "path_id": 112745180,
+   "title": "Khalid Bin Alwaleed Road Metro Station, Riyadh: Red Line, No. 35",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/nearest-station",
+   "path_id": 112745150,
+   "title": "Nearest Metro Station to Me in Riyadh: Find It by Location",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/districts/al-quds",
+   "path_id": 112744968,
+   "title": "Nearest Metro Station to Al Quds, Riyadh: Khalid Bin Alwaleed Road (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -4792,16 +4833,6 @@
    "path_id": 111064974,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/districts/al-uraija",
-   "path_id": 111023725,
-   "title": "Nearest Metro Station to Al Uraija, Riyadh: Dhahrat Al Badiah, 2.0 km",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -8190,9 +8221,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 914,
+  "visits": 918,
   "events_total": 1242,
-  "goatcounter_total_with_events": 2156,
+  "goatcounter_total_with_events": 2160,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8210,7 +8241,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 27
+   "2026-10-18": 31
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8859,6 +8890,12 @@
     "count": 2
    }
   ],
+  "/districts/al-uraija": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/al-faisaliah-tower": [
    {
     "name": "Google",
@@ -8943,6 +8980,24 @@
     "count": 2
    }
   ],
+  "/stations/khalid-bin-alwaleed-road": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/nearest-station": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/districts/al-quds": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -8970,30 +9025,6 @@
   "/ar/destinations/al-rajhi-grand-mosque": [
    {
     "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
-    "count": 1
-   }
-  ],
-  "/stations/riyadh-exhibition-center": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/stations/khashm-al-an": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/king-khalid-eye-specialist-hospital": [
-   {
-    "name": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/al-yamamah-university": [
-   {
-    "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
     "count": 1
    }
   ]
@@ -9066,6 +9097,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/stations/khalid-bin-alwaleed-road",
     "count": 1
    }
   ],
@@ -9195,6 +9230,10 @@
     "count": 2
    },
    {
+    "path": "/districts/al-uraija",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/al-faisaliah-tower",
     "count": 2
    },
@@ -9255,6 +9294,14 @@
     "count": 1
    },
    {
+    "path": "/nearest-station",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-quds",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/ar-rabwah",
     "count": 1
    },
@@ -9264,14 +9311,6 @@
    },
    {
     "path": "/stations/qasr-al-hokm",
-    "count": 1
-   },
-   {
-    "path": "/stations/riyadh-exhibition-center",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/khashm-al-an",
     "count": 1
    }
   ],
@@ -9472,30 +9511,18 @@
     "path": "/ar/destinations/al-rajhi-grand-mosque",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital": [
-   {
-    "path": "/ar/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/destinations/al-yamamah-university": [
-   {
-    "path": "/ar/destinations/al-yamamah-university",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1290,
+   "count": 1291,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 248,
+   "count": 251,
    "ref_scheme": "g"
   },
   {
@@ -9743,7 +9770,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1729
+   "count": 1732
   },
   {
    "id": "ara",
@@ -9776,14 +9803,14 @@
    "count": 6
   },
   {
-   "id": "zho",
-   "name": "Chinese",
+   "id": "ind",
+   "name": "Indonesian",
    "count": 3
   },
   {
-   "id": "ind",
-   "name": "Indonesian",
-   "count": 2
+   "id": "zho",
+   "name": "Chinese",
+   "count": 3
   },
   {
    "id": "ita",
@@ -9800,7 +9827,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1742
+   "count": 1746
   },
   {
    "id": "US",
@@ -10012,7 +10039,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1727
+   "count": 1731
   },
   {
    "id": "tablet",
@@ -10039,12 +10066,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1105
+   "count": 1107
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1007
+   "count": 1009
   },
   {
    "name": "",
@@ -10060,12 +10087,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 986
+   "count": 988
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 757
+   "count": 759
   },
   {
    "id": "Windows",
