@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T17:06:38Z",
+ "generated": "2026-10-18T18:01:11Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2163,
+  "total": 2165,
   "total_events": 1244,
-  "total_utc": 2163,
+  "total_utc": 2165,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2163
+    "monthly": 2165
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 197
+    "weekly": 199
    },
    {
     "day": "2026-10-18",
@@ -10987,11 +10987,11 @@
      5,
      3,
      0,
-     0,
+     2,
      0,
      0
     ],
-    "daily": 47
+    "daily": 49
    },
    {
     "day": "2026-10-19",
@@ -11077,7 +11077,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 50,
+   "count": 51,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11087,7 +11087,7 @@
     "2026-10-15": 9,
     "2026-10-16": 9,
     "2026-10-17": 10,
-    "2026-10-18": 5
+    "2026-10-18": 6
    }
   },
   {
@@ -12638,6 +12638,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-farooq",
+   "path_id": 112775371,
+   "title": "Nearest Metro Station to Al Farooq, Riyadh: Jarir District, 2.5 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -18273,9 +18283,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 919,
+  "visits": 921,
   "events_total": 1244,
-  "goatcounter_total_with_events": 2163,
+  "goatcounter_total_with_events": 2165,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18293,7 +18303,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 32
+   "2026-10-18": 34
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18613,7 +18623,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 4
+    "count": 5
    },
    {
     "name": "www.bing.com",
@@ -19032,6 +19042,12 @@
     "count": 2
    }
   ],
+  "/districts/al-farooq": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/stations/khalid-bin-alwaleed-road": [
    {
     "name": "(direct or unknown)",
@@ -19073,12 +19089,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/ar/destinations/al-rajhi-grand-mosque": [
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -19089,7 +19099,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/districts/al-taawun",
@@ -19346,6 +19356,10 @@
     "count": 1
    },
    {
+    "path": "/districts/al-farooq",
+    "count": 1
+   },
+   {
     "path": "/nearest-station",
     "count": 1
    },
@@ -19557,24 +19571,18 @@
     "path": "/ar/lines/blue-line",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah": [
-   {
-    "path": "/ar/destinations/al-rajhi-grand-mosque",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1294,
+   "count": 1295,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 251,
+   "count": 252,
    "ref_scheme": "g"
   },
   {
@@ -19822,12 +19830,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1735
+   "count": 1736
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 359
+   "count": 360
   },
   {
    "id": "(unknown)",
@@ -19879,7 +19887,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1749
+   "count": 1751
   },
   {
    "id": "US",
@@ -20091,7 +20099,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1734
+   "count": 1736
   },
   {
    "id": "tablet",
@@ -20118,12 +20126,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1107
+   "count": 1108
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1012
+   "count": 1013
   },
   {
    "name": "",
@@ -20139,12 +20147,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 991
+   "count": 992
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 759
+   "count": 760
   },
   {
    "id": "Windows",
