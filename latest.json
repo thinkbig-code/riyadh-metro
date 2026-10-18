@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T05:07:18Z",
+ "generated": "2026-10-18T06:04:19Z",
  "start": "2026-09-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2126,
+  "total": 2128,
   "total_events": 1231,
-  "total_utc": 2126,
+  "total_utc": 2128,
   "stats": [
    {
     "day": "2026-09-18",
@@ -427,7 +427,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2126
+    "monthly": 2128
    },
    {
     "day": "2026-10-02",
@@ -880,7 +880,7 @@
      42
     ],
     "daily": 252,
-    "weekly": 412
+    "weekly": 414
    },
    {
     "day": "2026-10-17",
@@ -924,7 +924,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -940,7 +940,7 @@
      0,
      0
     ],
-    "daily": 10
+    "daily": 12
    },
    {
     "day": "2026-10-19",
@@ -1816,6 +1816,17 @@
    }
   },
   {
+   "path": "/destinations/king-khalid-eye-specialist-hospital",
+   "path_id": 111949296,
+   "title": "King Khalid Eye Specialist Hospital Metro Station: King Saud University",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "station/railway/to",
    "path_id": 111943913,
    "title": "en|name",
@@ -2514,6 +2525,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-khalid-eye-specialist-hospital",
+   "path_id": 112631059,
+   "title": "محطة مترو مستشفى الملك خالد التخصصي للعيون: محطة جامعة الملك سعود",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -3654,16 +3675,6 @@
    "count": 1,
    "daily": {
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/destinations/king-khalid-eye-specialist-hospital",
-   "path_id": 111949296,
-   "title": "King Khalid Eye Specialist Hospital Metro Station: King Saud University",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-13": 1
    }
   },
   {
@@ -8039,9 +8050,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 895,
+  "visits": 897,
   "events_total": 1231,
-  "goatcounter_total_with_events": 2126,
+  "goatcounter_total_with_events": 2128,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8059,7 +8070,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 8
+   "2026-10-18": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8650,6 +8661,16 @@
     "count": 2
    }
   ],
+  "/destinations/king-khalid-eye-specialist-hospital": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/destinations/al-batha": [
    {
     "name": "Google",
@@ -8758,6 +8779,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/king-khalid-eye-specialist-hospital": [
+   {
+    "name": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
+    "count": 1
+   }
+  ],
   "/ar/destinations/al-yamamah-university": [
    {
     "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
@@ -8815,18 +8842,6 @@
   "/ar/districts/king-faisal": [
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-khuzama": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/al-maigliah-market": [
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ]
@@ -8891,6 +8906,10 @@
    },
    {
     "path": "/ar/districts/al-manar",
+    "count": 1
+   },
+   {
+    "path": "/destinations/king-khalid-eye-specialist-hospital",
     "count": 1
    },
    {
@@ -9106,10 +9125,6 @@
    {
     "path": "/ar/districts/king-faisal",
     "count": 1
-   },
-   {
-    "path": "/ar/districts/al-khuzama",
-    "count": 1
    }
   ],
   "t.co": [
@@ -9254,11 +9269,11 @@
     "count": 2
    },
    {
-    "path": "/destinations/al-yamamah-university",
+    "path": "/destinations/king-khalid-eye-specialist-hospital",
     "count": 1
    },
    {
-    "path": "/ar/destinations/al-maigliah-market",
+    "path": "/destinations/al-yamamah-university",
     "count": 1
    }
   ],
@@ -9289,6 +9304,12 @@
   "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
    {
     "path": "/ar/lines/blue-line",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital": [
+   {
+    "path": "/ar/destinations/king-khalid-eye-specialist-hospital",
     "count": 1
    }
   ],
@@ -9344,7 +9365,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 9,
+   "count": 10,
    "ref_scheme": "c"
   },
   {
@@ -9538,6 +9559,12 @@
    "name": "riyadhmetro.fyi/destinations/al-yamamah-university",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
+   "name": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
@@ -9549,7 +9576,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 350
+   "count": 352
   },
   {
    "id": "(unknown)",
@@ -9601,7 +9628,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1716
+   "count": 1718
   },
   {
    "id": "US",
@@ -9813,7 +9840,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1711
+   "count": 1713
   },
   {
    "id": "tablet",
@@ -9845,7 +9872,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1000
+   "count": 1002
   },
   {
    "name": "",
@@ -9861,7 +9888,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 979
+   "count": 981
   },
   {
    "id": "Android",
