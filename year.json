@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T10:06:14Z",
+ "generated": "2026-10-18T11:04:44Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2145,
+  "total": 2148,
   "total_events": 1242,
-  "total_utc": 2145,
+  "total_utc": 2148,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2145
+    "monthly": 2148
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 179
+    "weekly": 182
    },
    {
     "day": "2026-10-18",
@@ -10980,7 +10980,7 @@
      0,
      3,
      13,
-     1,
+     4,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 29
+    "daily": 32
    },
    {
     "day": "2026-10-19",
@@ -11519,6 +11519,18 @@
    }
   },
   {
+   "path": "/ar/destinations/hayat-national-hospital-rabwah",
+   "path_id": 111957180,
+   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1,
+    "2026-10-18": 1
+   }
+  },
+  {
    "path": "route/p_king_fahd_national_library/railway",
    "path_id": 111943914,
    "title": "en|search|ok",
@@ -11869,17 +11881,6 @@
    "count": 2,
    "daily": {
     "2026-10-14": 2
-   }
-  },
-  {
-   "path": "/ar/destinations/hayat-national-hospital-rabwah",
-   "path_id": 111957180,
-   "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1
    }
   },
   {
@@ -12603,6 +12604,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-rajhi-grand-mosque",
+   "path_id": 112682250,
+   "title": "محطة مترو جامع الراجحي: محطة جامع الراجحي (المسار البرتقالي)، 5 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/stations/riyadh-exhibition-center",
+   "path_id": 112679249,
+   "title": "Riyadh Exhibition Center Metro Station, Riyadh: Red Line, No. 34",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -18178,9 +18199,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 903,
+  "visits": 906,
   "events_total": 1242,
-  "goatcounter_total_with_events": 2145,
+  "goatcounter_total_with_events": 2148,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18198,7 +18219,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 16
+   "2026-10-18": 19
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18669,6 +18690,12 @@
     "count": 3
    }
   ],
+  "/ar/destinations/hayat-national-hospital-rabwah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -18797,12 +18824,6 @@
     "count": 1
    }
   ],
-  "/ar/destinations/hayat-national-hospital-rabwah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
   "/destinations/king-khalid-eye-specialist-hospital": [
    {
     "name": "(direct or unknown)",
@@ -18915,6 +18936,18 @@
     "count": 2
    }
   ],
+  "/ar/destinations/al-rajhi-grand-mosque": [
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
+    "count": 1
+   }
+  ],
+  "/stations/riyadh-exhibition-center": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/stations/khashm-al-an": [
    {
     "name": "Google",
@@ -18964,18 +18997,6 @@
    }
   ],
   "/destinations/sahara-mall": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/lines/red-line": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/stations/al-malaz": [
    {
     "name": "Google",
     "count": 1
@@ -19123,6 +19144,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/hayat-national-hospital-rabwah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/gold-souq",
     "count": 3
    },
@@ -19156,10 +19181,6 @@
    },
    {
     "path": "/destinations/al-qasr-mall",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 2
    },
    {
@@ -19235,6 +19256,10 @@
     "count": 1
    },
    {
+    "path": "/stations/riyadh-exhibition-center",
+    "count": 1
+   },
+   {
     "path": "/ar/stations/khashm-al-an",
     "count": 1
    },
@@ -19252,14 +19277,6 @@
    },
    {
     "path": "/destinations/sahara-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/lines/red-line",
-    "count": 1
-   },
-   {
-    "path": "/stations/al-malaz",
     "count": 1
    }
   ],
@@ -19451,6 +19468,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah": [
+   {
+    "path": "/ar/destinations/al-rajhi-grand-mosque",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital": [
    {
     "path": "/ar/destinations/king-khalid-eye-specialist-hospital",
@@ -19479,7 +19502,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 241,
+   "count": 243,
    "ref_scheme": "g"
   },
   {
@@ -19709,18 +19732,24 @@
    "name": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
    "count": 1,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
+   "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
+   "count": 1,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1723
+   "count": 1724
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 354
+   "count": 356
   },
   {
    "id": "(unknown)",
@@ -19772,7 +19801,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1732
+   "count": 1735
   },
   {
    "id": "US",
@@ -19984,7 +20013,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1718
+   "count": 1719
   },
   {
    "id": "tablet",
@@ -19994,7 +20023,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 311
+   "count": 313
   },
   {
    "id": "desktophd",
@@ -20011,7 +20040,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1097
+   "count": 1100
   },
   {
    "id": "Safari",
@@ -20037,12 +20066,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 751
+   "count": 752
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 265
+   "count": 267
   },
   {
    "id": "macOS",
