@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T12:02:42Z",
+ "generated": "2026-10-18T13:14:53Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2151,
+  "total": 2153,
   "total_events": 1242,
-  "total_utc": 2151,
+  "total_utc": 2153,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2151
+    "monthly": 2153
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 185
+    "weekly": 187
    },
    {
     "day": "2026-10-18",
@@ -10982,8 +10982,8 @@
      13,
      4,
      3,
-     0,
-     0,
+     1,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 35
+    "daily": 37
    },
    {
     "day": "2026-10-19",
@@ -11519,6 +11519,17 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2
+   }
+  },
+  {
    "path": "/ar/destinations/hayat-national-hospital-rabwah",
    "path_id": 111957180,
    "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
@@ -11807,17 +11818,6 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 1
    }
   },
   {
@@ -12615,6 +12615,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/transportation-center",
+   "path_id": 112718989,
+   "title": "Transportation Center Metro Station, Riyadh: Blue Line, No. 23",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
    }
   },
   {
@@ -18220,9 +18230,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 909,
+  "visits": 911,
   "events_total": 1242,
-  "goatcounter_total_with_events": 2151,
+  "goatcounter_total_with_events": 2153,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18240,7 +18250,7 @@
    "2026-10-15": 34,
    "2026-10-16": 130,
    "2026-10-17": 82,
-   "2026-10-18": 22
+   "2026-10-18": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18711,6 +18721,16 @@
     "count": 3
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/hayat-national-hospital-rabwah": [
    {
     "name": "Google",
@@ -18806,16 +18826,6 @@
    },
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ],
@@ -18967,6 +18977,12 @@
     "count": 2
    }
   ],
+  "/stations/transportation-center": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/king-saud-medical-city": [
    {
     "name": "chatgpt.com",
@@ -19018,12 +19034,6 @@
   "/ar/destinations/crowne-plaza-riyadh-palace": [
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/routes/riyadh-airport-to-boulevard-city": [
-   {
-    "name": "Google",
     "count": 1
    }
   ]
@@ -19177,6 +19187,10 @@
     "count": 3
    },
    {
+    "path": "/districts/al-arid",
+    "count": 2
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 2
    },
@@ -19265,10 +19279,6 @@
     "count": 1
    },
    {
-    "path": "/districts/al-arid",
-    "count": 1
-   },
-   {
     "path": "/ar/districts/al-manar",
     "count": 1
    },
@@ -19285,6 +19295,10 @@
     "count": 1
    },
    {
+    "path": "/stations/transportation-center",
+    "count": 1
+   },
+   {
     "path": "/stations/qasr-al-hokm",
     "count": 1
    },
@@ -19294,10 +19308,6 @@
    },
    {
     "path": "/ar/stations/khashm-al-an",
-    "count": 1
-   },
-   {
-    "path": "/ar/routes/riyadh-airport-to-boulevard-city",
     "count": 1
    }
   ],
@@ -19441,11 +19451,11 @@
     "count": 1
    },
    {
-    "path": "/districts/ar-rabwah",
+    "path": "/districts/al-arid",
     "count": 1
    },
    {
-    "path": "/districts/al-arid",
+    "path": "/districts/ar-rabwah",
     "count": 1
    },
    {
@@ -19531,7 +19541,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 244,
+   "count": 246,
    "ref_scheme": "g"
   },
   {
@@ -19773,7 +19783,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1726
+   "count": 1728
   },
   {
    "id": "ara",
@@ -19830,7 +19840,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1738
+   "count": 1740
   },
   {
    "id": "US",
@@ -20042,7 +20052,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1722
+   "count": 1724
   },
   {
    "id": "tablet",
@@ -20069,7 +20079,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1101
+   "count": 1103
   },
   {
    "id": "Safari",
@@ -20095,7 +20105,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 753
+   "count": 755
   },
   {
    "id": "Windows",
