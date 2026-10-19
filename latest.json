@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T14:21:47Z",
+ "generated": "2026-10-19T15:18:11Z",
  "start": "2026-09-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2235,
+  "total": 2236,
   "total_events": 1275,
-  "total_utc": 2235,
+  "total_utc": 2236,
   "stats": [
    {
     "day": "2026-09-19",
@@ -398,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2235
+    "monthly": 2236
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 269
+    "weekly": 270
    },
    {
     "day": "2026-10-18",
@@ -934,14 +934,14 @@
      7,
      18,
      3,
-     0,
+     1,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 66
+    "daily": 67
    },
    {
     "day": "2026-10-20",
@@ -1839,6 +1839,17 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -3334,16 +3345,6 @@
    "path": "/ar/districts/al-fayha",
    "path_id": 112330224,
    "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/wadi-namar-park",
-   "path_id": 112323556,
-   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -8493,9 +8494,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 960,
+  "visits": 961,
   "events_total": 1275,
-  "goatcounter_total_with_events": 2235,
+  "goatcounter_total_with_events": 2236,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8514,7 +8515,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 37
+   "2026-10-19": 38
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9146,6 +9147,16 @@
     "count": 2
    }
   ],
+  "/ar/destinations/wadi-namar-park": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-yasmeen": [
    {
     "name": "Google",
@@ -9315,12 +9326,6 @@
     "name": "riyadhmetro.fyi/ar/lines/blue-line",
     "count": 1
    }
-  ],
-  "/districts/al-shohda": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -9391,10 +9396,6 @@
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-shohda",
     "count": 1
    }
   ],
@@ -9592,6 +9593,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/panorama-mall",
     "count": 1
    },
@@ -9786,6 +9791,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
     "count": 1
    }
@@ -9878,7 +9887,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 17,
+   "count": 18,
    "ref_scheme": "c"
   },
   {
@@ -10113,7 +10122,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 385
+   "count": 386
   },
   {
    "id": "(unknown)",
@@ -10165,7 +10174,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1810
+   "count": 1811
   },
   {
    "id": "US",
@@ -10387,7 +10396,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1778
+   "count": 1779
   },
   {
    "id": "tablet",
@@ -10414,7 +10423,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1151
+   "count": 1152
   },
   {
    "id": "Safari",
@@ -10440,7 +10449,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 779
+   "count": 780
   },
   {
    "id": "Windows",
