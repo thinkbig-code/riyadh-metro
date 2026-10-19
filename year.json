@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T08:23:14Z",
+ "generated": "2026-10-19T09:17:59Z",
  "start": "2025-10-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2199,
-  "total_events": 1259,
-  "total_utc": 2199,
+  "total": 2202,
+  "total_events": 1260,
+  "total_utc": 2202,
   "stats": [
    {
     "day": "2025-10-19",
@@ -10448,7 +10448,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2199
+    "monthly": 2202
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 83
+    "weekly": 86
    },
    {
     "day": "2026-10-19",
@@ -10978,7 +10978,7 @@
      6,
      3,
      3,
-     0,
+     3,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 30
+    "daily": 33
    },
    {
     "day": "2026-10-20",
@@ -11170,7 +11170,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 11,
+   "count": 12,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -11180,7 +11180,8 @@
     "2026-10-14": 1,
     "2026-10-15": 2,
     "2026-10-16": 1,
-    "2026-10-18": 1
+    "2026-10-18": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -11533,6 +11534,18 @@
    "daily": {
     "2026-10-15": 1,
     "2026-10-18": 2
+   }
+  },
+  {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -11926,17 +11939,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1
    }
   },
   {
@@ -12592,6 +12594,17 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 1
+   }
+  },
+  {
+   "path": "geo/outside/jeddahrd",
+   "path_id": 110301428,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -18213,16 +18226,6 @@
    }
   },
   {
-   "path": "geo/outside/jeddahrd",
-   "path_id": 110301428,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "route/p_al_masmak_fortress/p_granada_mall",
    "path_id": 110301083,
    "title": "en|search|ok",
@@ -18405,9 +18408,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 940,
-  "events_total": 1259,
-  "goatcounter_total_with_events": 2199,
+  "visits": 942,
+  "events_total": 1260,
+  "goatcounter_total_with_events": 2202,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18426,7 +18429,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 17
+   "2026-10-19": 19
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18519,8 +18522,8 @@
    "denied": 22,
    "ok": 32,
    "fail": 3,
-   "far": 2,
-   "outside": 2
+   "outside": 3,
+   "far": 2
   },
   "visitors_new_return": {
    "new": 457,
@@ -18808,6 +18811,10 @@
    {
     "name": "riyadhmetro.fyi/ar/districts/al-wisham",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/nearest-station",
+    "count": 1
    }
   ],
   "/ar/districts/middle-oraija": [
@@ -18909,6 +18916,20 @@
    },
    {
     "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/ar/nearest-station": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
     "count": 1
    }
   ],
@@ -19035,16 +19056,6 @@
    },
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/nearest-station": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
     "count": 1
    }
   ],
@@ -19258,6 +19269,10 @@
     "count": 1
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 1
+   },
+   {
     "path": "/destinations/riyadh-front",
     "count": 1
    },
@@ -19271,10 +19286,6 @@
    },
    {
     "path": "/ar/destinations/panorama-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/nearest-station",
     "count": 1
    },
    {
@@ -19464,6 +19475,10 @@
     "count": 2
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 1
+   },
+   {
     "path": "/districts/qurtubah",
     "count": 1
    },
@@ -19638,6 +19653,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/nearest-station": [
+   {
+    "path": "/ar.html",
+    "count": 1
+   }
+  ],
   "chatgpt.com": [
    {
     "path": "/districts/qurtubah",
@@ -19674,16 +19695,16 @@
     "count": 2
    }
   ],
-  "Yandex": [
-   {
-    "path": "/ru.html",
-    "count": 2
-   }
-  ],
   "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
    {
     "path": "/ar/nearest-station",
     "count": 1
+   }
+  ],
+  "Yandex": [
+   {
+    "path": "/ru.html",
+    "count": 2
    }
   ],
   "riyadhmetro.fyi/ar/stations/al-malaz": [
@@ -19714,7 +19735,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 268,
+   "count": 269,
    "ref_scheme": "g"
   },
   {
@@ -19850,6 +19871,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/nearest-station",
+   "name": "riyadhmetro.fyi/ar/nearest-station",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.reddit.com",
    "name": "www.reddit.com",
    "count": 1,
@@ -19967,7 +19994,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 370
+   "count": 373
   },
   {
    "id": "(unknown)",
@@ -20019,7 +20046,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1777
+   "count": 1780
   },
   {
    "id": "US",
@@ -20236,7 +20263,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1764
+   "count": 1767
   },
   {
    "id": "tablet",
@@ -20263,7 +20290,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1124
+   "count": 1127
   },
   {
    "id": "Safari",
@@ -20289,7 +20316,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 773
+   "count": 776
   },
   {
    "id": "Windows",
