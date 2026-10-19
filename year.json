@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T13:26:08Z",
+ "generated": "2026-10-19T14:23:17Z",
  "start": "2025-10-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2233,
+  "total": 2235,
   "total_events": 1275,
-  "total_utc": 2233,
+  "total_utc": 2235,
   "stats": [
    {
     "day": "2025-10-19",
@@ -10448,7 +10448,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2233
+    "monthly": 2235
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 117
+    "weekly": 119
    },
    {
     "day": "2026-10-19",
@@ -10983,7 +10983,7 @@
      4,
      7,
      18,
-     1,
+     3,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 64
+    "daily": 66
    },
    {
     "day": "2026-10-20",
@@ -11079,7 +11079,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 55,
+   "count": 56,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11090,7 +11090,7 @@
     "2026-10-16": 9,
     "2026-10-17": 10,
     "2026-10-18": 6,
-    "2026-10-19": 4
+    "2026-10-19": 5
    }
   },
   {
@@ -12728,6 +12728,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/ar-rahmaniyah",
+   "path_id": 112980498,
+   "title": "Nearest Metro Station to Ar Rahmaniyah, Riyadh: At Takhassussi (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -18533,9 +18543,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 958,
+  "visits": 960,
   "events_total": 1275,
-  "goatcounter_total_with_events": 2233,
+  "goatcounter_total_with_events": 2235,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18554,7 +18564,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 35
+   "2026-10-19": 37
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18871,7 +18881,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 44
+    "count": 45
    },
    {
     "name": "(direct or unknown)",
@@ -19338,6 +19348,12 @@
     "count": 2
    }
   ],
+  "/districts/ar-rahmaniyah": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/haraj-bin-qasim": [
    {
     "name": "Google",
@@ -19353,12 +19369,6 @@
   "/districts/al-shohda": [
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/stations/kafd": [
-   {
-    "name": "Google",
     "count": 1
    }
   ]
@@ -19453,7 +19463,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 44
+    "count": 45
    },
    {
     "path": "/map",
@@ -19644,11 +19654,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/haraj-bin-qasim",
+    "path": "/districts/ar-rahmaniyah",
     "count": 1
    },
    {
-    "path": "/ar/stations/kafd",
+    "path": "/destinations/haraj-bin-qasim",
     "count": 1
    }
   ],
@@ -19882,7 +19892,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 278,
+   "count": 280,
    "ref_scheme": "g"
   },
   {
@@ -20148,12 +20158,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1777
+   "count": 1778
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 384
+   "count": 385
   },
   {
    "id": "(unknown)",
@@ -20205,7 +20215,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1808
+   "count": 1810
   },
   {
    "id": "US",
@@ -20427,7 +20437,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1777
+   "count": 1778
   },
   {
    "id": "tablet",
@@ -20437,7 +20447,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 339
+   "count": 340
   },
   {
    "id": "desktophd",
@@ -20454,12 +20464,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1150
+   "count": 1151
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1034
+   "count": 1035
   },
   {
    "name": "",
@@ -20475,7 +20485,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1014
+   "count": 1015
   },
   {
    "id": "Android",
@@ -20485,7 +20495,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 289
+   "count": 290
   },
   {
    "id": "macOS",
