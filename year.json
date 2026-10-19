@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T01:18:44Z",
+ "generated": "2026-10-19T01:47:33Z",
  "start": "2025-10-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2176,
+  "total": 2177,
   "total_events": 1247,
-  "total_utc": 2176,
+  "total_utc": 2177,
   "stats": [
    {
     "day": "2025-10-19",
@@ -10448,7 +10448,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2176
+    "monthly": 2177
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 60
+    "weekly": 61
    },
    {
     "day": "2026-10-19",
@@ -10971,7 +10971,7 @@
      2,
      1,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 7
+    "daily": 8
    },
    {
     "day": "2026-10-20",
@@ -11615,6 +11615,18 @@
    }
   },
   {
+   "path": "/timings",
+   "path_id": 110802013,
+   "title": "Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-19": 1
+   }
+  },
+  {
    "path": "station/kbw/to",
    "path_id": 110801710,
    "title": "en|name",
@@ -12113,17 +12125,6 @@
    "daily": {
     "2026-10-10": 1,
     "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/timings",
-   "path_id": 110802013,
-   "title": "Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-11": 1
    }
   },
   {
@@ -18318,9 +18319,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 929,
+  "visits": 930,
   "events_total": 1247,
-  "goatcounter_total_with_events": 2176,
+  "goatcounter_total_with_events": 2177,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18339,7 +18340,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 6
+   "2026-10-19": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18847,6 +18848,16 @@
     "count": 1
    }
   ],
+  "/timings": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/districts/qurtubah": [
    {
     "name": "chatgpt.com",
@@ -19035,16 +19046,6 @@
     "count": 1
    }
   ],
-  "/timings": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/stations/king-salman-oasis": [
    {
     "name": "Google",
@@ -19171,6 +19172,10 @@
     "count": 1
    },
    {
+    "path": "/timings",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 1
    },
@@ -19192,10 +19197,6 @@
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   },
-   {
-    "path": "/timings",
     "count": 1
    },
    {
@@ -19286,6 +19287,10 @@
    },
    {
     "path": "/destinations/riyadh-front",
+    "count": 2
+   },
+   {
+    "path": "/timings",
     "count": 2
    },
    {
@@ -19386,10 +19391,6 @@
    },
    {
     "path": "/ar/timings",
-    "count": 1
-   },
-   {
-    "path": "/timings",
     "count": 1
    },
    {
@@ -19619,7 +19620,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 255,
+   "count": 256,
    "ref_scheme": "g"
   },
   {
@@ -19902,7 +19903,7 @@
   {
    "id": "ind",
    "name": "Indonesian",
-   "count": 3
+   "count": 4
   },
   {
    "id": "ita",
@@ -19924,7 +19925,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1757
+   "count": 1758
   },
   {
    "id": "US",
@@ -20136,7 +20137,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1744
+   "count": 1745
   },
   {
    "id": "tablet",
@@ -20163,7 +20164,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1111
+   "count": 1112
   },
   {
    "id": "Safari",
@@ -20189,7 +20190,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 763
+   "count": 764
   },
   {
    "id": "Windows",
