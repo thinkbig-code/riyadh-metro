@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T23:02:20Z",
+ "generated": "2026-10-18T23:59:30Z",
  "start": "2025-10-18",
  "end": "2026-10-19",
  "total": {
-  "total": 2174,
+  "total": 2175,
   "total_events": 1247,
-  "total_utc": 2174,
+  "total_utc": 2175,
   "stats": [
    {
     "day": "2025-10-18",
@@ -10478,7 +10478,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2174
+    "monthly": 2175
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 208
+    "weekly": 209
    },
    {
     "day": "2026-10-18",
@@ -10999,7 +10999,7 @@
      1,
      2,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -11021,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 6
    }
   ]
  },
@@ -11729,6 +11729,17 @@
     "2026-10-07": 1,
     "2026-10-08": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "/districts/al-nafel",
+   "path_id": 112790868,
+   "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -12662,16 +12673,6 @@
    "count": 1,
    "daily": {
     "2026-10-19": 1
-   }
-  },
-  {
-   "path": "/districts/al-nafel",
-   "path_id": 112790868,
-   "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-18": 1
    }
   },
   {
@@ -18307,9 +18308,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 927,
+  "visits": 928,
   "events_total": 1247,
-  "goatcounter_total_with_events": 2174,
+  "goatcounter_total_with_events": 2175,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18328,7 +18329,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 4
+   "2026-10-19": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18862,6 +18863,12 @@
     "count": 1
    }
   ],
+  "/districts/al-nafel": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/districts/al-murabba": [
    {
     "name": "Google",
@@ -19075,12 +19082,6 @@
    }
   ],
   "/routes/riyadh-airport-to-kingdom-centre": [
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/districts/al-nafel": [
    {
     "name": "chatgpt.com",
     "count": 1
@@ -19538,6 +19539,10 @@
     "count": 2
    },
    {
+    "path": "/districts/al-nafel",
+    "count": 2
+   },
+   {
     "path": "/districts/al-taawun",
     "count": 1
    },
@@ -19555,10 +19560,6 @@
    },
    {
     "path": "/routes/riyadh-airport-to-kingdom-centre",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-nafel",
     "count": 1
    }
   ],
@@ -19644,7 +19645,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 16,
+   "count": 17,
    "ref_scheme": "c"
   },
   {
@@ -19856,7 +19857,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1743
+   "count": 1744
   },
   {
    "id": "ara",
@@ -19913,7 +19914,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1755
+   "count": 1756
   },
   {
    "id": "US",
@@ -20125,7 +20126,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1742
+   "count": 1743
   },
   {
    "id": "tablet",
@@ -20157,7 +20158,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1017
+   "count": 1018
   },
   {
    "name": "",
@@ -20173,7 +20174,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 995
+   "count": 996
   },
   {
    "id": "Android",
