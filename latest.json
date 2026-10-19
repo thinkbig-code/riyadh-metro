@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T02:10:35Z",
+ "generated": "2026-10-19T03:10:54Z",
  "start": "2026-09-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2177,
-  "total_events": 1247,
-  "total_utc": 2177,
+  "total": 2184,
+  "total_events": 1253,
+  "total_utc": 2184,
   "stats": [
    {
     "day": "2026-09-19",
@@ -398,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2177
+    "monthly": 2184
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 211
+    "weekly": 218
    },
    {
     "day": "2026-10-18",
@@ -922,7 +922,7 @@
      1,
      1,
      1,
-     0,
+     7,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 15
    },
    {
     "day": "2026-10-20",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 608,
+   "count": 609,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1000,7 +1000,7 @@
     "2026-10-16": 81,
     "2026-10-17": 49,
     "2026-10-18": 3,
-    "2026-10-19": 1
+    "2026-10-19": 2
    }
   },
   {
@@ -1008,7 +1008,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 454,
+   "count": 455,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1021,7 +1021,7 @@
     "2026-10-16": 79,
     "2026-10-17": 46,
     "2026-10-18": 3,
-    "2026-10-19": 1
+    "2026-10-19": 2
    }
   },
   {
@@ -1668,6 +1668,18 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 2
+   }
+  },
+  {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-12": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -2327,6 +2339,17 @@
    }
   },
   {
+   "path": "station/malaz/to",
+   "path_id": 110411389,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-19": 1
+   }
+  },
+  {
    "path": "route/khashm/p_kingdom_centre",
    "path_id": 110409517,
    "title": "en|search|ok",
@@ -2540,17 +2563,6 @@
    }
   },
   {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-12": 1
-   }
-  },
-  {
    "path": "place/p_al_othaim_mall_rabwah/from",
    "path_id": 110299344,
    "title": "en|name",
@@ -2614,6 +2626,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/wurud/malaz",
+   "path_id": 112855839,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
+   }
+  },
+  {
+   "path": "route/wurud/malaz",
+   "path_id": 112855814,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
+   }
+  },
+  {
+   "path": "station/wurud/from",
+   "path_id": 112855796,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -7447,16 +7489,6 @@
    }
   },
   {
-   "path": "station/malaz/to",
-   "path_id": 110411389,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/p_boulevard_city/p_al_faisaliah_tower",
    "path_id": 110411349,
    "title": "en|search|ok",
@@ -8269,9 +8301,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 930,
-  "events_total": 1247,
-  "goatcounter_total_with_events": 2177,
+  "visits": 931,
+  "events_total": 1253,
+  "goatcounter_total_with_events": 2184,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8290,7 +8322,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 7
+   "2026-10-19": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8304,11 +8336,11 @@
    "2026-10-16": 84,
    "2026-10-17": 50,
    "2026-10-18": 7,
-   "2026-10-19": 1
+   "2026-10-19": 2
   },
-  "visitor_days": 493,
+  "visitor_days": 494,
   "return_rate": 0.079,
-  "routes": 325,
+  "routes": 326,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
   "routes_per_visitor_day": 0.61,
@@ -8382,12 +8414,12 @@
   "nearest_station": {
    "denied": 22,
    "ok": 31,
-   "fail": 2,
+   "fail": 3,
    "far": 2,
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 454,
+   "new": 455,
    "return": 39
   },
   "top_routes": [
@@ -8553,7 +8585,7 @@
    },
    {
     "name": "Google",
-    "count": 10
+    "count": 11
    },
    {
     "name": "t.co",
@@ -9177,7 +9209,7 @@
    },
    {
     "path": "/",
-    "count": 10
+    "count": 11
    },
    {
     "path": "/ar/districts/middle-oraija",
@@ -9570,7 +9602,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 256,
+   "count": 263,
    "ref_scheme": "g"
   },
   {
@@ -9823,7 +9855,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 361
+   "count": 368
   },
   {
    "id": "(unknown)",
@@ -9875,7 +9907,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1758
+   "count": 1765
   },
   {
    "id": "US",
@@ -10087,7 +10119,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1745
+   "count": 1752
   },
   {
    "id": "tablet",
@@ -10114,7 +10146,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1112
+   "count": 1119
   },
   {
    "id": "Safari",
@@ -10140,7 +10172,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 764
+   "count": 771
   },
   {
    "id": "Windows",
