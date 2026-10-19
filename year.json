@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T16:14:48Z",
+ "generated": "2026-10-19T17:13:19Z",
  "start": "2025-10-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2242,
+  "total": 2243,
   "total_events": 1276,
-  "total_utc": 2242,
+  "total_utc": 2243,
   "stats": [
    {
     "day": "2025-10-19",
@@ -10448,7 +10448,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2242
+    "monthly": 2243
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 126
+    "weekly": 127
    },
    {
     "day": "2026-10-19",
@@ -10986,12 +10986,12 @@
      3,
      1,
      5,
-     1,
+     2,
      0,
      0,
      0
     ],
-    "daily": 73
+    "daily": 74
    },
    {
     "day": "2026-10-20",
@@ -12751,6 +12751,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-al-batha",
+   "path_id": 113022809,
+   "title": "Riyadh Airport to Al Batha by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -18546,9 +18556,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 966,
+  "visits": 967,
   "events_total": 1276,
-  "goatcounter_total_with_events": 2242,
+  "goatcounter_total_with_events": 2243,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18567,7 +18577,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 43
+   "2026-10-19": 44
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19367,13 +19377,13 @@
     "count": 2
    }
   ],
-  "/districts/ar-rahmaniyah": [
+  "/routes/riyadh-airport-to-al-batha": [
    {
     "name": "Google",
     "count": 1
    }
   ],
-  "/destinations/haraj-bin-qasim": [
+  "/districts/ar-rahmaniyah": [
    {
     "name": "Google",
     "count": 1
@@ -19665,11 +19675,11 @@
     "count": 1
    },
    {
-    "path": "/districts/ar-rahmaniyah",
+    "path": "/routes/riyadh-airport-to-al-batha",
     "count": 1
    },
    {
-    "path": "/destinations/haraj-bin-qasim",
+    "path": "/districts/ar-rahmaniyah",
     "count": 1
    }
   ],
@@ -19901,7 +19911,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 283,
+   "count": 284,
    "ref_scheme": "g"
   },
   {
@@ -20167,7 +20177,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1782
+   "count": 1783
   },
   {
    "id": "ara",
@@ -20224,7 +20234,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1815
+   "count": 1816
   },
   {
    "id": "US",
@@ -20446,7 +20456,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1785
+   "count": 1786
   },
   {
    "id": "tablet",
@@ -20473,7 +20483,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1155
+   "count": 1156
   },
   {
    "id": "Safari",
@@ -20499,7 +20509,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 783
+   "count": 784
   },
   {
    "id": "Windows",
