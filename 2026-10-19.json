@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T17:12:02Z",
+ "generated": "2026-10-19T18:08:21Z",
  "start": "2026-09-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2243,
-  "total_events": 1276,
-  "total_utc": 2243,
+  "total": 2247,
+  "total_events": 1277,
+  "total_utc": 2247,
   "stats": [
    {
     "day": "2026-09-19",
@@ -398,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2243
+    "monthly": 2247
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 277
+    "weekly": 281
    },
    {
     "day": "2026-10-18",
@@ -937,11 +937,11 @@
      1,
      5,
      2,
-     0,
+     4,
      0,
      0
     ],
-    "daily": 74
+    "daily": 78
    },
    {
     "day": "2026-10-20",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 616,
+   "count": 617,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1000,7 +1000,7 @@
     "2026-10-16": 81,
     "2026-10-17": 49,
     "2026-10-18": 3,
-    "2026-10-19": 9
+    "2026-10-19": 10
    }
   },
   {
@@ -1048,7 +1048,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 41,
+   "count": 42,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1060,7 +1060,7 @@
     "2026-10-16": 5,
     "2026-10-17": 4,
     "2026-10-18": 4,
-    "2026-10-19": 2
+    "2026-10-19": 3
    }
   },
   {
@@ -1086,7 +1086,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 21,
+   "count": 22,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1096,7 +1096,7 @@
     "2026-10-15": 1,
     "2026-10-16": 3,
     "2026-10-17": 1,
-    "2026-10-19": 3
+    "2026-10-19": 4
    }
   },
   {
@@ -2701,6 +2701,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/routes/kafd-to-diriyah",
+   "path_id": 113035297,
+   "title": "من المركز المالي (كافد) إلى الدرعية بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -8506,9 +8516,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 967,
-  "events_total": 1276,
-  "goatcounter_total_with_events": 2243,
+  "visits": 970,
+  "events_total": 1277,
+  "goatcounter_total_with_events": 2247,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8527,7 +8537,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 44
+   "2026-10-19": 47
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8541,10 +8551,10 @@
    "2026-10-16": 84,
    "2026-10-17": 50,
    "2026-10-18": 7,
-   "2026-10-19": 10
+   "2026-10-19": 11
   },
-  "visitor_days": 502,
-  "return_rate": 0.082,
+  "visitor_days": 503,
+  "return_rate": 0.083,
   "routes": 335,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
@@ -8625,7 +8635,7 @@
   },
   "visitors_new_return": {
    "new": 461,
-   "return": 41
+   "return": 42
   },
   "top_routes": [
    {
@@ -8778,7 +8788,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 407
+    "count": 408
    },
    {
     "name": "tiktok_ad",
@@ -8866,7 +8876,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 15
+    "count": 16
    },
    {
     "name": "(direct or unknown)",
@@ -9327,13 +9337,13 @@
     "count": 2
    }
   ],
-  "/routes/riyadh-airport-to-al-batha": [
+  "/ar/routes/kafd-to-diriyah": [
    {
     "name": "Google",
     "count": 1
    }
   ],
-  "/districts/ar-rahmaniyah": [
+  "/routes/riyadh-airport-to-al-batha": [
    {
     "name": "Google",
     "count": 1
@@ -9344,7 +9354,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 407
+    "count": 408
    },
    {
     "path": "/ar/map",
@@ -9430,7 +9440,7 @@
    },
    {
     "path": "/map",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/",
@@ -9625,11 +9635,11 @@
     "count": 1
    },
    {
-    "path": "/routes/riyadh-airport-to-al-batha",
+    "path": "/ar/routes/kafd-to-diriyah",
     "count": 1
    },
    {
-    "path": "/districts/ar-rahmaniyah",
+    "path": "/routes/riyadh-airport-to-al-batha",
     "count": 1
    }
   ],
@@ -9855,13 +9865,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1318,
+   "count": 1320,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 284,
+   "count": 286,
    "ref_scheme": "g"
   },
   {
@@ -10127,12 +10137,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1783
+   "count": 1786
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 388
+   "count": 389
   },
   {
    "id": "(unknown)",
@@ -10184,7 +10194,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1816
+   "count": 1819
   },
   {
    "id": "US",
@@ -10199,7 +10209,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 42
+   "count": 43
   },
   {
    "id": "CA",
@@ -10406,7 +10416,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1786
+   "count": 1790
   },
   {
    "id": "tablet",
@@ -10433,12 +10443,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1156
+   "count": 1157
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1038
+   "count": 1041
   },
   {
    "name": "",
@@ -10454,12 +10464,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1018
+   "count": 1021
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 784
+   "count": 785
   },
   {
    "id": "Windows",
