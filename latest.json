@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-18T23:58:17Z",
- "start": "2026-09-18",
- "end": "2026-10-19",
+ "generated": "2026-10-19T01:17:31Z",
+ "start": "2026-09-19",
+ "end": "2026-10-20",
  "total": {
-  "total": 2175,
+  "total": 2176,
   "total_events": 1247,
-  "total_utc": 2175,
+  "total_utc": 2176,
   "stats": [
-   {
-    "day": "2026-09-18",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2026-09-19",
     "hourly": [
@@ -276,7 +246,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 5
    },
    {
     "day": "2026-09-27",
@@ -427,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2175
+    "monthly": 2176
    },
    {
     "day": "2026-10-02",
@@ -457,8 +428,7 @@
      0,
      0
     ],
-    "daily": 5,
-    "weekly": 689
+    "daily": 5
    },
    {
     "day": "2026-10-03",
@@ -488,7 +458,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 858
    },
    {
     "day": "2026-10-04",
@@ -668,8 +639,7 @@
      28,
      0
     ],
-    "daily": 174,
-    "weekly": 1025
+    "daily": 174
    },
    {
     "day": "2026-10-10",
@@ -699,7 +669,8 @@
      12,
      10
     ],
-    "daily": 202
+    "daily": 202,
+    "weekly": 1103
    },
    {
     "day": "2026-10-11",
@@ -879,8 +850,7 @@
      6,
      42
     ],
-    "daily": 252,
-    "weekly": 461
+    "daily": 252
    },
    {
     "day": "2026-10-17",
@@ -910,7 +880,8 @@
      9,
      3
     ],
-    "daily": 150
+    "daily": 150,
+    "weekly": 210
    },
    {
     "day": "2026-10-18",
@@ -949,6 +920,36 @@
      2,
      2,
      1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 7
+   },
+   {
+    "day": "2026-10-20",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -970,7 +971,7 @@
      0,
      0
     ],
-    "daily": 6
+    "daily": 0
    }
   ]
  },
@@ -2612,6 +2613,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/kingdom-hospital",
+   "path_id": 112838460,
+   "title": "محطة مترو مستشفى المملكة: محطة الربيع (المسار الأصفر والمسار البنفسجي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -8257,9 +8268,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 928,
+  "visits": 929,
   "events_total": 1247,
-  "goatcounter_total_with_events": 2175,
+  "goatcounter_total_with_events": 2176,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8278,7 +8289,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 5
+   "2026-10-19": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9030,6 +9041,12 @@
     "count": 2
    }
   ],
+  "/ar/destinations/kingdom-hospital": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/routes/riyadh-airport-to-kingdom-centre": [
    {
     "name": "chatgpt.com",
@@ -9055,12 +9072,6 @@
    }
   ],
   "/districts/al-quds": [
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
     "count": 1
@@ -9336,6 +9347,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/kingdom-hospital",
+    "count": 1
+   },
+   {
     "path": "/districts/al-farooq",
     "count": 1
    },
@@ -9345,10 +9360,6 @@
    },
    {
     "path": "/districts/al-quds",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
     "count": 1
    }
   ],
@@ -9558,7 +9569,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 254,
+   "count": 255,
    "ref_scheme": "g"
   },
   {
@@ -9806,7 +9817,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1744
+   "count": 1745
   },
   {
    "id": "ara",
@@ -9863,7 +9874,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1756
+   "count": 1757
   },
   {
    "id": "US",
@@ -10075,7 +10086,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1743
+   "count": 1744
   },
   {
    "id": "tablet",
@@ -10107,7 +10118,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1018
+   "count": 1019
   },
   {
    "name": "",
@@ -10123,7 +10134,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 996
+   "count": 997
   },
   {
    "id": "Android",
