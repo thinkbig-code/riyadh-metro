@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T10:15:55Z",
+ "generated": "2026-10-19T11:11:38Z",
  "start": "2026-09-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2203,
-  "total_events": 1260,
-  "total_utc": 2203,
+  "total": 2208,
+  "total_events": 1261,
+  "total_utc": 2208,
   "stats": [
    {
     "day": "2026-09-19",
@@ -398,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2203
+    "monthly": 2208
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 237
+    "weekly": 242
    },
    {
     "day": "2026-10-18",
@@ -930,8 +930,8 @@
      3,
      3,
      1,
-     0,
-     0,
+     4,
+     1,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 34
+    "daily": 39
    },
    {
     "day": "2026-10-20",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 611,
+   "count": 612,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1000,7 +1000,7 @@
     "2026-10-16": 81,
     "2026-10-17": 49,
     "2026-10-18": 3,
-    "2026-10-19": 4
+    "2026-10-19": 5
    }
   },
   {
@@ -1008,7 +1008,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 457,
+   "count": 458,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1021,7 +1021,7 @@
     "2026-10-16": 79,
     "2026-10-17": 46,
     "2026-10-18": 3,
-    "2026-10-19": 4
+    "2026-10-19": 5
    }
   },
   {
@@ -1085,7 +1085,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 20,
+   "count": 21,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1095,7 +1095,7 @@
     "2026-10-15": 1,
     "2026-10-16": 3,
     "2026-10-17": 1,
-    "2026-10-19": 2
+    "2026-10-19": 3
    }
   },
   {
@@ -1213,6 +1213,21 @@
    }
   },
   {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-16": 2,
+    "2026-10-17": 1,
+    "2026-10-19": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -1250,20 +1265,6 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-arid",
-   "path_id": 111505455,
-   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-12": 1,
-    "2026-10-13": 1,
-    "2026-10-16": 2,
-    "2026-10-17": 1
    }
   },
   {
@@ -1866,6 +1867,17 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
+   }
+  },
+  {
+   "path": "/destinations/lulu-hypermarket-murabba",
+   "path_id": 112134243,
+   "title": "Lulu Hypermarket Murabba Metro Station: Al Muorabba (Blue Line), 3 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-19": 1
    }
   },
   {
@@ -3570,16 +3582,6 @@
    "path_id": 112135393,
    "title": "ar|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-15": 1
-   }
-  },
-  {
-   "path": "/destinations/lulu-hypermarket-murabba",
-   "path_id": 112134243,
-   "title": "Lulu Hypermarket Murabba Metro Station: Al Muorabba (Blue Line), 3 min walk",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-15": 1
@@ -8358,9 +8360,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 943,
-  "events_total": 1260,
-  "goatcounter_total_with_events": 2203,
+  "visits": 947,
+  "events_total": 1261,
+  "goatcounter_total_with_events": 2208,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8379,7 +8381,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 20
+   "2026-10-19": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8393,9 +8395,9 @@
    "2026-10-16": 84,
    "2026-10-17": 50,
    "2026-10-18": 7,
-   "2026-10-19": 5
+   "2026-10-19": 6
   },
-  "visitor_days": 497,
+  "visitor_days": 498,
   "return_rate": 0.08,
   "routes": 327,
   "routes_not_found": 0,
@@ -8476,7 +8478,7 @@
    "far": 2
   },
   "visitors_new_return": {
-   "new": 457,
+   "new": 458,
    "return": 40
   },
   "top_routes": [
@@ -8630,7 +8632,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 404
+    "count": 405
    },
    {
     "name": "tiktok_ad",
@@ -8714,7 +8716,7 @@
   "/map": [
    {
     "name": "Google",
-    "count": 14
+    "count": 15
    },
    {
     "name": "(direct or unknown)",
@@ -8783,6 +8785,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
   "/ar/districts/qurtubah": [
    {
     "name": "Google",
@@ -8797,16 +8809,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 2
    }
   ],
   "/destinations/king-abdullah-park": [
@@ -9015,6 +9017,12 @@
     "count": 1
    }
   ],
+  "/destinations/lulu-hypermarket-murabba": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/stations": [
    {
     "name": "(direct or unknown)",
@@ -9172,19 +9180,13 @@
     "name": "chatgpt.com",
     "count": 1
    }
-  ],
-  "/districts/al-farooq": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 404
+    "count": 405
    },
    {
     "path": "/ar/map",
@@ -9270,7 +9272,7 @@
    },
    {
     "path": "/map",
-    "count": 14
+    "count": 15
    },
    {
     "path": "/",
@@ -9297,12 +9299,12 @@
     "count": 6
    },
    {
-    "path": "/districts/al-yasmeen",
+    "path": "/ar/districts/al-arid",
     "count": 5
    },
    {
-    "path": "/ar/districts/al-arid",
-    "count": 4
+    "path": "/districts/al-yasmeen",
+    "count": 5
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -9374,6 +9376,10 @@
    },
    {
     "path": "/destinations/al-qasr-mall",
+    "count": 2
+   },
+   {
+    "path": "/destinations/lulu-hypermarket-murabba",
     "count": 2
    },
    {
@@ -9462,10 +9468,6 @@
    },
    {
     "path": "/ar/destinations/kingdom-hospital",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-farooq",
     "count": 1
    }
   ],
@@ -9679,13 +9681,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1309,
+   "count": 1311,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 270,
+   "count": 273,
    "ref_scheme": "g"
   },
   {
@@ -9939,12 +9941,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1759
+   "count": 1763
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 373
+   "count": 374
   },
   {
    "id": "(unknown)",
@@ -9996,7 +9998,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1780
+   "count": 1785
   },
   {
    "id": "US",
@@ -10213,7 +10215,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1767
+   "count": 1771
   },
   {
    "id": "tablet",
@@ -10228,7 +10230,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 56
+   "count": 57
   },
   {
    "id": "unknown",
@@ -10245,23 +10247,23 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1029
+   "count": 1031
   },
   {
    "name": "",
-   "count": 28
+   "count": 30
   },
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 18
+   "count": 19
   }
  ],
  "systems": [
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1007
+   "count": 1011
   },
   {
    "id": "Android",
@@ -10271,7 +10273,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 269
+   "count": 270
   },
   {
    "id": "macOS",
