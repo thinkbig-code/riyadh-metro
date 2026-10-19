@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-19T06:12:34Z",
+ "generated": "2026-10-19T07:30:11Z",
  "start": "2026-09-19",
  "end": "2026-10-20",
  "total": {
-  "total": 2193,
-  "total_events": 1258,
-  "total_utc": 2193,
+  "total": 2197,
+  "total_events": 1259,
+  "total_utc": 2197,
   "stats": [
    {
     "day": "2026-09-19",
@@ -398,7 +398,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2193
+    "monthly": 2197
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      3
     ],
     "daily": 150,
-    "weekly": 227
+    "weekly": 231
    },
    {
     "day": "2026-10-18",
@@ -926,8 +926,8 @@
      1,
      2,
      6,
-     0,
-     0,
+     3,
+     1,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 24
+    "daily": 28
    },
    {
     "day": "2026-10-20",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 610,
+   "count": 611,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1000,7 +1000,7 @@
     "2026-10-16": 81,
     "2026-10-17": 49,
     "2026-10-18": 3,
-    "2026-10-19": 3
+    "2026-10-19": 4
    }
   },
   {
@@ -1008,7 +1008,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 456,
+   "count": 457,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1021,7 +1021,7 @@
     "2026-10-16": 79,
     "2026-10-17": 46,
     "2026-10-18": 3,
-    "2026-10-19": 3
+    "2026-10-19": 4
    }
   },
   {
@@ -1029,7 +1029,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 51,
+   "count": 52,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1039,7 +1039,8 @@
     "2026-10-15": 9,
     "2026-10-16": 9,
     "2026-10-17": 10,
-    "2026-10-18": 6
+    "2026-10-18": 6,
+    "2026-10-19": 1
    }
   },
   {
@@ -2629,6 +2630,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/al-muorabba",
+   "path_id": 112894481,
+   "title": "Al Muorabba Metro Station, Riyadh: Blue Line, No. 14",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
    }
   },
   {
@@ -8334,9 +8345,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 935,
-  "events_total": 1258,
-  "goatcounter_total_with_events": 2193,
+  "visits": 938,
+  "events_total": 1259,
+  "goatcounter_total_with_events": 2197,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8355,7 +8366,7 @@
    "2026-10-16": 130,
    "2026-10-17": 82,
    "2026-10-18": 36,
-   "2026-10-19": 12
+   "2026-10-19": 15
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8369,10 +8380,10 @@
    "2026-10-16": 84,
    "2026-10-17": 50,
    "2026-10-18": 7,
-   "2026-10-19": 4
+   "2026-10-19": 5
   },
-  "visitor_days": 496,
-  "return_rate": 0.081,
+  "visitor_days": 497,
+  "return_rate": 0.08,
   "routes": 327,
   "routes_not_found": 0,
   "routes_per_visit": 0.35,
@@ -8452,7 +8463,7 @@
    "outside": 2
   },
   "visitors_new_return": {
-   "new": 456,
+   "new": 457,
    "return": 40
   },
   "top_routes": [
@@ -8606,7 +8617,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 403
+    "count": 404
    },
    {
     "name": "tiktok_ad",
@@ -8676,7 +8687,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 5
+    "count": 6
    },
    {
     "name": "www.bing.com",
@@ -9111,6 +9122,12 @@
     "count": 2
    }
   ],
+  "/stations/al-muorabba": [
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/lines": [
    {
     "name": "Google",
@@ -9140,23 +9157,17 @@
     "name": "(direct or unknown)",
     "count": 1
    }
-  ],
-  "/nearest-station": [
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 403
+    "count": 404
    },
    {
     "path": "/ar/map",
-    "count": 5
+    "count": 6
    },
    {
     "path": "/districts/al-taawun",
@@ -9417,6 +9428,10 @@
     "count": 1
    },
    {
+    "path": "/stations/al-muorabba",
+    "count": 1
+   },
+   {
     "path": "/ar/lines",
     "count": 1
    },
@@ -9426,10 +9441,6 @@
    },
    {
     "path": "/districts/al-farooq",
-    "count": 1
-   },
-   {
-    "path": "/nearest-station",
     "count": 1
    }
   ],
@@ -9637,13 +9648,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1306,
+   "count": 1309,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 265,
+   "count": 266,
    "ref_scheme": "g"
   },
   {
@@ -9891,12 +9902,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1754
+   "count": 1757
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 368
+   "count": 369
   },
   {
    "id": "(unknown)",
@@ -9948,7 +9959,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1774
+   "count": 1775
   },
   {
    "id": "US",
@@ -9991,13 +10002,13 @@
    "count": 12
   },
   {
-   "id": "BH",
-   "name": "Bahrain",
-   "count": 10
-  },
-  {
    "id": "ES",
    "name": "Spain",
+   "count": 11
+  },
+  {
+   "id": "BH",
+   "name": "Bahrain",
    "count": 10
   },
   {
@@ -10101,6 +10112,11 @@
    "count": 2
   },
   {
+   "id": "JP",
+   "name": "Japan",
+   "count": 2
+  },
+  {
    "id": "KZ",
    "name": "Kazakhstan",
    "count": 2
@@ -10160,7 +10176,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1760
+   "count": 1762
   },
   {
    "id": "tablet",
@@ -10170,7 +10186,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 317
+   "count": 319
   },
   {
    "id": "desktophd",
@@ -10187,12 +10203,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1120
+   "count": 1123
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1027
+   "count": 1028
   },
   {
    "name": "",
@@ -10208,12 +10224,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1005
+   "count": 1006
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 771
+   "count": 772
   },
   {
    "id": "Windows",
@@ -10223,7 +10239,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 108
+   "count": 110
   },
   {
    "id": "Linux",
