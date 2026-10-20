@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T14:18:02Z",
+ "generated": "2026-10-20T15:16:49Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2347,
-  "total_events": 1319,
-  "total_utc": 2347,
+  "total": 2359,
+  "total_events": 1324,
+  "total_utc": 2359,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2347
+    "monthly": 2359
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 178
+    "weekly": 190
    },
    {
     "day": "2026-10-20",
@@ -10984,14 +10984,14 @@
      7,
      21,
      13,
+     12,
      5,
-     0,
      0,
      0,
      0,
      0
     ],
-    "daily": 94
+    "daily": 106
    },
    {
     "day": "2026-10-21",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 638,
+   "count": 641,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11051,7 +11051,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 20
+    "2026-10-20": 23
    }
   },
   {
@@ -11059,7 +11059,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 479,
+   "count": 480,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11073,7 +11073,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 17
+    "2026-10-20": 18
    }
   },
   {
@@ -11101,7 +11101,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 44,
+   "count": 45,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11114,7 +11114,7 @@
     "2026-10-17": 4,
     "2026-10-18": 4,
     "2026-10-19": 3,
-    "2026-10-20": 2
+    "2026-10-20": 3
    }
   },
   {
@@ -11680,6 +11680,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 2,
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "/districts/al-uraija",
    "path_id": 111023725,
    "title": "Nearest Metro Station to Al Uraija, Riyadh: Dhahrat Al Badiah, 2.0 km",
@@ -11901,6 +11912,16 @@
     "2026-10-07": 1,
     "2026-10-15": 1,
     "2026-10-19": 1
+   }
+  },
+  {
+   "path": "route/kfl/gosi",
+   "path_id": 113241137,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-20": 2
    }
   },
   {
@@ -12277,16 +12298,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-maseef",
-   "path_id": 111125799,
-   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 2
-   }
-  },
-  {
    "path": "/ar/districts/north-mathar",
    "path_id": 111103818,
    "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
@@ -12479,6 +12490,17 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-12": 1
+   }
+  },
+  {
+   "path": "geo/ok/murooj",
+   "path_id": 110501937,
+   "title": "en",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-20": 1
    }
   },
   {
@@ -12903,6 +12925,46 @@
    }
   },
   {
+   "path": "/ar/stations/stc",
+   "path_id": 113281106,
+   "title": "محطة stc، مترو الرياض: المسار الأزرق والمسار الأحمر (رقم 7)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-khalid-university-hospital",
+   "path_id": 113279596,
+   "title": "محطة مترو مستشفى الملك خالد الجامعي: محطة جامعة الملك سعود، 12 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "place/p_via_riyadh/to",
+   "path_id": 113276110,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-awwal-park",
+   "path_id": 113270700,
+   "title": "محطة مترو الأول بارك (ملعب النصر): محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "/lines/red-line",
    "path_id": 113262876,
    "title": "Riyadh Metro Red Line (Line 2): Stations, Map and Hours",
@@ -12966,16 +13028,6 @@
    "path": "route/murabba/wurud",
    "path_id": 113244159,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-20": 1
-   }
-  },
-  {
-   "path": "route/kfl/gosi",
-   "path_id": 113241137,
-   "title": "en|map|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -16823,16 +16875,6 @@
    }
   },
   {
-   "path": "geo/ok/murooj",
-   "path_id": 110501937,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "view/aziziah/andalus",
    "path_id": 110500457,
    "title": "en|details",
@@ -18815,9 +18857,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1028,
-  "events_total": 1319,
-  "goatcounter_total_with_events": 2347,
+  "visits": 1035,
+  "events_total": 1324,
+  "goatcounter_total_with_events": 2359,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18837,7 +18879,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 56
+   "2026-10-20": 63
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18852,13 +18894,13 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 19
+   "2026-10-20": 21
   },
-  "visitor_days": 523,
-  "return_rate": 0.084,
-  "routes": 345,
+  "visitor_days": 525,
+  "return_rate": 0.086,
+  "routes": 346,
   "routes_not_found": 0,
-  "routes_per_visit": 0.34,
+  "routes_per_visit": 0.33,
   "routes_per_visitor_day": 0.61,
   "share_rate": 0.014,
   "shares": {
@@ -18933,14 +18975,14 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 33,
+   "ok": 34,
    "fail": 3,
    "outside": 3,
    "far": 3
   },
   "visitors_new_return": {
-   "new": 479,
-   "return": 44
+   "new": 480,
+   "return": 45
   },
   "top_routes": [
    {
@@ -18958,6 +19000,10 @@
    {
     "name": "wizarat > alinma",
     "count": 3
+   },
+   {
+    "name": "kfl > gosi",
+    "count": 2
    },
    {
     "name": "p_king_saud_university > jeddahrd",
@@ -18997,10 +19043,6 @@
    },
    {
     "name": "gosi > p_panorama_mall",
-    "count": 2
-   },
-   {
-    "name": "malaz > sab",
     "count": 2
    }
   ],
@@ -19042,7 +19084,7 @@
     "count": 10
    },
    {
-    "name": "ksu",
+    "name": "kfl",
     "count": 9
    }
   ],
@@ -19093,7 +19135,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 424
+    "count": 427
    },
    {
     "name": "tiktok_ad",
@@ -19406,6 +19448,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-maseef": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/districts/al-uraija": [
    {
     "name": "Google",
@@ -19638,12 +19686,6 @@
     "count": 2
    }
   ],
-  "/ar/districts/al-maseef": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
   "/ar/districts/north-mathar": [
    {
     "name": "Google",
@@ -19679,7 +19721,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 424
+    "count": 427
    },
    {
     "path": "/ar/map",
@@ -19828,6 +19870,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-maseef",
+    "count": 3
+   },
+   {
     "path": "/districts/al-uraija",
     "count": 3
    },
@@ -19917,10 +19963,6 @@
    },
    {
     "path": "/destinations/al-batha",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-maseef",
     "count": 2
    },
    {
@@ -20216,13 +20258,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1365,
+   "count": 1373,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 320,
+   "count": 324,
    "ref_scheme": "g"
   },
   {
@@ -20500,12 +20542,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1855
+   "count": 1864
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 414
+   "count": 417
   },
   {
    "id": "(unknown)",
@@ -20557,12 +20599,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1901
+   "count": 1911
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 87
+   "count": 89
   },
   {
    "id": "US",
@@ -20779,7 +20821,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1856
+   "count": 1866
   },
   {
    "id": "tablet",
@@ -20789,7 +20831,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 355
+   "count": 357
   },
   {
    "id": "desktophd",
@@ -20806,12 +20848,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1213
+   "count": 1218
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1076
+   "count": 1083
   },
   {
    "name": "",
@@ -20827,17 +20869,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1064
+   "count": 1071
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 822
+   "count": 825
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 309
+   "count": 311
   },
   {
    "id": "macOS",
