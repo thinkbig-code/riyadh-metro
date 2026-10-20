@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T19:18:32Z",
+ "generated": "2026-10-20T20:09:06Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2379,
+  "total": 2381,
   "total_events": 1330,
-  "total_utc": 2379,
+  "total_utc": 2381,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2379
+    "monthly": 2381
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 210
+    "weekly": 212
    },
    {
     "day": "2026-10-20",
@@ -10989,9 +10989,9 @@
      7,
      3,
      6,
-     2
+     4
     ],
-    "daily": 126
+    "daily": 128
    },
    {
     "day": "2026-10-21",
@@ -11378,6 +11378,17 @@
    }
   },
   {
+   "path": "/ar/lines",
+   "path_id": 112883345,
+   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-19": 3,
+    "2026-10-20": 2
+   }
+  },
+  {
    "path": "/districts/al-taawun",
    "path_id": 111962269,
    "title": "Nearest Metro Station to Al Taawun, Riyadh: Uthman Bin Affan Road, 3.1 km",
@@ -11443,17 +11454,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "/ar/lines",
-   "path_id": 112883345,
-   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-19": 3,
-    "2026-10-20": 1
    }
   },
   {
@@ -12945,6 +12945,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-falah",
+   "path_id": 113320014,
+   "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -18930,9 +18940,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1049,
+  "visits": 1051,
   "events_total": 1330,
-  "goatcounter_total_with_events": 2379,
+  "goatcounter_total_with_events": 2381,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18952,7 +18962,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 77
+   "2026-10-20": 79
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19415,6 +19425,12 @@
     "count": 6
    }
   ],
+  "/ar/lines": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
@@ -19433,12 +19449,6 @@
    {
     "name": "Facebook",
     "count": 2
-   }
-  ],
-  "/ar/lines": [
-   {
-    "name": "Google",
-    "count": 4
    }
   ],
   "/ar/nearest-station": [
@@ -19928,7 +19938,7 @@
    },
    {
     "path": "/ar/lines",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -20357,7 +20367,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 334,
+   "count": 335,
    "ref_scheme": "g"
   },
   {
@@ -20641,7 +20651,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1874
+   "count": 1875
   },
   {
    "id": "ara",
@@ -20698,7 +20708,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1923
+   "count": 1924
   },
   {
    "id": "AE",
@@ -20920,7 +20930,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1880
+   "count": 1881
   },
   {
    "id": "tablet",
@@ -20947,7 +20957,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1228
+   "count": 1229
   },
   {
    "id": "Safari",
@@ -20973,7 +20983,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 830
+   "count": 831
   },
   {
    "id": "Windows",
