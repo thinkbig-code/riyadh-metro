@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T13:24:00Z",
+ "generated": "2026-10-20T14:18:02Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2338,
-  "total_events": 1316,
-  "total_utc": 2338,
+  "total": 2347,
+  "total_events": 1319,
+  "total_utc": 2347,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2338
+    "monthly": 2347
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 169
+    "weekly": 178
    },
    {
     "day": "2026-10-20",
@@ -10983,15 +10983,15 @@
      17,
      7,
      21,
-     9,
-     0,
+     13,
+     5,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 85
+    "daily": 94
    },
    {
     "day": "2026-10-21",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 635,
+   "count": 638,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11051,7 +11051,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 17
+    "2026-10-20": 20
    }
   },
   {
@@ -11059,7 +11059,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 476,
+   "count": 479,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11073,7 +11073,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 14
+    "2026-10-20": 17
    }
   },
   {
@@ -11193,6 +11193,22 @@
    }
   },
   {
+   "path": "/ar/districts/al-arid",
+   "path_id": 111505455,
+   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-16": 2,
+    "2026-10-17": 1,
+    "2026-10-19": 2,
+    "2026-10-20": 2
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11215,22 +11231,6 @@
     "2026-10-08": 7,
     "2026-10-09": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-arid",
-   "path_id": 111505455,
-   "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-12": 1,
-    "2026-10-13": 1,
-    "2026-10-16": 2,
-    "2026-10-17": 1,
-    "2026-10-19": 2,
-    "2026-10-20": 1
    }
   },
   {
@@ -12900,6 +12900,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/lines/red-line",
+   "path_id": 113262876,
+   "title": "Riyadh Metro Red Line (Line 2): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-murabba",
+   "path_id": 113259520,
+   "title": "أقرب محطة مترو لحي المربع في الرياض: محطة الجوازات (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -18795,9 +18815,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1022,
-  "events_total": 1316,
-  "goatcounter_total_with_events": 2338,
+  "visits": 1028,
+  "events_total": 1319,
+  "goatcounter_total_with_events": 2347,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18817,7 +18837,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 50
+   "2026-10-20": 56
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18832,14 +18852,14 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 16
+   "2026-10-20": 19
   },
-  "visitor_days": 520,
-  "return_rate": 0.085,
+  "visitor_days": 523,
+  "return_rate": 0.084,
   "routes": 345,
   "routes_not_found": 0,
   "routes_per_visit": 0.34,
-  "routes_per_visitor_day": 0.62,
+  "routes_per_visitor_day": 0.61,
   "share_rate": 0.014,
   "shares": {
    "whatsapp": 1,
@@ -18919,7 +18939,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 476,
+   "new": 479,
    "return": 44
   },
   "top_routes": [
@@ -19073,11 +19093,11 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 423
+    "count": 424
    },
    {
     "name": "tiktok_ad",
-    "count": 109
+    "count": 111
    },
    {
     "name": "com.reddit.frontpage",
@@ -19225,7 +19245,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 7
+    "count": 8
    },
    {
     "name": "(direct or unknown)",
@@ -19659,7 +19679,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 423
+    "count": 424
    },
    {
     "path": "/ar/map",
@@ -19733,7 +19753,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 109
+    "count": 111
    }
   ],
   "com.reddit.frontpage": [
@@ -19756,12 +19776,12 @@
     "count": 13
    },
    {
-    "path": "/ar/districts/middle-oraija",
+    "path": "/ar/districts/al-arid",
     "count": 8
    },
    {
-    "path": "/ar/districts/al-arid",
-    "count": 7
+    "path": "/ar/districts/middle-oraija",
+    "count": 8
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -20196,13 +20216,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1361,
+   "count": 1365,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 317,
+   "count": 320,
    "ref_scheme": "g"
   },
   {
@@ -20220,7 +20240,7 @@
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 109,
+   "count": 111,
    "ref_scheme": "c"
   },
   {
@@ -20480,17 +20500,17 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1853
+   "count": 1855
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 413
+   "count": 414
   },
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 22
+   "count": 26
   },
   {
    "id": "rus",
@@ -20500,7 +20520,7 @@
   {
    "id": "fra",
    "name": "French",
-   "count": 10
+   "count": 11
   },
   {
    "id": "deu",
@@ -20510,7 +20530,7 @@
   {
    "id": "spa",
    "name": "Spanish",
-   "count": 6
+   "count": 7
   },
   {
    "id": "ind",
@@ -20537,7 +20557,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1893
+   "count": 1901
   },
   {
    "id": "AE",
@@ -20580,14 +20600,14 @@
    "count": 12
   },
   {
-   "id": "PK",
-   "name": "Pakistan",
+   "id": "ES",
+   "name": "Spain",
    "count": 12
   },
   {
-   "id": "ES",
-   "name": "Spain",
-   "count": 11
+   "id": "PK",
+   "name": "Pakistan",
+   "count": 12
   },
   {
    "id": "CH",
@@ -20759,7 +20779,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1848
+   "count": 1856
   },
   {
    "id": "tablet",
@@ -20769,7 +20789,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 354
+   "count": 355
   },
   {
    "id": "desktophd",
@@ -20786,16 +20806,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1210
+   "count": 1213
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1074
+   "count": 1076
   },
   {
    "name": "",
-   "count": 35
+   "count": 39
   },
   {
    "id": "Firefox",
@@ -20807,17 +20827,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1058
+   "count": 1064
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 820
+   "count": 822
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 308
+   "count": 309
   },
   {
    "id": "macOS",
