@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T00:05:09Z",
+ "generated": "2026-10-20T01:17:50Z",
  "start": "2026-09-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2260,
+  "total": 2261,
   "total_events": 1283,
-  "total_utc": 2260,
+  "total_utc": 2261,
   "stats": [
    {
     "day": "2026-09-20",
@@ -368,7 +368,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2260
+    "monthly": 2261
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 144
+    "weekly": 145
    },
    {
     "day": "2026-10-19",
@@ -920,7 +920,7 @@
      3,
      3,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 7
+    "daily": 8
    },
    {
     "day": "2026-10-21",
@@ -2739,6 +2739,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/ministry-of-finance",
+   "path_id": 113101660,
+   "title": "Ministry of Finance Metro Station, Riyadh: Green Line, No. 69",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -8544,9 +8554,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 977,
+  "visits": 978,
   "events_total": 1283,
-  "goatcounter_total_with_events": 2260,
+  "goatcounter_total_with_events": 2261,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8566,7 +8576,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 5
+   "2026-10-20": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9373,7 +9383,7 @@
     "count": 2
    }
   ],
-  "/ar/destinations/olaya-towers": [
+  "/stations/ministry-of-finance": [
    {
     "name": "Google",
     "count": 1
@@ -9669,7 +9679,7 @@
     "count": 1
    },
    {
-    "path": "/ar/destinations/olaya-towers",
+    "path": "/stations/ministry-of-finance",
     "count": 1
    }
   ],
@@ -9901,7 +9911,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 291,
+   "count": 292,
    "ref_scheme": "g"
   },
   {
@@ -10167,7 +10177,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1799
+   "count": 1800
   },
   {
    "id": "ara",
@@ -10224,7 +10234,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1832
+   "count": 1833
   },
   {
    "id": "US",
@@ -10446,7 +10456,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1802
+   "count": 1803
   },
   {
    "id": "tablet",
@@ -10473,7 +10483,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1158
+   "count": 1159
   },
   {
    "id": "Safari",
@@ -10499,7 +10509,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 786
+   "count": 787
   },
   {
    "id": "Windows",
