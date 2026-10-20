@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T20:09:06Z",
+ "generated": "2026-10-20T22:11:52Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2381,
+  "total": 2384,
   "total_events": 1330,
-  "total_utc": 2381,
+  "total_utc": 2384,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2381
+    "monthly": 2384
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 212
+    "weekly": 215
    },
    {
     "day": "2026-10-20",
@@ -10996,9 +10996,9 @@
    {
     "day": "2026-10-21",
     "hourly": [
-     0,
-     0,
-     0,
+     1,
+     1,
+     1,
      0,
      0,
      0,
@@ -11021,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 3
    }
   ]
  },
@@ -11197,7 +11197,7 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 10,
+   "count": 11,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
@@ -11205,7 +11205,8 @@
     "2026-10-16": 2,
     "2026-10-17": 1,
     "2026-10-19": 2,
-    "2026-10-20": 2
+    "2026-10-20": 2,
+    "2026-10-21": 1
    }
   },
   {
@@ -12116,6 +12117,17 @@
    }
   },
   {
+   "path": "/ar/stations/jeddah-road",
+   "path_id": 112221462,
+   "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/ar/lines/orange-line",
    "path_id": 112221279,
    "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
@@ -12945,6 +12957,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/east-umm-al-hamam",
+   "path_id": 113337065,
+   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
    }
   },
   {
@@ -14022,16 +14044,6 @@
    "path_id": 112310108,
    "title": "ar|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/stations/jeddah-road",
-   "path_id": 112221462,
-   "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-16": 1
@@ -18940,9 +18952,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1051,
+  "visits": 1054,
   "events_total": 1330,
-  "goatcounter_total_with_events": 2381,
+  "goatcounter_total_with_events": 2384,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18962,7 +18974,8 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 79
+   "2026-10-20": 79,
+   "2026-10-21": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19374,7 +19387,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 8
+    "count": 9
    },
    {
     "name": "(direct or unknown)",
@@ -19709,6 +19722,16 @@
     "count": 2
    }
   ],
+  "/ar/stations/jeddah-road": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "/ar/lines/orange-line": [
    {
     "name": "Google",
@@ -19800,12 +19823,6 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/ar/destinations/al-faisaliah-tower": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -19867,6 +19884,10 @@
     "count": 1
    },
    {
+    "path": "/ar/stations/jeddah-road",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/panorama-mall",
     "count": 1
    },
@@ -19909,12 +19930,12 @@
     "count": 13
    },
    {
-    "path": "/ar/districts/middle-oraija",
+    "path": "/ar/districts/al-arid",
     "count": 9
    },
    {
-    "path": "/ar/districts/al-arid",
-    "count": 8
+    "path": "/ar/districts/middle-oraija",
+    "count": 9
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -20066,10 +20087,6 @@
    },
    {
     "path": "/ar/districts/al-nafel",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/al-faisaliah-tower",
     "count": 2
    },
    {
@@ -20345,6 +20362,12 @@
     "count": 2
    }
   ],
+  "riyadhmetro.fyi/ar/lines/orange-line": [
+   {
+    "path": "/ar/stations/jeddah-road",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/lines/orange-line": [
    {
     "path": "/ar/lines/orange-line",
@@ -20361,13 +20384,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1379,
+   "count": 1380,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 335,
+   "count": 337,
    "ref_scheme": "g"
   },
   {
@@ -20651,12 +20674,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1875
+   "count": 1876
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 423
+   "count": 425
   },
   {
    "id": "(unknown)",
@@ -20708,7 +20731,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1924
+   "count": 1927
   },
   {
    "id": "AE",
@@ -20930,7 +20953,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1881
+   "count": 1884
   },
   {
    "id": "tablet",
@@ -20962,7 +20985,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1094
+   "count": 1097
   },
   {
    "name": "",
@@ -20978,7 +21001,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1080
+   "count": 1083
   },
   {
    "id": "Android",
