@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T11:12:27Z",
+ "generated": "2026-10-20T12:11:50Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2308,
-  "total_events": 1300,
-  "total_utc": 2308,
+  "total": 2315,
+  "total_events": 1304,
+  "total_utc": 2315,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2308
+    "monthly": 2315
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 139
+    "weekly": 146
    },
    {
     "day": "2026-10-20",
@@ -10982,7 +10982,7 @@
      8,
      17,
      7,
-     0,
+     7,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 55
+    "daily": 62
    },
    {
     "day": "2026-10-21",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 625,
+   "count": 628,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11051,7 +11051,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 7
+    "2026-10-20": 10
    }
   },
   {
@@ -11059,7 +11059,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 467,
+   "count": 470,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11073,7 +11073,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 5
+    "2026-10-20": 8
    }
   },
   {
@@ -12866,6 +12866,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/kfl/gosi",
+   "path_id": 113241137,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -18731,9 +18741,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1008,
-  "events_total": 1300,
-  "goatcounter_total_with_events": 2308,
+  "visits": 1011,
+  "events_total": 1304,
+  "goatcounter_total_with_events": 2315,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18753,7 +18763,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 36
+   "2026-10-20": 39
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18768,14 +18778,14 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 7
+   "2026-10-20": 10
   },
-  "visitor_days": 511,
+  "visitor_days": 514,
   "return_rate": 0.086,
-  "routes": 340,
+  "routes": 341,
   "routes_not_found": 0,
   "routes_per_visit": 0.34,
-  "routes_per_visitor_day": 0.62,
+  "routes_per_visitor_day": 0.61,
   "share_rate": 0.015,
   "shares": {
    "whatsapp": 1,
@@ -18855,7 +18865,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 467,
+   "new": 470,
    "return": 44
   },
   "top_routes": [
@@ -19009,7 +19019,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 413
+    "count": 416
    },
    {
     "name": "tiktok_ad",
@@ -19591,7 +19601,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 413
+    "count": 416
    },
    {
     "path": "/ar/map",
@@ -20122,7 +20132,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1335,
+   "count": 1342,
    "ref_scheme": "o"
   },
   {
@@ -20406,7 +20416,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1825
+   "count": 1832
   },
   {
    "id": "ara",
@@ -20463,12 +20473,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1875
+   "count": 1877
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 80
+   "count": 85
   },
   {
    "id": "US",
@@ -20685,7 +20695,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1825
+   "count": 1832
   },
   {
    "id": "tablet",
@@ -20717,7 +20727,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1056
+   "count": 1063
   },
   {
    "name": "",
@@ -20733,7 +20743,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1040
+   "count": 1047
   },
   {
    "id": "Android",
