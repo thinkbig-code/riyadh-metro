@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T06:11:45Z",
+ "generated": "2026-10-20T07:25:07Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2269,
+  "total": 2273,
   "total_events": 1285,
-  "total_utc": 2269,
+  "total_utc": 2273,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2269
+    "monthly": 2273
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 100
+    "weekly": 104
    },
    {
     "day": "2026-10-20",
@@ -10976,8 +10976,8 @@
      1,
      1,
      2,
-     2,
-     0,
+     5,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 20
    },
    {
     "day": "2026-10-21",
@@ -11081,7 +11081,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 62,
+   "count": 64,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11093,7 +11093,7 @@
     "2026-10-17": 10,
     "2026-10-18": 6,
     "2026-10-19": 7,
-    "2026-10-20": 4
+    "2026-10-20": 6
    }
   },
   {
@@ -11576,6 +11576,18 @@
     "2026-10-14": 1,
     "2026-10-16": 1,
     "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/destinations/king-khalid-eye-specialist-hospital",
+   "path_id": 111949296,
+   "title": "King Khalid Eye Specialist Hospital Metro Station: King Saud University",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-13": 1,
+    "2026-10-18": 1,
+    "2026-10-20": 1
    }
   },
   {
@@ -12066,17 +12078,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-19": 1
-   }
-  },
-  {
-   "path": "/destinations/king-khalid-eye-specialist-hospital",
-   "path_id": 111949296,
-   "title": "King Khalid Eye Specialist Hospital Metro Station: King Saud University",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-13": 1,
-    "2026-10-18": 1
    }
   },
   {
@@ -12790,6 +12791,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/routes/riyadh-airport-to-riyadh-gallery-mall",
+   "path_id": 113176104,
+   "title": "من مطار الرياض إلى الرياض جاليري مول بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -18605,9 +18616,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 984,
+  "visits": 988,
   "events_total": 1285,
-  "goatcounter_total_with_events": 2269,
+  "goatcounter_total_with_events": 2273,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18627,7 +18638,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 12
+   "2026-10-20": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18945,7 +18956,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 49
+    "count": 51
    },
    {
     "name": "(direct or unknown)",
@@ -19152,6 +19163,16 @@
     "count": 3
    }
   ],
+  "/destinations/king-khalid-eye-specialist-hospital": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -19342,16 +19363,6 @@
     "count": 1
    }
   ],
-  "/destinations/king-khalid-eye-specialist-hospital": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/destinations/al-batha": [
    {
     "name": "Google",
@@ -19434,9 +19445,9 @@
     "count": 2
    }
   ],
-  "/stations/ministry-of-finance": [
+  "/ar/routes/riyadh-airport-to-riyadh-gallery-mall": [
    {
-    "name": "Google",
+    "name": "chatgpt.com",
     "count": 1
    }
   ]
@@ -19484,6 +19495,10 @@
     "count": 1
    },
    {
+    "path": "/destinations/king-khalid-eye-specialist-hospital",
+    "count": 1
+   },
+   {
     "path": "/destinations/riyadh-front",
     "count": 1
    },
@@ -19506,10 +19521,6 @@
    {
     "path": "/ar/districts/al-manar",
     "count": 1
-   },
-   {
-    "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
    }
   ],
   "tiktok_ad": [
@@ -19527,7 +19538,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 49
+    "count": 51
    },
    {
     "path": "/map",
@@ -19728,10 +19739,6 @@
    {
     "path": "/ar/timings",
     "count": 1
-   },
-   {
-    "path": "/stations/ministry-of-finance",
-    "count": 1
    }
   ],
   "t.co": [
@@ -19888,6 +19895,10 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/destinations/king-khalid-eye-specialist-hospital",
+    "count": 2
+   },
+   {
     "path": "/districts/qurtubah",
     "count": 2
    },
@@ -19912,7 +19923,7 @@
     "count": 1
    },
    {
-    "path": "/destinations/king-khalid-eye-specialist-hospital",
+    "path": "/ar/routes/riyadh-airport-to-riyadh-gallery-mall",
     "count": 1
    }
   ],
@@ -19962,7 +19973,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 295,
+   "count": 297,
    "ref_scheme": "g"
   },
   {
@@ -19990,16 +20001,16 @@
    "ref_scheme": "h"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 20,
+   "ref_scheme": "c"
+  },
+  {
    "id": "www.facebook.com",
    "name": "www.facebook.com",
    "count": 18,
    "ref_scheme": "h"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 18,
-   "ref_scheme": "c"
   },
   {
    "id": "Yahoo",
@@ -20228,12 +20239,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1805
+   "count": 1806
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 392
+   "count": 395
   },
   {
    "id": "(unknown)",
@@ -20285,17 +20296,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1839
+   "count": 1842
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "count": 80
   },
   {
    "id": "US",
    "name": "United States",
    "count": 80
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 79
   },
   {
    "id": "GB",
@@ -20507,7 +20518,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1808
+   "count": 1812
   },
   {
    "id": "tablet",
@@ -20534,12 +20545,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1165
+   "count": 1167
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1050
+   "count": 1052
   },
   {
    "name": "",
@@ -20555,12 +20566,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1034
+   "count": 1036
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 790
+   "count": 792
   },
   {
    "id": "Windows",
