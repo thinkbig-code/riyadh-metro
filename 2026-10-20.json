@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T15:15:33Z",
+ "generated": "2026-10-20T16:15:42Z",
  "start": "2026-09-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2359,
-  "total_events": 1324,
-  "total_utc": 2359,
+  "total": 2365,
+  "total_events": 1325,
+  "total_utc": 2365,
   "stats": [
    {
     "day": "2026-09-20",
@@ -368,7 +368,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2359
+    "monthly": 2365
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      2
     ],
     "daily": 53,
-    "weekly": 243
+    "weekly": 249
    },
    {
     "day": "2026-10-19",
@@ -935,13 +935,13 @@
      21,
      13,
      12,
-     5,
-     0,
+     7,
+     4,
      0,
      0,
      0
     ],
-    "daily": 106
+    "daily": 112
    },
    {
     "day": "2026-10-21",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 641,
+   "count": 642,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1001,7 +1001,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 23
+    "2026-10-20": 24
    }
   },
   {
@@ -1009,7 +1009,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 480,
+   "count": 481,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1023,7 +1023,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 18
+    "2026-10-20": 19
    }
   },
   {
@@ -1898,6 +1898,17 @@
    "path": "/destinations/haraj-bin-qasim",
    "path_id": 112974216,
    "title": "Haraj Bin Qasim Metro Station: Ad Dar Al Baida (Blue Line)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/stations/ad-dar-al-baida",
+   "path_id": 112955569,
+   "title": "محطة الدار البيضاء، مترو الرياض: المسار الأزرق (رقم 25)",
    "event": false,
    "count": 2,
    "daily": {
@@ -2875,6 +2886,36 @@
    }
   },
   {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-wahah",
+   "path_id": 113291194,
+   "title": "أقرب محطة مترو لحي الواحة في الرياض: محطة النزهة (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-kafd",
+   "path_id": 113287055,
+   "title": "Riyadh Airport to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "/ar/stations/stc",
    "path_id": 113281106,
    "title": "محطة stc، مترو الرياض: المسار الأزرق والمسار الأحمر (رقم 7)",
@@ -3219,16 +3260,6 @@
    "path_id": 112955698,
    "title": "ar|link|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "/ar/stations/ad-dar-al-baida",
-   "path_id": 112955569,
-   "title": "محطة الدار البيضاء، مترو الرياض: المسار الأزرق (رقم 25)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-19": 1
@@ -8807,9 +8838,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1035,
-  "events_total": 1324,
-  "goatcounter_total_with_events": 2359,
+  "visits": 1040,
+  "events_total": 1325,
+  "goatcounter_total_with_events": 2365,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -8829,7 +8860,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 63
+   "2026-10-20": 68
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -8844,9 +8875,9 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 21
+   "2026-10-20": 22
   },
-  "visitor_days": 525,
+  "visitor_days": 526,
   "return_rate": 0.086,
   "routes": 346,
   "routes_not_found": 0,
@@ -8931,7 +8962,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 480,
+   "new": 481,
    "return": 45
   },
   "top_routes": [
@@ -9085,7 +9116,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 427
+    "count": 428
    },
    {
     "name": "tiktok_ad",
@@ -9492,6 +9523,16 @@
     "count": 2
    }
   ],
+  "/ar/stations/ad-dar-al-baida": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/lines/blue-line",
+    "count": 1
+   }
+  ],
   "/districts/al-nafel": [
    {
     "name": "chatgpt.com",
@@ -9659,19 +9700,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/districts/al-fayha": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 427
+    "count": 428
    },
    {
     "path": "/ar/map",
@@ -9932,15 +9967,15 @@
     "count": 2
    },
    {
-    "path": "/districts/al-fayha",
-    "count": 2
-   },
-   {
     "path": "/ar/timings",
     "count": 1
    },
    {
     "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
+    "path": "/ar/stations/ad-dar-al-baida",
     "count": 1
    },
    {
@@ -10186,6 +10221,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/lines/blue-line": [
+   {
+    "path": "/ar/stations/ad-dar-al-baida",
+    "count": 1
+   }
+  ],
   "Yandex": [
    {
     "path": "/ru.html",
@@ -10208,13 +10249,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1373,
+   "count": 1375,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 324,
+   "count": 328,
    "ref_scheme": "g"
   },
   {
@@ -10492,12 +10533,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1864
+   "count": 1868
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 417
+   "count": 419
   },
   {
    "id": "(unknown)",
@@ -10549,7 +10590,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1911
+   "count": 1915
   },
   {
    "id": "AE",
@@ -10569,7 +10610,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 30
+   "count": 32
   },
   {
    "id": "NL",
@@ -10771,7 +10812,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1866
+   "count": 1872
   },
   {
    "id": "tablet",
@@ -10798,12 +10839,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1218
+   "count": 1220
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1083
+   "count": 1087
   },
   {
    "name": "",
@@ -10819,12 +10860,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1071
+   "count": 1075
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 825
+   "count": 827
   },
   {
    "id": "Windows",
