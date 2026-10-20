@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T12:11:50Z",
+ "generated": "2026-10-20T13:24:00Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2315,
-  "total_events": 1304,
-  "total_utc": 2315,
+  "total": 2338,
+  "total_events": 1316,
+  "total_utc": 2338,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2315
+    "monthly": 2338
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 146
+    "weekly": 169
    },
    {
     "day": "2026-10-20",
@@ -10982,8 +10982,8 @@
      8,
      17,
      7,
-     7,
-     0,
+     21,
+     9,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 62
+    "daily": 85
    },
    {
     "day": "2026-10-21",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 628,
+   "count": 635,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11051,7 +11051,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 10
+    "2026-10-20": 17
    }
   },
   {
@@ -11059,7 +11059,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 470,
+   "count": 476,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11073,7 +11073,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 8
+    "2026-10-20": 14
    }
   },
   {
@@ -11222,14 +11222,15 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 8,
+   "count": 9,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
     "2026-10-13": 1,
     "2026-10-16": 2,
     "2026-10-17": 1,
-    "2026-10-19": 2
+    "2026-10-19": 2,
+    "2026-10-20": 1
    }
   },
   {
@@ -11751,6 +11752,18 @@
    }
   },
   {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1,
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "/districts/qurtubah",
    "path_id": 110768019,
    "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
@@ -11891,6 +11904,16 @@
    }
   },
   {
+   "path": "route/p_king_saud_university/jeddahrd",
+   "path_id": 113225476,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-20": 2
+   }
+  },
+  {
    "path": "/ar/destinations/olaya-towers",
    "path_id": 113080341,
    "title": "محطة مترو أبراج العليا: محطة بنك البلاد (المسار الأزرق)، 3 دقائق سيراً",
@@ -11962,6 +11985,17 @@
    "count": 2,
    "daily": {
     "2026-10-17": 2
+   }
+  },
+  {
+   "path": "/destinations/sahara-mall",
+   "path_id": 112492787,
+   "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-20": 1
    }
   },
   {
@@ -12046,6 +12080,17 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
+   }
+  },
+  {
+   "path": "/ar/lines/orange-line",
+   "path_id": 112221279,
+   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-20": 1
    }
   },
   {
@@ -12357,17 +12402,6 @@
    "count": 2,
    "daily": {
     "2026-10-10": 2
-   }
-  },
-  {
-   "path": "station/murabba/from",
-   "path_id": 110779379,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-12": 1
    }
   },
   {
@@ -12869,6 +12903,56 @@
    }
   },
   {
+   "path": "route/wurud2/yarmuk",
+   "path_id": 113254819,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-hammadi-hospital",
+   "path_id": 113252481,
+   "title": "محطة مترو مستشفى الحمادي (العليا): محطة العروبة، 12 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "app/open/-",
+   "path_id": 113252275,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "route/wurud/murabba",
+   "path_id": 113244450,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "route/murabba/wurud",
+   "path_id": 113244159,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "route/kfl/gosi",
    "path_id": 113241137,
    "title": "en|map|ok",
@@ -12903,16 +12987,6 @@
    "path_id": 113228104,
    "title": "قواعد وغرامات مترو الرياض 2026: التذاكر وبطاقة درب والأخطاء الشائعة",
    "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-20": 1
-   }
-  },
-  {
-   "path": "route/p_king_saud_university/jeddahrd",
-   "path_id": 113225476,
-   "title": "en|map|ok",
-   "event": true,
    "count": 1,
    "daily": {
     "2026-10-20": 1
@@ -13469,16 +13543,6 @@
    }
   },
   {
-   "path": "/destinations/sahara-mall",
-   "path_id": 112492787,
-   "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
    "path": "route/salam/jeddahrd",
    "path_id": 112487905,
    "title": "en|search|ok",
@@ -13802,16 +13866,6 @@
    "path": "/ar/stations/jeddah-road",
    "path_id": 112221462,
    "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/lines/orange-line",
-   "path_id": 112221279,
-   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
    "event": false,
    "count": 1,
    "daily": {
@@ -18741,9 +18795,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1011,
-  "events_total": 1304,
-  "goatcounter_total_with_events": 2315,
+  "visits": 1022,
+  "events_total": 1316,
+  "goatcounter_total_with_events": 2338,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18763,7 +18817,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 39
+   "2026-10-20": 50
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18778,15 +18832,15 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 10
+   "2026-10-20": 16
   },
-  "visitor_days": 514,
-  "return_rate": 0.086,
-  "routes": 341,
+  "visitor_days": 520,
+  "return_rate": 0.085,
+  "routes": 345,
   "routes_not_found": 0,
   "routes_per_visit": 0.34,
-  "routes_per_visitor_day": 0.61,
-  "share_rate": 0.015,
+  "routes_per_visitor_day": 0.62,
+  "share_rate": 0.014,
   "shares": {
    "whatsapp": 1,
    "copy": 1,
@@ -18865,7 +18919,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 470,
+   "new": 476,
    "return": 44
   },
   "top_routes": [
@@ -18884,6 +18938,10 @@
    {
     "name": "wizarat > alinma",
     "count": 3
+   },
+   {
+    "name": "p_king_saud_university > jeddahrd",
+    "count": 2
    },
    {
     "name": "salam > p_panorama_mall",
@@ -18923,10 +18981,6 @@
    },
    {
     "name": "malaz > sab",
-    "count": 2
-   },
-   {
-    "name": "ksu > hamra",
     "count": 2
    }
   ],
@@ -18986,6 +19040,10 @@
     "count": 10
    },
    {
+    "name": "jeddahrd",
+    "count": 9
+   },
+   {
     "name": "sab",
     "count": 9
    },
@@ -19008,10 +19066,6 @@
    {
     "name": "p_national_museum",
     "count": 8
-   },
-   {
-    "name": "jeddahrd",
-    "count": 8
    }
   ]
  },
@@ -19019,7 +19073,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 416
+    "count": 423
    },
    {
     "name": "tiktok_ad",
@@ -19171,7 +19225,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 6
+    "count": 7
    },
    {
     "name": "(direct or unknown)",
@@ -19450,6 +19504,12 @@
     "count": 2
    }
   ],
+  "/destinations/sahara-mall": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/king-faisal": [
    {
     "name": "Google",
@@ -19482,6 +19542,16 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/ar/lines/orange-line": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/lines/orange-line",
+    "count": 1
    }
   ],
   "/ar/destinations/panorama-mall": [
@@ -19583,25 +19653,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/stations/king-salman-oasis": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 416
+    "count": 423
    },
    {
     "path": "/ar/map",
@@ -19702,16 +19760,16 @@
     "count": 8
    },
    {
+    "path": "/ar/districts/al-arid",
+    "count": 7
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 7
    },
    {
     "path": "/ar/districts/qurtubah",
     "count": 7
-   },
-   {
-    "path": "/ar/districts/al-arid",
-    "count": 6
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -19814,6 +19872,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/sahara-mall",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/king-faisal",
     "count": 2
    },
@@ -19862,14 +19924,6 @@
     "count": 2
    },
    {
-    "path": "/stations/king-salman-oasis",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-rawdah",
-    "count": 2
-   },
-   {
     "path": "/ar/timings",
     "count": 1
    },
@@ -19879,6 +19933,10 @@
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
+    "path": "/ar/lines/orange-line",
     "count": 1
    },
    {
@@ -20122,6 +20180,12 @@
     "count": 2
    }
   ],
+  "riyadhmetro.fyi/lines/orange-line": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/stations/al-malaz": [
    {
     "path": "/ar/stations",
@@ -20132,13 +20196,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1342,
+   "count": 1361,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 313,
+   "count": 317,
    "ref_scheme": "g"
   },
   {
@@ -20416,12 +20480,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1832
+   "count": 1853
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 411
+   "count": 413
   },
   {
    "id": "(unknown)",
@@ -20473,12 +20537,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1877
+   "count": 1893
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 85
+   "count": 87
   },
   {
    "id": "US",
@@ -20493,7 +20557,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 28
+   "count": 30
   },
   {
    "id": "NL",
@@ -20504,6 +20568,11 @@
    "id": "IN",
    "name": "India",
    "count": 17
+  },
+  {
+   "id": "BH",
+   "name": "Bahrain",
+   "count": 13
   },
   {
    "id": "DE",
@@ -20519,11 +20588,6 @@
    "id": "ES",
    "name": "Spain",
    "count": 11
-  },
-  {
-   "id": "BH",
-   "name": "Bahrain",
-   "count": 10
   },
   {
    "id": "CH",
@@ -20695,7 +20759,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1832
+   "count": 1848
   },
   {
    "id": "tablet",
@@ -20705,12 +20769,12 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 352
+   "count": 354
   },
   {
    "id": "desktophd",
    "name": "",
-   "count": 57
+   "count": 62
   },
   {
    "id": "unknown",
@@ -20722,12 +20786,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1198
+   "count": 1210
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1063
+   "count": 1074
   },
   {
    "name": "",
@@ -20743,17 +20807,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1047
+   "count": 1058
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 815
+   "count": 820
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 301
+   "count": 308
   },
   {
    "id": "macOS",
