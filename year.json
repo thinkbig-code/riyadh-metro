@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-20T09:15:48Z",
+ "generated": "2026-10-20T10:12:11Z",
  "start": "2025-10-20",
  "end": "2026-10-21",
  "total": {
-  "total": 2278,
-  "total_events": 1286,
-  "total_utc": 2278,
+  "total": 2285,
+  "total_events": 1290,
+  "total_utc": 2285,
   "stats": [
    {
     "day": "2025-10-20",
@@ -10418,7 +10418,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2278
+    "monthly": 2285
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 109
+    "weekly": 116
    },
    {
     "day": "2026-10-20",
@@ -10979,8 +10979,8 @@
      5,
      3,
      1,
-     2,
-     0,
+     8,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 25
+    "daily": 32
    },
    {
     "day": "2026-10-21",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 622,
+   "count": 623,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11051,7 +11051,7 @@
     "2026-10-17": 49,
     "2026-10-18": 3,
     "2026-10-19": 11,
-    "2026-10-20": 4
+    "2026-10-20": 5
    }
   },
   {
@@ -11059,7 +11059,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 465,
+   "count": 466,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11073,7 +11073,7 @@
     "2026-10-17": 46,
     "2026-10-18": 3,
     "2026-10-19": 9,
-    "2026-10-20": 3
+    "2026-10-20": 4
    }
   },
   {
@@ -11475,6 +11475,19 @@
    }
   },
   {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-saadah",
    "path_id": 110638521,
    "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
@@ -11710,18 +11723,6 @@
    }
   },
   {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-10": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
    "path": "route/wizarat/alinma",
    "path_id": 110527795,
    "title": "en|geo|ok",
@@ -11754,6 +11755,17 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-15": 1
+   }
+  },
+  {
+   "path": "station/mof/to",
+   "path_id": 110415608,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-20": 1
    }
   },
   {
@@ -12485,16 +12497,6 @@
    }
   },
   {
-   "path": "station/mof/to",
-   "path_id": 110415608,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
-   }
-  },
-  {
    "path": "geo/ok/wizarat",
    "path_id": 110415533,
    "title": "en",
@@ -12803,6 +12805,36 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/baida/mof",
+   "path_id": 113213111,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "geo/far/baida",
+   "path_id": 113213092,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-front",
+   "path_id": 113212564,
+   "title": "محطة مترو مركز واجهة الرياض للمعارض والمؤتمرات: محطة جامعة الأميرة نورة",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-20": 1
    }
   },
   {
@@ -18618,9 +18650,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 992,
-  "events_total": 1286,
-  "goatcounter_total_with_events": 2278,
+  "visits": 995,
+  "events_total": 1290,
+  "goatcounter_total_with_events": 2285,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -18640,7 +18672,7 @@
    "2026-10-17": 82,
    "2026-10-18": 36,
    "2026-10-19": 49,
-   "2026-10-20": 20
+   "2026-10-20": 23
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -18655,11 +18687,11 @@
    "2026-10-17": 50,
    "2026-10-18": 7,
    "2026-10-19": 12,
-   "2026-10-20": 5
+   "2026-10-20": 6
   },
-  "visitor_days": 509,
+  "visitor_days": 510,
   "return_rate": 0.086,
-  "routes": 336,
+  "routes": 337,
   "routes_not_found": 0,
   "routes_per_visit": 0.34,
   "routes_per_visitor_day": 0.61,
@@ -18735,10 +18767,10 @@
    "ok": 32,
    "fail": 3,
    "outside": 3,
-   "far": 2
+   "far": 3
   },
   "visitors_new_return": {
-   "new": 465,
+   "new": 466,
    "return": 44
   },
   "top_routes": [
@@ -18900,7 +18932,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 70
+    "count": 71
    },
    {
     "name": "Google",
@@ -19123,6 +19155,12 @@
     "count": 4
    }
   ],
+  "/stations": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/districts/al-saadah": [
    {
     "name": "Google",
@@ -19219,12 +19257,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/stations": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/destinations/gold-souq": [
@@ -19534,7 +19566,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 70
+    "count": 71
    }
   ],
   "Google": [
@@ -19587,6 +19619,10 @@
     "count": 4
    },
    {
+    "path": "/stations",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 4
    },
@@ -19600,10 +19636,6 @@
    },
    {
     "path": "/districts/al-uraija",
-    "count": 3
-   },
-   {
-    "path": "/stations",
     "count": 3
    },
    {
@@ -19975,13 +20007,13 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 299,
+   "count": 301,
    "ref_scheme": "g"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 247,
+   "count": 252,
    "ref_scheme": "o"
   },
   {
@@ -20241,12 +20273,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1811
+   "count": 1817
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 395
+   "count": 396
   },
   {
    "id": "(unknown)",
@@ -20298,7 +20330,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1845
+   "count": 1852
   },
   {
    "id": "AE",
@@ -20520,7 +20552,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1816
+   "count": 1823
   },
   {
    "id": "tablet",
@@ -20547,7 +20579,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1170
+   "count": 1177
   },
   {
    "id": "Safari",
@@ -20573,7 +20605,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 794
+   "count": 801
   },
   {
    "id": "Windows",
