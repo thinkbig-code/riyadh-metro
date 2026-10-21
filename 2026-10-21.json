@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T09:15:50Z",
+ "generated": "2026-10-21T10:14:59Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2410,
+  "total": 2414,
   "total_events": 1335,
-  "total_utc": 2410,
+  "total_utc": 2414,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2410
+    "monthly": 2414
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 241
+    "weekly": 245
    },
    {
     "day": "2026-10-20",
@@ -929,8 +929,8 @@
      2,
      1,
      0,
-     0,
-     0,
+     3,
+     1,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 29
+    "daily": 33
    },
    {
     "day": "2026-10-22",
@@ -1555,6 +1555,18 @@
    }
   },
   {
+   "path": "/ar/lines/orange-line",
+   "path_id": 112221279,
+   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/destinations/lulu-hypermarket-murabba",
    "path_id": 112134243,
    "title": "Lulu Hypermarket Murabba Metro Station: Al Muorabba (Blue Line), 3 min walk",
@@ -1802,6 +1814,18 @@
    }
   },
   {
+   "path": "/districts/al-rawdah",
+   "path_id": 110465981,
+   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/ar/destinations/gold-souq",
    "path_id": 110461167,
    "title": "محطة مترو سوق الذهب بالرياض: محطة قصر الحكم، 5 دقائق سيراً",
@@ -2022,6 +2046,17 @@
    }
   },
   {
+   "path": "/ar/stations/sultanah",
+   "path_id": 112493653,
+   "title": "محطة سلطانة، مترو الرياض: المسار البرتقالي (رقم 46)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/destinations/sahara-mall",
    "path_id": 112492787,
    "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
@@ -2114,17 +2149,6 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
-   }
-  },
-  {
-   "path": "/ar/lines/orange-line",
-   "path_id": 112221279,
-   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-20": 1
    }
   },
   {
@@ -2515,17 +2539,6 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/districts/al-rawdah",
-   "path_id": 110465981,
-   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-13": 1
    }
   },
   {
@@ -2925,6 +2938,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-chamber-of-commerce",
+   "path_id": 113530866,
+   "title": "محطة مترو غرفة الرياض: محطة المربع (المسار الأزرق)، 10 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
    }
   },
   {
@@ -3771,16 +3794,6 @@
    "path": "/destinations/atyaf-mall",
    "path_id": 112505051,
    "title": "Atyaf Mall Metro Station: Al Yarmuk (Purple Line), 5 min walk",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/stations/sultanah",
-   "path_id": 112493653,
-   "title": "محطة سلطانة، مترو الرياض: المسار البرتقالي (رقم 46)",
    "event": false,
    "count": 1,
    "daily": {
@@ -9010,9 +9023,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1075,
+  "visits": 1079,
   "events_total": 1335,
-  "goatcounter_total_with_events": 2410,
+  "goatcounter_total_with_events": 2414,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9033,7 +9046,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 24
+   "2026-10-21": 28
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9575,6 +9588,20 @@
     "count": 1
    }
   ],
+  "/ar/lines/orange-line": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/lines/orange-line",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/sultanah",
+    "count": 1
+   }
+  ],
   "/destinations/lulu-hypermarket-murabba": [
    {
     "name": "Google",
@@ -9705,6 +9732,12 @@
     "count": 1
    }
   ],
+  "/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/destinations/gold-souq": [
    {
     "name": "Google",
@@ -9793,6 +9826,12 @@
     "count": 2
    }
   ],
+  "/ar/stations/sultanah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/destinations/sahara-mall": [
    {
     "name": "Google",
@@ -9831,16 +9870,6 @@
    {
     "name": "Google",
     "count": 2
-   }
-  ],
-  "/ar/lines/orange-line": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/lines/orange-line",
-    "count": 1
    }
   ],
   "/ar/destinations/panorama-mall": [
@@ -9882,18 +9911,6 @@
    }
   ],
   "/destinations/jawazat": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/destinations/al-batha": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/ar/districts/north-mathar": [
    {
     "name": "Google",
     "count": 2
@@ -10065,6 +10082,10 @@
     "count": 3
    },
    {
+    "path": "/districts/al-rawdah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/gold-souq",
     "count": 3
    },
@@ -10125,6 +10146,10 @@
     "count": 2
    },
    {
+    "path": "/ar/stations/sultanah",
+    "count": 2
+   },
+   {
     "path": "/destinations/sahara-mall",
     "count": 2
    },
@@ -10153,12 +10178,8 @@
     "count": 2
    },
    {
-    "path": "/destinations/al-batha",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/north-mathar",
-    "count": 2
+    "path": "/ar/lines/orange-line",
+    "count": 1
    },
    {
     "path": "/ar/timings",
@@ -10174,10 +10195,6 @@
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
-    "count": 1
-   },
-   {
-    "path": "/ar/lines/orange-line",
     "count": 1
    },
    {
@@ -10409,6 +10426,18 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/lines/orange-line": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/sultanah": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/jawazat": [
    {
     "path": "/destinations/lulu-hypermarket-murabba",
@@ -10472,12 +10501,6 @@
     "path": "/ru.html",
     "count": 2
    }
-  ],
-  "riyadhmetro.fyi/lines/orange-line": [
-   {
-    "path": "/ar/lines/orange-line",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
@@ -10489,7 +10512,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 345,
+   "count": 348,
    "ref_scheme": "g"
   },
   {
@@ -10785,12 +10808,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1892
+   "count": 1895
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 434
+   "count": 435
   },
   {
    "id": "(unknown)",
@@ -10842,7 +10865,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1953
+   "count": 1957
   },
   {
    "id": "AE",
@@ -11064,7 +11087,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1907
+   "count": 1909
   },
   {
    "id": "tablet",
@@ -11079,7 +11102,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 62
+   "count": 64
   },
   {
    "id": "unknown",
@@ -11091,12 +11114,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1248
+   "count": 1251
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1104
+   "count": 1105
   },
   {
    "name": "",
@@ -11112,17 +11135,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1090
+   "count": 1091
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 847
+   "count": 848
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 316
+   "count": 318
   },
   {
    "id": "macOS",
