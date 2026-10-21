@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T12:12:21Z",
+ "generated": "2026-10-21T13:23:07Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2421,
-  "total_events": 1337,
-  "total_utc": 2421,
+  "total": 2429,
+  "total_events": 1339,
+  "total_utc": 2429,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2421
+    "monthly": 2429
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 252
+    "weekly": 260
    },
    {
     "day": "2026-10-20",
@@ -932,8 +932,8 @@
      3,
      1,
      6,
+     8,
      1,
-     0,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 40
+    "daily": 48
    },
    {
     "day": "2026-10-22",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 650,
+   "count": 651,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1002,7 +1002,7 @@
     "2026-10-18": 3,
     "2026-10-19": 11,
     "2026-10-20": 27,
-    "2026-10-21": 5
+    "2026-10-21": 6
    }
   },
   {
@@ -1010,7 +1010,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 486,
+   "count": 488,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1025,7 +1025,7 @@
     "2026-10-18": 3,
     "2026-10-19": 9,
     "2026-10-20": 20,
-    "2026-10-21": 4
+    "2026-10-21": 6
    }
   },
   {
@@ -1033,7 +1033,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 71,
+   "count": 73,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1046,7 +1046,7 @@
     "2026-10-18": 6,
     "2026-10-19": 7,
     "2026-10-20": 11,
-    "2026-10-21": 2
+    "2026-10-21": 4
    }
   },
   {
@@ -1131,7 +1131,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1144,7 +1144,7 @@
     "2026-10-18": 1,
     "2026-10-19": 2,
     "2026-10-20": 1,
-    "2026-10-21": 1
+    "2026-10-21": 2
    }
   },
   {
@@ -1448,6 +1448,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-11": 2,
+    "2026-10-20": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -1684,17 +1696,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-maseef",
-   "path_id": 111125799,
-   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-11": 2,
-    "2026-10-20": 1
-   }
-  },
-  {
    "path": "/districts/al-uraija",
    "path_id": 111023725,
    "title": "Nearest Metro Station to Al Uraija, Riyadh: Dhahrat Al Badiah, 2.0 km",
@@ -1928,6 +1929,16 @@
     "2026-10-07": 1,
     "2026-10-15": 1,
     "2026-10-19": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-wizarat",
+   "path_id": 113625069,
+   "title": "أقرب محطة مترو لحي الوزارات في الرياض: محطة الوزارات، 0.5 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 2
    }
   },
   {
@@ -2945,16 +2956,6 @@
    "path": "/ar/districts/al-mathar",
    "path_id": 113625690,
    "title": "أقرب محطة مترو لحي المعذر في الرياض: محطة وزارة الداخلية، 2.4 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-wizarat",
-   "path_id": 113625069,
-   "title": "أقرب محطة مترو لحي الوزارات في الرياض: محطة الوزارات، 0.5 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -9044,9 +9045,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1084,
-  "events_total": 1337,
-  "goatcounter_total_with_events": 2421,
+  "visits": 1090,
+  "events_total": 1339,
+  "goatcounter_total_with_events": 2429,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9067,7 +9068,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 33
+   "2026-10-21": 39
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9083,9 +9084,9 @@
    "2026-10-18": 7,
    "2026-10-19": 12,
    "2026-10-20": 24,
-   "2026-10-21": 5
+   "2026-10-21": 7
   },
-  "visitor_days": 533,
+  "visitor_days": 535,
   "return_rate": 0.088,
   "routes": 351,
   "routes_not_found": 0,
@@ -9170,7 +9171,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 486,
+   "new": 488,
    "return": 47
   },
   "top_routes": [
@@ -9347,6 +9348,10 @@
     "count": 2
    },
    {
+    "name": "www.bing.com",
+    "count": 2
+   },
+   {
     "name": "www.facebook.com",
     "count": 2
    },
@@ -9361,10 +9366,6 @@
    {
     "name": "riyadhmetro.fyi/destinations/lulu-hypermarket-murabba",
     "count": 2
-   },
-   {
-    "name": "www.bing.com",
-    "count": 1
    },
    {
     "name": "www.ecosia.org",
@@ -9394,7 +9395,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 56
+    "count": 58
    },
    {
     "name": "(direct or unknown)",
@@ -9442,7 +9443,7 @@
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/map",
-    "count": 4
+    "count": 5
    },
    {
     "name": "(direct or unknown)",
@@ -9581,6 +9582,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-maseef": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -9697,12 +9704,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-maseef": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
   "/districts/al-uraija": [
    {
     "name": "Google",
@@ -9782,6 +9783,16 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-wizarat": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
     "count": 1
    }
   ],
@@ -9930,12 +9941,6 @@
     "name": "Google",
     "count": 1
    }
-  ],
-  "/destinations/jawazat": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -10009,6 +10014,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-wizarat",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/panorama-mall",
     "count": 1
    },
@@ -10032,7 +10041,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 56
+    "count": 58
    },
    {
     "path": "/map",
@@ -10079,6 +10088,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/al-maseef",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/al-wisham",
     "count": 4
    },
@@ -10092,10 +10105,6 @@
    },
    {
     "path": "/ar/destinations/hayat-national-hospital-rabwah",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/al-maseef",
     "count": 3
    },
    {
@@ -10195,10 +10204,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/jawazat",
-    "count": 2
-   },
-   {
     "path": "/ar/lines/orange-line",
     "count": 1
    },
@@ -10208,6 +10213,10 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-wizarat",
     "count": 1
    },
    {
@@ -10239,6 +10248,16 @@
     "count": 2
    }
   ],
+  "www.bing.com": [
+   {
+    "path": "/ar/map",
+    "count": 3
+   },
+   {
+    "path": "/",
+    "count": 2
+   }
+  ],
   "www.facebook.com": [
    {
     "path": "/ur.html",
@@ -10263,16 +10282,6 @@
    {
     "path": "/",
     "count": 2
-   }
-  ],
-  "www.bing.com": [
-   {
-    "path": "/ar/map",
-    "count": 3
-   },
-   {
-    "path": "/",
-    "count": 1
    }
   ],
   "www.ecosia.org": [
@@ -10356,7 +10365,7 @@
   "riyadhmetro.fyi/ar/map": [
    {
     "path": "/ar.html",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/districts",
@@ -10533,7 +10542,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 349,
+   "count": 353,
    "ref_scheme": "g"
   },
   {
@@ -10557,7 +10566,7 @@
   {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
-   "count": 29,
+   "count": 31,
    "ref_scheme": "h"
   },
   {
@@ -10581,7 +10590,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 7,
+   "count": 9,
    "ref_scheme": "h"
   },
   {
@@ -10829,12 +10838,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1896
+   "count": 1899
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 439
+   "count": 444
   },
   {
    "id": "(unknown)",
@@ -10891,7 +10900,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1962
+   "count": 1970
   },
   {
    "id": "AE",
@@ -11113,7 +11122,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1914
+   "count": 1921
   },
   {
    "id": "tablet",
@@ -11123,7 +11132,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 369
+   "count": 370
   },
   {
    "id": "desktophd",
@@ -11140,7 +11149,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1253
+   "count": 1261
   },
   {
    "id": "Safari",
@@ -11166,12 +11175,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 848
+   "count": 855
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 320
+   "count": 321
   },
   {
    "id": "macOS",
