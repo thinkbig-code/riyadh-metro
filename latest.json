@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T15:14:03Z",
+ "generated": "2026-10-21T16:14:52Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2450,
-  "total_events": 1348,
-  "total_utc": 2450,
+  "total": 2458,
+  "total_events": 1353,
+  "total_utc": 2458,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2450
+    "monthly": 2458
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 281
+    "weekly": 289
    },
    {
     "day": "2026-10-20",
@@ -935,13 +935,13 @@
      8,
      7,
      15,
-     0,
-     0,
+     2,
+     6,
      0,
      0,
      0
     ],
-    "daily": 69
+    "daily": 77
    },
    {
     "day": "2026-10-22",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 653,
+   "count": 654,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1002,7 +1002,7 @@
     "2026-10-18": 3,
     "2026-10-19": 11,
     "2026-10-20": 27,
-    "2026-10-21": 8
+    "2026-10-21": 9
    }
   },
   {
@@ -1054,7 +1054,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 49,
+   "count": 50,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1068,7 +1068,7 @@
     "2026-10-18": 4,
     "2026-10-19": 3,
     "2026-10-20": 4,
-    "2026-10-21": 3
+    "2026-10-21": 4
    }
   },
   {
@@ -1076,7 +1076,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 23,
+   "count": 24,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1087,7 +1087,8 @@
     "2026-10-16": 3,
     "2026-10-17": 1,
     "2026-10-19": 4,
-    "2026-10-20": 1
+    "2026-10-20": 1,
+    "2026-10-21": 1
    }
   },
   {
@@ -1698,6 +1699,18 @@
    }
   },
   {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-17": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "/districts/ar-rabwah",
    "path_id": 111168177,
    "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
@@ -1864,6 +1877,18 @@
    }
   },
   {
+   "path": "station/malaz/to",
+   "path_id": 110411389,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "place/p_granada_mall/from",
    "path_id": 110301445,
    "title": "en|name",
@@ -1937,6 +1962,16 @@
    "path": "/ar/districts/al-wizarat",
    "path_id": 113625069,
    "title": "أقرب محطة مترو لحي الوزارات في الرياض: محطة الوزارات، 0.5 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 2
+   }
+  },
+  {
+   "path": "/destinations/al-nakheel-mall",
+   "path_id": 113432636,
+   "title": "Al Nakheel Mall Metro Station: Riyadh Exhibition Center (Red Line)",
    "event": false,
    "count": 2,
    "daily": {
@@ -2317,17 +2352,6 @@
    }
   },
   {
-   "path": "station/salam/from",
-   "path_id": 111702847,
-   "title": "ar|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-12": 1,
-    "2026-10-17": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-duraihemiyah",
    "path_id": 111560480,
    "title": "أقرب محطة مترو لحي الدريهمية في الرياض: محطة سلطانة، 3.0 كم",
@@ -2698,17 +2722,6 @@
    }
   },
   {
-   "path": "station/malaz/to",
-   "path_id": 110411389,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
    "path": "route/khashm/p_kingdom_centre",
    "path_id": 110409517,
    "title": "en|search|ok",
@@ -2999,6 +3012,26 @@
    }
   },
   {
+   "path": "view/salam/malaz",
+   "path_id": 113908009,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
+   }
+  },
+  {
+   "path": "route/salam/malaz",
+   "path_id": 113907533,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "route/baida/aziziah",
    "path_id": 113765294,
    "title": "ar|map|ok",
@@ -3062,16 +3095,6 @@
    "path": "/ar/destinations/riyadh-chamber-of-commerce",
    "path_id": 113530866,
    "title": "محطة مترو غرفة الرياض: محطة المربع (المسار الأزرق)، 10 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/destinations/al-nakheel-mall",
-   "path_id": 113432636,
-   "title": "Al Nakheel Mall Metro Station: Riyadh Exhibition Center (Red Line)",
    "event": false,
    "count": 1,
    "daily": {
@@ -9101,9 +9124,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1102,
-  "events_total": 1348,
-  "goatcounter_total_with_events": 2450,
+  "visits": 1105,
+  "events_total": 1353,
+  "goatcounter_total_with_events": 2458,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9124,7 +9147,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 51
+   "2026-10-21": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9140,11 +9163,11 @@
    "2026-10-18": 7,
    "2026-10-19": 12,
    "2026-10-20": 24,
-   "2026-10-21": 10
+   "2026-10-21": 11
   },
-  "visitor_days": 538,
-  "return_rate": 0.091,
-  "routes": 357,
+  "visitor_days": 539,
+  "return_rate": 0.093,
+  "routes": 358,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
   "routes_per_visitor_day": 0.62,
@@ -9156,7 +9179,7 @@
    "card": 1,
    "send": 1
   },
-  "failed_search_rate": 0.055,
+  "failed_search_rate": 0.054,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -9228,7 +9251,7 @@
   },
   "visitors_new_return": {
    "new": 489,
-   "return": 49
+   "return": 50
   },
   "top_routes": [
    {
@@ -9381,7 +9404,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 436
+    "count": 437
    },
    {
     "name": "tiktok_ad",
@@ -9493,6 +9516,10 @@
    },
    {
     "name": "riyadhmetro.fyi",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/al-nakheel-mall",
     "count": 1
    }
   ],
@@ -9852,6 +9879,12 @@
     "count": 1
    }
   ],
+  "/destinations/al-nakheel-mall": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/olaya-towers": [
    {
     "name": "Google",
@@ -9987,23 +10020,13 @@
     "name": "(direct or unknown)",
     "count": 2
    }
-  ],
-  "/ar/districts/al-manar": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 436
+    "count": 437
    },
    {
     "path": "/ar/map",
@@ -10075,10 +10098,6 @@
    },
    {
     "path": "/ar/destinations/panorama-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-manar",
     "count": 1
    }
   ],
@@ -10216,6 +10235,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/al-nakheel-mall",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/olaya-towers",
     "count": 2
    },
@@ -10285,10 +10308,6 @@
    },
    {
     "path": "/ar/destinations/panorama-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-manar",
     "count": 1
    }
   ],
@@ -10415,6 +10434,12 @@
    },
    {
     "path": "/ar.html",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/destinations/al-nakheel-mall": [
+   {
+    "path": "/map",
     "count": 1
    }
   ],
@@ -10592,13 +10617,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1399,
+   "count": 1405,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 360,
+   "count": 361,
    "ref_scheme": "g"
   },
   {
@@ -10894,7 +10919,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1908
+   "count": 1916
   },
   {
    "id": "ara",
@@ -10956,7 +10981,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1991
+   "count": 1999
   },
   {
    "id": "AE",
@@ -11178,7 +11203,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1936
+   "count": 1944
   },
   {
    "id": "tablet",
@@ -11205,12 +11230,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1275
+   "count": 1277
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1117
+   "count": 1123
   },
   {
    "name": "",
@@ -11226,12 +11251,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1103
+   "count": 1109
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 863
+   "count": 865
   },
   {
    "id": "Windows",
