@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T06:10:44Z",
+ "generated": "2026-10-21T07:26:39Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2407,
+  "total": 2410,
   "total_events": 1335,
-  "total_utc": 2407,
+  "total_utc": 2410,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2407
+    "monthly": 2410
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 238
+    "weekly": 241
    },
    {
     "day": "2026-10-20",
@@ -926,8 +926,8 @@
      0,
      0,
      4,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 26
+    "daily": 29
    },
    {
     "day": "2026-10-22",
@@ -1151,7 +1151,7 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 11,
+   "count": 12,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
@@ -1160,7 +1160,7 @@
     "2026-10-17": 1,
     "2026-10-19": 2,
     "2026-10-20": 2,
-    "2026-10-21": 1
+    "2026-10-21": 2
    }
   },
   {
@@ -2925,6 +2925,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/al-nakheel-mall",
+   "path_id": 113432636,
+   "title": "Al Nakheel Mall Metro Station: Riyadh Exhibition Center (Red Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
+   }
+  },
+  {
+   "path": "/districts/king-faisal",
+   "path_id": 113413853,
+   "title": "Nearest Metro Station to King Faisal, Riyadh: Al Hamra, 1.6 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
    }
   },
   {
@@ -8990,9 +9010,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1072,
+  "visits": 1075,
   "events_total": 1335,
-  "goatcounter_total_with_events": 2407,
+  "goatcounter_total_with_events": 2410,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9013,7 +9033,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 21
+   "2026-10-21": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9430,7 +9450,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 9
+    "count": 10
    },
    {
     "name": "(direct or unknown)",
@@ -9986,7 +10006,7 @@
    },
    {
     "path": "/ar/districts/al-arid",
-    "count": 9
+    "count": 10
    },
    {
     "path": "/ar/districts/middle-oraija",
@@ -10469,7 +10489,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 343,
+   "count": 345,
    "ref_scheme": "g"
   },
   {
@@ -10499,7 +10519,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 20,
+   "count": 21,
    "ref_scheme": "c"
   },
   {
@@ -10770,7 +10790,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 432
+   "count": 434
   },
   {
    "id": "(unknown)",
@@ -10790,7 +10810,7 @@
   {
    "id": "fra",
    "name": "French",
-   "count": 11
+   "count": 12
   },
   {
    "id": "spa",
@@ -10822,7 +10842,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1950
+   "count": 1953
   },
   {
    "id": "AE",
@@ -11044,7 +11064,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1904
+   "count": 1907
   },
   {
    "id": "tablet",
@@ -11071,7 +11091,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1245
+   "count": 1248
   },
   {
    "id": "Safari",
@@ -11097,7 +11117,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 844
+   "count": 847
   },
   {
    "id": "Windows",
