@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T16:14:52Z",
+ "generated": "2026-10-21T17:14:21Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2458,
+  "total": 2460,
   "total_events": 1353,
-  "total_utc": 2458,
+  "total_utc": 2460,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2458
+    "monthly": 2460
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 289
+    "weekly": 291
    },
    {
     "day": "2026-10-20",
@@ -936,12 +936,12 @@
      7,
      15,
      2,
-     6,
+     8,
      0,
      0,
      0
     ],
-    "daily": 77
+    "daily": 79
    },
    {
     "day": "2026-10-22",
@@ -2159,6 +2159,17 @@
    }
   },
   {
+   "path": "/ar/districts/ghirnatah",
+   "path_id": 112332486,
+   "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "geo/ok/salam",
    "path_id": 112324898,
    "title": "en",
@@ -3009,6 +3020,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-mughrazat",
+   "path_id": 113911151,
+   "title": "Nearest Metro Station to Al Mughrazat, Riyadh: Riyadh Exhibition Center, 1.2 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
    }
   },
   {
@@ -4095,16 +4116,6 @@
    "path": "/ar/destinations/al-suwaidi-park",
    "path_id": 112343147,
    "title": "محطة مترو حديقة السويدي: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/ghirnatah",
-   "path_id": 112332486,
-   "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -9124,9 +9135,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1105,
+  "visits": 1107,
   "events_total": 1353,
-  "goatcounter_total_with_events": 2458,
+  "goatcounter_total_with_events": 2460,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9147,7 +9158,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 54
+   "2026-10-21": 56
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9971,6 +9982,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/ghirnatah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/wadi-namar-park": [
    {
     "name": "Google",
@@ -10014,12 +10031,6 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/ar/districts/al-malqa": [
-   {
-    "name": "(direct or unknown)",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -10050,10 +10061,6 @@
    },
    {
     "path": "/ar/stations/jeddah-road",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-malqa",
     "count": 2
    },
    {
@@ -10272,6 +10279,10 @@
    },
    {
     "path": "/ar/districts/king-faisal",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/ghirnatah",
     "count": 2
    },
    {
@@ -10623,7 +10634,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 361,
+   "count": 363,
    "ref_scheme": "g"
   },
   {
@@ -10919,12 +10930,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1916
+   "count": 1917
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 456
+   "count": 457
   },
   {
    "id": "(unknown)",
@@ -10981,7 +10992,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1999
+   "count": 2001
   },
   {
    "id": "AE",
@@ -11203,7 +11214,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1944
+   "count": 1946
   },
   {
    "id": "tablet",
@@ -11230,7 +11241,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1277
+   "count": 1279
   },
   {
    "id": "Safari",
@@ -11256,7 +11267,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 865
+   "count": 867
   },
   {
    "id": "Windows",
