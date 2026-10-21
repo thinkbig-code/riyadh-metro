@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T20:08:49Z",
+ "generated": "2026-10-21T22:10:56Z",
  "start": "2026-09-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2480,
+  "total": 2483,
   "total_events": 1361,
-  "total_utc": 2480,
+  "total_utc": 2483,
   "stats": [
    {
     "day": "2026-09-21",
@@ -338,7 +338,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2480
+    "monthly": 2483
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      0
     ],
     "daily": 84,
-    "weekly": 311
+    "weekly": 314
    },
    {
     "day": "2026-10-20",
@@ -946,8 +946,8 @@
    {
     "day": "2026-10-22",
     "hourly": [
+     3,
      1,
-     0,
      0,
      0,
      0,
@@ -971,7 +971,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 4
    }
   ]
  },
@@ -1597,6 +1597,18 @@
    }
   },
   {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/ar/stations/jeddah-road",
    "path_id": 112221462,
    "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
@@ -1733,6 +1745,18 @@
     "2026-10-11": 1,
     "2026-10-16": 1,
     "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/ar/districts/north-mathar",
+   "path_id": 111103818,
+   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -2207,17 +2231,6 @@
    }
   },
   {
-   "path": "/ar/destinations/wadi-namar-park",
-   "path_id": 112323556,
-   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-yasmeen",
    "path_id": 112309648,
    "title": "أقرب محطة مترو لحي الياسمين في الرياض: محطة د. سليمان الحبيب، 2.1 كم",
@@ -2441,17 +2454,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/districts/north-mathar",
-   "path_id": 111103818,
-   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-12": 1
    }
   },
   {
@@ -3057,6 +3059,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-manar",
+   "path_id": 113942149,
+   "title": "Nearest Metro Station to Al Manar, Riyadh: Khurais Road, 1.4 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -9212,9 +9224,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1119,
+  "visits": 1122,
   "events_total": 1361,
-  "goatcounter_total_with_events": 2480,
+  "goatcounter_total_with_events": 2483,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9236,7 +9248,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 1
+   "2026-10-22": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9812,6 +9824,16 @@
     "count": 3
    }
   ],
+  "/ar/destinations/wadi-namar-park": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/stations/jeddah-road": [
    {
     "name": "(direct or unknown)",
@@ -9894,6 +9916,12 @@
    {
     "name": "chatgpt.com",
     "count": 1
+   }
+  ],
+  "/ar/districts/north-mathar": [
+   {
+    "name": "Google",
+    "count": 3
    }
   ],
   "/ar/districts/al-awaly": [
@@ -10072,16 +10100,6 @@
     "count": 2
    }
   ],
-  "/ar/destinations/wadi-namar-park": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-yasmeen": [
    {
     "name": "Google",
@@ -10098,16 +10116,6 @@
    {
     "name": "Google",
     "count": 2
-   }
-  ],
-  "/ar/destinations/panorama-mall": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
    }
   ]
  },
@@ -10179,10 +10187,6 @@
    },
    {
     "path": "/ar/districts/al-wizarat",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/panorama-mall",
     "count": 1
    }
   ],
@@ -10273,6 +10277,10 @@
    },
    {
     "path": "/ar/destinations/hayat-national-hospital-rabwah",
+    "count": 3
+   },
+   {
+    "path": "/ar/districts/north-mathar",
     "count": 3
    },
    {
@@ -10380,6 +10388,10 @@
     "count": 2
    },
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
     "path": "/districts/qurtubah",
     "count": 1
    },
@@ -10389,14 +10401,6 @@
    },
    {
     "path": "/ar/stations/ad-dar-al-baida",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/wadi-namar-park",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/panorama-mall",
     "count": 1
    }
   ],
@@ -10580,6 +10584,10 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 2
+   },
+   {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
     "count": 2
    },
@@ -10601,10 +10609,6 @@
    },
    {
     "path": "/districts/ar-rabwah",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/wadi-namar-park",
     "count": 1
    }
   ],
@@ -10712,7 +10716,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 371,
+   "count": 373,
    "ref_scheme": "g"
   },
   {
@@ -10742,7 +10746,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 21,
+   "count": 22,
    "ref_scheme": "c"
   },
   {
@@ -11008,12 +11012,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1930
+   "count": 1931
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 463
+   "count": 465
   },
   {
    "id": "(unknown)",
@@ -11070,7 +11074,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2021
+   "count": 2024
   },
   {
    "id": "AE",
@@ -11292,7 +11296,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1965
+   "count": 1968
   },
   {
    "id": "tablet",
@@ -11319,12 +11323,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1286
+   "count": 1287
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1126
+   "count": 1128
   },
   {
    "name": "",
@@ -11340,12 +11344,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1122
+   "count": 1124
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 874
+   "count": 875
   },
   {
    "id": "Windows",
