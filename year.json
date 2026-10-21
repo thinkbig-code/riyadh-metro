@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T05:13:40Z",
+ "generated": "2026-10-21T06:11:57Z",
  "start": "2025-10-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2404,
+  "total": 2407,
   "total_events": 1335,
-  "total_utc": 2404,
+  "total_utc": 2407,
   "stats": [
    {
     "day": "2025-10-21",
@@ -10388,7 +10388,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2404
+    "monthly": 2407
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 151
+    "weekly": 154
    },
    {
     "day": "2026-10-21",
@@ -10975,7 +10975,7 @@
      1,
      0,
      0,
-     1,
+     4,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 26
    },
    {
     "day": "2026-10-22",
@@ -11594,6 +11594,17 @@
    }
   },
   {
+   "path": "/ar/stations/jeddah-road",
+   "path_id": 112221462,
+   "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 2
+   }
+  },
+  {
    "path": "/destinations/lulu-hypermarket-murabba",
    "path_id": 112134243,
    "title": "Lulu Hypermarket Murabba Metro Station: Al Muorabba (Blue Line), 3 min walk",
@@ -12153,17 +12164,6 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
-   }
-  },
-  {
-   "path": "/ar/stations/jeddah-road",
-   "path_id": 112221462,
-   "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-21": 1
    }
   },
   {
@@ -12975,6 +12975,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/king-salman-oasis",
+   "path_id": 113394795,
+   "title": "محطة واحة الملك سلمان، مترو الرياض: المسار الأحمر (رقم 27)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nahdah",
+   "path_id": 113373584,
+   "title": "أقرب محطة مترو لحي النهضة في الرياض: محطة الأندلس (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-21": 1
    }
   },
   {
@@ -19020,9 +19040,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1069,
+  "visits": 1072,
   "events_total": 1335,
-  "goatcounter_total_with_events": 2404,
+  "goatcounter_total_with_events": 2407,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19043,7 +19063,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 18
+   "2026-10-21": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19575,6 +19595,16 @@
     "count": 4
    }
   ],
+  "/ar/stations/jeddah-road": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "/destinations/lulu-hypermarket-murabba": [
    {
     "name": "Google",
@@ -19833,16 +19863,6 @@
     "count": 2
    }
   ],
-  "/ar/stations/jeddah-road": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/lines/orange-line",
-    "count": 1
-   }
-  ],
   "/ar/lines/orange-line": [
    {
     "name": "Google",
@@ -19937,6 +19957,10 @@
     "count": 2
    },
    {
+    "path": "/ar/stations/jeddah-road",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-malqa",
     "count": 2
    },
@@ -19974,10 +19998,6 @@
    },
    {
     "path": "/ar/destinations/diriyah",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/jeddah-road",
     "count": 1
    },
    {
@@ -20413,6 +20433,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/lines/orange-line": [
+   {
+    "path": "/ar/stations/jeddah-road",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/jawazat": [
    {
     "path": "/destinations/lulu-hypermarket-murabba",
@@ -20477,12 +20503,6 @@
     "count": 2
    }
   ],
-  "riyadhmetro.fyi/ar/lines/orange-line": [
-   {
-    "path": "/ar/stations/jeddah-road",
-    "count": 1
-   }
-  ],
   "riyadhmetro.fyi/lines/orange-line": [
    {
     "path": "/ar/lines/orange-line",
@@ -20493,13 +20513,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1388,
+   "count": 1390,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 342,
+   "count": 343,
    "ref_scheme": "g"
   },
   {
@@ -20795,12 +20815,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1890
+   "count": 1892
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 431
+   "count": 432
   },
   {
    "id": "(unknown)",
@@ -20852,7 +20872,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1947
+   "count": 1950
   },
   {
    "id": "AE",
@@ -21074,7 +21094,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1901
+   "count": 1904
   },
   {
    "id": "tablet",
@@ -21101,12 +21121,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1243
+   "count": 1245
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1103
+   "count": 1104
   },
   {
    "name": "",
@@ -21122,12 +21142,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1089
+   "count": 1090
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 842
+   "count": 844
   },
   {
    "id": "Windows",
