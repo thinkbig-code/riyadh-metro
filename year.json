@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-21T17:15:31Z",
+ "generated": "2026-10-21T18:11:48Z",
  "start": "2025-10-21",
  "end": "2026-10-22",
  "total": {
-  "total": 2460,
+  "total": 2462,
   "total_events": 1353,
-  "total_utc": 2460,
+  "total_utc": 2462,
   "stats": [
    {
     "day": "2025-10-21",
@@ -10388,7 +10388,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2460
+    "monthly": 2462
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 207
+    "weekly": 209
    },
    {
     "day": "2026-10-21",
@@ -10987,11 +10987,11 @@
      15,
      2,
      8,
-     0,
+     2,
      0,
      0
     ],
-    "daily": 79
+    "daily": 81
    },
    {
     "day": "2026-10-22",
@@ -11624,6 +11624,18 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
    "path": "view/kfl/yarmuk",
    "path_id": 112365338,
    "title": "en|details",
@@ -12103,17 +12115,6 @@
    }
   },
   {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
    "path": "/ar/destinations/al-yamamah-university",
    "path_id": 112559294,
    "title": "محطة مترو جامعة اليمامة: محطة بنك الأول (المسار الأزرق)",
@@ -12410,6 +12411,17 @@
    "daily": {
     "2026-10-12": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-foreign-affairs",
+   "path_id": 111741323,
+   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-21": 1
    }
   },
   {
@@ -15287,16 +15299,6 @@
    "path_id": 111770662,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/ministry-of-foreign-affairs",
-   "path_id": 111741323,
-   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-12": 1
@@ -19185,9 +19187,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1107,
+  "visits": 1109,
   "events_total": 1353,
-  "goatcounter_total_with_events": 2460,
+  "goatcounter_total_with_events": 2462,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19208,7 +19210,7 @@
    "2026-10-18": 36,
    "2026-10-19": 49,
    "2026-10-20": 79,
-   "2026-10-21": 56
+   "2026-10-21": 58
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19778,6 +19780,12 @@
     "count": 4
    }
   ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/stations/jeddah-road": [
    {
     "name": "(direct or unknown)",
@@ -19971,12 +19979,6 @@
   "/districts/al-nafel": [
    {
     "name": "chatgpt.com",
-    "count": 2
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
-   {
-    "name": "Google",
     "count": 2
    }
   ],
@@ -20240,6 +20242,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 3
    },
@@ -20301,10 +20307,6 @@
    },
    {
     "path": "/destinations/haraj-bin-qasim",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
     "count": 2
    },
    {
@@ -20684,7 +20686,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 363,
+   "count": 365,
    "ref_scheme": "g"
   },
   {
@@ -20985,7 +20987,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 457
+   "count": 459
   },
   {
    "id": "(unknown)",
@@ -21042,7 +21044,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2001
+   "count": 2003
   },
   {
    "id": "AE",
@@ -21264,7 +21266,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1946
+   "count": 1947
   },
   {
    "id": "tablet",
@@ -21296,7 +21298,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1123
+   "count": 1124
   },
   {
    "name": "",
@@ -21312,7 +21314,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1109
+   "count": 1110
   },
   {
    "id": "Android",
