@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T18:08:30Z",
+ "generated": "2026-10-22T19:18:48Z",
  "start": "2026-09-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2613,
-  "total_events": 1422,
-  "total_utc": 2613,
+  "total": 2619,
+  "total_events": 1423,
+  "total_utc": 2619,
   "stats": [
    {
     "day": "2026-09-22",
@@ -308,7 +308,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2613
+    "monthly": 2619
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 360
+    "weekly": 366
    },
    {
     "day": "2026-10-21",
@@ -938,10 +938,10 @@
      9,
      4,
      1,
-     2,
-     0
+     5,
+     3
     ],
-    "daily": 134
+    "daily": 140
    },
    {
     "day": "2026-10-23",
@@ -1035,7 +1035,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 83,
+   "count": 84,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1049,7 +1049,7 @@
     "2026-10-19": 7,
     "2026-10-20": 11,
     "2026-10-21": 5,
-    "2026-10-22": 9
+    "2026-10-22": 10
    }
   },
   {
@@ -1331,6 +1331,28 @@
    }
   },
   {
+   "path": "route/andalus/murabba",
+   "path_id": 114026133,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-22": 6
+   }
+  },
+  {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2,
+    "2026-10-22": 3
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/to",
    "path_id": 110299388,
    "title": "en|name",
@@ -1353,16 +1375,6 @@
     "2026-10-06": 1,
     "2026-10-11": 1,
     "2026-10-12": 3
-   }
-  },
-  {
-   "path": "route/andalus/murabba",
-   "path_id": 114026133,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 5,
-   "daily": {
-    "2026-10-22": 5
    }
   },
   {
@@ -1519,18 +1531,6 @@
    }
   },
   {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 2,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/ar/nearest-station",
    "path_id": 112000992,
    "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
@@ -1666,6 +1666,16 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/districts/al-rawabi",
+   "path_id": 114062966,
+   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-22": 3
    }
   },
   {
@@ -2143,16 +2153,6 @@
    "path": "/ar/districts/utayqah",
    "path_id": 114069559,
    "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-22": 2
-   }
-  },
-  {
-   "path": "/districts/al-rawabi",
-   "path_id": 114062966,
-   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
    "event": false,
    "count": 2,
    "daily": {
@@ -3254,6 +3254,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/lulu-hypermarket-murabba",
+   "path_id": 114095240,
+   "title": "محطة مترو لولو هايبر ماركت المربع: محطة المربع، 3 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -9749,9 +9759,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1191,
-  "events_total": 1422,
-  "goatcounter_total_with_events": 2613,
+  "visits": 1196,
+  "events_total": 1423,
+  "goatcounter_total_with_events": 2619,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9773,7 +9783,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 73
+   "2026-10-22": 78
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9794,7 +9804,7 @@
   },
   "visitor_days": 554,
   "return_rate": 0.099,
-  "routes": 380,
+  "routes": 381,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
   "routes_per_visitor_day": 0.64,
@@ -9887,7 +9897,7 @@
   "top_routes": [
    {
     "name": "andalus > murabba",
-    "count": 5
+    "count": 6
    },
    {
     "name": "kfl > yarmuk",
@@ -9968,6 +9978,10 @@
     "count": 11
    },
    {
+    "name": "andalus",
+    "count": 10
+   },
+   {
     "name": "p_kingdom_centre",
     "count": 10
    },
@@ -9981,10 +9995,6 @@
    },
    {
     "name": "sabic",
-    "count": 10
-   },
-   {
-    "name": "kbw",
     "count": 10
    }
   ],
@@ -10018,12 +10028,12 @@
     "count": 10
    },
    {
-    "name": "sab",
+    "name": "murabba",
     "count": 9
    },
    {
-    "name": "murabba",
-    "count": 8
+    "name": "sab",
+    "count": 9
    },
    {
     "name": "museum",
@@ -10117,7 +10127,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 65
+    "count": 66
    },
    {
     "name": "(direct or unknown)",
@@ -10270,6 +10280,16 @@
     "count": 1
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
@@ -10342,16 +10362,6 @@
     "count": 2
    }
   ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   }
-  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
@@ -10412,6 +10422,12 @@
    {
     "name": "Google",
     "count": 4
+   }
+  ],
+  "/districts/al-rawabi": [
+   {
+    "name": "(direct or unknown)",
+    "count": 3
    }
   ],
   "/ar/districts/ar-rabwah": [
@@ -10590,12 +10606,6 @@
     "count": 2
    }
   ],
-  "/districts/al-rawabi": [
-   {
-    "name": "(direct or unknown)",
-    "count": 2
-   }
-  ],
   "/ar/districts/al-wizarat": [
    {
     "name": "(direct or unknown)",
@@ -10712,15 +10722,15 @@
     "count": 3
    },
    {
+    "path": "/districts/al-rawabi",
+    "count": 3
+   },
+   {
     "path": "/ar.html",
     "count": 2
    },
    {
     "path": "/ar/stations/jeddah-road",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-rawabi",
     "count": 2
    },
    {
@@ -10783,7 +10793,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 65
+    "count": 66
    },
    {
     "path": "/map",
@@ -10836,6 +10846,10 @@
    {
     "path": "/stations",
     "count": 5
+   },
+   {
+    "path": "/districts/al-arid",
+    "count": 4
    },
    {
     "path": "/ar/districts/al-maseef",
@@ -10891,10 +10905,6 @@
    },
    {
     "path": "/ar/lines/orange-line",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-arid",
     "count": 2
    },
    {
@@ -11324,13 +11334,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1458,
+   "count": 1460,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 408,
+   "count": 412,
    "ref_scheme": "g"
   },
   {
@@ -11626,12 +11636,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2025
+   "count": 2029
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 498
+   "count": 500
   },
   {
    "id": "(unknown)",
@@ -11688,7 +11698,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2145
+   "count": 2151
   },
   {
    "id": "AE",
@@ -11910,12 +11920,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2063
+   "count": 2068
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 75
+   "count": 76
   },
   {
    "id": "desktop",
@@ -11937,12 +11947,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1370
+   "count": 1373
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1175
+   "count": 1178
   },
   {
    "name": "",
@@ -11958,12 +11968,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1171
+   "count": 1174
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 923
+   "count": 926
   },
   {
    "id": "Windows",
