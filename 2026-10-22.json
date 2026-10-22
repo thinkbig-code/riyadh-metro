@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T11:13:18Z",
+ "generated": "2026-10-22T12:13:29Z",
  "start": "2026-09-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2543,
-  "total_events": 1395,
-  "total_utc": 2543,
+  "total": 2552,
+  "total_events": 1398,
+  "total_utc": 2552,
   "stats": [
    {
     "day": "2026-09-22",
@@ -308,7 +308,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2543
+    "monthly": 2552
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 290
+    "weekly": 299
    },
    {
     "day": "2026-10-21",
@@ -931,8 +931,8 @@
      5,
      0,
      36,
-     3,
-     0,
+     10,
+     2,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 64
+    "daily": 73
    },
    {
     "day": "2026-10-23",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 667,
+   "count": 669,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1003,7 +1003,7 @@
     "2026-10-19": 11,
     "2026-10-20": 27,
     "2026-10-21": 13,
-    "2026-10-22": 9
+    "2026-10-22": 11
    }
   },
   {
@@ -1011,7 +1011,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 494,
+   "count": 495,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1027,7 +1027,7 @@
     "2026-10-19": 9,
     "2026-10-20": 20,
     "2026-10-21": 7,
-    "2026-10-22": 5
+    "2026-10-22": 6
    }
   },
   {
@@ -1035,7 +1035,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 75,
+   "count": 76,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1049,7 +1049,7 @@
     "2026-10-19": 7,
     "2026-10-20": 11,
     "2026-10-21": 5,
-    "2026-10-22": 1
+    "2026-10-22": 2
    }
   },
   {
@@ -1251,6 +1251,19 @@
    }
   },
   {
+   "path": "/ar/lines",
+   "path_id": 112883345,
+   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-19": 3,
+    "2026-10-20": 2,
+    "2026-10-21": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -1302,18 +1315,6 @@
     "2026-10-12": 1,
     "2026-10-14": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/lines",
-   "path_id": 112883345,
-   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-19": 3,
-    "2026-10-20": 2,
-    "2026-10-21": 1
    }
   },
   {
@@ -1474,6 +1475,26 @@
    }
   },
   {
+   "path": "view/andalus/murabba",
+   "path_id": 114026260,
+   "title": "en|opt_3",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 4
+   }
+  },
+  {
+   "path": "route/andalus/murabba",
+   "path_id": 114026133,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 4
+   }
+  },
+  {
    "path": "route/kfl/yarmuk",
    "path_id": 112365147,
    "title": "en|map|ok",
@@ -1593,26 +1614,6 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "view/andalus/murabba",
-   "path_id": 114026260,
-   "title": "en|opt_3",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 3
-   }
-  },
-  {
-   "path": "route/andalus/murabba",
-   "path_id": 114026133,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 3
    }
   },
   {
@@ -1762,6 +1763,18 @@
    "daily": {
     "2026-10-13": 2,
     "2026-10-18": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/ministry-of-foreign-affairs",
+   "path_id": 111741323,
+   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -2534,17 +2547,6 @@
    }
   },
   {
-   "path": "/ar/destinations/ministry-of-foreign-affairs",
-   "path_id": 111741323,
-   "title": "محطة مترو وزارة الخارجية: محطة الجوازات (المسار الأزرق)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-12": 1,
-    "2026-10-21": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-duraihemiyah",
    "path_id": 111560480,
    "title": "أقرب محطة مترو لحي الدريهمية في الرياض: محطة سلطانة، 3.0 كم",
@@ -3169,6 +3171,16 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-muruj",
+   "path_id": 114036982,
+   "title": "أقرب محطة مترو لحي المروج في الرياض: محطة المروج (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -9474,9 +9486,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1148,
-  "events_total": 1395,
-  "goatcounter_total_with_events": 2543,
+  "visits": 1154,
+  "events_total": 1398,
+  "goatcounter_total_with_events": 2552,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9498,7 +9510,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 30
+   "2026-10-22": 36
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9515,15 +9527,15 @@
    "2026-10-19": 12,
    "2026-10-20": 24,
    "2026-10-21": 13,
-   "2026-10-22": 7
+   "2026-10-22": 8
   },
-  "visitor_days": 548,
-  "return_rate": 0.099,
-  "routes": 372,
+  "visitor_days": 549,
+  "return_rate": 0.098,
+  "routes": 373,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
   "routes_per_visitor_day": 0.63,
-  "share_rate": 0.03,
+  "share_rate": 0.029,
   "shares": {
    "copy": 2,
    "whatsapp": 3,
@@ -9606,17 +9618,17 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 494,
+   "new": 495,
    "return": 54
   },
   "top_routes": [
    {
-    "name": "kfl > yarmuk",
+    "name": "andalus > murabba",
     "count": 4
    },
    {
-    "name": "andalus > murabba",
-    "count": 3
+    "name": "kfl > yarmuk",
+    "count": 4
    },
    {
     "name": "p_king_fahd_national_library > railway",
@@ -9760,7 +9772,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 445
+    "count": 446
    },
    {
     "name": "tiktok_ad",
@@ -9787,12 +9799,12 @@
     "count": 3
    },
    {
-    "name": "www.facebook.com",
+    "name": "www.bing.com",
     "count": 3
    },
    {
-    "name": "www.bing.com",
-    "count": 2
+    "name": "www.facebook.com",
+    "count": 3
    },
    {
     "name": "riyadhmetro.fyi/map",
@@ -9845,15 +9857,15 @@
     "count": 3
    },
    {
+    "name": "riyadhmetro.fyi/ar/lines",
+    "count": 2
+   },
+   {
     "name": "riyadhmetro.fyi/ar/stations",
     "count": 1
    },
    {
     "name": "riyadhmetro.fyi/ar/nearest-station",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/lines",
     "count": 1
    }
   ],
@@ -9955,6 +9967,12 @@
     "count": 1
    }
   ],
+  "/ar/lines": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
   "/ar/districts/qurtubah": [
    {
     "name": "Google",
@@ -9969,12 +9987,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/ar/lines": [
-   {
-    "name": "Google",
-    "count": 6
    }
   ],
   "/districts/al-yasmeen": [
@@ -10179,6 +10191,12 @@
    {
     "name": "(direct or unknown)",
     "count": 1
+   }
+  ],
+  "/ar/destinations/ministry-of-foreign-affairs": [
+   {
+    "name": "Google",
+    "count": 3
    }
   ],
   "/districts/ar-rabwah": [
@@ -10386,19 +10404,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/destinations/sahara-mall": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 445
+    "count": 446
    },
    {
     "path": "/ar/map",
@@ -10507,15 +10519,15 @@
     "count": 7
    },
    {
+    "path": "/ar/lines",
+    "count": 7
+   },
+   {
     "path": "/ar/districts/qurtubah",
     "count": 7
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 6
-   },
-   {
-    "path": "/ar/lines",
     "count": 6
    },
    {
@@ -10560,6 +10572,10 @@
    },
    {
     "path": "/ar/destinations/hayat-national-hospital-rabwah",
+    "count": 3
+   },
+   {
+    "path": "/ar/destinations/ministry-of-foreign-affairs",
     "count": 3
    },
    {
@@ -10659,10 +10675,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/sahara-mall",
-    "count": 2
-   },
-   {
     "path": "/ar/districts",
     "count": 1
    },
@@ -10715,12 +10727,12 @@
   ],
   "www.bing.com": [
    {
-    "path": "/ar/map",
+    "path": "/",
     "count": 3
    },
    {
-    "path": "/",
-    "count": 2
+    "path": "/ar/map",
+    "count": 3
    }
   ],
   "riyadhmetro.fyi/map": [
@@ -10781,6 +10793,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/lines": [
+   {
+    "path": "/ar/map",
+    "count": 2
+   }
+  ],
   "riyadhmetro.fyi/ar/stations": [
    {
     "path": "/ar/map",
@@ -10796,12 +10814,6 @@
     "path": "/ar.html",
     "count": 2
    },
-   {
-    "path": "/ar/map",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/lines": [
    {
     "path": "/ar/map",
     "count": 1
@@ -11007,13 +11019,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1443,
+   "count": 1446,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 386,
+   "count": 389,
    "ref_scheme": "g"
   },
   {
@@ -11059,15 +11071,15 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/ar/timings",
-   "name": "riyadhmetro.fyi/ar/timings",
-   "count": 10,
+   "id": "www.bing.com",
+   "name": "www.bing.com",
+   "count": 11,
    "ref_scheme": "h"
   },
   {
-   "id": "www.bing.com",
-   "name": "www.bing.com",
-   "count": 9,
+   "id": "riyadhmetro.fyi/ar/timings",
+   "name": "riyadhmetro.fyi/ar/timings",
+   "count": 10,
    "ref_scheme": "h"
   },
   {
@@ -11191,6 +11203,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/lines",
+   "name": "riyadhmetro.fyi/ar/lines",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/al-yamamah-university",
    "name": "riyadhmetro.fyi/ar/destinations/al-yamamah-university",
    "count": 2,
@@ -11293,12 +11311,6 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/ar/lines",
-   "name": "riyadhmetro.fyi/ar/lines",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
    "id": "riyadhmetro.fyi/destinations/jawazat",
    "name": "riyadhmetro.fyi/destinations/jawazat",
    "count": 1,
@@ -11309,12 +11321,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1980
+   "count": 1988
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 475
+   "count": 476
   },
   {
    "id": "(unknown)",
@@ -11371,7 +11383,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2078
+   "count": 2085
   },
   {
    "id": "AE",
@@ -11399,13 +11411,13 @@
    "count": 20
   },
   {
-   "id": "DE",
-   "name": "Germany",
-   "count": 17
-  },
-  {
    "id": "IN",
    "name": "India",
+   "count": 19
+  },
+  {
+   "id": "DE",
+   "name": "Germany",
    "count": 17
   },
   {
@@ -11593,7 +11605,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2010
+   "count": 2015
   },
   {
    "id": "tablet",
@@ -11603,7 +11615,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 389
+   "count": 393
   },
   {
    "id": "desktophd",
@@ -11620,12 +11632,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1317
+   "count": 1325
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1158
+   "count": 1159
   },
   {
    "name": "",
@@ -11641,17 +11653,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1154
+   "count": 1155
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 887
+   "count": 891
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 343
+   "count": 347
   },
   {
    "id": "macOS",
