@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T16:14:04Z",
+ "generated": "2026-10-22T17:12:32Z",
  "start": "2026-09-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2606,
+  "total": 2610,
   "total_events": 1422,
-  "total_utc": 2606,
+  "total_utc": 2610,
   "stats": [
    {
     "day": "2026-09-22",
@@ -308,7 +308,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2606
+    "monthly": 2610
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 353
+    "weekly": 357
    },
    {
     "day": "2026-10-21",
@@ -936,12 +936,12 @@
      5,
      31,
      9,
-     0,
+     4,
      0,
      0,
      0
     ],
-    "daily": 127
+    "daily": 131
    },
    {
     "day": "2026-10-23",
@@ -2782,6 +2782,17 @@
    }
   },
   {
+   "path": "/destinations/diriyah",
+   "path_id": 110689928,
+   "title": "Diriyah Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "place/p_al_murabba_palace/to",
    "path_id": 110571170,
    "title": "ar|name",
@@ -3222,6 +3233,36 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/skirinah",
+   "path_id": 114073698,
+   "title": "Nearest Metro Station to Skirinah, Riyadh: Skirinah, 0.8 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/destinations/narcissus-hotel",
+   "path_id": 114072306,
+   "title": "Narcissus Hotel Metro Station: Bank Albilad (Blue Line), 2 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/districts/utayqah",
+   "path_id": 114069559,
+   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -7405,16 +7446,6 @@
    }
   },
   {
-   "path": "/destinations/diriyah",
-   "path_id": 110689928,
-   "title": "Diriyah Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-09": 1
-   }
-  },
-  {
    "path": "view/sab/murabba",
    "path_id": 110677951,
    "title": "en|details",
@@ -9717,9 +9748,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1184,
+  "visits": 1188,
   "events_total": 1422,
-  "goatcounter_total_with_events": 2606,
+  "goatcounter_total_with_events": 2610,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9741,7 +9772,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 66
+   "2026-10-22": 70
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11298,7 +11329,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 402,
+   "count": 406,
    "ref_scheme": "g"
   },
   {
@@ -11594,7 +11625,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2018
+   "count": 2022
   },
   {
    "id": "ara",
@@ -11656,7 +11687,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2139
+   "count": 2143
   },
   {
    "id": "AE",
@@ -11878,7 +11909,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2056
+   "count": 2060
   },
   {
    "id": "tablet",
@@ -11905,12 +11936,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1366
+   "count": 1369
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1172
+   "count": 1173
   },
   {
    "name": "",
@@ -11926,12 +11957,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1168
+   "count": 1169
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 919
+   "count": 922
   },
   {
    "id": "Windows",
