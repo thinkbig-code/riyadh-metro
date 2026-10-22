@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T20:11:54Z",
+ "generated": "2026-10-22T22:11:59Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2622,
+  "total": 2626,
   "total_events": 1423,
-  "total_utc": 2622,
+  "total_utc": 2626,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2622
+    "monthly": 2626
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 241
+    "weekly": 245
    },
    {
     "day": "2026-10-22",
@@ -10996,9 +10996,9 @@
    {
     "day": "2026-10-23",
     "hourly": [
+     3,
      0,
-     0,
-     0,
+     1,
      0,
      0,
      0,
@@ -11021,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -11085,7 +11085,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 85,
+   "count": 86,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11099,7 +11099,8 @@
     "2026-10-19": 7,
     "2026-10-20": 11,
     "2026-10-21": 5,
-    "2026-10-22": 11
+    "2026-10-22": 11,
+    "2026-10-23": 1
    }
   },
   {
@@ -11209,7 +11210,7 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
@@ -11219,7 +11220,8 @@
     "2026-10-19": 2,
     "2026-10-20": 2,
     "2026-10-21": 4,
-    "2026-10-22": 1
+    "2026-10-22": 1,
+    "2026-10-23": 1
    }
   },
   {
@@ -11682,6 +11684,19 @@
    }
   },
   {
+   "path": "/districts/al-rawdah",
+   "path_id": 110465981,
+   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-13": 1,
+    "2026-10-21": 1,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "station/hokm/to",
    "path_id": 110432185,
    "title": "en|name",
@@ -11796,6 +11811,18 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-21": 2
+   }
+  },
+  {
+   "path": "/stations/al-aziziah",
+   "path_id": 112216859,
+   "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1,
+    "2026-10-23": 1
    }
   },
   {
@@ -12034,18 +12061,6 @@
     "2026-10-08": 1,
     "2026-10-09": 1,
     "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/districts/al-rawdah",
-   "path_id": 110465981,
-   "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-13": 1,
-    "2026-10-21": 1
    }
   },
   {
@@ -12494,17 +12509,6 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/stations/al-aziziah",
-   "path_id": 112216859,
-   "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-21": 1
    }
   },
   {
@@ -19810,9 +19814,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1199,
+  "visits": 1203,
   "events_total": 1423,
-  "goatcounter_total_with_events": 2622,
+  "goatcounter_total_with_events": 2626,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19834,7 +19838,8 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 81
+   "2026-10-22": 81,
+   "2026-10-23": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20178,7 +20183,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 67
+    "count": 68
    },
    {
     "name": "(direct or unknown)",
@@ -20280,7 +20285,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 11
+    "count": 12
    },
    {
     "name": "(direct or unknown)",
@@ -20485,6 +20490,12 @@
     "count": 4
    }
   ],
+  "/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -20521,6 +20532,12 @@
    {
     "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
+   }
+  ],
+  "/stations/al-aziziah": [
+   {
+    "name": "Google",
+    "count": 3
    }
   ],
   "/destinations/lulu-hypermarket-murabba": [
@@ -20611,12 +20628,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/destinations/gold-souq": [
@@ -20746,12 +20757,6 @@
     "name": "riyadhmetro.fyi/ar/stations/sab-bank",
     "count": 1
    }
-  ],
-  "/districts/al-murabba": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -20848,7 +20853,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 67
+    "count": 68
    },
    {
     "path": "/map",
@@ -20860,7 +20865,7 @@
    },
    {
     "path": "/ar/districts/al-arid",
-    "count": 11
+    "count": 12
    },
    {
     "path": "/ar/districts/middle-oraija",
@@ -20915,6 +20920,10 @@
     "count": 4
    },
    {
+    "path": "/districts/al-rawdah",
+    "count": 4
+   },
+   {
     "path": "/ar/timings",
     "count": 3
    },
@@ -20928,6 +20937,10 @@
    },
    {
     "path": "/ar/districts/ghirnatah",
+    "count": 3
+   },
+   {
+    "path": "/stations/al-aziziah",
     "count": 3
    },
    {
@@ -20948,10 +20961,6 @@
    },
    {
     "path": "/districts/al-uraija",
-    "count": 3
-   },
-   {
-    "path": "/districts/al-rawdah",
     "count": 3
    },
    {
@@ -21016,10 +21025,6 @@
    },
    {
     "path": "/stations/qasr-al-hokm",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-murabba",
     "count": 2
    },
    {
@@ -21399,7 +21404,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 414,
+   "count": 418,
    "ref_scheme": "g"
   },
   {
@@ -21695,12 +21700,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2032
+   "count": 2033
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 500
+   "count": 502
   },
   {
    "id": "(unknown)",
@@ -21738,6 +21743,11 @@
    "count": 3
   },
   {
+   "id": "por",
+   "name": "Portuguese",
+   "count": 3
+  },
+  {
    "id": "zho",
    "name": "Chinese",
    "count": 3
@@ -21746,18 +21756,13 @@
    "id": "jpn",
    "name": "Japanese",
    "count": 2
-  },
-  {
-   "id": "por",
-   "name": "Portuguese",
-   "count": 2
   }
  ],
  "locations": [
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2154
+   "count": 2158
   },
   {
    "id": "AE",
@@ -21979,7 +21984,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2071
+   "count": 2075
   },
   {
    "id": "tablet",
@@ -22006,12 +22011,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1374
+   "count": 1376
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1180
+   "count": 1182
   },
   {
    "name": "",
@@ -22027,12 +22032,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1176
+   "count": 1178
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 927
+   "count": 929
   },
   {
    "id": "Windows",
