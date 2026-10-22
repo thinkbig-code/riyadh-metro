@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T19:18:48Z",
+ "generated": "2026-10-22T20:10:41Z",
  "start": "2026-09-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2619,
+  "total": 2622,
   "total_events": 1423,
-  "total_utc": 2619,
+  "total_utc": 2622,
   "stats": [
    {
     "day": "2026-09-22",
@@ -308,7 +308,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2619
+    "monthly": 2622
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 366
+    "weekly": 369
    },
    {
     "day": "2026-10-21",
@@ -939,9 +939,9 @@
      4,
      1,
      5,
-     3
+     6
     ],
-    "daily": 140
+    "daily": 143
    },
    {
     "day": "2026-10-23",
@@ -1035,7 +1035,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 84,
+   "count": 85,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1049,7 +1049,7 @@
     "2026-10-19": 7,
     "2026-10-20": 11,
     "2026-10-21": 5,
-    "2026-10-22": 10
+    "2026-10-22": 11
    }
   },
   {
@@ -1159,7 +1159,7 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 14,
+   "count": 15,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
@@ -1168,7 +1168,8 @@
     "2026-10-17": 1,
     "2026-10-19": 2,
     "2026-10-20": 2,
-    "2026-10-21": 4
+    "2026-10-21": 4,
+    "2026-10-22": 1
    }
   },
   {
@@ -1594,6 +1595,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 2
+   }
+  },
+  {
    "path": "station/murabba/from",
    "path_id": 110779379,
    "title": "en|name",
@@ -1862,18 +1875,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-21": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nafel",
-   "path_id": 111088602,
-   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-14": 1,
     "2026-10-22": 1
    }
   },
@@ -9759,9 +9760,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1196,
+  "visits": 1199,
   "events_total": 1423,
-  "goatcounter_total_with_events": 2619,
+  "goatcounter_total_with_events": 2622,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9783,7 +9784,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 78
+   "2026-10-22": 81
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10127,7 +10128,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 66
+    "count": 67
    },
    {
     "name": "(direct or unknown)",
@@ -10229,7 +10230,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 10
+    "count": 11
    },
    {
     "name": "(direct or unknown)",
@@ -10418,6 +10419,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/al-nafel": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-saadah": [
    {
     "name": "Google",
@@ -10505,12 +10516,6 @@
    }
   ],
   "/ar/districts/north-mathar": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
-  "/ar/districts/al-nafel": [
    {
     "name": "Google",
     "count": 3
@@ -10793,7 +10798,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 66
+    "count": 67
    },
    {
     "path": "/map",
@@ -10805,7 +10810,7 @@
    },
    {
     "path": "/ar/districts/al-arid",
-    "count": 10
+    "count": 11
    },
    {
     "path": "/ar/districts/middle-oraija",
@@ -10864,6 +10869,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-nafel",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/ar-rabwah",
     "count": 3
    },
@@ -10881,10 +10890,6 @@
    },
    {
     "path": "/ar/districts/north-mathar",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/al-nafel",
     "count": 3
    },
    {
@@ -11083,6 +11088,10 @@
    },
    {
     "path": "/districts/al-taawun",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-nafel",
     "count": 1
    },
    {
@@ -11340,7 +11349,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 412,
+   "count": 414,
    "ref_scheme": "g"
   },
   {
@@ -11370,7 +11379,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 32,
+   "count": 33,
    "ref_scheme": "c"
   },
   {
@@ -11636,7 +11645,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2029
+   "count": 2032
   },
   {
    "id": "ara",
@@ -11698,7 +11707,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2151
+   "count": 2154
   },
   {
    "id": "AE",
@@ -11920,7 +11929,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2068
+   "count": 2071
   },
   {
    "id": "tablet",
@@ -11947,12 +11956,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1373
+   "count": 1374
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1178
+   "count": 1180
   },
   {
    "name": "",
@@ -11968,12 +11977,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1174
+   "count": 1176
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 926
+   "count": 927
   },
   {
    "id": "Windows",
