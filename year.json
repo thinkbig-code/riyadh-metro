@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T22:11:59Z",
+ "generated": "2026-10-22T23:10:08Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2626,
+  "total": 2627,
   "total_events": 1423,
-  "total_utc": 2626,
+  "total_utc": 2627,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2626
+    "monthly": 2627
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 245
+    "weekly": 246
    },
    {
     "day": "2026-10-22",
@@ -10998,7 +10998,7 @@
     "hourly": [
      3,
      0,
-     1,
+     2,
      0,
      0,
      0,
@@ -11021,7 +11021,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 5
    }
   ]
  },
@@ -11250,6 +11250,20 @@
    }
   },
   {
+   "path": "/ar/lines",
+   "path_id": 112883345,
+   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
+   "event": false,
+   "count": 9,
+   "daily": {
+    "2026-10-19": 3,
+    "2026-10-20": 2,
+    "2026-10-21": 1,
+    "2026-10-22": 2,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "/ar/districts/middle-oraija",
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
@@ -11260,19 +11274,6 @@
     "2026-10-13": 1,
     "2026-10-16": 5,
     "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/ar/lines",
-   "path_id": 112883345,
-   "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-19": 3,
-    "2026-10-20": 2,
-    "2026-10-21": 1,
-    "2026-10-22": 2
    }
   },
   {
@@ -19814,9 +19815,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1203,
+  "visits": 1204,
   "events_total": 1423,
-  "goatcounter_total_with_events": 2626,
+  "goatcounter_total_with_events": 2627,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19839,7 +19840,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 4
+   "2026-10-23": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20292,16 +20293,16 @@
     "count": 4
    }
   ],
-  "/ar/districts/middle-oraija": [
+  "/ar/lines": [
    {
     "name": "Google",
     "count": 9
    }
   ],
-  "/ar/lines": [
+  "/ar/districts/middle-oraija": [
    {
     "name": "Google",
-    "count": 8
+    "count": 9
    }
   ],
   "/destinations/al-awwal-park": [
@@ -20868,12 +20869,12 @@
     "count": 12
    },
    {
-    "path": "/ar/districts/middle-oraija",
+    "path": "/ar/lines",
     "count": 9
    },
    {
-    "path": "/ar/lines",
-    "count": 8
+    "path": "/ar/districts/middle-oraija",
+    "count": 9
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -21404,7 +21405,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 418,
+   "count": 419,
    "ref_scheme": "g"
   },
   {
@@ -21705,7 +21706,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 502
+   "count": 503
   },
   {
    "id": "(unknown)",
@@ -21762,7 +21763,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2158
+   "count": 2159
   },
   {
    "id": "AE",
@@ -21984,7 +21985,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2075
+   "count": 2076
   },
   {
    "id": "tablet",
@@ -22016,7 +22017,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1182
+   "count": 1183
   },
   {
    "name": "",
@@ -22032,7 +22033,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1178
+   "count": 1179
   },
   {
    "id": "Android",
