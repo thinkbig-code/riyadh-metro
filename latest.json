@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T08:21:07Z",
+ "generated": "2026-10-22T09:15:47Z",
  "start": "2026-09-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2502,
+  "total": 2504,
   "total_events": 1367,
-  "total_utc": 2502,
+  "total_utc": 2504,
   "stats": [
    {
     "day": "2026-09-22",
@@ -308,7 +308,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2502
+    "monthly": 2504
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      4
     ],
     "daily": 128,
-    "weekly": 249
+    "weekly": 251
    },
    {
     "day": "2026-10-21",
@@ -928,7 +928,7 @@
      4,
      3,
      2,
-     3,
+     5,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 25
    },
    {
     "day": "2026-10-23",
@@ -3121,6 +3121,26 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-badiah",
+   "path_id": 114015577,
+   "title": "Nearest Metro Station to Al Badiah, Riyadh: Sultanah (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/destinations/kingdom-centre",
+   "path_id": 114014557,
+   "title": "Kingdom Centre (Kingdom Tower) Metro Station: Al Urubah, 4 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -9246,9 +9266,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1135,
+  "visits": 1137,
   "events_total": 1367,
-  "goatcounter_total_with_events": 2502,
+  "goatcounter_total_with_events": 2504,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9270,7 +9290,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 17
+   "2026-10-22": 19
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10773,7 +10793,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 379,
+   "count": 381,
    "ref_scheme": "g"
   },
   {
@@ -11069,7 +11089,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1944
+   "count": 1946
   },
   {
    "id": "ara",
@@ -11131,7 +11151,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2037
+   "count": 2039
   },
   {
    "id": "AE",
@@ -11353,7 +11373,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1979
+   "count": 1981
   },
   {
    "id": "tablet",
@@ -11380,12 +11400,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1298
+   "count": 1299
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1136
+   "count": 1137
   },
   {
    "name": "",
@@ -11401,12 +11421,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1132
+   "count": 1133
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 878
+   "count": 879
   },
   {
    "id": "Windows",
