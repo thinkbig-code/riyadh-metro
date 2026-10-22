@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T12:14:50Z",
+ "generated": "2026-10-22T13:28:00Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2552,
-  "total_events": 1398,
-  "total_utc": 2552,
+  "total": 2565,
+  "total_events": 1405,
+  "total_utc": 2565,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2552
+    "monthly": 2565
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 171
+    "weekly": 184
    },
    {
     "day": "2026-10-22",
@@ -10982,8 +10982,8 @@
      0,
      36,
      10,
-     2,
-     0,
+     11,
+     4,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 73
+    "daily": 86
    },
    {
     "day": "2026-10-23",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 669,
+   "count": 671,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11053,7 +11053,7 @@
     "2026-10-19": 11,
     "2026-10-20": 27,
     "2026-10-21": 13,
-    "2026-10-22": 11
+    "2026-10-22": 13
    }
   },
   {
@@ -11061,7 +11061,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 495,
+   "count": 497,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11077,7 +11077,7 @@
     "2026-10-19": 9,
     "2026-10-20": 20,
     "2026-10-21": 7,
-    "2026-10-22": 6
+    "2026-10-22": 8
    }
   },
   {
@@ -11567,6 +11567,18 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/ar/nearest-station",
    "path_id": 112000992,
    "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
@@ -11602,6 +11614,19 @@
     "2026-10-11": 2,
     "2026-10-20": 1,
     "2026-10-21": 1
+   }
+  },
+  {
+   "path": "station/murabba/from",
+   "path_id": 110779379,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 1,
+    "2026-10-20": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -11733,17 +11758,6 @@
     "2026-10-15": 1,
     "2026-10-19": 1,
     "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 2
    }
   },
   {
@@ -11957,18 +11971,6 @@
     "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-15": 1
-   }
-  },
-  {
-   "path": "station/murabba/from",
-   "path_id": 110779379,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-12": 1,
-    "2026-10-20": 1
    }
   },
   {
@@ -12435,6 +12437,17 @@
    }
   },
   {
+   "path": "/lines/orange-line",
+   "path_id": 112221259,
+   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/stations/al-aziziah",
    "path_id": 112216859,
    "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
@@ -12605,6 +12618,17 @@
    "daily": {
     "2026-10-12": 1,
     "2026-10-21": 1
+   }
+  },
+  {
+   "path": "station/murooj/to",
+   "path_id": 111541886,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -13221,6 +13245,56 @@
    "daily": {
     "2026-10-05": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/murabba/murooj",
+   "path_id": 114043415,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/murabba/khashm",
+   "path_id": 114043398,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/khashm",
+   "path_id": 114042907,
+   "title": "en|landing:lines-orange-line|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-north-railway-station",
+   "path_id": 114042550,
+   "title": "Riyadh North Railway Station Metro Station: PNU",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/districts/al-maizalah",
+   "path_id": 114040327,
+   "title": "Nearest Metro Station to Al Maizalah, Riyadh: King Fahad Stadium (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
    }
   },
   {
@@ -14724,16 +14798,6 @@
    }
   },
   {
-   "path": "/lines/orange-line",
-   "path_id": 112221259,
-   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
    "path": "route/p_ministry_of_foreign_affairs/kbw",
    "path_id": 112182281,
    "title": "en|search|ok",
@@ -15877,16 +15941,6 @@
    "path": "route/sab/murooj",
    "path_id": 111541887,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "station/murooj/to",
-   "path_id": 111541886,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -19536,9 +19590,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1154,
-  "events_total": 1398,
-  "goatcounter_total_with_events": 2552,
+  "visits": 1160,
+  "events_total": 1405,
+  "goatcounter_total_with_events": 2565,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19560,7 +19614,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 36
+   "2026-10-22": 42
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19577,14 +19631,14 @@
    "2026-10-19": 12,
    "2026-10-20": 24,
    "2026-10-21": 13,
-   "2026-10-22": 8
+   "2026-10-22": 10
   },
-  "visitor_days": 549,
+  "visitor_days": 551,
   "return_rate": 0.098,
-  "routes": 373,
+  "routes": 376,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
-  "routes_per_visitor_day": 0.63,
+  "routes_per_visitor_day": 0.64,
   "share_rate": 0.029,
   "shares": {
    "copy": 2,
@@ -19668,7 +19722,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 495,
+   "new": 497,
    "return": 54
   },
   "top_routes": [
@@ -19751,6 +19805,10 @@
     "count": 11
    },
    {
+    "name": "murabba",
+    "count": 11
+   },
+   {
     "name": "p_kingdom_centre",
     "count": 10
    },
@@ -19768,10 +19826,6 @@
    },
    {
     "name": "kbw",
-    "count": 10
-   },
-   {
-    "name": "urubah",
     "count": 10
    }
   ],
@@ -19834,7 +19888,7 @@
    },
    {
     "name": "Google",
-    "count": 13
+    "count": 14
    },
    {
     "name": "Yahoo",
@@ -19882,6 +19936,10 @@
    },
    {
     "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/lines/orange-line",
     "count": 1
    },
    {
@@ -20117,6 +20175,16 @@
     "count": 1
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
@@ -20200,16 +20268,6 @@
    },
    {
     "name": "riyadhmetro.fyi/destinations/jawazat",
-    "count": 1
-   }
-  ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ],
@@ -20554,7 +20612,7 @@
    },
    {
     "path": "/",
-    "count": 13
+    "count": 14
    },
    {
     "path": "/ar/districts/al-arid",
@@ -20657,15 +20715,15 @@
     "count": 2
    },
    {
+    "path": "/districts/al-arid",
+    "count": 2
+   },
+   {
     "path": "/ar/nearest-station",
     "count": 2
    },
    {
     "path": "/destinations/lulu-hypermarket-murabba",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-arid",
     "count": 2
    },
    {
@@ -20831,6 +20889,16 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/lines/orange-line": [
+   {
+    "path": "/",
+    "count": 1
+   },
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/al-qasr-mall": [
    {
     "path": "/",
@@ -20945,6 +21013,10 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/districts/al-arid",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 2
    },
@@ -20962,10 +21034,6 @@
    },
    {
     "path": "/districts/al-taawun",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-arid",
     "count": 1
    },
    {
@@ -20997,12 +21065,6 @@
    {
     "path": "/ur.html",
     "count": 2
-   }
-  ],
-  "riyadhmetro.fyi/lines/orange-line": [
-   {
-    "path": "/ar/lines/orange-line",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/stations/sultanah": [
@@ -21069,13 +21131,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1446,
+   "count": 1447,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 389,
+   "count": 392,
    "ref_scheme": "g"
   },
   {
@@ -21103,16 +21165,16 @@
    "ref_scheme": "h"
   },
   {
+   "id": "chatgpt.com",
+   "name": "chatgpt.com",
+   "count": 27,
+   "ref_scheme": "c"
+  },
+  {
    "id": "Yahoo",
    "name": "Yahoo",
    "count": 26,
    "ref_scheme": "g"
-  },
-  {
-   "id": "chatgpt.com",
-   "name": "chatgpt.com",
-   "count": 25,
-   "ref_scheme": "c"
   },
   {
    "id": "www.facebook.com",
@@ -21137,6 +21199,12 @@
    "name": "www.facebook.com",
    "count": 8,
    "ref_scheme": "g"
+  },
+  {
+   "id": "riyadhmetro.fyi/lines/orange-line",
+   "name": "riyadhmetro.fyi/lines/orange-line",
+   "count": 8,
+   "ref_scheme": "h"
   },
   {
    "id": "t.co",
@@ -21331,12 +21399,6 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/lines/orange-line",
-   "name": "riyadhmetro.fyi/lines/orange-line",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
    "id": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
    "count": 1,
@@ -21371,12 +21433,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1988
+   "count": 1998
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 476
+   "count": 477
   },
   {
    "id": "(unknown)",
@@ -21399,14 +21461,14 @@
    "count": 12
   },
   {
+   "id": "ind",
+   "name": "Indonesian",
+   "count": 8
+  },
+  {
    "id": "spa",
    "name": "Spanish",
    "count": 7
-  },
-  {
-   "id": "ind",
-   "name": "Indonesian",
-   "count": 6
   },
   {
    "id": "ita",
@@ -21433,7 +21495,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2085
+   "count": 2098
   },
   {
    "id": "AE",
@@ -21655,7 +21717,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2015
+   "count": 2019
   },
   {
    "id": "tablet",
@@ -21665,7 +21727,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 393
+   "count": 402
   },
   {
    "id": "desktophd",
@@ -21682,12 +21744,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1325
+   "count": 1337
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1159
+   "count": 1160
   },
   {
    "name": "",
@@ -21703,17 +21765,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1155
+   "count": 1156
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 891
+   "count": 894
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 347
+   "count": 356
   },
   {
    "id": "macOS",
