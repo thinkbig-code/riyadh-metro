@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T07:28:38Z",
+ "generated": "2026-10-22T08:22:34Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2497,
-  "total_events": 1364,
-  "total_utc": 2497,
+  "total": 2502,
+  "total_events": 1367,
+  "total_utc": 2502,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2497
+    "monthly": 2502
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 116
+    "weekly": 121
    },
    {
     "day": "2026-10-22",
@@ -10977,8 +10977,8 @@
      0,
      4,
      3,
-     0,
-     0,
+     2,
+     3,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 23
    },
    {
     "day": "2026-10-23",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 661,
+   "count": 662,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11053,7 +11053,7 @@
     "2026-10-19": 11,
     "2026-10-20": 27,
     "2026-10-21": 13,
-    "2026-10-22": 3
+    "2026-10-22": 4
    }
   },
   {
@@ -11061,7 +11061,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 492,
+   "count": 493,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11077,7 +11077,7 @@
     "2026-10-19": 9,
     "2026-10-20": 20,
     "2026-10-21": 7,
-    "2026-10-22": 3
+    "2026-10-22": 4
    }
   },
   {
@@ -11106,7 +11106,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 52,
+   "count": 53,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11120,7 +11120,8 @@
     "2026-10-18": 4,
     "2026-10-19": 3,
     "2026-10-20": 4,
-    "2026-10-21": 6
+    "2026-10-21": 6,
+    "2026-10-22": 1
    }
   },
   {
@@ -11811,6 +11812,18 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/uthman/museum",
+   "path_id": 111098465,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-21": 1,
     "2026-10-22": 1
    }
   },
@@ -12556,17 +12569,6 @@
    }
   },
   {
-   "path": "route/uthman/museum",
-   "path_id": 111098465,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-21": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-nafel",
    "path_id": 111088602,
    "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
@@ -12640,6 +12642,17 @@
    "daily": {
     "2026-10-10": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -16421,16 +16434,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
    "path": "route/ksu/andalus",
    "path_id": 110922129,
    "title": "en|swap|ok",
@@ -19293,9 +19296,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1133,
-  "events_total": 1364,
-  "goatcounter_total_with_events": 2497,
+  "visits": 1135,
+  "events_total": 1367,
+  "goatcounter_total_with_events": 2502,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19317,7 +19320,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 15
+   "2026-10-22": 17
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19334,11 +19337,11 @@
    "2026-10-19": 12,
    "2026-10-20": 24,
    "2026-10-21": 13,
-   "2026-10-22": 3
+   "2026-10-22": 5
   },
-  "visitor_days": 544,
-  "return_rate": 0.096,
-  "routes": 360,
+  "visitor_days": 546,
+  "return_rate": 0.097,
+  "routes": 361,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
   "routes_per_visitor_day": 0.62,
@@ -19421,8 +19424,8 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 492,
-   "return": 52
+   "new": 493,
+   "return": 53
   },
   "top_routes": [
    {
@@ -19435,6 +19438,10 @@
    },
    {
     "name": "uthman > kfl",
+    "count": 3
+   },
+   {
+    "name": "uthman > museum",
     "count": 3
    },
    {
@@ -19470,10 +19477,6 @@
     "count": 2
    },
    {
-    "name": "uthman > museum",
-    "count": 2
-   },
-   {
     "name": "sab > p_kafd_king_abdullah_financial_district",
     "count": 2
    },
@@ -19493,7 +19496,7 @@
    },
    {
     "name": "uthman",
-    "count": 12
+    "count": 13
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -19575,7 +19578,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 441
+    "count": 442
    },
    {
     "name": "tiktok_ad",
@@ -20209,7 +20212,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 441
+    "count": 442
    },
    {
     "path": "/ar/map",
@@ -20814,13 +20817,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1417,
+   "count": 1419,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 378,
+   "count": 379,
    "ref_scheme": "g"
   },
   {
@@ -20862,7 +20865,7 @@
   {
    "id": "Yahoo",
    "name": "Yahoo",
-   "count": 17,
+   "count": 19,
    "ref_scheme": "g"
   },
   {
@@ -21116,12 +21119,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1940
+   "count": 1944
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 470
+   "count": 471
   },
   {
    "id": "(unknown)",
@@ -21178,12 +21181,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2034
+   "count": 2037
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 89
+   "count": 91
   },
   {
    "id": "US",
@@ -21400,7 +21403,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1976
+   "count": 1979
   },
   {
    "id": "tablet",
@@ -21410,7 +21413,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 380
+   "count": 382
   },
   {
    "id": "desktophd",
@@ -21427,12 +21430,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1296
+   "count": 1298
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1133
+   "count": 1136
   },
   {
    "name": "",
@@ -21448,7 +21451,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1129
+   "count": 1132
   },
   {
    "id": "Android",
@@ -21458,7 +21461,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 331
+   "count": 333
   },
   {
    "id": "macOS",
