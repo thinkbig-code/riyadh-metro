@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T01:49:30Z",
+ "generated": "2026-10-22T02:12:43Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2483,
+  "total": 2486,
   "total_events": 1361,
-  "total_utc": 2483,
+  "total_utc": 2486,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2483
+    "monthly": 2486
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 102
+    "weekly": 105
    },
    {
     "day": "2026-10-22",
@@ -10971,8 +10971,8 @@
      0,
      0,
      0,
-     0,
-     0,
+     1,
+     2,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 7
    },
    {
     "day": "2026-10-23",
@@ -11182,7 +11182,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 17,
+   "count": 18,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -11195,7 +11195,8 @@
     "2026-10-18": 1,
     "2026-10-19": 2,
     "2026-10-20": 1,
-    "2026-10-21": 3
+    "2026-10-21": 3,
+    "2026-10-22": 1
    }
   },
   {
@@ -12087,6 +12088,28 @@
    "count": 2,
    "daily": {
     "2026-10-21": 2
+   }
+  },
+  {
+   "path": "/ar/stations/sab-bank",
+   "path_id": 113347888,
+   "title": "محطة بنك الأول، مترو الرياض: المسار الأزرق (رقم 1)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-falah",
+   "path_id": 113320014,
+   "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -13342,16 +13365,6 @@
    }
   },
   {
-   "path": "/ar/stations/sab-bank",
-   "path_id": 113347888,
-   "title": "محطة بنك الأول، مترو الرياض: المسار الأزرق (رقم 1)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
    "path": "/ar/districts/manfuha-al-jadidah",
    "path_id": 113347307,
    "title": "أقرب محطة مترو لحي منفوحة الجديدة في الرياض: محطة سكيرينة، 0.9 كم",
@@ -13389,16 +13402,6 @@
    "count": 1,
    "daily": {
     "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-falah",
-   "path_id": 113320014,
-   "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-20": 1
    }
   },
   {
@@ -19274,9 +19277,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1122,
+  "visits": 1125,
   "events_total": 1361,
-  "goatcounter_total_with_events": 2483,
+  "goatcounter_total_with_events": 2486,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19298,7 +19301,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 4
+   "2026-10-22": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19714,6 +19717,10 @@
    {
     "name": "riyadhmetro.fyi/ar/destinations/al-yamamah-university",
     "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-falah",
+    "count": 1
    }
   ],
   "/ar/districts/al-arid": [
@@ -20064,6 +20071,26 @@
     "count": 2
    }
   ],
+  "/ar/stations/sab-bank": [
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-falah": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/olaya-towers": [
    {
     "name": "Google",
@@ -20155,18 +20182,6 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/destinations/al-qasr-mall": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/stations/al-aziziah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -20237,6 +20252,10 @@
    },
    {
     "path": "/ar/districts/al-wizarat",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -20430,14 +20449,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/al-qasr-mall",
-    "count": 2
-   },
-   {
-    "path": "/stations/al-aziziah",
-    "count": 2
-   },
-   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 1
    },
@@ -20447,6 +20458,10 @@
    },
    {
     "path": "/ar/districts/al-wizarat",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-falah",
     "count": 1
    },
    {
@@ -20546,6 +20561,10 @@
    {
     "path": "/ar/map",
     "count": 1
+   },
+   {
+    "path": "/ar/stations/sab-bank",
+    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/nearest-station": [
@@ -20632,6 +20651,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/districts/al-falah": [
+   {
+    "path": "/ar.html",
+    "count": 1
+   }
+  ],
   "chatgpt.com": [
    {
     "path": "/ar/destinations/wadi-namar-park",
@@ -20659,6 +20684,10 @@
    },
    {
     "path": "/districts/ar-rabwah",
+    "count": 1
+   },
+   {
+    "path": "/ar/stations/sab-bank",
     "count": 1
    }
   ],
@@ -20766,7 +20795,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 373,
+   "count": 374,
    "ref_scheme": "g"
   },
   {
@@ -20796,7 +20825,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 22,
+   "count": 23,
    "ref_scheme": "c"
   },
   {
@@ -21062,12 +21091,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1931
+   "count": 1932
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 465
+   "count": 467
   },
   {
    "id": "(unknown)",
@@ -21124,7 +21153,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2024
+   "count": 2027
   },
   {
    "id": "AE",
@@ -21346,7 +21375,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1968
+   "count": 1971
   },
   {
    "id": "tablet",
@@ -21378,7 +21407,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1128
+   "count": 1131
   },
   {
    "name": "",
@@ -21394,7 +21423,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1124
+   "count": 1127
   },
   {
    "id": "Android",
