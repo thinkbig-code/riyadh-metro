@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T17:13:56Z",
+ "generated": "2026-10-22T18:09:49Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2610,
+  "total": 2613,
   "total_events": 1422,
-  "total_utc": 2610,
+  "total_utc": 2613,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2610
+    "monthly": 2613
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 229
+    "weekly": 232
    },
    {
     "day": "2026-10-22",
@@ -10987,11 +10987,11 @@
      31,
      9,
      4,
-     0,
-     0,
+     1,
+     2,
      0
     ],
-    "daily": 131
+    "daily": 134
    },
    {
     "day": "2026-10-23",
@@ -11314,6 +11314,19 @@
    }
   },
   {
+   "path": "/districts/al-yasmeen",
+   "path_id": 111876907,
+   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-13": 2,
+    "2026-10-14": 3,
+    "2026-10-20": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -11365,18 +11378,6 @@
     "2026-10-12": 1,
     "2026-10-14": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/districts/al-yasmeen",
-   "path_id": 111876907,
-   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-13": 2,
-    "2026-10-14": 3,
-    "2026-10-20": 1
    }
   },
   {
@@ -12186,6 +12187,26 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/districts/utayqah",
+   "path_id": 114069559,
+   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 2
+   }
+  },
+  {
+   "path": "/districts/al-rawabi",
+   "path_id": 114062966,
+   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 2
    }
   },
   {
@@ -13306,16 +13327,6 @@
    }
   },
   {
-   "path": "/ar/districts/utayqah",
-   "path_id": 114069559,
-   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-yamamah",
    "path_id": 114064116,
    "title": "أقرب محطة مترو لحي اليمامة في الرياض: محطة مستشفى الإيمان، 2.0 كم",
@@ -13329,16 +13340,6 @@
    "path": "/ar/districts/al-nuzha",
    "path_id": 114063834,
    "title": "أقرب محطة مترو لحي النزهة في الرياض: محطة النزهة، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/districts/al-rawabi",
-   "path_id": 114062966,
-   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
    "event": false,
    "count": 1,
    "daily": {
@@ -19798,9 +19799,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1188,
+  "visits": 1191,
   "events_total": 1422,
-  "goatcounter_total_with_events": 2610,
+  "goatcounter_total_with_events": 2613,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19822,7 +19823,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 70
+   "2026-10-22": 73
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20297,6 +20298,12 @@
     "count": 1
    }
   ],
+  "/districts/al-yasmeen": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
   "/ar/districts/qurtubah": [
    {
     "name": "Google",
@@ -20311,12 +20318,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/districts/al-yasmeen": [
-   {
-    "name": "Google",
-    "count": 6
    }
   ],
   "/destinations/king-abdullah-park": [
@@ -20633,6 +20634,18 @@
     "count": 1
    }
   ],
+  "/ar/districts/utayqah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/districts/al-rawabi": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-wizarat": [
    {
     "name": "(direct or unknown)",
@@ -20724,18 +20737,6 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/districts/east-umm-al-hamam": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/destinations/u-walk": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -20766,6 +20767,10 @@
    },
    {
     "path": "/ar/stations/jeddah-road",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-rawabi",
     "count": 2
    },
    {
@@ -20855,15 +20860,15 @@
     "count": 7
    },
    {
+    "path": "/districts/al-yasmeen",
+    "count": 7
+   },
+   {
     "path": "/ar/districts/qurtubah",
     "count": 7
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 6
-   },
-   {
-    "path": "/districts/al-yasmeen",
     "count": 6
    },
    {
@@ -20975,6 +20980,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/utayqah",
+    "count": 2
+   },
+   {
     "path": "/destinations/al-nakheel-mall",
     "count": 2
    },
@@ -20996,14 +21005,6 @@
    },
    {
     "path": "/districts/al-murabba",
-    "count": 2
-   },
-   {
-    "path": "/districts/east-umm-al-hamam",
-    "count": 2
-   },
-   {
-    "path": "/destinations/u-walk",
     "count": 2
    },
    {
@@ -21373,13 +21374,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1457,
+   "count": 1458,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 406,
+   "count": 408,
    "ref_scheme": "g"
   },
   {
@@ -21675,7 +21676,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2022
+   "count": 2025
   },
   {
    "id": "ara",
@@ -21737,7 +21738,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2143
+   "count": 2145
   },
   {
    "id": "AE",
@@ -21805,14 +21806,14 @@
    "count": 9
   },
   {
-   "id": "IT",
-   "name": "Italy",
+   "id": "FR",
+   "name": "France",
    "count": 8
   },
   {
-   "id": "FR",
-   "name": "France",
-   "count": 7
+   "id": "IT",
+   "name": "Italy",
+   "count": 8
   },
   {
    "id": "IE",
@@ -21959,7 +21960,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2060
+   "count": 2063
   },
   {
    "id": "tablet",
@@ -21986,12 +21987,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1369
+   "count": 1370
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1173
+   "count": 1175
   },
   {
    "name": "",
@@ -22007,12 +22008,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1169
+   "count": 1171
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 922
+   "count": 923
   },
   {
    "id": "Windows",
