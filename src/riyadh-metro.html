@@ -1074,6 +1074,8 @@ let view={x:0,y:0,k:1},routeBox=null,lastSig="";
 // guarded no-result text below), report text or anything that identifies a person.
 // path = "<event>/<a>/<b>", title = "<language>|<detail>|..."
 let trkSrc="";const trkQ=[];let trkTimer=0;const trkSeen=new Set();
+// the map embedded at the top of a guide page: its page loads are not counted (no_onload), so count the first route made there, once, with the guide page it sits in ("embed/ar-districts-qurtubah")
+const IN_FRAME=(()=>{try{return window.top!==window;}catch(e){return true;}})();let embedSent=false;
 function track(ev,a,b,...detail){
   try{
     let parts=[ev,a||"-",b||"-"];
@@ -1614,6 +1616,7 @@ function update(fit,noAnim){
   }
   const variants=computeOptions(from,to);
   {if(!trkSeen.has(sig)){trkSeen.add(sig);track("route",tok(from),tok(to),trkSrc||"other",variants.length?"ok":"none");}trkSrc="";}
+  if(IN_FRAME&&!embedSent){embedSent=true;let pg="-";try{const r=new URL(document.referrer);if(r.host===location.host)pg=r.pathname.split("/").filter(Boolean).join("-")||"home";}catch(e){}track("embed",pg);}
   if(!variants.length){hint(t("noRoute"));if(fit)fitHomeIfAway(!noAnim);return;}
   if(!(state.opt<variants.length))state.opt=0;
   const r=variants[state.opt];

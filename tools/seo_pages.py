@@ -611,7 +611,7 @@ def near_districts(d, n=6):
 
 
 def nearest_park_ride(d):
-    return min(PARK_RIDE, key=lambda s_: dist_km(d, s_))
+    return min(sorted(PARK_RIDE), key=lambda s_: dist_km(d, s_))
 
 
 def district(d):
@@ -892,8 +892,8 @@ def nearest_page():
             '<h2>Rather not share your location?</h2>',
             '<p>Find your area in the <a href="{ROOT}districts/">list of districts with their nearest station</a>, or browse <a href="{ROOT}stations/">all stations</a>.</p>',
             hours_html(['metro'])]
-    desc = 'Find the Riyadh Metro station closest to you with one tap from your phone\'s location, then the route, travel time and fare to where you are going on a live map.'
-    write(path, frame(path, 'Nearest Metro Station to Me in Riyadh: Find It by Location', desc, '\n'.join(body), [(path, 'Nearest station')]))
+    desc = 'Metro near you in Riyadh: one tap finds the nearest station from your phone\'s location, then the route, travel time and fare to where you are going. Free, no app, no sign-up.'
+    write(path, frame(path, 'Metro Near Me in Riyadh: Nearest Station From Your Location', desc, '\n'.join(body), [(path, 'Nearest station')]))
 
 
 RULE_SRC = [
