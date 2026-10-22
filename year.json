@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-22T05:15:56Z",
+ "generated": "2026-10-22T06:14:03Z",
  "start": "2025-10-22",
  "end": "2026-10-23",
  "total": {
-  "total": 2490,
-  "total_events": 1362,
-  "total_utc": 2490,
+  "total": 2494,
+  "total_events": 1363,
+  "total_utc": 2494,
   "stats": [
    {
     "day": "2025-10-22",
@@ -10358,7 +10358,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2490
+    "monthly": 2494
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 109
+    "weekly": 113
    },
    {
     "day": "2026-10-22",
@@ -10975,7 +10975,7 @@
      2,
      4,
      0,
-     0,
+     4,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 11
+    "daily": 15
    },
    {
     "day": "2026-10-23",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 659,
+   "count": 660,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11053,7 +11053,7 @@
     "2026-10-19": 11,
     "2026-10-20": 27,
     "2026-10-21": 13,
-    "2026-10-22": 1
+    "2026-10-22": 2
    }
   },
   {
@@ -11061,7 +11061,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 490,
+   "count": 491,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11077,7 +11077,7 @@
     "2026-10-19": 9,
     "2026-10-20": 20,
     "2026-10-21": 7,
-    "2026-10-22": 1
+    "2026-10-22": 2
    }
   },
   {
@@ -11541,6 +11541,19 @@
    }
   },
   {
+   "path": "/ar/districts",
+   "path_id": 111998625,
+   "title": "أقرب محطة مترو لكل أحياء الرياض",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-maseef",
    "path_id": 111125799,
    "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
@@ -11703,18 +11716,6 @@
    "count": 3,
    "daily": {
     "2026-10-14": 2,
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/districts",
-   "path_id": 111998625,
-   "title": "أقرب محطة مترو لكل أحياء الرياض",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1,
     "2026-10-21": 1
    }
   },
@@ -12142,6 +12143,17 @@
    "count": 2,
    "daily": {
     "2026-10-20": 2
+   }
+  },
+  {
+   "path": "/ar/routes/kafd-to-diriyah",
+   "path_id": 113035297,
+   "title": "من المركز المالي (كافد) إلى الدرعية بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-10-22": 1
    }
   },
   {
@@ -13722,16 +13734,6 @@
    "path_id": 113052663,
    "title": "en|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "/ar/routes/kafd-to-diriyah",
-   "path_id": 113035297,
-   "title": "من المركز المالي (كافد) إلى الدرعية بالمترو: الوقت والسعر والخطوات",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-19": 1
@@ -19290,9 +19292,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1128,
-  "events_total": 1362,
-  "goatcounter_total_with_events": 2490,
+  "visits": 1131,
+  "events_total": 1363,
+  "goatcounter_total_with_events": 2494,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19314,7 +19316,7 @@
    "2026-10-19": 49,
    "2026-10-20": 79,
    "2026-10-21": 67,
-   "2026-10-22": 10
+   "2026-10-22": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19331,9 +19333,9 @@
    "2026-10-19": 12,
    "2026-10-20": 24,
    "2026-10-21": 13,
-   "2026-10-22": 1
+   "2026-10-22": 2
   },
-  "visitor_days": 542,
+  "visitor_days": 543,
   "return_rate": 0.096,
   "routes": 360,
   "routes_not_found": 0,
@@ -19418,7 +19420,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 490,
+   "new": 491,
    "return": 52
   },
   "top_routes": [
@@ -19599,11 +19601,11 @@
     "count": 3
    },
    {
-    "name": "www.bing.com",
-    "count": 2
+    "name": "www.facebook.com",
+    "count": 3
    },
    {
-    "name": "www.facebook.com",
+    "name": "www.bing.com",
     "count": 2
    },
    {
@@ -19871,6 +19873,24 @@
     "count": 1
    }
   ],
+  "/ar/districts": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/districts",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-maseef": [
    {
     "name": "Google",
@@ -19946,20 +19966,6 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
-   }
-  ],
-  "/ar/districts": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/districts",
     "count": 1
    }
   ],
@@ -20111,6 +20117,12 @@
     "count": 2
    }
   ],
+  "/ar/routes/kafd-to-diriyah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/destinations/haraj-bin-qasim": [
    {
     "name": "Google",
@@ -20190,12 +20202,6 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/ar/districts/al-yasmeen": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
@@ -20241,11 +20247,11 @@
     "count": 1
    },
    {
-    "path": "/ar/stations",
+    "path": "/ar/districts",
     "count": 1
    },
    {
-    "path": "/ar/districts",
+    "path": "/ar/stations",
     "count": 1
    },
    {
@@ -20427,6 +20433,10 @@
     "count": 2
    },
    {
+    "path": "/ar/routes/kafd-to-diriyah",
+    "count": 2
+   },
+   {
     "path": "/destinations/haraj-bin-qasim",
     "count": 2
    },
@@ -20459,8 +20469,8 @@
     "count": 2
    },
    {
-    "path": "/ar/districts/al-yasmeen",
-    "count": 2
+    "path": "/ar/districts",
+    "count": 1
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
@@ -20489,12 +20499,12 @@
     "count": 4
    },
    {
-    "path": "/ur.html",
+    "path": "/",
     "count": 3
    },
    {
-    "path": "/",
-    "count": 2
+    "path": "/ur.html",
+    "count": 3
    }
   ],
   "Yahoo": [
@@ -20745,6 +20755,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/districts": [
+   {
+    "path": "/ar/districts",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/lines/orange-line": [
    {
     "path": "/ar/stations/jeddah-road",
@@ -20760,12 +20776,6 @@
   "riyadhmetro.fyi/ar/stations/al-malaz": [
    {
     "path": "/ar/stations",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/districts": [
-   {
-    "path": "/ar/districts",
     "count": 1
    }
   ],
@@ -20809,7 +20819,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 375,
+   "count": 377,
    "ref_scheme": "g"
   },
   {
@@ -20845,7 +20855,7 @@
   {
    "id": "www.facebook.com",
    "name": "www.facebook.com",
-   "count": 18,
+   "count": 20,
    "ref_scheme": "h"
   },
   {
@@ -21105,12 +21115,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1935
+   "count": 1937
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 468
+   "count": 470
   },
   {
    "id": "(unknown)",
@@ -21167,7 +21177,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2031
+   "count": 2033
   },
   {
    "id": "AE",
@@ -21177,7 +21187,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 80
+   "count": 82
   },
   {
    "id": "GB",
@@ -21389,7 +21399,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1975
+   "count": 1976
   },
   {
    "id": "tablet",
@@ -21399,12 +21409,12 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 376
+   "count": 377
   },
   {
    "id": "desktophd",
    "name": "",
-   "count": 64
+   "count": 66
   },
   {
    "id": "unknown",
@@ -21416,7 +21426,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1289
+   "count": 1293
   },
   {
    "id": "Safari",
@@ -21442,12 +21452,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 877
+   "count": 878
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 327
+   "count": 328
   },
   {
    "id": "macOS",
@@ -21457,7 +21467,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 37
+   "count": 39
   },
   {
    "id": "Chrome OS",
