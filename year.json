@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T14:21:01Z",
+ "generated": "2026-10-23T15:17:37Z",
  "start": "2025-10-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2675,
+  "total": 2680,
   "total_events": 1439,
-  "total_utc": 2675,
+  "total_utc": 2680,
   "stats": [
    {
     "day": "2025-10-23",
@@ -10328,7 +10328,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2675
+    "monthly": 2680
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 196
+    "weekly": 201
    },
    {
     "day": "2026-10-23",
@@ -10984,14 +10984,14 @@
      9,
      4,
      4,
+     5,
      3,
-     0,
      0,
      0,
      0,
      0
     ],
-    "daily": 53
+    "daily": 58
    },
    {
     "day": "2026-10-24",
@@ -11414,6 +11414,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-rawdah",
+   "path_id": 112412104,
+   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 2,
+    "2026-10-21": 2,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/to",
    "path_id": 110299388,
    "title": "en|name",
@@ -11436,18 +11449,6 @@
     "2026-10-06": 1,
     "2026-10-11": 1,
     "2026-10-12": 3
-   }
-  },
-  {
-   "path": "/ar/districts/al-rawdah",
-   "path_id": 112412104,
-   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-18": 2,
-    "2026-10-21": 2
    }
   },
   {
@@ -11626,6 +11627,18 @@
    "count": 4,
    "daily": {
     "2026-10-16": 4
+   }
+  },
+  {
+   "path": "/ar/destinations/olaya-street",
+   "path_id": 112084034,
+   "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-23": 2
    }
   },
   {
@@ -12240,6 +12253,16 @@
    }
   },
   {
+   "path": "/destinations/ksau-hs",
+   "path_id": 114325796,
+   "title": "KSAU-HS Metro Station: Khashm Al An",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 2
+   }
+  },
+  {
    "path": "view/kbw/tuwaiq",
    "path_id": 114250159,
    "title": "ar|opt_2",
@@ -12608,17 +12631,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/olaya-street",
-   "path_id": 112084034,
-   "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1
    }
   },
   {
@@ -19953,9 +19965,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1236,
+  "visits": 1241,
   "events_total": 1439,
-  "goatcounter_total_with_events": 2675,
+  "goatcounter_total_with_events": 2680,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19978,7 +19990,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 37
+   "2026-10-23": 42
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20486,16 +20498,16 @@
     "count": 1
    }
   ],
-  "/destinations/king-abdullah-park": [
+  "/ar/districts/al-rawdah": [
    {
     "name": "Google",
     "count": 6
    }
   ],
-  "/ar/districts/al-rawdah": [
+  "/destinations/king-abdullah-park": [
    {
     "name": "Google",
-    "count": 5
+    "count": 6
    }
   ],
   "/ar/lines/orange-line": [
@@ -20589,6 +20601,12 @@
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
+    "count": 4
+   }
+  ],
+  "/ar/destinations/olaya-street": [
+   {
+    "name": "Google",
     "count": 4
    }
   ],
@@ -20810,6 +20828,12 @@
     "count": 1
    }
   ],
+  "/destinations/ksau-hs": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/utayqah": [
    {
     "name": "Google",
@@ -20887,22 +20911,6 @@
   "/destinations/haraj-bin-qasim": [
    {
     "name": "Google",
-    "count": 2
-   }
-  ],
-  "/ar/stations/ad-dar-al-baida": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/lines/blue-line",
-    "count": 1
-   }
-  ],
-  "/districts/al-nafel": [
-   {
-    "name": "chatgpt.com",
     "count": 2
    }
   ]
@@ -21040,12 +21048,12 @@
     "count": 6
    },
    {
-    "path": "/destinations/king-abdullah-park",
+    "path": "/ar/districts/al-rawdah",
     "count": 6
    },
    {
-    "path": "/ar/districts/al-rawdah",
-    "count": 5
+    "path": "/destinations/king-abdullah-park",
+    "count": 6
    },
    {
     "path": "/ar/districts/al-wisham",
@@ -21061,6 +21069,10 @@
    },
    {
     "path": "/districts/al-arid",
+    "count": 4
+   },
+   {
+    "path": "/ar/destinations/olaya-street",
     "count": 4
    },
    {
@@ -21152,6 +21164,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/ksau-hs",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/utayqah",
     "count": 2
    },
@@ -21197,10 +21213,6 @@
    },
    {
     "path": "/ar/districts/al-falah",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/ad-dar-al-baida",
     "count": 1
    }
   ],
@@ -21267,10 +21279,6 @@
    },
    {
     "path": "/districts/qurtubah",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-nafel",
     "count": 2
    },
    {
@@ -21541,12 +21549,6 @@
     "path": "/ar/lines/blue-line",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/ar/lines/blue-line": [
-   {
-    "path": "/ar/stations/ad-dar-al-baida",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
@@ -21558,7 +21560,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 433,
+   "count": 438,
    "ref_scheme": "g"
   },
   {
@@ -21854,12 +21856,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2067
+   "count": 2071
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 515
+   "count": 516
   },
   {
    "id": "(unknown)",
@@ -21916,7 +21918,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2207
+   "count": 2212
   },
   {
    "id": "AE",
@@ -22138,7 +22140,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2120
+   "count": 2125
   },
   {
    "id": "tablet",
@@ -22165,12 +22167,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1405
+   "count": 1406
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1202
+   "count": 1206
   },
   {
    "name": "",
@@ -22186,12 +22188,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1194
+   "count": 1198
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 958
+   "count": 959
   },
   {
    "id": "Windows",
