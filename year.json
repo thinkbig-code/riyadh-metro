@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T10:15:36Z",
+ "generated": "2026-10-23T11:13:23Z",
  "start": "2025-10-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2654,
+  "total": 2657,
   "total_events": 1435,
-  "total_utc": 2654,
+  "total_utc": 2657,
   "stats": [
    {
     "day": "2025-10-23",
@@ -10328,7 +10328,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2654
+    "monthly": 2657
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 175
+    "weekly": 178
    },
    {
     "day": "2026-10-23",
@@ -10980,8 +10980,8 @@
      2,
      2,
      9,
-     7,
-     0,
+     8,
+     2,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 32
+    "daily": 35
    },
    {
     "day": "2026-10-24",
@@ -11087,7 +11087,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 86,
+   "count": 88,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11102,7 +11102,7 @@
     "2026-10-20": 11,
     "2026-10-21": 5,
     "2026-10-22": 11,
-    "2026-10-23": 1
+    "2026-10-23": 3
    }
   },
   {
@@ -11596,6 +11596,17 @@
    }
   },
   {
+   "path": "/districts/al-rawabi",
+   "path_id": 114062966,
+   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 3,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "view/andalus/murabba",
    "path_id": 114026260,
    "title": "en|opt_3",
@@ -11790,16 +11801,6 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/districts/al-rawabi",
-   "path_id": 114062966,
-   "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 3
    }
   },
   {
@@ -19937,9 +19938,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1219,
+  "visits": 1222,
   "events_total": 1435,
-  "goatcounter_total_with_events": 2654,
+  "goatcounter_total_with_events": 2657,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19962,7 +19963,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 20
+   "2026-10-23": 23
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19986,7 +19987,7 @@
   "return_rate": 0.102,
   "routes": 384,
   "routes_not_found": 0,
-  "routes_per_visit": 0.32,
+  "routes_per_visit": 0.31,
   "routes_per_visitor_day": 0.64,
   "share_rate": 0.034,
   "shares": {
@@ -20307,7 +20308,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 68
+    "count": 70
    },
    {
     "name": "(direct or unknown)",
@@ -20570,6 +20571,12 @@
     "count": 5
    }
   ],
+  "/districts/al-rawabi": [
+   {
+    "name": "(direct or unknown)",
+    "count": 4
+   }
+  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
@@ -20642,12 +20649,6 @@
    {
     "name": "Google",
     "count": 4
-   }
-  ],
-  "/districts/al-rawabi": [
-   {
-    "name": "(direct or unknown)",
-    "count": 3
    }
   ],
   "/ar/districts/ar-rabwah": [
@@ -20906,15 +20907,15 @@
     "count": 4
    },
    {
+    "path": "/districts/al-rawabi",
+    "count": 4
+   },
+   {
     "path": "/map",
     "count": 3
    },
    {
     "path": "/ar.html",
-    "count": 3
-   },
-   {
-    "path": "/districts/al-rawabi",
     "count": 3
    },
    {
@@ -20981,7 +20982,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 68
+    "count": 70
    },
    {
     "path": "/map",
@@ -21532,13 +21533,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1470,
+   "count": 1472,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 425,
+   "count": 427,
    "ref_scheme": "g"
   },
   {
@@ -21834,12 +21835,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2056
+   "count": 2058
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 506
+   "count": 508
   },
   {
    "id": "(unknown)",
@@ -21896,7 +21897,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2186
+   "count": 2190
   },
   {
    "id": "AE",
@@ -22118,7 +22119,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2099
+   "count": 2103
   },
   {
    "id": "tablet",
@@ -22145,12 +22146,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1395
+   "count": 1397
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1191
+   "count": 1193
   },
   {
    "name": "",
@@ -22166,12 +22167,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1183
+   "count": 1185
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 948
+   "count": 950
   },
   {
    "id": "Windows",
