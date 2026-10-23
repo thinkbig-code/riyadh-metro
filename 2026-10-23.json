@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T15:16:03Z",
+ "generated": "2026-10-23T16:17:10Z",
  "start": "2026-09-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2680,
-  "total_events": 1439,
-  "total_utc": 2680,
+  "total": 2685,
+  "total_events": 1440,
+  "total_utc": 2685,
   "stats": [
    {
     "day": "2026-09-23",
@@ -278,7 +278,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2680
+    "monthly": 2685
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 299
+    "weekly": 304
    },
    {
     "day": "2026-10-22",
@@ -935,13 +935,13 @@
      4,
      4,
      5,
-     3,
+     8,
      0,
      0,
      0,
      0
     ],
-    "daily": 58
+    "daily": 63
    },
    {
     "day": "2026-10-24",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 678,
+   "count": 679,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1004,7 +1004,7 @@
     "2026-10-20": 27,
     "2026-10-21": 13,
     "2026-10-22": 16,
-    "2026-10-23": 4
+    "2026-10-23": 5
    }
   },
   {
@@ -1012,7 +1012,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 503,
+   "count": 504,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1029,7 +1029,7 @@
     "2026-10-20": 20,
     "2026-10-21": 7,
     "2026-10-22": 10,
-    "2026-10-23": 4
+    "2026-10-23": 5
    }
   },
   {
@@ -2499,6 +2499,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-fayha",
+   "path_id": 112330224,
+   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "geo/ok/salam",
    "path_id": 112324898,
    "title": "en",
@@ -3360,6 +3371,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/ghobairah",
+   "path_id": 114329905,
+   "title": "أقرب محطة مترو لحي غبيرة في الرياض: محطة سكيرينة (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-qasr-mall",
+   "path_id": 114328700,
+   "title": "محطة مترو القصر مول: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
    }
   },
   {
@@ -5036,16 +5067,6 @@
    "path": "/ar/destinations/al-suwaidi-park",
    "path_id": 112343147,
    "title": "محطة مترو حديقة السويدي: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-fayha",
-   "path_id": 112330224,
-   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -9915,9 +9936,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1241,
-  "events_total": 1439,
-  "goatcounter_total_with_events": 2680,
+  "visits": 1245,
+  "events_total": 1440,
+  "goatcounter_total_with_events": 2685,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9940,7 +9961,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 42
+   "2026-10-23": 46
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -9958,9 +9979,9 @@
    "2026-10-20": 24,
    "2026-10-21": 13,
    "2026-10-22": 13,
-   "2026-10-23": 6
+   "2026-10-23": 7
   },
-  "visitor_days": 560,
+  "visitor_days": 561,
   "return_rate": 0.102,
   "routes": 385,
   "routes_not_found": 0,
@@ -10049,7 +10070,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 503,
+   "new": 504,
    "return": 57
   },
   "top_routes": [
@@ -10203,7 +10224,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 449
+    "count": 450
    },
    {
     "name": "tiktok_ad",
@@ -10869,7 +10890,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 449
+    "count": 450
    },
    {
     "path": "/ar/map",
@@ -11504,13 +11525,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1477,
+   "count": 1479,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 438,
+   "count": 441,
    "ref_scheme": "g"
   },
   {
@@ -11806,12 +11827,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2071
+   "count": 2072
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 516
+   "count": 520
   },
   {
    "id": "(unknown)",
@@ -11868,7 +11889,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2212
+   "count": 2216
   },
   {
    "id": "AE",
@@ -11878,7 +11899,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 82
+   "count": 83
   },
   {
    "id": "GB",
@@ -12090,7 +12111,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2125
+   "count": 2130
   },
   {
    "id": "tablet",
@@ -12117,12 +12138,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1406
+   "count": 1408
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1206
+   "count": 1209
   },
   {
    "name": "",
@@ -12138,12 +12159,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1198
+   "count": 1201
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 959
+   "count": 961
   },
   {
    "id": "Windows",
