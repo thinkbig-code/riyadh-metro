@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T03:14:37Z",
+ "generated": "2026-10-23T04:16:10Z",
  "start": "2025-10-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2631,
+  "total": 2634,
   "total_events": 1424,
-  "total_utc": 2631,
+  "total_utc": 2634,
   "stats": [
    {
     "day": "2025-10-23",
@@ -10328,7 +10328,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2631
+    "monthly": 2634
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 152
+    "weekly": 155
    },
    {
     "day": "2026-10-23",
@@ -10973,8 +10973,8 @@
      1,
      0,
      3,
-     0,
-     0,
+     1,
+     2,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 12
    },
    {
     "day": "2026-10-24",
@@ -12786,6 +12786,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-muhammadiyah",
+   "path_id": 110846046,
+   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "route/p_king_khalid_airport_terminals_1_2/p_kingdom_centre",
    "path_id": 110802061,
    "title": "ar|link|ok",
@@ -13312,6 +13323,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-rayan",
+   "path_id": 114192333,
+   "title": "Nearest Metro Station to Al Rayan, Riyadh: Harun Ar Rashid Road, 3.4 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/districts/al-wadi",
+   "path_id": 114172998,
+   "title": "Nearest Metro Station to Al Wadi, Riyadh: Uthman Bin Affan Road (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
    }
   },
   {
@@ -17095,16 +17126,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-muhammadiyah",
-   "path_id": 110846046,
-   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-10": 1
-   }
-  },
-  {
    "path": "/districts/west-umm-al-hamam",
    "path_id": 110824381,
    "title": "Nearest Metro Station to West Umm Al Hamam, Riyadh: King Saud University, 2.7 km",
@@ -19837,9 +19858,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1207,
+  "visits": 1210,
   "events_total": 1424,
-  "goatcounter_total_with_events": 2631,
+  "goatcounter_total_with_events": 2634,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19862,7 +19883,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 8
+   "2026-10-23": 11
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21421,13 +21442,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1461,
+   "count": 1462,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 420,
+   "count": 421,
    "ref_scheme": "g"
   },
   {
@@ -21723,12 +21744,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2037
+   "count": 2038
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 504
+   "count": 505
   },
   {
    "id": "(unknown)",
@@ -21785,7 +21806,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2164
+   "count": 2166
   },
   {
    "id": "AE",
@@ -22007,7 +22028,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2078
+   "count": 2080
   },
   {
    "id": "tablet",
@@ -22034,12 +22055,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1377
+   "count": 1378
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1187
+   "count": 1188
   },
   {
    "name": "",
@@ -22055,12 +22076,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1180
+   "count": 1181
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 930
+   "count": 931
   },
   {
    "id": "Windows",
