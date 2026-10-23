@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T16:17:10Z",
+ "generated": "2026-10-23T17:14:35Z",
  "start": "2026-09-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2685,
+  "total": 2687,
   "total_events": 1440,
-  "total_utc": 2685,
+  "total_utc": 2687,
   "stats": [
    {
     "day": "2026-09-23",
@@ -278,7 +278,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2685
+    "monthly": 2687
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 304
+    "weekly": 306
    },
    {
     "day": "2026-10-22",
@@ -936,12 +936,12 @@
      4,
      5,
      8,
-     0,
+     2,
      0,
      0,
      0
     ],
-    "daily": 63
+    "daily": 65
    },
    {
     "day": "2026-10-24",
@@ -1037,7 +1037,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 92,
+   "count": 93,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1052,7 +1052,7 @@
     "2026-10-20": 11,
     "2026-10-21": 5,
     "2026-10-22": 11,
-    "2026-10-23": 7
+    "2026-10-23": 8
    }
   },
   {
@@ -3371,6 +3371,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-nakheel",
+   "path_id": 114342963,
+   "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
    }
   },
   {
@@ -9936,9 +9946,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1245,
+  "visits": 1247,
   "events_total": 1440,
-  "goatcounter_total_with_events": 2685,
+  "goatcounter_total_with_events": 2687,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9961,7 +9971,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 46
+   "2026-10-23": 48
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10306,7 +10316,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 74
+    "count": 75
    },
    {
     "name": "(direct or unknown)",
@@ -10980,7 +10990,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 74
+    "count": 75
    },
    {
     "path": "/map",
@@ -11531,7 +11541,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 441,
+   "count": 442,
    "ref_scheme": "g"
   },
   {
@@ -11561,7 +11571,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 40,
+   "count": 41,
    "ref_scheme": "c"
   },
   {
@@ -11827,12 +11837,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2072
+   "count": 2073
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 520
+   "count": 521
   },
   {
    "id": "(unknown)",
@@ -11889,7 +11899,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2216
+   "count": 2218
   },
   {
    "id": "AE",
@@ -12111,7 +12121,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2130
+   "count": 2132
   },
   {
    "id": "tablet",
@@ -12138,12 +12148,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1408
+   "count": 1409
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1209
+   "count": 1210
   },
   {
    "name": "",
@@ -12159,12 +12169,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1201
+   "count": 1202
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 961
+   "count": 962
   },
   {
    "id": "Windows",
