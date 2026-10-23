@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T18:07:26Z",
+ "generated": "2026-10-23T19:16:33Z",
  "start": "2026-09-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2694,
+  "total": 2695,
   "total_events": 1443,
-  "total_utc": 2694,
+  "total_utc": 2695,
   "stats": [
    {
     "day": "2026-09-23",
@@ -278,7 +278,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2694
+    "monthly": 2695
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      9
     ],
     "daily": 98,
-    "weekly": 313
+    "weekly": 314
    },
    {
     "day": "2026-10-22",
@@ -938,10 +938,10 @@
      8,
      2,
      7,
-     0,
+     1,
      0
     ],
-    "daily": 72
+    "daily": 73
    },
    {
     "day": "2026-10-24",
@@ -1580,6 +1580,19 @@
    }
   },
   {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "/ar/destinations/olaya-street",
    "path_id": 112084034,
    "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
@@ -1799,18 +1812,6 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-21": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/wadi-namar-park",
-   "path_id": 112323556,
-   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-19": 1,
     "2026-10-22": 1
    }
   },
@@ -9968,9 +9969,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1251,
+  "visits": 1252,
   "events_total": 1443,
-  "goatcounter_total_with_events": 2694,
+  "goatcounter_total_with_events": 2695,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9993,7 +9994,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 52
+   "2026-10-23": 53
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10607,6 +10608,16 @@
     "count": 4
    }
   ],
+  "/ar/destinations/wadi-namar-park": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/olaya-street": [
    {
     "name": "Google",
@@ -10697,16 +10708,6 @@
    {
     "name": "Google",
     "count": 3
-   }
-  ],
-  "/ar/destinations/wadi-namar-park": [
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   },
-   {
-    "name": "Google",
-    "count": 1
    }
   ],
   "/ar/stations/jeddah-road": [
@@ -11191,11 +11192,11 @@
     "count": 2
    },
    {
-    "path": "/ar/districts",
+    "path": "/ar/destinations/wadi-namar-park",
     "count": 1
    },
    {
-    "path": "/ar/destinations/wadi-namar-park",
+    "path": "/ar/districts",
     "count": 1
    },
    {
@@ -11261,6 +11262,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 3
+   },
+   {
     "path": "/",
     "count": 2
    },
@@ -11270,10 +11275,6 @@
    },
    {
     "path": "/districts/ar-rabwah",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/wadi-namar-park",
     "count": 2
    },
    {
@@ -11593,7 +11594,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 41,
+   "count": 42,
    "ref_scheme": "c"
   },
   {
@@ -11859,7 +11860,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2077
+   "count": 2078
   },
   {
    "id": "ara",
@@ -11921,7 +11922,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2225
+   "count": 2226
   },
   {
    "id": "AE",
@@ -12143,7 +12144,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2139
+   "count": 2140
   },
   {
    "id": "tablet",
@@ -12170,7 +12171,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1413
+   "count": 1414
   },
   {
    "id": "Safari",
@@ -12196,7 +12197,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 966
+   "count": 967
   },
   {
    "id": "Windows",
