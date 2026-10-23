@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T02:14:10Z",
+ "generated": "2026-10-23T03:14:37Z",
  "start": "2025-10-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2628,
-  "total_events": 1423,
-  "total_utc": 2628,
+  "total": 2631,
+  "total_events": 1424,
+  "total_utc": 2631,
   "stats": [
    {
     "day": "2025-10-23",
@@ -10328,7 +10328,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2628
+    "monthly": 2631
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 149
+    "weekly": 152
    },
    {
     "day": "2026-10-23",
@@ -10972,7 +10972,7 @@
      0,
      1,
      0,
-     0,
+     3,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 6
+    "daily": 9
    },
    {
     "day": "2026-10-24",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 674,
+   "count": 675,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11053,7 +11053,8 @@
     "2026-10-19": 11,
     "2026-10-20": 27,
     "2026-10-21": 13,
-    "2026-10-22": 16
+    "2026-10-22": 16,
+    "2026-10-23": 1
    }
   },
   {
@@ -13311,6 +13312,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/p_riyadh_gallery_mall/p_kafd_king_abdullah_financial_district",
+   "path_id": 114163602,
+   "title": "en|landing:routes-kafd-to-riyadh-gallery-mall|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/routes/kafd-to-riyadh-gallery-mall",
+   "path_id": 114163551,
+   "title": "KAFD to Riyadh Gallery Mall by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-23": 1
    }
   },
   {
@@ -19816,9 +19837,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1205,
-  "events_total": 1423,
-  "goatcounter_total_with_events": 2628,
+  "visits": 1207,
+  "events_total": 1424,
+  "goatcounter_total_with_events": 2631,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19841,7 +19862,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 6
+   "2026-10-23": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -19862,7 +19883,7 @@
   },
   "visitor_days": 554,
   "return_rate": 0.099,
-  "routes": 381,
+  "routes": 382,
   "routes_not_found": 0,
   "routes_per_visit": 0.32,
   "routes_per_visitor_day": 0.64,
@@ -20059,7 +20080,7 @@
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 17
+    "count": 18
    },
    {
     "name": "p_kingdom_centre",
@@ -21400,13 +21421,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1460,
+   "count": 1461,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 419,
+   "count": 420,
    "ref_scheme": "g"
   },
   {
@@ -21614,6 +21635,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/routes/kafd-to-riyadh-gallery-mall",
+   "name": "riyadhmetro.fyi/routes/kafd-to-riyadh-gallery-mall",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.reddit.com",
    "name": "www.reddit.com",
    "count": 1,
@@ -21690,19 +21717,13 @@
    "name": "riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital",
    "count": 1,
    "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
-   "name": "riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah",
-   "count": 1,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2033
+   "count": 2037
   },
   {
    "id": "ara",
@@ -21764,7 +21785,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2160
+   "count": 2164
   },
   {
    "id": "AE",
@@ -21986,7 +22007,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2077
+   "count": 2078
   },
   {
    "id": "tablet",
@@ -21996,7 +22017,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 402
+   "count": 405
   },
   {
    "id": "desktophd",
@@ -22013,12 +22034,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1376
+   "count": 1377
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1184
+   "count": 1187
   },
   {
    "name": "",
@@ -22039,7 +22060,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 929
+   "count": 930
   },
   {
    "id": "Windows",
@@ -22049,7 +22070,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 116
+   "count": 119
   },
   {
    "id": "Linux",
