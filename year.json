@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T00:05:00Z",
+ "generated": "2026-10-23T01:22:33Z",
  "start": "2025-10-23",
  "end": "2026-10-24",
  "total": {
-  "total": 2627,
+  "total": 2628,
   "total_events": 1423,
-  "total_utc": 2627,
+  "total_utc": 2628,
   "stats": [
    {
     "day": "2025-10-23",
@@ -10328,7 +10328,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2627
+    "monthly": 2628
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 148
+    "weekly": 149
    },
    {
     "day": "2026-10-23",
@@ -10970,7 +10970,7 @@
      0,
      2,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 6
    },
    {
     "day": "2026-10-24",
@@ -11636,6 +11636,19 @@
    }
   },
   {
+   "path": "/districts/ar-rabwah",
+   "path_id": 111168177,
+   "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-16": 1,
+    "2026-10-18": 1,
+    "2026-10-23": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-maseef",
    "path_id": 111125799,
    "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
@@ -11918,18 +11931,6 @@
     "2026-10-12": 1,
     "2026-10-21": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/districts/ar-rabwah",
-   "path_id": 111168177,
-   "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-16": 1,
-    "2026-10-18": 1
    }
   },
   {
@@ -19815,9 +19816,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1204,
+  "visits": 1205,
   "events_total": 1423,
-  "goatcounter_total_with_events": 2627,
+  "goatcounter_total_with_events": 2628,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -19840,7 +19841,7 @@
    "2026-10-20": 79,
    "2026-10-21": 67,
    "2026-10-22": 81,
-   "2026-10-23": 5
+   "2026-10-23": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20469,6 +20470,16 @@
     "count": 1
    }
   ],
+  "/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-maseef": [
    {
     "name": "Google",
@@ -20571,16 +20582,6 @@
    {
     "name": "Google",
     "count": 3
-   }
-  ],
-  "/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/districts/north-mathar": [
@@ -20977,11 +20978,11 @@
     "count": 2
    },
    {
-    "path": "/destinations/lulu-hypermarket-murabba",
+    "path": "/districts/ar-rabwah",
     "count": 2
    },
    {
-    "path": "/districts/ar-rabwah",
+    "path": "/destinations/lulu-hypermarket-murabba",
     "count": 2
    },
    {
@@ -21119,6 +21120,10 @@
     "count": 2
    },
    {
+    "path": "/districts/ar-rabwah",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 2
    },
@@ -21148,10 +21153,6 @@
    },
    {
     "path": "/ar/districts/al-nafel",
-    "count": 1
-   },
-   {
-    "path": "/districts/ar-rabwah",
     "count": 1
    },
    {
@@ -21435,7 +21436,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 33,
+   "count": 34,
    "ref_scheme": "c"
   },
   {
@@ -21706,7 +21707,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 503
+   "count": 504
   },
   {
    "id": "(unknown)",
@@ -21763,7 +21764,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2159
+   "count": 2160
   },
   {
    "id": "AE",
@@ -21985,7 +21986,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2076
+   "count": 2077
   },
   {
    "id": "tablet",
@@ -22017,7 +22018,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1183
+   "count": 1184
   },
   {
    "name": "",
@@ -22033,7 +22034,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1179
+   "count": 1180
   },
   {
    "id": "Android",
