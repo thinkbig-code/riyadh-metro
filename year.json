@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T14:06:49Z",
+ "generated": "2026-10-24T15:07:53Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2779,
+  "total": 2787,
   "total_events": 1469,
-  "total_utc": 2779,
+  "total_utc": 2787,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2779
+    "monthly": 2787
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 157
+    "weekly": 165
    },
    {
     "day": "2026-10-24",
@@ -10984,14 +10984,14 @@
      8,
      8,
      7,
-     2,
-     0,
+     9,
+     1,
      0,
      0,
      0,
      0
     ],
-    "daily": 83
+    "daily": 91
    },
    {
     "day": "2026-10-25",
@@ -11089,7 +11089,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 102,
+   "count": 104,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11105,7 +11105,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 7
+    "2026-10-24": 9
    }
   },
   {
@@ -11319,6 +11319,20 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2,
+    "2026-10-22": 3,
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -11386,19 +11400,6 @@
     "2026-10-21": 2,
     "2026-10-23": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 2,
-    "2026-10-22": 3,
-    "2026-10-23": 1
    }
   },
   {
@@ -11973,6 +11974,18 @@
    }
   },
   {
+   "path": "/districts/al-nada",
+   "path_id": 112087429,
+   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/destinations/aster-sanad-hospital",
    "path_id": 112080374,
    "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
@@ -12337,6 +12350,16 @@
    }
   },
   {
+   "path": "/ar/districts/al-rawabi",
+   "path_id": 114525400,
+   "title": "أقرب محطة مترو لحي الروابي في الرياض: محطة طريق هارون الرشيد، 1.2 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 2
+   }
+  },
+  {
    "path": "/destinations/ksau-hs",
    "path_id": 114325796,
    "title": "KSAU-HS Metro Station: Khashm Al An",
@@ -12397,6 +12420,17 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/royal-mall",
+   "path_id": 113928867,
+   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -12803,17 +12837,6 @@
    "daily": {
     "2026-10-15": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-nada",
-   "path_id": 112087429,
-   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -13596,6 +13619,26 @@
    }
   },
   {
+   "path": "/ar/destinations/ksau-hs",
+   "path_id": 114640999,
+   "title": "محطة مترو جامعة الملك سعود بن عبدالعزيز للعلوم الصحية: محطة خشم العان",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nakheel",
+   "path_id": 114640641,
+   "title": "أقرب محطة مترو لحي النخيل في الرياض: محطة المروج، 3.2 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "route/p_kingdom_centre/p_haraj_bin_qasim",
    "path_id": 114628464,
    "title": "ar|link|ok",
@@ -13760,16 +13803,6 @@
    "path_id": 114555067,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-rawabi",
-   "path_id": 114525400,
-   "title": "أقرب محطة مترو لحي الروابي في الرياض: محطة طريق هارون الرشيد، 1.2 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-24": 1
@@ -14450,16 +14483,6 @@
    "path_id": 113928930,
    "title": "en",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/royal-mall",
-   "path_id": 113928867,
-   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-21": 1
@@ -20298,9 +20321,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1310,
+  "visits": 1318,
   "events_total": 1469,
-  "goatcounter_total_with_events": 2779,
+  "goatcounter_total_with_events": 2787,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20324,7 +20347,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 57
+   "2026-10-24": 65
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20674,7 +20697,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 82
+    "count": 84
    },
    {
     "name": "(direct or unknown)",
@@ -20827,6 +20850,16 @@
     "count": 1
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   }
+  ],
   "/ar/districts/qurtubah": [
    {
     "name": "Google",
@@ -20837,16 +20870,6 @@
    {
     "name": "Google",
     "count": 7
-   }
-  ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 3
    }
   ],
   "/districts/al-yasmeen": [
@@ -21109,6 +21132,20 @@
     "count": 1
    }
   ],
+  "/districts/al-nada": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
@@ -21215,6 +21252,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-rawabi": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/ksau-hs": [
    {
     "name": "Google",
@@ -21246,26 +21293,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/stations/ministry-of-education": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-wizarat": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
     "count": 1
    }
   ]
@@ -21329,6 +21356,10 @@
     "count": 1
    },
    {
+    "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
     "count": 1
    },
@@ -21341,7 +21372,7 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-wizarat",
+    "path": "/ar/districts/al-rawabi",
     "count": 1
    }
   ],
@@ -21360,7 +21391,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 82
+    "count": 84
    },
    {
     "path": "/map",
@@ -21551,19 +21582,19 @@
     "count": 1
    },
    {
+    "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
     "path": "/districts/qurtubah",
     "count": 1
    },
    {
+    "path": "/ar/districts/al-rawabi",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-rayan",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/ministry-of-education",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-wizarat",
     "count": 1
    }
   ],
@@ -21609,15 +21640,15 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/districts/al-arid",
+    "count": 4
+   },
+   {
     "path": "/",
     "count": 3
    },
    {
     "path": "/map",
-    "count": 3
-   },
-   {
-    "path": "/districts/al-arid",
     "count": 3
    },
    {
@@ -21661,15 +21692,15 @@
     "count": 1
    },
    {
+    "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
     "path": "/ar/destinations/aster-sanad-hospital",
     "count": 1
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/ministry-of-education",
     "count": 1
    }
   ],
@@ -21927,13 +21958,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1508,
+   "count": 1509,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 472,
+   "count": 477,
    "ref_scheme": "g"
   },
   {
@@ -21957,7 +21988,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 55,
+   "count": 57,
    "ref_scheme": "c"
   },
   {
@@ -22229,12 +22260,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2125
+   "count": 2127
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 561
+   "count": 567
   },
   {
    "id": "(unknown)",
@@ -22291,7 +22322,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2304
+   "count": 2312
   },
   {
    "id": "AE",
@@ -22513,7 +22544,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2206
+   "count": 2214
   },
   {
    "id": "tablet",
@@ -22540,12 +22571,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1444
+   "count": 1447
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1265
+   "count": 1270
   },
   {
    "name": "",
@@ -22561,12 +22592,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1253
+   "count": 1258
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 986
+   "count": 989
   },
   {
    "id": "Windows",
