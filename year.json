@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T16:08:37Z",
+ "generated": "2026-10-24T17:09:05Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2793,
+  "total": 2798,
   "total_events": 1470,
-  "total_utc": 2793,
+  "total_utc": 2798,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2793
+    "monthly": 2798
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 171
+    "weekly": 176
    },
    {
     "day": "2026-10-24",
@@ -10986,12 +10986,12 @@
      7,
      9,
      7,
-     0,
-     0,
+     4,
+     1,
      0,
      0
     ],
-    "daily": 97
+    "daily": 102
    },
    {
     "day": "2026-10-25",
@@ -11089,7 +11089,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 106,
+   "count": 107,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11105,7 +11105,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 11
+    "2026-10-24": 12
    }
   },
   {
@@ -11874,6 +11874,17 @@
    }
   },
   {
+   "path": "/ar/districts/utayqah",
+   "path_id": 114069559,
+   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-22": 2,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/districts/al-qadisiyah",
    "path_id": 113291536,
    "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
@@ -12362,6 +12373,16 @@
    }
   },
   {
+   "path": "/ar/districts/west-umm-al-hamam",
+   "path_id": 114458544,
+   "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 2
+   }
+  },
+  {
    "path": "/destinations/ksau-hs",
    "path_id": 114325796,
    "title": "KSAU-HS Metro Station: Khashm Al An",
@@ -12390,16 +12411,6 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/utayqah",
-   "path_id": 114069559,
-   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-22": 2
    }
   },
   {
@@ -13621,6 +13632,26 @@
    }
   },
   {
+   "path": "/ar/stations/king-saud-university",
+   "path_id": 114702144,
+   "title": "محطة جامعة الملك سعود، مترو الرياض: المسار الأحمر (رقم 26)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-jazeerah",
+   "path_id": 114696212,
+   "title": "أقرب محطة مترو لحي الجزيرة في الرياض: محطة جامع الراجحي (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/destinations/ksau-hs",
    "path_id": 114640999,
    "title": "محطة مترو جامعة الملك سعود بن عبدالعزيز للعلوم الصحية: محطة خشم العان",
@@ -13855,16 +13886,6 @@
    "path_id": 114464593,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/west-umm-al-hamam",
-   "path_id": 114458544,
-   "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-24": 1
@@ -20323,9 +20344,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1323,
+  "visits": 1328,
   "events_total": 1470,
-  "goatcounter_total_with_events": 2793,
+  "goatcounter_total_with_events": 2798,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20349,7 +20370,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 70
+   "2026-10-24": 75
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20699,7 +20720,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 85
+    "count": 86
    },
    {
     "name": "(direct or unknown)",
@@ -21094,6 +21115,12 @@
     "count": 4
    }
   ],
+  "/ar/districts/utayqah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -21272,6 +21299,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/west-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/destinations/ksau-hs": [
    {
     "name": "Google",
@@ -21284,26 +21317,10 @@
     "count": 2
    }
   ],
-  "/ar/districts/utayqah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
   "/ar/districts/west-suwaidi": [
    {
     "name": "Google",
     "count": 2
-   }
-  ],
-  "/ar/districts/al-rayan": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ]
  },
@@ -21401,7 +21418,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 85
+    "count": 86
    },
    {
     "path": "/map",
@@ -21492,6 +21509,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/utayqah",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/ghirnatah",
     "count": 3
    },
@@ -21572,15 +21593,15 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/west-umm-al-hamam",
+    "count": 2
+   },
+   {
     "path": "/destinations/ksau-hs",
     "count": 2
    },
    {
     "path": "/districts/skirinah",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/utayqah",
     "count": 2
    },
    {
@@ -21601,10 +21622,6 @@
    },
    {
     "path": "/ar/districts/al-rawabi",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 1
    }
   ],
@@ -21707,10 +21724,6 @@
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 1
    }
   ],
@@ -21982,7 +21995,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 480,
+   "count": 485,
    "ref_scheme": "g"
   },
   {
@@ -22006,7 +22019,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 57,
+   "count": 58,
    "ref_scheme": "c"
   },
   {
@@ -22278,12 +22291,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2132
+   "count": 2134
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 568
+   "count": 572
   },
   {
    "id": "(unknown)",
@@ -22340,7 +22353,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2316
+   "count": 2322
   },
   {
    "id": "AE",
@@ -22562,7 +22575,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2217
+   "count": 2223
   },
   {
    "id": "tablet",
@@ -22589,12 +22602,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1453
+   "count": 1457
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1270
+   "count": 1272
   },
   {
    "name": "",
@@ -22610,12 +22623,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1258
+   "count": 1260
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 992
+   "count": 996
   },
   {
    "id": "Windows",
