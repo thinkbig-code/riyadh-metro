@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T02:12:39Z",
+ "generated": "2026-10-24T03:10:06Z",
  "start": "2026-09-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2715,
+  "total": 2717,
   "total_events": 1453,
-  "total_utc": 2715,
+  "total_utc": 2717,
   "stats": [
    {
     "day": "2026-09-24",
@@ -248,7 +248,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2715
+    "monthly": 2717
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 236
+    "weekly": 238
    },
    {
     "day": "2026-10-23",
@@ -922,7 +922,7 @@
      3,
      11,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 19
+    "daily": 21
    },
    {
     "day": "2026-10-25",
@@ -2411,6 +2411,17 @@
    }
   },
   {
+   "path": "/stations/al-muorabba",
+   "path_id": 112894481,
+   "title": "Al Muorabba Metro Station, Riyadh: Blue Line, No. 14",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/districts/al-nafel",
    "path_id": 112790868,
    "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
@@ -3422,6 +3433,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/routes/riyadh-airport-to-princess-nourah-university",
+   "path_id": 114482693,
+   "title": "من مطار الرياض إلى جامعة الأميرة نورة بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
    }
   },
   {
@@ -4748,16 +4769,6 @@
    "path": "/ar/stations/kafd",
    "path_id": 112914858,
    "title": "محطة المركز المالي، مترو الرياض: المسار الأزرق، المسار الأصفر والمسار البنفسجي (رقم 3)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "/stations/al-muorabba",
-   "path_id": 112894481,
-   "title": "Al Muorabba Metro Station, Riyadh: Blue Line, No. 14",
    "event": false,
    "count": 1,
    "daily": {
@@ -10027,9 +10038,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1262,
+  "visits": 1264,
   "events_total": 1453,
-  "goatcounter_total_with_events": 2715,
+  "goatcounter_total_with_events": 2717,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10053,7 +10064,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 9
+   "2026-10-24": 11
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11632,7 +11643,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 447,
+   "count": 449,
    "ref_scheme": "g"
   },
   {
@@ -11928,12 +11939,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2092
+   "count": 2093
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 530
+   "count": 531
   },
   {
    "id": "(unknown)",
@@ -11990,7 +12001,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2242
+   "count": 2244
   },
   {
    "id": "AE",
@@ -12212,7 +12223,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2156
+   "count": 2158
   },
   {
    "id": "tablet",
@@ -12244,7 +12255,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1223
+   "count": 1225
   },
   {
    "name": "",
@@ -12260,7 +12271,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1215
+   "count": 1217
   },
   {
    "id": "Android",
