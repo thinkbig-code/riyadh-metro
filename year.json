@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T00:04:17Z",
+ "generated": "2026-10-24T01:25:14Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2704,
-  "total_events": 1447,
-  "total_utc": 2704,
+  "total": 2715,
+  "total_events": 1453,
+  "total_utc": 2715,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2704
+    "monthly": 2715
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 82
+    "weekly": 93
    },
    {
     "day": "2026-10-24",
@@ -10970,7 +10970,7 @@
      4,
      0,
      3,
-     0,
+     11,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 19
    },
    {
     "day": "2026-10-25",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 683,
+   "count": 684,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11055,7 +11055,7 @@
     "2026-10-21": 13,
     "2026-10-22": 16,
     "2026-10-23": 6,
-    "2026-10-24": 3
+    "2026-10-24": 4
    }
   },
   {
@@ -11063,7 +11063,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 508,
+   "count": 509,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11081,7 +11081,7 @@
     "2026-10-21": 7,
     "2026-10-22": 10,
     "2026-10-23": 6,
-    "2026-10-24": 3
+    "2026-10-24": 4
    }
   },
   {
@@ -11136,7 +11136,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 28,
+   "count": 29,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11150,7 +11150,8 @@
     "2026-10-20": 1,
     "2026-10-21": 1,
     "2026-10-22": 2,
-    "2026-10-23": 2
+    "2026-10-23": 2,
+    "2026-10-24": 1
    }
   },
   {
@@ -11622,6 +11623,19 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "route/kfl/yarmuk",
    "path_id": 112365147,
    "title": "en|map|ok",
@@ -11831,18 +11845,6 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1,
-    "2026-10-21": 1
    }
   },
   {
@@ -12363,6 +12365,17 @@
    }
   },
   {
+   "path": "/ar/districts/east-umm-al-hamam",
+   "path_id": 113337065,
+   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-falah",
    "path_id": 113320014,
    "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
@@ -12777,6 +12790,17 @@
    "daily": {
     "2026-10-12": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "station/khaleej/to",
+   "path_id": 111702874,
+   "title": "ar|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -13448,6 +13472,56 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "geo/ok/ksp",
+   "path_id": 114464771,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "view/ksp/khaleej",
+   "path_id": 114464688,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/ksp/khaleej",
+   "path_id": 114464624,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "station/ksp/from",
+   "path_id": 114464593,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/west-umm-al-hamam",
+   "path_id": 114458544,
+   "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
    }
   },
   {
@@ -14305,16 +14379,6 @@
    "path_id": 113344181,
    "title": "en|map|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/districts/east-umm-al-hamam",
-   "path_id": 113337065,
-   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-21": 1
@@ -16314,16 +16378,6 @@
    "path": "route/salam/khaleej",
    "path_id": 111702875,
    "title": "ar|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "station/khaleej/to",
-   "path_id": 111702874,
-   "title": "ar|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -20023,9 +20077,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1257,
-  "events_total": 1447,
-  "goatcounter_total_with_events": 2704,
+  "visits": 1262,
+  "events_total": 1453,
+  "goatcounter_total_with_events": 2715,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20049,7 +20103,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 4
+   "2026-10-24": 9
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20068,11 +20122,11 @@
    "2026-10-21": 13,
    "2026-10-22": 13,
    "2026-10-23": 8,
-   "2026-10-24": 3
+   "2026-10-24": 4
   },
-  "visitor_days": 565,
+  "visitor_days": 566,
   "return_rate": 0.101,
-  "routes": 387,
+  "routes": 388,
   "routes_not_found": 0,
   "routes_per_visit": 0.31,
   "routes_per_visitor_day": 0.64,
@@ -20153,13 +20207,13 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 36,
+   "ok": 37,
    "fail": 3,
    "outside": 3,
    "far": 3
   },
   "visitors_new_return": {
-   "new": 508,
+   "new": 509,
    "return": 57
   },
   "top_routes": [
@@ -20313,7 +20367,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 454
+    "count": 455
    },
    {
     "name": "tiktok_ad",
@@ -20429,7 +20483,7 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 2
+    "count": 3
    },
    {
     "name": "riyadhmetro.fyi/destinations/riyadh-front",
@@ -20664,6 +20718,12 @@
     "count": 4
    }
   ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/destinations/wadi-namar-park": [
    {
     "name": "chatgpt.com",
@@ -20752,12 +20812,6 @@
    {
     "name": "Google",
     "count": 4
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/districts/ghirnatah": [
@@ -20956,6 +21010,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/east-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-falah": [
    {
     "name": "(direct or unknown)",
@@ -20971,19 +21031,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/ar/routes/kafd-to-diriyah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 454
+    "count": 455
    },
    {
     "path": "/ar/map",
@@ -21136,6 +21190,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/olaya-street",
     "count": 4
    },
@@ -21157,10 +21215,6 @@
    },
    {
     "path": "/destinations/riyadh-front",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
     "count": 3
    },
    {
@@ -21244,11 +21298,11 @@
     "count": 2
    },
    {
-    "path": "/ar/destinations/olaya-towers",
+    "path": "/ar/districts/east-umm-al-hamam",
     "count": 2
    },
    {
-    "path": "/ar/routes/kafd-to-diriyah",
+    "path": "/ar/destinations/olaya-towers",
     "count": 2
    },
    {
@@ -21318,6 +21372,10 @@
   ],
   "chatgpt.com": [
    {
+    "path": "/map",
+    "count": 3
+   },
+   {
     "path": "/districts/al-arid",
     "count": 3
    },
@@ -21327,10 +21385,6 @@
    },
    {
     "path": "/",
-    "count": 2
-   },
-   {
-    "path": "/map",
     "count": 2
    },
    {
@@ -21622,13 +21676,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1492,
+   "count": 1499,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 445,
+   "count": 447,
    "ref_scheme": "g"
   },
   {
@@ -21652,7 +21706,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 43,
+   "count": 44,
    "ref_scheme": "c"
   },
   {
@@ -21924,12 +21978,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2084
+   "count": 2092
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 528
+   "count": 530
   },
   {
    "id": "(unknown)",
@@ -21986,7 +22040,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2232
+   "count": 2242
   },
   {
    "id": "AE",
@@ -22208,7 +22262,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2146
+   "count": 2156
   },
   {
    "id": "tablet",
@@ -22235,12 +22289,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1421
+   "count": 1422
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1214
+   "count": 1223
   },
   {
    "name": "",
@@ -22256,12 +22310,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1206
+   "count": 1215
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 972
+   "count": 973
   },
   {
    "id": "Windows",
