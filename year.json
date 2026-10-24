@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T03:11:38Z",
+ "generated": "2026-10-24T04:12:52Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2717,
+  "total": 2718,
   "total_events": 1453,
-  "total_utc": 2717,
+  "total_utc": 2718,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2717
+    "monthly": 2718
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 95
+    "weekly": 96
    },
    {
     "day": "2026-10-24",
@@ -10973,7 +10973,7 @@
      11,
      0,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 21
+    "daily": 22
    },
    {
     "day": "2026-10-25",
@@ -12480,6 +12480,17 @@
    "daily": {
     "2026-10-18": 1,
     "2026-10-19": 1
+   }
+  },
+  {
+   "path": "/stations/transportation-center",
+   "path_id": 112718989,
+   "title": "Transportation Center Metro Station, Riyadh: Blue Line, No. 23",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -14929,16 +14940,6 @@
    "path": "/districts/al-quds",
    "path_id": 112744968,
    "title": "Nearest Metro Station to Al Quds, Riyadh: Khalid Bin Alwaleed Road (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/stations/transportation-center",
-   "path_id": 112718989,
-   "title": "Transportation Center Metro Station, Riyadh: Blue Line, No. 23",
    "event": false,
    "count": 1,
    "daily": {
@@ -20088,9 +20089,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1264,
+  "visits": 1265,
   "events_total": 1453,
-  "goatcounter_total_with_events": 2717,
+  "goatcounter_total_with_events": 2718,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20114,7 +20115,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 11
+   "2026-10-24": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21693,7 +21694,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 449,
+   "count": 450,
    "ref_scheme": "g"
   },
   {
@@ -21989,7 +21990,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2093
+   "count": 2094
   },
   {
    "id": "ara",
@@ -22051,7 +22052,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2244
+   "count": 2245
   },
   {
    "id": "AE",
@@ -22273,7 +22274,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2158
+   "count": 2159
   },
   {
    "id": "tablet",
@@ -22300,7 +22301,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1422
+   "count": 1423
   },
   {
    "id": "Safari",
@@ -22326,7 +22327,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 973
+   "count": 974
   },
   {
    "id": "Windows",
