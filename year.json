@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T18:04:18Z",
+ "generated": "2026-10-24T19:11:56Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2807,
+  "total": 2812,
   "total_events": 1470,
-  "total_utc": 2807,
+  "total_utc": 2812,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2807
+    "monthly": 2812
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 185
+    "weekly": 190
    },
    {
     "day": "2026-10-24",
@@ -10988,10 +10988,10 @@
      7,
      4,
      10,
-     0,
-     0
+     4,
+     1
     ],
-    "daily": 111
+    "daily": 116
    },
    {
     "day": "2026-10-25",
@@ -11089,7 +11089,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 107,
+   "count": 108,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11105,7 +11105,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 12
+    "2026-10-24": 13
    }
   },
   {
@@ -11333,6 +11333,20 @@
    }
   },
   {
+   "path": "/districts/al-yasmeen",
+   "path_id": 111876907,
+   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-13": 2,
+    "2026-10-14": 3,
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/districts/qurtubah",
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
@@ -11400,19 +11414,6 @@
     "2026-10-21": 2,
     "2026-10-23": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-yasmeen",
-   "path_id": 111876907,
-   "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-13": 2,
-    "2026-10-14": 3,
-    "2026-10-20": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -11639,6 +11640,17 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
+   }
+  },
+  {
+   "path": "/ar/districts/utayqah",
+   "path_id": 114069559,
+   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 2,
+    "2026-10-24": 2
    }
   },
   {
@@ -11871,17 +11883,6 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/utayqah",
-   "path_id": 114069559,
-   "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 2,
-    "2026-10-24": 1
    }
   },
   {
@@ -12403,6 +12404,17 @@
    }
   },
   {
+   "path": "/ar/districts/ghobairah",
+   "path_id": 114329905,
+   "title": "أقرب محطة مترو لحي غبيرة في الرياض: محطة سكيرينة (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/destinations/ksau-hs",
    "path_id": 114325796,
    "title": "KSAU-HS Metro Station: Khashm Al An",
@@ -12481,6 +12493,17 @@
    "path": "/ar/stations/ministry-of-education",
    "path_id": 113925387,
    "title": "محطة وزارة التعليم، مترو الرياض: المسار الأحمر والمسار الأخضر (رقم 32)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/districts/al-mughrazat",
+   "path_id": 113911151,
+   "title": "Nearest Metro Station to Al Mughrazat, Riyadh: Riyadh Exhibition Center, 1.2 km",
    "event": false,
    "count": 2,
    "daily": {
@@ -13993,16 +14016,6 @@
    }
   },
   {
-   "path": "/ar/districts/ghobairah",
-   "path_id": 114329905,
-   "title": "أقرب محطة مترو لحي غبيرة في الرياض: محطة سكيرينة (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-23": 1
-   }
-  },
-  {
    "path": "/ar/destinations/al-qasr-mall",
    "path_id": 114328700,
    "title": "محطة مترو القصر مول: محطة سلطانة (المسار البرتقالي)",
@@ -14597,16 +14610,6 @@
    "path_id": 113928747,
    "title": "en",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/districts/al-mughrazat",
-   "path_id": 113911151,
-   "title": "Nearest Metro Station to Al Mughrazat, Riyadh: Riyadh Exhibition Center, 1.2 km",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-21": 1
@@ -20405,9 +20408,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1337,
+  "visits": 1342,
   "events_total": 1470,
-  "goatcounter_total_with_events": 2807,
+  "goatcounter_total_with_events": 2812,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20431,7 +20434,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 84
+   "2026-10-24": 89
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20781,7 +20784,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 86
+    "count": 87
    },
    {
     "name": "(direct or unknown)",
@@ -20944,6 +20947,12 @@
     "count": 4
    }
   ],
+  "/districts/al-yasmeen": [
+   {
+    "name": "Google",
+    "count": 8
+   }
+  ],
   "/ar/districts/qurtubah": [
    {
     "name": "Google",
@@ -20951,12 +20960,6 @@
    }
   ],
   "/ar/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 7
-   }
-  ],
-  "/districts/al-yasmeen": [
    {
     "name": "Google",
     "count": 7
@@ -21092,6 +21095,12 @@
     "count": 5
    }
   ],
+  "/ar/districts/utayqah": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -21174,12 +21183,6 @@
    {
     "name": "Google",
     "count": 4
-   }
-  ],
-  "/ar/districts/utayqah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/districts/al-qadisiyah": [
@@ -21378,7 +21381,7 @@
     "count": 2
    }
   ],
-  "/destinations/ksau-hs": [
+  "/ar/districts/ghobairah": [
    {
     "name": "Google",
     "count": 2
@@ -21479,7 +21482,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 86
+    "count": 87
    },
    {
     "path": "/map",
@@ -21506,6 +21509,10 @@
     "count": 8
    },
    {
+    "path": "/districts/al-yasmeen",
+    "count": 8
+   },
+   {
     "path": "/ar/districts/qurtubah",
     "count": 8
    },
@@ -21515,10 +21522,6 @@
    },
    {
     "path": "/ar/districts/al-rawdah",
-    "count": 7
-   },
-   {
-    "path": "/districts/al-yasmeen",
     "count": 7
    },
    {
@@ -21546,6 +21549,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/utayqah",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/ar-rabwah",
     "count": 4
    },
@@ -21567,10 +21574,6 @@
    },
    {
     "path": "/ar/districts/al-nafel",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/utayqah",
     "count": 3
    },
    {
@@ -21658,7 +21661,7 @@
     "count": 2
    },
    {
-    "path": "/destinations/ksau-hs",
+    "path": "/ar/districts/ghobairah",
     "count": 2
    },
    {
@@ -22056,7 +22059,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 485,
+   "count": 489,
    "ref_scheme": "g"
   },
   {
@@ -22080,7 +22083,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 62,
+   "count": 63,
    "ref_scheme": "c"
   },
   {
@@ -22352,12 +22355,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2136
+   "count": 2139
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 578
+   "count": 580
   },
   {
    "id": "(unknown)",
@@ -22414,7 +22417,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2330
+   "count": 2335
   },
   {
    "id": "AE",
@@ -22636,7 +22639,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2231
+   "count": 2236
   },
   {
    "id": "tablet",
@@ -22663,12 +22666,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1459
+   "count": 1462
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1278
+   "count": 1280
   },
   {
    "name": "",
@@ -22684,12 +22687,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1266
+   "count": 1268
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 998
+   "count": 1001
   },
   {
    "id": "Windows",
