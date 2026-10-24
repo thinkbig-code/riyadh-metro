@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T04:12:52Z",
+ "generated": "2026-10-24T05:11:12Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2718,
+  "total": 2719,
   "total_events": 1453,
-  "total_utc": 2718,
+  "total_utc": 2719,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2718
+    "monthly": 2719
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 96
+    "weekly": 97
    },
    {
     "day": "2026-10-24",
@@ -10974,7 +10974,7 @@
      0,
      2,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 23
    },
    {
     "day": "2026-10-25",
@@ -11327,6 +11327,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-rawdah",
+   "path_id": 112412104,
+   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 2,
+    "2026-10-21": 2,
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/districts/al-arid",
    "path_id": 112102406,
    "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
@@ -11414,19 +11428,6 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
-   }
-  },
-  {
-   "path": "/ar/districts/al-rawdah",
-   "path_id": 112412104,
-   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-18": 2,
-    "2026-10-21": 2,
-    "2026-10-23": 1
    }
   },
   {
@@ -20089,9 +20090,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1265,
+  "visits": 1266,
   "events_total": 1453,
-  "goatcounter_total_with_events": 2718,
+  "goatcounter_total_with_events": 2719,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20115,7 +20116,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 12
+   "2026-10-24": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20592,6 +20593,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
   "/districts/al-arid": [
    {
     "name": "Google",
@@ -20622,12 +20629,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 6
    }
   ],
   "/destinations/king-abdullah-park": [
@@ -21166,6 +21167,10 @@
     "count": 7
    },
    {
+    "path": "/ar/districts/al-rawdah",
+    "count": 7
+   },
+   {
     "path": "/districts/al-yasmeen",
     "count": 7
    },
@@ -21175,10 +21180,6 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 6
-   },
-   {
-    "path": "/ar/districts/al-rawdah",
     "count": 6
    },
    {
@@ -21694,7 +21695,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 450,
+   "count": 451,
    "ref_scheme": "g"
   },
   {
@@ -21995,7 +21996,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 531
+   "count": 532
   },
   {
    "id": "(unknown)",
@@ -22052,7 +22053,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2245
+   "count": 2246
   },
   {
    "id": "AE",
@@ -22274,7 +22275,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2159
+   "count": 2160
   },
   {
    "id": "tablet",
@@ -22306,7 +22307,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1225
+   "count": 1226
   },
   {
    "name": "",
@@ -22322,7 +22323,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1217
+   "count": 1218
   },
   {
    "id": "Android",
