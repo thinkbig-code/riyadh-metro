@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T17:09:05Z",
+ "generated": "2026-10-24T18:04:18Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2798,
+  "total": 2807,
   "total_events": 1470,
-  "total_utc": 2798,
+  "total_utc": 2807,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2798
+    "monthly": 2807
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 176
+    "weekly": 185
    },
    {
     "day": "2026-10-24",
@@ -10987,11 +10987,11 @@
      9,
      7,
      4,
-     1,
+     10,
      0,
      0
     ],
-    "daily": 102
+    "daily": 111
    },
    {
     "day": "2026-10-25",
@@ -12353,6 +12353,26 @@
    }
   },
   {
+   "path": "/destinations/via-riyadh",
+   "path_id": 114708692,
+   "title": "Via Riyadh Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 2
+   }
+  },
+  {
+   "path": "/districts/al-olaya",
+   "path_id": 114587147,
+   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 2
+   }
+  },
+  {
    "path": "route/jeddahrd/granadia",
    "path_id": 114581451,
    "title": "ar|map|ok",
@@ -12433,6 +12453,17 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-khaleej",
+   "path_id": 114022343,
+   "title": "أقرب محطة مترو لحي الخليج في الرياض: محطة الخليج (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -13632,6 +13663,56 @@
    }
   },
   {
+   "path": "/ar/districts/al-olaya",
+   "path_id": 114711510,
+   "title": "أقرب محطة مترو لحي العليا في الرياض: محطة بنك البلاد (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/via-riyadh",
+   "path_id": 114708731,
+   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-raed",
+   "path_id": 114705696,
+   "title": "أقرب محطة مترو لحي الرائد في الرياض: محطة واحة الملك سلمان (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-shohda",
+   "path_id": 114703526,
+   "title": "أقرب محطة مترو لحي الشهداء في الرياض: محطة غرناطة (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/stations/granada",
+   "path_id": 114703262,
+   "title": "محطة غرناطة، مترو الرياض: المسار البنفسجي (رقم 79)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/stations/king-saud-university",
    "path_id": 114702144,
    "title": "محطة جامعة الملك سعود، مترو الرياض: المسار الأحمر (رقم 26)",
@@ -13745,16 +13826,6 @@
    "path": "/destinations/riyadh-park-mall",
    "path_id": 114587867,
    "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-olaya",
-   "path_id": 114587147,
-   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
    "event": false,
    "count": 1,
    "daily": {
@@ -14436,16 +14507,6 @@
    "path_id": 114025456,
    "title": "en|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-khaleej",
-   "path_id": 114022343,
-   "title": "أقرب محطة مترو لحي الخليج في الرياض: محطة الخليج (داخل الحي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-22": 1
@@ -20344,9 +20405,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1328,
+  "visits": 1337,
   "events_total": 1470,
-  "goatcounter_total_with_events": 2798,
+  "goatcounter_total_with_events": 2807,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20370,7 +20431,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 75
+   "2026-10-24": 84
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20395,7 +20456,7 @@
   "return_rate": 0.103,
   "routes": 394,
   "routes_not_found": 0,
-  "routes_per_visit": 0.3,
+  "routes_per_visit": 0.29,
   "routes_per_visitor_day": 0.65,
   "share_rate": 0.033,
   "shares": {
@@ -21289,6 +21350,18 @@
     "count": 1
    }
   ],
+  "/destinations/via-riyadh": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
+  "/districts/al-olaya": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -21306,18 +21379,6 @@
    }
   ],
   "/destinations/ksau-hs": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/districts/skirinah": [
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/ar/districts/west-suwaidi": [
    {
     "name": "Google",
     "count": 2
@@ -21601,14 +21662,6 @@
     "count": 2
    },
    {
-    "path": "/districts/skirinah",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/west-suwaidi",
-    "count": 2
-   },
-   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 1
    },
@@ -21700,6 +21753,14 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 2
+   },
+   {
+    "path": "/destinations/via-riyadh",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-olaya",
     "count": 2
    },
    {
@@ -21989,7 +22050,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1509,
+   "count": 1510,
    "ref_scheme": "o"
   },
   {
@@ -22019,7 +22080,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 58,
+   "count": 62,
    "ref_scheme": "c"
   },
   {
@@ -22291,12 +22352,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2134
+   "count": 2136
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 572
+   "count": 578
   },
   {
    "id": "(unknown)",
@@ -22353,7 +22414,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2322
+   "count": 2330
   },
   {
    "id": "AE",
@@ -22575,7 +22636,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2223
+   "count": 2231
   },
   {
    "id": "tablet",
@@ -22602,12 +22663,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1457
+   "count": 1459
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1272
+   "count": 1278
   },
   {
    "name": "",
@@ -22623,12 +22684,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1260
+   "count": 1266
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 996
+   "count": 998
   },
   {
    "id": "Windows",
