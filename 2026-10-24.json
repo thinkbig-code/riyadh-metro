@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T19:10:28Z",
+ "generated": "2026-10-24T20:00:07Z",
  "start": "2026-09-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2812,
-  "total_events": 1470,
-  "total_utc": 2812,
+  "total": 2831,
+  "total_events": 1483,
+  "total_utc": 2831,
   "stats": [
    {
     "day": "2026-09-24",
@@ -248,7 +248,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2812
+    "monthly": 2831
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 333
+    "weekly": 352
    },
    {
     "day": "2026-10-23",
@@ -939,9 +939,9 @@
      4,
      10,
      4,
-     1
+     20
     ],
-    "daily": 116
+    "daily": 135
    },
    {
     "day": "2026-10-25",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 690,
+   "count": 691,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1005,7 +1005,7 @@
     "2026-10-21": 13,
     "2026-10-22": 16,
     "2026-10-23": 6,
-    "2026-10-24": 10
+    "2026-10-24": 11
    }
   },
   {
@@ -1013,7 +1013,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 513,
+   "count": 514,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1031,7 +1031,7 @@
     "2026-10-21": 7,
     "2026-10-22": 10,
     "2026-10-23": 6,
-    "2026-10-24": 8
+    "2026-10-24": 9
    }
   },
   {
@@ -1039,7 +1039,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 108,
+   "count": 109,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1055,7 +1055,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 13
+    "2026-10-24": 14
    }
   },
   {
@@ -1111,7 +1111,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 24,
+   "count": 26,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1127,7 +1127,7 @@
     "2026-10-21": 3,
     "2026-10-22": 2,
     "2026-10-23": 2,
-    "2026-10-24": 3
+    "2026-10-24": 5
    }
   },
   {
@@ -1546,6 +1546,20 @@
    }
   },
   {
+   "path": "station/hokm/to",
+   "path_id": 110432185,
+   "title": "en|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-12": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "place/p_panorama_mall/to",
    "path_id": 110418739,
    "title": "en|name",
@@ -1786,16 +1800,15 @@
    }
   },
   {
-   "path": "station/hokm/to",
-   "path_id": 110432185,
-   "title": "en|name",
+   "path": "geo/ok/granadia",
+   "path_id": 110423149,
+   "title": "en",
    "event": true,
    "count": 4,
    "daily": {
     "2026-10-08": 1,
     "2026-10-09": 1,
-    "2026-10-10": 1,
-    "2026-10-12": 1
+    "2026-10-24": 2
    }
   },
   {
@@ -1833,6 +1846,16 @@
     "2026-10-07": 2,
     "2026-10-08": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/granadia",
+   "path_id": 114581451,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 3
    }
   },
   {
@@ -2324,16 +2347,6 @@
    }
   },
   {
-   "path": "route/jeddahrd/granadia",
-   "path_id": 114581451,
-   "title": "ar|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 2
-   }
-  },
-  {
    "path": "/ar/districts/al-rawabi",
    "path_id": 114525400,
    "title": "أقرب محطة مترو لحي الروابي في الرياض: محطة طريق هارون الرشيد، 1.2 كم",
@@ -2385,9 +2398,31 @@
    }
   },
   {
+   "path": "/districts/al-wadi",
+   "path_id": 114172998,
+   "title": "Nearest Metro Station to Al Wadi, Riyadh: Uthman Bin Affan Road (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/districts/skirinah",
    "path_id": 114073698,
    "title": "Nearest Metro Station to Skirinah, Riyadh: Skirinah, 0.8 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nuzha",
+   "path_id": 114063834,
+   "title": "أقرب محطة مترو لحي النزهة في الرياض: محطة النزهة، 1.1 كم",
    "event": false,
    "count": 2,
    "daily": {
@@ -3347,17 +3382,6 @@
    }
   },
   {
-   "path": "geo/ok/granadia",
-   "path_id": 110423149,
-   "title": "en",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-09": 1
-   }
-  },
-  {
    "path": "geo/ok/wizarat",
    "path_id": 110415533,
    "title": "en",
@@ -3633,6 +3657,86 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/granadia/hokm",
+   "path_id": 114739858,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/granadia/hokm",
+   "path_id": 114739842,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "view/granadia/p_al_deira_market",
+   "path_id": 114734525,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/granadia/p_al_deira_market",
+   "path_id": 114734485,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "place/p_al_deira_market/to",
+   "path_id": 114734484,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/granadia/p_deera_square",
+   "path_id": 114734433,
+   "title": "ar|geo|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/p_deera_square",
+   "path_id": 114734391,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "place/p_deera_square/to",
+   "path_id": 114734390,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
    }
   },
   {
@@ -4056,16 +4160,6 @@
    }
   },
   {
-   "path": "/districts/al-wadi",
-   "path_id": 114172998,
-   "title": "Nearest Metro Station to Al Wadi, Riyadh: Uthman Bin Affan Road (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-23": 1
-   }
-  },
-  {
    "path": "route/p_riyadh_gallery_mall/p_kafd_king_abdullah_financial_district",
    "path_id": 114163602,
    "title": "en|landing:routes-kafd-to-riyadh-gallery-mall|ok",
@@ -4109,16 +4203,6 @@
    "path": "/ar/districts/al-yamamah",
    "path_id": 114064116,
    "title": "أقرب محطة مترو لحي اليمامة في الرياض: محطة مستشفى الإيمان، 2.0 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nuzha",
-   "path_id": 114063834,
-   "title": "أقرب محطة مترو لحي النزهة في الرياض: محطة النزهة، 1.1 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -10358,9 +10442,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1342,
-  "events_total": 1470,
-  "goatcounter_total_with_events": 2812,
+  "visits": 1348,
+  "events_total": 1483,
+  "goatcounter_total_with_events": 2831,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10384,7 +10468,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 89
+   "2026-10-24": 95
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10403,13 +10487,13 @@
    "2026-10-21": 13,
    "2026-10-22": 13,
    "2026-10-23": 8,
-   "2026-10-24": 10
+   "2026-10-24": 11
   },
-  "visitor_days": 572,
+  "visitor_days": 573,
   "return_rate": 0.103,
-  "routes": 394,
+  "routes": 399,
   "routes_not_found": 0,
-  "routes_per_visit": 0.29,
+  "routes_per_visit": 0.3,
   "routes_per_visitor_day": 0.65,
   "share_rate": 0.033,
   "shares": {
@@ -10419,7 +10503,7 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.057,
+  "failed_search_rate": 0.056,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -10492,13 +10576,13 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 38,
+   "ok": 40,
    "fail": 3,
    "outside": 3,
    "far": 3
   },
   "visitors_new_return": {
-   "new": 513,
+   "new": 514,
    "return": 59
   },
   "top_routes": [
@@ -10509,6 +10593,10 @@
    {
     "name": "kfl > yarmuk",
     "count": 4
+   },
+   {
+    "name": "jeddahrd > granadia",
+    "count": 3
    },
    {
     "name": "tuwaiq > kbw",
@@ -10533,10 +10621,6 @@
    {
     "name": "wizarat > alinma",
     "count": 3
-   },
-   {
-    "name": "jeddahrd > granadia",
-    "count": 2
    },
    {
     "name": "kfl > gosi",
@@ -10593,15 +10677,15 @@
     "count": 11
    },
    {
+    "name": "granadia",
+    "count": 11
+   },
+   {
     "name": "murabba",
     "count": 11
    },
    {
     "name": "andalus",
-    "count": 10
-   },
-   {
-    "name": "malaz",
     "count": 10
    }
   ],
@@ -10615,6 +10699,10 @@
     "count": 12
    },
    {
+    "name": "hokm",
+    "count": 11
+   },
+   {
     "name": "p_kingdom_centre",
     "count": 11
    },
@@ -10624,10 +10712,6 @@
    },
    {
     "name": "jeddahrd",
-    "count": 10
-   },
-   {
-    "name": "hokm",
     "count": 10
    },
    {
@@ -10652,7 +10736,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 457
+    "count": 458
    },
    {
     "name": "tiktok_ad",
@@ -10738,7 +10822,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 12
+    "count": 13
    },
    {
     "name": "www.bing.com",
@@ -10793,12 +10877,12 @@
   ],
   "/ar.html": [
    {
-    "name": "riyadhmetro.fyi/ar/map",
+    "name": "(direct or unknown)",
     "count": 6
    },
    {
-    "name": "(direct or unknown)",
-    "count": 4
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 6
    },
    {
     "name": "riyadhmetro.fyi",
@@ -11342,15 +11426,15 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 457
+    "count": 458
    },
    {
     "path": "/ar/map",
-    "count": 12
+    "count": 13
    },
    {
     "path": "/ar.html",
-    "count": 4
+    "count": 6
    },
    {
     "path": "/ar/districts/al-arid",
@@ -12003,13 +12087,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1510,
+   "count": 1529,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 489,
+   "count": 490,
    "ref_scheme": "g"
   },
   {
@@ -12033,7 +12117,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 63,
+   "count": 64,
    "ref_scheme": "c"
   },
   {
@@ -12305,12 +12389,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2139
+   "count": 2144
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 580
+   "count": 596
   },
   {
    "id": "(unknown)",
@@ -12367,7 +12451,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2335
+   "count": 2356
   },
   {
    "id": "AE",
@@ -12589,7 +12673,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2236
+   "count": 2257
   },
   {
    "id": "tablet",
@@ -12616,12 +12700,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1462
+   "count": 1464
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1280
+   "count": 1299
   },
   {
    "name": "",
@@ -12637,12 +12721,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1268
+   "count": 1287
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1001
+   "count": 1003
   },
   {
    "id": "Windows",
