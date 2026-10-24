@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T05:11:12Z",
+ "generated": "2026-10-24T06:09:17Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2719,
+  "total": 2720,
   "total_events": 1453,
-  "total_utc": 2719,
+  "total_utc": 2720,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2719
+    "monthly": 2720
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 97
+    "weekly": 98
    },
    {
     "day": "2026-10-24",
@@ -10975,7 +10975,7 @@
      2,
      1,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 24
    },
    {
     "day": "2026-10-25",
@@ -13495,6 +13495,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-rawabi",
+   "path_id": 114525400,
+   "title": "أقرب محطة مترو لحي الروابي في الرياض: محطة طريق هارون الرشيد، 1.2 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
    }
   },
   {
@@ -20090,9 +20100,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1266,
+  "visits": 1267,
   "events_total": 1453,
-  "goatcounter_total_with_events": 2719,
+  "goatcounter_total_with_events": 2720,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20116,7 +20126,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 13
+   "2026-10-24": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21689,7 +21699,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1499,
+   "count": 1500,
    "ref_scheme": "o"
   },
   {
@@ -21996,7 +22006,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 532
+   "count": 533
   },
   {
    "id": "(unknown)",
@@ -22053,7 +22063,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2246
+   "count": 2247
   },
   {
    "id": "AE",
@@ -22275,7 +22285,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2160
+   "count": 2161
   },
   {
    "id": "tablet",
@@ -22302,7 +22312,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1423
+   "count": 1424
   },
   {
    "id": "Safari",
@@ -22328,7 +22338,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 974
+   "count": 975
   },
   {
    "id": "Windows",
