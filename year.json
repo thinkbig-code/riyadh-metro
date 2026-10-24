@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T09:09:32Z",
+ "generated": "2026-10-24T10:08:54Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2733,
-  "total_events": 1456,
-  "total_utc": 2733,
+  "total": 2746,
+  "total_events": 1462,
+  "total_utc": 2746,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2733
+    "monthly": 2746
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 111
+    "weekly": 124
    },
    {
     "day": "2026-10-24",
@@ -10979,7 +10979,7 @@
      3,
      4,
      4,
-     2,
+     15,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 37
+    "daily": 50
    },
    {
     "day": "2026-10-25",
@@ -11089,7 +11089,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 96,
+   "count": 97,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11105,7 +11105,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 1
+    "2026-10-24": 2
    }
   },
   {
@@ -11179,7 +11179,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 21,
+   "count": 22,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -11194,7 +11194,8 @@
     "2026-10-20": 1,
     "2026-10-21": 3,
     "2026-10-22": 2,
-    "2026-10-23": 2
+    "2026-10-23": 2,
+    "2026-10-24": 1
    }
   },
   {
@@ -11288,6 +11289,20 @@
    }
   },
   {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 4,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-qadisiyah",
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
@@ -11299,6 +11314,21 @@
     "2026-10-12": 1,
     "2026-10-14": 2,
     "2026-10-15": 2,
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 1,
     "2026-10-24": 1
    }
   },
@@ -11384,19 +11414,6 @@
    }
   },
   {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-15": 4
-   }
-  },
-  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -11410,20 +11427,6 @@
    }
   },
   {
-   "path": "place/p_king_khalid_airport_terminals_1_2/to",
-   "path_id": 110315048,
-   "title": "en|name",
-   "event": true,
-   "count": 7,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 3,
-    "2026-10-12": 1,
-    "2026-10-14": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "route/andalus/murabba",
    "path_id": 114026133,
    "title": "en|search|ok",
@@ -11431,6 +11434,21 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
+   }
+  },
+  {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -11509,6 +11527,20 @@
    }
   },
   {
+   "path": "/destinations/riyadh-front",
+   "path_id": 110843025,
+   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-13": 1,
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/timings",
    "path_id": 110802018,
    "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
@@ -11519,20 +11551,6 @@
     "2026-10-17": 1,
     "2026-10-20": 1,
     "2026-10-21": 2
-   }
-  },
-  {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-10": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -11761,19 +11779,6 @@
     "2026-10-11": 1,
     "2026-10-14": 1,
     "2026-10-22": 2
-   }
-  },
-  {
-   "path": "/destinations/riyadh-front",
-   "path_id": 110843025,
-   "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-11": 1,
-    "2026-10-13": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -12734,6 +12739,17 @@
    }
   },
   {
+   "path": "route/sabic/p_king_khalid_airport_terminals_1_2",
+   "path_id": 112169615,
+   "title": "ar|link|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/districts/al-nada",
    "path_id": 112087429,
    "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
@@ -13521,6 +13537,66 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/granadia",
+   "path_id": 114581451,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/p_king_khalid_airport_terminals_1_2",
+   "path_id": 114580031,
+   "title": "ar|geo|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "geo/ok/jeddahrd",
+   "path_id": 114580030,
+   "title": "ar",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "noresult/قرطبة",
+   "path_id": 114580018,
+   "title": "ar|قرطبة",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/districts/al-nahdah",
+   "path_id": 114572064,
+   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
    }
   },
   {
@@ -15477,16 +15553,6 @@
    "path": "route/p_king_fahd_national_library/p_king_khalid_airport_terminals_1_2",
    "path_id": 112169616,
    "title": "ar|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-15": 1
-   }
-  },
-  {
-   "path": "route/sabic/p_king_khalid_airport_terminals_1_2",
-   "path_id": 112169615,
-   "title": "ar|link|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -20136,9 +20202,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1277,
-  "events_total": 1456,
-  "goatcounter_total_with_events": 2733,
+  "visits": 1284,
+  "events_total": 1462,
+  "goatcounter_total_with_events": 2746,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20162,7 +20228,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 24
+   "2026-10-24": 31
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20185,10 +20251,10 @@
   },
   "visitor_days": 568,
   "return_rate": 0.102,
-  "routes": 389,
+  "routes": 392,
   "routes_not_found": 0,
-  "routes_per_visit": 0.3,
-  "routes_per_visitor_day": 0.64,
+  "routes_per_visit": 0.31,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.033,
   "shares": {
    "whatsapp": 4,
@@ -20197,11 +20263,15 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.054,
+  "failed_search_rate": 0.057,
   "failed_searches": [
    {
     "name": "baba sweet",
     "count": 2
+   },
+   {
+    "name": "قرطبة",
+    "count": 1
    },
    {
     "name": "riyadh metro station | jeddah road, tuwa",
@@ -20266,7 +20336,7 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 37,
+   "ok": 38,
    "fail": 3,
    "outside": 3,
    "far": 3
@@ -20329,11 +20399,11 @@
     "count": 2
    },
    {
-    "name": "rajhi > habib",
+    "name": "sabic > p_king_khalid_airport_terminals_1_2",
     "count": 2
    },
    {
-    "name": "hokm > kafd",
+    "name": "rajhi > habib",
     "count": 2
    }
   ],
@@ -20359,6 +20429,10 @@
     "count": 12
    },
    {
+    "name": "sabic",
+    "count": 11
+   },
+   {
     "name": "murabba",
     "count": 11
    },
@@ -20373,16 +20447,16 @@
    {
     "name": "malaz",
     "count": 10
-   },
-   {
-    "name": "kafd",
-    "count": 10
    }
   ],
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
     "count": 19
+   },
+   {
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 12
    },
    {
     "name": "p_kingdom_centre",
@@ -20402,10 +20476,6 @@
    },
    {
     "name": "t12",
-    "count": 10
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2",
     "count": 10
    },
    {
@@ -20512,7 +20582,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 11
+    "count": 12
    },
    {
     "name": "www.bing.com",
@@ -20579,6 +20649,10 @@
     "count": 2
    },
    {
+    "name": "riyadhmetro.fyi",
+    "count": 2
+   },
+   {
     "name": "riyadhmetro.fyi/ar/nearest-station",
     "count": 2
    },
@@ -20588,10 +20662,6 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi",
     "count": 1
    },
    {
@@ -20631,6 +20701,12 @@
    {
     "name": "Google",
     "count": 9
+   }
+  ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 8
    }
   ],
   "/ar/districts/al-qadisiyah": [
@@ -20675,10 +20751,10 @@
     "count": 7
    }
   ],
-  "/ar/districts/qurtubah": [
+  "/stations": [
    {
     "name": "Google",
-    "count": 7
+    "count": 6
    }
   ],
   "/destinations/king-abdullah-park": [
@@ -20739,6 +20815,16 @@
     "count": 5
    }
   ],
+  "/destinations/riyadh-front": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/timings": [
    {
     "name": "Google",
@@ -20751,12 +20837,6 @@
    {
     "name": "riyadhmetro.fyi/ar/districts",
     "count": 1
-   }
-  ],
-  "/stations": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/ur.html": [
@@ -20858,16 +20938,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/destinations/riyadh-front": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
     "count": 1
    }
   ],
@@ -21104,7 +21174,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 11
+    "count": 12
    },
    {
     "path": "/ar.html",
@@ -21143,15 +21213,15 @@
     "count": 1
    },
    {
+    "path": "/destinations/riyadh-front",
+    "count": 1
+   },
+   {
     "path": "/ar/nearest-station",
     "count": 1
    },
    {
     "path": "/ar/districts",
-    "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-front",
     "count": 1
    },
    {
@@ -21209,6 +21279,10 @@
     "count": 9
    },
    {
+    "path": "/ar/districts/qurtubah",
+    "count": 8
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 7
    },
@@ -21225,8 +21299,8 @@
     "count": 7
    },
    {
-    "path": "/ar/districts/qurtubah",
-    "count": 7
+    "path": "/stations",
+    "count": 6
    },
    {
     "path": "/destinations/king-abdullah-park",
@@ -21237,15 +21311,15 @@
     "count": 5
    },
    {
-    "path": "/stations",
-    "count": 5
-   },
-   {
     "path": "/districts/al-rawdah",
     "count": 5
    },
    {
     "path": "/districts/al-arid",
+    "count": 4
+   },
+   {
+    "path": "/destinations/riyadh-front",
     "count": 4
    },
    {
@@ -21270,10 +21344,6 @@
    },
    {
     "path": "/ar/districts/al-nafel",
-    "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-front",
     "count": 3
    },
    {
@@ -21593,11 +21663,11 @@
   ],
   "riyadhmetro.fyi": [
    {
-    "path": "/map",
-    "count": 1
+    "path": "/ar.html",
+    "count": 2
    },
    {
-    "path": "/ar.html",
+    "path": "/map",
     "count": 1
    }
   ],
@@ -21743,13 +21813,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1502,
+   "count": 1503,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 457,
+   "count": 460,
    "ref_scheme": "g"
   },
   {
@@ -21773,7 +21843,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 45,
+   "count": 47,
    "ref_scheme": "c"
   },
   {
@@ -21804,6 +21874,12 @@
    "id": "riyadhmetro.fyi/ar/timings",
    "name": "riyadhmetro.fyi/ar/timings",
    "count": 10,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi",
+   "name": "riyadhmetro.fyi",
+   "count": 9,
    "ref_scheme": "h"
   },
   {
@@ -21933,12 +22009,6 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi",
-   "name": "riyadhmetro.fyi",
-   "count": 2,
-   "ref_scheme": "h"
-  },
-  {
    "id": "riyadhmetro.fyi/ar/lines",
    "name": "riyadhmetro.fyi/ar/lines",
    "count": 2,
@@ -22045,12 +22115,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2103
+   "count": 2108
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 537
+   "count": 545
   },
   {
    "id": "(unknown)",
@@ -22107,7 +22177,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2260
+   "count": 2273
   },
   {
    "id": "AE",
@@ -22329,7 +22399,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2167
+   "count": 2180
   },
   {
    "id": "tablet",
@@ -22361,7 +22431,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1231
+   "count": 1244
   },
   {
    "name": "",
@@ -22377,7 +22447,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1221
+   "count": 1234
   },
   {
    "id": "Android",
