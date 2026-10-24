@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T08:08:41Z",
+ "generated": "2026-10-24T09:09:32Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2727,
-  "total_events": 1455,
-  "total_utc": 2727,
+  "total": 2733,
+  "total_events": 1456,
+  "total_utc": 2733,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2727
+    "monthly": 2733
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 105
+    "weekly": 111
    },
    {
     "day": "2026-10-24",
@@ -10978,8 +10978,8 @@
      1,
      3,
      4,
-     0,
-     0,
+     4,
+     2,
      0,
      0,
      0,
@@ -10991,7 +10991,7 @@
      0,
      0
     ],
-    "daily": 31
+    "daily": 37
    },
    {
     "day": "2026-10-25",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 685,
+   "count": 686,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11055,7 +11055,7 @@
     "2026-10-21": 13,
     "2026-10-22": 16,
     "2026-10-23": 6,
-    "2026-10-24": 5
+    "2026-10-24": 6
    }
   },
   {
@@ -11113,7 +11113,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 57,
+   "count": 58,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11129,7 +11129,8 @@
     "2026-10-20": 4,
     "2026-10-21": 6,
     "2026-10-22": 3,
-    "2026-10-23": 2
+    "2026-10-23": 2,
+    "2026-10-24": 1
    }
   },
   {
@@ -12109,6 +12110,18 @@
    }
   },
   {
+   "path": "/destinations/diriyah",
+   "path_id": 110689928,
+   "title": "Diriyah Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "route/wizarat/alinma",
    "path_id": 110527795,
    "title": "en|geo|ok",
@@ -12315,6 +12328,17 @@
    }
   },
   {
+   "path": "/ar/districts/west-suwaidi",
+   "path_id": 114062394,
+   "title": "أقرب محطة مترو لحي السويدي الغربي: محطة المحطة الغربية (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rayan",
    "path_id": 114059743,
    "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
@@ -12387,6 +12411,17 @@
    "daily": {
     "2026-10-20": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-24": 1
    }
   },
   {
@@ -13046,17 +13081,6 @@
    }
   },
   {
-   "path": "/destinations/diriyah",
-   "path_id": 110689928,
-   "title": "Diriyah Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "place/p_al_murabba_palace/to",
    "path_id": 110571170,
    "title": "ar|name",
@@ -13500,6 +13524,16 @@
    }
   },
   {
+   "path": "/stations/al-rajhi-grand-mosque",
+   "path_id": 114568305,
+   "title": "Al Rajhi Grand Mosque Metro Station, Riyadh: Orange Line, No. 56",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/destinations/king-khalid-grand-mosque",
    "path_id": 114556178,
    "title": "محطة مترو جامع الملك خالد: محطة المدينة التقنية (المسار الأحمر)",
@@ -13793,16 +13827,6 @@
    "path": "/ar/districts/al-nuzha",
    "path_id": 114063834,
    "title": "أقرب محطة مترو لحي النزهة في الرياض: محطة النزهة، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/west-suwaidi",
-   "path_id": 114062394,
-   "title": "أقرب محطة مترو لحي السويدي الغربي: محطة المحطة الغربية (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -14483,16 +14507,6 @@
    "path": "/ar/districts/sultanah",
    "path_id": 113312791,
    "title": "أقرب محطة مترو لحي سلطانة في الرياض: محطة سلطانة، 1.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/districts/al-qadisiyah",
-   "path_id": 113291536,
-   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
    "event": false,
    "count": 1,
    "daily": {
@@ -20122,9 +20136,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1272,
-  "events_total": 1455,
-  "goatcounter_total_with_events": 2727,
+  "visits": 1277,
+  "events_total": 1456,
+  "goatcounter_total_with_events": 2733,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20148,7 +20162,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 19
+   "2026-10-24": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20167,13 +20181,13 @@
    "2026-10-21": 13,
    "2026-10-22": 13,
    "2026-10-23": 8,
-   "2026-10-24": 5
+   "2026-10-24": 6
   },
-  "visitor_days": 567,
-  "return_rate": 0.101,
+  "visitor_days": 568,
+  "return_rate": 0.102,
   "routes": 389,
   "routes_not_found": 0,
-  "routes_per_visit": 0.31,
+  "routes_per_visit": 0.3,
   "routes_per_visitor_day": 0.64,
   "share_rate": 0.033,
   "shares": {
@@ -20259,7 +20273,7 @@
   },
   "visitors_new_return": {
    "new": 510,
-   "return": 57
+   "return": 58
   },
   "top_routes": [
    {
@@ -20412,7 +20426,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 455
+    "count": 456
    },
    {
     "name": "tiktok_ad",
@@ -20965,6 +20979,16 @@
     "count": 1
    }
   ],
+  "/destinations/diriyah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/gold-souq": [
    {
     "name": "Google",
@@ -21008,6 +21032,12 @@
    }
   ],
   "/ar/districts/utayqah": [
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
+  "/ar/districts/west-suwaidi": [
    {
     "name": "Google",
     "count": 2
@@ -21064,29 +21094,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/ar/districts/al-falah": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/olaya-towers": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 455
+    "count": 456
    },
    {
     "path": "/ar/map",
@@ -21154,10 +21168,6 @@
    },
    {
     "path": "/ar/districts/al-wizarat",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -21323,6 +21333,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/diriyah",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/diriyah",
     "count": 2
    },
@@ -21343,15 +21357,15 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/west-suwaidi",
+    "count": 2
+   },
+   {
     "path": "/destinations/al-nakheel-mall",
     "count": 2
    },
    {
     "path": "/ar/districts/east-umm-al-hamam",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/olaya-towers",
     "count": 2
    },
    {
@@ -21376,10 +21390,6 @@
    },
    {
     "path": "/ar/districts/al-nahdah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -21462,6 +21472,10 @@
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 1
+   },
+   {
+    "path": "/destinations/diriyah",
     "count": 1
    },
    {
@@ -21729,13 +21743,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1500,
+   "count": 1502,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 454,
+   "count": 457,
    "ref_scheme": "g"
   },
   {
@@ -21759,7 +21773,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 44,
+   "count": 45,
    "ref_scheme": "c"
   },
   {
@@ -22031,12 +22045,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2098
+   "count": 2103
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 536
+   "count": 537
   },
   {
    "id": "(unknown)",
@@ -22093,7 +22107,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2254
+   "count": 2260
   },
   {
    "id": "AE",
@@ -22315,7 +22329,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2164
+   "count": 2167
   },
   {
    "id": "tablet",
@@ -22325,7 +22339,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 411
+   "count": 414
   },
   {
    "id": "desktophd",
@@ -22342,12 +22356,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1429
+   "count": 1432
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1228
+   "count": 1231
   },
   {
    "name": "",
@@ -22363,22 +22377,22 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1220
+   "count": 1221
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 976
+   "count": 978
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 366
+   "count": 367
   },
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 120
+   "count": 122
   },
   {
    "id": "Linux",
