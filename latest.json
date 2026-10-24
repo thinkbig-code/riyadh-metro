@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-23T23:07:20Z",
- "start": "2026-09-23",
- "end": "2026-10-24",
+ "generated": "2026-10-24T00:02:56Z",
+ "start": "2026-09-24",
+ "end": "2026-10-25",
  "total": {
-  "total": 2701,
-  "total_events": 1446,
-  "total_utc": 2701,
+  "total": 2704,
+  "total_events": 1447,
+  "total_utc": 2704,
   "stats": [
-   {
-    "day": "2026-09-23",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2026-09-24",
     "hourly": [
@@ -246,8 +216,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 42
+    "daily": 0
    },
    {
     "day": "2026-10-01",
@@ -278,7 +247,8 @@
      0
     ],
     "daily": 0,
-    "monthly": 2701
+    "weekly": 148,
+    "monthly": 2704
    },
    {
     "day": "2026-10-02",
@@ -458,8 +428,7 @@
      44,
      42
     ],
-    "daily": 106,
-    "weekly": 1440
+    "daily": 106
    },
    {
     "day": "2026-10-08",
@@ -489,7 +458,8 @@
      9,
      12
     ],
-    "daily": 541
+    "daily": 541,
+    "weekly": 1499
    },
    {
     "day": "2026-10-09",
@@ -669,8 +639,7 @@
      11,
      4
     ],
-    "daily": 165,
-    "weekly": 899
+    "daily": 165
    },
    {
     "day": "2026-10-15",
@@ -700,7 +669,8 @@
      4,
      0
     ],
-    "daily": 67
+    "daily": 67,
+    "weekly": 832
    },
    {
     "day": "2026-10-16",
@@ -880,8 +850,7 @@
      8,
      9
     ],
-    "daily": 98,
-    "weekly": 320
+    "daily": 98
    },
    {
     "day": "2026-10-22",
@@ -911,7 +880,8 @@
      5,
      6
     ],
-    "daily": 143
+    "daily": 143,
+    "weekly": 225
    },
    {
     "day": "2026-10-23",
@@ -949,6 +919,36 @@
      1,
      4,
      0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 8
+   },
+   {
+    "day": "2026-10-25",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -971,7 +971,7 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 0
    }
   ]
  },
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 682,
+   "count": 683,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1005,7 +1005,7 @@
     "2026-10-21": 13,
     "2026-10-22": 16,
     "2026-10-23": 6,
-    "2026-10-24": 2
+    "2026-10-24": 3
    }
   },
   {
@@ -1013,7 +1013,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 507,
+   "count": 508,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1031,7 +1031,7 @@
     "2026-10-21": 7,
     "2026-10-22": 10,
     "2026-10-23": 6,
-    "2026-10-24": 2
+    "2026-10-24": 3
    }
   },
   {
@@ -1876,6 +1876,18 @@
    }
   },
   {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/ar/destinations/hayat-national-hospital-rabwah",
    "path_id": 111957180,
    "title": "محطة مترو مستشفى الحياة الوطني: محطة جامع الراجحي (المسار البرتقالي)",
@@ -2607,17 +2619,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/aster-sanad-hospital",
-   "path_id": 112080374,
-   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1
    }
   },
   {
@@ -9972,9 +9973,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1255,
-  "events_total": 1446,
-  "goatcounter_total_with_events": 2701,
+  "visits": 1257,
+  "events_total": 1447,
+  "goatcounter_total_with_events": 2704,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -9998,7 +9999,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 2
+   "2026-10-24": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10017,9 +10018,9 @@
    "2026-10-21": 13,
    "2026-10-22": 13,
    "2026-10-23": 8,
-   "2026-10-24": 2
+   "2026-10-24": 3
   },
-  "visitor_days": 564,
+  "visitor_days": 565,
   "return_rate": 0.101,
   "routes": 387,
   "routes_not_found": 0,
@@ -10108,7 +10109,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 507,
+   "new": 508,
    "return": 57
   },
   "top_routes": [
@@ -10262,7 +10263,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 453
+    "count": 454
    },
    {
     "name": "tiktok_ad",
@@ -10741,6 +10742,16 @@
     "count": 1
    }
   ],
+  "/ar/destinations/aster-sanad-hospital": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/hayat-national-hospital-rabwah": [
    {
     "name": "Google",
@@ -10916,19 +10927,13 @@
     "name": "Google",
     "count": 2
    }
-  ],
-  "/destinations/haraj-bin-qasim": [
-   {
-    "name": "Google",
-    "count": 2
-   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 453
+    "count": 454
    },
    {
     "path": "/ar/map",
@@ -11157,6 +11162,10 @@
     "count": 2
    },
    {
+    "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 2
+   },
+   {
     "path": "/timings",
     "count": 2
    },
@@ -11190,10 +11199,6 @@
    },
    {
     "path": "/ar/routes/kafd-to-diriyah",
-    "count": 2
-   },
-   {
-    "path": "/destinations/haraj-bin-qasim",
     "count": 2
    },
    {
@@ -11296,6 +11301,10 @@
    },
    {
     "path": "/ar/districts/al-nafel",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/aster-sanad-hospital",
     "count": 1
    },
    {
@@ -11563,7 +11572,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1490,
+   "count": 1492,
    "ref_scheme": "o"
   },
   {
@@ -11870,7 +11879,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 526
+   "count": 528
   },
   {
    "id": "(unknown)",
@@ -11927,7 +11936,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2229
+   "count": 2231
   },
   {
    "id": "AE",
@@ -12149,7 +12158,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2143
+   "count": 2145
   },
   {
    "id": "tablet",
@@ -12176,7 +12185,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1418
+   "count": 1420
   },
   {
    "id": "Safari",
@@ -12202,7 +12211,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 969
+   "count": 971
   },
   {
    "id": "Windows",
