@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T11:05:59Z",
+ "generated": "2026-10-24T12:06:36Z",
  "start": "2026-09-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2755,
-  "total_events": 1463,
-  "total_utc": 2755,
+  "total": 2764,
+  "total_events": 1466,
+  "total_utc": 2764,
   "stats": [
    {
     "day": "2026-09-24",
@@ -248,7 +248,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2755
+    "monthly": 2764
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 276
+    "weekly": 285
    },
    {
     "day": "2026-10-23",
@@ -931,8 +931,8 @@
      4,
      15,
      8,
-     1,
-     0,
+     8,
+     2,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 59
+    "daily": 68
    },
    {
     "day": "2026-10-25",
@@ -1129,7 +1129,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 22,
+   "count": 23,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1145,7 +1145,7 @@
     "2026-10-21": 3,
     "2026-10-22": 2,
     "2026-10-23": 2,
-    "2026-10-24": 1
+    "2026-10-24": 2
    }
   },
   {
@@ -1746,6 +1746,18 @@
    }
   },
   {
+   "path": "/destinations/diriyah",
+   "path_id": 110689928,
+   "title": "Diriyah Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 2
+   }
+  },
+  {
    "path": "/ar/districts/al-saadah",
    "path_id": 110638521,
    "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
@@ -1815,6 +1827,17 @@
    "count": 3,
    "daily": {
     "2026-10-16": 3
+   }
+  },
+  {
+   "path": "/ar/destinations/al-maigliah-market",
+   "path_id": 112354112,
+   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-24": 2
    }
   },
   {
@@ -2066,18 +2089,6 @@
    }
   },
   {
-   "path": "/destinations/diriyah",
-   "path_id": 110689928,
-   "title": "Diriyah Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1
-   }
-  },
-  {
    "path": "route/wizarat/alinma",
    "path_id": 110527795,
    "title": "en|geo|ok",
@@ -2251,6 +2262,16 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/jeddahrd/granadia",
+   "path_id": 114581451,
+   "title": "ar|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 2
    }
   },
   {
@@ -3524,6 +3545,46 @@
    }
   },
   {
+   "path": "station/jeddahrd/from",
+   "path_id": 114610944,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "view/jeddahrd/granadia",
+   "path_id": 114610715,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-mughrazat",
+   "path_id": 114609611,
+   "title": "أقرب محطة مترو لحي المغرزات في الرياض: محطة مركز الرياض للمعارض، 1.2 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-deira-market",
+   "path_id": 114600163,
+   "title": "محطة مترو أسواق الديرة: محطة مجمع المحاكم (المسار البرتقالي)، 5 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/destinations/indian-embassy",
    "path_id": 114595757,
    "title": "Indian Embassy Riyadh Metro Station: King Saud University (Red Line)",
@@ -3548,16 +3609,6 @@
    "path_id": 114587147,
    "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
    "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "route/jeddahrd/granadia",
-   "path_id": 114581451,
-   "title": "ar|map|ok",
-   "event": true,
    "count": 1,
    "daily": {
     "2026-10-24": 1
@@ -5307,16 +5358,6 @@
    "path": "/ar/districts/al-khuzama",
    "path_id": 112359171,
    "title": "أقرب محطة مترو لحي الخزامى في الرياض: محطة جامعة الملك سعود، 2.1 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-maigliah-market",
-   "path_id": 112354112,
-   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
    "event": false,
    "count": 1,
    "daily": {
@@ -10186,9 +10227,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1292,
-  "events_total": 1463,
-  "goatcounter_total_with_events": 2755,
+  "visits": 1298,
+  "events_total": 1466,
+  "goatcounter_total_with_events": 2764,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10212,7 +10253,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 39
+   "2026-10-24": 45
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10235,10 +10276,10 @@
   },
   "visitor_days": 569,
   "return_rate": 0.102,
-  "routes": 392,
+  "routes": 393,
   "routes_not_found": 0,
   "routes_per_visit": 0.3,
-  "routes_per_visitor_day": 0.64,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.033,
   "shares": {
    "whatsapp": 4,
@@ -10363,6 +10404,10 @@
     "count": 3
    },
    {
+    "name": "jeddahrd > granadia",
+    "count": 2
+   },
+   {
     "name": "kfl > gosi",
     "count": 2
    },
@@ -10384,10 +10429,6 @@
    },
    {
     "name": "sabic > p_king_khalid_airport_terminals_1_2",
-    "count": 2
-   },
-   {
-    "name": "rajhi > habib",
     "count": 2
    }
   ],
@@ -10629,11 +10670,11 @@
     "count": 4
    },
    {
-    "name": "riyadhmetro.fyi/ar/timings",
-    "count": 2
+    "name": "riyadhmetro.fyi",
+    "count": 3
    },
    {
-    "name": "riyadhmetro.fyi",
+    "name": "riyadhmetro.fyi/ar/timings",
     "count": 2
    },
    {
@@ -10925,10 +10966,26 @@
     "count": 1
    }
   ],
+  "/destinations/diriyah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-saadah": [
    {
     "name": "Google",
     "count": 4
+   }
+  ],
+  "/ar/destinations/al-maigliah-market": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
    }
   ],
   "/ar/districts/ghirnatah": [
@@ -11033,16 +11090,6 @@
     "count": 1
    }
   ],
-  "/destinations/diriyah": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/ar/destinations/gold-souq": [
    {
     "name": "Google",
@@ -11137,16 +11184,6 @@
    {
     "name": "Google",
     "count": 2
-   }
-  ],
-  "/ar/districts/al-nahdah": [
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ]
  },
@@ -11375,6 +11412,10 @@
     "count": 2
    },
    {
+    "path": "/destinations/diriyah",
+    "count": 2
+   },
+   {
     "path": "/destinations/lulu-hypermarket-murabba",
     "count": 2
    },
@@ -11384,10 +11425,6 @@
    },
    {
     "path": "/timings",
-    "count": 2
-   },
-   {
-    "path": "/destinations/diriyah",
     "count": 2
    },
    {
@@ -11445,10 +11482,6 @@
    {
     "path": "/ar/districts/al-wizarat",
     "count": 1
-   },
-   {
-    "path": "/ar/districts/al-nahdah",
-    "count": 1
    }
   ],
   "www.bing.com": [
@@ -11505,11 +11538,19 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/al-maigliah-market",
+    "count": 3
+   },
+   {
     "path": "/",
     "count": 2
    },
    {
     "path": "/districts/ar-rabwah",
+    "count": 2
+   },
+   {
+    "path": "/destinations/diriyah",
     "count": 2
    },
    {
@@ -11533,19 +11574,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/diriyah",
-    "count": 1
-   },
-   {
     "path": "/ar/districts/al-rayan",
     "count": 1
    },
    {
     "path": "/ar/stations/ministry-of-education",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-nahdah",
     "count": 1
    }
   ],
@@ -11648,7 +11681,7 @@
   "riyadhmetro.fyi": [
    {
     "path": "/ar.html",
-    "count": 2
+    "count": 3
    },
    {
     "path": "/map",
@@ -11797,13 +11830,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1503,
+   "count": 1505,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 464,
+   "count": 465,
    "ref_scheme": "g"
   },
   {
@@ -11827,7 +11860,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 49,
+   "count": 52,
    "ref_scheme": "c"
   },
   {
@@ -11855,15 +11888,15 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/ar/timings",
-   "name": "riyadhmetro.fyi/ar/timings",
-   "count": 10,
+   "id": "riyadhmetro.fyi",
+   "name": "riyadhmetro.fyi",
+   "count": 11,
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi",
-   "name": "riyadhmetro.fyi",
-   "count": 9,
+   "id": "riyadhmetro.fyi/ar/timings",
+   "name": "riyadhmetro.fyi/ar/timings",
+   "count": 10,
    "ref_scheme": "h"
   },
   {
@@ -12099,12 +12132,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2115
+   "count": 2119
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 547
+   "count": 552
   },
   {
    "id": "(unknown)",
@@ -12161,7 +12194,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2282
+   "count": 2291
   },
   {
    "id": "AE",
@@ -12383,7 +12416,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2184
+   "count": 2193
   },
   {
    "id": "tablet",
@@ -12410,12 +12443,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1440
+   "count": 1441
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1245
+   "count": 1253
   },
   {
    "name": "",
@@ -12431,12 +12464,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1235
+   "count": 1243
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 982
+   "count": 983
   },
   {
    "id": "Windows",
