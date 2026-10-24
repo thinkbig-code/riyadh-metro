@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T15:07:53Z",
+ "generated": "2026-10-24T16:08:37Z",
  "start": "2025-10-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2787,
-  "total_events": 1469,
-  "total_utc": 2787,
+  "total": 2793,
+  "total_events": 1470,
+  "total_utc": 2793,
   "stats": [
    {
     "day": "2025-10-24",
@@ -10297,7 +10297,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2787
+    "monthly": 2793
    },
    {
     "day": "2026-10-02",
@@ -10961,7 +10961,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 165
+    "weekly": 171
    },
    {
     "day": "2026-10-24",
@@ -10985,13 +10985,13 @@
      8,
      7,
      9,
-     1,
+     7,
      0,
      0,
      0,
      0
     ],
-    "daily": 91
+    "daily": 97
    },
    {
     "day": "2026-10-25",
@@ -11031,7 +11031,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 689,
+   "count": 690,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11055,7 +11055,7 @@
     "2026-10-21": 13,
     "2026-10-22": 16,
     "2026-10-23": 6,
-    "2026-10-24": 9
+    "2026-10-24": 10
    }
   },
   {
@@ -11063,7 +11063,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 512,
+   "count": 513,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11081,7 +11081,7 @@
     "2026-10-21": 7,
     "2026-10-22": 10,
     "2026-10-23": 6,
-    "2026-10-24": 7
+    "2026-10-24": 8
    }
   },
   {
@@ -11089,7 +11089,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 104,
+   "count": 106,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11105,7 +11105,7 @@
     "2026-10-21": 5,
     "2026-10-22": 11,
     "2026-10-23": 10,
-    "2026-10-24": 9
+    "2026-10-24": 11
    }
   },
   {
@@ -11439,6 +11439,34 @@
    }
   },
   {
+   "path": "/ar/stations",
+   "path_id": 112000986,
+   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-14": 2,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/timings",
+   "path_id": 110802018,
+   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-17": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-24": 1
+   }
+  },
+  {
    "path": "/stations",
    "path_id": 110710632,
    "title": "Riyadh Metro Stations: Full List of All 6 Lines",
@@ -11492,19 +11520,6 @@
    }
   },
   {
-   "path": "/ar/stations",
-   "path_id": 112000986,
-   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-14": 2,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1
-   }
-  },
-  {
    "path": "/ar/districts",
    "path_id": 111998625,
    "title": "أقرب محطة مترو لكل أحياء الرياض",
@@ -11554,19 +11569,6 @@
     "2026-10-13": 1,
     "2026-10-23": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/timings",
-   "path_id": 110802018,
-   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-17": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 2
    }
   },
   {
@@ -20321,9 +20323,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1318,
-  "events_total": 1469,
-  "goatcounter_total_with_events": 2787,
+  "visits": 1323,
+  "events_total": 1470,
+  "goatcounter_total_with_events": 2793,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20347,7 +20349,7 @@
    "2026-10-21": 67,
    "2026-10-22": 81,
    "2026-10-23": 54,
-   "2026-10-24": 65
+   "2026-10-24": 70
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20366,9 +20368,9 @@
    "2026-10-21": 13,
    "2026-10-22": 13,
    "2026-10-23": 8,
-   "2026-10-24": 9
+   "2026-10-24": 10
   },
-  "visitor_days": 571,
+  "visitor_days": 572,
   "return_rate": 0.103,
   "routes": 394,
   "routes_not_found": 0,
@@ -20461,7 +20463,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 512,
+   "new": 513,
    "return": 59
   },
   "top_routes": [
@@ -20627,7 +20629,7 @@
    },
    {
     "name": "Google",
-    "count": 14
+    "count": 15
    },
    {
     "name": "www.bing.com",
@@ -20697,7 +20699,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 84
+    "count": 85
    },
    {
     "name": "(direct or unknown)",
@@ -20705,7 +20707,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 3
+    "count": 4
    },
    {
     "name": "riyadhmetro.fyi/ar/stations",
@@ -20878,6 +20880,50 @@
     "count": 7
    }
   ],
+  "/ar/stations": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
+    "count": 1
+   }
+  ],
+  "/ar/timings": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/timings",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -20901,28 +20947,6 @@
    },
    {
     "name": "riyadhmetro.fyi/lines/orange-line",
-    "count": 1
-   }
-  ],
-  "/ar/stations": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
     "count": 1
    }
   ],
@@ -20967,20 +20991,6 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/timings": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "riyadhmetro.fyi/timings",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
     "count": 1
    }
   ],
@@ -21391,7 +21401,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 84
+    "count": 85
    },
    {
     "path": "/map",
@@ -21399,7 +21409,7 @@
    },
    {
     "path": "/",
-    "count": 14
+    "count": 15
    },
    {
     "path": "/ar/districts/al-arid",
@@ -21605,7 +21615,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 3
+    "count": 4
    },
    {
     "path": "/map",
@@ -21776,6 +21786,10 @@
    {
     "path": "/ar/map",
     "count": 2
+   },
+   {
+    "path": "/ar/timings",
+    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/lines": [
@@ -21820,6 +21834,10 @@
    {
     "path": "/ar.html",
     "count": 6
+   },
+   {
+    "path": "/ar/stations",
+    "count": 1
    },
    {
     "path": "/ar/districts",
@@ -21874,12 +21892,6 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/stations/sultanah": [
-   {
-    "path": "/ar/lines/orange-line",
-    "count": 2
-   }
-  ],
   "riyadhmetro.fyi/ar/stations/al-malaz": [
    {
     "path": "/ar/stations",
@@ -21908,15 +21920,21 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/districts": [
-   {
-    "path": "/ar/districts",
-    "count": 1
-   }
-  ],
   "riyadhmetro.fyi/timings": [
    {
     "path": "/ar/timings",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/sultanah": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 2
+   }
+  ],
+  "riyadhmetro.fyi/districts": [
+   {
+    "path": "/ar/districts",
     "count": 1
    }
   ],
@@ -21964,7 +21982,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 477,
+   "count": 480,
    "ref_scheme": "g"
   },
   {
@@ -21994,7 +22012,7 @@
   {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
-   "count": 43,
+   "count": 44,
    "ref_scheme": "h"
   },
   {
@@ -22012,7 +22030,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 17,
+   "count": 18,
    "ref_scheme": "h"
   },
   {
@@ -22076,6 +22094,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/stations",
+   "name": "riyadhmetro.fyi/ar/stations",
+   "count": 4,
+   "ref_scheme": "h"
+  },
+  {
    "id": "Facebook",
    "name": "Facebook",
    "count": 3,
@@ -22096,12 +22120,6 @@
   {
    "id": "riyadhmetro.fyi/ar/destinations/pif-tower",
    "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-   "count": 3,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/stations",
-   "name": "riyadhmetro.fyi/ar/stations",
    "count": 3,
    "ref_scheme": "h"
   },
@@ -22260,12 +22278,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2127
+   "count": 2132
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 567
+   "count": 568
   },
   {
    "id": "(unknown)",
@@ -22322,7 +22340,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2312
+   "count": 2316
   },
   {
    "id": "AE",
@@ -22332,7 +22350,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 85
+   "count": 87
   },
   {
    "id": "GB",
@@ -22544,7 +22562,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2214
+   "count": 2217
   },
   {
    "id": "tablet",
@@ -22554,7 +22572,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 420
+   "count": 423
   },
   {
    "id": "desktophd",
@@ -22571,7 +22589,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1447
+   "count": 1453
   },
   {
    "id": "Safari",
@@ -22597,12 +22615,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 989
+   "count": 992
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 371
+   "count": 374
   },
   {
    "id": "macOS",
