@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T09:10:08Z",
+ "generated": "2026-10-25T10:08:47Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2894,
+  "total": 2896,
   "total_events": 1508,
-  "total_utc": 2894,
+  "total_utc": 2896,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2894
+    "monthly": 2896
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 198
+    "weekly": 200
    },
    {
     "day": "2026-10-25",
@@ -10980,7 +10980,7 @@
      2,
      11,
      8,
-     0,
+     2,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 62
+    "daily": 64
    },
    {
     "day": "2026-10-26",
@@ -11976,6 +11976,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-rayan",
+   "path_id": 114059743,
+   "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/destinations/royal-mall",
    "path_id": 113928867,
    "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
@@ -12600,17 +12612,6 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-rayan",
-   "path_id": 114059743,
-   "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -13797,6 +13798,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-salam",
+   "path_id": 114987324,
+   "title": "أقرب محطة مترو لحي السلام في الرياض: محطة السلام (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
    }
   },
   {
@@ -20702,9 +20713,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1386,
+  "visits": 1388,
   "events_total": 1508,
-  "goatcounter_total_with_events": 2894,
+  "goatcounter_total_with_events": 2896,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20729,7 +20740,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 38
+   "2026-10-25": 40
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21541,6 +21552,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/al-rayan": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/royal-mall": [
    {
     "name": "Google",
@@ -21703,12 +21724,6 @@
    {
     "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
-   }
-  ],
-  "/destinations/via-riyadh": [
-   {
-    "name": "chatgpt.com",
-    "count": 2
    }
   ]
  },
@@ -21969,6 +21984,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-rayan",
+    "count": 2
+   },
+   {
     "path": "/ar/destinations/royal-mall",
     "count": 2
    },
@@ -22095,10 +22114,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/via-riyadh",
-    "count": 2
-   },
-   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
@@ -22112,6 +22127,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-rayan",
     "count": 1
    },
    {
@@ -22720,7 +22739,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 619
+   "count": 620
   },
   {
    "id": "(unknown)",
@@ -22777,7 +22796,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2411
+   "count": 2412
   },
   {
    "id": "AE",
@@ -22999,7 +23018,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2315
+   "count": 2316
   },
   {
    "id": "tablet",
@@ -23031,7 +23050,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1318
+   "count": 1319
   },
   {
    "name": "",
@@ -23047,7 +23066,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1306
+   "count": 1307
   },
   {
    "id": "Android",
