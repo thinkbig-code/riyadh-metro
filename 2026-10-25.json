@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T07:21:05Z",
+ "generated": "2026-10-25T08:06:57Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2876,
-  "total_events": 1500,
-  "total_utc": 2876,
+  "total": 2887,
+  "total_events": 1507,
+  "total_utc": 2887,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2876
+    "monthly": 2887
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 254
+    "weekly": 265
    },
    {
     "day": "2026-10-24",
@@ -927,8 +927,8 @@
      4,
      4,
      2,
+     11,
      1,
-     0,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 44
+    "daily": 55
    },
    {
     "day": "2026-10-26",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 693,
+   "count": 694,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1006,7 +1006,7 @@
     "2026-10-22": 16,
     "2026-10-23": 6,
     "2026-10-24": 11,
-    "2026-10-25": 2
+    "2026-10-25": 3
    }
   },
   {
@@ -1014,7 +1014,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 517,
+   "count": 518,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1033,7 +1033,7 @@
     "2026-10-22": 10,
     "2026-10-23": 6,
     "2026-10-24": 9,
-    "2026-10-25": 3
+    "2026-10-25": 4
    }
   },
   {
@@ -1158,7 +1158,7 @@
    "path_id": 110300373,
    "title": "en|name",
    "event": true,
-   "count": 21,
+   "count": 22,
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 5,
@@ -1170,7 +1170,7 @@
     "2026-10-19": 1,
     "2026-10-20": 1,
     "2026-10-23": 1,
-    "2026-10-25": 1
+    "2026-10-25": 2
    }
   },
   {
@@ -1277,6 +1277,21 @@
    }
   },
   {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 2,
+    "2026-10-11": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/destinations/al-awwal-park",
    "path_id": 109448541,
    "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
@@ -1350,20 +1365,6 @@
    }
   },
   {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
-   "title": "en|name",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
-    "2026-10-09": 1,
-    "2026-10-10": 2,
-    "2026-10-11": 1
-   }
-  },
-  {
    "path": "place/p_king_khalid_airport_terminals_1_2/from",
    "path_id": 110181103,
    "title": "en|name",
@@ -1425,6 +1426,19 @@
     "2026-10-22": 1,
     "2026-10-23": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 2,
+    "2026-10-25": 2
    }
   },
   {
@@ -1531,19 +1545,6 @@
    "daily": {
     "2026-10-14": 4,
     "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nafel",
-   "path_id": 111088602,
-   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-14": 1,
-    "2026-10-22": 2,
-    "2026-10-25": 1
    }
   },
   {
@@ -2481,6 +2482,17 @@
    "count": 2,
    "daily": {
     "2026-10-23": 2
+   }
+  },
+  {
+   "path": "/ar/stations/salahaddin",
+   "path_id": 114245825,
+   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -3714,6 +3726,56 @@
    }
   },
   {
+   "path": "/ar/stations/king-fahad-stadium",
+   "path_id": 114971598,
+   "title": "محطة استاد الملك فهد، مترو الرياض: المسار الأحمر (رقم 39)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "route/aziziah/jarir",
+   "path_id": 114964029,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "route/aziziah/p_national_museum",
+   "path_id": 114963561,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "route/aziziah/p_kafd_king_abdullah_financial_district",
+   "path_id": 114963347,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "geo/ok/aziziah",
+   "path_id": 114963340,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/routes/al-batha-to-kafd",
    "path_id": 114902871,
    "title": "Al Batha to KAFD by metro: Time, Fare and Steps",
@@ -4267,16 +4329,6 @@
    "path": "/ar/lines/green-line",
    "path_id": 114246206,
    "title": "المسار الأخضر مترو الرياض (المسار 5): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-23": 1
-   }
-  },
-  {
-   "path": "/ar/stations/salahaddin",
-   "path_id": 114245825,
-   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
    "event": false,
    "count": 1,
    "daily": {
@@ -10586,9 +10638,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1376,
-  "events_total": 1500,
-  "goatcounter_total_with_events": 2876,
+  "visits": 1380,
+  "events_total": 1507,
+  "goatcounter_total_with_events": 2887,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10613,7 +10665,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 28
+   "2026-10-25": 32
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10633,11 +10685,11 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 5
+   "2026-10-25": 6
   },
-  "visitor_days": 578,
-  "return_rate": 0.106,
-  "routes": 404,
+  "visitor_days": 579,
+  "return_rate": 0.105,
+  "routes": 407,
   "routes_not_found": 0,
   "routes_per_visit": 0.29,
   "routes_per_visitor_day": 0.66,
@@ -10649,7 +10701,7 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.056,
+  "failed_search_rate": 0.055,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -10722,13 +10774,13 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 43,
+   "ok": 44,
    "fail": 3,
    "outside": 3,
    "far": 3
   },
   "visitors_new_return": {
-   "new": 517,
+   "new": 518,
    "return": 61
   },
   "top_routes": [
@@ -10838,7 +10890,7 @@
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 20
+    "count": 21
    },
    {
     "name": "hokm",
@@ -10882,7 +10934,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 460
+    "count": 461
    },
    {
     "name": "tiktok_ad",
@@ -11201,6 +11253,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-nafel": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -11272,16 +11334,6 @@
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-nafel": [
-   {
-    "name": "Google",
     "count": 4
    },
    {
@@ -11600,7 +11652,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 460
+    "count": 461
    },
    {
     "path": "/ar/map",
@@ -11745,6 +11797,10 @@
     "count": 6
    },
    {
+    "path": "/ar/districts/al-nafel",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/al-wisham",
     "count": 5
    },
@@ -11754,10 +11810,6 @@
    },
    {
     "path": "/ar/timings",
-    "count": 4
-   },
-   {
-    "path": "/ar/districts/al-nafel",
     "count": 4
    },
    {
@@ -11983,11 +12035,11 @@
     "count": 1
    },
    {
-    "path": "/districts/al-taawun",
+    "path": "/ar/districts/al-nafel",
     "count": 1
    },
    {
-    "path": "/ar/districts/al-nafel",
+    "path": "/districts/al-taawun",
     "count": 1
    },
    {
@@ -12297,13 +12349,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1540,
+   "count": 1548,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 505,
+   "count": 507,
    "ref_scheme": "g"
   },
   {
@@ -12327,7 +12379,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 67,
+   "count": 68,
    "ref_scheme": "c"
   },
   {
@@ -12599,12 +12651,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2169
+   "count": 2177
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 613
+   "count": 616
   },
   {
    "id": "(unknown)",
@@ -12661,7 +12713,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2395
+   "count": 2406
   },
   {
    "id": "AE",
@@ -12883,7 +12935,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2296
+   "count": 2307
   },
   {
    "id": "tablet",
@@ -12910,12 +12962,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1494
+   "count": 1504
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1312
+   "count": 1313
   },
   {
    "name": "",
@@ -12931,12 +12983,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1300
+   "count": 1301
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1029
+   "count": 1039
   },
   {
    "id": "Windows",
