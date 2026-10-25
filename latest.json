@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T02:09:53Z",
+ "generated": "2026-10-25T03:10:43Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2856,
+  "total": 2859,
   "total_events": 1494,
-  "total_utc": 2856,
+  "total_utc": 2859,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2856
+    "monthly": 2859
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 234
+    "weekly": 237
    },
    {
     "day": "2026-10-24",
@@ -922,7 +922,7 @@
      6,
      0,
      1,
-     0,
+     3,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 24
+    "daily": 27
    },
    {
     "day": "2026-10-26",
@@ -1672,6 +1672,19 @@
    }
   },
   {
+   "path": "/ar/districts/ghirnatah",
+   "path_id": 112332486,
+   "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/destinations/wadi-namar-park",
    "path_id": 112323556,
    "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
@@ -1927,18 +1940,6 @@
    }
   },
   {
-   "path": "/ar/districts/ghirnatah",
-   "path_id": 112332486,
-   "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/ar/stations/jeddah-road",
    "path_id": 112221462,
    "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
@@ -2148,6 +2149,18 @@
     "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -3166,17 +3179,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/districts/al-fayha",
    "path_id": 110926200,
    "title": "Nearest Metro Station to Al Fayha, Riyadh: Harun Ar Rashid Road (in the district)",
@@ -3682,6 +3684,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-hamra",
+   "path_id": 114846360,
+   "title": "أقرب محطة مترو لحي الحمراء في الرياض: محطة طريق خالد بن الوليد، 1.1 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
    }
   },
   {
@@ -10517,9 +10529,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1362,
+  "visits": 1365,
   "events_total": 1494,
-  "goatcounter_total_with_events": 2856,
+  "goatcounter_total_with_events": 2859,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10544,7 +10556,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 14
+   "2026-10-25": 17
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10570,7 +10582,7 @@
   "return_rate": 0.104,
   "routes": 402,
   "routes_not_found": 0,
-  "routes_per_visit": 0.3,
+  "routes_per_visit": 0.29,
   "routes_per_visitor_day": 0.65,
   "share_rate": 0.032,
   "shares": {
@@ -11232,6 +11244,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/ghirnatah": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-hamra",
+    "count": 1
+   }
+  ],
   "/ar/destinations/wadi-namar-park": [
    {
     "name": "chatgpt.com",
@@ -11344,12 +11366,6 @@
     "count": 3
    }
   ],
-  "/ar/districts/ghirnatah": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
   "/ar/stations/jeddah-road": [
    {
     "name": "(direct or unknown)",
@@ -11440,6 +11456,12 @@
     "count": 3
    }
   ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/destinations/gold-souq": [
    {
     "name": "Google",
@@ -11506,12 +11528,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/ar/districts/west-umm-al-hamam": [
-   {
-    "name": "Google",
-    "count": 2
    }
   ]
  },
@@ -11704,11 +11720,11 @@
     "count": 4
    },
    {
-    "path": "/ar/districts/al-nafel",
+    "path": "/ar/districts/ghirnatah",
     "count": 3
    },
    {
-    "path": "/ar/districts/ghirnatah",
+    "path": "/ar/districts/al-nafel",
     "count": 3
    },
    {
@@ -11733,6 +11749,10 @@
    },
    {
     "path": "/districts/al-uraija",
+    "count": 3
+   },
+   {
+    "path": "/ar/districts/al-sahafah",
     "count": 3
    },
    {
@@ -11789,10 +11809,6 @@
    },
    {
     "path": "/ar/stations/qasr-al-hokm",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/west-umm-al-hamam",
     "count": 2
    },
    {
@@ -12162,6 +12178,12 @@
     "count": 2
    }
   ],
+  "riyadhmetro.fyi/ar/districts/al-hamra": [
+   {
+    "path": "/ar/districts/ghirnatah",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
    {
     "path": "/ar/nearest-station",
@@ -12206,7 +12228,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 494,
+   "count": 496,
    "ref_scheme": "g"
   },
   {
@@ -12507,7 +12529,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 598
+   "count": 601
   },
   {
    "id": "(unknown)",
@@ -12564,7 +12586,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2377
+   "count": 2380
   },
   {
    "id": "AE",
@@ -12786,7 +12808,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2280
+   "count": 2283
   },
   {
    "id": "tablet",
@@ -12813,12 +12835,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1484
+   "count": 1486
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1302
+   "count": 1303
   },
   {
    "name": "",
@@ -12834,12 +12856,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1290
+   "count": 1291
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1023
+   "count": 1025
   },
   {
    "id": "Windows",
