@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T08:06:57Z",
+ "generated": "2026-10-25T09:08:45Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2887,
-  "total_events": 1507,
-  "total_utc": 2887,
+  "total": 2894,
+  "total_events": 1508,
+  "total_utc": 2894,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2887
+    "monthly": 2894
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 265
+    "weekly": 272
    },
    {
     "day": "2026-10-24",
@@ -928,7 +928,7 @@
      4,
      2,
      11,
-     1,
+     8,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 55
+    "daily": 62
    },
    {
     "day": "2026-10-26",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 694,
+   "count": 695,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1006,7 +1006,7 @@
     "2026-10-22": 16,
     "2026-10-23": 6,
     "2026-10-24": 11,
-    "2026-10-25": 3
+    "2026-10-25": 4
    }
   },
   {
@@ -1014,7 +1014,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 518,
+   "count": 519,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1033,7 +1033,7 @@
     "2026-10-22": 10,
     "2026-10-23": 6,
     "2026-10-24": 9,
-    "2026-10-25": 4
+    "2026-10-25": 5
    }
   },
   {
@@ -1041,7 +1041,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 112,
+   "count": 113,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1058,7 +1058,7 @@
     "2026-10-22": 11,
     "2026-10-23": 10,
     "2026-10-24": 14,
-    "2026-10-25": 3
+    "2026-10-25": 4
    }
   },
   {
@@ -1739,6 +1739,19 @@
    }
   },
   {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "station/tuwaiq/to",
    "path_id": 112034342,
    "title": "en|name",
@@ -2022,18 +2035,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-22": 1,
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/aster-sanad-hospital",
-   "path_id": 112080374,
-   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1,
     "2026-10-24": 1
    }
   },
@@ -2431,6 +2432,17 @@
    "count": 2,
    "daily": {
     "2026-10-24": 2
+   }
+  },
+  {
+   "path": "/districts/al-nahdah",
+   "path_id": 114572064,
+   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -2902,6 +2914,17 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
+   }
+  },
+  {
+   "path": "/stations/ministry-of-education",
+   "path_id": 112346296,
+   "title": "Ministry of Education Metro Station, Riyadh: Red/Green lines, No. 32",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -3726,6 +3749,16 @@
    }
   },
   {
+   "path": "/lines",
+   "path_id": 114984033,
+   "title": "Riyadh Metro Lines: All 6 Lines, Stations and Interchanges",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/stations/king-fahad-stadium",
    "path_id": 114971598,
    "title": "محطة استاد الملك فهد، مترو الرياض: المسار الأحمر (رقم 39)",
@@ -4169,16 +4202,6 @@
    "path": "/ar/districts/al-aqeeq",
    "path_id": 114577512,
    "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-nahdah",
-   "path_id": 114572064,
-   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
    "event": false,
    "count": 1,
    "daily": {
@@ -5789,16 +5812,6 @@
    "path": "/ar/districts/al-amal",
    "path_id": 112348497,
    "title": "أقرب محطة مترو لحي العمل في الرياض: محطة المتحف الوطني، 0.9 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/stations/ministry-of-education",
-   "path_id": 112346296,
-   "title": "Ministry of Education Metro Station, Riyadh: Red/Green lines, No. 32",
    "event": false,
    "count": 1,
    "daily": {
@@ -10638,9 +10651,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1380,
-  "events_total": 1507,
-  "goatcounter_total_with_events": 2887,
+  "visits": 1386,
+  "events_total": 1508,
+  "goatcounter_total_with_events": 2894,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10665,7 +10678,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 32
+   "2026-10-25": 38
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10685,9 +10698,9 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 6
+   "2026-10-25": 7
   },
-  "visitor_days": 579,
+  "visitor_days": 580,
   "return_rate": 0.105,
   "routes": 407,
   "routes_not_found": 0,
@@ -10780,7 +10793,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 518,
+   "new": 519,
    "return": 61
   },
   "top_routes": [
@@ -11016,7 +11029,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 89
+    "count": 90
    },
    {
     "name": "(direct or unknown)",
@@ -11411,6 +11424,16 @@
     "count": 4
    }
   ],
+  "/ar/destinations/aster-sanad-hospital": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -11527,16 +11550,6 @@
    {
     "name": "Google",
     "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/aster-sanad-hospital": [
-   {
-    "name": "Google",
-    "count": 2
    },
    {
     "name": "chatgpt.com",
@@ -11742,7 +11755,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 89
+    "count": 90
    },
    {
     "path": "/map",
@@ -11889,6 +11902,10 @@
     "count": 2
    },
    {
+    "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 2
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 2
    },
@@ -11910,10 +11927,6 @@
    },
    {
     "path": "/destinations/lulu-hypermarket-murabba",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/aster-sanad-hospital",
     "count": 2
    },
    {
@@ -12015,6 +12028,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 2
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 2
    },
@@ -12056,10 +12073,6 @@
    },
    {
     "path": "/districts/al-nada",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/aster-sanad-hospital",
     "count": 1
    }
   ],
@@ -12355,7 +12368,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 507,
+   "count": 511,
    "ref_scheme": "g"
   },
   {
@@ -12379,7 +12392,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 68,
+   "count": 69,
    "ref_scheme": "c"
   },
   {
@@ -12593,6 +12606,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/lines",
+   "name": "riyadhmetro.fyi/lines",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "duckduckgo.com",
    "name": "duckduckgo.com",
    "count": 1,
@@ -12639,24 +12658,18 @@
    "name": "riyadhmetro.fyi/ar/districts/al-wisham",
    "count": 1,
    "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts/al-malaz",
-   "name": "riyadhmetro.fyi/ar/districts/al-malaz",
-   "count": 1,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2177
+   "count": 2182
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 616
+   "count": 618
   },
   {
    "id": "(unknown)",
@@ -12713,7 +12726,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2406
+   "count": 2410
   },
   {
    "id": "AE",
@@ -12728,7 +12741,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 49
+   "count": 52
   },
   {
    "id": "CA",
@@ -12935,7 +12948,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2307
+   "count": 2314
   },
   {
    "id": "tablet",
@@ -12962,12 +12975,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1504
+   "count": 1507
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1313
+   "count": 1317
   },
   {
    "name": "",
@@ -12983,12 +12996,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1301
+   "count": 1305
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1039
+   "count": 1042
   },
   {
    "id": "Windows",
