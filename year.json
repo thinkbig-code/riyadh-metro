@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T22:04:51Z",
+ "generated": "2026-10-25T23:04:10Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2957,
+  "total": 2958,
   "total_events": 1525,
-  "total_utc": 2957,
+  "total_utc": 2958,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2957
+    "monthly": 2958
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 261
+    "weekly": 262
    },
    {
     "day": "2026-10-25",
@@ -10999,7 +10999,7 @@
     "hourly": [
      13,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 16
    }
   ]
  },
@@ -11761,6 +11761,19 @@
    }
   },
   {
+   "path": "/ar/destinations/royal-mall",
+   "path_id": 113928867,
+   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ar/districts/ar-rabwah",
    "path_id": 112729802,
    "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
@@ -12002,18 +12015,6 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-23": 1,
-    "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/royal-mall",
-   "path_id": 113928867,
-   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-24": 1,
     "2026-10-25": 1
    }
   },
@@ -20909,9 +20910,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1432,
+  "visits": 1433,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2957,
+  "goatcounter_total_with_events": 2958,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20937,7 +20938,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 7
+   "2026-10-26": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21680,6 +21681,16 @@
     "count": 4
    }
   ],
+  "/ar/destinations/royal-mall": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -21769,16 +21780,6 @@
    }
   ],
   "/ar/districts/al-rayan": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/royal-mall": [
    {
     "name": "Google",
     "count": 2
@@ -22134,6 +22135,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/royal-mall",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/east-umm-al-hamam",
     "count": 3
    },
@@ -22203,10 +22208,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/royal-mall",
     "count": 2
    },
    {
@@ -22324,15 +22325,15 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/royal-mall",
+    "count": 1
+   },
+   {
     "path": "/timings",
     "count": 1
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/royal-mall",
     "count": 1
    },
    {
@@ -22650,7 +22651,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 538,
+   "count": 539,
    "ref_scheme": "g"
   },
   {
@@ -22951,7 +22952,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 636
+   "count": 637
   },
   {
    "id": "(unknown)",
@@ -23013,7 +23014,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2469
+   "count": 2470
   },
   {
    "id": "AE",
@@ -23235,7 +23236,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2370
+   "count": 2371
   },
   {
    "id": "tablet",
@@ -23267,7 +23268,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1336
+   "count": 1337
   },
   {
    "name": "",
@@ -23283,7 +23284,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1324
+   "count": 1325
   },
   {
    "id": "Android",
