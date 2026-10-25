@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T21:05:01Z",
+ "generated": "2026-10-25T22:03:28Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2956,
+  "total": 2957,
   "total_events": 1525,
-  "total_utc": 2956,
+  "total_utc": 2957,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2956
+    "monthly": 2957
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 334
+    "weekly": 335
    },
    {
     "day": "2026-10-24",
@@ -947,7 +947,7 @@
     "day": "2026-10-26",
     "hourly": [
      13,
-     1,
+     2,
      0,
      0,
      0,
@@ -971,7 +971,7 @@
      0,
      0
     ],
-    "daily": 14
+    "daily": 15
    }
   ]
  },
@@ -1476,6 +1476,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-wisham",
+   "path_id": 110894791,
+   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 2,
+    "2026-10-21": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/districts/al-rawdah",
    "path_id": 110465981,
    "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
@@ -1576,19 +1590,6 @@
    "daily": {
     "2026-10-14": 4,
     "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-wisham",
-   "path_id": 110894791,
-   "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 2,
-    "2026-10-21": 1
    }
   },
   {
@@ -10857,9 +10858,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1431,
+  "visits": 1432,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2956,
+  "goatcounter_total_with_events": 2957,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10885,7 +10886,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 6
+   "2026-10-26": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11150,6 +11151,10 @@
     "count": 9
    }
   ]
+ },
+ "page_refs_error": {
+  "error": "HTTP 404",
+  "body": "{\"error\":\"not found\"}"
  },
  "page_refs": {
   "/": [
@@ -11516,6 +11521,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-wisham": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
   "/districts/al-rawdah": [
    {
     "name": "Google",
@@ -11588,12 +11599,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-wisham": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/destinations/riyadh-front": [
@@ -11776,12 +11781,6 @@
    {
     "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
-   }
-  ],
-  "/stations/al-aziziah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/destinations/panorama-mall": [
@@ -12030,6 +12029,10 @@
     "count": 7
    },
    {
+    "path": "/ar/districts/al-wisham",
+    "count": 6
+   },
+   {
     "path": "/districts/al-rawdah",
     "count": 6
    },
@@ -12039,10 +12042,6 @@
    },
    {
     "path": "/ar/districts/al-nafel",
-    "count": 5
-   },
-   {
-    "path": "/ar/districts/al-wisham",
     "count": 5
    },
    {
@@ -12087,10 +12086,6 @@
    },
    {
     "path": "/stations/al-muorabba",
-    "count": 3
-   },
-   {
-    "path": "/stations/al-aziziah",
     "count": 3
    },
    {
@@ -12598,7 +12593,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 537,
+   "count": 538,
    "ref_scheme": "g"
   },
   {
@@ -12899,7 +12894,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 635
+   "count": 636
   },
   {
    "id": "(unknown)",
@@ -12961,7 +12956,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2468
+   "count": 2469
   },
   {
    "id": "AE",
@@ -13183,7 +13178,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2369
+   "count": 2370
   },
   {
    "id": "tablet",
@@ -13215,7 +13210,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1335
+   "count": 1336
   },
   {
    "name": "",
@@ -13231,7 +13226,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1323
+   "count": 1324
   },
   {
    "id": "Android",
