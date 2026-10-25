@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T12:05:18Z",
+ "generated": "2026-10-25T13:17:07Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2903,
+  "total": 2906,
   "total_events": 1509,
-  "total_utc": 2903,
+  "total_utc": 2906,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2903
+    "monthly": 2906
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 281
+    "weekly": 284
    },
    {
     "day": "2026-10-24",
@@ -932,8 +932,8 @@
      2,
      1,
      3,
-     3,
-     0,
+     4,
+     2,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 71
+    "daily": 74
    },
    {
     "day": "2026-10-26",
@@ -1198,7 +1198,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 10,
+   "count": 12,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -1206,7 +1206,7 @@
     "2026-10-14": 2,
     "2026-10-15": 2,
     "2026-10-24": 2,
-    "2026-10-25": 1
+    "2026-10-25": 3
    }
   },
   {
@@ -2572,6 +2572,17 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/sahara-mall",
+   "path_id": 114050969,
+   "title": "محطة مترو صحارى مول وحياة مول: محطة طريق الملك عبدالعزيز، 6 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -4585,16 +4596,6 @@
    "path_id": 114056127,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/sahara-mall",
-   "path_id": 114050969,
-   "title": "محطة مترو صحارى مول وحياة مول: محطة طريق الملك عبدالعزيز، 6 دقائق سيراً",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-22": 1
@@ -10683,9 +10684,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1394,
+  "visits": 1397,
   "events_total": 1509,
-  "goatcounter_total_with_events": 2903,
+  "goatcounter_total_with_events": 2906,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10710,7 +10711,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 46
+   "2026-10-25": 49
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11189,11 +11190,11 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 8
+    "count": 9
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
+    "count": 2
    },
    {
     "name": "chatgpt.com",
@@ -11728,12 +11729,12 @@
     "count": 3
    },
    {
-    "path": "/ar/stations/jeddah-road",
+    "path": "/ar/districts/al-qadisiyah",
     "count": 2
    },
    {
-    "path": "/ar/districts/al-qadisiyah",
-    "count": 1
+    "path": "/ar/stations/jeddah-road",
+    "count": 2
    },
    {
     "path": "/districts/al-arid",
@@ -11806,16 +11807,16 @@
     "count": 13
    },
    {
+    "path": "/ar/districts/al-qadisiyah",
+    "count": 9
+   },
+   {
     "path": "/ar/lines",
     "count": 9
    },
    {
     "path": "/ar/districts/middle-oraija",
     "count": 9
-   },
-   {
-    "path": "/ar/districts/al-qadisiyah",
-    "count": 8
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -12402,13 +12403,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1549,
+   "count": 1550,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 514,
+   "count": 515,
    "ref_scheme": "g"
   },
   {
@@ -12432,7 +12433,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 70,
+   "count": 71,
    "ref_scheme": "c"
   },
   {
@@ -12704,12 +12705,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2185
+   "count": 2186
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 622
+   "count": 624
   },
   {
    "id": "(unknown)",
@@ -12771,7 +12772,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2419
+   "count": 2422
   },
   {
    "id": "AE",
@@ -12993,7 +12994,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2322
+   "count": 2325
   },
   {
    "id": "tablet",
@@ -13020,12 +13021,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1513
+   "count": 1514
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1320
+   "count": 1322
   },
   {
    "name": "",
@@ -13041,12 +13042,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1308
+   "count": 1310
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1047
+   "count": 1048
   },
   {
    "id": "Windows",
