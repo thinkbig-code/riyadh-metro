@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T16:08:08Z",
+ "generated": "2026-10-25T17:08:33Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2928,
-  "total_events": 1515,
-  "total_utc": 2928,
+  "total": 2932,
+  "total_events": 1516,
+  "total_utc": 2932,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2928
+    "monthly": 2932
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 306
+    "weekly": 310
    },
    {
     "day": "2026-10-24",
@@ -936,12 +936,12 @@
      7,
      9,
      7,
-     1,
-     0,
+     3,
+     2,
      0,
      0
     ],
-    "daily": 96
+    "daily": 100
    },
    {
     "day": "2026-10-26",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 699,
+   "count": 700,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1006,7 +1006,7 @@
     "2026-10-22": 16,
     "2026-10-23": 6,
     "2026-10-24": 11,
-    "2026-10-25": 8
+    "2026-10-25": 9
    }
   },
   {
@@ -1066,7 +1066,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 62,
+   "count": 63,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1084,7 +1084,7 @@
     "2026-10-22": 3,
     "2026-10-23": 2,
     "2026-10-24": 2,
-    "2026-10-25": 3
+    "2026-10-25": 4
    }
   },
   {
@@ -1198,7 +1198,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 12,
+   "count": 13,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -1206,7 +1206,7 @@
     "2026-10-14": 2,
     "2026-10-15": 2,
     "2026-10-24": 2,
-    "2026-10-25": 3
+    "2026-10-25": 4
    }
   },
   {
@@ -3804,6 +3804,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-sulaimaniyah",
+   "path_id": 115097392,
+   "title": "Nearest Metro Station to Al Sulaimaniyah, Riyadh: Ad Dhabab (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
    }
   },
   {
@@ -10749,9 +10759,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1413,
-  "events_total": 1515,
-  "goatcounter_total_with_events": 2928,
+  "visits": 1416,
+  "events_total": 1516,
+  "goatcounter_total_with_events": 2932,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10776,7 +10786,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 65
+   "2026-10-25": 68
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10796,10 +10806,10 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 11
+   "2026-10-25": 12
   },
-  "visitor_days": 584,
-  "return_rate": 0.106,
+  "visitor_days": 585,
+  "return_rate": 0.108,
   "routes": 409,
   "routes_not_found": 0,
   "routes_per_visit": 0.29,
@@ -10892,7 +10902,7 @@
   },
   "visitors_new_return": {
    "new": 522,
-   "return": 62
+   "return": 63
   },
   "top_routes": [
    {
@@ -11068,11 +11078,11 @@
     "count": 5
    },
    {
-    "name": "www.facebook.com",
-    "count": 4
+    "name": "chatgpt.com",
+    "count": 5
    },
    {
-    "name": "chatgpt.com",
+    "name": "www.facebook.com",
     "count": 4
    },
    {
@@ -11259,7 +11269,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 9
+    "count": 10
    },
    {
     "name": "(direct or unknown)",
@@ -11523,7 +11533,7 @@
   "/ar/districts/ghirnatah": [
    {
     "name": "Google",
-    "count": 3
+    "count": 4
    },
    {
     "name": "riyadhmetro.fyi/ar/districts/al-hamra",
@@ -11881,7 +11891,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 9
+    "count": 10
    },
    {
     "path": "/ar/lines",
@@ -11948,6 +11958,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/ghirnatah",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/olaya-street",
     "count": 4
    },
@@ -11958,10 +11972,6 @@
    {
     "path": "/ar/districts/al-saadah",
     "count": 4
-   },
-   {
-    "path": "/ar/districts/ghirnatah",
-    "count": 3
    },
    {
     "path": "/ar/districts/east-umm-al-hamam",
@@ -12100,24 +12110,10 @@
     "count": 1
    }
   ],
-  "www.facebook.com": [
-   {
-    "path": "/",
-    "count": 4
-   },
-   {
-    "path": "/",
-    "count": 3
-   },
-   {
-    "path": "/ur.html",
-    "count": 3
-   }
-  ],
   "chatgpt.com": [
    {
     "path": "/",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/districts/al-arid",
@@ -12186,6 +12182,20 @@
    {
     "path": "/districts/al-nada",
     "count": 1
+   }
+  ],
+  "www.facebook.com": [
+   {
+    "path": "/",
+    "count": 4
+   },
+   {
+    "path": "/",
+    "count": 3
+   },
+   {
+    "path": "/ur.html",
+    "count": 3
    }
   ],
   "t.co": [
@@ -12476,13 +12486,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1555,
+   "count": 1556,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 524,
+   "count": 527,
    "ref_scheme": "g"
   },
   {
@@ -12506,7 +12516,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 74,
+   "count": 75,
    "ref_scheme": "c"
   },
   {
@@ -12778,12 +12788,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2204
+   "count": 2208
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 628
+   "count": 629
   },
   {
    "id": "(unknown)",
@@ -12845,7 +12855,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2444
+   "count": 2447
   },
   {
    "id": "AE",
@@ -12860,7 +12870,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 52
+   "count": 54
   },
   {
    "id": "CA",
@@ -13067,7 +13077,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2343
+   "count": 2348
   },
   {
    "id": "tablet",
@@ -13094,7 +13104,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1526
+   "count": 1531
   },
   {
    "id": "Safari",
@@ -13120,7 +13130,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1056
+   "count": 1061
   },
   {
    "id": "Windows",
