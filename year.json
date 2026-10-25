@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T04:15:18Z",
+ "generated": "2026-10-25T05:13:22Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2867,
-  "total_events": 1498,
-  "total_utc": 2867,
+  "total": 2872,
+  "total_events": 1500,
+  "total_utc": 2872,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2867
+    "monthly": 2872
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 171
+    "weekly": 176
    },
    {
     "day": "2026-10-25",
@@ -10975,8 +10975,8 @@
      1,
      3,
      6,
-     2,
-     0,
+     4,
+     3,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 35
+    "daily": 40
    },
    {
     "day": "2026-10-26",
@@ -11117,7 +11117,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 60,
+   "count": 61,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11135,7 +11135,7 @@
     "2026-10-22": 3,
     "2026-10-23": 2,
     "2026-10-24": 2,
-    "2026-10-25": 1
+    "2026-10-25": 2
    }
   },
   {
@@ -11229,7 +11229,7 @@
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
    "event": false,
-   "count": 16,
+   "count": 17,
    "daily": {
     "2026-10-11": 1,
     "2026-10-12": 1,
@@ -11240,7 +11240,8 @@
     "2026-10-20": 2,
     "2026-10-21": 4,
     "2026-10-22": 1,
-    "2026-10-23": 1
+    "2026-10-23": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -12436,6 +12437,17 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/granadia/hokm",
+   "path_id": 114739842,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -13740,6 +13752,26 @@
    }
   },
   {
+   "path": "/routes/al-batha-to-kafd",
+   "path_id": 114902871,
+   "title": "Al Batha to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-railway-station-to-kafd",
+   "path_id": 114893882,
+   "title": "Riyadh Railway Station to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "route/tuwaiq/p_royal_mall",
    "path_id": 114863362,
    "title": "ar|search|ok",
@@ -13843,16 +13875,6 @@
    "path": "view/granadia/hokm",
    "path_id": 114739858,
    "title": "ar|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "route/granadia/hokm",
-   "path_id": 114739842,
-   "title": "ar|search|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -20612,9 +20634,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1369,
-  "events_total": 1498,
-  "goatcounter_total_with_events": 2867,
+  "visits": 1372,
+  "events_total": 1500,
+  "goatcounter_total_with_events": 2872,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20639,7 +20661,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 21
+   "2026-10-25": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -20659,11 +20681,11 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 4
+   "2026-10-25": 5
   },
-  "visitor_days": 577,
-  "return_rate": 0.104,
-  "routes": 403,
+  "visitor_days": 578,
+  "return_rate": 0.106,
+  "routes": 404,
   "routes_not_found": 0,
   "routes_per_visit": 0.29,
   "routes_per_visitor_day": 0.66,
@@ -20755,7 +20777,7 @@
   },
   "visitors_new_return": {
    "new": 517,
-   "return": 60
+   "return": 61
   },
   "top_routes": [
    {
@@ -20795,6 +20817,10 @@
     "count": 3
    },
    {
+    "name": "granadia > hokm",
+    "count": 2
+   },
+   {
     "name": "kfl > gosi",
     "count": 2
    },
@@ -20813,10 +20839,6 @@
    {
     "name": "p_kingdom_centre > p_al_qasr_mall",
     "count": 2
-   },
-   {
-    "name": "sabic > p_king_khalid_airport_terminals_1_2",
-    "count": 2
    }
   ],
   "top_origins": [
@@ -20830,6 +20852,10 @@
    },
    {
     "name": "kbw",
+    "count": 12
+   },
+   {
+    "name": "granadia",
     "count": 12
    },
    {
@@ -20849,10 +20875,6 @@
     "count": 11
    },
    {
-    "name": "granadia",
-    "count": 11
-   },
-   {
     "name": "murabba",
     "count": 11
    },
@@ -20867,12 +20889,12 @@
     "count": 20
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
+    "name": "hokm",
     "count": 12
    },
    {
-    "name": "hokm",
-    "count": 11
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 12
    },
    {
     "name": "p_kingdom_centre",
@@ -21108,7 +21130,7 @@
   "/ar/districts/al-arid": [
    {
     "name": "Google",
-    "count": 12
+    "count": 13
    },
    {
     "name": "(direct or unknown)",
@@ -21728,7 +21750,7 @@
    },
    {
     "path": "/ar/districts/al-arid",
-    "count": 12
+    "count": 13
    },
    {
     "path": "/ar/lines",
@@ -22323,13 +22345,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1538,
+   "count": 1540,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 498,
+   "count": 501,
    "ref_scheme": "g"
   },
   {
@@ -22625,12 +22647,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2166
+   "count": 2168
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 607
+   "count": 610
   },
   {
    "id": "(unknown)",
@@ -22687,7 +22709,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2386
+   "count": 2391
   },
   {
    "id": "AE",
@@ -22909,7 +22931,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2289
+   "count": 2292
   },
   {
    "id": "tablet",
@@ -22919,7 +22941,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 425
+   "count": 427
   },
   {
    "id": "desktophd",
@@ -22936,12 +22958,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1488
+   "count": 1491
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1309
+   "count": 1311
   },
   {
    "name": "",
@@ -22957,17 +22979,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1297
+   "count": 1299
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1025
+   "count": 1026
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 376
+   "count": 378
   },
   {
    "id": "macOS",
