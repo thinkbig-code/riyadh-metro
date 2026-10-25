@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T15:06:43Z",
+ "generated": "2026-10-25T16:08:08Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2921,
-  "total_events": 1512,
-  "total_utc": 2921,
+  "total": 2928,
+  "total_events": 1515,
+  "total_utc": 2928,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2921
+    "monthly": 2928
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 299
+    "weekly": 306
    },
    {
     "day": "2026-10-24",
@@ -935,13 +935,13 @@
      4,
      7,
      9,
+     7,
      1,
-     0,
      0,
      0,
      0
     ],
-    "daily": 89
+    "daily": 96
    },
    {
     "day": "2026-10-26",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 697,
+   "count": 699,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1006,7 +1006,7 @@
     "2026-10-22": 16,
     "2026-10-23": 6,
     "2026-10-24": 11,
-    "2026-10-25": 6
+    "2026-10-25": 8
    }
   },
   {
@@ -1014,7 +1014,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 520,
+   "count": 522,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1033,7 +1033,7 @@
     "2026-10-22": 10,
     "2026-10-23": 6,
     "2026-10-24": 9,
-    "2026-10-25": 6
+    "2026-10-25": 8
    }
   },
   {
@@ -3804,6 +3804,36 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/north-mathar",
+   "path_id": 115088225,
+   "title": "Nearest Metro Station to North Mathar, Riyadh: Bank Albilad, 1.8 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "/ar/stations/aishah-bint-abi-bakr-street",
+   "path_id": 115082254,
+   "title": "محطة شارع عائشة بنت أبي بكر، مترو الرياض: المسار البرتقالي (رقم 44)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "geo/ok/andalus",
+   "path_id": 115077253,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
    }
   },
   {
@@ -10719,9 +10749,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1409,
-  "events_total": 1512,
-  "goatcounter_total_with_events": 2921,
+  "visits": 1413,
+  "events_total": 1515,
+  "goatcounter_total_with_events": 2928,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10746,7 +10776,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 61
+   "2026-10-25": 65
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10766,10 +10796,10 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 9
+   "2026-10-25": 11
   },
-  "visitor_days": 582,
-  "return_rate": 0.107,
+  "visitor_days": 584,
+  "return_rate": 0.106,
   "routes": 409,
   "routes_not_found": 0,
   "routes_per_visit": 0.29,
@@ -10855,13 +10885,13 @@
   ],
   "nearest_station": {
    "denied": 23,
-   "ok": 44,
+   "ok": 45,
    "fail": 3,
    "outside": 3,
    "far": 3
   },
   "visitors_new_return": {
-   "new": 520,
+   "new": 522,
    "return": 62
   },
   "top_routes": [
@@ -11015,7 +11045,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 461
+    "count": 463
    },
    {
     "name": "tiktok_ad",
@@ -11741,7 +11771,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 461
+    "count": 463
    },
    {
     "path": "/ar/map",
@@ -12446,13 +12476,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1550,
+   "count": 1555,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 523,
+   "count": 524,
    "ref_scheme": "g"
   },
   {
@@ -12476,7 +12506,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 73,
+   "count": 74,
    "ref_scheme": "c"
   },
   {
@@ -12748,12 +12778,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2198
+   "count": 2204
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 627
+   "count": 628
   },
   {
    "id": "(unknown)",
@@ -12815,7 +12845,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2437
+   "count": 2444
   },
   {
    "id": "AE",
@@ -13037,7 +13067,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2336
+   "count": 2343
   },
   {
    "id": "tablet",
@@ -13064,12 +13094,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1525
+   "count": 1526
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1326
+   "count": 1332
   },
   {
    "name": "",
@@ -13085,12 +13115,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1314
+   "count": 1320
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1055
+   "count": 1056
   },
   {
    "id": "Windows",
