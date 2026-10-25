@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-24T23:03:32Z",
+ "generated": "2026-10-24T23:58:44Z",
  "start": "2026-09-24",
  "end": "2026-10-25",
  "total": {
-  "total": 2854,
+  "total": 2855,
   "total_events": 1494,
-  "total_utc": 2854,
+  "total_utc": 2855,
   "stats": [
    {
     "day": "2026-09-24",
@@ -248,7 +248,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 2854
+    "monthly": 2855
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      6
     ],
     "daily": 143,
-    "weekly": 375
+    "weekly": 376
    },
    {
     "day": "2026-10-23",
@@ -949,7 +949,7 @@
      6,
      7,
      4,
-     5,
+     6,
      0,
      0,
      0,
@@ -971,7 +971,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 23
    }
   ]
  },
@@ -1248,6 +1248,21 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 9,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2,
+    "2026-10-22": 3,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/districts/middle-oraija",
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
@@ -1272,20 +1287,6 @@
     "2026-10-09": 1,
     "2026-10-12": 3,
     "2026-10-17": 1,
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 2,
-    "2026-10-22": 3,
-    "2026-10-23": 1,
     "2026-10-24": 1
    }
   },
@@ -10515,9 +10516,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1360,
+  "visits": 1361,
   "events_total": 1494,
-  "goatcounter_total_with_events": 2854,
+  "goatcounter_total_with_events": 2855,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10542,7 +10543,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 12
+   "2026-10-25": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11034,6 +11035,20 @@
     "count": 9
    }
   ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/districts/middle-oraija": [
    {
     "name": "Google",
@@ -11048,16 +11063,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 4
    }
   ],
   "/districts/al-yasmeen": [
@@ -11545,6 +11550,10 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-arid",
     "count": 1
    },
    {
@@ -12190,7 +12199,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1537,
+   "count": 1538,
    "ref_scheme": "o"
   },
   {
@@ -12492,7 +12501,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2163
+   "count": 2164
   },
   {
    "id": "ara",
@@ -12554,7 +12563,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2375
+   "count": 2376
   },
   {
    "id": "AE",
@@ -12776,7 +12785,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2278
+   "count": 2279
   },
   {
    "id": "tablet",
@@ -12803,7 +12812,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1483
+   "count": 1484
   },
   {
    "id": "Safari",
@@ -12829,7 +12838,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1022
+   "count": 1023
   },
   {
    "id": "Windows",
