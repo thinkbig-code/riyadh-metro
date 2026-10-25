@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T17:10:07Z",
+ "generated": "2026-10-25T18:05:15Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2933,
+  "total": 2937,
   "total_events": 1516,
-  "total_utc": 2933,
+  "total_utc": 2937,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2933
+    "monthly": 2937
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 237
+    "weekly": 241
    },
    {
     "day": "2026-10-25",
@@ -10988,11 +10988,11 @@
      9,
      7,
      3,
-     3,
-     0,
+     6,
+     1,
      0
     ],
-    "daily": 101
+    "daily": 105
    },
    {
     "day": "2026-10-26",
@@ -11092,7 +11092,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 116,
+   "count": 117,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11109,7 +11109,7 @@
     "2026-10-22": 11,
     "2026-10-23": 10,
     "2026-10-24": 14,
-    "2026-10-25": 7
+    "2026-10-25": 8
    }
   },
   {
@@ -11482,6 +11482,20 @@
    }
   },
   {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-25": 2
+   }
+  },
+  {
    "path": "/ar/stations",
    "path_id": 112000986,
    "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
@@ -11584,20 +11598,6 @@
     "2026-10-20": 1,
     "2026-10-24": 1,
     "2026-10-25": 2
-   }
-  },
-  {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-25": 1
    }
   },
   {
@@ -12194,6 +12194,18 @@
     "2026-10-12": 1,
     "2026-10-21": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/destinations/al-batha",
+   "path_id": 111176589,
+   "title": "Al Batha Metro Station: Al Bat'ha (Blue Line), 7 min walk",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-17": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -13285,17 +13297,6 @@
    }
   },
   {
-   "path": "/destinations/al-batha",
-   "path_id": 111176589,
-   "title": "Al Batha Metro Station: Al Bat'ha (Blue Line), 7 min walk",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-17": 1
-   }
-  },
-  {
    "path": "place/p_boulevard_world/to",
    "path_id": 111087040,
    "title": "en|name",
@@ -13855,6 +13856,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-khuzama",
+   "path_id": 115113463,
+   "title": "Nearest Metro Station to Al Khuzama, Riyadh: King Saud University, 2.1 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
    }
   },
   {
@@ -20810,9 +20821,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1417,
+  "visits": 1421,
   "events_total": 1516,
-  "goatcounter_total_with_events": 2933,
+  "goatcounter_total_with_events": 2937,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20837,7 +20848,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 69
+   "2026-10-25": 73
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21192,7 +21203,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 14
+    "count": 15
    },
    {
     "name": "www.bing.com",
@@ -21409,6 +21420,28 @@
     "count": 7
    }
   ],
+  "/ar/nearest-station": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
+    "count": 1
+   }
+  ],
   "/ar/stations": [
    {
     "name": "(direct or unknown)",
@@ -21489,24 +21522,6 @@
    {
     "name": "Google",
     "count": 2
-   }
-  ],
-  "/ar/nearest-station": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
-    "count": 1
    }
   ],
   "/ar/districts": [
@@ -21771,6 +21786,12 @@
     "count": 3
    }
   ],
+  "/destinations/al-batha": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/north-mathar": [
    {
     "name": "Google",
@@ -21816,16 +21837,6 @@
     "name": "duckduckgo.com",
     "count": 1
    }
-  ],
-  "/ar/destinations/diriyah": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -21836,7 +21847,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 14
+    "count": 15
    },
    {
     "path": "/ar.html",
@@ -21875,11 +21886,11 @@
     "count": 1
    },
    {
-    "path": "/ar/stations",
+    "path": "/ar/nearest-station",
     "count": 1
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/ar/stations",
     "count": 1
    },
    {
@@ -21904,10 +21915,6 @@
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/diriyah",
     "count": 1
    }
   ],
@@ -22041,6 +22048,10 @@
     "count": 3
    },
    {
+    "path": "/destinations/al-batha",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/north-mathar",
     "count": 3
    },
@@ -22065,15 +22076,15 @@
     "count": 3
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 2
+   },
+   {
     "path": "/ar/lines/orange-line",
     "count": 2
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 2
-   },
-   {
-    "path": "/ar/nearest-station",
     "count": 2
    },
    {
@@ -22114,10 +22125,6 @@
    },
    {
     "path": "/destinations/riyadh-gallery-mall",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/diriyah",
     "count": 2
    },
    {
@@ -22377,6 +22384,10 @@
     "count": 6
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 1
+   },
+   {
     "path": "/ar/stations",
     "count": 1
    },
@@ -22461,6 +22472,18 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
+   {
+    "path": "/ar/nearest-station",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/destinations/royal-mall": [
+   {
+    "path": "/ar/nearest-station",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/stations/al-malaz": [
    {
     "path": "/ar/stations",
@@ -22489,18 +22512,6 @@
    {
     "path": "/ar/lines/orange-line",
     "count": 2
-   }
-  ],
-  "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
-   {
-    "path": "/ar/nearest-station",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/destinations/royal-mall": [
-   {
-    "path": "/ar/nearest-station",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/districts": [
@@ -22537,13 +22548,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1556,
+   "count": 1557,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 527,
+   "count": 529,
    "ref_scheme": "g"
   },
   {
@@ -22573,7 +22584,7 @@
   {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
-   "count": 44,
+   "count": 45,
    "ref_scheme": "h"
   },
   {
@@ -22839,12 +22850,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2208
+   "count": 2210
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 629
+   "count": 631
   },
   {
    "id": "(unknown)",
@@ -22906,7 +22917,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2447
+   "count": 2451
   },
   {
    "id": "AE",
@@ -23128,7 +23139,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2348
+   "count": 2352
   },
   {
    "id": "tablet",
@@ -23155,7 +23166,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1531
+   "count": 1535
   },
   {
    "id": "Safari",
@@ -23181,7 +23192,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1061
+   "count": 1065
   },
   {
    "id": "Windows",
