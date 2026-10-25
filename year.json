@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T05:13:22Z",
+ "generated": "2026-10-25T06:09:48Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2872,
+  "total": 2873,
   "total_events": 1500,
-  "total_utc": 2872,
+  "total_utc": 2873,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2872
+    "monthly": 2873
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 176
+    "weekly": 177
    },
    {
     "day": "2026-10-25",
@@ -10976,7 +10976,7 @@
      3,
      6,
      4,
-     3,
+     4,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 40
+    "daily": 41
    },
    {
     "day": "2026-10-26",
@@ -12682,6 +12682,17 @@
    "daily": {
     "2026-10-20": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-awwal-park",
+   "path_id": 113270700,
+   "title": "محطة مترو الأول بارك (ملعب النصر): محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -15086,16 +15097,6 @@
    "path_id": 113276110,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-awwal-park",
-   "path_id": 113270700,
-   "title": "محطة مترو الأول بارك (ملعب النصر): محطة جامعة الملك سعود (المسار الأحمر)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-20": 1
@@ -20634,9 +20635,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1372,
+  "visits": 1373,
   "events_total": 1500,
-  "goatcounter_total_with_events": 2872,
+  "goatcounter_total_with_events": 2873,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20661,7 +20662,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 24
+   "2026-10-25": 25
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22351,7 +22352,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 501,
+   "count": 502,
    "ref_scheme": "g"
   },
   {
@@ -22652,7 +22653,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 610
+   "count": 611
   },
   {
    "id": "(unknown)",
@@ -22709,7 +22710,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2391
+   "count": 2392
   },
   {
    "id": "AE",
@@ -22931,7 +22932,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2292
+   "count": 2293
   },
   {
    "id": "tablet",
@@ -22958,7 +22959,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1491
+   "count": 1492
   },
   {
    "id": "Safari",
@@ -22984,7 +22985,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1026
+   "count": 1027
   },
   {
    "id": "Windows",
