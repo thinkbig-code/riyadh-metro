@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T06:09:48Z",
+ "generated": "2026-10-25T07:22:22Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2873,
+  "total": 2876,
   "total_events": 1500,
-  "total_utc": 2873,
+  "total_utc": 2876,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2873
+    "monthly": 2876
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 177
+    "weekly": 180
    },
    {
     "day": "2026-10-25",
@@ -10977,8 +10977,8 @@
      6,
      4,
      4,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 41
+    "daily": 44
    },
    {
     "day": "2026-10-26",
@@ -11092,7 +11092,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 111,
+   "count": 112,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11109,7 +11109,7 @@
     "2026-10-22": 11,
     "2026-10-23": 10,
     "2026-10-24": 14,
-    "2026-10-25": 2
+    "2026-10-25": 3
    }
   },
   {
@@ -11585,6 +11585,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 2,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -11824,18 +11837,6 @@
     "2026-10-11": 2,
     "2026-10-20": 1,
     "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nafel",
-   "path_id": 111088602,
-   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-14": 1,
-    "2026-10-22": 2
    }
   },
   {
@@ -12214,6 +12215,18 @@
     "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-16": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-faisaliah-tower",
+   "path_id": 110961469,
+   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-14": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -13230,17 +13243,6 @@
    "count": 2,
    "daily": {
     "2026-10-10": 2
-   }
-  },
-  {
-   "path": "/ar/destinations/al-faisaliah-tower",
-   "path_id": 110961469,
-   "title": "محطة مترو برج الفيصلية: محطة مكتبة الملك فهد (المسار الأزرق)، 4 دقائق سيراً",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-14": 1
    }
   },
   {
@@ -20635,9 +20637,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1373,
+  "visits": 1376,
   "events_total": 1500,
-  "goatcounter_total_with_events": 2873,
+  "goatcounter_total_with_events": 2876,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20662,7 +20664,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 25
+   "2026-10-25": 28
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21013,7 +21015,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 88
+    "count": 89
    },
    {
     "name": "(direct or unknown)",
@@ -21328,6 +21330,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-nafel": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -21412,16 +21424,6 @@
    {
     "name": "Google",
     "count": 4
-   }
-  ],
-  "/ar/districts/al-nafel": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/timings": [
@@ -21580,6 +21582,12 @@
     "count": 3
    }
   ],
+  "/ar/destinations/al-faisaliah-tower": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/al-sahafah": [
    {
     "name": "Google",
@@ -21633,12 +21641,6 @@
    }
   ],
   "/destinations/via-riyadh": [
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   }
-  ],
-  "/districts/al-olaya": [
    {
     "name": "chatgpt.com",
     "count": 2
@@ -21739,7 +21741,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 88
+    "count": 89
    },
    {
     "path": "/map",
@@ -21806,6 +21808,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/al-nafel",
+    "count": 4
+   },
+   {
     "path": "/destinations/riyadh-front",
     "count": 4
    },
@@ -21834,10 +21840,6 @@
     "count": 3
    },
    {
-    "path": "/ar/districts/al-nafel",
-    "count": 3
-   },
-   {
     "path": "/stations/al-aziziah",
     "count": 3
    },
@@ -21859,6 +21861,10 @@
    },
    {
     "path": "/districts/al-uraija",
+    "count": 3
+   },
+   {
+    "path": "/ar/destinations/al-faisaliah-tower",
     "count": 3
    },
    {
@@ -22021,10 +22027,6 @@
    },
    {
     "path": "/destinations/via-riyadh",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-olaya",
     "count": 2
    },
    {
@@ -22352,7 +22354,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 502,
+   "count": 505,
    "ref_scheme": "g"
   },
   {
@@ -22648,12 +22650,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2168
+   "count": 2169
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 611
+   "count": 613
   },
   {
    "id": "(unknown)",
@@ -22710,7 +22712,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2392
+   "count": 2395
   },
   {
    "id": "AE",
@@ -22932,7 +22934,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2293
+   "count": 2296
   },
   {
    "id": "tablet",
@@ -22959,12 +22961,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1492
+   "count": 1494
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1311
+   "count": 1312
   },
   {
    "name": "",
@@ -22980,12 +22982,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1299
+   "count": 1300
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1027
+   "count": 1029
   },
   {
    "id": "Windows",
