@@ -75,3 +75,7 @@ Use the **Report a problem** button on the site (it opens an e-mail to callmebac
 ## Licence
 
 Copyright (c) 2026. All rights reserved; see [LICENSE](LICENSE). The code and texts are published to be viewed, not to be copied or republished. Third-party data stays under its own licence (see the notice in LICENSE).
+
+## Native mobile apps (in development)
+
+Android-first React Native application, with iPhone support in the same codebase: [mobile setup](mobile/README.md), [Android/iOS requirements](docs/mobile/requirements.md). The native UI is independent of the website; network data and routing are reused through a checked extraction step.

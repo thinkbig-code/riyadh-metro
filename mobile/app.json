@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Riyadh Metro",
+    "slug": "riyadh-metro",
+    "version": "0.1.0",
+    "scheme": "riyadhmetro",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "fyi.riyadhmetro.app",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "fyi.riyadhmetro.app",
+      "buildNumber": "1",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Find the nearest metro station when you request it. Your location stays on your device."
+        }
+      ],
+      "expo-localization"
+    ]
+  }
+}
