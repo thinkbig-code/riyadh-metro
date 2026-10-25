@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T11:06:51Z",
+ "generated": "2026-10-25T12:05:18Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2897,
-  "total_events": 1508,
-  "total_utc": 2897,
+  "total": 2903,
+  "total_events": 1509,
+  "total_utc": 2903,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2897
+    "monthly": 2903
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 275
+    "weekly": 281
    },
    {
     "day": "2026-10-24",
@@ -931,8 +931,8 @@
      8,
      2,
      1,
-     0,
-     0,
+     3,
+     3,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 65
+    "daily": 71
    },
    {
     "day": "2026-10-26",
@@ -981,7 +981,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 695,
+   "count": 696,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1006,7 +1006,7 @@
     "2026-10-22": 16,
     "2026-10-23": 6,
     "2026-10-24": 11,
-    "2026-10-25": 4
+    "2026-10-25": 5
    }
   },
   {
@@ -1014,7 +1014,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 519,
+   "count": 520,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1033,7 +1033,7 @@
     "2026-10-22": 10,
     "2026-10-23": 6,
     "2026-10-24": 9,
-    "2026-10-25": 5
+    "2026-10-25": 6
    }
   },
   {
@@ -1392,6 +1392,22 @@
    }
   },
   {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -1439,21 +1455,6 @@
     "2026-10-14": 1,
     "2026-10-22": 2,
     "2026-10-25": 2
-   }
-  },
-  {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-10": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -2413,6 +2414,16 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/lines",
+   "path_id": 114984033,
+   "title": "Riyadh Metro Lines: All 6 Lines, Stations and Interchanges",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-25": 2
    }
   },
   {
@@ -3750,9 +3761,9 @@
    }
   },
   {
-   "path": "/ar/districts/al-salam",
-   "path_id": 114987324,
-   "title": "أقرب محطة مترو لحي السلام في الرياض: محطة السلام (داخل الحي)",
+   "path": "/stations/uthman-bin-affan-road",
+   "path_id": 115031199,
+   "title": "Uthman Bin Affan Road Metro Station, Riyadh: Yellow/Purple lines, No. 62",
    "event": false,
    "count": 1,
    "daily": {
@@ -3760,9 +3771,19 @@
    }
   },
   {
-   "path": "/lines",
-   "path_id": 114984033,
-   "title": "Riyadh Metro Lines: All 6 Lines, Stations and Interchanges",
+   "path": "/ar/districts/al-suwaidi",
+   "path_id": 115025208,
+   "title": "أقرب محطة مترو لحي السويدي في الرياض: محطة ظهرة البديعة، 2.5 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-salam",
+   "path_id": 114987324,
+   "title": "أقرب محطة مترو لحي السلام في الرياض: محطة السلام (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -10662,9 +10683,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1389,
-  "events_total": 1508,
-  "goatcounter_total_with_events": 2897,
+  "visits": 1394,
+  "events_total": 1509,
+  "goatcounter_total_with_events": 2903,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10689,7 +10710,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 41
+   "2026-10-25": 46
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -10709,9 +10730,9 @@
    "2026-10-22": 13,
    "2026-10-23": 8,
    "2026-10-24": 11,
-   "2026-10-25": 7
+   "2026-10-25": 8
   },
-  "visitor_days": 580,
+  "visitor_days": 581,
   "return_rate": 0.105,
   "routes": 407,
   "routes_not_found": 0,
@@ -10804,7 +10825,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 519,
+   "new": 520,
    "return": 61
   },
   "top_routes": [
@@ -10985,15 +11006,15 @@
     "count": 4
    },
    {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
     "name": "t.co",
     "count": 3
    },
    {
     "name": "www.facebook.com",
-    "count": 3
-   },
-   {
-    "name": "chatgpt.com",
     "count": 3
    },
    {
@@ -11251,6 +11272,12 @@
     "count": 7
    }
   ],
+  "/stations": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
   "/ar/stations": [
    {
     "name": "(direct or unknown)",
@@ -11285,12 +11312,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/stations": [
-   {
-    "name": "Google",
-    "count": 6
    }
   ],
   "/districts/al-rawdah": [
@@ -11814,7 +11835,7 @@
    },
    {
     "path": "/stations",
-    "count": 6
+    "count": 7
    },
    {
     "path": "/districts/al-rawdah",
@@ -12015,20 +12036,14 @@
     "count": 3
    }
   ],
-  "t.co": [
-   {
-    "path": "/",
-    "count": 3
-   }
-  ],
   "chatgpt.com": [
    {
-    "path": "/districts/al-arid",
+    "path": "/",
     "count": 4
    },
    {
-    "path": "/",
-    "count": 3
+    "path": "/districts/al-arid",
+    "count": 4
    },
    {
     "path": "/map",
@@ -12093,6 +12108,12 @@
    {
     "path": "/districts/al-nada",
     "count": 1
+   }
+  ],
+  "t.co": [
+   {
+    "path": "/",
+    "count": 3
    }
   ],
   "riyadhmetro.fyi/map": [
@@ -12381,13 +12402,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1548,
+   "count": 1549,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 512,
+   "count": 514,
    "ref_scheme": "g"
   },
   {
@@ -12411,7 +12432,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 69,
+   "count": 70,
    "ref_scheme": "c"
   },
   {
@@ -12499,6 +12520,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/stations",
+   "name": "riyadhmetro.fyi/stations",
+   "count": 5,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/rules",
    "name": "riyadhmetro.fyi/ar/rules",
    "count": 5,
@@ -12521,12 +12548,6 @@
    "name": "Yandex",
    "count": 3,
    "ref_scheme": "g"
-  },
-  {
-   "id": "riyadhmetro.fyi/stations",
-   "name": "riyadhmetro.fyi/stations",
-   "count": 3,
-   "ref_scheme": "h"
   },
   {
    "id": "riyadhmetro.fyi/ar/destinations/pif-tower",
@@ -12683,12 +12704,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2182
+   "count": 2185
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 621
+   "count": 622
   },
   {
    "id": "(unknown)",
@@ -12739,13 +12760,18 @@
    "id": "jpn",
    "name": "Japanese",
    "count": 2
+  },
+  {
+   "id": "uzb",
+   "name": "Uzbek",
+   "count": 2
   }
  ],
  "locations": [
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2413
+   "count": 2419
   },
   {
    "id": "AE",
@@ -12967,7 +12993,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2316
+   "count": 2322
   },
   {
    "id": "tablet",
@@ -12994,12 +13020,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1508
+   "count": 1513
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1319
+   "count": 1320
   },
   {
    "name": "",
@@ -13015,12 +13041,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1307
+   "count": 1308
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1042
+   "count": 1047
   },
   {
    "id": "Windows",
