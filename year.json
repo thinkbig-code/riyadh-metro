@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T01:45:21Z",
+ "generated": "2026-10-25T02:11:23Z",
  "start": "2025-10-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2855,
+  "total": 2856,
   "total_events": 1494,
-  "total_utc": 2855,
+  "total_utc": 2856,
   "stats": [
    {
     "day": "2025-10-25",
@@ -10268,7 +10268,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2855
+    "monthly": 2856
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 159
+    "weekly": 160
    },
    {
     "day": "2026-10-25",
@@ -10972,7 +10972,7 @@
      4,
      6,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 24
    },
    {
     "day": "2026-10-26",
@@ -11850,6 +11850,19 @@
    }
   },
   {
+   "path": "/districts/qurtubah",
+   "path_id": 110768019,
+   "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-17": 1,
+    "2026-10-18": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/destinations/diriyah",
    "path_id": 110689928,
    "title": "Diriyah Metro Station: King Saud University (Red Line)",
@@ -12198,18 +12211,6 @@
     "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-15": 1
-   }
-  },
-  {
-   "path": "/districts/qurtubah",
-   "path_id": 110768019,
-   "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-17": 1,
-    "2026-10-18": 1
    }
   },
   {
@@ -20567,9 +20568,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1361,
+  "visits": 1362,
   "events_total": 1494,
-  "goatcounter_total_with_events": 2855,
+  "goatcounter_total_with_events": 2856,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20594,7 +20595,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 13
+   "2026-10-25": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21352,6 +21353,16 @@
     "count": 1
    }
   ],
+  "/districts/qurtubah": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/diriyah": [
    {
     "name": "Google",
@@ -21478,16 +21489,6 @@
    {
     "name": "Google",
     "count": 3
-   }
-  ],
-  "/districts/qurtubah": [
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   },
-   {
-    "name": "Google",
-    "count": 1
    }
   ],
   "/ar/destinations/gold-souq": [
@@ -21850,11 +21851,11 @@
     "count": 1
    },
    {
-    "path": "/districts/al-nada",
+    "path": "/districts/qurtubah",
     "count": 1
    },
    {
-    "path": "/districts/qurtubah",
+    "path": "/districts/al-nada",
     "count": 1
    },
    {
@@ -21920,6 +21921,10 @@
     "count": 3
    },
    {
+    "path": "/districts/qurtubah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 3
    },
@@ -21933,10 +21938,6 @@
    },
    {
     "path": "/destinations/king-khalid-eye-specialist-hospital",
-    "count": 2
-   },
-   {
-    "path": "/districts/qurtubah",
     "count": 2
    },
    {
@@ -22280,7 +22281,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 65,
+   "count": 66,
    "ref_scheme": "c"
   },
   {
@@ -22557,7 +22558,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 597
+   "count": 598
   },
   {
    "id": "(unknown)",
@@ -22614,7 +22615,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2376
+   "count": 2377
   },
   {
    "id": "AE",
@@ -22836,7 +22837,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2279
+   "count": 2280
   },
   {
    "id": "tablet",
@@ -22868,7 +22869,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1301
+   "count": 1302
   },
   {
    "name": "",
@@ -22884,7 +22885,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1289
+   "count": 1290
   },
   {
    "id": "Android",
