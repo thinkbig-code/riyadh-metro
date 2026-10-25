@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-25T13:17:07Z",
+ "generated": "2026-10-25T14:05:57Z",
  "start": "2026-09-25",
  "end": "2026-10-26",
  "total": {
-  "total": 2906,
+  "total": 2911,
   "total_events": 1509,
-  "total_utc": 2906,
+  "total_utc": 2911,
   "stats": [
    {
     "day": "2026-09-25",
@@ -217,7 +217,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2906
+    "monthly": 2911
    },
    {
     "day": "2026-10-02",
@@ -881,7 +881,7 @@
      1
     ],
     "daily": 74,
-    "weekly": 284
+    "weekly": 289
    },
    {
     "day": "2026-10-24",
@@ -933,7 +933,7 @@
      1,
      3,
      4,
-     2,
+     7,
      0,
      0,
      0,
@@ -941,7 +941,7 @@
      0,
      0
     ],
-    "daily": 74
+    "daily": 79
    },
    {
     "day": "2026-10-26",
@@ -1702,6 +1702,18 @@
    }
   },
   {
+   "path": "/ar/destinations/al-maigliah-market",
+   "path_id": 112354112,
+   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-24": 2,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/ar/districts/ghirnatah",
    "path_id": 112332486,
    "title": "أقرب محطة مترو لحي غرناطة في الرياض: محطة اليرموك، 1.4 كم",
@@ -1950,6 +1962,18 @@
    }
   },
   {
+   "path": "/ar/districts/east-umm-al-hamam",
+   "path_id": 113337065,
+   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/districts/al-qadisiyah",
    "path_id": 113291536,
    "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
@@ -1968,17 +1992,6 @@
    "count": 3,
    "daily": {
     "2026-10-16": 3
-   }
-  },
-  {
-   "path": "/ar/destinations/al-maigliah-market",
-   "path_id": 112354112,
-   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-24": 2
    }
   },
   {
@@ -2448,6 +2461,17 @@
    }
   },
   {
+   "path": "/destinations/riyadh-park-mall",
+   "path_id": 114587867,
+   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/districts/al-olaya",
    "path_id": 114587147,
    "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
@@ -2507,6 +2531,17 @@
    "count": 2,
    "daily": {
     "2026-10-23": 2
+   }
+  },
+  {
+   "path": "/destinations/al-faisaliah-tower",
+   "path_id": 114251134,
+   "title": "Al Faisaliah Tower Metro Station: King Fahad Library, 4 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -2658,17 +2693,6 @@
    "daily": {
     "2026-10-21": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/east-umm-al-hamam",
-   "path_id": 113337065,
-   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -3772,6 +3796,16 @@
    }
   },
   {
+   "path": "/destinations/saudi-german-hospital",
+   "path_id": 115051823,
+   "title": "Saudi German Hospital Metro Station: Dr Sulaiman Al Habib, 20 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-25": 1
+   }
+  },
+  {
    "path": "/stations/uthman-bin-affan-road",
    "path_id": 115031199,
    "title": "Uthman Bin Affan Road Metro Station, Riyadh: Yellow/Purple lines, No. 62",
@@ -4202,16 +4236,6 @@
    }
   },
   {
-   "path": "/destinations/riyadh-park-mall",
-   "path_id": 114587867,
-   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
    "path": "route/jeddahrd/p_king_khalid_airport_terminals_1_2",
    "path_id": 114580031,
    "title": "ar|geo|ok",
@@ -4375,16 +4399,6 @@
    "path": "/destinations/al-hammadi-hospital",
    "path_id": 114283863,
    "title": "Al Hammadi Hospital (Olaya) Metro Station: Al Urubah, 12 min walk",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-23": 1
-   }
-  },
-  {
-   "path": "/destinations/al-faisaliah-tower",
-   "path_id": 114251134,
-   "title": "Al Faisaliah Tower Metro Station: King Fahad Library, 4 min walk",
    "event": false,
    "count": 1,
    "daily": {
@@ -10684,9 +10698,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1397,
+  "visits": 1402,
   "events_total": 1509,
-  "goatcounter_total_with_events": 2906,
+  "goatcounter_total_with_events": 2911,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10711,7 +10725,7 @@
    "2026-10-22": 81,
    "2026-10-23": 54,
    "2026-10-24": 95,
-   "2026-10-25": 49
+   "2026-10-25": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11431,6 +11445,16 @@
     "count": 4
    }
   ],
+  "/ar/destinations/al-maigliah-market": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/ghirnatah": [
    {
     "name": "Google",
@@ -11543,6 +11567,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/east-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -11551,12 +11581,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/ar/destinations/al-maigliah-market": [
-   {
-    "name": "chatgpt.com",
-    "count": 3
    }
   ],
   "/ar/stations/jeddah-road": [
@@ -11684,16 +11708,6 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-    "count": 1
-   }
-  ],
-  "/ar/stations/qasr-al-hokm": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
    }
   ]
@@ -11891,6 +11905,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/east-umm-al-hamam",
+    "count": 3
+   },
+   {
     "path": "/stations/al-aziziah",
     "count": 3
    },
@@ -11983,11 +12001,11 @@
     "count": 2
    },
    {
-    "path": "/ar/stations/qasr-al-hokm",
-    "count": 2
+    "path": "/ar.html",
+    "count": 1
    },
    {
-    "path": "/ar.html",
+    "path": "/ar/destinations/al-maigliah-market",
     "count": 1
    },
    {
@@ -12051,15 +12069,15 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/al-maigliah-market",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 3
    },
    {
     "path": "/districts/qurtubah",
-    "count": 3
-   },
-   {
-    "path": "/ar/destinations/al-maigliah-market",
     "count": 3
    },
    {
@@ -12375,10 +12393,6 @@
    {
     "path": "/ar/stations/jeddah-road",
     "count": 1
-   },
-   {
-    "path": "/ar/stations/qasr-al-hokm",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/destinations/jawazat": [
@@ -12409,7 +12423,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 515,
+   "count": 519,
    "ref_scheme": "g"
   },
   {
@@ -12433,7 +12447,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 71,
+   "count": 72,
    "ref_scheme": "c"
   },
   {
@@ -12705,12 +12719,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2186
+   "count": 2189
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 624
+   "count": 626
   },
   {
    "id": "(unknown)",
@@ -12772,7 +12786,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2422
+   "count": 2427
   },
   {
    "id": "AE",
@@ -12994,7 +13008,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2325
+   "count": 2330
   },
   {
    "id": "tablet",
@@ -13021,12 +13035,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1514
+   "count": 1518
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1322
+   "count": 1323
   },
   {
    "name": "",
@@ -13042,12 +13056,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1310
+   "count": 1311
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1048
+   "count": 1052
   },
   {
    "id": "Windows",
