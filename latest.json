@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T15:52:04Z",
+ "generated": "2026-10-26T17:24:16Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 3040,
+  "total": 3046,
   "total_events": 1534,
-  "total_utc": 3040,
+  "total_utc": 3046,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3040
+    "monthly": 3046
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 344
+    "weekly": 350
    },
    {
     "day": "2026-10-25",
@@ -937,12 +937,12 @@
      5,
      6,
      7,
-     0,
+     6,
      0,
      0,
      0
     ],
-    "daily": 98
+    "daily": 104
    },
    {
     "day": "2026-10-27",
@@ -1044,7 +1044,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 136,
+   "count": 138,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1062,7 +1062,7 @@
     "2026-10-23": 10,
     "2026-10-24": 14,
     "2026-10-25": 9,
-    "2026-10-26": 18
+    "2026-10-26": 20
    }
   },
   {
@@ -1653,6 +1653,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-awaly",
+   "path_id": 111083087,
+   "title": "أقرب محطة مترو لحي العوالي في الرياض: محطة المحطة الغربية، 2.6 كم",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-26": 2
+   }
+  },
+  {
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
@@ -1808,6 +1821,17 @@
     "2026-10-24": 1,
     "2026-10-25": 1,
     "2026-10-26": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-wizarat",
+   "path_id": 113625069,
+   "title": "أقرب محطة مترو لحي الوزارات في الرياض: محطة الوزارات، 0.5 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-21": 2,
+    "2026-10-26": 2
    }
   },
   {
@@ -2090,17 +2114,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-wizarat",
-   "path_id": 113625069,
-   "title": "أقرب محطة مترو لحي الوزارات في الرياض: محطة الوزارات، 0.5 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-21": 2,
-    "2026-10-26": 1
-   }
-  },
-  {
    "path": "/districts/al-qadisiyah",
    "path_id": 113291536,
    "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
@@ -2324,18 +2337,6 @@
    "path_id": 111098465,
    "title": "en|map|ok",
    "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-awaly",
-   "path_id": 111083087,
-   "title": "أقرب محطة مترو لحي العوالي في الرياض: محطة المحطة الغربية، 2.6 كم",
-   "event": false,
    "count": 3,
    "daily": {
     "2026-10-11": 1,
@@ -2814,6 +2815,17 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/destinations/narcissus-hotel",
+   "path_id": 114072306,
+   "title": "Narcissus Hotel Metro Station: Bank Albilad (Blue Line), 2 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-26": 1
    }
   },
   {
@@ -4896,16 +4908,6 @@
    "path": "/ar/destinations/lulu-hypermarket-murabba",
    "path_id": 114095240,
    "title": "محطة مترو لولو هايبر ماركت المربع: محطة المربع، 3 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/destinations/narcissus-hotel",
-   "path_id": 114072306,
-   "title": "Narcissus Hotel Metro Station: Bank Albilad (Blue Line), 2 min walk",
    "event": false,
    "count": 1,
    "daily": {
@@ -11065,9 +11067,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1506,
+  "visits": 1512,
   "events_total": 1534,
-  "goatcounter_total_with_events": 3040,
+  "goatcounter_total_with_events": 3046,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11093,7 +11095,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 81
+   "2026-10-26": 87
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11120,7 +11122,7 @@
   "return_rate": 0.109,
   "routes": 415,
   "routes_not_found": 0,
-  "routes_per_visit": 0.28,
+  "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.66,
   "share_rate": 0.031,
   "shares": {
@@ -11445,7 +11447,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 110
+    "count": 112
    },
    {
     "name": "(direct or unknown)",
@@ -11848,6 +11850,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-awaly": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/destinations/riyadh-front": [
    {
     "name": "Google",
@@ -11897,6 +11905,16 @@
    },
    {
     "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-wizarat": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
     "count": 1
    }
   ],
@@ -12024,16 +12042,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-wizarat": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
   "/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -12109,12 +12117,6 @@
     "name": "chatgpt.com",
     "count": 1
    }
-  ],
-  "/ar/destinations/hayat-national-hospital-rabwah": [
-   {
-    "name": "Google",
-    "count": 3
-   }
   ]
  },
  "ref_pages": {
@@ -12188,15 +12190,15 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-wizarat",
+    "count": 1
+   },
+   {
     "path": "/timings",
     "count": 1
    },
    {
     "path": "/ar/districts/al-mursalat",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-wizarat",
     "count": 1
    },
    {
@@ -12227,7 +12229,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 110
+    "count": 112
    },
    {
     "path": "/map",
@@ -12298,6 +12300,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-awaly",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 5
    },
@@ -12350,6 +12356,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-wizarat",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/ghobairah",
     "count": 3
    },
@@ -12359,10 +12369,6 @@
    },
    {
     "path": "/districts/al-murabba",
-    "count": 3
-   },
-   {
-    "path": "/ar/destinations/hayat-national-hospital-rabwah",
     "count": 3
    },
    {
@@ -12403,10 +12409,6 @@
    },
    {
     "path": "/ar/destinations/sahara-mall",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-wizarat",
     "count": 2
    },
    {
@@ -12864,7 +12866,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 596,
+   "count": 602,
    "ref_scheme": "g"
   },
   {
@@ -13160,12 +13162,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2257
+   "count": 2258
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 686
+   "count": 691
   },
   {
    "id": "(unknown)",
@@ -13227,7 +13229,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2547
+   "count": 2553
   },
   {
    "id": "AE",
@@ -13449,7 +13451,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2443
+   "count": 2449
   },
   {
    "id": "tablet",
@@ -13476,12 +13478,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1593
+   "count": 1597
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1377
+   "count": 1379
   },
   {
    "name": "",
@@ -13497,12 +13499,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1363
+   "count": 1365
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1113
+   "count": 1117
   },
   {
    "id": "Windows",
