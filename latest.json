@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T10:21:48Z",
+ "generated": "2026-10-26T11:21:21Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2994,
+  "total": 2998,
   "total_events": 1526,
-  "total_utc": 2994,
+  "total_utc": 2998,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2994
+    "monthly": 2998
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 298
+    "weekly": 302
    },
    {
     "day": "2026-10-25",
@@ -931,8 +931,8 @@
      5,
      6,
      4,
-     6,
-     0,
+     8,
+     2,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 52
+    "daily": 56
    },
    {
     "day": "2026-10-27",
@@ -1044,7 +1044,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 131,
+   "count": 132,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1062,7 +1062,7 @@
     "2026-10-23": 10,
     "2026-10-24": 14,
     "2026-10-25": 9,
-    "2026-10-26": 13
+    "2026-10-26": 14
    }
   },
   {
@@ -1439,6 +1439,20 @@
    }
   },
   {
+   "path": "/ar/lines/orange-line",
+   "path_id": 112221279,
+   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-22": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ar/destinations/aster-sanad-hospital",
    "path_id": 112080374,
    "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
@@ -1557,19 +1571,6 @@
     "2026-10-21": 1,
     "2026-10-22": 1,
     "2026-10-25": 2
-   }
-  },
-  {
-   "path": "/ar/lines/orange-line",
-   "path_id": 112221279,
-   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 2,
-    "2026-10-22": 1
    }
   },
   {
@@ -3039,6 +3040,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-khuzama",
+   "path_id": 112359171,
+   "title": "أقرب محطة مترو لحي الخزامى في الرياض: محطة جامعة الملك سعود، 2.1 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ru.html",
    "path_id": 112351595,
    "title": "Интерактивная схема метро Эр-Рияда: все 6 линий",
@@ -3847,6 +3859,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/ad-dar-al-baida",
+   "path_id": 115352981,
+   "title": "Ad Dar Al Baida Metro Station, Riyadh: Blue Line, No. 25",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
    }
   },
   {
@@ -6104,16 +6126,6 @@
    "path_id": 112365117,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-khuzama",
-   "path_id": 112359171,
-   "title": "أقرب محطة مترو لحي الخزامى في الرياض: محطة جامعة الملك سعود، 2.1 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-16": 1
@@ -10952,9 +10964,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1468,
+  "visits": 1472,
   "events_total": 1526,
-  "goatcounter_total_with_events": 2994,
+  "goatcounter_total_with_events": 2998,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10980,7 +10992,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 43
+   "2026-10-26": 47
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11332,7 +11344,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 105
+    "count": 106
    },
    {
     "name": "(direct or unknown)",
@@ -11553,6 +11565,24 @@
     "count": 7
    }
   ],
+  "/ar/lines/orange-line": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/sultanah",
+    "count": 2
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/lines/orange-line",
+    "count": 1
+   }
+  ],
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
@@ -11646,20 +11676,6 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/districts/al-hamra",
-    "count": 1
-   }
-  ],
-  "/ar/lines/orange-line": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/sultanah",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/lines/orange-line",
     "count": 1
    }
   ],
@@ -12094,7 +12110,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 105
+    "count": 106
    },
    {
     "path": "/map",
@@ -12233,11 +12249,11 @@
     "count": 3
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/ar/lines/orange-line",
     "count": 2
    },
    {
-    "path": "/ar/lines/orange-line",
+    "path": "/ar/nearest-station",
     "count": 2
    },
    {
@@ -12545,6 +12561,10 @@
     "count": 7
    },
    {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   },
+   {
     "path": "/ar/nearest-station",
     "count": 1
    },
@@ -12633,6 +12653,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/stations/sultanah": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 2
+   }
+  ],
   "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
    {
     "path": "/ar/nearest-station",
@@ -12669,12 +12695,6 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/stations/sultanah": [
-   {
-    "path": "/ar/lines/orange-line",
-    "count": 2
-   }
-  ],
   "riyadhmetro.fyi/districts": [
    {
     "path": "/ar/districts",
@@ -12709,7 +12729,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 568,
+   "count": 571,
    "ref_scheme": "g"
   },
   {
@@ -12739,7 +12759,7 @@
   {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
-   "count": 47,
+   "count": 48,
    "ref_scheme": "h"
   },
   {
@@ -13005,7 +13025,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2240
+   "count": 2244
   },
   {
    "id": "ara",
@@ -13072,7 +13092,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2503
+   "count": 2507
   },
   {
    "id": "AE",
@@ -13294,7 +13314,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2403
+   "count": 2405
   },
   {
    "id": "tablet",
@@ -13304,7 +13324,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 438
+   "count": 440
   },
   {
    "id": "desktophd",
@@ -13321,12 +13341,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1576
+   "count": 1579
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1348
+   "count": 1349
   },
   {
    "name": "",
@@ -13342,17 +13362,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1336
+   "count": 1337
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1100
+   "count": 1101
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 387
+   "count": 389
   },
   {
    "id": "macOS",
