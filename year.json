@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T17:25:39Z",
+ "generated": "2026-10-26T18:18:24Z",
  "start": "2025-10-26",
  "end": "2026-10-27",
  "total": {
-  "total": 3046,
+  "total": 3049,
   "total_events": 1534,
-  "total_utc": 3046,
+  "total_utc": 3049,
   "stats": [
    {
     "day": "2025-10-26",
@@ -10238,7 +10238,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3046
+    "monthly": 3049
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 214
+    "weekly": 217
    },
    {
     "day": "2026-10-26",
@@ -10989,10 +10989,10 @@
      7,
      6,
      0,
-     0,
+     3,
      0
     ],
-    "daily": 104
+    "daily": 107
    },
    {
     "day": "2026-10-27",
@@ -11840,6 +11840,16 @@
    }
   },
   {
+   "path": "/ar/districts/al-mursalat",
+   "path_id": 115154081,
+   "title": "أقرب محطة مترو لحي المرسلات في الرياض: محطة وزارة التعليم، 1.0 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-26": 4
+   }
+  },
+  {
    "path": "/districts/al-rawabi",
    "path_id": 114062966,
    "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
@@ -12084,9 +12094,9 @@
    }
   },
   {
-   "path": "/ar/districts/al-mursalat",
-   "path_id": 115154081,
-   "title": "أقرب محطة مترو لحي المرسلات في الرياض: محطة وزارة التعليم، 1.0 كم",
+   "path": "/ar/destinations/riyadh-care-hospital",
+   "path_id": 115365348,
+   "title": "محطة مترو مستشفى رعاية الرياض: محطة طريق هارون الرشيد (المسار البرتقالي)",
    "event": false,
    "count": 3,
    "daily": {
@@ -14099,16 +14109,6 @@
    "path_id": 115381111,
    "title": "ar|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/riyadh-care-hospital",
-   "path_id": 115365348,
-   "title": "محطة مترو مستشفى رعاية الرياض: محطة طريق هارون الرشيد (المسار البرتقالي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-26": 1
@@ -21117,9 +21117,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1512,
+  "visits": 1515,
   "events_total": 1534,
-  "goatcounter_total_with_events": 3046,
+  "goatcounter_total_with_events": 3049,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21145,7 +21145,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 87
+   "2026-10-26": 90
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21942,6 +21942,16 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-mursalat": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -22046,14 +22056,10 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-mursalat": [
+  "/ar/destinations/riyadh-care-hospital": [
    {
     "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
+    "count": 3
    }
   ],
   "/districts/al-nahdah": [
@@ -22153,20 +22159,6 @@
     "name": "riyadhmetro.fyi/destinations/jawazat",
     "count": 1
    }
-  ],
-  "/districts/al-nada": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -22240,6 +22232,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-mursalat",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-wizarat",
     "count": 1
    },
@@ -22248,19 +22244,11 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-mursalat",
-    "count": 1
-   },
-   {
     "path": "/stations/ministry-of-education",
     "count": 1
    },
    {
     "path": "/ar/destinations/panorama-mall",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-nada",
     "count": 1
    }
   ],
@@ -22402,11 +22390,19 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-mursalat",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/royal-mall",
     "count": 3
    },
    {
     "path": "/ar/districts/al-wizarat",
+    "count": 3
+   },
+   {
+    "path": "/ar/destinations/riyadh-care-hospital",
     "count": 3
    },
    {
@@ -22443,10 +22439,6 @@
    },
    {
     "path": "/timings",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-mursalat",
     "count": 2
    },
    {
@@ -22491,10 +22483,6 @@
    },
    {
     "path": "/districts/qurtubah",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-nada",
     "count": 1
    }
   ],
@@ -22593,10 +22581,6 @@
    },
    {
     "path": "/districts/al-qadisiyah",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-nada",
     "count": 1
    }
   ],
@@ -22916,7 +22900,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 602,
+   "count": 605,
    "ref_scheme": "g"
   },
   {
@@ -23217,7 +23201,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 691
+   "count": 694
   },
   {
    "id": "(unknown)",
@@ -23279,7 +23263,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2553
+   "count": 2556
   },
   {
    "id": "AE",
@@ -23501,7 +23485,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2449
+   "count": 2452
   },
   {
    "id": "tablet",
@@ -23528,12 +23512,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1597
+   "count": 1598
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1379
+   "count": 1381
   },
   {
    "name": "",
@@ -23549,12 +23533,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1365
+   "count": 1367
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1117
+   "count": 1118
   },
   {
    "id": "Windows",
