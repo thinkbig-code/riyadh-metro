@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T04:17:43Z",
+ "generated": "2026-10-26T05:16:36Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2964,
+  "total": 2967,
   "total_events": 1525,
-  "total_utc": 2964,
+  "total_utc": 2967,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2964
+    "monthly": 2967
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 268
+    "weekly": 271
    },
    {
     "day": "2026-10-25",
@@ -925,8 +925,8 @@
      0,
      2,
      1,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 25
    },
    {
     "day": "2026-10-27",
@@ -1044,7 +1044,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 123,
+   "count": 125,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1062,7 +1062,7 @@
     "2026-10-23": 10,
     "2026-10-24": 14,
     "2026-10-25": 9,
-    "2026-10-26": 5
+    "2026-10-26": 7
    }
   },
   {
@@ -1202,7 +1202,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 14,
+   "count": 15,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -1211,7 +1211,7 @@
     "2026-10-15": 2,
     "2026-10-24": 2,
     "2026-10-25": 4,
-    "2026-10-26": 1
+    "2026-10-26": 2
    }
   },
   {
@@ -10863,9 +10863,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1439,
+  "visits": 1442,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2964,
+  "goatcounter_total_with_events": 2967,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10891,7 +10891,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 14
+   "2026-10-26": 17
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11243,7 +11243,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 98
+    "count": 100
    },
    {
     "name": "(direct or unknown)",
@@ -11375,7 +11375,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 11
+    "count": 12
    },
    {
     "name": "(direct or unknown)",
@@ -11989,7 +11989,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 98
+    "count": 100
    },
    {
     "path": "/map",
@@ -12005,7 +12005,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 11
+    "count": 12
    },
    {
     "path": "/ar/lines",
@@ -12604,7 +12604,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 545,
+   "count": 548,
    "ref_scheme": "g"
   },
   {
@@ -12900,12 +12900,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2227
+   "count": 2229
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 641
+   "count": 642
   },
   {
    "id": "(unknown)",
@@ -12967,7 +12967,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2476
+   "count": 2478
   },
   {
    "id": "AE",
@@ -13002,7 +13002,7 @@
   {
    "id": "DE",
    "name": "Germany",
-   "count": 17
+   "count": 18
   },
   {
    "id": "PK",
@@ -13189,7 +13189,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2377
+   "count": 2379
   },
   {
    "id": "tablet",
@@ -13199,7 +13199,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 434
+   "count": 435
   },
   {
    "id": "desktophd",
@@ -13216,12 +13216,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1553
+   "count": 1555
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1341
+   "count": 1342
   },
   {
    "name": "",
@@ -13237,17 +13237,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1329
+   "count": 1330
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1081
+   "count": 1082
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 383
+   "count": 384
   },
   {
    "id": "macOS",
