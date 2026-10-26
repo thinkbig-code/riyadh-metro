@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T02:19:24Z",
+ "generated": "2026-10-26T03:16:47Z",
  "start": "2025-10-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2962,
+  "total": 2963,
   "total_events": 1525,
-  "total_utc": 2962,
+  "total_utc": 2963,
   "stats": [
    {
     "day": "2025-10-26",
@@ -10238,7 +10238,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2962
+    "monthly": 2963
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 130
+    "weekly": 131
    },
    {
     "day": "2026-10-26",
@@ -10973,7 +10973,7 @@
      2,
      1,
      0,
-     1,
+     2,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 20
+    "daily": 21
    },
    {
     "day": "2026-10-27",
@@ -11835,6 +11835,19 @@
    }
   },
   {
+   "path": "/stations/al-aziziah",
+   "path_id": 112216859,
+   "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1,
+    "2026-10-23": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ar/destinations/olaya-street",
    "path_id": 112084034,
    "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
@@ -12084,18 +12097,6 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-21": 2
-   }
-  },
-  {
-   "path": "/stations/al-aziziah",
-   "path_id": 112216859,
-   "title": "Al Aziziah Metro Station, Riyadh: Blue Line, No. 24",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-21": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -20911,9 +20912,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1437,
+  "visits": 1438,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2962,
+  "goatcounter_total_with_events": 2963,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20939,7 +20940,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 12
+   "2026-10-26": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21724,6 +21725,12 @@
     "count": 1
    }
   ],
+  "/stations/al-aziziah": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/destinations/olaya-street": [
    {
     "name": "Google",
@@ -21830,12 +21837,6 @@
    {
     "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
-   }
-  ],
-  "/stations/al-aziziah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/destinations/panorama-mall": [
@@ -22128,6 +22129,10 @@
     "count": 4
    },
    {
+    "path": "/stations/al-aziziah",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/olaya-street",
     "count": 4
    },
@@ -22145,10 +22150,6 @@
    },
    {
     "path": "/stations/al-muorabba",
-    "count": 3
-   },
-   {
-    "path": "/stations/al-aziziah",
     "count": 3
    },
    {
@@ -22652,7 +22653,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 543,
+   "count": 544,
    "ref_scheme": "g"
   },
   {
@@ -22948,7 +22949,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2226
+   "count": 2227
   },
   {
    "id": "ara",
@@ -23015,7 +23016,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2474
+   "count": 2475
   },
   {
    "id": "AE",
@@ -23237,7 +23238,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2375
+   "count": 2376
   },
   {
    "id": "tablet",
@@ -23264,7 +23265,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1552
+   "count": 1553
   },
   {
    "id": "Safari",
@@ -23290,7 +23291,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1080
+   "count": 1081
   },
   {
    "id": "Windows",
