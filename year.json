@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T06:16:23Z",
+ "generated": "2026-10-26T07:35:12Z",
  "start": "2025-10-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2972,
+  "total": 2977,
   "total_events": 1525,
-  "total_utc": 2972,
+  "total_utc": 2977,
   "stats": [
    {
     "day": "2025-10-26",
@@ -10238,7 +10238,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2972
+    "monthly": 2977
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 140
+    "weekly": 145
    },
    {
     "day": "2026-10-26",
@@ -10977,8 +10977,8 @@
      1,
      2,
      5,
-     1,
-     0,
+     2,
+     4,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 30
+    "daily": 35
    },
    {
     "day": "2026-10-27",
@@ -11253,7 +11253,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -11262,7 +11262,7 @@
     "2026-10-15": 2,
     "2026-10-24": 2,
     "2026-10-25": 4,
-    "2026-10-26": 2
+    "2026-10-26": 3
    }
   },
   {
@@ -11660,6 +11660,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-11": 1,
+    "2026-10-16": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -11875,6 +11888,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-malqa",
+   "path_id": 111993666,
+   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 2,
+    "2026-10-25": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "station/salam/from",
    "path_id": 111702847,
    "title": "ar|name",
@@ -11961,18 +11986,6 @@
     "2026-10-09": 1,
     "2026-10-22": 1,
     "2026-10-24": 2
-   }
-  },
-  {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-11": 1,
-    "2026-10-16": 1
    }
   },
   {
@@ -12070,6 +12083,18 @@
    }
   },
   {
+   "path": "/districts/al-murabba",
+   "path_id": 112555949,
+   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "view/kfl/yarmuk",
    "path_id": 112365338,
    "title": "en|details",
@@ -12157,17 +12182,6 @@
     "2026-10-14": 1,
     "2026-10-22": 1,
     "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-malqa",
-   "path_id": 111993666,
-   "title": "أقرب محطة مترو لحي الملقا في الرياض: محطة د. سليمان الحبيب، 3.2 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-14": 2,
-    "2026-10-25": 1
    }
   },
   {
@@ -12984,17 +12998,6 @@
    "daily": {
     "2026-10-17": 1,
     "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/districts/al-murabba",
-   "path_id": 112555949,
-   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-18": 1
    }
   },
   {
@@ -13891,6 +13894,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/shola-mall",
+   "path_id": 115307592,
+   "title": "Shola Mall Metro Station: Al Wizarat (Green Line), 2 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
    }
   },
   {
@@ -20926,9 +20939,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1447,
+  "visits": 1452,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2972,
+  "goatcounter_total_with_events": 2977,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -20954,7 +20967,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 22
+   "2026-10-26": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21438,7 +21451,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 12
+    "count": 13
    },
    {
     "name": "(direct or unknown)",
@@ -21675,6 +21688,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -21751,6 +21770,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/al-malqa": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -21801,12 +21830,6 @@
     "count": 2
    }
   ],
-  "/ar/districts/al-saadah": [
-   {
-    "name": "Google",
-    "count": 4
-   }
-  ],
   "/ar/districts/al-rayan": [
    {
     "name": "Google",
@@ -21828,6 +21851,12 @@
    }
   ],
   "/stations/al-muorabba": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
+  "/districts/al-murabba": [
    {
     "name": "Google",
     "count": 3
@@ -21887,16 +21916,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-malqa": [
-   {
-    "name": "(direct or unknown)",
-    "count": 2
-   },
-   {
-    "name": "Google",
-    "count": 1
-   }
-  ],
   "/ar/destinations/hayat-national-hospital-rabwah": [
    {
     "name": "Google",
@@ -21942,12 +21961,6 @@
     "name": "Google",
     "count": 3
    }
-  ],
-  "/ar/destinations/al-faisaliah-tower": [
-   {
-    "name": "Google",
-    "count": 3
-   }
   ]
  },
  "ref_pages": {
@@ -21985,11 +21998,11 @@
     "count": 2
    },
    {
-    "path": "/ar/stations/jeddah-road",
+    "path": "/ar/districts/al-malqa",
     "count": 2
    },
    {
-    "path": "/ar/districts/al-malqa",
+    "path": "/ar/stations/jeddah-road",
     "count": 2
    },
    {
@@ -22068,7 +22081,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 12
+    "count": 13
    },
    {
     "path": "/ar/lines",
@@ -22115,6 +22128,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-saadah",
+    "count": 5
+   },
+   {
     "path": "/districts/al-arid",
     "count": 4
    },
@@ -22155,10 +22172,6 @@
     "count": 4
    },
    {
-    "path": "/ar/districts/al-saadah",
-    "count": 4
-   },
-   {
     "path": "/ar/destinations/aster-sanad-hospital",
     "count": 3
    },
@@ -22168,6 +22181,10 @@
    },
    {
     "path": "/stations/al-muorabba",
+    "count": 3
+   },
+   {
+    "path": "/districts/al-murabba",
     "count": 3
    },
    {
@@ -22195,10 +22212,6 @@
     "count": 3
    },
    {
-    "path": "/ar/destinations/al-faisaliah-tower",
-    "count": 3
-   },
-   {
     "path": "/ar/nearest-station",
     "count": 2
    },
@@ -22208,6 +22221,10 @@
    },
    {
     "path": "/ar/districts",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-malqa",
     "count": 2
    },
    {
@@ -22260,10 +22277,6 @@
    },
    {
     "path": "/districts/al-nada",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-malqa",
     "count": 1
    }
   ],
@@ -22667,7 +22680,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 552,
+   "count": 556,
    "ref_scheme": "g"
   },
   {
@@ -22691,7 +22704,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 76,
+   "count": 77,
    "ref_scheme": "c"
   },
   {
@@ -22963,12 +22976,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2232
+   "count": 2234
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 644
+   "count": 647
   },
   {
    "id": "(unknown)",
@@ -23030,7 +23043,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2482
+   "count": 2487
   },
   {
    "id": "AE",
@@ -23252,7 +23265,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2382
+   "count": 2387
   },
   {
    "id": "tablet",
@@ -23279,12 +23292,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1559
+   "count": 1563
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1343
+   "count": 1344
   },
   {
    "name": "",
@@ -23300,12 +23313,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1331
+   "count": 1332
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1084
+   "count": 1088
   },
   {
    "id": "Windows",
