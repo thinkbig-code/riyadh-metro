@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T07:33:49Z",
+ "generated": "2026-10-26T08:26:09Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2976,
+  "total": 2981,
   "total_events": 1525,
-  "total_utc": 2976,
+  "total_utc": 2981,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2976
+    "monthly": 2981
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 280
+    "weekly": 285
    },
    {
     "day": "2026-10-25",
@@ -928,8 +928,8 @@
      2,
      5,
      2,
+     5,
      3,
-     0,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 34
+    "daily": 39
    },
    {
     "day": "2026-10-27",
@@ -1610,6 +1610,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-11": 1,
+    "2026-10-16": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ur.html",
    "path_id": 110487827,
    "title": "ریاض میٹرو کا انٹرایکٹو نقشہ: تمام 6 لائنیں",
@@ -1923,18 +1936,6 @@
     "2026-10-09": 1,
     "2026-10-22": 1,
     "2026-10-24": 2
-   }
-  },
-  {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-11": 1,
-    "2026-10-16": 1
    }
   },
   {
@@ -3843,6 +3844,46 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/al-margab",
+   "path_id": 115316889,
+   "title": "Al Margab Metro Station, Riyadh: Orange Line, No. 50",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
+   }
+  },
+  {
+   "path": "/ar/stations/passport-department",
+   "path_id": 115315095,
+   "title": "محطة الجوازات، مترو الرياض: المسار الأزرق (رقم 15)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nasiriyah",
+   "path_id": 115315057,
+   "title": "أقرب محطة مترو لحي الناصرية في الرياض: محطة الجوازات، 2.6 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
+   }
+  },
+  {
+   "path": "/ar/routes/riyadh-airport-to-al-batha",
+   "path_id": 115310771,
+   "title": "من مطار الرياض إلى البطحاء بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
    }
   },
   {
@@ -10888,9 +10929,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1451,
+  "visits": 1456,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2976,
+  "goatcounter_total_with_events": 2981,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10916,7 +10957,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 26
+   "2026-10-26": 31
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11637,6 +11678,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/ur.html": [
    {
     "name": "www.facebook.com",
@@ -11771,12 +11818,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/ar/districts/al-saadah": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/ar/districts/al-rayan": [
@@ -12629,7 +12670,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 556,
+   "count": 559,
    "ref_scheme": "g"
   },
   {
@@ -12925,12 +12966,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2234
+   "count": 2237
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 647
+   "count": 648
   },
   {
    "id": "(unknown)",
@@ -12992,7 +13033,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2487
+   "count": 2490
   },
   {
    "id": "AE",
@@ -13015,13 +13056,13 @@
    "count": 32
   },
   {
-   "id": "IN",
-   "name": "India",
-   "count": 20
-  },
-  {
    "id": "NL",
    "name": "Netherlands",
+   "count": 21
+  },
+  {
+   "id": "IN",
+   "name": "India",
    "count": 20
   },
   {
@@ -13214,7 +13255,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2387
+   "count": 2391
   },
   {
    "id": "tablet",
@@ -13241,7 +13282,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1563
+   "count": 1567
   },
   {
    "id": "Safari",
@@ -13267,7 +13308,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1088
+   "count": 1092
   },
   {
    "id": "Windows",
