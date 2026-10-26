@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T01:57:11Z",
+ "generated": "2026-10-26T02:18:06Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2961,
+  "total": 2962,
   "total_events": 1525,
-  "total_utc": 2961,
+  "total_utc": 2962,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2961
+    "monthly": 2962
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 265
+    "weekly": 266
    },
    {
     "day": "2026-10-25",
@@ -923,7 +923,7 @@
      2,
      1,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 19
+    "daily": 20
    },
    {
     "day": "2026-10-27",
@@ -1724,6 +1724,19 @@
    }
   },
   {
+   "path": "/ar/districts/east-umm-al-hamam",
+   "path_id": 113337065,
+   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-26": 1
+   }
+  },
+  {
    "path": "/ar/districts/ar-rabwah",
    "path_id": 112729802,
    "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
@@ -1965,18 +1978,6 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-23": 1,
-    "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/east-umm-al-hamam",
-   "path_id": 113337065,
-   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-24": 1,
     "2026-10-25": 1
    }
   },
@@ -10860,9 +10861,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1436,
+  "visits": 1437,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2961,
+  "goatcounter_total_with_events": 2962,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10888,7 +10889,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 11
+   "2026-10-26": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11641,6 +11642,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/east-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 4
+   }
+  ],
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -11737,12 +11744,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/ar/districts/east-umm-al-hamam": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/districts/al-qadisiyah": [
@@ -12069,6 +12070,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/east-umm-al-hamam",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/ar-rabwah",
     "count": 4
    },
@@ -12086,10 +12091,6 @@
    },
    {
     "path": "/ar/destinations/royal-mall",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/east-umm-al-hamam",
     "count": 3
    },
    {
@@ -12601,7 +12602,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 542,
+   "count": 543,
    "ref_scheme": "g"
   },
   {
@@ -12902,7 +12903,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 639
+   "count": 640
   },
   {
    "id": "(unknown)",
@@ -12964,7 +12965,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2473
+   "count": 2474
   },
   {
    "id": "AE",
@@ -13186,7 +13187,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2374
+   "count": 2375
   },
   {
    "id": "tablet",
@@ -13218,7 +13219,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1339
+   "count": 1340
   },
   {
    "name": "",
@@ -13234,7 +13235,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1327
+   "count": 1328
   },
   {
    "id": "Android",
