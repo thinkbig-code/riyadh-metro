@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T08:27:40Z",
+ "generated": "2026-10-26T09:24:23Z",
  "start": "2025-10-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2981,
+  "total": 2985,
   "total_events": 1525,
-  "total_utc": 2981,
+  "total_utc": 2985,
   "stats": [
    {
     "day": "2025-10-26",
@@ -10238,7 +10238,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2981
+    "monthly": 2985
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 149
+    "weekly": 153
    },
    {
     "day": "2026-10-26",
@@ -10979,8 +10979,8 @@
      5,
      2,
      5,
-     3,
-     0,
+     6,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 39
+    "daily": 43
    },
    {
     "day": "2026-10-27",
@@ -11094,7 +11094,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 126,
+   "count": 128,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11112,7 +11112,7 @@
     "2026-10-23": 10,
     "2026-10-24": 14,
     "2026-10-25": 9,
-    "2026-10-26": 8
+    "2026-10-26": 10
    }
   },
   {
@@ -12209,6 +12209,17 @@
    }
   },
   {
+   "path": "/destinations/pakistan-embassy",
+   "path_id": 111947827,
+   "title": "Pakistan Embassy Riyadh Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-13": 1,
+    "2026-10-26": 2
+   }
+  },
+  {
    "path": "route/p_king_fahd_national_library/railway",
    "path_id": 111943914,
    "title": "en|search|ok",
@@ -13236,17 +13247,6 @@
    }
   },
   {
-   "path": "/destinations/pakistan-embassy",
-   "path_id": 111947827,
-   "title": "Pakistan Embassy Riyadh Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-13": 1,
-    "2026-10-26": 1
-   }
-  },
-  {
    "path": "station/railway/to",
    "path_id": 111943913,
    "title": "en|name",
@@ -13894,6 +13894,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/as-sulimaniyah",
+   "path_id": 115319474,
+   "title": "محطة السليمانية، مترو الرياض: المسار الأخضر (رقم 77)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-26": 1
    }
   },
   {
@@ -20979,9 +20989,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1456,
+  "visits": 1460,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2981,
+  "goatcounter_total_with_events": 2985,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21007,7 +21017,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 31
+   "2026-10-26": 35
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21359,7 +21369,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 101
+    "count": 103
    },
    {
     "name": "(direct or unknown)",
@@ -21972,6 +21982,16 @@
     "count": 1
    }
   ],
+  "/destinations/pakistan-embassy": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/ministry-of-foreign-affairs": [
    {
     "name": "Google",
@@ -21991,12 +22011,6 @@
    }
   ],
   "/ar/districts/al-awaly": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
-  "/districts/al-uraija": [
    {
     "name": "Google",
     "count": 3
@@ -22043,6 +22057,10 @@
    },
    {
     "path": "/ar/stations/jeddah-road",
+    "count": 2
+   },
+   {
+    "path": "/destinations/pakistan-embassy",
     "count": 2
    },
    {
@@ -22105,7 +22123,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 101
+    "count": 103
    },
    {
     "path": "/map",
@@ -22248,10 +22266,6 @@
     "count": 3
    },
    {
-    "path": "/districts/al-uraija",
-    "count": 3
-   },
-   {
     "path": "/ar/nearest-station",
     "count": 2
    },
@@ -22317,6 +22331,10 @@
    },
    {
     "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
+    "path": "/destinations/pakistan-embassy",
     "count": 1
    }
   ],
@@ -22714,13 +22732,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1568,
+   "count": 1569,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 559,
+   "count": 562,
    "ref_scheme": "g"
   },
   {
@@ -23016,12 +23034,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2237
+   "count": 2238
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 648
+   "count": 651
   },
   {
    "id": "(unknown)",
@@ -23083,7 +23101,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2490
+   "count": 2494
   },
   {
    "id": "AE",
@@ -23305,7 +23323,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2391
+   "count": 2395
   },
   {
    "id": "tablet",
@@ -23332,12 +23350,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1567
+   "count": 1568
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1344
+   "count": 1347
   },
   {
    "name": "",
@@ -23353,12 +23371,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1332
+   "count": 1335
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1092
+   "count": 1093
   },
   {
    "id": "Windows",
