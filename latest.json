@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T03:15:26Z",
+ "generated": "2026-10-26T04:17:43Z",
  "start": "2026-09-26",
  "end": "2026-10-27",
  "total": {
-  "total": 2963,
+  "total": 2964,
   "total_events": 1525,
-  "total_utc": 2963,
+  "total_utc": 2964,
   "stats": [
    {
     "day": "2026-09-26",
@@ -188,7 +188,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 2963
+    "monthly": 2964
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      21
     ],
     "daily": 136,
-    "weekly": 267
+    "weekly": 268
    },
    {
     "day": "2026-10-25",
@@ -924,7 +924,7 @@
      1,
      0,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 21
+    "daily": 22
    },
    {
     "day": "2026-10-27",
@@ -3102,6 +3102,17 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/prince-sultan-university",
+   "path_id": 112174965,
+   "title": "محطة مترو جامعة الأمير سلطان: محطة صلاح الدين، 17 دقيقة سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-26": 1
    }
   },
   {
@@ -6174,16 +6185,6 @@
    "path_id": 112182205,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-15": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/prince-sultan-university",
-   "path_id": 112174965,
-   "title": "محطة مترو جامعة الأمير سلطان: محطة صلاح الدين، 17 دقيقة سيراً",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-15": 1
@@ -10862,9 +10863,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1438,
+  "visits": 1439,
   "events_total": 1525,
-  "goatcounter_total_with_events": 2963,
+  "goatcounter_total_with_events": 2964,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -10890,7 +10891,7 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 13
+   "2026-10-26": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12603,7 +12604,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 544,
+   "count": 545,
    "ref_scheme": "g"
   },
   {
@@ -12904,7 +12905,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 640
+   "count": 641
   },
   {
    "id": "(unknown)",
@@ -12966,7 +12967,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2475
+   "count": 2476
   },
   {
    "id": "AE",
@@ -13188,7 +13189,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2376
+   "count": 2377
   },
   {
    "id": "tablet",
@@ -13220,7 +13221,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1340
+   "count": 1341
   },
   {
    "name": "",
@@ -13236,7 +13237,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1328
+   "count": 1329
   },
   {
    "id": "Android",
