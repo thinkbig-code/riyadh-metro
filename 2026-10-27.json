@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T04:16:31Z",
+ "generated": "2026-10-27T05:14:51Z",
  "start": "2026-09-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3054,
+  "total": 3055,
   "total_events": 1535,
-  "total_utc": 3054,
+  "total_utc": 3055,
   "stats": [
    {
     "day": "2026-09-27",
@@ -158,7 +158,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3054
+    "monthly": 3055
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 222
+    "weekly": 223
    },
    {
     "day": "2026-10-26",
@@ -926,7 +926,7 @@
      0,
      0,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 5
    },
    {
     "day": "2026-10-28",
@@ -2069,6 +2069,17 @@
    }
   },
   {
+   "path": "/districts/al-olaya",
+   "path_id": 114587147,
+   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 2,
+    "2026-10-27": 1
+   }
+  },
+  {
    "path": "route/jeddahrd/granadia",
    "path_id": 114581451,
    "title": "ar|map|ok",
@@ -2701,16 +2712,6 @@
    "daily": {
     "2026-10-24": 1,
     "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/districts/al-olaya",
-   "path_id": 114587147,
-   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 2
    }
   },
   {
@@ -11090,9 +11091,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1519,
+  "visits": 1520,
   "events_total": 1535,
-  "goatcounter_total_with_events": 3054,
+  "goatcounter_total_with_events": 3055,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11119,7 +11120,7 @@
    "2026-10-24": 95,
    "2026-10-25": 77,
    "2026-10-26": 91,
-   "2026-10-27": 3
+   "2026-10-27": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12037,6 +12038,12 @@
     "count": 3
    }
   ],
+  "/districts/al-olaya": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   }
+  ],
   "/districts/al-nahdah": [
    {
     "name": "Google",
@@ -12122,16 +12129,6 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/destinations/lulu-hypermarket-murabba": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/destinations/jawazat",
     "count": 1
    }
   ]
@@ -12441,10 +12438,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/lulu-hypermarket-murabba",
-    "count": 2
-   },
-   {
     "path": "/ar.html",
     "count": 1
    },
@@ -12512,6 +12505,10 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 3
+   },
+   {
+    "path": "/districts/al-olaya",
     "count": 3
    },
    {
@@ -12858,12 +12855,6 @@
     "path": "/ar/stations/jeddah-road",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/destinations/jawazat": [
-   {
-    "path": "/destinations/lulu-hypermarket-murabba",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
@@ -12899,7 +12890,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 82,
+   "count": 83,
    "ref_scheme": "c"
   },
   {
@@ -13171,7 +13162,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2261
+   "count": 2262
   },
   {
    "id": "ara",
@@ -13238,7 +13229,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2559
+   "count": 2560
   },
   {
    "id": "AE",
@@ -13460,7 +13451,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2457
+   "count": 2458
   },
   {
    "id": "tablet",
@@ -13487,7 +13478,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1598
+   "count": 1599
   },
   {
    "id": "Safari",
@@ -13513,7 +13504,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1118
+   "count": 1119
   },
   {
    "id": "Windows",
