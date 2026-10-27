@@ -1,44 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-26T23:10:44Z",
- "start": "2026-09-26",
- "end": "2026-10-27",
+ "generated": "2026-10-27T00:07:11Z",
+ "start": "2026-09-27",
+ "end": "2026-10-28",
  "total": {
-  "total": 3050,
+  "total": 3052,
   "total_events": 1534,
-  "total_utc": 3050,
+  "total_utc": 3052,
   "stats": [
-   {
-    "day": "2026-09-26",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0,
-    "weekly": 5
-   },
    {
     "day": "2026-09-27",
     "hourly": [
@@ -67,7 +36,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 14
    },
    {
     "day": "2026-09-28",
@@ -188,7 +158,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3050
+    "monthly": 3052
    },
    {
     "day": "2026-10-02",
@@ -248,8 +218,7 @@
      0,
      0
     ],
-    "daily": 9,
-    "weekly": 858
+    "daily": 9
    },
    {
     "day": "2026-10-04",
@@ -279,7 +248,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 1051
    },
    {
     "day": "2026-10-05",
@@ -459,8 +429,7 @@
      12,
      10
     ],
-    "daily": 202,
-    "weekly": 1103
+    "daily": 202
    },
    {
     "day": "2026-10-11",
@@ -490,7 +459,8 @@
      1,
      1
     ],
-    "daily": 159
+    "daily": 159,
+    "weekly": 1051
    },
    {
     "day": "2026-10-12",
@@ -670,8 +640,7 @@
      9,
      3
     ],
-    "daily": 150,
-    "weekly": 730
+    "daily": 150
    },
    {
     "day": "2026-10-18",
@@ -701,7 +670,8 @@
      2,
      2
     ],
-    "daily": 53
+    "daily": 53,
+    "weekly": 716
    },
    {
     "day": "2026-10-19",
@@ -881,8 +851,7 @@
      4,
      21
     ],
-    "daily": 136,
-    "weekly": 354
+    "daily": 136
    },
    {
     "day": "2026-10-25",
@@ -912,7 +881,8 @@
      3,
      3
     ],
-    "daily": 110
+    "daily": 110,
+    "weekly": 220
    },
    {
     "day": "2026-10-26",
@@ -946,6 +916,36 @@
    },
    {
     "day": "2026-10-27",
+    "hourly": [
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 2
+   },
+   {
+    "day": "2026-10-28",
     "hourly": [
      0,
      0,
@@ -1317,6 +1317,21 @@
    }
   },
   {
+   "path": "/ar/districts/al-rawdah",
+   "path_id": 112412104,
+   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 2,
+    "2026-10-21": 2,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-27": 1
+   }
+  },
+  {
    "path": "/districts/al-yasmeen",
    "path_id": 111876907,
    "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
@@ -1385,20 +1400,6 @@
     "2026-10-08": 3,
     "2026-10-09": 2,
     "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-rawdah",
-   "path_id": 112412104,
-   "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-18": 2,
-    "2026-10-21": 2,
-    "2026-10-23": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -3992,6 +3993,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-north-railway-station",
+   "path_id": 115543085,
+   "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-27": 1
    }
   },
   {
@@ -11077,9 +11088,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1516,
+  "visits": 1518,
   "events_total": 1534,
-  "goatcounter_total_with_events": 3050,
+  "goatcounter_total_with_events": 3052,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11105,7 +11116,8 @@
    "2026-10-23": 54,
    "2026-10-24": 95,
    "2026-10-25": 77,
-   "2026-10-26": 91
+   "2026-10-26": 91,
+   "2026-10-27": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11640,6 +11652,12 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 8
+   }
+  ],
   "/districts/al-yasmeen": [
    {
     "name": "Google",
@@ -11668,12 +11686,6 @@
    {
     "name": "riyadhmetro.fyi/ar/districts",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 7
    }
   ],
   "/stations": [
@@ -12258,16 +12270,16 @@
     "count": 8
    },
    {
+    "path": "/ar/districts/al-rawdah",
+    "count": 8
+   },
+   {
     "path": "/districts/al-yasmeen",
     "count": 8
    },
    {
     "path": "/ar/districts/qurtubah",
     "count": 8
-   },
-   {
-    "path": "/ar/districts/al-rawdah",
-    "count": 7
    },
    {
     "path": "/stations",
@@ -12860,7 +12872,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 605,
+   "count": 606,
    "ref_scheme": "g"
   },
   {
@@ -12884,7 +12896,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 81,
+   "count": 82,
    "ref_scheme": "c"
   },
   {
@@ -13156,12 +13168,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2258
+   "count": 2259
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 695
+   "count": 696
   },
   {
    "id": "(unknown)",
@@ -13223,7 +13235,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2557
+   "count": 2559
   },
   {
    "id": "AE",
@@ -13445,7 +13457,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2453
+   "count": 2455
   },
   {
    "id": "tablet",
@@ -13477,7 +13489,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1382
+   "count": 1384
   },
   {
    "name": "",
@@ -13493,7 +13505,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1368
+   "count": 1370
   },
   {
    "id": "Android",
