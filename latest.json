@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T07:29:56Z",
+ "generated": "2026-10-27T08:22:26Z",
  "start": "2026-09-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3063,
-  "total_events": 1541,
-  "total_utc": 3063,
+  "total": 3064,
+  "total_events": 1542,
+  "total_utc": 3064,
   "stats": [
    {
     "day": "2026-09-27",
@@ -158,7 +158,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3063
+    "monthly": 3064
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 231
+    "weekly": 232
    },
    {
     "day": "2026-10-26",
@@ -929,7 +929,7 @@
      1,
      7,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 13
+    "daily": 14
    },
    {
     "day": "2026-10-28",
@@ -1072,7 +1072,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 64,
+   "count": 65,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1091,7 +1091,8 @@
     "2026-10-23": 2,
     "2026-10-24": 2,
     "2026-10-25": 4,
-    "2026-10-26": 1
+    "2026-10-26": 1,
+    "2026-10-27": 1
    }
   },
   {
@@ -11125,8 +11126,8 @@
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
   "visits": 1522,
-  "events_total": 1541,
-  "goatcounter_total_with_events": 3063,
+  "events_total": 1542,
+  "goatcounter_total_with_events": 3064,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11175,10 +11176,10 @@
    "2026-10-24": 11,
    "2026-10-25": 13,
    "2026-10-26": 3,
-   "2026-10-27": 2
+   "2026-10-27": 3
   },
-  "visitor_days": 591,
-  "return_rate": 0.108,
+  "visitor_days": 592,
+  "return_rate": 0.11,
   "routes": 416,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
@@ -11271,7 +11272,7 @@
   },
   "visitors_new_return": {
    "new": 527,
-   "return": 64
+   "return": 65
   },
   "top_routes": [
    {
@@ -12893,7 +12894,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1581,
+   "count": 1582,
    "ref_scheme": "o"
   },
   {
@@ -13195,7 +13196,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2270
+   "count": 2271
   },
   {
    "id": "ara",
@@ -13262,7 +13263,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2561
+   "count": 2562
   },
   {
    "id": "AE",
@@ -13484,7 +13485,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2466
+   "count": 2467
   },
   {
    "id": "tablet",
@@ -13516,7 +13517,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1387
+   "count": 1388
   },
   {
    "name": "",
@@ -13532,7 +13533,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1373
+   "count": 1374
   },
   {
    "id": "Android",
