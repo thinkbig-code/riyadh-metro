@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T08:22:26Z",
+ "generated": "2026-10-27T09:19:57Z",
  "start": "2026-09-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3064,
+  "total": 3065,
   "total_events": 1542,
-  "total_utc": 3064,
+  "total_utc": 3065,
   "stats": [
    {
     "day": "2026-09-27",
@@ -158,7 +158,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3064
+    "monthly": 3065
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 232
+    "weekly": 233
    },
    {
     "day": "2026-10-26",
@@ -929,7 +929,7 @@
      1,
      7,
      1,
-     1,
+     2,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 14
+    "daily": 15
    },
    {
     "day": "2026-10-28",
@@ -1407,6 +1407,21 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-26": 2,
+    "2026-10-27": 1
+   }
+  },
+  {
    "path": "/stations",
    "path_id": 110710632,
    "title": "Riyadh Metro Stations: Full List of All 6 Lines",
@@ -1457,20 +1472,6 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
-   }
-  },
-  {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1,
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-26": 2
    }
   },
   {
@@ -11125,9 +11126,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1522,
+  "visits": 1523,
   "events_total": 1542,
-  "goatcounter_total_with_events": 3064,
+  "goatcounter_total_with_events": 3065,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11154,7 +11155,7 @@
    "2026-10-24": 95,
    "2026-10-25": 77,
    "2026-10-26": 91,
-   "2026-10-27": 6
+   "2026-10-27": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11726,6 +11727,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -11736,16 +11747,6 @@
    {
     "name": "Google",
     "count": 7
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/lines/orange-line": [
@@ -12546,6 +12547,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 2
+   },
+   {
     "path": "/districts/al-taawun",
     "count": 2
    },
@@ -12555,10 +12560,6 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
     "count": 1
    },
    {
@@ -12924,7 +12925,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 84,
+   "count": 85,
    "ref_scheme": "c"
   },
   {
@@ -13201,7 +13202,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 696
+   "count": 697
   },
   {
    "id": "(unknown)",
@@ -13263,7 +13264,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2562
+   "count": 2563
   },
   {
    "id": "AE",
@@ -13485,7 +13486,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2467
+   "count": 2468
   },
   {
    "id": "tablet",
@@ -13517,7 +13518,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1388
+   "count": 1389
   },
   {
    "name": "",
@@ -13533,7 +13534,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1374
+   "count": 1375
   },
   {
    "id": "Android",
