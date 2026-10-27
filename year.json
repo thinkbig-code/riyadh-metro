@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T09:21:32Z",
+ "generated": "2026-10-27T10:21:44Z",
  "start": "2025-10-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3065,
+  "total": 3066,
   "total_events": 1542,
-  "total_utc": 3065,
+  "total_utc": 3066,
   "stats": [
    {
     "day": "2025-10-27",
@@ -10208,7 +10208,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3065
+    "monthly": 3066
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 123
+    "weekly": 124
    },
    {
     "day": "2026-10-27",
@@ -10980,7 +10980,7 @@
      7,
      1,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 16
    },
    {
     "day": "2026-10-28",
@@ -14061,6 +14061,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-saadah",
+   "path_id": 115668230,
+   "title": "Nearest Metro Station to Al Saadah, Riyadh: An Naseem (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-27": 1
    }
   },
   {
@@ -21176,9 +21186,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1523,
+  "visits": 1524,
   "events_total": 1542,
-  "goatcounter_total_with_events": 3065,
+  "goatcounter_total_with_events": 3066,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21205,7 +21215,7 @@
    "2026-10-24": 95,
    "2026-10-25": 77,
    "2026-10-26": 91,
-   "2026-10-27": 7
+   "2026-10-27": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22945,7 +22955,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1582,
+   "count": 1583,
    "ref_scheme": "o"
   },
   {
@@ -23247,7 +23257,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2271
+   "count": 2272
   },
   {
    "id": "ara",
@@ -23314,7 +23324,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2563
+   "count": 2564
   },
   {
    "id": "AE",
@@ -23536,7 +23546,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2468
+   "count": 2469
   },
   {
    "id": "tablet",
@@ -23563,7 +23573,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1606
+   "count": 1607
   },
   {
    "id": "Safari",
@@ -23589,7 +23599,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1126
+   "count": 1127
   },
   {
    "id": "Windows",
