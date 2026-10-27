@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T03:14:54Z",
+ "generated": "2026-10-27T04:16:31Z",
  "start": "2026-09-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3052,
-  "total_events": 1534,
-  "total_utc": 3052,
+  "total": 3054,
+  "total_events": 1535,
+  "total_utc": 3054,
   "stats": [
    {
     "day": "2026-09-27",
@@ -158,7 +158,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3052
+    "monthly": 3054
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      3
     ],
     "daily": 110,
-    "weekly": 220
+    "weekly": 222
    },
    {
     "day": "2026-10-26",
@@ -925,7 +925,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 4
    },
    {
     "day": "2026-10-28",
@@ -982,7 +982,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 702,
+   "count": 703,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1008,7 +1008,8 @@
     "2026-10-23": 6,
     "2026-10-24": 11,
     "2026-10-25": 10,
-    "2026-10-26": 1
+    "2026-10-26": 1,
+    "2026-10-27": 1
    }
   },
   {
@@ -1016,7 +1017,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 525,
+   "count": 526,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1036,7 +1037,8 @@
     "2026-10-23": 6,
     "2026-10-24": 9,
     "2026-10-25": 9,
-    "2026-10-26": 2
+    "2026-10-26": 2,
+    "2026-10-27": 1
    }
   },
   {
@@ -11088,9 +11090,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1518,
-  "events_total": 1534,
-  "goatcounter_total_with_events": 3052,
+  "visits": 1519,
+  "events_total": 1535,
+  "goatcounter_total_with_events": 3054,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11117,7 +11119,7 @@
    "2026-10-24": 95,
    "2026-10-25": 77,
    "2026-10-26": 91,
-   "2026-10-27": 2
+   "2026-10-27": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11138,10 +11140,11 @@
    "2026-10-23": 8,
    "2026-10-24": 11,
    "2026-10-25": 13,
-   "2026-10-26": 3
+   "2026-10-26": 3,
+   "2026-10-27": 1
   },
-  "visitor_days": 589,
-  "return_rate": 0.109,
+  "visitor_days": 590,
+  "return_rate": 0.108,
   "routes": 415,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
@@ -11233,7 +11236,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 525,
+   "new": 526,
    "return": 64
   },
   "top_routes": [
@@ -11387,7 +11390,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 465
+    "count": 466
    },
    {
     "name": "tiktok_ad",
@@ -12137,7 +12140,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 465
+    "count": 466
    },
    {
     "path": "/ar/map",
@@ -12866,7 +12869,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1579,
+   "count": 1581,
    "ref_scheme": "o"
   },
   {
@@ -13168,7 +13171,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2259
+   "count": 2261
   },
   {
    "id": "ara",
@@ -13258,14 +13261,14 @@
    "count": 33
   },
   {
+   "id": "IN",
+   "name": "India",
+   "count": 22
+  },
+  {
    "id": "NL",
    "name": "Netherlands",
    "count": 21
-  },
-  {
-   "id": "IN",
-   "name": "India",
-   "count": 20
   },
   {
    "id": "DE",
@@ -13457,7 +13460,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2455
+   "count": 2457
   },
   {
    "id": "tablet",
@@ -13489,7 +13492,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1384
+   "count": 1386
   },
   {
    "name": "",
@@ -13505,7 +13508,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1370
+   "count": 1372
   },
   {
    "id": "Android",
