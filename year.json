@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T15:29:17Z",
+ "generated": "2026-10-27T16:29:03Z",
  "start": "2025-10-27",
  "end": "2026-10-28",
  "total": {
-  "total": 3070,
+  "total": 3071,
   "total_events": 1543,
-  "total_utc": 3070,
+  "total_utc": 3071,
   "stats": [
    {
     "day": "2025-10-27",
@@ -10208,7 +10208,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3070
+    "monthly": 3071
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 128
+    "weekly": 129
    },
    {
     "day": "2026-10-27",
@@ -10986,13 +10986,13 @@
      4,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
      0
     ],
-    "daily": 20
+    "daily": 21
    },
    {
     "day": "2026-10-28",
@@ -11593,6 +11593,21 @@
    }
   },
   {
+   "path": "/districts/ar-rabwah",
+   "path_id": 111168177,
+   "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-16": 1,
+    "2026-10-18": 1,
+    "2026-10-23": 1,
+    "2026-10-26": 1,
+    "2026-10-27": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-nafel",
    "path_id": 111088602,
    "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
@@ -11693,20 +11708,6 @@
    "daily": {
     "2026-10-13": 1,
     "2026-10-26": 4
-   }
-  },
-  {
-   "path": "/districts/ar-rabwah",
-   "path_id": 111168177,
-   "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-16": 1,
-    "2026-10-18": 1,
-    "2026-10-23": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -21197,9 +21198,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1527,
+  "visits": 1528,
   "events_total": 1543,
-  "goatcounter_total_with_events": 3070,
+  "goatcounter_total_with_events": 3071,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21226,7 +21227,7 @@
    "2026-10-24": 95,
    "2026-10-25": 77,
    "2026-10-26": 91,
-   "2026-10-27": 11
+   "2026-10-27": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21906,6 +21907,16 @@
     "count": 2
    }
   ],
+  "/districts/ar-rabwah": [
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-nafel": [
    {
     "name": "Google",
@@ -21969,16 +21980,6 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 2
-   }
-  ],
-  "/districts/ar-rabwah": [
-   {
-    "name": "chatgpt.com",
-    "count": 3
-   },
-   {
-    "name": "Google",
     "count": 2
    }
   ],
@@ -22504,11 +22505,11 @@
     "count": 2
    },
    {
-    "path": "/ar/districts",
+    "path": "/districts/ar-rabwah",
     "count": 2
    },
    {
-    "path": "/districts/ar-rabwah",
+    "path": "/ar/districts",
     "count": 2
    },
    {
@@ -22590,15 +22591,15 @@
     "count": 4
    },
    {
+    "path": "/districts/ar-rabwah",
+    "count": 4
+   },
+   {
     "path": "/map",
     "count": 3
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 3
-   },
-   {
-    "path": "/districts/ar-rabwah",
     "count": 3
    },
    {
@@ -22996,7 +22997,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 86,
+   "count": 87,
    "ref_scheme": "c"
   },
   {
@@ -23273,7 +23274,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 698
+   "count": 699
   },
   {
    "id": "(unknown)",
@@ -23335,7 +23336,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2566
+   "count": 2567
   },
   {
    "id": "AE",
@@ -23557,7 +23558,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2473
+   "count": 2474
   },
   {
    "id": "tablet",
@@ -23589,7 +23590,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1389
+   "count": 1390
   },
   {
    "name": "",
@@ -23605,7 +23606,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1375
+   "count": 1376
   },
   {
    "id": "Android",
