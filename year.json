@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T18:22:03Z",
+ "generated": "2026-10-28T19:30:50Z",
  "start": "2025-10-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3117,
+  "total": 3118,
   "total_events": 1567,
-  "total_utc": 3117,
+  "total_utc": 3118,
   "stats": [
    {
     "day": "2025-10-28",
@@ -10178,7 +10178,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3117
+    "monthly": 3118
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 67
+    "weekly": 68
    },
    {
     "day": "2026-10-28",
@@ -10989,10 +10989,10 @@
      1,
      1,
      0,
-     0,
+     1,
      0
     ],
-    "daily": 42
+    "daily": 43
    },
    {
     "day": "2026-10-29",
@@ -12945,6 +12945,17 @@
    "daily": {
     "2026-10-23": 1,
     "2026-10-25": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-othaim-mall",
+   "path_id": 114229718,
+   "title": "محطة مترو العثيم مول الربوة: محطة حي جرير (المسار البرتقالي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-28": 1
    }
   },
   {
@@ -15133,16 +15144,6 @@
    "path_id": 114244630,
    "title": "en",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-23": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-othaim-mall",
-   "path_id": 114229718,
-   "title": "محطة مترو العثيم مول الربوة: محطة حي جرير (المسار البرتقالي)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-23": 1
@@ -21281,9 +21282,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1550,
+  "visits": 1551,
   "events_total": 1567,
-  "goatcounter_total_with_events": 3117,
+  "goatcounter_total_with_events": 3118,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21311,7 +21312,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 20
+   "2026-10-28": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23096,7 +23097,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 94,
+   "count": 95,
    "ref_scheme": "c"
   },
   {
@@ -23373,7 +23374,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 704
+   "count": 705
   },
   {
    "id": "(unknown)",
@@ -23435,7 +23436,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2606
+   "count": 2607
   },
   {
    "id": "AE",
@@ -23657,7 +23658,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2510
+   "count": 2511
   },
   {
    "id": "tablet",
@@ -23689,7 +23690,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1402
+   "count": 1403
   },
   {
    "name": "",
@@ -23705,7 +23706,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1388
+   "count": 1389
   },
   {
    "id": "Android",
