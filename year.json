@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T06:19:06Z",
+ "generated": "2026-10-28T07:41:41Z",
  "start": "2025-10-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3083,
-  "total_events": 1549,
-  "total_utc": 3083,
+  "total": 3088,
+  "total_events": 1553,
+  "total_utc": 3088,
   "stats": [
    {
     "day": "2025-10-28",
@@ -10178,7 +10178,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3083
+    "monthly": 3088
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 33
+    "weekly": 38
    },
    {
     "day": "2026-10-28",
@@ -10978,7 +10978,7 @@
      0,
      0,
      2,
-     0,
+     5,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 13
    },
    {
     "day": "2026-10-29",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 709,
+   "count": 710,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11060,7 +11060,7 @@
     "2026-10-25": 10,
     "2026-10-26": 1,
     "2026-10-27": 5,
-    "2026-10-28": 2
+    "2026-10-28": 3
    }
   },
   {
@@ -11068,7 +11068,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 530,
+   "count": 531,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11090,7 +11090,7 @@
     "2026-10-25": 9,
     "2026-10-26": 2,
     "2026-10-27": 4,
-    "2026-10-28": 1
+    "2026-10-28": 2
    }
   },
   {
@@ -12071,6 +12071,19 @@
    }
   },
   {
+   "path": "station/jeddahrd/to",
+   "path_id": 110435923,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-17": 1,
+    "2026-10-26": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "geo/ok/sab",
    "path_id": 110405774,
    "title": "en",
@@ -12534,18 +12547,6 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-15": 1
-   }
-  },
-  {
-   "path": "station/jeddahrd/to",
-   "path_id": 110435923,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-17": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -13748,6 +13749,17 @@
    }
   },
   {
+   "path": "route/khashm/jeddahrd",
+   "path_id": 110467997,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "station/rabi/from",
    "path_id": 110461292,
    "title": "en|name",
@@ -14046,6 +14058,17 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/khashm/from",
+   "path_id": 110300414,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-28": 1
    }
   },
   {
@@ -19732,16 +19755,6 @@
    }
   },
   {
-   "path": "route/khashm/jeddahrd",
-   "path_id": 110467997,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/khashm/sab",
    "path_id": 110467973,
    "title": "en|map|ok",
@@ -21082,16 +21095,6 @@
    }
   },
   {
-   "path": "station/khashm/from",
-   "path_id": 110300414,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
    "path": "view/p_al_othaim_mall_rabwah/p_king_fahd_national_library",
    "path_id": 110299446,
    "title": "en|details",
@@ -21214,9 +21217,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1534,
-  "events_total": 1549,
-  "goatcounter_total_with_events": 3083,
+  "visits": 1535,
+  "events_total": 1553,
+  "goatcounter_total_with_events": 3088,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21244,7 +21247,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 4
+   "2026-10-28": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21267,11 +21270,11 @@
    "2026-10-25": 13,
    "2026-10-26": 3,
    "2026-10-27": 6,
-   "2026-10-28": 2
+   "2026-10-28": 3
   },
-  "visitor_days": 597,
+  "visitor_days": 598,
   "return_rate": 0.112,
-  "routes": 417,
+  "routes": 418,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.66,
@@ -21362,7 +21365,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 530,
+   "new": 531,
    "return": 67
   },
   "top_routes": [
@@ -21479,12 +21482,12 @@
     "count": 13
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
+    "name": "jeddahrd",
     "count": 13
    },
    {
-    "name": "jeddahrd",
-    "count": 12
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 13
    },
    {
     "name": "p_kingdom_centre",
@@ -21516,7 +21519,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 470
+    "count": 471
    },
    {
     "name": "tiktok_ad",
@@ -22262,7 +22265,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 470
+    "count": 471
    },
    {
     "path": "/ar/map",
@@ -22985,7 +22988,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1594,
+   "count": 1599,
    "ref_scheme": "o"
   },
   {
@@ -23287,7 +23290,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2286
+   "count": 2291
   },
   {
    "id": "ara",
@@ -23354,7 +23357,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2579
+   "count": 2584
   },
   {
    "id": "AE",
@@ -23586,7 +23589,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 445
+   "count": 450
   },
   {
    "id": "desktophd",
@@ -23603,7 +23606,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1619
+   "count": 1624
   },
   {
    "id": "Safari",
@@ -23634,7 +23637,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 392
+   "count": 397
   },
   {
    "id": "macOS",
