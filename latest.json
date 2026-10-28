@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T12:18:43Z",
+ "generated": "2026-10-28T13:38:32Z",
  "start": "2026-09-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3105,
+  "total": 3107,
   "total_events": 1565,
-  "total_utc": 3105,
+  "total_utc": 3107,
   "stats": [
    {
     "day": "2026-09-28",
@@ -128,7 +128,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3105
+    "monthly": 3107
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 163
+    "weekly": 165
    },
    {
     "day": "2026-10-27",
@@ -933,8 +933,8 @@
      2,
      2,
      3,
-     10,
-     0,
+     11,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 30
+    "daily": 32
    },
    {
     "day": "2026-10-29",
@@ -1816,6 +1816,18 @@
    }
   },
   {
+   "path": "/districts/al-olaya",
+   "path_id": 114587147,
+   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-24": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "/districts/al-rawabi",
    "path_id": 114062966,
    "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
@@ -2092,17 +2104,6 @@
     "2026-10-24": 1,
     "2026-10-25": 1,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/districts/al-olaya",
-   "path_id": 114587147,
-   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-24": 2,
-    "2026-10-27": 1
    }
   },
   {
@@ -4068,6 +4069,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/west-naseem",
+   "path_id": 116110384,
+   "title": "أقرب محطة مترو لحي النسيم الغربي في الرياض: محطة طريق خريص (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
    }
   },
   {
@@ -11203,9 +11214,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1540,
+  "visits": 1542,
   "events_total": 1565,
-  "goatcounter_total_with_events": 3105,
+  "goatcounter_total_with_events": 3107,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11233,7 +11244,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 10
+   "2026-10-28": 12
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12042,6 +12053,12 @@
     "count": 1
    }
   ],
+  "/districts/al-olaya": [
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   }
+  ],
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -12149,12 +12166,6 @@
   "/ar/destinations/riyadh-care-hospital": [
    {
     "name": "Google",
-    "count": 3
-   }
-  ],
-  "/districts/al-olaya": [
-   {
-    "name": "chatgpt.com",
     "count": 3
    }
   ],
@@ -12588,6 +12599,10 @@
     "count": 4
    },
    {
+    "path": "/districts/al-olaya",
+    "count": 4
+   },
+   {
     "path": "/map",
     "count": 3
    },
@@ -12609,10 +12624,6 @@
    },
    {
     "path": "/districts/qurtubah",
-    "count": 3
-   },
-   {
-    "path": "/districts/al-olaya",
     "count": 3
    },
    {
@@ -12974,7 +12985,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1613,
+   "count": 1614,
    "ref_scheme": "o"
   },
   {
@@ -13004,7 +13015,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 89,
+   "count": 90,
    "ref_scheme": "c"
   },
   {
@@ -13281,7 +13292,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 700
+   "count": 702
   },
   {
    "id": "(unknown)",
@@ -13343,7 +13354,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2599
+   "count": 2601
   },
   {
    "id": "AE",
@@ -13565,7 +13576,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2498
+   "count": 2500
   },
   {
    "id": "tablet",
@@ -13597,7 +13608,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1395
+   "count": 1397
   },
   {
    "name": "",
@@ -13613,7 +13624,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1381
+   "count": 1383
   },
   {
    "id": "Android",
