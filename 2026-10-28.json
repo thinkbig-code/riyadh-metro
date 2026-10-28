@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T11:21:27Z",
+ "generated": "2026-10-28T12:18:43Z",
  "start": "2026-09-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3093,
-  "total_events": 1555,
-  "total_utc": 3093,
+  "total": 3105,
+  "total_events": 1565,
+  "total_utc": 3105,
   "stats": [
    {
     "day": "2026-09-28",
@@ -128,7 +128,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3093
+    "monthly": 3105
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 151
+    "weekly": 163
    },
    {
     "day": "2026-10-27",
@@ -932,8 +932,8 @@
      0,
      2,
      2,
-     1,
-     0,
+     3,
+     10,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 30
    },
    {
     "day": "2026-10-29",
@@ -982,7 +982,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 712,
+   "count": 714,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1010,7 +1010,7 @@
     "2026-10-25": 10,
     "2026-10-26": 1,
     "2026-10-27": 5,
-    "2026-10-28": 5
+    "2026-10-28": 7
    }
   },
   {
@@ -1018,7 +1018,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 532,
+   "count": 534,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1040,7 +1040,7 @@
     "2026-10-25": 9,
     "2026-10-26": 2,
     "2026-10-27": 4,
-    "2026-10-28": 3
+    "2026-10-28": 5
    }
   },
   {
@@ -1606,6 +1606,19 @@
    }
   },
   {
+   "path": "place/p_panorama_mall/to",
+   "path_id": 110418739,
+   "title": "en|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-12": 1,
+    "2026-10-17": 2,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "place/p_souq_al_zal/to",
    "path_id": 110299388,
    "title": "en|name",
@@ -1755,18 +1768,6 @@
     "2026-10-09": 1,
     "2026-10-24": 2,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "place/p_panorama_mall/to",
-   "path_id": 110418739,
-   "title": "en|name",
-   "event": true,
-   "count": 5,
-   "daily": {
-    "2026-10-08": 2,
-    "2026-10-12": 1,
-    "2026-10-17": 2
    }
   },
   {
@@ -2454,6 +2455,17 @@
    }
   },
   {
+   "path": "place/p_riyadh_gallery_mall/to",
+   "path_id": 110786266,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-10": 2,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "route/wizarat/alinma",
    "path_id": 110527795,
    "title": "en|geo|ok",
@@ -2463,6 +2475,30 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-11": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_panorama_mall",
+   "path_id": 110512953,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
+   "path": "station/gosi/from",
+   "path_id": 110512848,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-12": 1,
+    "2026-10-28": 1
    }
   },
   {
@@ -3417,6 +3453,17 @@
    }
   },
   {
+   "path": "view/gosi/p_panorama_mall",
+   "path_id": 111781294,
+   "title": "en|details",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "place/p_al_othaim_mall_rabwah/to",
    "path_id": 111781168,
    "title": "en|name",
@@ -3559,16 +3606,6 @@
    }
   },
   {
-   "path": "place/p_riyadh_gallery_mall/to",
-   "path_id": 110786266,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-10": 2
-   }
-  },
-  {
    "path": "geo/ok/kfl",
    "path_id": 110786259,
    "title": "en",
@@ -3642,28 +3679,6 @@
    "daily": {
     "2026-10-08": 1,
     "2026-10-13": 1
-   }
-  },
-  {
-   "path": "route/gosi/p_panorama_mall",
-   "path_id": 110512953,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-12": 1
-   }
-  },
-  {
-   "path": "station/gosi/from",
-   "path_id": 110512848,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-12": 1
    }
   },
   {
@@ -4053,6 +4068,36 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/gosi/p_riyadh_gallery_mall",
+   "path_id": 116089625,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
+   }
+  },
+  {
+   "path": "recent/gosi/p_riyadh_gallery_mall",
+   "path_id": 116089600,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_riyadh_gallery_mall",
+   "path_id": 116089587,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
    }
   },
   {
@@ -7363,16 +7408,6 @@
    "count": 1,
    "daily": {
     "2026-10-13": 1
-   }
-  },
-  {
-   "path": "view/gosi/p_panorama_mall",
-   "path_id": 111781294,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
    }
   },
   {
@@ -11168,9 +11203,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1538,
-  "events_total": 1555,
-  "goatcounter_total_with_events": 3093,
+  "visits": 1540,
+  "events_total": 1565,
+  "goatcounter_total_with_events": 3105,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11198,7 +11233,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 8
+   "2026-10-28": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11221,11 +11256,11 @@
    "2026-10-25": 13,
    "2026-10-26": 3,
    "2026-10-27": 6,
-   "2026-10-28": 5
+   "2026-10-28": 7
   },
-  "visitor_days": 600,
+  "visitor_days": 602,
   "return_rate": 0.113,
-  "routes": 418,
+  "routes": 420,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.66,
@@ -11237,7 +11272,7 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.054,
+  "failed_search_rate": 0.053,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -11316,7 +11351,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 532,
+   "new": 534,
    "return": 68
   },
   "top_routes": [
@@ -11361,6 +11396,10 @@
     "count": 3
    },
    {
+    "name": "gosi > p_panorama_mall",
+    "count": 3
+   },
+   {
     "name": "hokm > uthman",
     "count": 2
    },
@@ -11374,10 +11413,6 @@
    },
    {
     "name": "uthman > hokm",
-    "count": 2
-   },
-   {
-    "name": "salam > p_panorama_mall",
     "count": 2
    }
   ],
@@ -11470,7 +11505,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 472
+    "count": 473
    },
    {
     "name": "tiktok_ad",
@@ -11489,11 +11524,11 @@
     "count": 6
    },
    {
-    "name": "www.bing.com",
-    "count": 5
+    "name": "chatgpt.com",
+    "count": 6
    },
    {
-    "name": "chatgpt.com",
+    "name": "www.bing.com",
     "count": 5
    },
    {
@@ -12216,7 +12251,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 472
+    "count": 473
    },
    {
     "path": "/ar/map",
@@ -12539,24 +12574,10 @@
     "count": 6
    }
   ],
-  "www.bing.com": [
-   {
-    "path": "/ar/map",
-    "count": 6
-   },
-   {
-    "path": "/",
-    "count": 5
-   },
-   {
-    "path": "/map",
-    "count": 1
-   }
-  ],
   "chatgpt.com": [
    {
     "path": "/",
-    "count": 5
+    "count": 6
    },
    {
     "path": "/districts/al-arid",
@@ -12632,6 +12653,20 @@
    },
    {
     "path": "/districts/al-qadisiyah",
+    "count": 1
+   }
+  ],
+  "www.bing.com": [
+   {
+    "path": "/ar/map",
+    "count": 6
+   },
+   {
+    "path": "/",
+    "count": 5
+   },
+   {
+    "path": "/map",
     "count": 1
    }
   ],
@@ -12939,7 +12974,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1602,
+   "count": 1613,
    "ref_scheme": "o"
   },
   {
@@ -12969,7 +13004,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 88,
+   "count": 89,
    "ref_scheme": "c"
   },
   {
@@ -13241,7 +13276,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2296
+   "count": 2306
   },
   {
    "id": "ara",
@@ -13256,7 +13291,7 @@
   {
    "id": "fra",
    "name": "French",
-   "count": 15
+   "count": 17
   },
   {
    "id": "rus",
@@ -13308,7 +13343,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2587
+   "count": 2599
   },
   {
    "id": "AE",
@@ -13530,7 +13565,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2486
+   "count": 2498
   },
   {
    "id": "tablet",
@@ -13557,7 +13592,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1628
+   "count": 1640
   },
   {
    "id": "Safari",
@@ -13583,7 +13618,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1138
+   "count": 1150
   },
   {
    "id": "Windows",
