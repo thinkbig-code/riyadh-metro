@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T13:39:59Z",
+ "generated": "2026-10-28T14:32:48Z",
  "start": "2025-10-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3107,
+  "total": 3109,
   "total_events": 1565,
-  "total_utc": 3107,
+  "total_utc": 3109,
   "stats": [
    {
     "day": "2025-10-28",
@@ -10178,7 +10178,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3107
+    "monthly": 3109
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 57
+    "weekly": 59
    },
    {
     "day": "2026-10-28",
@@ -10984,15 +10984,15 @@
      2,
      3,
      11,
+     2,
      1,
-     0,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 32
+    "daily": 34
    },
    {
     "day": "2026-10-29",
@@ -11878,6 +11878,19 @@
    }
   },
   {
+   "path": "/ar/districts/ghobairah",
+   "path_id": 114329905,
+   "title": "أقرب محطة مترو لحي غبيرة في الرياض: محطة سكيرينة (داخل الحي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "/districts/al-rawabi",
    "path_id": 114062966,
    "title": "Nearest Metro Station to Al Rawabi, Riyadh: Harun Ar Rashid Road, 1.2 km",
@@ -12175,18 +12188,6 @@
    "daily": {
     "2026-10-24": 1,
     "2026-10-25": 1,
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/districts/ghobairah",
-   "path_id": 114329905,
-   "title": "أقرب محطة مترو لحي غبيرة في الرياض: محطة سكيرينة (داخل الحي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-23": 1,
-    "2026-10-24": 1,
     "2026-10-26": 1
    }
   },
@@ -13200,6 +13201,17 @@
    "daily": {
     "2026-10-18": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-saud-medical-city",
+   "path_id": 112701768,
+   "title": "محطة مترو مدينة الملك سعود الطبية: محطة الجرادية، 21 دقيقة سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-28": 1
    }
   },
   {
@@ -16215,16 +16227,6 @@
    "path": "/districts/al-quds",
    "path_id": 112744968,
    "title": "Nearest Metro Station to Al Quds, Riyadh: Khalid Bin Alwaleed Road (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/king-saud-medical-city",
-   "path_id": 112701768,
-   "title": "محطة مترو مدينة الملك سعود الطبية: محطة الجرادية، 21 دقيقة سيراً",
    "event": false,
    "count": 1,
    "daily": {
@@ -21264,9 +21266,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1542,
+  "visits": 1544,
   "events_total": 1565,
-  "goatcounter_total_with_events": 3107,
+  "goatcounter_total_with_events": 3109,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21294,7 +21296,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 12
+   "2026-10-28": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22109,6 +22111,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/ghobairah": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-rawabi": [
    {
     "name": "(direct or unknown)",
@@ -22227,12 +22239,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/ar/districts/ghobairah": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ],
   "/ar/districts/al-rayan": [
@@ -22541,6 +22547,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/ghobairah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/royal-mall",
     "count": 3
    },
@@ -22550,10 +22560,6 @@
    },
    {
     "path": "/ar/destinations/riyadh-care-hospital",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/ghobairah",
     "count": 3
    },
    {
@@ -22690,6 +22696,10 @@
    },
    {
     "path": "/ar/districts/al-nafel",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/ghobairah",
     "count": 1
    },
    {
@@ -23065,7 +23075,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 90,
+   "count": 92,
    "ref_scheme": "c"
   },
   {
@@ -23337,12 +23347,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2306
+   "count": 2307
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 702
+   "count": 703
   },
   {
    "id": "(unknown)",
@@ -23404,7 +23414,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2601
+   "count": 2603
   },
   {
    "id": "AE",
@@ -23626,7 +23636,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2500
+   "count": 2502
   },
   {
    "id": "tablet",
@@ -23658,7 +23668,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1397
+   "count": 1399
   },
   {
    "name": "",
@@ -23674,7 +23684,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1383
+   "count": 1385
   },
   {
    "id": "Android",
