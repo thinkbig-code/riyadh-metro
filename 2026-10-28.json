@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T00:09:43Z",
+ "generated": "2026-10-28T01:36:55Z",
  "start": "2026-09-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3077,
-  "total_events": 1545,
-  "total_utc": 3077,
+  "total": 3081,
+  "total_events": 1548,
+  "total_utc": 3081,
   "stats": [
    {
     "day": "2026-09-28",
@@ -128,7 +128,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3077
+    "monthly": 3081
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 135
+    "weekly": 139
    },
    {
     "day": "2026-10-27",
@@ -921,7 +921,7 @@
      0,
      0,
      1,
-     0,
+     4,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 6
    },
    {
     "day": "2026-10-29",
@@ -982,7 +982,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 707,
+   "count": 708,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1009,7 +1009,8 @@
     "2026-10-24": 11,
     "2026-10-25": 10,
     "2026-10-26": 1,
-    "2026-10-27": 5
+    "2026-10-27": 5,
+    "2026-10-28": 1
    }
   },
   {
@@ -1017,7 +1018,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 529,
+   "count": 530,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1038,7 +1039,8 @@
     "2026-10-24": 9,
     "2026-10-25": 9,
     "2026-10-26": 2,
-    "2026-10-27": 4
+    "2026-10-27": 4,
+    "2026-10-28": 1
    }
   },
   {
@@ -1292,6 +1294,22 @@
    }
   },
   {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -1393,21 +1411,6 @@
     "2026-10-21": 2,
     "2026-10-24": 1,
     "2026-10-25": 2
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_1_2/to",
-   "path_id": 110315048,
-   "title": "en|name",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 3,
-    "2026-10-12": 1,
-    "2026-10-14": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -4025,6 +4028,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/gosi/p_king_khalid_airport_terminals_1_2",
+   "path_id": 115897171,
+   "title": "en|popular|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
    }
   },
   {
@@ -11150,9 +11163,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1532,
-  "events_total": 1545,
-  "goatcounter_total_with_events": 3077,
+  "visits": 1533,
+  "events_total": 1548,
+  "goatcounter_total_with_events": 3081,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11180,7 +11193,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 2
+   "2026-10-28": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11202,11 +11215,12 @@
    "2026-10-24": 11,
    "2026-10-25": 13,
    "2026-10-26": 3,
-   "2026-10-27": 6
+   "2026-10-27": 6,
+   "2026-10-28": 1
   },
-  "visitor_days": 595,
+  "visitor_days": 596,
   "return_rate": 0.111,
-  "routes": 416,
+  "routes": 417,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.66,
@@ -11297,7 +11311,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 529,
+   "new": 530,
    "return": 66
   },
   "top_routes": [
@@ -11414,11 +11428,11 @@
     "count": 13
    },
    {
-    "name": "jeddahrd",
-    "count": 12
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 13
    },
    {
-    "name": "p_king_khalid_airport_terminals_1_2",
+    "name": "jeddahrd",
     "count": 12
    },
    {
@@ -11451,7 +11465,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 468
+    "count": 469
    },
    {
     "name": "tiktok_ad",
@@ -12197,7 +12211,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 468
+    "count": 469
    },
    {
     "path": "/ar/map",
@@ -12920,7 +12934,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1588,
+   "count": 1592,
    "ref_scheme": "o"
   },
   {
@@ -13222,7 +13236,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2280
+   "count": 2284
   },
   {
    "id": "ara",
@@ -13289,7 +13303,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2573
+   "count": 2577
   },
   {
    "id": "AE",
@@ -13511,7 +13525,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2479
+   "count": 2483
   },
   {
    "id": "tablet",
@@ -13543,7 +13557,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1390
+   "count": 1394
   },
   {
    "name": "",
@@ -13559,7 +13573,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1376
+   "count": 1380
   },
   {
    "id": "Android",
