@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T15:31:32Z",
+ "generated": "2026-10-28T16:31:16Z",
  "start": "2026-09-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3116,
+  "total": 3117,
   "total_events": 1567,
-  "total_utc": 3116,
+  "total_utc": 3117,
   "stats": [
    {
     "day": "2026-09-28",
@@ -128,7 +128,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3116
+    "monthly": 3117
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 108,
-    "weekly": 174
+    "weekly": 175
    },
    {
     "day": "2026-10-27",
@@ -937,12 +937,12 @@
      2,
      7,
      1,
-     0,
+     1,
      0,
      0,
      0
     ],
-    "daily": 41
+    "daily": 42
    },
    {
     "day": "2026-10-29",
@@ -2168,6 +2168,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-falah",
+   "path_id": 113320014,
+   "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "/districts/al-qadisiyah",
    "path_id": 113291536,
    "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
@@ -3025,17 +3037,6 @@
    "daily": {
     "2026-10-21": 1,
     "2026-10-28": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-falah",
-   "path_id": 113320014,
-   "title": "أقرب محطة مترو لحي الفلاح في الرياض: محطة سابك، 1.1 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -11230,9 +11231,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1549,
+  "visits": 1550,
   "events_total": 1567,
-  "goatcounter_total_with_events": 3116,
+  "goatcounter_total_with_events": 3117,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11260,7 +11261,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 19
+   "2026-10-28": 20
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12225,6 +12226,20 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-falah": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-qadisiyah": [
    {
     "name": "Google",
@@ -12264,16 +12279,6 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/stations/jeddah-road": [
-   {
-    "name": "(direct or unknown)",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/lines/orange-line",
     "count": 1
    }
   ]
@@ -12321,10 +12326,6 @@
     "count": 2
    },
    {
-    "path": "/ar/stations/jeddah-road",
-    "count": 2
-   },
-   {
     "path": "/districts/al-arid",
     "count": 1
    },
@@ -12358,6 +12359,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-falah",
     "count": 1
    },
    {
@@ -12597,6 +12602,10 @@
    {
     "path": "/districts/qurtubah",
     "count": 1
+   },
+   {
+    "path": "/ar/districts/al-falah",
+    "count": 1
    }
   ],
   "Yahoo": [
@@ -12684,6 +12693,10 @@
    },
    {
     "path": "/ar/destinations/sahara-mall",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-falah",
     "count": 1
    },
    {
@@ -12998,12 +13011,6 @@
     "path": "/ur.html",
     "count": 2
    }
-  ],
-  "riyadhmetro.fyi/ar/lines/orange-line": [
-   {
-    "path": "/ar/stations/jeddah-road",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
@@ -13039,7 +13046,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 93,
+   "count": 94,
    "ref_scheme": "c"
   },
   {
@@ -13311,7 +13318,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2313
+   "count": 2314
   },
   {
    "id": "ara",
@@ -13378,7 +13385,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2605
+   "count": 2606
   },
   {
    "id": "AE",
@@ -13600,7 +13607,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2509
+   "count": 2510
   },
   {
    "id": "tablet",
@@ -13632,7 +13639,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1401
+   "count": 1402
   },
   {
    "name": "",
@@ -13648,7 +13655,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1387
+   "count": 1388
   },
   {
    "id": "Android",
