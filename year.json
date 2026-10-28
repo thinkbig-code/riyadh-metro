@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T19:30:50Z",
+ "generated": "2026-10-28T20:22:32Z",
  "start": "2025-10-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3118,
+  "total": 3119,
   "total_events": 1567,
-  "total_utc": 3118,
+  "total_utc": 3119,
   "stats": [
    {
     "day": "2025-10-28",
@@ -10178,7 +10178,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3118
+    "monthly": 3119
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 68
+    "weekly": 69
    },
    {
     "day": "2026-10-28",
@@ -10997,7 +10997,7 @@
    {
     "day": "2026-10-29",
     "hourly": [
-     0,
+     1,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -14157,6 +14157,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/skirinah",
+   "path_id": 116227052,
+   "title": "محطة سكيرينة، مترو الرياض: المسار الأزرق (رقم 20)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -21282,9 +21292,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1551,
+  "visits": 1552,
   "events_total": 1567,
-  "goatcounter_total_with_events": 3118,
+  "goatcounter_total_with_events": 3119,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21312,7 +21322,8 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 21
+   "2026-10-28": 21,
+   "2026-10-29": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23067,7 +23078,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1615,
+   "count": 1616,
    "ref_scheme": "o"
   },
   {
@@ -23374,7 +23385,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 705
+   "count": 706
   },
   {
    "id": "(unknown)",
@@ -23436,7 +23447,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2607
+   "count": 2608
   },
   {
    "id": "AE",
@@ -23658,7 +23669,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2511
+   "count": 2512
   },
   {
    "id": "tablet",
@@ -23685,7 +23696,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1645
+   "count": 1646
   },
   {
    "id": "Safari",
@@ -23711,7 +23722,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1155
+   "count": 1156
   },
   {
    "id": "Windows",
