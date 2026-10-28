@@ -1,44 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-27T23:12:23Z",
- "start": "2026-09-27",
- "end": "2026-10-28",
+ "generated": "2026-10-28T00:09:43Z",
+ "start": "2026-09-28",
+ "end": "2026-10-29",
  "total": {
-  "total": 3076,
+  "total": 3077,
   "total_events": 1545,
-  "total_utc": 3076,
+  "total_utc": 3077,
   "stats": [
-   {
-    "day": "2026-09-27",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0,
-    "weekly": 14
-   },
    {
     "day": "2026-09-28",
     "hourly": [
@@ -67,7 +36,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 23
    },
    {
     "day": "2026-09-29",
@@ -158,7 +128,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3076
+    "monthly": 3077
    },
    {
     "day": "2026-10-02",
@@ -248,8 +218,7 @@
      0,
      0
     ],
-    "daily": 9,
-    "weekly": 1051
+    "daily": 9
    },
    {
     "day": "2026-10-05",
@@ -279,7 +248,8 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 12,
+    "weekly": 1201
    },
    {
     "day": "2026-10-06",
@@ -459,8 +429,7 @@
      1,
      1
     ],
-    "daily": 159,
-    "weekly": 1051
+    "daily": 159
    },
    {
     "day": "2026-10-12",
@@ -490,7 +459,8 @@
      12,
      1
     ],
-    "daily": 128
+    "daily": 128,
+    "weekly": 945
    },
    {
     "day": "2026-10-13",
@@ -670,8 +640,7 @@
      2,
      2
     ],
-    "daily": 53,
-    "weekly": 716
+    "daily": 53
    },
    {
     "day": "2026-10-19",
@@ -701,7 +670,8 @@
      6,
      0
     ],
-    "daily": 84
+    "daily": 84,
+    "weekly": 773
    },
    {
     "day": "2026-10-20",
@@ -881,8 +851,7 @@
      3,
      3
     ],
-    "daily": 110,
-    "weekly": 244
+    "daily": 110
    },
    {
     "day": "2026-10-26",
@@ -912,7 +881,8 @@
      4,
      0
     ],
-    "daily": 108
+    "daily": 108,
+    "weekly": 135
    },
    {
     "day": "2026-10-27",
@@ -950,6 +920,36 @@
      1,
      0,
      0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 2
+   },
+   {
+    "day": "2026-10-29",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -972,7 +972,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 0
    }
   ]
  },
@@ -1322,6 +1322,22 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-26": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rawdah",
    "path_id": 112412104,
    "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
@@ -1405,21 +1421,6 @@
     "2026-10-08": 3,
     "2026-10-09": 2,
     "2026-10-18": 1
-   }
-  },
-  {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1,
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-26": 2,
-    "2026-10-27": 1
    }
   },
   {
@@ -11149,9 +11150,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1531,
+  "visits": 1532,
   "events_total": 1545,
-  "goatcounter_total_with_events": 3076,
+  "goatcounter_total_with_events": 3077,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11179,7 +11180,7 @@
    "2026-10-25": 77,
    "2026-10-26": 91,
    "2026-10-27": 14,
-   "2026-10-28": 1
+   "2026-10-28": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11715,6 +11716,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   }
+  ],
   "/ar/districts/al-rawdah": [
    {
     "name": "Google",
@@ -11749,16 +11760,6 @@
    {
     "name": "riyadhmetro.fyi/ar/districts",
     "count": 1
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 2
    }
   ],
   "/stations": [
@@ -12551,6 +12552,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/aster-sanad-hospital",
     "count": 3
    },
@@ -12569,10 +12574,6 @@
    {
     "path": "/districts/al-olaya",
     "count": 3
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
-    "count": 2
    },
    {
     "path": "/districts/al-taawun",
@@ -12949,7 +12950,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 87,
+   "count": 88,
    "ref_scheme": "c"
   },
   {
@@ -13221,7 +13222,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2279
+   "count": 2280
   },
   {
    "id": "ara",
@@ -13288,7 +13289,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2572
+   "count": 2573
   },
   {
    "id": "AE",
@@ -13510,7 +13511,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2478
+   "count": 2479
   },
   {
    "id": "tablet",
@@ -13537,7 +13538,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1616
+   "count": 1617
   },
   {
    "id": "Safari",
@@ -13563,7 +13564,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1135
+   "count": 1136
   },
   {
    "id": "Windows",
