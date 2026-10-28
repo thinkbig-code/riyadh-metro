@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-28T21:19:52Z",
+ "generated": "2026-10-28T23:16:45Z",
  "start": "2025-10-28",
  "end": "2026-10-29",
  "total": {
-  "total": 3121,
-  "total_events": 1567,
-  "total_utc": 3121,
+  "total": 3126,
+  "total_events": 1569,
+  "total_utc": 3126,
   "stats": [
    {
     "day": "2025-10-28",
@@ -10178,7 +10178,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3121
+    "monthly": 3126
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 71
+    "weekly": 76
    },
    {
     "day": "2026-10-28",
@@ -10998,8 +10998,8 @@
     "day": "2026-10-29",
     "hourly": [
      3,
-     0,
-     0,
+     3,
+     2,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 3
+    "daily": 8
    }
   ]
  },
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 715,
+   "count": 717,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11060,7 +11060,8 @@
     "2026-10-25": 10,
     "2026-10-26": 1,
     "2026-10-27": 5,
-    "2026-10-28": 8
+    "2026-10-28": 8,
+    "2026-10-29": 2
    }
   },
   {
@@ -11068,7 +11069,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 534,
+   "count": 536,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11090,7 +11091,8 @@
     "2026-10-25": 9,
     "2026-10-26": 2,
     "2026-10-27": 4,
-    "2026-10-28": 5
+    "2026-10-28": 5,
+    "2026-10-29": 2
    }
   },
   {
@@ -14159,6 +14161,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-malqa",
+   "path_id": 116254618,
+   "title": "Nearest Metro Station to Al Malqa, Riyadh: Dr Sulaiman Al Habib, 3.2 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -21294,9 +21306,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1554,
-  "events_total": 1567,
-  "goatcounter_total_with_events": 3121,
+  "visits": 1557,
+  "events_total": 1569,
+  "goatcounter_total_with_events": 3126,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21325,7 +21337,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 3
+   "2026-10-29": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21348,14 +21360,15 @@
    "2026-10-25": 13,
    "2026-10-26": 3,
    "2026-10-27": 6,
-   "2026-10-28": 8
+   "2026-10-28": 8,
+   "2026-10-29": 2
   },
-  "visitor_days": 603,
+  "visitor_days": 605,
   "return_rate": 0.114,
   "routes": 421,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
-  "routes_per_visitor_day": 0.66,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.031,
   "shares": {
    "whatsapp": 4,
@@ -21443,7 +21456,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 534,
+   "new": 536,
    "return": 69
   },
   "top_routes": [
@@ -21597,7 +21610,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 473
+    "count": 475
    },
    {
     "name": "tiktok_ad",
@@ -22355,7 +22368,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 473
+    "count": 475
    },
    {
     "path": "/ar/map",
@@ -23090,7 +23103,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1616,
+   "count": 1620,
    "ref_scheme": "o"
   },
   {
@@ -23120,7 +23133,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 95,
+   "count": 96,
    "ref_scheme": "c"
   },
   {
@@ -23392,7 +23405,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2316
+   "count": 2320
   },
   {
    "id": "ara",
@@ -23407,7 +23420,7 @@
   {
    "id": "fra",
    "name": "French",
-   "count": 17
+   "count": 18
   },
   {
    "id": "rus",
@@ -23469,7 +23482,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 89
+   "count": 93
   },
   {
    "id": "GB",
@@ -23527,6 +23540,11 @@
    "count": 9
   },
   {
+   "id": "IT",
+   "name": "Italy",
+   "count": 9
+  },
+  {
    "id": "JO",
    "name": "Hashemite Kingdom of Jordan",
    "count": 9
@@ -23535,11 +23553,6 @@
    "id": "PL",
    "name": "Poland",
    "count": 9
-  },
-  {
-   "id": "IT",
-   "name": "Italy",
-   "count": 8
   },
   {
    "id": "IE",
@@ -23681,7 +23694,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2512
+   "count": 2513
   },
   {
    "id": "tablet",
@@ -23691,7 +23704,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 456
+   "count": 460
   },
   {
    "id": "desktophd",
@@ -23708,12 +23721,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1648
+   "count": 1650
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1403
+   "count": 1404
   },
   {
    "name": "",
@@ -23722,14 +23735,14 @@
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 21
+   "count": 23
   }
  ],
  "systems": [
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1389
+   "count": 1390
   },
   {
    "id": "Android",
@@ -23744,12 +23757,12 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 128
+   "count": 130
   },
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 43
+   "count": 45
   },
   {
    "id": "Chrome OS",
