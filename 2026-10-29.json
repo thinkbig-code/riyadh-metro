@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T09:30:33Z",
+ "generated": "2026-10-29T10:26:56Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3140,
+  "total": 3141,
   "total_events": 1574,
-  "total_utc": 3140,
+  "total_utc": 3141,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3140
+    "monthly": 3141
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 90
+    "weekly": 91
    },
    {
     "day": "2026-10-28",
@@ -930,7 +930,7 @@
      6,
      0,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 23
    },
    {
     "day": "2026-10-30",
@@ -1945,6 +1945,18 @@
    }
   },
   {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-24": 2,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "route/kfl/yarmuk",
    "path_id": 112365147,
    "title": "en|map|ok",
@@ -2197,17 +2209,6 @@
     "2026-10-20": 1,
     "2026-10-22": 1,
     "2026-10-28": 1
-   }
-  },
-  {
-   "path": "/districts/al-qadisiyah",
-   "path_id": 113291536,
-   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-24": 2
    }
   },
   {
@@ -11300,9 +11301,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1566,
+  "visits": 1567,
   "events_total": 1574,
-  "goatcounter_total_with_events": 3140,
+  "goatcounter_total_with_events": 3141,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11331,7 +11332,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 15
+   "2026-10-29": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12219,6 +12220,16 @@
     "count": 4
    }
   ],
+  "/districts/al-qadisiyah": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/stations/al-aziziah": [
    {
     "name": "Google",
@@ -12319,16 +12330,6 @@
    {
     "name": "Google",
     "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/districts/al-qadisiyah": [
-   {
-    "name": "Google",
-    "count": 2
    },
    {
     "name": "chatgpt.com",
@@ -12631,6 +12632,10 @@
     "count": 2
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-malqa",
     "count": 2
    },
@@ -12648,10 +12653,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-qadisiyah",
     "count": 2
    },
    {
@@ -12739,6 +12740,10 @@
     "count": 2
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
@@ -12768,10 +12773,6 @@
    },
    {
     "path": "/ar/districts/al-falah",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-qadisiyah",
     "count": 1
    }
   ],
@@ -13127,7 +13128,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 100,
+   "count": 101,
    "ref_scheme": "c"
   },
   {
@@ -13399,7 +13400,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2332
+   "count": 2333
   },
   {
    "id": "ara",
@@ -13466,7 +13467,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2619
+   "count": 2620
   },
   {
    "id": "AE",
@@ -13688,7 +13689,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2523
+   "count": 2524
   },
   {
    "id": "tablet",
@@ -13720,7 +13721,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1409
+   "count": 1410
   },
   {
    "name": "",
@@ -13736,7 +13737,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1395
+   "count": 1396
   },
   {
    "id": "Android",
