@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T08:28:30Z",
+ "generated": "2026-10-29T09:30:33Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3139,
+  "total": 3140,
   "total_events": 1574,
-  "total_utc": 3139,
+  "total_utc": 3140,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3139
+    "monthly": 3140
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 89
+    "weekly": 90
    },
    {
     "day": "2026-10-28",
@@ -929,7 +929,7 @@
      0,
      6,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 21
+    "daily": 22
    },
    {
     "day": "2026-10-30",
@@ -4115,6 +4115,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-oud",
+   "path_id": 116380962,
+   "title": "Nearest Metro Station to Al Oud, Riyadh: Al Margab (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -11290,9 +11300,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1565,
+  "visits": 1566,
   "events_total": 1574,
-  "goatcounter_total_with_events": 3139,
+  "goatcounter_total_with_events": 3140,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11321,7 +11331,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 14
+   "2026-10-29": 15
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13087,7 +13097,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1624,
+   "count": 1625,
    "ref_scheme": "o"
   },
   {
@@ -13389,7 +13399,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2331
+   "count": 2332
   },
   {
    "id": "ara",
@@ -13466,7 +13476,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 93
+   "count": 94
   },
   {
    "id": "GB",
@@ -13688,7 +13698,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 463
+   "count": 464
   },
   {
    "id": "desktophd",
@@ -13705,7 +13715,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1658
+   "count": 1659
   },
   {
    "id": "Safari",
@@ -13736,7 +13746,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 402
+   "count": 403
   },
   {
    "id": "macOS",
