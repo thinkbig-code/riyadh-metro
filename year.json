@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T12:20:45Z",
+ "generated": "2026-10-29T13:42:47Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3143,
-  "total_events": 1574,
-  "total_utc": 3143,
+  "total": 3148,
+  "total_events": 1576,
+  "total_utc": 3148,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3143
+    "monthly": 3148
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 68
+    "weekly": 73
    },
    {
     "day": "2026-10-29",
@@ -10983,8 +10983,8 @@
      1,
      0,
      2,
-     0,
-     0,
+     2,
+     3,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 25
+    "daily": 30
    },
    {
     "day": "2026-10-30",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 720,
+   "count": 722,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11061,7 +11061,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 5
+    "2026-10-29": 7
    }
   },
   {
@@ -11069,7 +11069,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 538,
+   "count": 540,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11092,7 +11092,7 @@
     "2026-10-26": 2,
     "2026-10-27": 4,
     "2026-10-28": 5,
-    "2026-10-29": 4
+    "2026-10-29": 6
    }
   },
   {
@@ -11301,7 +11301,7 @@
    "path_id": 112102406,
    "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
    "event": false,
-   "count": 10,
+   "count": 11,
    "daily": {
     "2026-10-15": 1,
     "2026-10-18": 2,
@@ -11309,7 +11309,7 @@
     "2026-10-23": 1,
     "2026-10-24": 1,
     "2026-10-25": 1,
-    "2026-10-29": 1
+    "2026-10-29": 2
    }
   },
   {
@@ -21352,9 +21352,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1569,
-  "events_total": 1574,
-  "goatcounter_total_with_events": 3143,
+  "visits": 1572,
+  "events_total": 1576,
+  "goatcounter_total_with_events": 3148,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21383,7 +21383,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 18
+   "2026-10-29": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21407,9 +21407,9 @@
    "2026-10-26": 3,
    "2026-10-27": 6,
    "2026-10-28": 8,
-   "2026-10-29": 5
+   "2026-10-29": 7
   },
-  "visitor_days": 608,
+  "visitor_days": 610,
   "return_rate": 0.115,
   "routes": 422,
   "routes_not_found": 0,
@@ -21502,7 +21502,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 538,
+   "new": 540,
    "return": 70
   },
   "top_routes": [
@@ -21656,7 +21656,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 477
+    "count": 478
    },
    {
     "name": "tiktok_ad",
@@ -21664,7 +21664,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 74
+    "count": 75
    },
    {
     "name": "Google",
@@ -21894,7 +21894,7 @@
   "/districts/al-arid": [
    {
     "name": "chatgpt.com",
-    "count": 5
+    "count": 6
    },
    {
     "name": "Google",
@@ -22418,7 +22418,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 477
+    "count": 478
    },
    {
     "path": "/ar/map",
@@ -22510,7 +22510,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 74
+    "count": 75
    }
   ],
   "Google": [
@@ -22748,7 +22748,7 @@
    },
    {
     "path": "/districts/al-arid",
-    "count": 5
+    "count": 6
    },
    {
     "path": "/districts/ar-rabwah",
@@ -23157,7 +23157,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1626,
+   "count": 1628,
    "ref_scheme": "o"
   },
   {
@@ -23169,7 +23169,7 @@
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 266,
+   "count": 268,
    "ref_scheme": "o"
   },
   {
@@ -23187,7 +23187,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 102,
+   "count": 103,
    "ref_scheme": "c"
   },
   {
@@ -23459,12 +23459,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2333
+   "count": 2337
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 710
+   "count": 711
   },
   {
    "id": "(unknown)",
@@ -23526,7 +23526,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2622
+   "count": 2627
   },
   {
    "id": "AE",
@@ -23748,7 +23748,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2526
+   "count": 2531
   },
   {
    "id": "tablet",
@@ -23775,12 +23775,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1659
+   "count": 1661
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1412
+   "count": 1415
   },
   {
    "name": "",
@@ -23796,12 +23796,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1398
+   "count": 1401
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1161
+   "count": 1163
   },
   {
    "id": "Windows",
