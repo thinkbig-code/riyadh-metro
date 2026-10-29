@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T21:21:24Z",
+ "generated": "2026-10-29T23:18:06Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3203,
-  "total_events": 1601,
-  "total_utc": 3203,
+  "total": 3211,
+  "total_events": 1604,
+  "total_utc": 3211,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3203
+    "monthly": 3211
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 128
+    "weekly": 136
    },
    {
     "day": "2026-10-29",
@@ -10998,8 +10998,8 @@
     "day": "2026-10-30",
     "hourly": [
      4,
-     0,
-     0,
+     5,
+     3,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 12
    }
   ]
  },
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 729,
+   "count": 731,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11061,7 +11061,8 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 14
+    "2026-10-29": 14,
+    "2026-10-30": 2
    }
   },
   {
@@ -11069,7 +11070,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 544,
+   "count": 546,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11092,7 +11093,8 @@
     "2026-10-26": 2,
     "2026-10-27": 4,
     "2026-10-28": 5,
-    "2026-10-29": 10
+    "2026-10-29": 10,
+    "2026-10-30": 2
    }
   },
   {
@@ -11128,7 +11130,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 71,
+   "count": 72,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11150,7 +11152,8 @@
     "2026-10-26": 1,
     "2026-10-27": 2,
     "2026-10-28": 3,
-    "2026-10-29": 2
+    "2026-10-29": 2,
+    "2026-10-30": 1
    }
   },
   {
@@ -11504,6 +11507,36 @@
    }
   },
   {
+   "path": "/ar/lines/orange-line",
+   "path_id": 112221279,
+   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-22": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 2,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -11538,34 +11571,6 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
-   }
-  },
-  {
-   "path": "/ar/lines/orange-line",
-   "path_id": 112221279,
-   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 2,
-    "2026-10-22": 1,
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/aster-sanad-hospital",
-   "path_id": 112080374,
-   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1,
-    "2026-10-24": 1,
-    "2026-10-25": 2,
-    "2026-10-26": 1
    }
   },
   {
@@ -14256,6 +14261,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-shuhada-park",
+   "path_id": 116582086,
+   "title": "محطة مترو منتزه الشهداء: محطة غرناطة (المسار البنفسجي)، 23 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21591,9 +21606,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1602,
-  "events_total": 1601,
-  "goatcounter_total_with_events": 3203,
+  "visits": 1607,
+  "events_total": 1604,
+  "goatcounter_total_with_events": 3211,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21623,7 +21638,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 4
+   "2026-10-30": 9
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21647,10 +21662,11 @@
    "2026-10-26": 3,
    "2026-10-27": 6,
    "2026-10-28": 8,
-   "2026-10-29": 12
+   "2026-10-29": 12,
+   "2026-10-30": 3
   },
-  "visitor_days": 615,
-  "return_rate": 0.115,
+  "visitor_days": 618,
+  "return_rate": 0.117,
   "routes": 430,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
@@ -21742,8 +21758,8 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 544,
-   "return": 71
+   "new": 546,
+   "return": 72
   },
   "top_routes": [
    {
@@ -21896,7 +21912,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 480
+    "count": 482
    },
    {
     "name": "tiktok_ad",
@@ -22213,16 +22229,10 @@
     "count": 8
    }
   ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 7
-   }
-  ],
   "/ar/lines/orange-line": [
    {
     "name": "Google",
-    "count": 2
+    "count": 3
    },
    {
     "name": "riyadhmetro.fyi/ar/stations/sultanah",
@@ -22240,11 +22250,17 @@
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
-    "count": 3
+    "count": 4
    },
    {
     "name": "chatgpt.com",
     "count": 3
+   }
+  ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 7
    }
   ],
   "/ar/nearest-station": [
@@ -22670,7 +22686,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 480
+    "count": 482
    },
    {
     "path": "/ar/map",
@@ -22859,6 +22875,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/ghirnatah",
     "count": 4
    },
@@ -22883,7 +22903,7 @@
     "count": 4
    },
    {
-    "path": "/ar/destinations/aster-sanad-hospital",
+    "path": "/ar/lines/orange-line",
     "count": 3
    },
    {
@@ -22917,10 +22937,6 @@
    {
     "path": "/ar/destinations/riyadh-care-hospital",
     "count": 3
-   },
-   {
-    "path": "/ar/lines/orange-line",
-    "count": 2
    },
    {
     "path": "/ar/nearest-station",
@@ -23421,13 +23437,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1653,
+   "count": 1656,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 628,
+   "count": 631,
    "ref_scheme": "g"
   },
   {
@@ -23723,12 +23739,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2387
+   "count": 2390
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 718
+   "count": 721
   },
   {
    "id": "(unknown)",
@@ -23790,7 +23806,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2680
+   "count": 2684
   },
   {
    "id": "AE",
@@ -23878,6 +23894,11 @@
    "count": 9
   },
   {
+   "id": "AU",
+   "name": "Australia",
+   "count": 8
+  },
+  {
    "id": "IE",
    "name": "Ireland",
    "count": 7
@@ -23886,11 +23907,6 @@
    "id": "SE",
    "name": "Sweden",
    "count": 7
-  },
-  {
-   "id": "AU",
-   "name": "Australia",
-   "count": 6
   },
   {
    "id": "MX",
@@ -24012,7 +24028,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2575
+   "count": 2579
   },
   {
    "id": "tablet",
@@ -24022,7 +24038,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 474
+   "count": 476
   },
   {
    "id": "desktophd",
@@ -24039,12 +24055,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1700
+   "count": 1703
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1431
+   "count": 1434
   },
   {
    "name": "",
@@ -24060,17 +24076,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1419
+   "count": 1422
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1190
+   "count": 1191
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 415
+   "count": 417
   },
   {
    "id": "macOS",
