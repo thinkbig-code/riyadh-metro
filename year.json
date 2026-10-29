@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T06:22:15Z",
+ "generated": "2026-10-29T07:44:00Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3133,
-  "total_events": 1571,
-  "total_utc": 3133,
+  "total": 3139,
+  "total_events": 1574,
+  "total_utc": 3139,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3133
+    "monthly": 3139
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 58
+    "weekly": 64
    },
    {
     "day": "2026-10-29",
@@ -10977,7 +10977,7 @@
      0,
      1,
      0,
-     0,
+     6,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 21
    },
    {
     "day": "2026-10-30",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 719,
+   "count": 720,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11061,7 +11061,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 4
+    "2026-10-29": 5
    }
   },
   {
@@ -11128,7 +11128,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 69,
+   "count": 70,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11149,7 +11149,8 @@
     "2026-10-25": 4,
     "2026-10-26": 1,
     "2026-10-27": 2,
-    "2026-10-28": 3
+    "2026-10-28": 3,
+    "2026-10-29": 1
    }
   },
   {
@@ -11296,6 +11297,22 @@
    }
   },
   {
+   "path": "/districts/al-arid",
+   "path_id": 112102406,
+   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-18": 2,
+    "2026-10-22": 3,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11318,21 +11335,6 @@
     "2026-10-08": 7,
     "2026-10-09": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/districts/al-arid",
-   "path_id": 112102406,
-   "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-18": 2,
-    "2026-10-22": 3,
-    "2026-10-23": 1,
-    "2026-10-24": 1,
-    "2026-10-25": 1
    }
   },
   {
@@ -11933,6 +11935,19 @@
    }
   },
   {
+   "path": "/ar/destinations/sahara-mall",
+   "path_id": 114050969,
+   "title": "محطة مترو صحارى مول وحياة مول: محطة طريق الملك عبدالعزيز، 6 دقائق سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-25": 1,
+    "2026-10-26": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "view/andalus/murabba",
    "path_id": 114026260,
    "title": "en|opt_3",
@@ -12220,18 +12235,6 @@
     "2026-10-22": 1,
     "2026-10-23": 1,
     "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/sahara-mall",
-   "path_id": 114050969,
-   "title": "محطة مترو صحارى مول وحياة مول: محطة طريق الملك عبدالعزيز، 6 دقائق سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-25": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -14162,6 +14165,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/jarir/museum",
+   "path_id": 116355503,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "route/jarir/museum",
+   "path_id": 116355466,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -21317,9 +21340,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1562,
-  "events_total": 1571,
-  "goatcounter_total_with_events": 3133,
+  "visits": 1565,
+  "events_total": 1574,
+  "goatcounter_total_with_events": 3139,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21348,7 +21371,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 11
+   "2026-10-29": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21372,11 +21395,11 @@
    "2026-10-26": 3,
    "2026-10-27": 6,
    "2026-10-28": 8,
-   "2026-10-29": 4
+   "2026-10-29": 5
   },
-  "visitor_days": 607,
-  "return_rate": 0.114,
-  "routes": 421,
+  "visitor_days": 608,
+  "return_rate": 0.115,
+  "routes": 422,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.65,
@@ -21468,7 +21491,7 @@
   },
   "visitors_new_return": {
    "new": 538,
-   "return": 69
+   "return": 70
   },
   "top_routes": [
    {
@@ -21652,11 +21675,11 @@
     "count": 4
    },
    {
-    "name": "t.co",
-    "count": 3
+    "name": "www.facebook.com",
+    "count": 4
    },
    {
-    "name": "www.facebook.com",
+    "name": "t.co",
     "count": 3
    },
    {
@@ -22200,6 +22223,16 @@
     "count": 4
    }
   ],
+  "/ar/destinations/sahara-mall": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/destinations/royal-mall": [
    {
     "name": "Google",
@@ -22309,16 +22342,6 @@
    }
   ],
   "/ar/districts/al-rayan": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/sahara-mall": [
    {
     "name": "Google",
     "count": 2
@@ -22644,6 +22667,10 @@
     "count": 2
    },
    {
+    "path": "/ar/destinations/sahara-mall",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-malqa",
     "count": 2
    },
@@ -22661,10 +22688,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/sahara-mall",
     "count": 2
    },
    {
@@ -22752,6 +22775,10 @@
     "count": 2
    },
    {
+    "path": "/ar/destinations/sahara-mall",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
@@ -22777,10 +22804,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/sahara-mall",
     "count": 1
    },
    {
@@ -22813,7 +22836,7 @@
    },
    {
     "path": "/",
-    "count": 3
+    "count": 4
    },
    {
     "path": "/ur.html",
@@ -23144,7 +23167,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 99,
+   "count": 100,
    "ref_scheme": "c"
   },
   {
@@ -23160,15 +23183,15 @@
    "ref_scheme": "g"
   },
   {
-   "id": "www.bing.com",
-   "name": "www.bing.com",
-   "count": 21,
+   "id": "www.facebook.com",
+   "name": "www.facebook.com",
+   "count": 24,
    "ref_scheme": "h"
   },
   {
-   "id": "www.facebook.com",
-   "name": "www.facebook.com",
-   "count": 20,
+   "id": "www.bing.com",
+   "name": "www.bing.com",
+   "count": 21,
    "ref_scheme": "h"
   },
   {
@@ -23416,7 +23439,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2326
+   "count": 2331
   },
   {
    "id": "ara",
@@ -23483,7 +23506,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2614
+   "count": 2619
   },
   {
    "id": "AE",
@@ -23705,7 +23728,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2519
+   "count": 2523
   },
   {
    "id": "tablet",
@@ -23715,7 +23738,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 462
+   "count": 463
   },
   {
    "id": "desktophd",
@@ -23732,7 +23755,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1653
+   "count": 1658
   },
   {
    "id": "Safari",
@@ -23758,12 +23781,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1157
+   "count": 1161
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 401
+   "count": 402
   },
   {
    "id": "macOS",
