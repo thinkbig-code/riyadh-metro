@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T00:14:06Z",
+ "generated": "2026-10-29T01:39:46Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3126,
+  "total": 3128,
   "total_events": 1569,
-  "total_utc": 3126,
+  "total_utc": 3128,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3126
+    "monthly": 3128
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 51
+    "weekly": 53
    },
    {
     "day": "2026-10-29",
@@ -10971,7 +10971,7 @@
      3,
      2,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 10
    },
    {
     "day": "2026-10-30",
@@ -11100,7 +11100,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 140,
+   "count": 141,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11120,7 +11120,7 @@
     "2026-10-25": 9,
     "2026-10-26": 20,
     "2026-10-28": 1,
-    "2026-10-29": 1
+    "2026-10-29": 2
    }
   },
   {
@@ -11723,6 +11723,20 @@
    }
   },
   {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/districts",
    "path_id": 111998625,
    "title": "أقرب محطة مترو لكل أحياء الرياض",
@@ -11973,19 +11987,6 @@
    "count": 4,
    "daily": {
     "2026-10-16": 4
-   }
-  },
-  {
-   "path": "/ar/destinations/wadi-namar-park",
-   "path_id": 112323556,
-   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -21306,9 +21307,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1557,
+  "visits": 1559,
   "events_total": 1569,
-  "goatcounter_total_with_events": 3126,
+  "goatcounter_total_with_events": 3128,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21337,7 +21338,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 6
+   "2026-10-29": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21692,7 +21693,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 112
+    "count": 113
    },
    {
     "name": "(direct or unknown)",
@@ -22077,6 +22078,16 @@
     "count": 1
    }
   ],
+  "/ar/destinations/wadi-namar-park": [
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts": [
    {
     "name": "Google",
@@ -22203,16 +22214,6 @@
    {
     "name": "Google",
     "count": 4
-   }
-  ],
-  "/ar/destinations/wadi-namar-park": [
-   {
-    "name": "chatgpt.com",
-    "count": 3
-   },
-   {
-    "name": "Google",
-    "count": 1
    }
   ],
   "/stations/al-aziziah": [
@@ -22466,7 +22467,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 112
+    "count": 113
    },
    {
     "path": "/map",
@@ -22709,6 +22710,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/wadi-namar-park",
+    "count": 4
+   },
+   {
     "path": "/districts/al-olaya",
     "count": 4
    },
@@ -22722,10 +22727,6 @@
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 3
-   },
-   {
-    "path": "/ar/destinations/wadi-namar-park",
     "count": 3
    },
    {
@@ -23109,7 +23110,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 608,
+   "count": 609,
    "ref_scheme": "g"
   },
   {
@@ -23133,7 +23134,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 96,
+   "count": 97,
    "ref_scheme": "c"
   },
   {
@@ -23410,7 +23411,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 706
+   "count": 708
   },
   {
    "id": "(unknown)",
@@ -23472,7 +23473,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2610
+   "count": 2612
   },
   {
    "id": "AE",
@@ -23694,7 +23695,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2513
+   "count": 2515
   },
   {
    "id": "tablet",
@@ -23721,12 +23722,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1650
+   "count": 1651
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1404
+   "count": 1405
   },
   {
    "name": "",
@@ -23742,12 +23743,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1390
+   "count": 1391
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1156
+   "count": 1157
   },
   {
    "id": "Windows",
