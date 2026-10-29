@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T16:32:32Z",
+ "generated": "2026-10-29T17:29:12Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3165,
-  "total_events": 1588,
-  "total_utc": 3165,
+  "total": 3170,
+  "total_events": 1590,
+  "total_utc": 3170,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3165
+    "monthly": 3170
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 115
+    "weekly": 120
    },
    {
     "day": "2026-10-28",
@@ -937,12 +937,12 @@
      6,
      8,
      3,
-     3,
-     0,
+     7,
+     1,
      0,
      0
     ],
-    "daily": 47
+    "daily": 52
    },
    {
     "day": "2026-10-30",
@@ -982,7 +982,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 723,
+   "count": 725,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1011,7 +1011,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 8
+    "2026-10-29": 10
    }
   },
   {
@@ -1019,7 +1019,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 540,
+   "count": 542,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1042,7 +1042,7 @@
     "2026-10-26": 2,
     "2026-10-27": 4,
     "2026-10-28": 5,
-    "2026-10-29": 6
+    "2026-10-29": 8
    }
   },
   {
@@ -3256,6 +3256,17 @@
    "count": 2,
    "daily": {
     "2026-10-17": 2
+   }
+  },
+  {
+   "path": "/ar/routes/riyadh-airport-to-boulevard-city",
+   "path_id": 112533023,
+   "title": "من مطار الرياض إلى بوليفارد سيتي بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-29": 1
    }
   },
   {
@@ -6478,16 +6489,6 @@
    "path": "/ar/destinations/crowne-plaza-riyadh-palace",
    "path_id": 112542870,
    "title": "محطة مترو كراون بلازا قصر الرياض: محطة وزارة الدفاع، 12 دقيقة سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/routes/riyadh-airport-to-boulevard-city",
-   "path_id": 112533023,
-   "title": "من مطار الرياض إلى بوليفارد سيتي بالمترو: الوقت والسعر والخطوات",
    "event": false,
    "count": 1,
    "daily": {
@@ -11397,9 +11398,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1577,
-  "events_total": 1588,
-  "goatcounter_total_with_events": 3165,
+  "visits": 1580,
+  "events_total": 1590,
+  "goatcounter_total_with_events": 3170,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11428,7 +11429,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 26
+   "2026-10-29": 29
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11452,14 +11453,14 @@
    "2026-10-26": 3,
    "2026-10-27": 6,
    "2026-10-28": 8,
-   "2026-10-29": 8
+   "2026-10-29": 10
   },
-  "visitor_days": 611,
+  "visitor_days": 613,
   "return_rate": 0.116,
   "routes": 426,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
-  "routes_per_visitor_day": 0.66,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.031,
   "shares": {
    "whatsapp": 4,
@@ -11547,7 +11548,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 540,
+   "new": 542,
    "return": 71
   },
   "top_routes": [
@@ -11701,7 +11702,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 478
+    "count": 479
    },
    {
     "name": "tiktok_ad",
@@ -11720,15 +11721,15 @@
     "count": 6
    },
    {
+    "name": "www.facebook.com",
+    "count": 6
+   },
+   {
     "name": "chatgpt.com",
     "count": 6
    },
    {
     "name": "www.bing.com",
-    "count": 5
-   },
-   {
-    "name": "www.facebook.com",
     "count": 5
    },
    {
@@ -12463,7 +12464,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 478
+    "count": 479
    },
    {
     "path": "/ar/map",
@@ -12786,6 +12787,20 @@
     "count": 6
    }
   ],
+  "www.facebook.com": [
+   {
+    "path": "/",
+    "count": 6
+   },
+   {
+    "path": "/",
+    "count": 4
+   },
+   {
+    "path": "/ur.html",
+    "count": 3
+   }
+  ],
   "chatgpt.com": [
    {
     "path": "/",
@@ -12892,20 +12907,6 @@
    {
     "path": "/map",
     "count": 1
-   }
-  ],
-  "www.facebook.com": [
-   {
-    "path": "/",
-    "count": 5
-   },
-   {
-    "path": "/",
-    "count": 4
-   },
-   {
-    "path": "/ur.html",
-    "count": 3
    }
   ],
   "t.co": [
@@ -13202,13 +13203,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1639,
+   "count": 1641,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 609,
+   "count": 610,
    "ref_scheme": "g"
   },
   {
@@ -13250,7 +13251,7 @@
   {
    "id": "www.facebook.com",
    "name": "www.facebook.com",
-   "count": 28,
+   "count": 30,
    "ref_scheme": "h"
   },
   {
@@ -13504,12 +13505,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2354
+   "count": 2358
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 711
+   "count": 712
   },
   {
    "id": "(unknown)",
@@ -13571,7 +13572,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2644
+   "count": 2647
   },
   {
    "id": "AE",
@@ -13664,6 +13665,11 @@
    "count": 7
   },
   {
+   "id": "SE",
+   "name": "Sweden",
+   "count": 7
+  },
+  {
    "id": "AU",
    "name": "Australia",
    "count": 6
@@ -13676,11 +13682,6 @@
   {
    "id": "QA",
    "name": "Qatar",
-   "count": 5
-  },
-  {
-   "id": "SE",
-   "name": "Sweden",
    "count": 5
   },
   {
@@ -13793,7 +13794,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2548
+   "count": 2551
   },
   {
    "id": "tablet",
@@ -13808,7 +13809,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 73
+   "count": 75
   },
   {
    "id": "unknown",
@@ -13820,16 +13821,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1672
+   "count": 1674
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1421
+   "count": 1422
   },
   {
    "name": "",
-   "count": 49
+   "count": 51
   },
   {
    "id": "Firefox",
@@ -13841,7 +13842,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1407
+   "count": 1410
   },
   {
    "id": "Android",
@@ -13851,7 +13852,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 403
+   "count": 405
   },
   {
    "id": "macOS",
