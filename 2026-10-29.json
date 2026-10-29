@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T10:26:56Z",
+ "generated": "2026-10-29T11:22:06Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3141,
+  "total": 3143,
   "total_events": 1574,
-  "total_utc": 3141,
+  "total_utc": 3143,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3141
+    "monthly": 3143
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 91
+    "weekly": 93
    },
    {
     "day": "2026-10-28",
@@ -932,7 +932,7 @@
      1,
      1,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 25
    },
    {
     "day": "2026-10-30",
@@ -1050,7 +1050,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 141,
+   "count": 142,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1070,7 +1070,7 @@
     "2026-10-25": 9,
     "2026-10-26": 20,
     "2026-10-28": 1,
-    "2026-10-29": 2
+    "2026-10-29": 3
    }
   },
   {
@@ -1980,6 +1980,19 @@
    }
   },
   {
+   "path": "/districts/al-nada",
+   "path_id": 112087429,
+   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/destinations/olaya-street",
    "path_id": 112084034,
    "title": "محطة مترو شارع العليا وشارع التحلية: محطة بنك البلاد، 5 دقائق سيراً",
@@ -2323,18 +2336,6 @@
     "2026-10-15": 1,
     "2026-10-19": 1,
     "2026-10-20": 1
-   }
-  },
-  {
-   "path": "/districts/al-nada",
-   "path_id": 112087429,
-   "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -11301,9 +11302,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1567,
+  "visits": 1569,
   "events_total": 1574,
-  "goatcounter_total_with_events": 3141,
+  "goatcounter_total_with_events": 3143,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11332,7 +11333,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 16
+   "2026-10-29": 18
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11691,7 +11692,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 15
+    "count": 16
    },
    {
     "name": "www.bing.com",
@@ -12236,6 +12237,20 @@
     "count": 4
    }
   ],
+  "/districts/al-nada": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/destinations/olaya-street": [
    {
     "name": "Google",
@@ -12347,16 +12362,6 @@
     "name": "Google",
     "count": 3
    }
-  ],
-  "/destinations/sahara-mall": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
   ]
  },
  "ref_pages": {
@@ -12367,7 +12372,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/ar.html",
@@ -12434,15 +12439,15 @@
     "count": 1
    },
    {
+    "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
     "path": "/timings",
     "count": 1
    },
    {
     "path": "/ar/districts/al-falah",
-    "count": 1
-   },
-   {
-    "path": "/destinations/sahara-mall",
     "count": 1
    }
   ],
@@ -12656,10 +12661,6 @@
     "count": 2
    },
    {
-    "path": "/destinations/sahara-mall",
-    "count": 2
-   },
-   {
     "path": "/ar.html",
     "count": 1
    },
@@ -12669,6 +12670,10 @@
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-nada",
     "count": 1
    },
    {
@@ -12741,6 +12746,10 @@
    },
    {
     "path": "/districts/al-qadisiyah",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-nada",
     "count": 2
    },
    {
@@ -13098,7 +13107,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1625,
+   "count": 1626,
    "ref_scheme": "o"
   },
   {
@@ -13128,7 +13137,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 101,
+   "count": 102,
    "ref_scheme": "c"
   },
   {
@@ -13405,7 +13414,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 708
+   "count": 710
   },
   {
    "id": "(unknown)",
@@ -13467,7 +13476,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2620
+   "count": 2622
   },
   {
    "id": "AE",
@@ -13689,7 +13698,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2524
+   "count": 2526
   },
   {
    "id": "tablet",
@@ -13721,7 +13730,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1410
+   "count": 1412
   },
   {
    "name": "",
@@ -13737,7 +13746,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1396
+   "count": 1398
   },
   {
    "id": "Android",
