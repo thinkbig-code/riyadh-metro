@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T13:41:32Z",
+ "generated": "2026-10-29T14:34:44Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3148,
-  "total_events": 1576,
-  "total_utc": 3148,
+  "total": 3152,
+  "total_events": 1579,
+  "total_utc": 3152,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3148
+    "monthly": 3152
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 98
+    "weekly": 102
    },
    {
     "day": "2026-10-28",
@@ -934,15 +934,15 @@
      0,
      2,
      2,
-     3,
-     0,
+     6,
+     1,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 30
+    "daily": 34
    },
    {
     "day": "2026-10-30",
@@ -1050,7 +1050,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 142,
+   "count": 143,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1070,7 +1070,7 @@
     "2026-10-25": 9,
     "2026-10-26": 20,
     "2026-10-28": 1,
-    "2026-10-29": 3
+    "2026-10-29": 4
    }
   },
   {
@@ -1714,6 +1714,20 @@
    }
   },
   {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-17": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-awaly",
    "path_id": 111083087,
    "title": "أقرب محطة مترو لحي العوالي في الرياض: محطة المحطة الغربية، 2.6 كم",
@@ -2027,19 +2041,6 @@
     "2026-10-14": 2,
     "2026-10-25": 1,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "station/salam/from",
-   "path_id": 111702847,
-   "title": "ar|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-12": 1,
-    "2026-10-17": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -4117,6 +4118,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/salam/p_king_fahad_medical_city",
+   "path_id": 116447164,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "place/p_king_fahad_medical_city/to",
+   "path_id": 116447163,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -11302,9 +11323,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1572,
-  "events_total": 1576,
-  "goatcounter_total_with_events": 3148,
+  "visits": 1573,
+  "events_total": 1579,
+  "goatcounter_total_with_events": 3152,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11333,7 +11354,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 21
+   "2026-10-29": 22
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11361,7 +11382,7 @@
   },
   "visitor_days": 610,
   "return_rate": 0.115,
-  "routes": 422,
+  "routes": 423,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.65,
@@ -11692,7 +11713,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 16
+    "count": 17
    },
    {
     "name": "www.bing.com",
@@ -12372,7 +12393,7 @@
    },
    {
     "path": "/ar/map",
-    "count": 16
+    "count": 17
    },
    {
     "path": "/ar.html",
@@ -13107,7 +13128,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1628,
+   "count": 1632,
    "ref_scheme": "o"
   },
   {
@@ -13409,7 +13430,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2337
+   "count": 2341
   },
   {
    "id": "ara",
@@ -13476,7 +13497,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2627
+   "count": 2631
   },
   {
    "id": "AE",
@@ -13698,7 +13719,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2531
+   "count": 2535
   },
   {
    "id": "tablet",
@@ -13730,7 +13751,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1415
+   "count": 1419
   },
   {
    "name": "",
@@ -13746,7 +13767,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1401
+   "count": 1405
   },
   {
    "id": "Android",
