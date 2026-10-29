@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T15:33:17Z",
+ "generated": "2026-10-29T16:33:53Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3161,
-  "total_events": 1585,
-  "total_utc": 3161,
+  "total": 3165,
+  "total_events": 1588,
+  "total_utc": 3165,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3161
+    "monthly": 3165
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 86
+    "weekly": 90
    },
    {
     "day": "2026-10-29",
@@ -10986,13 +10986,13 @@
      2,
      6,
      8,
-     2,
-     0,
+     3,
+     3,
      0,
      0,
      0
     ],
-    "daily": 43
+    "daily": 47
    },
    {
     "day": "2026-10-30",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 722,
+   "count": 723,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11061,7 +11061,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 7
+    "2026-10-29": 8
    }
   },
   {
@@ -12209,6 +12209,19 @@
    }
   },
   {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-12": 1,
+    "2026-10-19": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/lines/blue-line",
    "path_id": 110184814,
    "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
@@ -12718,18 +12731,6 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 2
-   }
-  },
-  {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-12": 1,
-    "2026-10-19": 1
    }
   },
   {
@@ -14181,6 +14182,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "view/rajhi/hokm",
+   "path_id": 116486574,
+   "title": "en|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "route/rajhi/hokm",
+   "path_id": 116486562,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -21426,9 +21447,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1576,
-  "events_total": 1585,
-  "goatcounter_total_with_events": 3161,
+  "visits": 1577,
+  "events_total": 1588,
+  "goatcounter_total_with_events": 3165,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21457,7 +21478,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 25
+   "2026-10-29": 26
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21485,10 +21506,10 @@
   },
   "visitor_days": 611,
   "return_rate": 0.116,
-  "routes": 425,
+  "routes": 426,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
-  "routes_per_visitor_day": 0.65,
+  "routes_per_visitor_day": 0.66,
   "share_rate": 0.031,
   "shares": {
    "whatsapp": 4,
@@ -21571,7 +21592,7 @@
   "nearest_station": {
    "denied": 24,
    "ok": 47,
-   "fail": 3,
+   "fail": 4,
    "outside": 3,
    "far": 3
   },
@@ -21690,7 +21711,7 @@
    },
    {
     "name": "hokm",
-    "count": 13
+    "count": 14
    },
    {
     "name": "jeddahrd",
@@ -21758,7 +21779,7 @@
    },
    {
     "name": "www.facebook.com",
-    "count": 4
+    "count": 5
    },
    {
     "name": "www.facebook.com",
@@ -22926,7 +22947,7 @@
   "www.facebook.com": [
    {
     "path": "/",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/",
@@ -23279,7 +23300,7 @@
   {
    "id": "www.facebook.com",
    "name": "www.facebook.com",
-   "count": 24,
+   "count": 28,
    "ref_scheme": "h"
   },
   {
@@ -23533,7 +23554,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2350
+   "count": 2354
   },
   {
    "id": "ara",
@@ -23600,7 +23621,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2640
+   "count": 2644
   },
   {
    "id": "AE",
@@ -23822,7 +23843,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2544
+   "count": 2548
   },
   {
    "id": "tablet",
@@ -23849,7 +23870,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1668
+   "count": 1672
   },
   {
    "id": "Safari",
@@ -23875,7 +23896,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1170
+   "count": 1174
   },
   {
    "id": "Windows",
