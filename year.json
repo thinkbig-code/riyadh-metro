@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T04:26:13Z",
+ "generated": "2026-10-29T05:25:19Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3132,
+  "total": 3133,
   "total_events": 1571,
-  "total_utc": 3132,
+  "total_utc": 3133,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3132
+    "monthly": 3133
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 57
+    "weekly": 58
    },
    {
     "day": "2026-10-29",
@@ -10975,7 +10975,7 @@
      2,
      2,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 14
+    "daily": 15
    },
    {
     "day": "2026-10-30",
@@ -14162,6 +14162,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/al-yarmuk",
+   "path_id": 116339778,
+   "title": "Al Yarmuk Metro Station, Riyadh: Purple Line, No. 80",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
    }
   },
   {
@@ -21307,9 +21317,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1561,
+  "visits": 1562,
   "events_total": 1571,
-  "goatcounter_total_with_events": 3132,
+  "goatcounter_total_with_events": 3133,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21338,7 +21348,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 10
+   "2026-10-29": 11
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23134,7 +23144,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 97,
+   "count": 98,
    "ref_scheme": "c"
   },
   {
@@ -23406,7 +23416,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2324
+   "count": 2325
   },
   {
    "id": "ara",
@@ -23473,7 +23483,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2612
+   "count": 2613
   },
   {
    "id": "AE",
@@ -23695,7 +23705,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2517
+   "count": 2518
   },
   {
    "id": "tablet",
@@ -23727,7 +23737,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1407
+   "count": 1408
   },
   {
    "name": "",
@@ -23743,7 +23753,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1393
+   "count": 1394
   },
   {
    "id": "Android",
