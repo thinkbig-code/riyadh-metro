@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T19:31:57Z",
+ "generated": "2026-10-29T20:24:28Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3199,
+  "total": 3201,
   "total_events": 1601,
-  "total_utc": 3199,
+  "total_utc": 3201,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3199
+    "monthly": 3201
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 124
+    "weekly": 126
    },
    {
     "day": "2026-10-29",
@@ -10997,7 +10997,7 @@
    {
     "day": "2026-10-30",
     "hourly": [
-     0,
+     2,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 2
    }
   ]
  },
@@ -12386,6 +12386,18 @@
    }
   },
   {
+   "path": "/lines/orange-line",
+   "path_id": 112221259,
+   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-22": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/ar/destinations/panorama-mall",
    "path_id": 112211315,
    "title": "محطة مترو بانوراما مول: محطة بنك البلاد (المسار الأزرق)",
@@ -13519,17 +13531,6 @@
    }
   },
   {
-   "path": "/lines/orange-line",
-   "path_id": 112221259,
-   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/ar/destinations/prince-sultan-university",
    "path_id": 112174965,
    "title": "محطة مترو جامعة الأمير سلطان: محطة صلاح الدين، 17 دقيقة سيراً",
@@ -14254,6 +14255,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/jeddah-road",
+   "path_id": 116545777,
+   "title": "Jeddah Road Metro Station, Riyadh: Orange Line, No. 40",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21569,9 +21580,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1598,
+  "visits": 1600,
   "events_total": 1601,
-  "goatcounter_total_with_events": 3199,
+  "goatcounter_total_with_events": 3201,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21600,7 +21611,8 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 47
+   "2026-10-29": 47,
+   "2026-10-30": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23388,7 +23400,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 625,
+   "count": 626,
    "ref_scheme": "g"
   },
   {
@@ -23452,6 +23464,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/lines/orange-line",
+   "name": "riyadhmetro.fyi/lines/orange-line",
+   "count": 9,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/nearest-station",
    "name": "riyadhmetro.fyi/ar/nearest-station",
    "count": 9,
@@ -23466,12 +23484,6 @@
   {
    "id": "riyadhmetro.fyi/stations",
    "name": "riyadhmetro.fyi/stations",
-   "count": 8,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/lines/orange-line",
-   "name": "riyadhmetro.fyi/lines/orange-line",
    "count": 8,
    "ref_scheme": "h"
   },
@@ -23684,7 +23696,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2383
+   "count": 2385
   },
   {
    "id": "ara",
@@ -23751,7 +23763,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2676
+   "count": 2678
   },
   {
    "id": "AE",
@@ -23973,7 +23985,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2569
+   "count": 2571
   },
   {
    "id": "tablet",
@@ -24005,7 +24017,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1426
+   "count": 1428
   },
   {
    "name": "",
@@ -24021,7 +24033,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1414
+   "count": 1416
   },
   {
    "id": "Android",
