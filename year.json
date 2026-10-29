@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T20:24:28Z",
+ "generated": "2026-10-29T21:21:24Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3201,
+  "total": 3203,
   "total_events": 1601,
-  "total_utc": 3201,
+  "total_utc": 3203,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3201
+    "monthly": 3203
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 126
+    "weekly": 128
    },
    {
     "day": "2026-10-29",
@@ -10997,7 +10997,7 @@
    {
     "day": "2026-10-30",
     "hourly": [
-     2,
+     4,
      0,
      0,
      0,
@@ -11022,7 +11022,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 4
    }
   ]
  },
@@ -12270,6 +12270,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/districts/al-nahdah",
    "path_id": 114572064,
    "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
@@ -12937,17 +12949,6 @@
    "daily": {
     "2026-10-24": 1,
     "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -14255,6 +14256,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-batha",
+   "path_id": 116553600,
+   "title": "محطة مترو البطحاء: محطة البطحاء (المسار الأزرق)، 7 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21580,9 +21591,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1600,
+  "visits": 1602,
   "events_total": 1601,
-  "goatcounter_total_with_events": 3201,
+  "goatcounter_total_with_events": 3203,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21612,7 +21623,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 2
+   "2026-10-30": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22596,6 +22607,20 @@
     "count": 3
    }
   ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-nahdah": [
    {
     "name": "Google",
@@ -22638,12 +22663,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/stations/al-muorabba": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ]
  },
@@ -22727,6 +22746,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -22896,10 +22919,6 @@
     "count": 3
    },
    {
-    "path": "/stations/al-muorabba",
-    "count": 3
-   },
-   {
     "path": "/ar/lines/orange-line",
     "count": 2
    },
@@ -22957,6 +22976,10 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -23071,6 +23094,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -23394,13 +23421,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1651,
+   "count": 1653,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 626,
+   "count": 628,
    "ref_scheme": "g"
   },
   {
@@ -23696,12 +23723,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2385
+   "count": 2387
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 716
+   "count": 718
   },
   {
    "id": "(unknown)",
@@ -23763,7 +23790,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2678
+   "count": 2680
   },
   {
    "id": "AE",
@@ -23773,7 +23800,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 94
+   "count": 96
   },
   {
    "id": "GB",
@@ -23985,7 +24012,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2571
+   "count": 2575
   },
   {
    "id": "tablet",
@@ -24012,12 +24039,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1699
+   "count": 1700
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1428
+   "count": 1431
   },
   {
    "name": "",
@@ -24033,12 +24060,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1416
+   "count": 1419
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1189
+   "count": 1190
   },
   {
    "id": "Windows",

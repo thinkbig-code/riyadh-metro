@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T20:23:13Z",
+ "generated": "2026-10-29T21:20:10Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3199,
+  "total": 3203,
   "total_events": 1601,
-  "total_utc": 3199,
+  "total_utc": 3203,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3199
+    "monthly": 3203
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 149
+    "weekly": 153
    },
    {
     "day": "2026-10-28",
@@ -947,7 +947,7 @@
    {
     "day": "2026-10-30",
     "hourly": [
-     0,
+     4,
      0,
      0,
      0,
@@ -972,7 +972,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -2220,6 +2220,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/districts/al-nahdah",
    "path_id": 114572064,
    "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
@@ -2333,6 +2345,18 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-21": 2
+   }
+  },
+  {
+   "path": "/lines/orange-line",
+   "path_id": 112221259,
+   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-22": 1,
+    "2026-10-30": 1
    }
   },
   {
@@ -2875,17 +2899,6 @@
    "daily": {
     "2026-10-24": 1,
     "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -3466,17 +3479,6 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
-   }
-  },
-  {
-   "path": "/lines/orange-line",
-   "path_id": 112221259,
-   "title": "Riyadh Metro Orange Line (Line 3): Stations, Map and Hours",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-22": 1
    }
   },
   {
@@ -4204,6 +4206,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/al-batha",
+   "path_id": 116553600,
+   "title": "محطة مترو البطحاء: محطة البطحاء (المسار الأزرق)، 7 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/stations/jeddah-road",
+   "path_id": 116545777,
+   "title": "Jeddah Road Metro Station, Riyadh: Orange Line, No. 40",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -11519,9 +11541,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1598,
+  "visits": 1602,
   "events_total": 1601,
-  "goatcounter_total_with_events": 3199,
+  "goatcounter_total_with_events": 3203,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11550,7 +11572,8 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 47
+   "2026-10-29": 47,
+   "2026-10-30": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12534,6 +12557,20 @@
     "count": 3
    }
   ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-nahdah": [
    {
     "name": "Google",
@@ -12576,12 +12613,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/stations/al-muorabba": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ]
  },
@@ -12665,6 +12696,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -12834,10 +12869,6 @@
     "count": 3
    },
    {
-    "path": "/stations/al-muorabba",
-    "count": 3
-   },
-   {
     "path": "/ar/lines/orange-line",
     "count": 2
    },
@@ -12895,6 +12926,10 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -13009,6 +13044,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -13338,7 +13377,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 626,
+   "count": 628,
    "ref_scheme": "g"
   },
   {
@@ -13639,7 +13678,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 716
+   "count": 718
   },
   {
    "id": "(unknown)",
@@ -13701,7 +13740,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2678
+   "count": 2680
   },
   {
    "id": "AE",
@@ -13923,7 +13962,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2571
+   "count": 2573
   },
   {
    "id": "tablet",
@@ -13950,12 +13989,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1699
+   "count": 1700
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1428
+   "count": 1429
   },
   {
    "name": "",
@@ -13971,12 +14010,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1416
+   "count": 1417
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1189
+   "count": 1190
   },
   {
    "id": "Windows",
