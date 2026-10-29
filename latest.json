@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T19:25:10Z",
+ "generated": "2026-10-29T19:30:26Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3195,
-  "total_events": 1600,
-  "total_utc": 3195,
+  "total": 3198,
+  "total_events": 1601,
+  "total_utc": 3198,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3195
+    "monthly": 3198
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 145
+    "weekly": 148
    },
    {
     "day": "2026-10-28",
@@ -940,9 +940,9 @@
      7,
      3,
      5,
-     18
+     21
     ],
-    "daily": 77
+    "daily": 80
    },
    {
     "day": "2026-10-30",
@@ -982,7 +982,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 728,
+   "count": 729,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -1011,7 +1011,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 13
+    "2026-10-29": 14
    }
   },
   {
@@ -2758,6 +2758,17 @@
    }
   },
   {
+   "path": "/ar/destinations/riyadh-north-railway-station",
+   "path_id": 115543085,
+   "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-27": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-suwaidi",
    "path_id": 115025208,
    "title": "أقرب محطة مترو لحي السويدي في الرياض: محطة ظهرة البديعة، 2.5 كم",
@@ -4195,6 +4206,16 @@
    }
   },
   {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_specialized_medical_center_hospital",
+   "path_id": 116531156,
+   "title": "en|landing:destinations-smc-hospital|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/destinations/smc-hospital",
    "path_id": 116530482,
    "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
@@ -4549,16 +4570,6 @@
    "path_id": 115628808,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-27": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/riyadh-north-railway-station",
-   "path_id": 115543085,
-   "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-27": 1
@@ -11507,9 +11518,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1595,
-  "events_total": 1600,
-  "goatcounter_total_with_events": 3195,
+  "visits": 1597,
+  "events_total": 1601,
+  "goatcounter_total_with_events": 3198,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11538,7 +11549,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 44
+   "2026-10-29": 46
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11566,7 +11577,7 @@
   },
   "visitor_days": 615,
   "return_rate": 0.115,
-  "routes": 429,
+  "routes": 430,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.66,
@@ -11740,15 +11751,15 @@
     "count": 13
    },
    {
+    "name": "p_king_khalid_airport_terminals_1_2",
+    "count": 13
+   },
+   {
     "name": "kbw",
     "count": 12
    },
    {
     "name": "ksu",
-    "count": 12
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2",
     "count": 12
    },
    {
@@ -13312,13 +13323,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1650,
+   "count": 1651,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 624,
+   "count": 625,
    "ref_scheme": "g"
   },
   {
@@ -13574,6 +13585,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/destinations/smc-hospital",
+   "name": "riyadhmetro.fyi/destinations/smc-hospital",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "duckduckgo.com",
    "name": "duckduckgo.com",
    "count": 1,
@@ -13602,19 +13619,13 @@
    "name": "riyadhmetro.fyi/ar/districts/al-qadisiyah",
    "count": 1,
    "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/destinations/riyadh-front",
-   "name": "riyadhmetro.fyi/destinations/riyadh-front",
-   "count": 1,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2379
+   "count": 2383
   },
   {
    "id": "ara",
@@ -13681,7 +13692,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2672
+   "count": 2676
   },
   {
    "id": "AE",
@@ -13903,7 +13914,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2565
+   "count": 2569
   },
   {
    "id": "tablet",
@@ -13930,12 +13941,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1697
+   "count": 1699
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1424
+   "count": 1426
   },
   {
    "name": "",
@@ -13951,12 +13962,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1412
+   "count": 1414
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1187
+   "count": 1189
   },
   {
    "id": "Windows",

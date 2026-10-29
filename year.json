@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T19:26:30Z",
+ "generated": "2026-10-29T19:31:57Z",
  "start": "2025-10-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3195,
-  "total_events": 1600,
-  "total_utc": 3195,
+  "total": 3199,
+  "total_events": 1601,
+  "total_utc": 3199,
   "stats": [
    {
     "day": "2025-10-29",
@@ -10148,7 +10148,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3195
+    "monthly": 3199
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 120
+    "weekly": 124
    },
    {
     "day": "2026-10-29",
@@ -10990,9 +10990,9 @@
      7,
      3,
      5,
-     18
+     22
     ],
-    "daily": 77
+    "daily": 81
    },
    {
     "day": "2026-10-30",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 728,
+   "count": 729,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11061,7 +11061,7 @@
     "2026-10-26": 1,
     "2026-10-27": 5,
     "2026-10-28": 8,
-    "2026-10-29": 13
+    "2026-10-29": 14
    }
   },
   {
@@ -12282,6 +12282,18 @@
    }
   },
   {
+   "path": "/districts/al-nakheel",
+   "path_id": 114342963,
+   "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-26": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rayan",
    "path_id": 114059743,
    "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
@@ -12808,6 +12820,17 @@
    }
   },
   {
+   "path": "/ar/destinations/riyadh-north-railway-station",
+   "path_id": 115543085,
+   "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-27": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-suwaidi",
    "path_id": 115025208,
    "title": "أقرب محطة مترو لحي السويدي في الرياض: محطة ظهرة البديعة، 2.5 كم",
@@ -12944,17 +12967,6 @@
    "count": 2,
    "daily": {
     "2026-10-24": 2
-   }
-  },
-  {
-   "path": "/districts/al-nakheel",
-   "path_id": 114342963,
-   "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-23": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -14245,6 +14257,16 @@
    }
   },
   {
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_specialized_medical_center_hospital",
+   "path_id": 116531156,
+   "title": "en|landing:destinations-smc-hospital|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/destinations/smc-hospital",
    "path_id": 116530482,
    "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
@@ -14599,16 +14621,6 @@
    "path_id": 115628808,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-27": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/riyadh-north-railway-station",
-   "path_id": 115543085,
-   "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-27": 1
@@ -18595,16 +18607,6 @@
    }
   },
   {
-   "path": "route/p_king_khalid_airport_terminals_1_2/p_specialized_medical_center_hospital",
-   "path_id": 116531156,
-   "title": "en|landing:destinations-smc-hospital|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-29": 1
-   }
-  },
-  {
    "path": "route/kfl/wizarat",
    "path_id": 110983610,
    "title": "en|map|ok",
@@ -21567,9 +21569,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1595,
+  "visits": 1598,
   "events_total": 1601,
-  "goatcounter_total_with_events": 3195,
+  "goatcounter_total_with_events": 3199,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21598,7 +21600,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 44
+   "2026-10-29": 47
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22592,6 +22594,16 @@
     "count": 1
    }
   ],
+  "/districts/al-nakheel": [
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-rayan": [
    {
     "name": "Google",
@@ -22617,12 +22629,6 @@
    }
   ],
   "/stations/al-muorabba": [
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
-  "/districts/al-murabba": [
    {
     "name": "Google",
     "count": 3
@@ -22882,10 +22888,6 @@
     "count": 3
    },
    {
-    "path": "/districts/al-murabba",
-    "count": 3
-   },
-   {
     "path": "/ar/lines/orange-line",
     "count": 2
    },
@@ -22943,6 +22945,10 @@
    },
    {
     "path": "/districts/qurtubah",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-nakheel",
     "count": 1
    },
    {
@@ -23029,6 +23035,10 @@
    },
    {
     "path": "/districts/al-nada",
+    "count": 2
+   },
+   {
+    "path": "/districts/al-nakheel",
     "count": 2
    },
    {
@@ -23372,13 +23382,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1650,
+   "count": 1651,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 624,
+   "count": 625,
    "ref_scheme": "g"
   },
   {
@@ -23674,7 +23684,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2381
+   "count": 2383
   },
   {
    "id": "ara",
@@ -23741,7 +23751,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2674
+   "count": 2676
   },
   {
    "id": "AE",
@@ -23963,7 +23973,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2567
+   "count": 2569
   },
   {
    "id": "tablet",
@@ -23995,7 +24005,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1424
+   "count": 1426
   },
   {
    "name": "",
@@ -24011,7 +24021,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1412
+   "count": 1414
   },
   {
    "id": "Android",
