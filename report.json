@@ -1,11 +1,11 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "gsc_period": [
-  "2026-09-30",
-  "2026-10-28"
+  "2026-10-01",
+  "2026-10-29"
  ],
- "index_checked": "2026-10-28T02:07:53Z",
+ "index_checked": "2026-10-29T02:09:21Z",
  "low_ctr_queries": [
   {
    "query": "خريطة المترو",
@@ -57,11 +57,11 @@
   },
   {
    "query": "riyadh metro map",
-   "impressions": 172,
+   "impressions": 174,
    "clicks": 1,
-   "position": 5.9,
+   "position": 5.8,
    "page": "/",
-   "lost_clicks": 4.16
+   "lost_clicks": 4.22
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -263,7 +263,7 @@
  "pages_no_clicks": [
   {
    "page": "/ar/stations/dr-sulaiman-al-habib/",
-   "impressions": 392,
+   "impressions": 394,
    "position": 9.0
   },
   {
@@ -273,7 +273,7 @@
   },
   {
    "page": "/lines/blue-line/",
-   "impressions": 269,
+   "impressions": 271,
    "position": 9.0
   },
   {
@@ -288,12 +288,12 @@
   },
   {
    "page": "/ar/districts/west-naseem/",
-   "impressions": 223,
+   "impressions": 224,
    "position": 6.5
   },
   {
    "page": "/destinations/national-museum/",
-   "impressions": 218,
+   "impressions": 219,
    "position": 9.3
   },
   {
@@ -308,12 +308,12 @@
   },
   {
    "page": "/districts/al-aziziyah/",
-   "impressions": 198,
+   "impressions": 201,
    "position": 8.4
   },
   {
    "page": "/stations/dr-sulaiman-al-habib/",
-   "impressions": 195,
+   "impressions": 196,
    "position": 5.7
   },
   {
@@ -323,12 +323,12 @@
   },
   {
    "page": "/lines/purple-line/",
-   "impressions": 175,
+   "impressions": 176,
    "position": 8.5
   },
   {
    "page": "/stations/granada/",
-   "impressions": 173,
+   "impressions": 174,
    "position": 8.3
   },
   {
@@ -344,8 +344,8 @@
    "not_checked": 0
   },
   "ar districts": {
-   "indexed": 106,
-   "not_indexed": 11,
+   "indexed": 107,
+   "not_indexed": 10,
    "not_checked": 0
   },
   "ar home": {
@@ -444,10 +444,14 @@
    "not_checked": 0
   }
  },
- "request_today": [],
+ "request_today": [
+  "https://riyadhmetro.fyi/destinations/shola-mall/",
+  "https://riyadhmetro.fyi/ar/districts/al-wizarat/",
+  "https://riyadhmetro.fyi/ar/districts/al-wusayta/"
+ ],
  "languages": {
   "en": {
-   "impressions": 4916,
+   "impressions": 4920,
    "clicks": 23
   },
   "ar": {
@@ -505,7 +509,7 @@
   "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-olaya-street/": "2026-10-15",
   "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-princess-nourah-university/": "2026-10-15",
   "https://riyadhmetro.fyi/destinations/royal-mall/": "2026-10-15",
-  "https://riyadhmetro.fyi/destinations/shola-mall/": "2026-10-15",
+  "https://riyadhmetro.fyi/destinations/shola-mall/": "2026-10-29",
   "https://riyadhmetro.fyi/routes/riyadh-airport-to-princess-nourah-university/": "2026-10-16",
   "https://riyadhmetro.fyi/routes/riyadh-airport-to-riyadh-gallery-mall/": "2026-10-16",
   "https://riyadhmetro.fyi/routes/riyadh-airport-to-riyadh-park-mall/": "2026-10-16",
@@ -589,7 +593,9 @@
   "https://riyadhmetro.fyi/ar/districts/al-zahra/": "2026-10-25",
   "https://riyadhmetro.fyi/ar/districts/al-zahrah/": "2026-10-25",
   "https://riyadhmetro.fyi/ar/districts/king-abdullah/": "2026-10-26",
-  "https://riyadhmetro.fyi/ar/districts/olaishah/": "2026-10-26"
+  "https://riyadhmetro.fyi/ar/districts/olaishah/": "2026-10-26",
+  "https://riyadhmetro.fyi/ar/districts/al-wizarat/": "2026-10-29",
+  "https://riyadhmetro.fyi/ar/districts/al-wusayta/": "2026-10-29"
  },
  "_about": "Built by tools/gsc_report.py from gsc.json and gsc_index.json. Positions are averages over the period; lost_clicks = impressions x typical CTR for that position - clicks (a ranking aid, not a forecast)."
 }

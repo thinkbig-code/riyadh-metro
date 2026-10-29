@@ -1,6 +1,6 @@
 # Search opportunities: riyadhmetro.fyi
 
-Updated 2026-10-28. Search data 2026-09-30 to 2026-10-28 (about 2 days behind). Index statuses checked up to 2026-10-28.
+Updated 2026-10-29. Search data 2026-10-01 to 2026-10-29 (about 2 days behind). Index statuses checked up to 2026-10-29.
 
 ## 1. Fewer clicks than the position should bring
 Improve the title or description of the page, or the page itself.
@@ -13,7 +13,7 @@ Improve the title or description of the page, or the page itself.
 | خريطة الميترو | 40 | 1 | 1.0 | /ar/map/ |
 | al murabba metro station | 78 | 0 | 4.3 | /stations/al-muorabba/ |
 | metro near me | 142 | 0 | 9.6 | /nearest-station/ |
-| riyadh metro map | 172 | 1 | 5.9 | / |
+| riyadh metro map | 174 | 1 | 5.8 | / |
 | "riyadh chamber" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com | 37 | 0 | 3.2 | /nearest-station/ |
 | metro map | 25 | 1 | 2.0 | /map/ |
 | manfuha metro station | 91 | 0 | 7.2 | /stations/manfouhah/ |
@@ -52,20 +52,20 @@ Improve the title or description of the page, or the page itself.
 
 | Page | Impr. | Pos. |
 |---|---|---|
-| /ar/stations/dr-sulaiman-al-habib/ | 392 | 9.0 |
+| /ar/stations/dr-sulaiman-al-habib/ | 394 | 9.0 |
 | /ar/destinations/imam-university/ | 341 | 6.3 |
-| /lines/blue-line/ | 269 | 9.0 |
+| /lines/blue-line/ | 271 | 9.0 |
 | /ar/lines/ | 232 | 11.2 |
 | /ar/destinations/kingdom-centre/ | 226 | 6.8 |
-| /ar/districts/west-naseem/ | 223 | 6.5 |
-| /destinations/national-museum/ | 218 | 9.3 |
+| /ar/districts/west-naseem/ | 224 | 6.5 |
+| /destinations/national-museum/ | 219 | 9.3 |
 | /stations/jarir-district/ | 205 | 5.2 |
 | /ar/stations/sab-bank/ | 203 | 8.5 |
-| /districts/al-aziziyah/ | 198 | 8.4 |
-| /stations/dr-sulaiman-al-habib/ | 195 | 5.7 |
+| /districts/al-aziziyah/ | 201 | 8.4 |
+| /stations/dr-sulaiman-al-habib/ | 196 | 5.7 |
 | /ar/lines/yellow-line/ | 187 | 9.5 |
-| /lines/purple-line/ | 175 | 8.5 |
-| /stations/granada/ | 173 | 8.3 |
+| /lines/purple-line/ | 176 | 8.5 |
+| /stations/granada/ | 174 | 8.3 |
 | /stations/al-murooj/ | 158 | 4.8 |
 
 ## 4. Index
@@ -73,7 +73,7 @@ Improve the title or description of the page, or the page itself.
 | Page type | Indexed | Not indexed | Not checked yet |
 |---|---|---|---|
 | ar destinations | 130 | 0 | 0 |
-| ar districts | 106 | 11 | 0 |
+| ar districts | 107 | 10 | 0 |
 | ar home | 1 | 0 | 0 |
 | ar lines | 7 | 0 | 0 |
 | ar map | 1 | 0 | 0 |
@@ -97,11 +97,14 @@ Improve the title or description of the page, or the page itself.
 Request indexing by hand today (Search Console, URL inspection; skip any that already show as indexed):
 
 ```
+https://riyadhmetro.fyi/destinations/shola-mall/
+https://riyadhmetro.fyi/ar/districts/al-wizarat/
+https://riyadhmetro.fyi/ar/districts/al-wusayta/
 ```
 
 ## 5. English and Arabic searches
 
 | | Impressions | Clicks |
 |---|---|---|
-| English (top queries) | 4916 | 23 |
+| English (top queries) | 4920 | 23 |
 | Arabic (top queries) | 3190 | 74 |
