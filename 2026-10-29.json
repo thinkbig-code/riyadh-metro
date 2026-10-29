@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T14:34:44Z",
+ "generated": "2026-10-29T15:32:00Z",
  "start": "2026-09-29",
  "end": "2026-10-30",
  "total": {
-  "total": 3152,
-  "total_events": 1579,
-  "total_utc": 3152,
+  "total": 3161,
+  "total_events": 1585,
+  "total_utc": 3161,
   "stats": [
    {
     "day": "2026-09-29",
@@ -98,7 +98,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3152
+    "monthly": 3161
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 25,
-    "weekly": 102
+    "weekly": 111
    },
    {
     "day": "2026-10-28",
@@ -935,14 +935,14 @@
      2,
      2,
      6,
-     1,
-     0,
+     8,
+     2,
      0,
      0,
      0,
      0
     ],
-    "daily": 34
+    "daily": 43
    },
    {
     "day": "2026-10-30",
@@ -1078,7 +1078,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 70,
+   "count": 71,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1100,7 +1100,7 @@
     "2026-10-26": 1,
     "2026-10-27": 2,
     "2026-10-28": 3,
-    "2026-10-29": 1
+    "2026-10-29": 2
    }
   },
   {
@@ -1108,7 +1108,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 33,
+   "count": 34,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1126,7 +1126,8 @@
     "2026-10-23": 2,
     "2026-10-24": 5,
     "2026-10-25": 4,
-    "2026-10-26": 3
+    "2026-10-26": 3,
+    "2026-10-29": 1
    }
   },
   {
@@ -1994,6 +1995,19 @@
    }
   },
   {
+   "path": "route/tuwaiq/kbw",
+   "path_id": 112135522,
+   "title": "ar|swap|ok",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "/districts/al-nada",
    "path_id": 112087429,
    "title": "Nearest Metro Station to Al Nada, Riyadh: Uthman Bin Affan Road, 1.5 km",
@@ -2302,18 +2316,6 @@
    "daily": {
     "2026-10-16": 2,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "route/tuwaiq/kbw",
-   "path_id": 112135522,
-   "title": "ar|swap|ok",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-15": 1,
-    "2026-10-23": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -2736,6 +2738,17 @@
    "daily": {
     "2026-10-25": 1,
     "2026-10-26": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-salam",
+   "path_id": 114987324,
+   "title": "أقرب محطة مترو لحي السلام في الرياض: محطة السلام (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-10-29": 1
    }
   },
   {
@@ -4121,6 +4134,56 @@
    }
   },
   {
+   "path": "/ar/stations/as-salam",
+   "path_id": 116472749,
+   "title": "محطة السلام، مترو الرياض: المسار البنفسجي (رقم 83)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "view/aishah/kbw",
+   "path_id": 116461348,
+   "title": "ar|opt_2",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "route/aishah/kbw",
+   "path_id": 116461306,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "station/aishah/from",
+   "path_id": 116461305,
+   "title": "ar|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "recent/tuwaiq/kbw",
+   "path_id": 116461257,
+   "title": "ar",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-29": 1
+   }
+  },
+  {
    "path": "route/salam/p_king_fahad_medical_city",
    "path_id": 116447164,
    "title": "en|search|ok",
@@ -4644,16 +4707,6 @@
    "path": "/stations/uthman-bin-affan-road",
    "path_id": 115031199,
    "title": "Uthman Bin Affan Road Metro Station, Riyadh: Yellow/Purple lines, No. 62",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-salam",
-   "path_id": 114987324,
-   "title": "أقرب محطة مترو لحي السلام في الرياض: محطة السلام (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -11323,9 +11376,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1573,
-  "events_total": 1579,
-  "goatcounter_total_with_events": 3152,
+  "visits": 1576,
+  "events_total": 1585,
+  "goatcounter_total_with_events": 3161,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11354,7 +11407,7 @@
    "2026-10-26": 91,
    "2026-10-27": 14,
    "2026-10-28": 21,
-   "2026-10-29": 22
+   "2026-10-29": 25
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11378,11 +11431,11 @@
    "2026-10-26": 3,
    "2026-10-27": 6,
    "2026-10-28": 8,
-   "2026-10-29": 7
+   "2026-10-29": 8
   },
-  "visitor_days": 610,
-  "return_rate": 0.115,
-  "routes": 423,
+  "visitor_days": 611,
+  "return_rate": 0.116,
+  "routes": 425,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
   "routes_per_visitor_day": 0.65,
@@ -11474,7 +11527,7 @@
   },
   "visitors_new_return": {
    "new": 540,
-   "return": 70
+   "return": 71
   },
   "top_routes": [
    {
@@ -11486,15 +11539,15 @@
     "count": 4
    },
    {
+    "name": "tuwaiq > kbw",
+    "count": 4
+   },
+   {
     "name": "granadia > hokm",
     "count": 3
    },
    {
     "name": "jeddahrd > granadia",
-    "count": 3
-   },
-   {
-    "name": "tuwaiq > kbw",
     "count": 3
    },
    {
@@ -11598,6 +11651,10 @@
     "count": 13
    },
    {
+    "name": "kbw",
+    "count": 11
+   },
+   {
     "name": "p_kingdom_centre",
     "count": 11
    },
@@ -11615,10 +11672,6 @@
    },
    {
     "name": "murabba",
-    "count": 9
-   },
-   {
-    "name": "kbw",
     "count": 9
    }
   ]
@@ -11735,7 +11788,7 @@
   "/ar.html": [
    {
     "name": "(direct or unknown)",
-    "count": 7
+    "count": 8
    },
    {
     "name": "riyadhmetro.fyi/ar/map",
@@ -12397,7 +12450,7 @@
    },
    {
     "path": "/ar.html",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/ar/districts/al-arid",
@@ -13128,7 +13181,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1632,
+   "count": 1639,
    "ref_scheme": "o"
   },
   {
@@ -13158,7 +13211,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 103,
+   "count": 105,
    "ref_scheme": "c"
   },
   {
@@ -13430,7 +13483,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2341
+   "count": 2350
   },
   {
    "id": "ara",
@@ -13497,7 +13550,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2631
+   "count": 2640
   },
   {
    "id": "AE",
@@ -13719,7 +13772,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2535
+   "count": 2544
   },
   {
    "id": "tablet",
@@ -13746,12 +13799,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1661
+   "count": 1668
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1419
+   "count": 1421
   },
   {
    "name": "",
@@ -13767,12 +13820,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1405
+   "count": 1407
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1163
+   "count": 1170
   },
   {
    "id": "Windows",
