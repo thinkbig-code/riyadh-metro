@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T11:18:11Z",
+ "generated": "2026-10-30T12:18:37Z",
  "start": "2026-09-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3239,
+  "total": 3244,
   "total_events": 1613,
-  "total_utc": 3239,
+  "total_utc": 3244,
   "stats": [
    {
     "day": "2026-09-30",
@@ -68,7 +68,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3239
+    "monthly": 3244
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 164
+    "weekly": 169
    },
    {
     "day": "2026-10-29",
@@ -932,8 +932,8 @@
      3,
      0,
      5,
-     0,
-     0,
+     4,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 40
+    "daily": 45
    },
    {
     "day": "2026-10-31",
@@ -1490,6 +1490,21 @@
    }
   },
   {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-25": 2,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "place/p_al_faisaliah_tower/to",
    "path_id": 110407244,
    "title": "en|name",
@@ -1524,20 +1539,6 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
-   }
-  },
-  {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-25": 2
    }
   },
   {
@@ -4251,6 +4252,46 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-mansurah",
+   "path_id": 116784920,
+   "title": "أقرب محطة مترو لحي المنصورة في الرياض: محطة مستشفى الإيمان (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-railway-station",
+   "path_id": 116780654,
+   "title": "محطة مترو محطة قطار الرياض: محطة سكة الحديد، دقيقتان سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/stations/an-naseem",
+   "path_id": 116780334,
+   "title": "An Naseem Metro Station, Riyadh: Orange/Purple lines, No. 58",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/destinations/bangladesh-embassy",
+   "path_id": 116773353,
+   "title": "Bangladesh Embassy Riyadh Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -11656,9 +11697,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1626,
+  "visits": 1631,
   "events_total": 1613,
-  "goatcounter_total_with_events": 3239,
+  "goatcounter_total_with_events": 3244,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11688,7 +11729,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 28
+   "2026-10-30": 33
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11719,7 +11760,7 @@
   "return_rate": 0.116,
   "routes": 432,
   "routes_not_found": 0,
-  "routes_per_visit": 0.27,
+  "routes_per_visit": 0.26,
   "routes_per_visitor_day": 0.66,
   "share_rate": 0.03,
   "shares": {
@@ -12319,16 +12360,10 @@
     "count": 3
    }
   ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 7
-   }
-  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
-    "count": 2
+    "count": 3
    },
    {
     "name": "(direct or unknown)",
@@ -12345,6 +12380,12 @@
    {
     "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
     "count": 1
+   }
+  ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 7
    }
   ],
   "/ar/stations": [
@@ -12969,6 +13010,10 @@
     "count": 3
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 3
+   },
+   {
     "path": "/ar/districts",
     "count": 3
    },
@@ -13007,10 +13052,6 @@
    {
     "path": "/destinations/indian-embassy",
     "count": 3
-   },
-   {
-    "path": "/ar/nearest-station",
-    "count": 2
    },
    {
     "path": "/districts/ar-rabwah",
@@ -13513,7 +13554,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 648,
+   "count": 652,
    "ref_scheme": "g"
   },
   {
@@ -13537,7 +13578,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 109,
+   "count": 110,
    "ref_scheme": "c"
   },
   {
@@ -13809,12 +13850,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2409
+   "count": 2411
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 730
+   "count": 733
   },
   {
    "id": "(unknown)",
@@ -13876,7 +13917,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2709
+   "count": 2714
   },
   {
    "id": "AE",
@@ -14103,7 +14144,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2605
+   "count": 2610
   },
   {
    "id": "tablet",
@@ -14130,12 +14171,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1718
+   "count": 1721
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1447
+   "count": 1449
   },
   {
    "name": "",
@@ -14151,12 +14192,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1435
+   "count": 1437
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1204
+   "count": 1207
   },
   {
    "id": "Windows",
