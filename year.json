@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T00:15:32Z",
+ "generated": "2026-10-30T01:42:03Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3213,
+  "total": 3214,
   "total_events": 1605,
-  "total_utc": 3213,
+  "total_utc": 3214,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3213
+    "monthly": 3214
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 95
+    "weekly": 96
    },
    {
     "day": "2026-10-30",
@@ -10972,7 +10972,7 @@
      3,
      1,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 14
+    "daily": 15
    },
    {
     "day": "2026-10-31",
@@ -12277,6 +12277,18 @@
    }
   },
   {
+   "path": "/destinations/indian-embassy",
+   "path_id": 114595757,
+   "title": "Indian Embassy Riyadh Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "route/jeddahrd/granadia",
    "path_id": 114581451,
    "title": "ar|map|ok",
@@ -12928,17 +12940,6 @@
    "path": "/ar/districts/al-nakheel",
    "path_id": 114640641,
    "title": "أقرب محطة مترو لحي النخيل في الرياض: محطة المروج، 3.2 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/destinations/indian-embassy",
-   "path_id": 114595757,
-   "title": "Indian Embassy Riyadh Metro Station: King Saud University (Red Line)",
    "event": false,
    "count": 2,
    "daily": {
@@ -21617,9 +21618,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1608,
+  "visits": 1609,
   "events_total": 1605,
-  "goatcounter_total_with_events": 3213,
+  "goatcounter_total_with_events": 3214,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21649,7 +21650,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 10
+   "2026-10-30": 11
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22652,6 +22653,12 @@
     "count": 1
    }
   ],
+  "/destinations/indian-embassy": [
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/districts/al-aqeeq": [
    {
     "name": "(direct or unknown)",
@@ -22683,16 +22690,6 @@
    },
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-rayan": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ]
@@ -22950,6 +22947,10 @@
     "count": 3
    },
    {
+    "path": "/destinations/indian-embassy",
+    "count": 3
+   },
+   {
     "path": "/ar/nearest-station",
     "count": 2
    },
@@ -22979,10 +22980,6 @@
    },
    {
     "path": "/districts/al-nahdah",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 2
    },
    {
@@ -23133,10 +23130,6 @@
    },
    {
     "path": "/districts/al-nahdah",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 1
    }
   ],
@@ -23460,7 +23453,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 631,
+   "count": 632,
    "ref_scheme": "g"
   },
   {
@@ -23756,7 +23749,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2392
+   "count": 2393
   },
   {
    "id": "ara",
@@ -23823,7 +23816,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2685
+   "count": 2686
   },
   {
    "id": "AE",
@@ -24045,7 +24038,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2580
+   "count": 2581
   },
   {
    "id": "tablet",
@@ -24072,7 +24065,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1704
+   "count": 1705
   },
   {
    "id": "Safari",
@@ -24098,7 +24091,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1191
+   "count": 1192
   },
   {
    "id": "Windows",
