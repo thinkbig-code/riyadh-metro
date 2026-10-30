@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T08:31:41Z",
+ "generated": "2026-10-30T09:32:00Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3233,
+  "total": 3234,
   "total_events": 1612,
-  "total_utc": 3233,
+  "total_utc": 3234,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3233
+    "monthly": 3234
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 115
+    "weekly": 116
    },
    {
     "day": "2026-10-30",
@@ -10979,7 +10979,7 @@
      0,
      4,
      9,
-     2,
+     3,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 34
+    "daily": 35
    },
    {
     "day": "2026-10-31",
@@ -12144,6 +12144,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-muhammadiyah",
+   "path_id": 110846046,
+   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-23": 1,
+    "2026-10-29": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "station/murabba/from",
    "path_id": 110779379,
    "title": "en|name",
@@ -12627,18 +12640,6 @@
     "2026-10-10": 1,
     "2026-10-22": 1,
     "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-muhammadiyah",
-   "path_id": 110846046,
-   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-23": 1,
-    "2026-10-29": 1
    }
   },
   {
@@ -21684,9 +21685,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1621,
+  "visits": 1622,
   "events_total": 1612,
-  "goatcounter_total_with_events": 3233,
+  "goatcounter_total_with_events": 3234,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21716,7 +21717,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 23
+   "2026-10-30": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22687,6 +22688,16 @@
     "count": 4
    }
   ],
+  "/ar/districts/al-muhammadiyah": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/districts/qurtubah": [
    {
     "name": "chatgpt.com",
@@ -22758,16 +22769,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/districts/al-nakheel": [
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   },
-   {
-    "name": "Google",
     "count": 1
    }
   ]
@@ -22852,6 +22853,10 @@
    },
    {
     "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
@@ -23021,6 +23026,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-muhammadiyah",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/riyadh-care-hospital",
     "count": 3
    },
@@ -23086,10 +23095,6 @@
    },
    {
     "path": "/ar/districts/al-aqeeq",
-    "count": 1
-   },
-   {
-    "path": "/districts/al-nakheel",
     "count": 1
    }
   ],
@@ -23172,10 +23177,6 @@
    },
    {
     "path": "/districts/al-nada",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-nakheel",
     "count": 2
    },
    {
@@ -23541,7 +23542,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 643,
+   "count": 644,
    "ref_scheme": "g"
   },
   {
@@ -23842,7 +23843,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 727
+   "count": 728
   },
   {
    "id": "(unknown)",
@@ -23904,7 +23905,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2703
+   "count": 2704
   },
   {
    "id": "AE",
@@ -24131,7 +24132,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2599
+   "count": 2600
   },
   {
    "id": "tablet",
@@ -24163,7 +24164,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1443
+   "count": 1444
   },
   {
    "name": "",
@@ -24179,7 +24180,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1431
+   "count": 1432
   },
   {
    "id": "Android",
