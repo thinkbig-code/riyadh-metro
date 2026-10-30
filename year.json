@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T19:27:37Z",
+ "generated": "2026-10-30T20:19:27Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3315,
+  "total": 3318,
   "total_events": 1624,
-  "total_utc": 3315,
+  "total_utc": 3318,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3315
+    "monthly": 3318
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 197
+    "weekly": 200
    },
    {
     "day": "2026-10-30",
@@ -10990,9 +10990,9 @@
      15,
      12,
      0,
-     4
+     7
     ],
-    "daily": 116
+    "daily": 119
    },
    {
     "day": "2026-10-31",
@@ -11708,6 +11708,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-09": 2,
+    "2026-10-11": 1,
+    "2026-10-16": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/districts/al-rawdah",
    "path_id": 110465981,
    "title": "Nearest Metro Station to Al Rawdah, Riyadh: Khurais Road, 3.4 km",
@@ -11887,19 +11901,6 @@
     "2026-10-09": 1,
     "2026-10-22": 1,
     "2026-10-24": 2,
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-09": 2,
-    "2026-10-11": 1,
-    "2026-10-16": 1,
     "2026-10-26": 1
    }
   },
@@ -12518,6 +12519,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-fayha",
+   "path_id": 112330224,
+   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-23": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/ar/stations/jeddah-road",
    "path_id": 112221462,
    "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
@@ -12947,6 +12960,16 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/dallah-hospital",
+   "path_id": 116750840,
+   "title": "محطة مترو مستشفى دله النخيل: محطة حي الملك فهد، 13 دقيقة سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 2
    }
   },
   {
@@ -13614,17 +13637,6 @@
    "count": 2,
    "daily": {
     "2026-10-16": 2
-   }
-  },
-  {
-   "path": "/ar/districts/al-fayha",
-   "path_id": 112330224,
-   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -14623,16 +14635,6 @@
    "path": "/destinations/bangladesh-embassy",
    "path_id": 116773353,
    "title": "Bangladesh Embassy Riyadh Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/dallah-hospital",
-   "path_id": 116750840,
-   "title": "محطة مترو مستشفى دله النخيل: محطة حي الملك فهد، 13 دقيقة سيراً",
    "event": false,
    "count": 1,
    "daily": {
@@ -21942,9 +21944,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1691,
+  "visits": 1694,
   "events_total": 1624,
-  "goatcounter_total_with_events": 3315,
+  "goatcounter_total_with_events": 3318,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21974,7 +21976,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 93
+   "2026-10-30": 96
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22745,6 +22747,16 @@
     "count": 6
    }
   ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/districts/al-rawdah": [
    {
     "name": "Google",
@@ -22853,12 +22865,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/ar/districts/al-saadah": [
-   {
-    "name": "Google",
-    "count": 5
    }
   ],
   "/ur.html": [
@@ -23227,15 +23233,15 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-saadah",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/utayqah",
     "count": 5
    },
    {
     "path": "/ar/districts/al-maseef",
-    "count": 5
-   },
-   {
-    "path": "/ar/districts/al-saadah",
     "count": 5
    },
    {
@@ -23458,6 +23464,10 @@
    },
    {
     "path": "/ar/districts/al-nafel",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-saadah",
     "count": 1
    },
    {
@@ -23825,7 +23835,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 696,
+   "count": 697,
    "ref_scheme": "g"
   },
   {
@@ -23843,7 +23853,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 113,
+   "count": 114,
    "ref_scheme": "c"
   },
   {
@@ -24126,7 +24136,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 770
+   "count": 772
   },
   {
    "id": "(unknown)",
@@ -24188,7 +24198,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2785
+   "count": 2787
   },
   {
    "id": "AE",
@@ -24415,7 +24425,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2677
+   "count": 2679
   },
   {
    "id": "tablet",
@@ -24442,12 +24452,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1746
+   "count": 1747
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1494
+   "count": 1495
   },
   {
    "name": "",
@@ -24463,12 +24473,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1483
+   "count": 1484
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1229
+   "count": 1230
   },
   {
    "id": "Windows",
