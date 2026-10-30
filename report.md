@@ -1,6 +1,6 @@
 # Search opportunities: riyadhmetro.fyi
 
-Updated 2026-10-29. Search data 2026-10-01 to 2026-10-29 (about 2 days behind). Index statuses checked up to 2026-10-29.
+Updated 2026-10-30. Search data 2026-10-02 to 2026-10-30 (about 2 days behind). Index statuses checked up to 2026-10-30.
 
 ## 1. Fewer clicks than the position should bring
 Improve the title or description of the page, or the page itself.
@@ -12,8 +12,8 @@ Improve the title or description of the page, or the page itself.
 | خريطه المترو | 61 | 2 | 1.0 | /ar/map/ |
 | خريطة الميترو | 40 | 1 | 1.0 | /ar/map/ |
 | al murabba metro station | 78 | 0 | 4.3 | /stations/al-muorabba/ |
+| riyadh metro map | 182 | 1 | 5.6 | / |
 | metro near me | 142 | 0 | 9.6 | /nearest-station/ |
-| riyadh metro map | 174 | 1 | 5.8 | / |
 | "riyadh chamber" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com | 37 | 0 | 3.2 | /nearest-station/ |
 | metro map | 25 | 1 | 2.0 | /map/ |
 | manfuha metro station | 91 | 0 | 7.2 | /stations/manfouhah/ |
@@ -32,9 +32,9 @@ Improve the title or description of the page, or the page itself.
 
 | Query | Impr. | Pos. | Page |
 |---|---|---|---|
-| خريطة مترو الرياض | 114 | 17.9 | /ar/map/ |
+| خريطة مترو الرياض | 115 | 18.5 | /ar/map/ |
 | king fahad district 2 | 27 | 10.8 | /destinations/al-majdoul-tower/ |
-| nearest metro station | 26 | 18.6 | /nearest-station/ |
+| nearest metro station | 27 | 18.3 | /nearest-station/ |
 | محطة قصر الحكم | 18 | 12.9 | /ar/stations/qasr-al-hokm/ |
 | metro map riyadh | 15 | 15.9 | /map/ |
 | خريطة المترو الرياض | 14 | 17.3 | /ar/map/ |
@@ -42,11 +42,11 @@ Improve the title or description of the page, or the page itself.
 | metro riyadh working hours | 12 | 10.7 | /timings/ |
 | blue line metro | 11 | 13.7 | /lines/blue-line/ |
 | national museum metro | 11 | 11.0 | /destinations/national-museum/ |
+| aisha bint abu bakr metro station | 9 | 13.1 | /stations/aishah-bint-abi-bakr-street/ |
 | khurais metro station | 9 | 10.6 | /districts/west-naseem/ |
 | riyadh metro operation time | 9 | 10.9 | / |
 | sab bank metro station | 9 | 11.0 | / |
 | abu dhabi square metro station | 8 | 11.5 | / |
-| blue line metro route | 8 | 18.2 | /lines/blue-line/ |
 
 ## 3. Pages seen but never clicked
 
@@ -55,18 +55,18 @@ Improve the title or description of the page, or the page itself.
 | /ar/stations/dr-sulaiman-al-habib/ | 394 | 9.0 |
 | /ar/destinations/imam-university/ | 341 | 6.3 |
 | /lines/blue-line/ | 271 | 9.0 |
-| /ar/lines/ | 232 | 11.2 |
+| /ar/lines/ | 233 | 11.2 |
 | /ar/destinations/kingdom-centre/ | 226 | 6.8 |
 | /ar/districts/west-naseem/ | 224 | 6.5 |
-| /destinations/national-museum/ | 219 | 9.3 |
-| /stations/jarir-district/ | 205 | 5.2 |
+| /destinations/national-museum/ | 221 | 9.3 |
+| /stations/jarir-district/ | 206 | 5.2 |
 | /ar/stations/sab-bank/ | 203 | 8.5 |
 | /districts/al-aziziyah/ | 201 | 8.4 |
-| /stations/dr-sulaiman-al-habib/ | 196 | 5.7 |
+| /stations/dr-sulaiman-al-habib/ | 197 | 6.1 |
 | /ar/lines/yellow-line/ | 187 | 9.5 |
 | /lines/purple-line/ | 176 | 8.5 |
 | /stations/granada/ | 174 | 8.3 |
-| /stations/al-murooj/ | 158 | 4.8 |
+| /lines/green-line/ | 158 | 8.2 |
 
 ## 4. Index
 
@@ -97,14 +97,11 @@ Improve the title or description of the page, or the page itself.
 Request indexing by hand today (Search Console, URL inspection; skip any that already show as indexed):
 
 ```
-https://riyadhmetro.fyi/destinations/shola-mall/
-https://riyadhmetro.fyi/ar/districts/al-wizarat/
-https://riyadhmetro.fyi/ar/districts/al-wusayta/
 ```
 
 ## 5. English and Arabic searches
 
 | | Impressions | Clicks |
 |---|---|---|
-| English (top queries) | 4920 | 23 |
-| Arabic (top queries) | 3190 | 74 |
+| English (top queries) | 4931 | 23 |
+| Arabic (top queries) | 3191 | 74 |

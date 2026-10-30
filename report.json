@@ -1,11 +1,11 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-10-29",
+ "generated": "2026-10-30",
  "gsc_period": [
-  "2026-10-01",
-  "2026-10-29"
+  "2026-10-02",
+  "2026-10-30"
  ],
- "index_checked": "2026-10-29T02:09:21Z",
+ "index_checked": "2026-10-30T02:10:53Z",
  "low_ctr_queries": [
   {
    "query": "خريطة المترو",
@@ -48,20 +48,20 @@
    "lost_clicks": 5.46
   },
   {
+   "query": "riyadh metro map",
+   "impressions": 182,
+   "clicks": 1,
+   "position": 5.6,
+   "page": "/",
+   "lost_clicks": 4.46
+  },
+  {
    "query": "metro near me",
    "impressions": 142,
    "clicks": 0,
    "position": 9.6,
    "page": "/nearest-station/",
    "lost_clicks": 4.26
-  },
-  {
-   "query": "riyadh metro map",
-   "impressions": 174,
-   "clicks": 1,
-   "position": 5.8,
-   "page": "/",
-   "lost_clicks": 4.22
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -171,8 +171,8 @@
  "near_page_one": [
   {
    "query": "خريطة مترو الرياض",
-   "impressions": 114,
-   "position": 17.9,
+   "impressions": 115,
+   "position": 18.5,
    "page": "/ar/map/"
   },
   {
@@ -183,8 +183,8 @@
   },
   {
    "query": "nearest metro station",
-   "impressions": 26,
-   "position": 18.6,
+   "impressions": 27,
+   "position": 18.3,
    "page": "/nearest-station/"
   },
   {
@@ -230,6 +230,12 @@
    "page": "/destinations/national-museum/"
   },
   {
+   "query": "aisha bint abu bakr metro station",
+   "impressions": 9,
+   "position": 13.1,
+   "page": "/stations/aishah-bint-abi-bakr-street/"
+  },
+  {
    "query": "khurais metro station",
    "impressions": 9,
    "position": 10.6,
@@ -252,12 +258,6 @@
    "impressions": 8,
    "position": 11.5,
    "page": "/"
-  },
-  {
-   "query": "blue line metro route",
-   "impressions": 8,
-   "position": 18.2,
-   "page": "/lines/blue-line/"
   }
  ],
  "pages_no_clicks": [
@@ -278,7 +278,7 @@
   },
   {
    "page": "/ar/lines/",
-   "impressions": 232,
+   "impressions": 233,
    "position": 11.2
   },
   {
@@ -293,12 +293,12 @@
   },
   {
    "page": "/destinations/national-museum/",
-   "impressions": 219,
+   "impressions": 221,
    "position": 9.3
   },
   {
    "page": "/stations/jarir-district/",
-   "impressions": 205,
+   "impressions": 206,
    "position": 5.2
   },
   {
@@ -313,8 +313,8 @@
   },
   {
    "page": "/stations/dr-sulaiman-al-habib/",
-   "impressions": 196,
-   "position": 5.7
+   "impressions": 197,
+   "position": 6.1
   },
   {
    "page": "/ar/lines/yellow-line/",
@@ -332,9 +332,9 @@
    "position": 8.3
   },
   {
-   "page": "/stations/al-murooj/",
+   "page": "/lines/green-line/",
    "impressions": 158,
-   "position": 4.8
+   "position": 8.2
   }
  ],
  "index_by_type": {
@@ -444,18 +444,14 @@
    "not_checked": 0
   }
  },
- "request_today": [
-  "https://riyadhmetro.fyi/destinations/shola-mall/",
-  "https://riyadhmetro.fyi/ar/districts/al-wizarat/",
-  "https://riyadhmetro.fyi/ar/districts/al-wusayta/"
- ],
+ "request_today": [],
  "languages": {
   "en": {
-   "impressions": 4920,
+   "impressions": 4931,
    "clicks": 23
   },
   "ar": {
-   "impressions": 3190,
+   "impressions": 3191,
    "clicks": 74
   }
  },
