@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T20:17:52Z",
+ "generated": "2026-10-30T21:17:03Z",
  "start": "2026-09-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3318,
+  "total": 3324,
   "total_events": 1624,
-  "total_utc": 3318,
+  "total_utc": 3324,
   "stats": [
    {
     "day": "2026-09-30",
@@ -68,7 +68,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3318
+    "monthly": 3324
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      0
     ],
     "daily": 43,
-    "weekly": 243
+    "weekly": 249
    },
    {
     "day": "2026-10-29",
@@ -947,8 +947,8 @@
    {
     "day": "2026-10-31",
     "hourly": [
-     0,
-     0,
+     4,
+     2,
      0,
      0,
      0,
@@ -972,7 +972,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 6
    }
   ]
  },
@@ -1549,6 +1549,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 3,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "route/andalus/murabba",
    "path_id": 114026133,
    "title": "en|search|ok",
@@ -1556,6 +1569,20 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
+   }
+  },
+  {
+   "path": "/ar/destinations/royal-mall",
+   "path_id": 113928867,
+   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-26": 1,
+    "2026-10-31": 2
    }
   },
   {
@@ -1708,18 +1735,6 @@
     "2026-10-07": 3,
     "2026-10-08": 2,
     "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 3
    }
   },
   {
@@ -1992,19 +2007,6 @@
    "count": 4,
    "daily": {
     "2026-10-22": 4
-   }
-  },
-  {
-   "path": "/ar/destinations/royal-mall",
-   "path_id": 113928867,
-   "title": "محطة مترو رويال مول: محطة stc (المسار الأزرق والمسار الأحمر)، 7 دقائق سيراً",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-25": 1,
-    "2026-10-26": 1
    }
   },
   {
@@ -2619,6 +2621,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-taawun",
+   "path_id": 111501833,
+   "title": "أقرب محطة مترو لحي التعاون في الرياض: محطة طريق عثمان بن عفان، 3.1 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/districts/north-mathar",
    "path_id": 111103818,
    "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
@@ -2910,6 +2924,17 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-sulaimaniyah",
+   "path_id": 116872060,
+   "title": "أقرب محطة مترو لحي السليمانية في الرياض: محطة الضباب (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 1
    }
   },
   {
@@ -3808,17 +3833,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-taawun",
-   "path_id": 111501833,
-   "title": "أقرب محطة مترو لحي التعاون في الرياض: محطة طريق عثمان بن عفان، 3.1 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
    "path": "station/stc/to",
    "path_id": 111183552,
    "title": "en|name",
@@ -4382,6 +4396,16 @@
    }
   },
   {
+   "path": "/ar/stations/uthman-bin-affan-road",
+   "path_id": 116918149,
+   "title": "محطة طريق عثمان بن عفان، مترو الرياض: المسار الأصفر والمسار البنفسجي (رقم 62)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-quds",
    "path_id": 116890905,
    "title": "أقرب محطة مترو لحي القدس في الرياض: محطة طريق خالد بن الوليد (داخل الحي)",
@@ -4405,16 +4429,6 @@
    "path": "/ar/districts/king-abdullah",
    "path_id": 116872690,
    "title": "أقرب محطة مترو لحي الملك عبدالله: محطة مركز الرياض للمعارض (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-sulaimaniyah",
-   "path_id": 116872060,
-   "title": "أقرب محطة مترو لحي السليمانية في الرياض: محطة الضباب (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -11894,9 +11908,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1694,
+  "visits": 1700,
   "events_total": 1624,
-  "goatcounter_total_with_events": 3318,
+  "goatcounter_total_with_events": 3324,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11926,7 +11940,8 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 96
+   "2026-10-30": 96,
+   "2026-10-31": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12611,6 +12626,30 @@
     "count": 7
    }
   ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/royal-mall": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/al-maigliah-market": [
    {
     "name": "chatgpt.com",
@@ -12711,20 +12750,6 @@
    {
     "name": "Google",
     "count": 6
-   }
-  ],
-  "/ar/districts/al-aqeeq": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/districts/utayqah": [
@@ -12867,16 +12892,6 @@
    {
     "name": "(direct or unknown)",
     "count": 4
-   }
-  ],
-  "/ar/destinations/royal-mall": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/districts/al-wizarat": [
@@ -13057,15 +13072,15 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 1
+   },
+   {
     "path": "/ar/stations",
     "count": 1
    },
    {
     "path": "/ar/districts",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -13179,6 +13194,10 @@
     "count": 5
    },
    {
+    "path": "/ar/destinations/royal-mall",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/al-nafel",
     "count": 5
    },
@@ -13208,6 +13227,10 @@
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
+    "count": 4
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 4
    },
    {
@@ -13243,10 +13266,6 @@
     "count": 3
    },
    {
-    "path": "/ar/districts/al-aqeeq",
-    "count": 3
-   },
-   {
     "path": "/ar/destinations/sahara-mall",
     "count": 3
    },
@@ -13268,10 +13287,6 @@
    },
    {
     "path": "/ar/districts/ghobairah",
-    "count": 3
-   },
-   {
-    "path": "/ar/destinations/royal-mall",
     "count": 3
    },
    {
@@ -13413,6 +13428,14 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/royal-mall",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-nafel",
     "count": 1
    },
@@ -13421,19 +13444,11 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-aqeeq",
-    "count": 1
-   },
-   {
     "path": "/timings",
     "count": 1
    },
    {
     "path": "/ar/districts/ghobairah",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/royal-mall",
     "count": 1
    }
   ],
@@ -13785,7 +13800,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 697,
+   "count": 702,
    "ref_scheme": "g"
   },
   {
@@ -14081,12 +14096,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2446
+   "count": 2449
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 772
+   "count": 775
   },
   {
    "id": "(unknown)",
@@ -14148,7 +14163,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2787
+   "count": 2793
   },
   {
    "id": "AE",
@@ -14375,7 +14390,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2679
+   "count": 2685
   },
   {
    "id": "tablet",
@@ -14407,7 +14422,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1495
+   "count": 1501
   },
   {
    "name": "",
@@ -14423,7 +14438,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1484
+   "count": 1490
   },
   {
    "id": "Android",
