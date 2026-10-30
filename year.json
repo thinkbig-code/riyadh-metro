@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T05:24:16Z",
+ "generated": "2026-10-30T06:21:06Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3218,
+  "total": 3220,
   "total_events": 1606,
-  "total_utc": 3218,
+  "total_utc": 3220,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3218
+    "monthly": 3220
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 100
+    "weekly": 102
    },
    {
     "day": "2026-10-30",
@@ -10977,7 +10977,7 @@
      0,
      3,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 19
+    "daily": 21
    },
    {
     "day": "2026-10-31",
@@ -12875,6 +12875,17 @@
    }
   },
   {
+   "path": "/districts/al-oud",
+   "path_id": 116380962,
+   "title": "Nearest Metro Station to Al Oud, Riyadh: Al Margab (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/ar/destinations/riyadh-north-railway-station",
    "path_id": 115543085,
    "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
@@ -14268,6 +14279,16 @@
    }
   },
   {
+   "path": "/ar/destinations/kingdom-arena",
+   "path_id": 116679564,
+   "title": "محطة مترو المملكة أرينا: محطة المركز المالي",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "noresult/arriyadh_new_mobility",
    "path_id": 116593450,
    "title": "en|arriyadh new mobility",
@@ -14502,16 +14523,6 @@
    "path_id": 116447163,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-29": 1
-   }
-  },
-  {
-   "path": "/districts/al-oud",
-   "path_id": 116380962,
-   "title": "Nearest Metro Station to Al Oud, Riyadh: Al Margab (in the district)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-29": 1
@@ -21620,9 +21631,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1612,
+  "visits": 1614,
   "events_total": 1606,
-  "goatcounter_total_with_events": 3218,
+  "goatcounter_total_with_events": 3220,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21652,7 +21663,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 14
+   "2026-10-30": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23457,7 +23468,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1660,
+   "count": 1661,
    "ref_scheme": "o"
   },
   {
@@ -23487,7 +23498,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 106,
+   "count": 107,
    "ref_scheme": "c"
   },
   {
@@ -23759,12 +23770,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2395
+   "count": 2396
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 723
+   "count": 724
   },
   {
    "id": "(unknown)",
@@ -23826,7 +23837,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2690
+   "count": 2691
   },
   {
    "id": "AE",
@@ -24029,6 +24040,11 @@
    "count": 1
   },
   {
+   "id": "MY",
+   "name": "Malaysia",
+   "count": 1
+  },
+  {
    "id": "PH",
    "name": "Philippines",
    "count": 1
@@ -24048,7 +24064,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2585
+   "count": 2586
   },
   {
    "id": "tablet",
@@ -24058,7 +24074,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 477
+   "count": 478
   },
   {
    "id": "desktophd",
@@ -24075,12 +24091,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1706
+   "count": 1707
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1438
+   "count": 1439
   },
   {
    "name": "",
@@ -24096,7 +24112,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1426
+   "count": 1427
   },
   {
    "id": "Android",
@@ -24106,7 +24122,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 418
+   "count": 419
   },
   {
    "id": "macOS",
