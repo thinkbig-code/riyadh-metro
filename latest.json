@@ -1,44 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-29T23:16:35Z",
- "start": "2026-09-29",
- "end": "2026-10-30",
+ "generated": "2026-10-30T00:13:59Z",
+ "start": "2026-09-30",
+ "end": "2026-10-31",
  "total": {
-  "total": 3211,
-  "total_events": 1604,
-  "total_utc": 3211,
+  "total": 3213,
+  "total_events": 1605,
+  "total_utc": 3213,
   "stats": [
-   {
-    "day": "2026-09-29",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0,
-    "weekly": 35
-   },
    {
     "day": "2026-09-30",
     "hourly": [
@@ -67,7 +36,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 42
    },
    {
     "day": "2026-10-01",
@@ -98,7 +68,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3211
+    "monthly": 3213
    },
    {
     "day": "2026-10-02",
@@ -248,8 +218,7 @@
      0,
      0
     ],
-    "daily": 7,
-    "weekly": 1317
+    "daily": 7
    },
    {
     "day": "2026-10-07",
@@ -279,7 +248,8 @@
      44,
      42
     ],
-    "daily": 106
+    "daily": 106,
+    "weekly": 1440
    },
    {
     "day": "2026-10-08",
@@ -459,8 +429,7 @@
      10,
      4
     ],
-    "daily": 130,
-    "weekly": 901
+    "daily": 130
    },
    {
     "day": "2026-10-14",
@@ -490,7 +459,8 @@
      11,
      4
     ],
-    "daily": 165
+    "daily": 165,
+    "weekly": 899
    },
    {
     "day": "2026-10-15",
@@ -670,8 +640,7 @@
      6,
      4
     ],
-    "daily": 128,
-    "weekly": 797
+    "daily": 128
    },
    {
     "day": "2026-10-21",
@@ -701,7 +670,8 @@
      8,
      9
     ],
-    "daily": 98
+    "daily": 98,
+    "weekly": 694
    },
    {
     "day": "2026-10-22",
@@ -881,8 +851,7 @@
      2,
      0
     ],
-    "daily": 25,
-    "weekly": 161
+    "daily": 25
    },
    {
     "day": "2026-10-28",
@@ -912,7 +881,8 @@
      1,
      0
     ],
-    "daily": 43
+    "daily": 43,
+    "weekly": 138
    },
    {
     "day": "2026-10-29",
@@ -950,6 +920,36 @@
      4,
      5,
      3,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 14
+   },
+   {
+    "day": "2026-10-31",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -972,7 +972,7 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 0
    }
   ]
  },
@@ -2215,6 +2215,18 @@
    }
   },
   {
+   "path": "/ar/destinations/al-deira-market",
+   "path_id": 114600163,
+   "title": "محطة مترو أسواق الديرة: محطة مجمع المحاكم (المسار البرتقالي)، 5 دقائق سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "route/jeddahrd/granadia",
    "path_id": 114581451,
    "title": "ar|map|ok",
@@ -2866,17 +2878,6 @@
    "path": "/ar/districts/al-nakheel",
    "path_id": 114640641,
    "title": "أقرب محطة مترو لحي النخيل في الرياض: محطة المروج، 3.2 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-deira-market",
-   "path_id": 114600163,
-   "title": "محطة مترو أسواق الديرة: محطة مجمع المحاكم (المسار البرتقالي)، 5 دقائق سيراً",
    "event": false,
    "count": 2,
    "daily": {
@@ -4211,6 +4212,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "noresult/arriyadh_new_mobility",
+   "path_id": 116593450,
+   "title": "en|arriyadh new mobility",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -11556,9 +11567,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1607,
-  "events_total": 1604,
-  "goatcounter_total_with_events": 3211,
+  "visits": 1608,
+  "events_total": 1605,
+  "goatcounter_total_with_events": 3213,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11588,7 +11599,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 9
+   "2026-10-30": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -11629,11 +11640,15 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.052,
+  "failed_search_rate": 0.055,
   "failed_searches": [
    {
     "name": "baba sweet",
     "count": 2
+   },
+   {
+    "name": "arriyadh new mobility",
+    "count": 1
    },
    {
     "name": "قرطبة",
@@ -12573,6 +12588,20 @@
     "count": 3
    }
   ],
+  "/ar/destinations/al-deira-market": [
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-aqeeq": [
    {
     "name": "(direct or unknown)",
@@ -12611,20 +12640,6 @@
    {
     "name": "Google",
     "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-falah": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "Google",
-    "count": 1
    },
    {
     "name": "chatgpt.com",
@@ -12716,10 +12731,6 @@
    },
    {
     "path": "/ar/districts/al-aqeeq",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -12945,15 +12956,15 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/al-deira-market",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
     "path": "/districts/al-nakheel",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -13063,6 +13074,10 @@
     "count": 1
    },
    {
+    "path": "/ar/destinations/al-deira-market",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
@@ -13072,10 +13087,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-falah",
     "count": 1
    }
   ],
@@ -13382,12 +13393,18 @@
     "path": "/ar/lines/blue-line",
     "count": 1
    }
+  ],
+  "riyadhmetro.fyi/ar/destinations/al-maigliah-market": [
+   {
+    "path": "/ar/destinations/al-deira-market",
+    "count": 1
+   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1656,
+   "count": 1657,
    "ref_scheme": "o"
   },
   {
@@ -13417,7 +13434,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 105,
+   "count": 106,
    "ref_scheme": "c"
   },
   {
@@ -13689,7 +13706,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2390
+   "count": 2392
   },
   {
    "id": "ara",
@@ -13756,7 +13773,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2684
+   "count": 2685
   },
   {
    "id": "AE",
@@ -13819,6 +13836,11 @@
    "count": 10
   },
   {
+   "id": "AU",
+   "name": "Australia",
+   "count": 9
+  },
+  {
    "id": "CH",
    "name": "Switzerland",
    "count": 9
@@ -13842,11 +13864,6 @@
    "id": "PL",
    "name": "Poland",
    "count": 9
-  },
-  {
-   "id": "AU",
-   "name": "Australia",
-   "count": 8
   },
   {
    "id": "IE",
@@ -13978,7 +13995,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2579
+   "count": 2580
   },
   {
    "id": "tablet",
@@ -13988,7 +14005,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 476
+   "count": 477
   },
   {
    "id": "desktophd",
@@ -14005,12 +14022,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1703
+   "count": 1704
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1434
+   "count": 1435
   },
   {
    "name": "",
@@ -14026,7 +14043,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1422
+   "count": 1423
   },
   {
    "id": "Android",
@@ -14036,7 +14053,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 417
+   "count": 418
   },
   {
    "id": "macOS",
