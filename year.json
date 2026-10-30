@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T18:20:02Z",
+ "generated": "2026-10-30T19:27:37Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3311,
+  "total": 3315,
   "total_events": 1624,
-  "total_utc": 3311,
+  "total_utc": 3315,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3311
+    "monthly": 3315
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 193
+    "weekly": 197
    },
    {
     "day": "2026-10-30",
@@ -10990,9 +10990,9 @@
      15,
      12,
      0,
-     0
+     4
     ],
-    "daily": 112
+    "daily": 116
    },
    {
     "day": "2026-10-31",
@@ -11102,7 +11102,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 156,
+   "count": 158,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11123,7 +11123,7 @@
     "2026-10-26": 20,
     "2026-10-28": 1,
     "2026-10-29": 5,
-    "2026-10-30": 12
+    "2026-10-30": 14
    }
   },
   {
@@ -11747,6 +11747,18 @@
    }
   },
   {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 3
+   }
+  },
+  {
    "path": "/ar/districts/utayqah",
    "path_id": 114069559,
    "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
@@ -11995,18 +12007,6 @@
     "2026-10-24": 2,
     "2026-10-27": 1,
     "2026-10-28": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 2
    }
   },
   {
@@ -14417,6 +14417,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-quds",
+   "path_id": 116890905,
+   "title": "أقرب محطة مترو لحي القدس في الرياض: محطة طريق خالد بن الوليد (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21932,9 +21942,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1687,
+  "visits": 1691,
   "events_total": 1624,
-  "goatcounter_total_with_events": 3311,
+  "goatcounter_total_with_events": 3315,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21964,7 +21974,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 89
+   "2026-10-30": 93
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22328,7 +22338,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 122
+    "count": 124
    },
    {
     "name": "(direct or unknown)",
@@ -22741,6 +22751,20 @@
     "count": 6
    }
   ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/utayqah": [
    {
     "name": "Google",
@@ -22871,20 +22895,6 @@
    {
     "name": "chatgpt.com",
     "count": 4
-   }
-  ],
-  "/ar/districts/al-aqeeq": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/districts/ghobairah": [
@@ -23099,6 +23109,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 1
+   },
+   {
     "path": "/destinations/riyadh-front",
     "count": 1
    },
@@ -23108,10 +23122,6 @@
    },
    {
     "path": "/ar/districts/al-mursalat",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -23142,7 +23152,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 122
+    "count": 124
    },
    {
     "path": "/map",
@@ -23277,6 +23287,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 3
+   },
+   {
     "path": "/ar/destinations/sahara-mall",
     "count": 3
    },
@@ -23326,10 +23340,6 @@
    },
    {
     "path": "/timings",
-    "count": 2
-   },
-   {
-    "path": "/ar/districts/al-aqeeq",
     "count": 2
    },
    {
@@ -23451,11 +23461,11 @@
     "count": 1
    },
    {
-    "path": "/timings",
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
-    "path": "/ar/districts/al-aqeeq",
+    "path": "/timings",
     "count": 1
    },
    {
@@ -23815,7 +23825,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 691,
+   "count": 696,
    "ref_scheme": "g"
   },
   {
@@ -24111,12 +24121,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2442
+   "count": 2446
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 769
+   "count": 770
   },
   {
    "id": "(unknown)",
@@ -24178,7 +24188,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2780
+   "count": 2785
   },
   {
    "id": "AE",
@@ -24405,12 +24415,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2673
+   "count": 2677
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 81
+   "count": 82
   },
   {
    "id": "desktop",
@@ -24432,12 +24442,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1745
+   "count": 1746
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1490
+   "count": 1494
   },
   {
    "name": "",
@@ -24453,12 +24463,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1479
+   "count": 1483
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1228
+   "count": 1229
   },
   {
    "id": "Windows",
