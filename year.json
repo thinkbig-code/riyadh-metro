@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T14:36:34Z",
+ "generated": "2026-10-30T15:30:37Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3267,
-  "total_events": 1614,
-  "total_utc": 3267,
+  "total": 3276,
+  "total_events": 1615,
+  "total_utc": 3276,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3267
+    "monthly": 3276
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 149
+    "weekly": 158
    },
    {
     "day": "2026-10-30",
@@ -10986,13 +10986,13 @@
      11,
      2,
      11,
-     0,
+     9,
      0,
      0,
      0,
      0
     ],
-    "daily": 68
+    "daily": 77
    },
    {
     "day": "2026-10-31",
@@ -11070,7 +11070,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 549,
+   "count": 550,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11094,7 +11094,7 @@
     "2026-10-27": 4,
     "2026-10-28": 5,
     "2026-10-29": 10,
-    "2026-10-30": 5
+    "2026-10-30": 6
    }
   },
   {
@@ -11102,7 +11102,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 151,
+   "count": 152,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11123,7 +11123,7 @@
     "2026-10-26": 20,
     "2026-10-28": 1,
     "2026-10-29": 5,
-    "2026-10-30": 7
+    "2026-10-30": 8
    }
   },
   {
@@ -11162,7 +11162,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 34,
+   "count": 35,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -11181,7 +11181,8 @@
     "2026-10-24": 5,
     "2026-10-25": 4,
     "2026-10-26": 3,
-    "2026-10-29": 1
+    "2026-10-29": 1,
+    "2026-10-30": 1
    }
   },
   {
@@ -11820,6 +11821,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-maseef",
+   "path_id": 111125799,
+   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-11": 2,
+    "2026-10-20": 1,
+    "2026-10-21": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
@@ -11977,6 +11991,18 @@
     "2026-10-24": 2,
     "2026-10-27": 1,
     "2026-10-28": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 2
    }
   },
   {
@@ -12159,18 +12185,6 @@
     "2026-10-17": 1,
     "2026-10-25": 1,
     "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-maseef",
-   "path_id": 111125799,
-   "title": "أقرب محطة مترو لحي المصيف في الرياض: محطة المروج، 3.0 كم",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-11": 2,
-    "2026-10-20": 1,
-    "2026-10-21": 1
    }
   },
   {
@@ -12371,18 +12385,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
    "path": "/districts/al-nahdah",
    "path_id": 114572064,
    "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
@@ -12404,6 +12406,18 @@
     "2026-10-23": 1,
     "2026-10-26": 1,
     "2026-10-29": 1
+   }
+  },
+  {
+   "path": "/ar/stations/salahaddin",
+   "path_id": 114245825,
+   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1
    }
   },
   {
@@ -12542,6 +12556,17 @@
     "2026-10-15": 1,
     "2026-10-19": 1,
     "2026-10-20": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-manar",
+   "path_id": 111972641,
+   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 2,
+    "2026-10-30": 1
    }
   },
   {
@@ -13097,17 +13122,6 @@
    "count": 2,
    "daily": {
     "2026-10-23": 2
-   }
-  },
-  {
-   "path": "/ar/stations/salahaddin",
-   "path_id": 114245825,
-   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-23": 1,
-    "2026-10-25": 1
    }
   },
   {
@@ -13703,16 +13717,6 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-17": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-manar",
-   "path_id": 111972641,
-   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 2
    }
   },
   {
@@ -14364,6 +14368,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/ar-rabie",
+   "path_id": 116840193,
+   "title": "أقرب محطة مترو لحي الربيع في الرياض: محطة الربيع، 1.0 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/kafd",
+   "path_id": 116839636,
+   "title": "محطة مترو المركز المالي: محطة المركز المالي، 7 دقائق سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21799,9 +21823,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1653,
-  "events_total": 1614,
-  "goatcounter_total_with_events": 3267,
+  "visits": 1661,
+  "events_total": 1615,
+  "goatcounter_total_with_events": 3276,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21831,7 +21855,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 55
+   "2026-10-30": 63
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21856,14 +21880,14 @@
    "2026-10-27": 6,
    "2026-10-28": 8,
    "2026-10-29": 12,
-   "2026-10-30": 6
+   "2026-10-30": 7
   },
-  "visitor_days": 621,
+  "visitor_days": 622,
   "return_rate": 0.116,
   "routes": 432,
   "routes_not_found": 0,
   "routes_per_visit": 0.26,
-  "routes_per_visitor_day": 0.66,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.03,
   "shares": {
    "whatsapp": 4,
@@ -21959,7 +21983,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 549,
+   "new": 550,
    "return": 72
   },
   "top_routes": [
@@ -22195,7 +22219,7 @@
   "/ar/map": [
    {
     "name": "Google",
-    "count": 120
+    "count": 121
    },
    {
     "name": "(direct or unknown)",
@@ -22225,7 +22249,7 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/map",
-    "count": 7
+    "count": 8
    },
    {
     "name": "riyadhmetro.fyi",
@@ -22638,6 +22662,12 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-maseef": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/destinations/riyadh-front": [
    {
     "name": "Google",
@@ -22716,6 +22746,20 @@
    {
     "name": "chatgpt.com",
     "count": 4
+   }
+  ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "Google",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
    }
   ],
   "/ar/districts/ghobairah": [
@@ -22812,12 +22856,6 @@
     "count": 4
    }
   ],
-  "/ar/districts/al-maseef": [
-   {
-    "name": "Google",
-    "count": 4
-   }
-  ],
   "/ar/districts/al-sahafah": [
    {
     "name": "Google",
@@ -22866,12 +22904,6 @@
    {
     "name": "riyadhmetro.fyi/ar/map",
     "count": 1
-   }
-  ],
-  "/ar/destinations/riyadh-care-hospital": [
-   {
-    "name": "Google",
-    "count": 3
    }
   ]
  },
@@ -22950,6 +22982,10 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-wizarat",
     "count": 1
    },
@@ -22977,7 +23013,7 @@
   "Google": [
    {
     "path": "/ar/map",
-    "count": 120
+    "count": 121
    },
    {
     "path": "/map",
@@ -23056,6 +23092,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-maseef",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 5
    },
@@ -23093,10 +23133,6 @@
    },
    {
     "path": "/destinations/al-batha",
-    "count": 4
-   },
-   {
-    "path": "/ar/districts/al-maseef",
     "count": 4
    },
    {
@@ -23152,15 +23188,15 @@
     "count": 3
    },
    {
-    "path": "/ar/destinations/riyadh-care-hospital",
-    "count": 3
-   },
-   {
     "path": "/districts/ar-rabwah",
     "count": 2
    },
    {
     "path": "/timings",
+    "count": 2
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 2
    },
    {
@@ -23287,6 +23323,10 @@
    },
    {
     "path": "/timings",
+    "count": 1
+   },
+   {
+    "path": "/ar/districts/al-aqeeq",
     "count": 1
    },
    {
@@ -23423,7 +23463,7 @@
   "riyadhmetro.fyi/ar/map": [
    {
     "path": "/ar.html",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/ar/lines/orange-line",
@@ -23630,7 +23670,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 672,
+   "count": 679,
    "ref_scheme": "g"
   },
   {
@@ -23660,7 +23700,7 @@
   {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
-   "count": 49,
+   "count": 51,
    "ref_scheme": "h"
   },
   {
@@ -23926,12 +23966,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2426
+   "count": 2429
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 741
+   "count": 747
   },
   {
    "id": "(unknown)",
@@ -23993,7 +24033,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2737
+   "count": 2746
   },
   {
    "id": "AE",
@@ -24220,7 +24260,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2632
+   "count": 2641
   },
   {
    "id": "tablet",
@@ -24247,12 +24287,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1730
+   "count": 1734
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1463
+   "count": 1468
   },
   {
    "name": "",
@@ -24268,12 +24308,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1450
+   "count": 1455
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1216
+   "count": 1220
   },
   {
    "id": "Windows",
