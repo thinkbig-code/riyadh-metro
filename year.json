@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T09:32:00Z",
+ "generated": "2026-10-30T10:28:48Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3234,
+  "total": 3237,
   "total_events": 1612,
-  "total_utc": 3234,
+  "total_utc": 3237,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3234
+    "monthly": 3237
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 116
+    "weekly": 119
    },
    {
     "day": "2026-10-30",
@@ -10981,7 +10981,7 @@
      9,
      3,
      0,
-     0,
+     3,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 35
+    "daily": 38
    },
    {
     "day": "2026-10-31",
@@ -11252,7 +11252,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 19,
+   "count": 20,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -11262,7 +11262,8 @@
     "2026-10-24": 2,
     "2026-10-25": 4,
     "2026-10-26": 5,
-    "2026-10-28": 1
+    "2026-10-28": 1,
+    "2026-10-30": 1
    }
   },
   {
@@ -14290,6 +14291,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/dallah-hospital",
+   "path_id": 116750840,
+   "title": "محطة مترو مستشفى دله النخيل: محطة حي الملك فهد، 13 دقيقة سيراً",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/ar/stations/riyadh-exhibition-center",
+   "path_id": 116745513,
+   "title": "محطة مركز الرياض للمعارض، مترو الرياض: المسار الأحمر (رقم 34)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-30": 1
    }
   },
   {
@@ -21685,9 +21706,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1622,
+  "visits": 1625,
   "events_total": 1612,
-  "goatcounter_total_with_events": 3234,
+  "goatcounter_total_with_events": 3237,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21717,7 +21738,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 24
+   "2026-10-30": 27
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22207,7 +22228,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 15
+    "count": 16
    },
    {
     "name": "(direct or unknown)",
@@ -22891,7 +22912,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/ar/districts/al-arid",
@@ -23542,7 +23563,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 644,
+   "count": 646,
    "ref_scheme": "g"
   },
   {
@@ -23566,7 +23587,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 108,
+   "count": 109,
    "ref_scheme": "c"
   },
   {
@@ -23838,12 +23859,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2406
+   "count": 2407
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 728
+   "count": 730
   },
   {
    "id": "(unknown)",
@@ -23905,7 +23926,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2704
+   "count": 2707
   },
   {
    "id": "AE",
@@ -24132,7 +24153,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2600
+   "count": 2603
   },
   {
    "id": "tablet",
@@ -24164,7 +24185,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1444
+   "count": 1447
   },
   {
    "name": "",
@@ -24180,7 +24201,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1432
+   "count": 1435
   },
   {
    "id": "Android",
