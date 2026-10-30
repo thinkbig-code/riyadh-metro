@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-30T10:28:48Z",
+ "generated": "2026-10-30T11:19:45Z",
  "start": "2025-10-30",
  "end": "2026-10-31",
  "total": {
-  "total": 3237,
-  "total_events": 1612,
-  "total_utc": 3237,
+  "total": 3239,
+  "total_events": 1613,
+  "total_utc": 3239,
   "stats": [
    {
     "day": "2025-10-30",
@@ -10118,7 +10118,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3237
+    "monthly": 3239
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 119
+    "weekly": 121
    },
    {
     "day": "2026-10-30",
@@ -10981,7 +10981,7 @@
      9,
      3,
      0,
-     3,
+     5,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 38
+    "daily": 40
    },
    {
     "day": "2026-10-31",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 733,
+   "count": 734,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11062,7 +11062,7 @@
     "2026-10-27": 5,
     "2026-10-28": 8,
     "2026-10-29": 14,
-    "2026-10-30": 4
+    "2026-10-30": 5
    }
   },
   {
@@ -12890,6 +12890,16 @@
    }
   },
   {
+   "path": "route/dhabab/p_al_batha",
+   "path_id": 116703351,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 2
+   }
+  },
+  {
    "path": "/districts/al-oud",
    "path_id": 116380962,
    "title": "Nearest Metro Station to Al Oud, Riyadh: Al Margab (in the district)",
@@ -14327,16 +14337,6 @@
    "path": "view/dhabab/p_al_batha",
    "path_id": 116703436,
    "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "route/dhabab/p_al_batha",
-   "path_id": 116703351,
-   "title": "en|search|ok",
    "event": true,
    "count": 1,
    "daily": {
@@ -21706,9 +21706,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1625,
-  "events_total": 1612,
-  "goatcounter_total_with_events": 3237,
+  "visits": 1626,
+  "events_total": 1613,
+  "goatcounter_total_with_events": 3239,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -21738,7 +21738,7 @@
    "2026-10-27": 14,
    "2026-10-28": 21,
    "2026-10-29": 47,
-   "2026-10-30": 27
+   "2026-10-30": 28
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -21767,10 +21767,10 @@
   },
   "visitor_days": 620,
   "return_rate": 0.116,
-  "routes": 431,
+  "routes": 432,
   "routes_not_found": 0,
   "routes_per_visit": 0.27,
-  "routes_per_visitor_day": 0.65,
+  "routes_per_visitor_day": 0.66,
   "share_rate": 0.03,
   "shares": {
    "whatsapp": 4,
@@ -21915,6 +21915,10 @@
     "count": 3
    },
    {
+    "name": "dhabab > p_al_batha",
+    "count": 2
+   },
+   {
     "name": "hokm > uthman",
     "count": 2
    },
@@ -21924,10 +21928,6 @@
    },
    {
     "name": "p_king_saud_university > jeddahrd",
-    "count": 2
-   },
-   {
-    "name": "uthman > hokm",
     "count": 2
    }
   ],
@@ -22032,7 +22032,7 @@
    },
    {
     "name": "Google",
-    "count": 17
+    "count": 18
    },
    {
     "name": "Yahoo",
@@ -22908,7 +22908,7 @@
    },
    {
     "path": "/",
-    "count": 17
+    "count": 18
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -23563,7 +23563,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 646,
+   "count": 648,
    "ref_scheme": "g"
   },
   {
@@ -23859,7 +23859,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2407
+   "count": 2409
   },
   {
    "id": "ara",
@@ -23926,7 +23926,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2707
+   "count": 2709
   },
   {
    "id": "AE",
@@ -24153,7 +24153,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2603
+   "count": 2605
   },
   {
    "id": "tablet",
@@ -24180,7 +24180,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1716
+   "count": 1718
   },
   {
    "id": "Safari",
@@ -24206,7 +24206,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1202
+   "count": 1204
   },
   {
    "id": "Windows",
