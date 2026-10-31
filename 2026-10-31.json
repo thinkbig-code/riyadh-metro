@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T02:27:54Z",
+ "generated": "2026-10-31T03:24:51Z",
  "start": "2026-10-01",
  "end": "2026-11-01",
  "total": {
-  "total": 3335,
+  "total": 3339,
   "total_events": 1627,
-  "total_utc": 3335,
+  "total_utc": 3339,
   "stats": [
    {
     "day": "2026-10-01",
@@ -38,7 +38,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3335
+    "monthly": 3339
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 217
+    "weekly": 221
    },
    {
     "day": "2026-10-30",
@@ -923,8 +923,8 @@
      1,
      0,
      1,
+     4,
      1,
-     0,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 17
+    "daily": 21
    },
    {
     "day": "2026-11-01",
@@ -2312,6 +2312,17 @@
    }
   },
   {
+   "path": "/ar/destinations/via-riyadh",
+   "path_id": 114708731,
+   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-31": 2
+   }
+  },
+  {
    "path": "/ar/stations/granada",
    "path_id": 114703262,
    "title": "محطة غرناطة، مترو الرياض: المسار البنفسجي (رقم 79)",
@@ -2946,6 +2957,17 @@
    "path": "/ar/districts/al-sulaimaniyah",
    "path_id": 116872060,
    "title": "أقرب محطة مترو لحي السليمانية في الرياض: محطة الضباب (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-dry-port",
+   "path_id": 116868854,
+   "title": "Riyadh Dry Port Metro Station: Railway (Orange Line), 11 min walk",
    "event": false,
    "count": 2,
    "daily": {
@@ -4423,6 +4445,16 @@
    }
   },
   {
+   "path": "/destinations/alfaisal-university",
+   "path_id": 116985375,
+   "title": "Alfaisal University Metro Station: Ministry of Interior (Blue Line)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-ezdihar",
    "path_id": 116920151,
    "title": "أقرب محطة مترو لحي الازدهار في الرياض: محطة غرناطة، 1.4 كم",
@@ -4476,16 +4508,6 @@
    "path": "/ar/stations/western-station",
    "path_id": 116869318,
    "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/destinations/riyadh-dry-port",
-   "path_id": 116868854,
-   "title": "Riyadh Dry Port Metro Station: Railway (Orange Line), 11 min walk",
    "event": false,
    "count": 1,
    "daily": {
@@ -5636,16 +5658,6 @@
    "path": "/ar/districts/al-olaya",
    "path_id": 114711510,
    "title": "أقرب محطة مترو لحي العليا في الرياض: محطة بنك البلاد (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/via-riyadh",
-   "path_id": 114708731,
-   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
    "event": false,
    "count": 1,
    "daily": {
@@ -11925,9 +11937,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1708,
+  "visits": 1712,
   "events_total": 1627,
-  "goatcounter_total_with_events": 3335,
+  "goatcounter_total_with_events": 3339,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11958,7 +11970,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 14
+   "2026-10-31": 18
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13812,13 +13824,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1675,
+   "count": 1677,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 708,
+   "count": 710,
    "ref_scheme": "g"
   },
   {
@@ -14114,12 +14126,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2455
+   "count": 2457
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 780
+   "count": 782
   },
   {
    "id": "(unknown)",
@@ -14181,7 +14193,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2803
+   "count": 2805
   },
   {
    "id": "AE",
@@ -14191,7 +14203,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 96
+   "count": 97
   },
   {
    "id": "GB",
@@ -14389,6 +14401,11 @@
    "count": 1
   },
   {
+   "id": "HN",
+   "name": "Honduras",
+   "count": 1
+  },
+  {
    "id": "MY",
    "name": "Malaysia",
    "count": 1
@@ -14413,7 +14430,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2694
+   "count": 2696
   },
   {
    "id": "tablet",
@@ -14423,7 +14440,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 484
+   "count": 486
   },
   {
    "id": "desktophd",
@@ -14440,12 +14457,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1755
+   "count": 1757
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1504
+   "count": 1506
   },
   {
    "name": "",
@@ -14461,7 +14478,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1492
+   "count": 1494
   },
   {
    "id": "Android",
@@ -14471,7 +14488,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 423
+   "count": 425
   },
   {
    "id": "macOS",
