@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T01:41:19Z",
+ "generated": "2026-10-31T02:07:34Z",
  "start": "2025-10-31",
  "end": "2026-11-01",
  "total": {
-  "total": 3333,
+  "total": 3334,
   "total_events": 1627,
-  "total_utc": 3333,
+  "total_utc": 3334,
   "stats": [
    {
     "day": "2025-10-31",
@@ -10087,7 +10087,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3333
+    "monthly": 3334
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      7
     ],
     "daily": 119,
-    "weekly": 134
+    "weekly": 135
    },
    {
     "day": "2026-10-31",
@@ -10972,7 +10972,7 @@
      1,
      1,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 15
+    "daily": 16
    },
    {
     "day": "2026-11-01",
@@ -11548,6 +11548,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-aqeeq",
+   "path_id": 114577512,
+   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 3,
+    "2026-10-31": 2
+   }
+  },
+  {
    "path": "/ar/destinations/aster-sanad-hospital",
    "path_id": 112080374,
    "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
@@ -11600,19 +11613,6 @@
     "2026-10-11": 1,
     "2026-10-12": 3,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-aqeeq",
-   "path_id": 114577512,
-   "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 3,
-    "2026-10-31": 1
    }
   },
   {
@@ -21975,9 +21975,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1706,
+  "visits": 1707,
   "events_total": 1627,
-  "goatcounter_total_with_events": 3333,
+  "goatcounter_total_with_events": 3334,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -22008,7 +22008,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 12
+   "2026-10-31": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22668,6 +22668,20 @@
     "count": 8
    }
   ],
+  "/ar/districts/al-aqeeq": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
@@ -22692,20 +22706,6 @@
    {
     "name": "Google",
     "count": 7
-   }
-  ],
-  "/ar/districts/al-aqeeq": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/destinations/royal-mall": [
@@ -23262,6 +23262,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-aqeeq",
+    "count": 5
+   },
+   {
     "path": "/ar/destinations/royal-mall",
     "count": 5
    },
@@ -23295,10 +23299,6 @@
    },
    {
     "path": "/ar/destinations/aster-sanad-hospital",
-    "count": 4
-   },
-   {
-    "path": "/ar/districts/al-aqeeq",
     "count": 4
    },
    {
@@ -23868,7 +23868,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 707,
+   "count": 708,
    "ref_scheme": "g"
   },
   {
@@ -24169,7 +24169,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 779
+   "count": 780
   },
   {
    "id": "(unknown)",
@@ -24231,7 +24231,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2802
+   "count": 2803
   },
   {
    "id": "AE",
@@ -24458,7 +24458,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2693
+   "count": 2694
   },
   {
    "id": "tablet",
@@ -24485,7 +24485,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1753
+   "count": 1754
   },
   {
    "id": "Safari",
@@ -24511,7 +24511,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1236
+   "count": 1237
   },
   {
    "id": "Windows",
