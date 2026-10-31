@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T03:24:51Z",
+ "generated": "2026-10-31T04:23:31Z",
  "start": "2026-10-01",
  "end": "2026-11-01",
  "total": {
-  "total": 3339,
+  "total": 3340,
   "total_events": 1627,
-  "total_utc": 3339,
+  "total_utc": 3340,
   "stats": [
    {
     "day": "2026-10-01",
@@ -38,7 +38,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3339
+    "monthly": 3340
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 221
+    "weekly": 222
    },
    {
     "day": "2026-10-30",
@@ -924,7 +924,7 @@
      0,
      1,
      4,
-     1,
+     2,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 21
+    "daily": 22
    },
    {
     "day": "2026-11-01",
@@ -1956,6 +1956,17 @@
    }
   },
   {
+   "path": "/ar/destinations/via-riyadh",
+   "path_id": 114708731,
+   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-31": 3
+   }
+  },
+  {
    "path": "/destinations/riyadh-park-mall",
    "path_id": 114587867,
    "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
@@ -2309,17 +2320,6 @@
     "2026-10-24": 1,
     "2026-10-25": 1,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/via-riyadh",
-   "path_id": 114708731,
-   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-31": 2
    }
   },
   {
@@ -11937,9 +11937,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1712,
+  "visits": 1713,
   "events_total": 1627,
-  "goatcounter_total_with_events": 3339,
+  "goatcounter_total_with_events": 3340,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11970,7 +11970,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 18
+   "2026-10-31": 19
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12892,6 +12892,16 @@
     "count": 1
    }
   ],
+  "/ar/destinations/via-riyadh": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/via-riyadh",
+    "count": 1
+   }
+  ],
   "/destinations/riyadh-park-mall": [
    {
     "name": "Google",
@@ -13025,20 +13035,6 @@
    },
    {
     "name": "duckduckgo.com",
-    "count": 1
-   }
-  ],
-  "/ar/lines/blue-line": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
     "count": 1
    }
   ]
@@ -13312,6 +13308,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/via-riyadh",
+    "count": 3
+   },
+   {
     "path": "/destinations/riyadh-park-mall",
     "count": 3
    },
@@ -13349,10 +13349,6 @@
    },
    {
     "path": "/ar/districts/al-malqa",
-    "count": 2
-   },
-   {
-    "path": "/ar/lines/blue-line",
     "count": 2
    },
    {
@@ -13624,10 +13620,6 @@
    {
     "path": "/ar/districts",
     "count": 1
-   },
-   {
-    "path": "/ar/lines/blue-line",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi": [
@@ -13814,9 +13806,9 @@
     "count": 2
    }
   ],
-  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
+  "riyadhmetro.fyi/destinations/via-riyadh": [
    {
-    "path": "/ar/lines/blue-line",
+    "path": "/ar/destinations/via-riyadh",
     "count": 1
    }
   ]
@@ -13830,7 +13822,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 710,
+   "count": 711,
    "ref_scheme": "g"
   },
   {
@@ -14131,7 +14123,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 782
+   "count": 783
   },
   {
    "id": "(unknown)",
@@ -14193,7 +14185,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2805
+   "count": 2806
   },
   {
    "id": "AE",
@@ -14430,7 +14422,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2696
+   "count": 2697
   },
   {
    "id": "tablet",
@@ -14462,7 +14454,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1506
+   "count": 1507
   },
   {
    "name": "",
@@ -14478,7 +14470,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1494
+   "count": 1495
   },
   {
    "id": "Android",
