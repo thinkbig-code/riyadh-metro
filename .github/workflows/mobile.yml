@@ -25,7 +25,13 @@ jobs:
       - run: npm run check:core
       - run: npm run check:map
       - run: npm test
-      - run: npm run typecheck
+      - name: typecheck (errors become annotations)
+        run: |
+          set +e
+          npx tsc --noEmit --pretty false > tsc.txt 2>&1; code=$?
+          sed -nE 's/^(.+)\(([0-9]+),([0-9]+)\): error (TS[0-9]+): (.*)$/::error file=mobile\/\1,line=\2,col=\3::\4 \5/p' tsc.txt | head -50
+          cat tsc.txt | head -100
+          exit $code
       - run: npx playwright install --with-deps chromium
       - run: npm run test:parity
       - run: npm run export:native
