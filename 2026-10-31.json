@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T02:06:19Z",
+ "generated": "2026-10-31T02:27:54Z",
  "start": "2026-10-01",
  "end": "2026-11-01",
  "total": {
-  "total": 3334,
+  "total": 3335,
   "total_events": 1627,
-  "total_utc": 3334,
+  "total_utc": 3335,
   "stats": [
    {
     "day": "2026-10-01",
@@ -38,7 +38,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3334
+    "monthly": 3335
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 216
+    "weekly": 217
    },
    {
     "day": "2026-10-30",
@@ -923,7 +923,7 @@
      1,
      0,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 17
    },
    {
     "day": "2026-11-01",
@@ -1142,7 +1142,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 32,
+   "count": 33,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1159,7 +1159,7 @@
     "2026-10-23": 2,
     "2026-10-24": 2,
     "2026-10-26": 1,
-    "2026-10-31": 1
+    "2026-10-31": 2
    }
   },
   {
@@ -11925,9 +11925,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1707,
+  "visits": 1708,
   "events_total": 1627,
-  "goatcounter_total_with_events": 3334,
+  "goatcounter_total_with_events": 3335,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11958,7 +11958,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 13
+   "2026-10-31": 14
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12426,11 +12426,11 @@
     "count": 21
    },
    {
-    "name": "(direct or unknown)",
-    "count": 3
+    "name": "chatgpt.com",
+    "count": 4
    },
    {
-    "name": "chatgpt.com",
+    "name": "(direct or unknown)",
     "count": 3
    },
    {
@@ -13390,6 +13390,10 @@
     "count": 6
    },
    {
+    "path": "/map",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 4
    },
@@ -13404,10 +13408,6 @@
    {
     "path": "/districts/al-olaya",
     "count": 4
-   },
-   {
-    "path": "/map",
-    "count": 3
    },
    {
     "path": "/ar/districts/ar-rabwah",
@@ -13836,7 +13836,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 114,
+   "count": 115,
    "ref_scheme": "c"
   },
   {
@@ -14114,7 +14114,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2454
+   "count": 2455
   },
   {
    "id": "ara",
@@ -14402,6 +14402,11 @@
    "id": "SC",
    "name": "Seychelles",
    "count": 1
+  },
+  {
+   "id": "VN",
+   "name": "Vietnam",
+   "count": 1
   }
  ],
  "sizes": [
@@ -14418,7 +14423,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 483
+   "count": 484
   },
   {
    "id": "desktophd",
@@ -14435,7 +14440,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1754
+   "count": 1755
   },
   {
    "id": "Safari",
@@ -14466,7 +14471,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 422
+   "count": 423
   },
   {
    "id": "macOS",
