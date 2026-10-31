@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T08:26:31Z",
+ "generated": "2026-10-31T09:20:54Z",
  "start": "2025-10-31",
  "end": "2026-11-01",
  "total": {
-  "total": 3362,
+  "total": 3366,
   "total_events": 1631,
-  "total_utc": 3362,
+  "total_utc": 3366,
   "stats": [
    {
     "day": "2025-10-31",
@@ -10087,7 +10087,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3362
+    "monthly": 3366
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      7
     ],
     "daily": 119,
-    "weekly": 163
+    "weekly": 167
    },
    {
     "day": "2026-10-31",
@@ -10979,8 +10979,8 @@
      4,
      12,
      1,
-     4,
-     0,
+     7,
+     1,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 44
+    "daily": 48
    },
    {
     "day": "2026-11-01",
@@ -11300,7 +11300,7 @@
    "path_id": 112883345,
    "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
    "event": false,
-   "count": 15,
+   "count": 16,
    "daily": {
     "2026-10-19": 3,
     "2026-10-20": 2,
@@ -11309,7 +11309,8 @@
     "2026-10-23": 1,
     "2026-10-26": 2,
     "2026-10-29": 1,
-    "2026-10-30": 3
+    "2026-10-30": 3,
+    "2026-10-31": 1
    }
   },
   {
@@ -13648,6 +13649,17 @@
    }
   },
   {
+   "path": "/ar/destinations/al-rajhi-grand-mosque",
+   "path_id": 112682250,
+   "title": "محطة مترو جامع الراجحي: محطة جامع الراجحي (المسار البرتقالي)، 5 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/destinations/al-yamamah-university",
    "path_id": 112559294,
    "title": "محطة مترو جامعة اليمامة: محطة بنك الأول (المسار الأزرق)",
@@ -13870,6 +13882,17 @@
    "daily": {
     "2026-10-14": 1,
     "2026-10-17": 1
+   }
+  },
+  {
+   "path": "/lines/blue-line",
+   "path_id": 111981325,
+   "title": "Riyadh Metro Blue Line (Line 1): Stations, Map and Hours",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-31": 1
    }
   },
   {
@@ -14543,6 +14566,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/alinma-bank",
+   "path_id": 117082873,
+   "title": "Alinma Bank Metro Station, Riyadh: Blue Line, No. 10",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
    }
   },
   {
@@ -17086,16 +17119,6 @@
    }
   },
   {
-   "path": "/ar/destinations/al-rajhi-grand-mosque",
-   "path_id": 112682250,
-   "title": "محطة مترو جامع الراجحي: محطة جامع الراجحي (المسار البرتقالي)، 5 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-18": 1
-   }
-  },
-  {
    "path": "/stations/riyadh-exhibition-center",
    "path_id": 112679249,
    "title": "Riyadh Exhibition Center Metro Station, Riyadh: Red Line, No. 34",
@@ -17990,16 +18013,6 @@
    "path_id": 111994611,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/lines/blue-line",
-   "path_id": 111981325,
-   "title": "Riyadh Metro Blue Line (Line 1): Stations, Map and Hours",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-14": 1
@@ -22048,9 +22061,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1731,
+  "visits": 1735,
   "events_total": 1631,
-  "goatcounter_total_with_events": 3362,
+  "goatcounter_total_with_events": 3366,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -22081,7 +22094,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 37
+   "2026-10-31": 41
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22608,7 +22621,7 @@
   "/ar/lines": [
    {
     "name": "Google",
-    "count": 14
+    "count": 15
    },
    {
     "name": "riyadhmetro.fyi",
@@ -23296,7 +23309,7 @@
    },
    {
     "path": "/ar/lines",
-    "count": 14
+    "count": 15
    },
    {
     "path": "/ar/districts/qurtubah",
@@ -23971,7 +23984,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 716,
+   "count": 718,
    "ref_scheme": "g"
   },
   {
@@ -23989,7 +24002,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 115,
+   "count": 116,
    "ref_scheme": "c"
   },
   {
@@ -24267,12 +24280,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2470
+   "count": 2473
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 792
+   "count": 793
   },
   {
    "id": "(unknown)",
@@ -24334,7 +24347,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2823
+   "count": 2827
   },
   {
    "id": "US",
@@ -24571,7 +24584,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2715
+   "count": 2716
   },
   {
    "id": "tablet",
@@ -24581,7 +24594,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 490
+   "count": 493
   },
   {
    "id": "desktophd",
@@ -24598,7 +24611,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1772
+   "count": 1776
   },
   {
    "id": "Safari",
@@ -24624,17 +24637,17 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1248
+   "count": 1249
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 429
+   "count": 430
   },
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 134
+   "count": 136
   },
   {
    "id": "Linux",
