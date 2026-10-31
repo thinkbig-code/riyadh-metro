@@ -22,8 +22,8 @@ Replace: `App.tsx` and `src/components/MetroMap.tsx` (the old screens can be del
 
 ## Target design (to be confirmed by mockup, workstream 0)
 
-1. Map screen: map edge to edge, under a transparent status bar. Top: floating search pill "Where to? / إلى أين؟" plus a language/about button. Bottom right: one location button and one "fit network" button. Pinch and double-tap zoom, no +/- buttons. No footer.
-2. Search screen: full screen, opens from the pill. Two fields (From, To), swap icon, results list with station/place, line chips and district; "Use my location" row; recent trips; popular places. Same matching as the site (aliases, old names, Arabic, typo tolerance, all words in any order).
+1. Map screen: map edge to edge, under a transparent status bar. One round menu button at the top (language, saved trips, about). Bottom: a draggable panel that always shows two fields side by side, "From" and "To" (من / إلى), with a swap icon; pulling it up opens search. Above the panel on the side: one location button and one "fit network" button. Pinch and double-tap zoom, no +/- buttons. No footer.
+2. Search screen: full screen, opens when a From/To field is tapped or the panel is pulled up. Two fields (From, To), swap icon, results list with station/place, line chips and district; "Use my location" row; recent trips; popular places. Same matching as the site (aliases, old names, Arabic, typo tolerance, all words in any order).
 3. Route result: draggable bottom sheet with 3 heights (peek: time range, changes, fare; half: route options as cards; full: step-by-step with line colours, direction, stops count, walks, open-now/closing warning). Route highlighted on the map, rest dimmed. Share button (native share sheet, link `https://riyadhmetro.fyi/#from~to~lang`). Save trip (star).
 4. Station tap: small card over the map: name (both scripts), lines, former names, nearby places, buttons "From here" / "To here".
 5. About screen: unofficial disclaimer, data credits (RCRC open data, © OpenStreetMap contributors ODbL, Wikipedia), feedback email `callmebackemail@protonmail.com`, version and data date.
@@ -38,13 +38,23 @@ Replace: `App.tsx` and `src/components/MetroMap.tsx` (the old screens can be del
 - Tap targets at least 44pt even when stations are small.
 - Smooth 60 fps pan/zoom on a mid-range Android.
 
+## Visual style of the map (reference: Yandex Metro Moscow; take the ideas, never its assets or branding)
+
+- Dark theme is the hero look and is designed first; light theme follows the same rules. The theme follows the phone.
+- Thick, bright line strokes (about 2x the site), small station dots with a contrasting outline, generous spacing.
+- Interchanges drawn as one dark rounded shape holding one coloured dot per line, so transfers read at a glance.
+- Line number badges (coloured circles 1 to 6, matching the official line numbers) placed on each line, repeated at far zoom.
+- Large, clean labels set consistently beside stations, readable at the default zoom without halos crowding the map.
+- Small hub symbols for the airport terminals and the Riyadh railway station (SAR), drawn by us.
+- The wadi and water as a quiet darker band; district names faint, only when zoomed in.
+
 ## Workstreams
 
 Each one: small PR, description of what changed, screenshots for UI, `npm test`, `npm run typecheck`, `npm run check:core` green. Do not merge without Andrey's ok.
 
 | # | Workstream | Output | Depends on |
 |---|---|---|---|
-| 0 | Design mockup | 3 screens (map, search, route sheet) + station card, light and dark, AR and EN, as images or an HTML mockup. Andrey approves before UI code starts. | none |
+| 0 | Design mockup | Done 2026-10-31 (layout approved; search moved to the bottom From/To panel after the Yandex reference). The map style is judged on the first native map build. | none |
 | 1 | Map geometry extraction | Extend `scripts/extract-core.mjs` (or a sibling `extract-map.mjs`) to generate `src/core/mapGeometry.json`: station xy, label anchor/side/lines per language, line polylines with offsets, interchange/terminus flags, water, districts, landmarks, legend. Drift check in CI like the core. Unit test: counts match the site (83 stations, 6 lines). | none |
 | 2 | Native map renderer | `src/map/MetroMap.tsx` with `react-native-svg` + `react-native-gesture-handler` + `react-native-reanimated`: pan, pinch, double-tap, fit; level-of-detail labels; station hit-testing; route highlight; RTL-safe. Performance check on a real Android. | 1 (can start with current data) |
 | 3 | App shell, theme, navigation | New `App.tsx`: full-screen map, search pill, buttons, About screen, theme tokens, bundled fonts, status bar, safe areas, Android back closes overlays first. | 0 |
