@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T04:24:53Z",
+ "generated": "2026-10-31T05:21:24Z",
  "start": "2025-10-31",
  "end": "2026-11-01",
  "total": {
-  "total": 3340,
-  "total_events": 1627,
-  "total_utc": 3340,
+  "total": 3344,
+  "total_events": 1629,
+  "total_utc": 3344,
   "stats": [
    {
     "day": "2025-10-31",
@@ -10087,7 +10087,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3340
+    "monthly": 3344
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      7
     ],
     "daily": 119,
-    "weekly": 141
+    "weekly": 145
    },
    {
     "day": "2026-10-31",
@@ -10975,8 +10975,8 @@
      1,
      4,
      2,
-     0,
-     0,
+     1,
+     3,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 26
    },
    {
     "day": "2026-11-01",
@@ -11032,7 +11032,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 736,
+   "count": 737,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11062,7 +11062,8 @@
     "2026-10-27": 5,
     "2026-10-28": 8,
     "2026-10-29": 14,
-    "2026-10-30": 7
+    "2026-10-30": 7,
+    "2026-10-31": 1
    }
   },
   {
@@ -11070,7 +11071,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 551,
+   "count": 552,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11094,7 +11095,8 @@
     "2026-10-27": 4,
     "2026-10-28": 5,
     "2026-10-29": 10,
-    "2026-10-30": 7
+    "2026-10-30": 7,
+    "2026-10-31": 1
    }
   },
   {
@@ -11792,6 +11794,17 @@
    }
   },
   {
+   "path": "/ar/destinations/via-riyadh",
+   "path_id": 114708731,
+   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-31": 4
+   }
+  },
+  {
    "path": "/ar/districts/utayqah",
    "path_id": 114069559,
    "title": "أقرب محطة مترو لحي عتيقة في الرياض: محطة الجرادية، 2.3 كم",
@@ -12003,17 +12016,6 @@
    "count": 4,
    "daily": {
     "2026-10-26": 4
-   }
-  },
-  {
-   "path": "/ar/destinations/via-riyadh",
-   "path_id": 114708731,
-   "title": "محطة مترو ڤيا رياض: محطة جامعة الملك سعود (المسار الأحمر)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-31": 3
    }
   },
   {
@@ -14492,6 +14494,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/kafd/wurud2",
+   "path_id": 117012664,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
    }
   },
   {
@@ -21987,9 +21999,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1713,
-  "events_total": 1627,
-  "goatcounter_total_with_events": 3340,
+  "visits": 1715,
+  "events_total": 1629,
+  "goatcounter_total_with_events": 3344,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -22020,7 +22032,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 19
+   "2026-10-31": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22046,11 +22058,11 @@
    "2026-10-28": 8,
    "2026-10-29": 12,
    "2026-10-30": 9,
-   "2026-10-31": 2
+   "2026-10-31": 3
   },
-  "visitor_days": 626,
+  "visitor_days": 627,
   "return_rate": 0.12,
-  "routes": 437,
+  "routes": 438,
   "routes_not_found": 0,
   "routes_per_visit": 0.26,
   "routes_per_visitor_day": 0.66,
@@ -22149,7 +22161,7 @@
    "far": 3
   },
   "visitors_new_return": {
-   "new": 551,
+   "new": 552,
    "return": 75
   },
   "top_routes": [
@@ -22252,7 +22264,7 @@
     "count": 11
    },
    {
-    "name": "murabba",
+    "name": "kafd",
     "count": 11
    }
   ],
@@ -22303,7 +22315,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 485
+    "count": 486
    },
    {
     "name": "tiktok_ad",
@@ -22832,6 +22844,16 @@
     "count": 6
    }
   ],
+  "/ar/destinations/via-riyadh": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "riyadhmetro.fyi/destinations/via-riyadh",
+    "count": 1
+   }
+  ],
   "/ar/districts/utayqah": [
    {
     "name": "Google",
@@ -22939,16 +22961,6 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/via-riyadh": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "riyadhmetro.fyi/destinations/via-riyadh",
     "count": 1
    }
   ],
@@ -23093,7 +23105,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 485
+    "count": 486
    },
    {
     "path": "/ar/map",
@@ -23310,6 +23322,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/via-riyadh",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/ghirnatah",
     "count": 4
    },
@@ -23355,10 +23371,6 @@
    },
    {
     "path": "/ar/districts/al-mursalat",
-    "count": 3
-   },
-   {
-    "path": "/ar/destinations/via-riyadh",
     "count": 3
    },
    {
@@ -23834,6 +23846,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/destinations/via-riyadh": [
+   {
+    "path": "/ar/destinations/via-riyadh",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/ar/districts/al-hamra": [
    {
     "path": "/ar/districts/ghirnatah",
@@ -23855,24 +23873,18 @@
     "path": "/ur.html",
     "count": 2
    }
-  ],
-  "riyadhmetro.fyi/destinations/via-riyadh": [
-   {
-    "path": "/ar/destinations/via-riyadh",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1677,
+   "count": 1680,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 711,
+   "count": 712,
    "ref_scheme": "g"
   },
   {
@@ -24168,12 +24180,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2457
+   "count": 2460
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 783
+   "count": 784
   },
   {
    "id": "(unknown)",
@@ -24235,7 +24247,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2806
+   "count": 2807
   },
   {
    "id": "AE",
@@ -24245,7 +24257,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 97
+   "count": 100
   },
   {
    "id": "GB",
@@ -24472,7 +24484,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2697
+   "count": 2701
   },
   {
    "id": "tablet",
@@ -24499,12 +24511,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1757
+   "count": 1758
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1507
+   "count": 1510
   },
   {
    "name": "",
@@ -24520,12 +24532,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1495
+   "count": 1498
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1237
+   "count": 1238
   },
   {
    "id": "Windows",
