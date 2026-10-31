@@ -376,8 +376,6 @@ function AppShell() {
   return (
     <View style={[styles.container, { backgroundColor: colors.bg }]}>
       <StatusBar
-        translucent
-        backgroundColor="transparent"
         barStyle={theme.isDark ? "light-content" : "dark-content"}
       />
 
