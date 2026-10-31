@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T05:20:01Z",
+ "generated": "2026-10-31T06:17:37Z",
  "start": "2026-10-01",
  "end": "2026-11-01",
  "total": {
-  "total": 3344,
-  "total_events": 1629,
-  "total_utc": 3344,
+  "total": 3348,
+  "total_events": 1630,
+  "total_utc": 3348,
   "stats": [
    {
     "day": "2026-10-01",
@@ -38,7 +38,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3344
+    "monthly": 3348
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 226
+    "weekly": 230
    },
    {
     "day": "2026-10-30",
@@ -926,8 +926,8 @@
      4,
      2,
      1,
+     4,
      3,
-     0,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 26
+    "daily": 30
    },
    {
     "day": "2026-11-01",
@@ -1054,7 +1054,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 158,
+   "count": 159,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1075,7 +1075,8 @@
     "2026-10-26": 20,
     "2026-10-28": 1,
     "2026-10-29": 5,
-    "2026-10-30": 14
+    "2026-10-30": 14,
+    "2026-10-31": 1
    }
   },
   {
@@ -1115,7 +1116,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 39,
+   "count": 40,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1136,7 +1137,7 @@
     "2026-10-26": 3,
     "2026-10-29": 1,
     "2026-10-30": 4,
-    "2026-10-31": 1
+    "2026-10-31": 2
    }
   },
   {
@@ -4444,6 +4445,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/p_kafd_king_abdullah_financial_district/p_al_batha",
+   "path_id": 117031701,
+   "title": "ar|link|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/ar/routes/kafd-to-al-batha",
+   "path_id": 117031559,
+   "title": "من المركز المالي (كافد) إلى البطحاء بالمترو: الوقت والسعر والخطوات",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
    }
   },
   {
@@ -11949,9 +11970,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1715,
-  "events_total": 1629,
-  "goatcounter_total_with_events": 3344,
+  "visits": 1718,
+  "events_total": 1630,
+  "goatcounter_total_with_events": 3348,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -11982,7 +12003,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 21
+   "2026-10-31": 24
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12012,7 +12033,7 @@
   },
   "visitor_days": 627,
   "return_rate": 0.12,
-  "routes": 438,
+  "routes": 439,
   "routes_not_found": 0,
   "routes_per_visit": 0.26,
   "routes_per_visitor_day": 0.66,
@@ -12355,7 +12376,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 7
+    "count": 8
    },
    {
     "name": "riyadhmetro.fyi/ar/lines",
@@ -12441,6 +12462,10 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/stations/al-urubah",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/routes/kafd-to-al-batha",
     "count": 1
    }
   ],
@@ -12699,7 +12724,7 @@
    },
    {
     "name": "Google",
-    "count": 2
+    "count": 3
    }
   ],
   "/ar/stations": [
@@ -13304,6 +13329,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/al-maigliah-market",
+    "count": 3
+   },
+   {
     "path": "/ar/districts",
     "count": 3
    },
@@ -13342,10 +13371,6 @@
    {
     "path": "/destinations/riyadh-gallery-mall",
     "count": 3
-   },
-   {
-    "path": "/ar/destinations/al-maigliah-market",
-    "count": 2
    },
    {
     "path": "/districts/ar-rabwah",
@@ -13493,7 +13518,7 @@
   "www.bing.com": [
    {
     "path": "/ar/map",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/",
@@ -13726,6 +13751,12 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/routes/kafd-to-al-batha": [
+   {
+    "path": "/ar.html",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/destinations/riyadh-front": [
    {
     "path": "/map",
@@ -13834,7 +13865,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 712,
+   "count": 714,
    "ref_scheme": "g"
   },
   {
@@ -13882,7 +13913,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 22,
+   "count": 23,
    "ref_scheme": "h"
   },
   {
@@ -14114,14 +14145,14 @@
    "ref_scheme": "h"
   },
   {
-   "id": "www.reddit.com",
-   "name": "www.reddit.com",
-   "count": 1,
+   "id": "riyadhmetro.fyi/ar/routes/kafd-to-al-batha",
+   "name": "riyadhmetro.fyi/ar/routes/kafd-to-al-batha",
+   "count": 2,
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-   "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
+   "id": "www.reddit.com",
+   "name": "www.reddit.com",
    "count": 1,
    "ref_scheme": "h"
   }
@@ -14130,12 +14161,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2460
+   "count": 2464
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 784
+   "count": 785
   },
   {
    "id": "(unknown)",
@@ -14197,7 +14228,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2807
+   "count": 2812
   },
   {
    "id": "AE",
@@ -14434,7 +14465,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2701
+   "count": 2706
   },
   {
    "id": "tablet",
@@ -14461,12 +14492,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1758
+   "count": 1760
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1510
+   "count": 1513
   },
   {
    "name": "",
@@ -14482,12 +14513,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1498
+   "count": 1501
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1238
+   "count": 1240
   },
   {
    "id": "Windows",
