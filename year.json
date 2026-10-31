@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T07:36:20Z",
+ "generated": "2026-10-31T08:26:31Z",
  "start": "2025-10-31",
  "end": "2026-11-01",
  "total": {
-  "total": 3357,
+  "total": 3362,
   "total_events": 1631,
-  "total_utc": 3357,
+  "total_utc": 3362,
   "stats": [
    {
     "day": "2025-10-31",
@@ -10087,7 +10087,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3357
+    "monthly": 3362
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      7
     ],
     "daily": 119,
-    "weekly": 158
+    "weekly": 163
    },
    {
     "day": "2026-10-31",
@@ -10978,8 +10978,8 @@
      1,
      4,
      12,
-     0,
-     0,
+     1,
+     4,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 39
+    "daily": 44
    },
    {
     "day": "2026-11-01",
@@ -11104,7 +11104,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 159,
+   "count": 160,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11126,7 +11126,7 @@
     "2026-10-28": 1,
     "2026-10-29": 5,
     "2026-10-30": 14,
-    "2026-10-31": 1
+    "2026-10-31": 2
    }
   },
   {
@@ -11195,7 +11195,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 33,
+   "count": 35,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11212,7 +11212,7 @@
     "2026-10-23": 2,
     "2026-10-24": 2,
     "2026-10-26": 1,
-    "2026-10-31": 2
+    "2026-10-31": 4
    }
   },
   {
@@ -13939,6 +13939,17 @@
    }
   },
   {
+   "path": "/destinations/king-faisal-specialist-hospital",
+   "path_id": 111739456,
+   "title": "King Faisal Specialist Hospital Metro Station: Ministry of Interior",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "station/khaleej/to",
    "path_id": 111702874,
    "title": "ar|name",
@@ -14532,6 +14543,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/destinations/pif-tower",
+   "path_id": 117070764,
+   "title": "PIF Tower Metro Station: KAFD (Blue/Yellow/Purple lines), 11 min walk",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
    }
   },
   {
@@ -18315,16 +18336,6 @@
    }
   },
   {
-   "path": "/destinations/king-faisal-specialist-hospital",
-   "path_id": 111739456,
-   "title": "King Faisal Specialist Hospital Metro Station: Ministry of Interior",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-12": 1
-   }
-  },
-  {
    "path": "noresult/saudi_energy",
    "path_id": 111724051,
    "title": "en|saudi energy",
@@ -22037,9 +22048,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1726,
+  "visits": 1731,
   "events_total": 1631,
-  "goatcounter_total_with_events": 3357,
+  "goatcounter_total_with_events": 3362,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -22070,7 +22081,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 32
+   "2026-10-31": 37
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22443,7 +22454,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 8
+    "count": 9
    },
    {
     "name": "riyadhmetro.fyi/ar/lines",
@@ -22539,15 +22550,15 @@
   "/map": [
    {
     "name": "Google",
-    "count": 21
+    "count": 22
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 4
    },
    {
     "name": "chatgpt.com",
     "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 3
    },
    {
     "name": "www.bing.com",
@@ -23170,6 +23181,10 @@
     "count": 9
    },
    {
+    "path": "/map",
+    "count": 4
+   },
+   {
     "path": "/ar/districts/al-arid",
     "count": 4
    },
@@ -23180,10 +23195,6 @@
    {
     "path": "/districts/al-rawabi",
     "count": 4
-   },
-   {
-    "path": "/map",
-    "count": 3
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -23269,7 +23280,7 @@
    },
    {
     "path": "/map",
-    "count": 21
+    "count": 22
    },
    {
     "path": "/",
@@ -23597,7 +23608,7 @@
   "www.bing.com": [
    {
     "path": "/ar/map",
-    "count": 8
+    "count": 9
    },
    {
     "path": "/",
@@ -23954,13 +23965,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1680,
+   "count": 1683,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 715,
+   "count": 716,
    "ref_scheme": "g"
   },
   {
@@ -24008,7 +24019,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 23,
+   "count": 24,
    "ref_scheme": "h"
   },
   {
@@ -24256,7 +24267,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2465
+   "count": 2470
   },
   {
    "id": "ara",
@@ -24323,16 +24334,16 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2820
-  },
-  {
-   "id": "AE",
-   "name": "United Arab Emirates",
-   "count": 100
+   "count": 2823
   },
   {
    "id": "US",
    "name": "United States",
+   "count": 101
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
    "count": 100
   },
   {
@@ -24466,6 +24477,11 @@
    "count": 3
   },
   {
+   "id": "OM",
+   "name": "Oman",
+   "count": 3
+  },
+  {
    "id": "PE",
    "name": "Peru",
    "count": 3
@@ -24488,11 +24504,6 @@
   {
    "id": "KZ",
    "name": "Kazakhstan",
-   "count": 2
-  },
-  {
-   "id": "OM",
-   "name": "Oman",
    "count": 2
   },
   {
@@ -24560,7 +24571,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2714
+   "count": 2715
   },
   {
    "id": "tablet",
@@ -24570,7 +24581,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 486
+   "count": 490
   },
   {
    "id": "desktophd",
@@ -24587,7 +24598,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1767
+   "count": 1772
   },
   {
    "id": "Safari",
@@ -24613,12 +24624,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1247
+   "count": 1248
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 425
+   "count": 429
   },
   {
    "id": "macOS",
