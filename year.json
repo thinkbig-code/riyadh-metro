@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T10:17:24Z",
+ "generated": "2026-10-31T11:15:13Z",
  "start": "2025-10-31",
  "end": "2026-11-01",
  "total": {
-  "total": 3373,
+  "total": 3377,
   "total_events": 1633,
-  "total_utc": 3373,
+  "total_utc": 3377,
   "stats": [
    {
     "day": "2025-10-31",
@@ -10087,7 +10087,7 @@
      0
     ],
     "daily": 0,
-    "monthly": 3373
+    "monthly": 3377
    },
    {
     "day": "2026-10-02",
@@ -10962,7 +10962,7 @@
      7
     ],
     "daily": 119,
-    "weekly": 174
+    "weekly": 178
    },
    {
     "day": "2026-10-31",
@@ -10982,7 +10982,7 @@
      7,
      7,
      1,
-     0,
+     4,
      0,
      0,
      0,
@@ -10992,7 +10992,7 @@
      0,
      0
     ],
-    "daily": 55
+    "daily": 59
    },
    {
     "day": "2026-11-01",
@@ -11902,6 +11902,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/destinations/riyadh-front",
    "path_id": 110843025,
    "title": "Riyadh Front Exhibition & Conference Center Metro Station: PNU, 23 min walk",
@@ -12012,6 +12026,17 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
+   }
+  },
+  {
+   "path": "/ar/destinations/kingdom-arena",
+   "path_id": 116679564,
+   "title": "محطة مترو المملكة أرينا: محطة المركز المالي",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 3
    }
   },
   {
@@ -12213,19 +12238,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-10-17": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-22": 1,
     "2026-10-25": 1,
     "2026-10-30": 1
    }
@@ -14866,16 +14878,6 @@
    "path_id": 116703222,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/kingdom-arena",
-   "path_id": 116679564,
-   "title": "محطة مترو المملكة أرينا: محطة المركز المالي",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-30": 1
@@ -22064,9 +22066,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1740,
+  "visits": 1744,
   "events_total": 1633,
-  "goatcounter_total_with_events": 3373,
+  "goatcounter_total_with_events": 3377,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -22097,7 +22099,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 46
+   "2026-10-31": 50
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -22987,6 +22989,12 @@
     "count": 5
    }
   ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 5
+   }
+  ],
   "/destinations/riyadh-front": [
    {
     "name": "Google",
@@ -23032,6 +23040,16 @@
    },
    {
     "name": "Facebook",
+    "count": 2
+   }
+  ],
+  "/ar/destinations/kingdom-arena": [
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
     "count": 2
    }
   ],
@@ -23145,12 +23163,6 @@
     "count": 4
    }
   ],
-  "/ar/districts/al-sahafah": [
-   {
-    "name": "Google",
-    "count": 4
-   }
-  ],
   "/ar/districts/al-muhammadiyah": [
    {
     "name": "Google",
@@ -23168,16 +23180,6 @@
    },
    {
     "name": "Google",
-    "count": 1
-   }
-  ],
-  "/destinations/riyadh-gallery-mall": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "duckduckgo.com",
     "count": 1
    }
   ]
@@ -23218,6 +23220,10 @@
    },
    {
     "path": "/destinations/pakistan-embassy",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/kingdom-arena",
     "count": 2
    },
    {
@@ -23387,6 +23393,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-sahafah",
+    "count": 5
+   },
+   {
     "path": "/districts/al-arid",
     "count": 4
    },
@@ -23431,10 +23441,6 @@
     "count": 4
    },
    {
-    "path": "/ar/districts/al-sahafah",
-    "count": 4
-   },
-   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 3
    },
@@ -23472,10 +23478,6 @@
    },
    {
     "path": "/ar/districts/al-muhammadiyah",
-    "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
     "count": 3
    },
    {
@@ -23582,6 +23584,10 @@
    },
    {
     "path": "/destinations/diriyah",
+    "count": 2
+   },
+   {
+    "path": "/ar/destinations/kingdom-arena",
     "count": 2
    },
    {
@@ -23965,10 +23971,6 @@
    {
     "path": "/timings",
     "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
-    "count": 1
    }
   ],
   "Facebook": [
@@ -23981,13 +23983,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1686,
+   "count": 1688,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 720,
+   "count": 721,
    "ref_scheme": "g"
   },
   {
@@ -24005,7 +24007,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 116,
+   "count": 117,
    "ref_scheme": "c"
   },
   {
@@ -24283,12 +24285,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2479
+   "count": 2480
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 794
+   "count": 797
   },
   {
    "id": "(unknown)",
@@ -24350,7 +24352,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2834
+   "count": 2838
   },
   {
    "id": "US",
@@ -24587,7 +24589,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2723
+   "count": 2727
   },
   {
    "id": "tablet",
@@ -24614,12 +24616,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1776
+   "count": 1777
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1521
+   "count": 1524
   },
   {
    "name": "",
@@ -24635,12 +24637,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1509
+   "count": 1512
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1249
+   "count": 1250
   },
   {
    "id": "Windows",
