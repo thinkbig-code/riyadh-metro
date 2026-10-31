@@ -40,7 +40,7 @@ Replace: `App.tsx` and `src/components/MetroMap.tsx` (the old screens can be del
 
 ## Visual style of the map (reference: Yandex Metro Moscow; take the ideas, never its assets or branding)
 
-- Dark theme is the hero look and is designed first; light theme follows the same rules. The theme follows the phone.
+- Light and dark themes are equal and follow the phone setting; both get the same care (the Yandex reference screenshot was dark only because the phone was in dark mode).
 - Thick, bright line strokes (about 2x the site), small station dots with a contrasting outline, generous spacing.
 - Interchanges drawn as one dark rounded shape holding one coloured dot per line, so transfers read at a glance.
 - Line number badges (coloured circles 1 to 6, matching the official line numbers) placed on each line, repeated at far zoom.
