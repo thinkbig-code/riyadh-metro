@@ -42,11 +42,12 @@ Replace: `App.tsx` and `src/components/MetroMap.tsx` (the old screens can be del
 
 - Light and dark themes are equal and follow the phone setting; both get the same care (the Yandex reference screenshot was dark only because the phone was in dark mode).
 - Thick, bright line strokes (about 2x the site), small station dots with a contrasting outline, generous spacing.
-- Interchanges drawn as one dark rounded shape holding one coloured dot per line, so transfers read at a glance.
+- Interchanges drawn as one rounded shape holding one coloured dot per line, so transfers read at a glance: white fill with a dark outline in the light theme, dark grey in the dark theme.
+- Small grey pictograms for major landmarks (Kingdom Centre, Al Faisaliah, Masmak, National Museum, Boulevard, stadiums), faint enough not to compete with the lines.
 - Line number badges (coloured circles 1 to 6, matching the official line numbers) placed on each line, repeated at far zoom.
 - Large, clean labels set consistently beside stations, readable at the default zoom without halos crowding the map.
 - Small hub symbols for the airport terminals and the Riyadh railway station (SAR), drawn by us.
-- The wadi and water as a quiet darker band; district names faint, only when zoomed in.
+- The wadi and water as a soft light-blue band (darker band in the dark theme); district names faint, only when zoomed in.
 
 ## Workstreams
 
