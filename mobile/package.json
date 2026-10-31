@@ -12,7 +12,9 @@
     "typecheck": "tsc --noEmit",
     "check:core": "node scripts/extract-core.mjs --check",
     "test:parity": "node scripts/check-parity.cjs",
-    "export:native": "expo export --platform android --platform ios"
+    "export:native": "expo export --platform android --platform ios",
+    "generate:map": "node scripts/extract-map.mjs",
+    "check:map": "node scripts/extract-map.mjs --check"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",

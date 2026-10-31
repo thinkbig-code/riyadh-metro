@@ -23,6 +23,7 @@ jobs:
           cache-dependency-path: mobile/package-lock.json
       - run: npm ci
       - run: npm run check:core
+      - run: npm run check:map
       - run: npm test
       - run: npm run typecheck
       - run: npx playwright install --with-deps chromium
