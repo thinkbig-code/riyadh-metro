@@ -16,8 +16,8 @@ jobs:
         working-directory: mobile
         run: |
           npm ci
-          npx expo install react-native-gesture-handler react-native-reanimated @gorhom/bottom-sheet expo-font
+          npx expo install react-native-worklets
           git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
           git add package.json package-lock.json
-          git commit -m "mobile: add gesture-handler, reanimated, bottom-sheet, expo-font (expo install)"
+          git commit -m "mobile: add react-native-worklets (Reanimated 4 peer, expo install)"
           git push
