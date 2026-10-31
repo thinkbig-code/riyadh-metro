@@ -1,6 +1,20 @@
-import { MAP_GEOMETRY, MapStation, STATION_BY_ID } from "./geometry";
+import {
+  HUB_ICONS,
+  LINE_BADGES,
+  LineBadgePlacement,
+  MAP_GEOMETRY,
+  MapStation,
+  STATION_BY_ID,
+} from "./geometry";
 
 export type SvgTextAnchor = "start" | "middle" | "end";
+
+export interface BoundingBox {
+  x0: number;
+  y0: number;
+  x1: number;
+  y1: number;
+}
 
 export interface StationLabelLayout {
   id: string;
@@ -11,14 +25,30 @@ export interface StationLabelLayout {
   fontSize: number;
   lineHeight: number;
   isMajor: boolean;
+  bbox: BoundingBox;
 }
 
-const MANUAL_OFFSETS: Record<string, { dx: number; dy: number; anchor?: SvgTextAnchor }> = {
+export const FAR_ZOOM_THRESHOLD = 0.72;
+
+const NORMAL_MANUAL_OFFSETS: Record<
+  string,
+  { dx: number; dy: number; anchor?: SvgTextAnchor }
+> = {
   ishbiliyah: { dx: 4, dy: 15, anchor: "start" },
   stc: { dx: -11, dy: -11, anchor: "end" },
   hokm: { dx: -11, dy: -11, anchor: "end" },
   rabi: { dx: -10, dy: -11, anchor: "end" },
   naseem: { dx: -13, dy: -4, anchor: "end" },
+};
+
+const FAR_MANUAL_OFFSETS: Record<
+  string,
+  { dx: number; dy: number; anchor: SvgTextAnchor; vSide: "t" | "b" }
+> = {
+  rabi: { dx: 4, dy: 22, anchor: "start", vSide: "b" },
+  uthman: { dx: 18, dy: -18, anchor: "middle", vSide: "t" },
+  sabic: { dx: 8, dy: 22, anchor: "start", vSide: "b" },
+  hamra: { dx: 0, dy: -18, anchor: "middle", vSide: "t" },
 };
 
 function wrapArabicLabel(text: string, maxChars = 21): string[] {
@@ -50,45 +80,83 @@ export function getStationRadius(station: MapStation): number {
   return 5.0;
 }
 
+function boxesOverlap(a: BoundingBox, b: BoundingBox, pad = 2): boolean {
+  return !(
+    a.x1 + pad < b.x0 ||
+    b.x1 + pad < a.x0 ||
+    a.y1 + pad < b.y0 ||
+    b.y1 + pad < a.y0
+  );
+}
+
 export function computeStationLabel(
   station: MapStation,
   language: string,
+  renderScale = 1.0,
 ): StationLabelLayout {
   const isArabicScript = language === "ar" || language === "ur";
+  const isFar = renderScale < FAR_ZOOM_THRESHOLD;
+
   const lines = isArabicScript
-    ? wrapArabicLabel(station.ar)
+    ? isFar && station.ar.includes(" - ")
+      ? [station.ar.split(" - ")[0].trim()]
+      : wrapArabicLabel(station.ar)
     : station.labelEn && station.labelEn.length > 0
       ? station.labelEn
       : [station.en];
 
   const isMajor = station.interchange || station.terminus;
-  const fontSize = isMajor ? 13.0 : 12.0;
-  const lineHeight = isMajor ? 14.6 : 13.5;
+  const baseFontSize = isMajor ? 13.0 : 12.0;
+  const fontSize =
+    isFar && isMajor
+      ? Math.min(34, Math.max(baseFontSize, 11.5 / Math.max(0.28, renderScale)))
+      : baseFontSize;
+  const lineHeight = fontSize * 1.13;
   const totalHeight = lines.length * lineHeight;
 
   const r = getStationRadius(station);
-  const gap = r + 5.5;
-  const manual = MANUAL_OFFSETS[station.id];
+  const gap = r + (isFar ? 6.5 : 5.5);
 
   let anchor: SvgTextAnchor = "start";
   let lx = station.x;
   let ly = station.y;
 
-  if (manual) {
-    anchor = manual.anchor ?? "start";
-    lx = station.x + manual.dx;
-    ly = station.y + manual.dy - (anchor === "end" && station.side === "tl" ? totalHeight - lineHeight : 0);
+  const farManual = isFar ? FAR_MANUAL_OFFSETS[station.id] : undefined;
+  const normalManual = NORMAL_MANUAL_OFFSETS[station.id];
+
+  if (farManual) {
+    anchor = farManual.anchor;
+    lx = station.x + farManual.dx;
+    ly =
+      farManual.vSide === "t"
+        ? station.y + farManual.dy - (lines.length - 1) * lineHeight
+        : station.y + farManual.dy + fontSize * 0.78;
+  } else if (normalManual) {
+    anchor = normalManual.anchor ?? "start";
+    lx = station.x + normalManual.dx;
+    ly =
+      station.y +
+      normalManual.dy -
+      (anchor === "end" && station.side === "tl"
+        ? totalHeight - lineHeight
+        : 0);
   } else {
     switch (station.side) {
       case "r":
         anchor = "start";
         lx = station.x + gap;
-        ly = station.y - ((lines.length - 1) * lineHeight) / 2 + fontSize * 0.34;
+        ly =
+          station.y -
+          ((lines.length - 1) * lineHeight) / 2 +
+          fontSize * 0.34;
         break;
       case "l":
         anchor = "end";
         lx = station.x - gap;
-        ly = station.y - ((lines.length - 1) * lineHeight) / 2 + fontSize * 0.34;
+        ly =
+          station.y -
+          ((lines.length - 1) * lineHeight) / 2 +
+          fontSize * 0.34;
         break;
       case "t":
         anchor = "middle";
@@ -113,6 +181,18 @@ export function computeStationLabel(
     }
   }
 
+  const charFactor = isArabicScript ? 0.51 : 0.55;
+  const maxChars = Math.max(...lines.map((l) => l.length), 1);
+  const estWidth = maxChars * fontSize * charFactor;
+  const topY = ly - fontSize * 0.84;
+  const botY = topY + totalHeight;
+  const leftX =
+    anchor === "start"
+      ? lx
+      : anchor === "end"
+        ? lx - estWidth
+        : lx - estWidth / 2;
+
   return {
     id: station.id,
     x: lx,
@@ -122,19 +202,90 @@ export function computeStationLabel(
     fontSize,
     lineHeight,
     isMajor,
+    bbox: {
+      x0: leftX,
+      y0: topY,
+      x1: leftX + estWidth,
+      y1: botY,
+    },
   };
 }
 
-const LABEL_CACHE: Record<string, StationLabelLayout[]> = {};
+export function getVisibleStationLabels(
+  language: string,
+  renderScale: number,
+  activeStationIds: Set<string> | null,
+): StationLabelLayout[] {
+  const isFar = renderScale < FAR_ZOOM_THRESHOLD;
+  const stations = isFar
+    ? MAP_GEOMETRY.stations.filter(
+        (s) => s.interchange || s.terminus || activeStationIds?.has(s.id),
+      )
+    : MAP_GEOMETRY.stations;
 
-export function getAllStationLabels(language: string): StationLabelLayout[] {
-  const cacheKey = language === "ar" || language === "ur" ? "ar" : "en";
-  if (!LABEL_CACHE[cacheKey]) {
-    LABEL_CACHE[cacheKey] = MAP_GEOMETRY.stations.map((s) =>
-      computeStationLabel(s, cacheKey),
-    );
+  return stations.map((s) => computeStationLabel(s, language, renderScale));
+}
+
+export function getNonCollidingLineBadges(
+  language: string,
+  renderScale: number,
+  activeStationIds: Set<string> | null,
+): { badge: LineBadgePlacement; radius: number; fontSize: number }[] {
+  const isFar = renderScale < FAR_ZOOM_THRESHOLD;
+  const radius = isFar
+    ? Math.min(18, Math.max(10.5, 8.5 / Math.max(0.3, renderScale)))
+    : 9.5;
+  const fontSize = radius * 1.1;
+
+  const visibleLabels = getVisibleStationLabels(
+    language,
+    renderScale,
+    activeStationIds,
+  );
+
+  const obstacles: BoundingBox[] = [];
+
+  for (const st of MAP_GEOMETRY.stations) {
+    const sr = getStationRadius(st) + 2;
+    obstacles.push({
+      x0: st.x - sr,
+      y0: st.y - sr,
+      x1: st.x + sr,
+      y1: st.y + sr,
+    });
   }
-  return LABEL_CACHE[cacheKey];
+
+  for (const hub of HUB_ICONS) {
+    obstacles.push({
+      x0: hub.x - 9,
+      y0: hub.y - 9,
+      x1: hub.x + 9,
+      y1: hub.y + 9,
+    });
+  }
+
+  for (const lbl of visibleLabels) {
+    obstacles.push(lbl.bbox);
+  }
+
+  const accepted: { badge: LineBadgePlacement; radius: number; fontSize: number }[] = [];
+
+  for (const candidate of LINE_BADGES) {
+    const box: BoundingBox = {
+      x0: candidate.x - radius,
+      y0: candidate.y - radius,
+      x1: candidate.x + radius,
+      y1: candidate.y + radius,
+    };
+
+    const collides = obstacles.some((ob) => boxesOverlap(box, ob, 1.5));
+    if (!collides) {
+      accepted.push({ badge: candidate, radius, fontSize });
+      obstacles.push(box);
+    }
+  }
+
+  return accepted;
 }
 
 export function findNearestStation(

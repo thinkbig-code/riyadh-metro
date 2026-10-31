@@ -21,14 +21,12 @@ import {
   MAP_GEOMETRY,
   RouteHighlightInput,
   ThemeMode,
-  ZoomTier,
 } from "./geometry";
 import { computeBoundsForStationIds, findNearestStation } from "./labels";
 import {
   BadgesLayer,
   DistrictsLayer,
   LabelsLayer,
-  LandmarksLayer,
   LinesLayer,
   RouteOverlayLayer,
   SelectionLayer,
@@ -43,6 +41,7 @@ export interface MetroMapProps {
   route?: RouteHighlightInput | Route | null;
   onStationPress?: (stationId: string) => void;
   onLongPress?: (stationId: string) => void;
+  topInset?: number;
   bottomInset?: number;
   fontRegular?: string;
   fontBold?: string;
@@ -54,16 +53,39 @@ export interface MetroMapRef {
 }
 
 const BOX = MAP_GEOMETRY.box;
-const CANVAS_W = BOX.x1 - BOX.x0;
-const CANVAS_H = BOX.y1 - BOX.y0;
+const NET_W = BOX.x1 - BOX.x0;
+const NET_H = BOX.y1 - BOX.y0;
+
+const SVG_PAD = 110;
+const SVG_X0 = BOX.x0 - SVG_PAD;
+const SVG_Y0 = BOX.y0 - SVG_PAD;
+const CANVAS_W = NET_W + SVG_PAD * 2;
+const CANVAS_H = NET_H + SVG_PAD * 2;
 
 const DEFAULT_CENTER_X = 535;
 const DEFAULT_CENTER_Y = 645;
 const DEFAULT_SCALE = 1.0;
+const MAX_SCALE = 3.0;
 
-const MIN_SCALE = 0.28;
-const MAX_SCALE = 3.2;
-const BOUND_MARGIN = 180;
+function computeFitScale(
+  viewW: number,
+  viewH: number,
+  topInset: number,
+  bottomInset: number,
+): number {
+  "worklet";
+  if (viewW <= 0 || viewH <= 0) return 0.32;
+  const usableH = Math.max(200, viewH - topInset - bottomInset);
+  const padX = 14;
+  const padY = 18;
+  return Math.min(
+    1.0,
+    Math.max(
+      0.22,
+      Math.min((viewW - padX * 2) / NET_W, (usableH - padY * 2) / NET_H),
+    ),
+  );
+}
 
 function clampTranslation(
   tx: number,
@@ -71,21 +93,38 @@ function clampTranslation(
   scale: number,
   viewW: number,
   viewH: number,
+  topInset: number,
+  bottomInset: number,
 ): { x: number; y: number } {
   "worklet";
   if (viewW <= 0 || viewH <= 0) return { x: tx, y: ty };
-  const scaledW = CANVAS_W * scale;
-  const scaledH = CANVAS_H * scale;
 
-  const minTx = Math.min(BOUND_MARGIN, viewW - scaledW - BOUND_MARGIN);
-  const maxTx = Math.max(viewW - BOUND_MARGIN, BOUND_MARGIN);
-  const minTy = Math.min(BOUND_MARGIN, viewH - scaledH - BOUND_MARGIN);
-  const maxTy = Math.max(viewH - BOUND_MARGIN, BOUND_MARGIN);
+  const usableH = Math.max(200, viewH - topInset - bottomInset);
+  const netScaledW = NET_W * scale;
+  const netScaledH = NET_H * scale;
+  const marginX = 24;
+  const marginY = 24;
 
-  return {
-    x: Math.min(maxTx, Math.max(minTx, tx)),
-    y: Math.min(maxTy, Math.max(minTy, ty)),
-  };
+  let clampedX: number;
+  if (netScaledW <= viewW - marginX * 2) {
+    clampedX = viewW / 2 - (SVG_PAD + NET_W / 2) * scale;
+  } else {
+    const maxTx = marginX - SVG_PAD * scale;
+    const minTx = viewW - marginX - (SVG_PAD + NET_W) * scale;
+    clampedX = Math.min(maxTx, Math.max(minTx, tx));
+  }
+
+  let clampedY: number;
+  if (netScaledH <= usableH - marginY * 2) {
+    clampedY = topInset + usableH / 2 - (SVG_PAD + NET_H / 2) * scale;
+  } else {
+    const maxTy = topInset + marginY - SVG_PAD * scale;
+    const minTy =
+      viewH - bottomInset - marginY - (SVG_PAD + NET_H) * scale;
+    clampedY = Math.min(maxTy, Math.max(minTy, ty));
+  }
+
+  return { x: clampedX, y: clampedY };
 }
 
 const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
@@ -96,7 +135,8 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     route,
     onStationPress,
     onLongPress,
-    bottomInset = 0,
+    topInset = 0,
+    bottomInset = 88,
     fontRegular,
     fontBold,
   },
@@ -104,10 +144,11 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
 ) {
   const palette = MAP_GEOMETRY.colors[theme];
   const [viewport, setViewport] = useState({ width: 0, height: 0 });
-  const [zoomTier, setZoomTier] = useState<ZoomTier>("normal");
+  const [renderScale, setRenderScale] = useState<number>(DEFAULT_SCALE);
   const [initialized, setInitialized] = useState(false);
 
   const scale = useSharedValue(DEFAULT_SCALE);
+  const minScaleShared = useSharedValue(0.32);
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
 
@@ -119,28 +160,85 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   const pinchFocalX = useSharedValue(0);
   const pinchFocalY = useSharedValue(0);
 
-  const syncZoomTier = useCallback((nextScale: number) => {
-    const nextTier =
-      nextScale < 0.68 ? "far" : nextScale >= 1.25 ? "close" : "normal";
-    setZoomTier((prev) => (prev === nextTier ? prev : nextTier));
+  const commitRenderScale = useCallback((nextScale: number) => {
+    const quantized = Math.round(nextScale * 25) / 25;
+    setRenderScale((prev) =>
+      Math.abs(prev - quantized) < 0.03 ? prev : quantized,
+    );
   }, []);
+
+  useEffect(() => {
+    if (viewport.width > 0 && viewport.height > 0) {
+      const fScale = computeFitScale(
+        viewport.width,
+        viewport.height,
+        topInset,
+        bottomInset,
+      );
+      minScaleShared.value = fScale;
+      if (scale.value < fScale) {
+        const clamped = clampTranslation(
+          translateX.value,
+          translateY.value,
+          fScale,
+          viewport.width,
+          viewport.height,
+          topInset,
+          bottomInset,
+        );
+        scale.value = withTiming(fScale, { duration: 200 });
+        translateX.value = withTiming(clamped.x, { duration: 200 });
+        translateY.value = withTiming(clamped.y, { duration: 200 });
+        commitRenderScale(fScale);
+      }
+    }
+  }, [
+    bottomInset,
+    commitRenderScale,
+    minScaleShared,
+    scale,
+    topInset,
+    translateX,
+    translateY,
+    viewport.height,
+    viewport.width,
+  ]);
 
   const animateCameraTo = useCallback(
     (targetScale: number, targetTx: number, targetTy: number) => {
-      const clampedScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, targetScale));
+      const minS = computeFitScale(
+        viewport.width,
+        viewport.height,
+        topInset,
+        bottomInset,
+      );
+      minScaleShared.value = minS;
+      const clampedScale = Math.min(MAX_SCALE, Math.max(minS, targetScale));
       const clamped = clampTranslation(
         targetTx,
         targetTy,
         clampedScale,
         viewport.width,
         viewport.height,
+        topInset,
+        bottomInset,
       );
       scale.value = withTiming(clampedScale, { duration: 260 });
       translateX.value = withTiming(clamped.x, { duration: 260 });
       translateY.value = withTiming(clamped.y, { duration: 260 });
-      syncZoomTier(clampedScale);
+      commitRenderScale(clampedScale);
     },
-    [scale, syncZoomTier, translateX, translateY, viewport.height, viewport.width],
+    [
+      bottomInset,
+      commitRenderScale,
+      minScaleShared,
+      scale,
+      topInset,
+      translateX,
+      translateY,
+      viewport.height,
+      viewport.width,
+    ],
   );
 
   const onLayout = useCallback(
@@ -149,60 +247,85 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       if (width <= 0 || height <= 0) return;
       setViewport({ width, height });
 
+      const fScale = computeFitScale(width, height, topInset, bottomInset);
+      minScaleShared.value = fScale;
+
       if (!initialized) {
-        const usableH = Math.max(200, height - bottomInset);
+        const usableH = Math.max(200, height - topInset - bottomInset);
         const initScale = DEFAULT_SCALE;
-        const localCenterX = DEFAULT_CENTER_X - BOX.x0;
-        const localCenterY = DEFAULT_CENTER_Y - BOX.y0;
+        const localCenterX = DEFAULT_CENTER_X - SVG_X0;
+        const localCenterY = DEFAULT_CENTER_Y - SVG_Y0;
         const tx = width / 2 - localCenterX * initScale;
-        const ty = usableH / 2 - localCenterY * initScale;
-        const clamped = clampTranslation(tx, ty, initScale, width, height);
+        const ty = topInset + usableH / 2 - localCenterY * initScale;
+        const clamped = clampTranslation(
+          tx,
+          ty,
+          initScale,
+          width,
+          height,
+          topInset,
+          bottomInset,
+        );
         scale.value = initScale;
         translateX.value = clamped.x;
         translateY.value = clamped.y;
+        setRenderScale(initScale);
         setInitialized(true);
       }
     },
-    [bottomInset, initialized, scale, translateX, translateY],
+    [
+      bottomInset,
+      initialized,
+      minScaleShared,
+      scale,
+      topInset,
+      translateX,
+      translateY,
+    ],
   );
 
   const fitNetwork = useCallback(() => {
     if (viewport.width <= 0 || viewport.height <= 0) return;
-    const usableH = Math.max(200, viewport.height - bottomInset);
-    const padX = 28;
-    const padY = 42;
-    const fitScale = Math.min(
-      (viewport.width - padX * 2) / CANVAS_W,
-      (usableH - padY * 2) / CANVAS_H,
+    const fitScale = computeFitScale(
+      viewport.width,
+      viewport.height,
+      topInset,
+      bottomInset,
     );
-    const targetScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, fitScale));
-    const tx = (viewport.width - CANVAS_W * targetScale) / 2;
-    const ty = (usableH - CANVAS_H * targetScale) / 2;
-    animateCameraTo(targetScale, tx, ty);
-  }, [animateCameraTo, bottomInset, viewport.height, viewport.width]);
+    const usableH = Math.max(200, viewport.height - topInset - bottomInset);
+    const tx = viewport.width / 2 - (SVG_PAD + NET_W / 2) * fitScale;
+    const ty = topInset + usableH / 2 - (SVG_PAD + NET_H / 2) * fitScale;
+    animateCameraTo(fitScale, tx, ty);
+  }, [animateCameraTo, bottomInset, topInset, viewport.height, viewport.width]);
 
   const focus = useCallback(
     (stationIds: string[]) => {
       if (viewport.width <= 0 || viewport.height <= 0) return;
       const bounds = computeBoundsForStationIds(stationIds);
       if (!bounds) return;
-      const usableH = Math.max(200, viewport.height - bottomInset);
+      const minS = computeFitScale(
+        viewport.width,
+        viewport.height,
+        topInset,
+        bottomInset,
+      );
+      const usableH = Math.max(200, viewport.height - topInset - bottomInset);
       const spanX = Math.max(140, bounds.maxX - bounds.minX + 140);
       const spanY = Math.max(140, bounds.maxY - bounds.minY + 140);
       const targetScale = Math.min(
         1.45,
         Math.max(
-          0.42,
+          minS,
           Math.min((viewport.width - 48) / spanX, (usableH - 64) / spanY),
         ),
       );
-      const centerMapX = (bounds.minX + bounds.maxX) / 2 - BOX.x0;
-      const centerMapY = (bounds.minY + bounds.maxY) / 2 - BOX.y0;
+      const centerMapX = (bounds.minX + bounds.maxX) / 2 - SVG_X0;
+      const centerMapY = (bounds.minY + bounds.maxY) / 2 - SVG_Y0;
       const tx = viewport.width / 2 - centerMapX * targetScale;
-      const ty = usableH / 2 - centerMapY * targetScale;
+      const ty = topInset + usableH / 2 - centerMapY * targetScale;
       animateCameraTo(targetScale, tx, ty);
     },
-    [animateCameraTo, bottomInset, viewport.height, viewport.width],
+    [animateCameraTo, bottomInset, topInset, viewport.height, viewport.width],
   );
 
   useImperativeHandle(
@@ -223,10 +346,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   }, [focus, initialized, routeData]);
 
   const handleTapOnJS = useCallback(
-    (screenX: number, screenY: number, currentTx: number, currentTy: number, currentScale: number) => {
+    (
+      screenX: number,
+      screenY: number,
+      currentTx: number,
+      currentTy: number,
+      currentScale: number,
+    ) => {
       if (!onStationPress) return;
-      const mapX = (screenX - currentTx) / currentScale + BOX.x0;
-      const mapY = (screenY - currentTy) / currentScale + BOX.y0;
+      const mapX = (screenX - currentTx) / currentScale + SVG_X0;
+      const mapY = (screenY - currentTy) / currentScale + SVG_Y0;
       const hitRadiusUnits = Math.max(14, 24 / currentScale);
       const hit = findNearestStation(mapX, mapY, hitRadiusUnits);
       if (hit) {
@@ -237,10 +366,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   );
 
   const handleLongPressOnJS = useCallback(
-    (screenX: number, screenY: number, currentTx: number, currentTy: number, currentScale: number) => {
+    (
+      screenX: number,
+      screenY: number,
+      currentTx: number,
+      currentTy: number,
+      currentScale: number,
+    ) => {
       if (!onLongPress) return;
-      const mapX = (screenX - currentTx) / currentScale + BOX.x0;
-      const mapY = (screenY - currentTy) / currentScale + BOX.y0;
+      const mapX = (screenX - currentTx) / currentScale + SVG_X0;
+      const mapY = (screenY - currentTy) / currentScale + SVG_Y0;
       const hitRadiusUnits = Math.max(16, 26 / currentScale);
       const hit = findNearestStation(mapX, mapY, hitRadiusUnits);
       if (hit) {
@@ -265,11 +400,23 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             scale.value,
             viewport.width,
             viewport.height,
+            topInset,
+            bottomInset,
           );
           translateX.value = next.x;
           translateY.value = next.y;
         }),
-    [panStartX, panStartY, scale, translateX, translateY, viewport.height, viewport.width],
+    [
+      bottomInset,
+      panStartX,
+      panStartY,
+      scale,
+      topInset,
+      translateX,
+      translateY,
+      viewport.height,
+      viewport.width,
+    ],
   );
 
   const pinchGesture = useMemo(
@@ -285,7 +432,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         .onUpdate((e) => {
           const nextScale = Math.min(
             MAX_SCALE,
-            Math.max(MIN_SCALE, pinchStartScale.value * e.scale),
+            Math.max(minScaleShared.value, pinchStartScale.value * e.scale),
           );
           const ratio = nextScale / pinchStartScale.value;
           const rawTx =
@@ -298,22 +445,27 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             nextScale,
             viewport.width,
             viewport.height,
+            topInset,
+            bottomInset,
           );
           scale.value = nextScale;
           translateX.value = clamped.x;
           translateY.value = clamped.y;
         })
         .onEnd(() => {
-          runOnJS(syncZoomTier)(scale.value);
+          runOnJS(commitRenderScale)(scale.value);
         }),
     [
+      bottomInset,
+      commitRenderScale,
+      minScaleShared,
       pinchFocalX,
       pinchFocalY,
       pinchStartScale,
       pinchStartX,
       pinchStartY,
       scale,
-      syncZoomTier,
+      topInset,
       translateX,
       translateY,
       viewport.height,
@@ -341,13 +493,24 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             nextScale,
             viewport.width,
             viewport.height,
+            topInset,
+            bottomInset,
           );
           scale.value = withTiming(nextScale, { duration: 220 });
           translateX.value = withTiming(clamped.x, { duration: 220 });
           translateY.value = withTiming(clamped.y, { duration: 220 });
-          runOnJS(syncZoomTier)(nextScale);
+          runOnJS(commitRenderScale)(nextScale);
         }),
-    [scale, syncZoomTier, translateX, translateY, viewport.height, viewport.width],
+    [
+      bottomInset,
+      commitRenderScale,
+      scale,
+      topInset,
+      translateX,
+      translateY,
+      viewport.height,
+      viewport.width,
+    ],
   );
 
   const singleTapGesture = useMemo(
@@ -421,11 +584,11 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             <Svg
               width={CANVAS_W}
               height={CANVAS_H}
-              viewBox={`${BOX.x0} ${BOX.y0} ${CANVAS_W} ${CANVAS_H}`}
+              viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
             >
               <Rect
-                x={BOX.x0}
-                y={BOX.y0}
+                x={SVG_X0}
+                y={SVG_Y0}
                 width={CANVAS_W}
                 height={CANVAS_H}
                 fill={palette.bg}
@@ -441,27 +604,28 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
                 palette={palette}
                 theme={theme}
                 language={language}
-                zoomTier={zoomTier}
+                renderScale={renderScale}
                 fontRegular={fontRegular}
                 fontBold={fontBold}
               />
-              <LandmarksLayer palette={palette} zoomTier={zoomTier} />
               <LinesLayer palette={palette} dimmed={hasActiveRoute} />
-              <BadgesLayer
-                palette={palette}
-                zoomTier={zoomTier}
-                dimmed={hasActiveRoute}
-                fontBold={fontBold}
-              />
               <StationsLayer
                 palette={palette}
                 theme={theme}
                 dimmed={hasActiveRoute}
               />
+              <BadgesLayer
+                palette={palette}
+                language={language}
+                renderScale={renderScale}
+                activeStationIds={routeData ? routeData.stationIds : null}
+                dimmed={hasActiveRoute}
+                fontBold={fontBold}
+              />
               <LabelsLayer
                 palette={palette}
                 language={language}
-                zoomTier={zoomTier}
+                renderScale={renderScale}
                 activeStationIds={routeData ? routeData.stationIds : null}
                 fontRegular={fontRegular}
                 fontBold={fontBold}

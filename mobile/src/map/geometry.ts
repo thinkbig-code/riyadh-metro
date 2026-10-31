@@ -77,7 +77,13 @@ export interface LineBadgePlacement {
   number: number;
   x: number;
   y: number;
-  primary: boolean;
+}
+
+export interface HubIconPlacement {
+  stationId: string;
+  kind: "plane" | "train";
+  x: number;
+  y: number;
 }
 
 export interface RouteRenderData {
@@ -86,15 +92,6 @@ export interface RouteRenderData {
   walkSegments: { key: string; x1: number; y1: number; x2: number; y2: number }[];
   startStation: MapStation | null;
   endStation: MapStation | null;
-}
-
-export interface LandmarkPictogram {
-  id: string;
-  kind: "tower" | "faisaliah" | "fort" | "museum" | "stadium" | "boulevard";
-  x: number;
-  y: number;
-  en: string;
-  ar: string;
 }
 
 export const MAP_GEOMETRY = rawGeometry as unknown as MapGeometry;
@@ -153,38 +150,28 @@ export const PRECOMPUTED_LINE_PATHS: {
   })),
 );
 
-export const LINE_BADGES: LineBadgePlacement[] = [
-  { key: "b-1-start", lineId: "blue", number: 1, x: 318, y: 278, primary: true },
-  { key: "b-1-mid", lineId: "blue", number: 1, x: 440, y: 898, primary: false },
-  { key: "b-1-end", lineId: "blue", number: 1, x: 612, y: 1172, primary: true },
-
-  { key: "b-2-start", lineId: "red", number: 2, x: 278, y: 672, primary: true },
-  { key: "b-2-mid", lineId: "red", number: 2, x: 532, y: 510, primary: false },
-  { key: "b-2-end", lineId: "red", number: 2, x: 940, y: 350, primary: true },
-
-  { key: "b-3-start", lineId: "orange", number: 3, x: 20, y: 1158, primary: true },
-  { key: "b-3-mid1", lineId: "orange", number: 3, x: 318, y: 1042, primary: false },
-  { key: "b-3-mid2", lineId: "orange", number: 3, x: 652, y: 902, primary: false },
-  { key: "b-3-end", lineId: "orange", number: 3, x: 972, y: 583, primary: true },
-
-  { key: "b-4-start", lineId: "yellow", number: 4, x: 486, y: 306, primary: true },
-  { key: "b-4-end", lineId: "yellow", number: 4, x: 680, y: 50, primary: true },
-
-  { key: "b-5-start", lineId: "green", number: 5, x: 630, y: 480, primary: true },
-  { key: "b-5-end", lineId: "green", number: 5, x: 525, y: 835, primary: true },
-
-  { key: "b-6-start", lineId: "purple", number: 6, x: 562, y: 352, primary: true },
-  { key: "b-6-mid", lineId: "purple", number: 6, x: 880, y: 585, primary: false },
-  { key: "b-6-end", lineId: "purple", number: 6, x: 880, y: 704, primary: true },
+export const HUB_ICONS: HubIconPlacement[] = [
+  { stationId: "t12", kind: "plane", x: 659, y: 80 },
+  { stationId: "t34", kind: "plane", x: 659, y: 135 },
+  { stationId: "t5", kind: "plane", x: 659, y: 190 },
+  { stationId: "railway", kind: "train", x: 681, y: 850 },
 ];
 
-export const LANDMARK_PICTOGRAMS: LandmarkPictogram[] = [
-  { id: "lm-kingdom", kind: "tower", x: 395, y: 600, en: "Kingdom Centre", ar: "برج المملكة" },
-  { id: "lm-faisaliah", kind: "faisaliah", x: 400, y: 675, en: "Al Faisaliah", ar: "برج الفيصلية" },
-  { id: "lm-masmak", kind: "fort", x: 472, y: 948, en: "Al Masmak", ar: "قصر المصمك" },
-  { id: "lm-museum", kind: "museum", x: 482, y: 855, en: "National Museum", ar: "المتحف الوطني" },
-  { id: "lm-stadium", kind: "stadium", x: 965, y: 345, en: "King Fahad Stadium", ar: "استاد الملك فهد" },
-  { id: "lm-boulevard", kind: "boulevard", x: 285, y: 345, en: "Boulevard", ar: "بوليفارد" },
+export const LINE_BADGES: LineBadgePlacement[] = [
+  { key: "b-1-start", lineId: "blue", number: 1, x: 312, y: 266 },
+  { key: "b-1-end", lineId: "blue", number: 1, x: 616, y: 1185 },
+
+  { key: "b-2-start", lineId: "red", number: 2, x: 272, y: 686 },
+  { key: "b-2-end", lineId: "red", number: 2, x: 940, y: 330 },
+
+  { key: "b-3-start", lineId: "orange", number: 3, x: 20, y: 1166 },
+  { key: "b-3-end", lineId: "orange", number: 3, x: 976, y: 572 },
+
+  { key: "b-4-end", lineId: "yellow", number: 4, x: 680, y: 38 },
+
+  { key: "b-5-end", lineId: "green", number: 5, x: 535, y: 835 },
+
+  { key: "b-6-mid", lineId: "purple", number: 6, x: 880, y: 585 },
 ];
 
 function resolveLineForService(svc: string): MapLine | undefined {

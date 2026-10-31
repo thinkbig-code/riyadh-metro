@@ -17,6 +17,7 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
+import Svg, { Defs, LinearGradient, Rect, Stop } from "react-native-svg";
 import BottomSheet from "@gorhom/bottom-sheet";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Location from "expo-location";
@@ -164,7 +165,6 @@ function AppShell() {
         setSelectedStationId(null);
         setActiveField(null);
         if (parsed.language) setLanguage(parsed.language);
-        bottomSheetRef.current?.snapToIndex(1);
       }
     };
     Linking.getInitialURL()
@@ -217,14 +217,13 @@ function AppShell() {
         setActiveField(null);
         setSearchQuery("");
         Keyboard.dismiss();
-        bottomSheetRef.current?.snapToIndex(from && to ? 1 : 0);
         return true;
       }
       if (selectedStationId) {
         setSelectedStationId(null);
         return true;
       }
-      if (sheetIndex > 0) {
+      if (activeRoute && sheetIndex > 0) {
         bottomSheetRef.current?.snapToIndex(0);
         return true;
       }
@@ -236,7 +235,7 @@ function AppShell() {
       return false;
     });
     return () => sub.remove();
-  }, [activeField, from, menuOpen, selectedStationId, sheetIndex, to]);
+  }, [activeField, activeRoute, from, menuOpen, selectedStationId, sheetIndex, to]);
 
   const handleStationPress = useCallback((stationId: string) => {
     Keyboard.dismiss();
@@ -295,7 +294,6 @@ function AppShell() {
     setSelectedStationId(null);
     setActiveField(field);
     setSearchQuery("");
-    bottomSheetRef.current?.snapToIndex(2);
   }, []);
 
   const handleSelectSearchToken = useCallback(
@@ -308,7 +306,6 @@ function AppShell() {
           setActiveField("to");
         } else {
           setActiveField(null);
-          bottomSheetRef.current?.snapToIndex(1);
         }
       } else {
         setTo(token);
@@ -316,7 +313,6 @@ function AppShell() {
           setActiveField("from");
         } else {
           setActiveField(null);
-          bottomSheetRef.current?.snapToIndex(1);
         }
       }
     },
@@ -335,7 +331,6 @@ function AppShell() {
     setActiveField(null);
     setSearchQuery("");
     setSelectedStationId(null);
-    bottomSheetRef.current?.snapToIndex(0);
   }, []);
 
   const isCurrentRouteSaved = useMemo(
@@ -372,12 +367,13 @@ function AppShell() {
 
   const { colors } = theme;
   const topBarRow = directionalRow(rtl);
+  const scrimHeight = insets.top + 24;
+  const compactBarHeight = 76 + Math.max(12, insets.bottom + 8);
+  const mapBottomInset = activeRoute ? 185 : compactBarHeight;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bg }]}>
-      <StatusBar
-        barStyle={theme.isDark ? "light-content" : "dark-content"}
-      />
+      <StatusBar barStyle={theme.isDark ? "light-content" : "dark-content"} />
 
       <MetroMap
         ref={mapRef}
@@ -386,10 +382,27 @@ function AppShell() {
         selected={selectedStationId}
         route={activeRoute}
         onStationPress={handleStationPress}
-        bottomInset={160}
+        topInset={scrimHeight}
+        bottomInset={mapBottomInset}
         fontRegular={theme.fonts.regular}
         fontBold={theme.fonts.bold}
       />
+
+      <View
+        pointerEvents="none"
+        style={[styles.topScrim, { height: scrimHeight }]}
+      >
+        <Svg width="100%" height="100%">
+          <Defs>
+            <LinearGradient id="statusScrim" x1="0" y1="0" x2="0" y2="1">
+              <Stop offset="0" stopColor={colors.bg} stopOpacity="0.88" />
+              <Stop offset="0.65" stopColor={colors.bg} stopOpacity="0.5" />
+              <Stop offset="1" stopColor={colors.bg} stopOpacity="0" />
+            </LinearGradient>
+          </Defs>
+          <Rect x="0" y="0" width="100%" height="100%" fill="url(#statusScrim)" />
+        </Svg>
+      </View>
 
       <View
         pointerEvents="box-none"
@@ -415,11 +428,12 @@ function AppShell() {
         </Pressable>
       </View>
 
-      {!selectedStationId && (
+      {!selectedStationId && !activeField && (
         <View
           pointerEvents="box-none"
           style={[
             styles.sideButtonsWrap,
+            { bottom: mapBottomInset + 14 },
             rtl ? { left: 14 } : { right: 14 },
           ]}
         >
@@ -466,16 +480,10 @@ function AppShell() {
         onFromHere={(sid) => {
           setFrom(sid);
           setSelectedStationId(null);
-          if (to && to !== sid) {
-            bottomSheetRef.current?.snapToIndex(1);
-          }
         }}
         onToHere={(sid) => {
           setTo(sid);
           setSelectedStationId(null);
-          if (from && from !== sid) {
-            bottomSheetRef.current?.snapToIndex(1);
-          }
         }}
         onClose={() => setSelectedStationId(null)}
       />
@@ -502,14 +510,12 @@ function AppShell() {
           setTo(trip.to);
           setActiveField(null);
           setSearchQuery("");
-          bottomSheetRef.current?.snapToIndex(1);
         }}
         onUseLocation={handleLocate}
         onCloseSearch={() => {
           Keyboard.dismiss();
           setActiveField(null);
           setSearchQuery("");
-          bottomSheetRef.current?.snapToIndex(from && to ? 1 : 0);
         }}
         onSwap={handleSwap}
         onClear={handleClear}
@@ -536,7 +542,6 @@ function AppShell() {
           setFrom(trip.from);
           setTo(trip.to);
           setActiveField(null);
-          bottomSheetRef.current?.snapToIndex(1);
         }}
         onRemoveFavourite={(trip) =>
           setFavourites((prev) => prev.filter((item) => !sameTrip(item, trip)))
@@ -562,6 +567,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  topScrim: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+  },
   topOverlay: {
     position: "absolute",
     left: 14,
@@ -570,7 +581,6 @@ const styles = StyleSheet.create({
   },
   sideButtonsWrap: {
     position: "absolute",
-    bottom: "21%",
     gap: 10,
   },
   roundButton: {

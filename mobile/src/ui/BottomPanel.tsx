@@ -1,8 +1,8 @@
 import React, { forwardRef, useCallback, useMemo } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import type { MetroEngine, Route } from "../core/metro";
-import { getAppStrings } from "../i18n";
 import { AppTheme, directionalRow, directionalText } from "../theme";
 import type { SavedTrip } from "./MenuSheet";
 import RouteSheetContent from "./RouteSheetContent";
@@ -71,10 +71,9 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
     },
     ref,
   ) {
-    const snapPoints = useMemo(() => ["18%", "48%", "88%"], []);
+    const insets = useSafeAreaInsets();
     const { colors } = theme;
     const t = engine.text;
-    const s = getAppStrings(language);
     const txt = directionalText(rtl, theme, false);
     const txtBold = directionalText(rtl, theme, true);
     const rowDir = directionalRow(rtl);
@@ -84,6 +83,12 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
         ? routes[Math.min(selectedOption, routes.length - 1)]
         : null;
 
+    const hasSheetContent = Boolean(activeField || activeRoute);
+    const snapPoints = useMemo(
+      () => (activeField ? ["88%"] : ["22%", "50%", "88%"]),
+      [activeField],
+    );
+
     const handleChange = useCallback(
       (index: number) => {
         if (onSheetChange) onSheetChange(index);
@@ -91,10 +96,134 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
       [onSheetChange],
     );
 
+    const renderFieldsRow = () => (
+      <View style={[styles.fieldsRow, rowDir]}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("phFrom")}
+          onPress={() => onPressField("from")}
+          style={[
+            styles.fieldBox,
+            rowDir,
+            {
+              backgroundColor: colors.bg,
+              borderColor:
+                activeField === "from"
+                  ? colors.accent
+                  : from
+                    ? colors.accent
+                    : colors.rule,
+            },
+          ]}
+        >
+          <View
+            style={[
+              styles.fieldDot,
+              { backgroundColor: from ? colors.accent : colors.muted },
+            ]}
+          />
+          <Text
+            numberOfLines={1}
+            style={[
+              styles.fieldText,
+              from ? txtBold : txt,
+              { color: from ? colors.fg : colors.muted },
+            ]}
+          >
+            {from ? engine.name(from) : t("phFrom")}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("swap")}
+          onPress={onSwap}
+          style={[
+            styles.swapButton,
+            { backgroundColor: colors.bg, borderColor: colors.rule },
+          ]}
+        >
+          <Text style={[styles.swapIcon, { color: colors.fg }]}>⇄</Text>
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("phTo")}
+          onPress={() => onPressField("to")}
+          style={[
+            styles.fieldBox,
+            rowDir,
+            {
+              backgroundColor: colors.bg,
+              borderColor:
+                activeField === "to"
+                  ? colors.danger
+                  : to
+                    ? colors.danger
+                    : colors.rule,
+            },
+          ]}
+        >
+          <View
+            style={[
+              styles.fieldDot,
+              { backgroundColor: to ? colors.danger : colors.muted },
+            ]}
+          />
+          <Text
+            numberOfLines={1}
+            style={[
+              styles.fieldText,
+              to ? txtBold : txt,
+              { color: to ? colors.fg : colors.muted },
+            ]}
+          >
+            {to ? engine.name(to) : t("phTo")}
+          </Text>
+        </Pressable>
+
+        {(from !== "" || to !== "") && (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={t("clear")}
+            onPress={onClear}
+            style={[
+              styles.clearButton,
+              { backgroundColor: colors.bg, borderColor: colors.rule },
+            ]}
+          >
+            <Text style={[styles.clearIcon, { color: colors.muted }]}>✕</Text>
+          </Pressable>
+        )}
+      </View>
+    );
+
+    if (!hasSheetContent) {
+      return (
+        <View
+          style={[
+            styles.compactBar,
+            {
+              backgroundColor: colors.surface,
+              borderColor: colors.rule,
+              paddingBottom: Math.max(12, insets.bottom + 8),
+            },
+          ]}
+        >
+          {renderFieldsRow()}
+          {from !== "" && to !== "" && from === to && (
+            <Text style={[styles.sameHint, txt, { color: colors.muted }]}>
+              {t("hintSame")}
+            </Text>
+          )}
+        </View>
+      );
+    }
+
     return (
       <BottomSheet
         ref={ref}
-        index={0}
+        index={activeField ? 0 : 1}
         snapPoints={snapPoints}
         onChange={handleChange}
         enablePanDownToClose={false}
@@ -114,107 +243,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
         }}
       >
         <View style={styles.peekHeader}>
-          <View style={[styles.fieldsRow, rowDir]}>
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={t("phFrom")}
-              onPress={() => onPressField("from")}
-              style={[
-                styles.fieldBox,
-                rowDir,
-                {
-                  backgroundColor: colors.bg,
-                  borderColor:
-                    activeField === "from"
-                      ? colors.accent
-                      : from
-                        ? colors.accent
-                        : colors.rule,
-                },
-              ]}
-            >
-              <View
-                style={[
-                  styles.fieldDot,
-                  { backgroundColor: from ? colors.accent : colors.muted },
-                ]}
-              />
-              <Text
-                numberOfLines={1}
-                style={[
-                  styles.fieldText,
-                  from ? txtBold : txt,
-                  { color: from ? colors.fg : colors.muted },
-                ]}
-              >
-                {from ? engine.name(from) : t("phFrom")}
-              </Text>
-            </Pressable>
-
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={t("swap")}
-              onPress={onSwap}
-              style={[
-                styles.swapButton,
-                { backgroundColor: colors.bg, borderColor: colors.rule },
-              ]}
-            >
-              <Text style={[styles.swapIcon, { color: colors.fg }]}>⇄</Text>
-            </Pressable>
-
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={t("phTo")}
-              onPress={() => onPressField("to")}
-              style={[
-                styles.fieldBox,
-                rowDir,
-                {
-                  backgroundColor: colors.bg,
-                  borderColor:
-                    activeField === "to"
-                      ? colors.danger
-                      : to
-                        ? colors.danger
-                        : colors.rule,
-                },
-              ]}
-            >
-              <View
-                style={[
-                  styles.fieldDot,
-                  { backgroundColor: to ? colors.danger : colors.muted },
-                ]}
-              />
-              <Text
-                numberOfLines={1}
-                style={[
-                  styles.fieldText,
-                  to ? txtBold : txt,
-                  { color: to ? colors.fg : colors.muted },
-                ]}
-              >
-                {to ? engine.name(to) : t("phTo")}
-              </Text>
-            </Pressable>
-
-            {(from !== "" || to !== "") && (
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel={t("clear")}
-                onPress={onClear}
-                style={[
-                  styles.clearButton,
-                  { backgroundColor: colors.bg, borderColor: colors.rule },
-                ]}
-              >
-                <Text style={[styles.clearIcon, { color: colors.muted }]}>
-                  ✕
-                </Text>
-              </Pressable>
-            )}
-          </View>
+          {renderFieldsRow()}
 
           {activeRoute && !activeField && (
             <View style={[styles.quickSummaryRow, rowDir]}>
@@ -269,13 +298,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               onToggleSave={onToggleSaveRoute}
               onShare={onShareRoute}
             />
-          ) : (
-            <View style={styles.emptyWrap}>
-              <Text style={[styles.emptyHint, txt, { color: colors.muted }]}>
-                {from && to && from === to ? t("hintSame") : s.pullUpHint}
-              </Text>
-            </View>
-          )}
+          ) : null}
         </BottomSheetScrollView>
       </BottomSheet>
     );
@@ -283,6 +306,27 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
 );
 
 const styles = StyleSheet.create({
+  compactBar: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    paddingTop: 12,
+    paddingHorizontal: 14,
+    borderTopLeftRadius: 22,
+    borderTopRightRadius: 22,
+    borderTopWidth: 1,
+    gap: 6,
+    elevation: 8,
+    shadowColor: "#000",
+    shadowOpacity: 0.14,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: -2 },
+  },
+  sameHint: {
+    fontSize: 13,
+    paddingHorizontal: 4,
+  },
   peekHeader: {
     paddingHorizontal: 14,
     paddingBottom: 10,
@@ -349,12 +393,6 @@ const styles = StyleSheet.create({
   sheetContent: {
     paddingHorizontal: 14,
     paddingBottom: 32,
-  },
-  emptyWrap: {
-    paddingVertical: 18,
-  },
-  emptyHint: {
-    fontSize: 14,
   },
 });
 

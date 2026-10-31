@@ -1,8 +1,7 @@
-import React, { memo } from "react";
+import React, { memo, useMemo } from "react";
 import { Circle, G, Line, Path, Rect, Text as SvgText } from "react-native-svg";
 import {
-  LANDMARK_PICTOGRAMS,
-  LINE_BADGES,
+  HUB_ICONS,
   MAP_GEOMETRY,
   MapStation,
   PRECOMPUTED_LINE_PATHS,
@@ -11,11 +10,13 @@ import {
   ThemeMode,
   ThemePalette,
   WADI_SVG_PATH,
-  ZoomTier,
 } from "./geometry";
-import { getAllStationLabels, StationLabelLayout } from "./labels";
-
-const AIRPORT_STATION_IDS = new Set(["t12", "t34", "t5"]);
+import {
+  FAR_ZOOM_THRESHOLD,
+  getNonCollidingLineBadges,
+  getVisibleStationLabels,
+  StationLabelLayout,
+} from "./labels";
 
 interface BaseLayerProps {
   palette: ThemePalette;
@@ -62,13 +63,13 @@ export const WadiLayer = memo(function WadiLayer({
 export const DistrictsLayer = memo(function DistrictsLayer({
   palette,
   language,
-  zoomTier,
+  renderScale,
   fontBold,
-}: BaseLayerProps & { zoomTier: ZoomTier }) {
-  if (zoomTier === "far") return null;
+}: BaseLayerProps & { renderScale: number }) {
+  if (renderScale < FAR_ZOOM_THRESHOLD) return null;
   const isAr = language === "ar" || language === "ur";
   return (
-    <G opacity={zoomTier === "close" ? 0.38 : 0.25}>
+    <G opacity={renderScale >= 1.25 ? 0.36 : 0.24}>
       {MAP_GEOMETRY.districts.map((d) => (
         <SvgText
           key={d.en}
@@ -84,72 +85,6 @@ export const DistrictsLayer = memo(function DistrictsLayer({
           {isAr ? d.ar : d.en}
         </SvgText>
       ))}
-    </G>
-  );
-});
-
-export const LandmarksLayer = memo(function LandmarksLayer({
-  palette,
-  zoomTier,
-}: {
-  palette: ThemePalette;
-  zoomTier: ZoomTier;
-}) {
-  if (zoomTier === "far") return null;
-  const stroke = palette.muted;
-  return (
-    <G opacity={0.35}>
-      {LANDMARK_PICTOGRAMS.map((lm) => {
-        const { x, y, kind } = lm;
-        if (kind === "tower") {
-          return (
-            <Path
-              key={lm.id}
-              d={`M ${x - 4} ${y + 7} L ${x - 4} ${y - 5} L ${x - 2} ${y - 8} L ${x} ${y - 4} L ${x + 2} ${y - 8} L ${x + 4} ${y - 5} L ${x + 4} ${y + 7} Z`}
-              stroke={stroke}
-              strokeWidth={1.3}
-              fill="none"
-            />
-          );
-        }
-        if (kind === "faisaliah") {
-          return (
-            <G key={lm.id}>
-              <Path
-                d={`M ${x - 4} ${y + 7} L ${x} ${y - 9} L ${x + 4} ${y + 7} Z`}
-                stroke={stroke}
-                strokeWidth={1.3}
-                fill="none"
-              />
-              <Circle cx={x} cy={y - 3} r={1.8} fill={stroke} />
-            </G>
-          );
-        }
-        if (kind === "fort" || kind === "museum") {
-          return (
-            <Path
-              key={lm.id}
-              d={`M ${x - 6} ${y + 5} L ${x - 6} ${y - 4} L ${x - 3} ${y - 4} L ${x - 3} ${y - 2} L ${x + 3} ${y - 2} L ${x + 3} ${y - 4} L ${x + 6} ${y - 4} L ${x + 6} ${y + 5} Z`}
-              stroke={stroke}
-              strokeWidth={1.3}
-              fill="none"
-            />
-          );
-        }
-        return (
-          <Rect
-            key={lm.id}
-            x={x - 6}
-            y={y - 4}
-            width={12}
-            height={8}
-            rx={4}
-            stroke={stroke}
-            strokeWidth={1.3}
-            fill="none"
-          />
-        );
-      })}
     </G>
   );
 });
@@ -180,43 +115,49 @@ export const LinesLayer = memo(function LinesLayer({
 
 export const BadgesLayer = memo(function BadgesLayer({
   palette,
-  zoomTier,
+  language,
+  renderScale,
+  activeStationIds,
   dimmed,
   fontBold,
 }: {
   palette: ThemePalette;
-  zoomTier: ZoomTier;
+  language: string;
+  renderScale: number;
+  activeStationIds: Set<string> | null;
   dimmed: boolean;
   fontBold?: string;
 }) {
-  const badgeRadius = zoomTier === "far" ? 12.5 : 9.5;
-  const fontSize = zoomTier === "far" ? 13 : 10.5;
+  const visibleBadges = useMemo(
+    () => getNonCollidingLineBadges(language, renderScale, activeStationIds),
+    [activeStationIds, language, renderScale],
+  );
 
   return (
     <G opacity={dimmed ? 0.25 : 1}>
-      {LINE_BADGES.map((b) => {
-        const bg = palette[b.lineId];
-        const fg = b.lineId === "yellow" ? "#18212A" : "#FFFFFF";
+      {visibleBadges.map(({ badge, radius, fontSize }) => {
+        const bg = palette[badge.lineId];
+        const fg = badge.lineId === "yellow" ? "#18212A" : "#FFFFFF";
         return (
-          <G key={b.key}>
+          <G key={badge.key}>
             <Circle
-              cx={b.x}
-              cy={b.y}
-              r={badgeRadius}
+              cx={badge.x}
+              cy={badge.y}
+              r={radius}
               fill={bg}
               stroke={palette.bg}
               strokeWidth={2}
             />
             <SvgText
-              x={b.x}
-              y={b.y + fontSize * 0.35}
+              x={badge.x}
+              y={badge.y + fontSize * 0.35}
               fill={fg}
               fontSize={fontSize}
               fontWeight="700"
               fontFamily={fontBold}
               textAnchor="middle"
             >
-              {String(b.number)}
+              {String(badge.number)}
             </SvgText>
           </G>
         );
@@ -300,6 +241,54 @@ function renderSingleStation(
   );
 }
 
+function renderHubBadge(
+  stationId: string,
+  kind: "plane" | "train",
+  x: number,
+  y: number,
+  palette: ThemePalette,
+) {
+  const size = 16;
+  const half = size / 2;
+  return (
+    <G key={`hub-${stationId}`} transform={`translate(${x}, ${y})`}>
+      <Rect
+        x={-half}
+        y={-half}
+        width={size}
+        height={size}
+        rx={4.5}
+        fill={palette.surface}
+        stroke={palette.muted}
+        strokeWidth={1.1}
+      />
+      {kind === "plane" ? (
+        <Path
+          d="M -0.8 -5.2 C -0.8 -5.8 0.8 -5.8 0.8 -5.2 L 0.9 -1.6 L 5.2 0.8 L 5.2 2.0 L 0.9 0.7 L 0.8 3.5 L 2.6 4.7 L 2.6 5.6 L 0 4.9 L -2.6 5.6 L -2.6 4.7 L -0.8 3.5 L -0.9 0.7 L -5.2 2.0 L -5.2 0.8 L -0.9 -1.6 Z"
+          fill={palette.fg}
+        />
+      ) : (
+        <G>
+          <Path
+            d="M -3.8 -4.8 C -3.8 -5.4 -2.2 -5.8 0 -5.8 C 2.2 -5.8 3.8 -5.4 3.8 -4.8 L 4.2 1.8 C 4.2 2.8 3.4 3.5 2.4 3.5 L 3.8 5.5 L 2.3 5.5 L 1.1 3.5 L -1.1 3.5 L -2.3 5.5 L -3.8 5.5 L -2.4 3.5 C -3.4 3.5 -4.2 2.8 -4.2 1.8 Z"
+            fill={palette.fg}
+          />
+          <Rect
+            x={-2.7}
+            y={-3.8}
+            width={5.4}
+            height={2.6}
+            rx={0.8}
+            fill={palette.surface}
+          />
+          <Circle cx={-1.8} cy={1.4} r={0.85} fill={palette.surface} />
+          <Circle cx={1.8} cy={1.4} r={0.85} fill={palette.surface} />
+        </G>
+      )}
+    </G>
+  );
+}
+
 export const StationsLayer = memo(function StationsLayer({
   palette,
   theme,
@@ -314,37 +303,9 @@ export const StationsLayer = memo(function StationsLayer({
       {MAP_GEOMETRY.stations.map((station) =>
         renderSingleStation(station, palette, theme),
       )}
-      {MAP_GEOMETRY.stations
-        .filter((s) => AIRPORT_STATION_IDS.has(s.id) || s.id === "railway")
-        .map((s) => {
-          const hx = s.x - 13;
-          const hy = s.y;
-          if (s.id === "railway") {
-            return (
-              <Rect
-                key={`hub-${s.id}`}
-                x={hx - 4}
-                y={hy - 4}
-                width={8}
-                height={8}
-                rx={2}
-                stroke={palette.muted}
-                strokeWidth={1.5}
-                fill={palette.surface}
-              />
-            );
-          }
-          return (
-            <Path
-              key={`hub-${s.id}`}
-              d={`M ${hx - 4} ${hy} L ${hx + 4} ${hy} M ${hx} ${hy - 4} L ${hx + 2} ${hy} L ${hx} ${hy + 4}`}
-              stroke={palette.muted}
-              strokeWidth={1.5}
-              strokeLinecap="round"
-              fill="none"
-            />
-          );
-        })}
+      {HUB_ICONS.map((hub) =>
+        renderHubBadge(hub.stationId, hub.kind, hub.x, hub.y, palette),
+      )}
     </G>
   );
 });
@@ -357,6 +318,7 @@ function renderLabelNode(
 ) {
   const family = lbl.isMajor ? fontBold : fontRegular;
   const weight = lbl.isMajor ? "700" : "500";
+  const haloWidth = Math.max(3.6, lbl.fontSize * 0.28);
   return (
     <G key={lbl.id}>
       {lbl.lines.map((lineText, idx) => {
@@ -371,7 +333,7 @@ function renderLabelNode(
               fontWeight={weight}
               fontFamily={family}
               stroke={palette.bg}
-              strokeWidth={3.6}
+              strokeWidth={haloWidth}
               strokeLinejoin="round"
               fill="none"
             >
@@ -398,23 +360,22 @@ function renderLabelNode(
 export const LabelsLayer = memo(function LabelsLayer({
   palette,
   language,
-  zoomTier,
+  renderScale,
   activeStationIds,
   fontRegular,
   fontBold,
 }: {
   palette: ThemePalette;
   language: string;
-  zoomTier: ZoomTier;
+  renderScale: number;
   activeStationIds: Set<string> | null;
   fontRegular?: string;
   fontBold?: string;
 }) {
-  const allLabels = getAllStationLabels(language);
-  const visibleLabels =
-    zoomTier === "far"
-      ? allLabels.filter((l) => l.isMajor || activeStationIds?.has(l.id))
-      : allLabels;
+  const visibleLabels = useMemo(
+    () => getVisibleStationLabels(language, renderScale, activeStationIds),
+    [activeStationIds, language, renderScale],
+  );
 
   return (
     <G>
