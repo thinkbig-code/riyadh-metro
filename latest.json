@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-10-31T06:17:37Z",
+ "generated": "2026-10-31T07:35:03Z",
  "start": "2026-10-01",
  "end": "2026-11-01",
  "total": {
-  "total": 3348,
-  "total_events": 1630,
-  "total_utc": 3348,
+  "total": 3357,
+  "total_events": 1631,
+  "total_utc": 3357,
   "stats": [
    {
     "day": "2026-10-01",
@@ -38,7 +38,7 @@
     ],
     "daily": 0,
     "weekly": 148,
-    "monthly": 3348
+    "monthly": 3357
    },
    {
     "day": "2026-10-02",
@@ -882,7 +882,7 @@
      22
     ],
     "daily": 81,
-    "weekly": 230
+    "weekly": 239
    },
    {
     "day": "2026-10-30",
@@ -927,7 +927,7 @@
      2,
      1,
      4,
-     3,
+     12,
      0,
      0,
      0,
@@ -942,7 +942,7 @@
      0,
      0
     ],
-    "daily": 30
+    "daily": 39
    },
    {
     "day": "2026-11-01",
@@ -1116,7 +1116,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 40,
+   "count": 41,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1137,7 +1137,7 @@
     "2026-10-26": 3,
     "2026-10-29": 1,
     "2026-10-30": 4,
-    "2026-10-31": 2
+    "2026-10-31": 3
    }
   },
   {
@@ -1279,6 +1279,22 @@
    }
   },
   {
+   "path": "/ar/lines/orange-line",
+   "path_id": 112221279,
+   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-22": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 3,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/timings",
    "path_id": 110802018,
    "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
@@ -1338,18 +1354,19 @@
    }
   },
   {
-   "path": "/ar/lines/orange-line",
-   "path_id": 112221279,
-   "title": "المسار البرتقالي مترو الرياض (المسار 3): المحطات والخريطة والمواعيد",
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
    "event": false,
    "count": 9,
    "daily": {
+    "2026-10-14": 1,
     "2026-10-16": 1,
+    "2026-10-19": 1,
     "2026-10-20": 1,
-    "2026-10-21": 2,
-    "2026-10-22": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 3
+    "2026-10-25": 2,
+    "2026-10-30": 2,
+    "2026-10-31": 1
    }
   },
   {
@@ -1442,21 +1459,6 @@
    }
   },
   {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-25": 2,
-    "2026-10-30": 2
-   }
-  },
-  {
    "path": "/districts/al-yasmeen",
    "path_id": 111876907,
    "title": "Nearest Metro Station to Al Yasmeen, Riyadh: Dr Sulaiman Al Habib, 2.1 km",
@@ -1514,6 +1516,21 @@
    }
   },
   {
+   "path": "/ar/destinations/al-maigliah-market",
+   "path_id": 112354112,
+   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-24": 2,
+    "2026-10-25": 1,
+    "2026-10-28": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/ar/destinations/aster-sanad-hospital",
    "path_id": 112080374,
    "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
@@ -1526,6 +1543,21 @@
     "2026-10-25": 2,
     "2026-10-26": 1,
     "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/ar/stations",
+   "path_id": 112000986,
+   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-14": 2,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-31": 1
    }
   },
   {
@@ -1590,34 +1622,6 @@
     "2026-10-25": 1,
     "2026-10-26": 1,
     "2026-10-31": 2
-   }
-  },
-  {
-   "path": "/ar/destinations/al-maigliah-market",
-   "path_id": 112354112,
-   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-24": 2,
-    "2026-10-25": 1,
-    "2026-10-28": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/stations",
-   "path_id": 112000986,
-   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-14": 2,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -2968,6 +2972,17 @@
    }
   },
   {
+   "path": "/ar/stations/western-station",
+   "path_id": 116869318,
+   "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "/destinations/riyadh-dry-port",
    "path_id": 116868854,
    "title": "Riyadh Dry Port Metro Station: Railway (Orange Line), 11 min walk",
@@ -2982,6 +2997,17 @@
    "path": "/ar/districts/al-mansurah",
    "path_id": 116784920,
    "title": "أقرب محطة مترو لحي المنصورة في الرياض: محطة مستشفى الإيمان (داخل الحي)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/stations/an-naseem",
+   "path_id": 116780334,
+   "title": "An Naseem Metro Station, Riyadh: Orange/Purple lines, No. 58",
    "event": false,
    "count": 2,
    "daily": {
@@ -3309,6 +3335,17 @@
    "daily": {
     "2026-10-22": 1,
     "2026-10-29": 1
+   }
+  },
+  {
+   "path": "/ar/stations/courts-complex",
+   "path_id": 113975858,
+   "title": "محطة مجمع المحاكم، مترو الرياض: المسار البرتقالي (رقم 48)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-31": 1
    }
   },
   {
@@ -4448,6 +4485,16 @@
    }
   },
   {
+   "path": "geo/far/western",
+   "path_id": 117032651,
+   "title": "ar",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-31": 1
+   }
+  },
+  {
    "path": "route/p_kafd_king_abdullah_financial_district/p_al_batha",
    "path_id": 117031701,
    "title": "ar|link|ok",
@@ -4531,16 +4578,6 @@
    "path": "/ar/districts/king-abdullah",
    "path_id": 116872690,
    "title": "أقرب محطة مترو لحي الملك عبدالله: محطة مركز الرياض للمعارض (داخل الحي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/stations/western-station",
-   "path_id": 116869318,
-   "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
    "event": false,
    "count": 1,
    "daily": {
@@ -4661,16 +4698,6 @@
    "path": "/ar/destinations/riyadh-railway-station",
    "path_id": 116780654,
    "title": "محطة مترو محطة قطار الرياض: محطة سكة الحديد، دقيقتان سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/stations/an-naseem",
-   "path_id": 116780334,
-   "title": "An Naseem Metro Station, Riyadh: Orange/Purple lines, No. 58",
    "event": false,
    "count": 1,
    "daily": {
@@ -6321,16 +6348,6 @@
    "path": "/districts/al-badiah",
    "path_id": 114015577,
    "title": "Nearest Metro Station to Al Badiah, Riyadh: Sultanah (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "/ar/stations/courts-complex",
-   "path_id": 113975858,
-   "title": "محطة مجمع المحاكم، مترو الرياض: المسار البرتقالي (رقم 48)",
    "event": false,
    "count": 1,
    "daily": {
@@ -11970,9 +11987,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1718,
-  "events_total": 1630,
-  "goatcounter_total_with_events": 3348,
+  "visits": 1726,
+  "events_total": 1631,
+  "goatcounter_total_with_events": 3357,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -12003,7 +12020,7 @@
    "2026-10-28": 21,
    "2026-10-29": 47,
    "2026-10-30": 96,
-   "2026-10-31": 24
+   "2026-10-31": 32
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12035,7 +12052,7 @@
   "return_rate": 0.12,
   "routes": 439,
   "routes_not_found": 0,
-  "routes_per_visit": 0.26,
+  "routes_per_visit": 0.25,
   "routes_per_visitor_day": 0.66,
   "share_rate": 0.03,
   "shares": {
@@ -12129,7 +12146,7 @@
    "ok": 49,
    "fail": 4,
    "outside": 3,
-   "far": 3
+   "far": 4
   },
   "visitors_new_return": {
    "new": 552,
@@ -12402,7 +12419,7 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/nearest-station",
-    "count": 4
+    "count": 5
    },
    {
     "name": "riyadhmetro.fyi",
@@ -12551,6 +12568,32 @@
     "count": 1
    }
   ],
+  "/ar/lines/orange-line": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/sultanah",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/lines/orange-line",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/western-station",
+    "count": 1
+   }
+  ],
   "/ar/timings": [
    {
     "name": "Google",
@@ -12573,14 +12616,10 @@
     "count": 1
    }
   ],
-  "/ar/lines/orange-line": [
+  "/ar/nearest-station": [
    {
     "name": "Google",
     "count": 4
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/sultanah",
-    "count": 2
    },
    {
     "name": "(direct or unknown)",
@@ -12591,7 +12630,15 @@
     "count": 1
    },
    {
-    "name": "riyadhmetro.fyi/lines/orange-line",
+    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
     "count": 1
    }
   ],
@@ -12633,28 +12680,6 @@
     "count": 8
    }
   ],
-  "/ar/nearest-station": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/al-suwaidi-park",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
-    "count": 1
-   }
-  ],
   "/districts/al-yasmeen": [
    {
     "name": "Google",
@@ -12681,6 +12706,16 @@
     "count": 1
    }
   ],
+  "/ar/destinations/al-maigliah-market": [
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "Google",
+    "count": 3
+   }
+  ],
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
@@ -12689,6 +12724,36 @@
    {
     "name": "chatgpt.com",
     "count": 3
+   }
+  ],
+  "/ar/stations": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/nearest-station",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
+    "count": 1
    }
   ],
   "/districts/al-taawun": [
@@ -12714,42 +12779,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/al-maigliah-market": [
-   {
-    "name": "chatgpt.com",
-    "count": 4
-   },
-   {
-    "name": "Google",
-    "count": 3
-   }
-  ],
-  "/ar/stations": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
     "count": 1
    }
   ],
@@ -13127,11 +13156,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/ar/nearest-station",
     "count": 1
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/destinations/al-awwal-park",
     "count": 1
    },
    {
@@ -13630,10 +13659,14 @@
   "riyadhmetro.fyi/ar/nearest-station": [
    {
     "path": "/ar.html",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/ar/map",
+    "count": 1
+   },
+   {
+    "path": "/ar/stations",
     "count": 1
    }
   ],
@@ -13769,6 +13802,18 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/ar/stations/sultanah": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 2
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/western-station": [
+   {
+    "path": "/ar/lines/orange-line",
+    "count": 1
+   }
+  ],
   "riyadhmetro.fyi/timings": [
    {
     "path": "/ar/timings",
@@ -13785,13 +13830,13 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/stations/sultanah": [
+  "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
    {
-    "path": "/ar/lines/orange-line",
-    "count": 2
+    "path": "/ar/nearest-station",
+    "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/destinations/al-suwaidi-park": [
+  "riyadhmetro.fyi/ar/destinations/al-maigliah-market": [
    {
     "path": "/ar/nearest-station",
     "count": 1
@@ -13865,7 +13910,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 714,
+   "count": 715,
    "ref_scheme": "g"
   },
   {
@@ -13917,6 +13962,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/nearest-station",
+   "name": "riyadhmetro.fyi/ar/nearest-station",
+   "count": 14,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi",
    "name": "riyadhmetro.fyi",
    "count": 12,
@@ -13925,12 +13976,6 @@
   {
    "id": "riyadhmetro.fyi/ar/timings",
    "name": "riyadhmetro.fyi/ar/timings",
-   "count": 11,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/nearest-station",
-   "name": "riyadhmetro.fyi/ar/nearest-station",
    "count": 11,
    "ref_scheme": "h"
   },
@@ -13983,6 +14028,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/stations",
+   "name": "riyadhmetro.fyi/ar/stations",
+   "count": 5,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/lines",
    "name": "riyadhmetro.fyi/ar/lines",
    "count": 5,
@@ -14001,8 +14052,8 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/ar/stations",
-   "name": "riyadhmetro.fyi/ar/stations",
+   "id": "riyadhmetro.fyi/ar/lines/orange-line",
+   "name": "riyadhmetro.fyi/ar/lines/orange-line",
    "count": 4,
    "ref_scheme": "h"
   },
@@ -14021,12 +14072,6 @@
   {
    "id": "riyadhmetro.fyi/ar/destinations/pif-tower",
    "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
-   "count": 3,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/lines/orange-line",
-   "name": "riyadhmetro.fyi/ar/lines/orange-line",
    "count": 3,
    "ref_scheme": "h"
   },
@@ -14109,6 +14154,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+   "name": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/destinations/haraj-bin-qasim",
    "name": "riyadhmetro.fyi/ar/destinations/haraj-bin-qasim",
    "count": 2,
@@ -14149,24 +14200,18 @@
    "name": "riyadhmetro.fyi/ar/routes/kafd-to-al-batha",
    "count": 2,
    "ref_scheme": "h"
-  },
-  {
-   "id": "www.reddit.com",
-   "name": "www.reddit.com",
-   "count": 1,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2464
+   "count": 2465
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 785
+   "count": 792
   },
   {
    "id": "(unknown)",
@@ -14228,7 +14273,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2812
+   "count": 2820
   },
   {
    "id": "AE",
@@ -14465,7 +14510,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2706
+   "count": 2714
   },
   {
    "id": "tablet",
@@ -14492,12 +14537,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1760
+   "count": 1767
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1513
+   "count": 1514
   },
   {
    "name": "",
@@ -14513,12 +14558,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1501
+   "count": 1502
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1240
+   "count": 1247
   },
   {
    "id": "Windows",
