@@ -1,0 +1,2321 @@
+{
+ "generatedFrom": "src/riyadh-metro.html",
+ "sourceSha256": "90783092569e89f4c10ac74c8b1f63b90c8a1ade994ee90ed307bf56a233d3de",
+ "box": {
+  "x0": -60,
+  "y0": 30,
+  "x1": 1090,
+  "y1": 1200
+ },
+ "colors": {
+  "light": {
+   "bg": "#F4F7F8",
+   "surface": "#FFFFFF",
+   "fg": "#18212A",
+   "muted": "#62707C",
+   "rule": "#DFE5E9",
+   "blue": "#1E6FD9",
+   "red": "#E1251B",
+   "orange": "#F08A12",
+   "yellow": "#F5C400",
+   "green": "#21A246",
+   "purple": "#8A3FB3",
+   "water": "#CDE5F1"
+  },
+  "dark": {
+   "bg": "#10161C",
+   "surface": "#18212A",
+   "fg": "#E6ECF0",
+   "muted": "#94A2AE",
+   "rule": "#2A3640",
+   "blue": "#5C9BF0",
+   "red": "#F2473D",
+   "orange": "#FFA233",
+   "yellow": "#FFD84D",
+   "green": "#37C063",
+   "purple": "#B37AE0",
+   "water": "#17344A"
+  }
+ },
+ "stations": [
+  {
+   "id": "sab",
+   "x": 340,
+   "y": 300,
+   "side": "l",
+   "en": "SAB Bank",
+   "ar": "بنك الأول",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 1,
+   "labelEn": [
+    "SAB Bank"
+   ]
+  },
+  {
+   "id": "habib",
+   "x": 375,
+   "y": 335,
+   "side": "l",
+   "en": "Dr Sulaiman Al Habib",
+   "ar": "د. سليمان الحبيب",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 2,
+   "labelEn": [
+    "Dr Sulaiman Al Habib"
+   ]
+  },
+  {
+   "id": "kafd",
+   "x": 410,
+   "y": 370,
+   "side": "l",
+   "en": "KAFD",
+   "ar": "المركز المالي",
+   "former": [],
+   "lines": [
+    "blue",
+    "yellow",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": true,
+   "walkTo": null,
+   "number": 3,
+   "labelEn": [
+    "KAFD"
+   ]
+  },
+  {
+   "id": "murooj",
+   "x": 440,
+   "y": 400,
+   "side": "l",
+   "en": "Al Murooj",
+   "ar": "المروج",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 4,
+   "labelEn": [
+    "Al Murooj"
+   ]
+  },
+  {
+   "id": "kfd",
+   "x": 440,
+   "y": 437,
+   "side": "l",
+   "en": "King Fahad District",
+   "ar": "حي الملك فهد",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 5,
+   "labelEn": [
+    "King Fahad District"
+   ]
+  },
+  {
+   "id": "kfd2",
+   "x": 440,
+   "y": 474,
+   "side": "l",
+   "en": "King Fahad District 2",
+   "ar": "حي الملك فهد 2",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 6,
+   "labelEn": [
+    "King Fahad District 2"
+   ]
+  },
+  {
+   "id": "stc",
+   "x": 440,
+   "y": 510,
+   "side": "tl",
+   "en": "stc",
+   "ar": "stc",
+   "former": [
+    "Olaya"
+   ],
+   "lines": [
+    "blue",
+    "red"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 7,
+   "labelEn": [
+    "stc"
+   ]
+  },
+  {
+   "id": "wurud2",
+   "x": 440,
+   "y": 548,
+   "side": "r",
+   "en": "Al Wurud 2",
+   "ar": "الورود 2",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 8,
+   "labelEn": [
+    "Al Wurud 2"
+   ]
+  },
+  {
+   "id": "urubah",
+   "x": 440,
+   "y": 584,
+   "side": "r",
+   "en": "Al Urubah",
+   "ar": "العروبة",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 9,
+   "labelEn": [
+    "Al Urubah"
+   ]
+  },
+  {
+   "id": "alinma",
+   "x": 440,
+   "y": 620,
+   "side": "r",
+   "en": "Alinma Bank",
+   "ar": "مصرف الإنماء",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 10,
+   "labelEn": [
+    "Alinma Bank"
+   ]
+  },
+  {
+   "id": "albilad",
+   "x": 440,
+   "y": 656,
+   "side": "r",
+   "en": "Bank Albilad",
+   "ar": "بنك البلاد",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 11,
+   "labelEn": [
+    "Bank Albilad"
+   ]
+  },
+  {
+   "id": "kfl",
+   "x": 440,
+   "y": 692,
+   "side": "r",
+   "en": "King Fahad Library",
+   "ar": "مكتبة الملك فهد",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 12,
+   "labelEn": [
+    "King Fahad Library"
+   ]
+  },
+  {
+   "id": "moi",
+   "x": 440,
+   "y": 728,
+   "side": "r",
+   "en": "Ministry of Interior",
+   "ar": "وزارة الداخلية",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 13,
+   "labelEn": [
+    "Ministry of Interior"
+   ]
+  },
+  {
+   "id": "murabba",
+   "x": 440,
+   "y": 764,
+   "side": "r",
+   "en": "Al Muorabba",
+   "ar": "المربع",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 14,
+   "labelEn": [
+    "Al Muorabba"
+   ]
+  },
+  {
+   "id": "passport",
+   "x": 440,
+   "y": 800,
+   "side": "l",
+   "en": "Passport Department",
+   "ar": "الجوازات",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 15,
+   "labelEn": [
+    "Passport Department"
+   ]
+  },
+  {
+   "id": "museum",
+   "x": 440,
+   "y": 835,
+   "side": "l",
+   "en": "National Museum",
+   "ar": "المتحف الوطني",
+   "former": [],
+   "lines": [
+    "blue",
+    "green"
+   ],
+   "interchange": true,
+   "terminus": true,
+   "walkTo": null,
+   "number": 16,
+   "labelEn": [
+    "National Museum"
+   ]
+  },
+  {
+   "id": "batha",
+   "x": 440,
+   "y": 877,
+   "side": "r",
+   "en": "Al Bat'ha",
+   "ar": "البطحاء",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 17,
+   "labelEn": [
+    "Al Bat'ha"
+   ]
+  },
+  {
+   "id": "hokm",
+   "x": 440,
+   "y": 920,
+   "side": "tl",
+   "en": "Qasr Al Hokm",
+   "ar": "قصر الحكم",
+   "former": [],
+   "lines": [
+    "blue",
+    "orange"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 18,
+   "labelEn": [
+    "Qasr Al Hokm"
+   ]
+  },
+  {
+   "id": "owd",
+   "x": 440,
+   "y": 960,
+   "side": "r",
+   "en": "Al Owd",
+   "ar": "العود",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 19,
+   "labelEn": [
+    "Al Owd"
+   ]
+  },
+  {
+   "id": "skirinah",
+   "x": 440,
+   "y": 1000,
+   "side": "r",
+   "en": "Skirinah",
+   "ar": "سكيرينة",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 20,
+   "labelEn": [
+    "Skirinah"
+   ]
+  },
+  {
+   "id": "manfouhah",
+   "x": 470,
+   "y": 1030,
+   "side": "r",
+   "en": "Manfouhah",
+   "ar": "منفوحة",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 21,
+   "labelEn": [
+    "Manfouhah"
+   ]
+  },
+  {
+   "id": "iman",
+   "x": 500,
+   "y": 1060,
+   "side": "r",
+   "en": "Al Iman Hospital",
+   "ar": "مستشفى الإيمان",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 22,
+   "labelEn": [
+    "Al Iman Hospital"
+   ]
+  },
+  {
+   "id": "transport",
+   "x": 530,
+   "y": 1090,
+   "side": "r",
+   "en": "Transportation Center",
+   "ar": "مركز النقل العام",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 23,
+   "labelEn": [
+    "Transportation Center"
+   ]
+  },
+  {
+   "id": "aziziah",
+   "x": 560,
+   "y": 1120,
+   "side": "r",
+   "en": "Al Aziziah",
+   "ar": "العزيزية",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 24,
+   "labelEn": [
+    "Al Aziziah"
+   ]
+  },
+  {
+   "id": "baida",
+   "x": 590,
+   "y": 1150,
+   "side": "r",
+   "en": "Ad Dar Al Baida",
+   "ar": "الدار البيضاء",
+   "former": [],
+   "lines": [
+    "blue"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 25,
+   "labelEn": [
+    "Ad Dar Al Baida"
+   ]
+  },
+  {
+   "id": "ksu",
+   "x": 300,
+   "y": 650,
+   "side": "l",
+   "en": "King Saud University",
+   "ar": "جامعة الملك سعود",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 26,
+   "labelEn": [
+    "King Saud University"
+   ]
+  },
+  {
+   "id": "oasis",
+   "x": 335,
+   "y": 615,
+   "side": "l",
+   "en": "King Salman Oasis",
+   "ar": "واحة الملك سلمان",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 27,
+   "labelEn": [
+    "King Salman Oasis"
+   ]
+  },
+  {
+   "id": "kacst",
+   "x": 370,
+   "y": 580,
+   "side": "l",
+   "en": "KACST",
+   "ar": "المدينة التقنية",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 28,
+   "labelEn": [
+    "KACST"
+   ]
+  },
+  {
+   "id": "takhassussi",
+   "x": 405,
+   "y": 545,
+   "side": "l",
+   "en": "At Takhassussi",
+   "ar": "التخصصي",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 29,
+   "labelEn": [
+    "At Takhassussi"
+   ]
+  },
+  {
+   "id": "wurud",
+   "x": 500,
+   "y": 510,
+   "side": "t",
+   "en": "Al Wurud",
+   "ar": "الورود",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 30,
+   "labelEn": [
+    "Al Wurud"
+   ]
+  },
+  {
+   "id": "kaaroad",
+   "x": 565,
+   "y": 510,
+   "side": "b",
+   "en": "King Abdulaziz Road",
+   "ar": "طريق الملك عبدالعزيز",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 31,
+   "labelEn": [
+    "King Abdulaziz Road"
+   ]
+  },
+  {
+   "id": "moe",
+   "x": 630,
+   "y": 510,
+   "side": "r",
+   "en": "Ministry of Education",
+   "ar": "وزارة التعليم",
+   "former": [],
+   "lines": [
+    "red",
+    "green"
+   ],
+   "interchange": true,
+   "terminus": true,
+   "walkTo": null,
+   "number": 32,
+   "labelEn": [
+    "Ministry of Education"
+   ]
+  },
+  {
+   "id": "nuzhah",
+   "x": 662,
+   "y": 478,
+   "side": "l",
+   "en": "An Nuzhah",
+   "ar": "النزهة",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 33,
+   "labelEn": [
+    "An Nuzhah"
+   ]
+  },
+  {
+   "id": "rec",
+   "x": 695,
+   "y": 445,
+   "side": "l",
+   "en": "Riyadh Exhibition Center",
+   "ar": "مركز الرياض للمعارض",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 34,
+   "labelEn": [
+    "Riyadh Exhibition",
+    "Center"
+   ]
+  },
+  {
+   "id": "kbw",
+   "x": 727,
+   "y": 413,
+   "side": "l",
+   "en": "Khalid Bin Alwaleed Road",
+   "ar": "طريق خالد بن الوليد",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 35,
+   "labelEn": [
+    "Khalid Bin",
+    "Alwaleed Road"
+   ]
+  },
+  {
+   "id": "hamra",
+   "x": 760,
+   "y": 380,
+   "side": "l",
+   "en": "Al Hamra",
+   "ar": "الحمراء",
+   "former": [],
+   "lines": [
+    "red",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 36,
+   "labelEn": [
+    "Al Hamra"
+   ]
+  },
+  {
+   "id": "khaleej",
+   "x": 820,
+   "y": 380,
+   "side": "t",
+   "en": "Al Khaleej",
+   "ar": "الخليج",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 37,
+   "labelEn": [
+    "Al Khaleej"
+   ]
+  },
+  {
+   "id": "ishbiliyah",
+   "x": 880,
+   "y": 380,
+   "side": "br",
+   "en": "City Centre Ishbiliyah",
+   "ar": "سيتي سنتر إشبيلية",
+   "former": [],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 38,
+   "labelEn": [
+    "City Centre",
+    "Ishbiliyah"
+   ]
+  },
+  {
+   "id": "sportcity",
+   "x": 940,
+   "y": 380,
+   "side": "r",
+   "en": "King Fahad Stadium",
+   "ar": "استاد الملك فهد",
+   "former": [
+    "King Fahad Sport City"
+   ],
+   "lines": [
+    "red"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 39,
+   "labelEn": [
+    "King Fahad",
+    "Stadium"
+   ]
+  },
+  {
+   "id": "jeddahrd",
+   "x": 20,
+   "y": 1130,
+   "side": "l",
+   "en": "Jeddah Road",
+   "ar": "طريق جدة",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 40,
+   "labelEn": [
+    "Jeddah Road"
+   ]
+  },
+  {
+   "id": "tuwaiq",
+   "x": 90,
+   "y": 1130,
+   "side": "t",
+   "en": "Tuwaiq",
+   "ar": "طويق",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 41,
+   "labelEn": [
+    "Tuwaiq"
+   ]
+  },
+  {
+   "id": "douh",
+   "x": 160,
+   "y": 1130,
+   "side": "b",
+   "en": "Ad Douh",
+   "ar": "الدوح",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 42,
+   "labelEn": [
+    "Ad Douh"
+   ]
+  },
+  {
+   "id": "western",
+   "x": 230,
+   "y": 1130,
+   "side": "r",
+   "en": "Western Station",
+   "ar": "المحطة الغربية",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 43,
+   "labelEn": [
+    "Western Station"
+   ]
+  },
+  {
+   "id": "aishah",
+   "x": 265,
+   "y": 1095,
+   "side": "r",
+   "en": "Aishah bint Abi Bakr Street",
+   "ar": "شارع عائشة بنت أبي بكر",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 44,
+   "labelEn": [
+    "Aishah bint Abi Bakr Street"
+   ]
+  },
+  {
+   "id": "dhahrat",
+   "x": 300,
+   "y": 1060,
+   "side": "l",
+   "en": "Dhahrat Al Badiah",
+   "ar": "ظهرة البديعة",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 45,
+   "labelEn": [
+    "Dhahrat Al Badiah"
+   ]
+  },
+  {
+   "id": "sultanah",
+   "x": 335,
+   "y": 1025,
+   "side": "l",
+   "en": "Sultanah",
+   "ar": "سلطانة",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 46,
+   "labelEn": [
+    "Sultanah"
+   ]
+  },
+  {
+   "id": "jarradiyah",
+   "x": 370,
+   "y": 990,
+   "side": "l",
+   "en": "Al Jarradiyah",
+   "ar": "الجرادية",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 47,
+   "labelEn": [
+    "Al Jarradiyah"
+   ]
+  },
+  {
+   "id": "courts",
+   "x": 405,
+   "y": 955,
+   "side": "l",
+   "en": "Courts Complex",
+   "ar": "مجمع المحاكم",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 48,
+   "labelEn": [
+    "Courts Complex"
+   ]
+  },
+  {
+   "id": "hilla",
+   "x": 495,
+   "y": 920,
+   "side": "b",
+   "en": "Al Hilla",
+   "ar": "الحلة",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 49,
+   "labelEn": [
+    "Al Hilla"
+   ]
+  },
+  {
+   "id": "margab",
+   "x": 550,
+   "y": 920,
+   "side": "t",
+   "en": "Al Margab",
+   "ar": "المرقب",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 50,
+   "labelEn": [
+    "Al Margab"
+   ]
+  },
+  {
+   "id": "salhiyah",
+   "x": 605,
+   "y": 920,
+   "side": "b",
+   "en": "As Salhiyah",
+   "ar": "الصالحية",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 51,
+   "labelEn": [
+    "As Salhiyah"
+   ]
+  },
+  {
+   "id": "industrial",
+   "x": 670,
+   "y": 885,
+   "side": "r",
+   "en": "First Industrial City",
+   "ar": "المدينة الصناعية الأولى",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 52,
+   "labelEn": [
+    "First Industrial City"
+   ]
+  },
+  {
+   "id": "railway",
+   "x": 705,
+   "y": 850,
+   "side": "r",
+   "en": "Railway",
+   "ar": "سكة الحديد",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 53,
+   "labelEn": [
+    "Railway"
+   ]
+  },
+  {
+   "id": "malaz",
+   "x": 740,
+   "y": 815,
+   "side": "r",
+   "en": "Al Malaz",
+   "ar": "الملز",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 54,
+   "labelEn": [
+    "Al Malaz"
+   ]
+  },
+  {
+   "id": "jarir",
+   "x": 775,
+   "y": 780,
+   "side": "r",
+   "en": "Jarir District",
+   "ar": "حي جرير",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 55,
+   "labelEn": [
+    "Jarir District"
+   ]
+  },
+  {
+   "id": "rajhi",
+   "x": 810,
+   "y": 745,
+   "side": "r",
+   "en": "Al Rajhi Grand Mosque",
+   "ar": "جامع الراجحي",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 56,
+   "labelEn": [
+    "Al Rajhi Grand Mosque"
+   ]
+  },
+  {
+   "id": "harun",
+   "x": 845,
+   "y": 710,
+   "side": "r",
+   "en": "Harun Ar Rashid Road",
+   "ar": "طريق هارون الرشيد",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 57,
+   "labelEn": [
+    "Harun Ar Rashid Road"
+   ]
+  },
+  {
+   "id": "naseem",
+   "x": 880,
+   "y": 675,
+   "side": "l",
+   "en": "An Naseem",
+   "ar": "النسيم",
+   "former": [],
+   "lines": [
+    "orange",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": true,
+   "walkTo": null,
+   "number": 58,
+   "labelEn": [
+    "An Naseem"
+   ]
+  },
+  {
+   "id": "hassan",
+   "x": 915,
+   "y": 640,
+   "side": "r",
+   "en": "Hassan Bin Thabit Street",
+   "ar": "شارع حسان بن ثابت",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 59,
+   "labelEn": [
+    "Hassan Bin Thabit Street"
+   ]
+  },
+  {
+   "id": "khashm",
+   "x": 950,
+   "y": 605,
+   "side": "r",
+   "en": "Khashm Al An",
+   "ar": "خشم العان",
+   "former": [],
+   "lines": [
+    "orange"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 60,
+   "labelEn": [
+    "Khashm Al An"
+   ]
+  },
+  {
+   "id": "rabi",
+   "x": 450,
+   "y": 330,
+   "side": "tl",
+   "en": "Ar Rabi",
+   "ar": "الربيع",
+   "former": [],
+   "lines": [
+    "yellow",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 61,
+   "labelEn": [
+    "Ar Rabi"
+   ]
+  },
+  {
+   "id": "uthman",
+   "x": 525,
+   "y": 330,
+   "side": "t",
+   "en": "Uthman Bin Affan Road",
+   "ar": "طريق عثمان بن عفان",
+   "former": [],
+   "lines": [
+    "yellow",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 62,
+   "labelEn": [
+    "Uthman Bin",
+    "Affan Road"
+   ]
+  },
+  {
+   "id": "sabic",
+   "x": 600,
+   "y": 330,
+   "side": "b",
+   "en": "SABIC",
+   "ar": "سابك",
+   "former": [],
+   "lines": [
+    "yellow",
+    "purple"
+   ],
+   "interchange": true,
+   "terminus": false,
+   "walkTo": null,
+   "number": 63,
+   "labelEn": [
+    "SABIC"
+   ]
+  },
+  {
+   "id": "pnu1",
+   "x": 640,
+   "y": 290,
+   "side": "r",
+   "en": "PNU",
+   "ar": "جامعة الأميرة نورة",
+   "former": [
+    "PNU 1"
+   ],
+   "lines": [
+    "yellow"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 64,
+   "labelEn": [
+    "PNU"
+   ]
+  },
+  {
+   "id": "pnu2",
+   "x": 680,
+   "y": 250,
+   "side": "r",
+   "en": "Governmental Complex",
+   "ar": "الدوائر الحكومية",
+   "former": [
+    "PNU 2"
+   ],
+   "lines": [
+    "yellow"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 65,
+   "labelEn": [
+    "Governmental Complex"
+   ]
+  },
+  {
+   "id": "t5",
+   "x": 680,
+   "y": 190,
+   "side": "r",
+   "en": "Airport T5",
+   "ar": "مطار الملك خالد - الصالة 5",
+   "former": [],
+   "lines": [
+    "yellow"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 66,
+   "labelEn": [
+    "Airport T5"
+   ]
+  },
+  {
+   "id": "t34",
+   "x": 680,
+   "y": 135,
+   "side": "r",
+   "en": "Airport T3-4",
+   "ar": "مطار الملك خالد - الصالتان 3 و4",
+   "former": [],
+   "lines": [
+    "yellow"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 67,
+   "labelEn": [
+    "Airport T3-4"
+   ]
+  },
+  {
+   "id": "t12",
+   "x": 680,
+   "y": 80,
+   "side": "r",
+   "en": "Airport T1-2",
+   "ar": "مطار الملك خالد - الصالتان 1 و2",
+   "former": [],
+   "lines": [
+    "yellow"
+   ],
+   "interchange": false,
+   "terminus": true,
+   "walkTo": null,
+   "number": 68,
+   "labelEn": [
+    "Airport T1-2"
+   ]
+  },
+  {
+   "id": "ksp",
+   "x": 630,
+   "y": 540,
+   "side": "r",
+   "en": "Salahaddin",
+   "ar": "صلاح الدين",
+   "former": [
+    "King Salman Park"
+   ],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 78,
+   "labelEn": [
+    "Salahaddin"
+   ]
+  },
+  {
+   "id": "sulimaniyah",
+   "x": 630,
+   "y": 570,
+   "side": "r",
+   "en": "As Sulimaniyah",
+   "ar": "السليمانية",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 77,
+   "labelEn": [
+    "As Sulimaniyah"
+   ]
+  },
+  {
+   "id": "dhabab",
+   "x": 630,
+   "y": 600,
+   "side": "r",
+   "en": "Ad Dhabab",
+   "ar": "الضباب",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 76,
+   "labelEn": [
+    "Ad Dhabab"
+   ]
+  },
+  {
+   "id": "abudhabi",
+   "x": 630,
+   "y": 630,
+   "side": "r",
+   "en": "Abu Dhabi Square",
+   "ar": "ميدان أبو ظبي",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 75,
+   "labelEn": [
+    "Abu Dhabi Square"
+   ]
+  },
+  {
+   "id": "officers",
+   "x": 630,
+   "y": 660,
+   "side": "r",
+   "en": "Officers Club",
+   "ar": "نادي الضباط",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 74,
+   "labelEn": [
+    "Officers Club"
+   ]
+  },
+  {
+   "id": "gosi",
+   "x": 630,
+   "y": 690,
+   "side": "r",
+   "en": "GOSI",
+   "ar": "التأمينات الاجتماعية",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 73,
+   "labelEn": [
+    "GOSI"
+   ]
+  },
+  {
+   "id": "wizarat",
+   "x": 630,
+   "y": 720,
+   "side": "r",
+   "en": "Al Wizarat",
+   "ar": "الوزارات",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 72,
+   "labelEn": [
+    "Al Wizarat"
+   ]
+  },
+  {
+   "id": "mod",
+   "x": 630,
+   "y": 750,
+   "side": "r",
+   "en": "Ministry of Defense",
+   "ar": "وزارة الدفاع",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 71,
+   "labelEn": [
+    "Ministry of Defense"
+   ]
+  },
+  {
+   "id": "kah",
+   "x": 630,
+   "y": 780,
+   "side": "r",
+   "en": "MEW&A",
+   "ar": "وزارة البيئة والمياه والزراعة",
+   "former": [
+    "King Abdulaziz Hospital"
+   ],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 70,
+   "labelEn": [
+    "MEW&A"
+   ]
+  },
+  {
+   "id": "mof",
+   "x": 630,
+   "y": 810,
+   "side": "r",
+   "en": "Ministry of Finance",
+   "ar": "وزارة المالية",
+   "former": [],
+   "lines": [
+    "green"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 69,
+   "labelEn": [
+    "Ministry of",
+    "Finance"
+   ]
+  },
+  {
+   "id": "granadia",
+   "x": 660,
+   "y": 330,
+   "side": "b",
+   "en": "Granada",
+   "ar": "غرناطة",
+   "former": [
+    "Granadia"
+   ],
+   "lines": [
+    "purple"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 79,
+   "labelEn": [
+    "Granada"
+   ]
+  },
+  {
+   "id": "yarmuk",
+   "x": 710,
+   "y": 330,
+   "side": "t",
+   "en": "Al Yarmuk",
+   "ar": "اليرموك",
+   "former": [],
+   "lines": [
+    "purple"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 80,
+   "labelEn": [
+    "Al Yarmuk"
+   ]
+  },
+  {
+   "id": "andalus",
+   "x": 800,
+   "y": 420,
+   "side": "r",
+   "en": "Al Andalus",
+   "ar": "الأندلس",
+   "former": [],
+   "lines": [
+    "purple"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 81,
+   "labelEn": [
+    "Al Andalus"
+   ]
+  },
+  {
+   "id": "khurais",
+   "x": 840,
+   "y": 460,
+   "side": "r",
+   "en": "Khurais Road",
+   "ar": "طريق خريص",
+   "former": [],
+   "lines": [
+    "purple"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 82,
+   "labelEn": [
+    "Khurais Road"
+   ]
+  },
+  {
+   "id": "salam",
+   "x": 880,
+   "y": 500,
+   "side": "r",
+   "en": "As Salam",
+   "ar": "السلام",
+   "former": [],
+   "lines": [
+    "purple"
+   ],
+   "interchange": false,
+   "terminus": false,
+   "walkTo": null,
+   "number": 83,
+   "labelEn": [
+    "As Salam"
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "blue",
+   "service": "1",
+   "number": 1,
+   "stops": [
+    "sab",
+    "habib",
+    "kafd",
+    "murooj",
+    "kfd",
+    "kfd2",
+    "stc",
+    "wurud2",
+    "urubah",
+    "alinma",
+    "albilad",
+    "kfl",
+    "moi",
+    "murabba",
+    "passport",
+    "museum",
+    "batha",
+    "hokm",
+    "owd",
+    "skirinah",
+    "manfouhah",
+    "iman",
+    "transport",
+    "aziziah",
+    "baida"
+   ],
+   "parts": [
+    [
+     [
+      340,
+      300
+     ],
+     [
+      375,
+      335
+     ],
+     [
+      410,
+      370
+     ],
+     [
+      440,
+      400
+     ],
+     [
+      440,
+      437
+     ],
+     [
+      440,
+      474
+     ],
+     [
+      440,
+      510
+     ],
+     [
+      440,
+      548
+     ],
+     [
+      440,
+      584
+     ],
+     [
+      440,
+      620
+     ],
+     [
+      440,
+      656
+     ],
+     [
+      440,
+      692
+     ],
+     [
+      440,
+      728
+     ],
+     [
+      440,
+      764
+     ],
+     [
+      440,
+      800
+     ],
+     [
+      440,
+      835
+     ],
+     [
+      440,
+      877
+     ],
+     [
+      440,
+      920
+     ],
+     [
+      440,
+      960
+     ],
+     [
+      440,
+      1000
+     ],
+     [
+      470,
+      1030
+     ],
+     [
+      500,
+      1060
+     ],
+     [
+      530,
+      1090
+     ],
+     [
+      560,
+      1120
+     ],
+     [
+      590,
+      1150
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "red",
+   "service": "2",
+   "number": 2,
+   "stops": [
+    "ksu",
+    "oasis",
+    "kacst",
+    "takhassussi",
+    "stc",
+    "wurud",
+    "kaaroad",
+    "moe",
+    "nuzhah",
+    "rec",
+    "kbw",
+    "hamra",
+    "khaleej",
+    "ishbiliyah",
+    "sportcity"
+   ],
+   "parts": [
+    [
+     [
+      300,
+      650
+     ],
+     [
+      335,
+      615
+     ],
+     [
+      370,
+      580
+     ],
+     [
+      405,
+      545
+     ],
+     [
+      440,
+      510
+     ],
+     [
+      500,
+      510
+     ],
+     [
+      565,
+      510
+     ],
+     [
+      630,
+      510
+     ],
+     [
+      662,
+      478
+     ],
+     [
+      695,
+      445
+     ],
+     [
+      727,
+      413
+     ],
+     [
+      760,
+      380
+     ],
+     [
+      820,
+      380
+     ],
+     [
+      880,
+      380
+     ],
+     [
+      940,
+      380
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "orange",
+   "service": "3",
+   "number": 3,
+   "stops": [
+    "jeddahrd",
+    "tuwaiq",
+    "douh",
+    "western",
+    "aishah",
+    "dhahrat",
+    "sultanah",
+    "jarradiyah",
+    "courts",
+    "hokm",
+    "hilla",
+    "margab",
+    "salhiyah",
+    "industrial",
+    "railway",
+    "malaz",
+    "jarir",
+    "rajhi",
+    "harun",
+    "naseem",
+    "hassan",
+    "khashm"
+   ],
+   "parts": [
+    [
+     [
+      20,
+      1130
+     ],
+     [
+      90,
+      1130
+     ],
+     [
+      160,
+      1130
+     ],
+     [
+      230,
+      1130
+     ],
+     [
+      265,
+      1095
+     ],
+     [
+      300,
+      1060
+     ],
+     [
+      335,
+      1025
+     ],
+     [
+      370,
+      990
+     ],
+     [
+      405,
+      955
+     ],
+     [
+      440,
+      920
+     ],
+     [
+      495,
+      920
+     ],
+     [
+      550,
+      920
+     ],
+     [
+      605,
+      920
+     ],
+     [
+      635,
+      920
+     ],
+     [
+      670,
+      885
+     ],
+     [
+      705,
+      850
+     ],
+     [
+      740,
+      815
+     ],
+     [
+      775,
+      780
+     ],
+     [
+      810,
+      745
+     ],
+     [
+      845,
+      710
+     ],
+     [
+      880,
+      675
+     ],
+     [
+      915,
+      640
+     ],
+     [
+      950,
+      605
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "yellow",
+   "service": "4",
+   "number": 4,
+   "stops": [
+    "kafd",
+    "rabi",
+    "uthman",
+    "sabic",
+    "pnu1",
+    "pnu2",
+    "t5",
+    "t34",
+    "t12"
+   ],
+   "parts": [
+    [
+     [
+      407.7,
+      367.7
+     ],
+     [
+      448.7,
+      326.8
+     ],
+     [
+      525,
+      326.8
+     ],
+     [
+      600,
+      326.8
+     ]
+    ],
+    [
+     [
+      600,
+      330
+     ],
+     [
+      640,
+      290
+     ],
+     [
+      680,
+      250
+     ],
+     [
+      680,
+      190
+     ],
+     [
+      680,
+      135
+     ],
+     [
+      680,
+      80
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "green",
+   "service": "5",
+   "number": 5,
+   "stops": [
+    "moe",
+    "ksp",
+    "sulimaniyah",
+    "dhabab",
+    "abudhabi",
+    "officers",
+    "gosi",
+    "wizarat",
+    "mod",
+    "kah",
+    "mof",
+    "museum"
+   ],
+   "parts": [
+    [
+     [
+      630,
+      510
+     ],
+     [
+      630,
+      540
+     ],
+     [
+      630,
+      570
+     ],
+     [
+      630,
+      600
+     ],
+     [
+      630,
+      630
+     ],
+     [
+      630,
+      660
+     ],
+     [
+      630,
+      690
+     ],
+     [
+      630,
+      720
+     ],
+     [
+      630,
+      750
+     ],
+     [
+      630,
+      780
+     ],
+     [
+      630,
+      810
+     ],
+     [
+      605,
+      835
+     ],
+     [
+      440,
+      835
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "purple",
+   "service": "6",
+   "number": 6,
+   "stops": [
+    "kafd",
+    "rabi",
+    "uthman",
+    "sabic",
+    "granadia",
+    "yarmuk",
+    "hamra",
+    "andalus",
+    "khurais",
+    "salam",
+    "naseem"
+   ],
+   "parts": [
+    [
+     [
+      412.3,
+      372.3
+     ],
+     [
+      451.3,
+      333.2
+     ],
+     [
+      525,
+      333.2
+     ],
+     [
+      600,
+      333.2
+     ]
+    ],
+    [
+     [
+      600,
+      330
+     ],
+     [
+      660,
+      330
+     ],
+     [
+      710,
+      330
+     ],
+     [
+      760,
+      380
+     ],
+     [
+      800,
+      420
+     ],
+     [
+      840,
+      460
+     ],
+     [
+      880,
+      500
+     ],
+     [
+      880,
+      675
+     ]
+    ]
+   ]
+  }
+ ],
+ "sharedSection": {
+  "stops": [
+   "kafd",
+   "rabi",
+   "uthman",
+   "sabic"
+  ],
+  "lines": [
+   "purple",
+   "yellow"
+  ],
+  "offset": 3.2
+ },
+ "wadi": {
+  "points": [
+   [
+    120,
+    -1400
+   ],
+   [
+    150,
+    -200
+   ],
+   [
+    170,
+    120
+   ],
+   [
+    200,
+    330
+   ],
+   [
+    175,
+    560
+   ],
+   [
+    200,
+    780
+   ],
+   [
+    150,
+    990
+   ],
+   [
+    110,
+    1120
+   ],
+   [
+    150,
+    1400
+   ],
+   [
+    130,
+    2600
+   ]
+  ],
+  "label": {
+   "en": "Wadi Hanifa",
+   "ar": "وادي حنيفة",
+   "x": 205,
+   "y": 470
+  }
+ },
+ "districts": [
+  {
+   "en": "AL OLAYA",
+   "ar": "العليا",
+   "x": 330,
+   "y": 720
+  },
+  {
+   "en": "AL BATHA",
+   "ar": "البطحاء",
+   "x": 320,
+   "y": 880
+  },
+  {
+   "en": "AL MALAZ",
+   "ar": "الملز",
+   "x": 880,
+   "y": 860
+  },
+  {
+   "en": "← AD DIRIYAH",
+   "ar": "← الدرعية",
+   "x": 95,
+   "y": 300
+  },
+  {
+   "en": "AIRPORT",
+   "ar": "المطار",
+   "x": 860,
+   "y": 160
+  },
+  {
+   "en": "AN NASEEM",
+   "ar": "النسيم",
+   "x": 990,
+   "y": 775
+  },
+  {
+   "en": "AL YASMIN",
+   "ar": "الياسمين",
+   "x": 470,
+   "y": 200
+  },
+  {
+   "en": "AN NAKHEEL",
+   "ar": "النخيل",
+   "x": 280,
+   "y": 400
+  }
+ ]
+}

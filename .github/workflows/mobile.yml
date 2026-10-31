@@ -1,0 +1,73 @@
+name: Native mobile checks
+on:
+  pull_request:
+    paths: ['mobile/**', 'src/riyadh-metro.html', '.github/workflows/mobile.yml']
+  push:
+    branches: ['main', 'feat/android-offline-app']
+    paths: ['mobile/**', 'src/riyadh-metro.html', '.github/workflows/mobile.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shared:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+      - run: npm ci
+      - run: npm run check:core
+      - run: npm run check:map
+      - run: npm test
+      - run: npm run typecheck
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:parity
+      - run: npm run export:native
+  android-preview:
+    needs: shared
+    # pinned image: it ships the Android SDK, so no setup-android step is needed (that step was what failed)
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Android SDK on the runner
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME" "$ANDROID_HOME/build-tools" | head -40
+      - run: npm ci
+      - run: npx expo prebuild --platform android --no-install
+      - run: ./gradlew assembleRelease --no-daemon
+        working-directory: mobile/android
+      - uses: actions/upload-artifact@v4
+        with:
+          name: riyadh-metro-android-internal-preview
+          path: mobile/android/app/build/outputs/apk/release/app-release.apk
+          retention-days: 14
+      # a direct download link for a phone: a pre-release on the repo, replaced on every build of this branch
+      - name: Publish preview APK as a pre-release
+        if: github.ref == 'refs/heads/feat/android-offline-app'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk riyadh-metro-preview.apk
+          gh release delete android-preview --yes --cleanup-tag || true
+          gh release create android-preview riyadh-metro-preview.apk --prerelease --target "$GITHUB_SHA" \
+            --title "Android preview (internal test, not for the store)" \
+            --notes "Debug-signed test build from ${GITHUB_SHA::7}. Install on your own phone only."

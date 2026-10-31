@@ -1,0 +1,39 @@
+{
+  "name": "riyadh-metro-native",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "generate:core": "node scripts/extract-core.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "check:core": "node scripts/extract-core.mjs --check",
+    "test:parity": "node scripts/check-parity.cjs",
+    "export:native": "expo export --platform android --platform ios",
+    "generate:map": "node scripts/extract-map.mjs",
+    "check:map": "node scripts/extract-map.mjs --check"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "58.0.19",
+    "expo-localization": "~58.0.5",
+    "expo-location": "~58.0.19",
+    "expo-system-ui": "~58.0.6",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-svg": "15.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "playwright": "1.56.1",
+    "typescript": "~6.0.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
