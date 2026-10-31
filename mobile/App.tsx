@@ -1,193 +1,230 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  View,
-  Text,
-  Pressable,
-  StyleSheet,
-  ScrollView,
-  Modal,
-  TextInput,
-  FlatList,
-  Share,
-  Linking,
-  Alert,
-  useColorScheme,
-  BackHandler,
   ActivityIndicator,
+  Alert,
+  BackHandler,
+  Keyboard,
+  Linking,
+  Pressable,
+  Share,
   StatusBar,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import {
+  SafeAreaProvider,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
+import Svg, { Defs, LinearGradient, Rect, Stop } from "react-native-svg";
+import BottomSheet from "@gorhom/bottom-sheet";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Location from "expo-location";
 import { getLocales } from "expo-localization";
 import { createMetroEngine } from "./src/core/metro";
-import MetroMap, { lineColors } from "./src/components/MetroMap";
 import { parseRouteLink } from "./src/core/links";
+import MetroMap, { MetroMapRef } from "./src/map/MetroMap";
+import { getAppStrings } from "./src/i18n";
+import {
+  directionalRow,
+  resolveTheme,
+  useSystemThemeMode,
+} from "./src/theme";
+import BottomPanel from "./src/ui/BottomPanel";
+import MenuSheet, { MenuSection, SavedTrip } from "./src/ui/MenuSheet";
+import StationCard from "./src/ui/StationCard";
 
-type Trip = { from: string; to: string };
-type Preferences = { language: string; favourites: Trip[]; recent: Trip[] };
-const KEY = "riyadh-metro.preferences.v1";
-const EXTRA: Record<string, Record<string, string>> = {
-  ar: {
-    map: "الخريطة",
-    saved: "المحفوظة",
-    recent: "الأخيرة",
-    save: "حفظ الرحلة",
-    unsave: "إلغاء الحفظ",
-    empty: "لا توجد رحلات محفوظة",
-    offline: "الخريطة والمسارات تعمل دون إنترنت",
-    error: "تعذّر إتمام العملية",
-    storage: "تعذّر حفظ تفضيلاتك على الجهاز.",
-    location: "تعذّر تحديد موقعك. يمكنك اختيار المحطة يدويًا.",
-    privacy:
-      "تطبيق مستقل وغير رسمي. الموقع محفوظ على جهازك فقط. الأوقات تقديرية.",
-    closed: "المترو مغلق الآن — تحقق من مواعيد التشغيل قبل السفر.",
-    walk: "المشي",
-    towards: "باتجاه",
-    choose: "اختر محطة",
-    stops: "المحطات",
-    loading: "جارٍ تحديد الموقع…",
-  },
-  en: {
-    map: "Map",
-    saved: "Saved",
-    recent: "Recent",
-    save: "Save trip",
-    unsave: "Unsave trip",
-    empty: "No saved trips yet",
-    offline: "Map and routes work offline",
-    error: "Could not complete the action",
-    storage: "Could not save your preferences on this device.",
-    location: "Could not find your location. You can still choose a station.",
-    privacy:
-      "Independent, unofficial app. Location stays on your device. Travel times are estimates.",
-    closed: "Metro is closed now. Check operating hours before travelling.",
-    walk: "Walking",
-    towards: "Towards",
-    choose: "Choose a station",
-    stops: "Stations",
-    loading: "Finding your location…",
-  },
-};
-const same = (a: Trip, b: Trip) => a.from === b.from && a.to === b.to;
-function Main() {
-  const [language, setLanguage] = useState(() =>
-    getLocales()[0]?.languageCode === "ar" ? "ar" : "en",
-  );
+const STORAGE_KEY = "riyadh-metro.preferences.v1";
+
+interface StoredPreferences {
+  language: string;
+  favourites: SavedTrip[];
+  recent: SavedTrip[];
+}
+
+function sameTrip(a: SavedTrip, b: SavedTrip): boolean {
+  return a.from === b.from && a.to === b.to;
+}
+
+function AppShell() {
+  const insets = useSafeAreaInsets();
+  const themeMode = useSystemThemeMode();
+
+  const [language, setLanguage] = useState<string>(() => {
+    const code = getLocales()[0]?.languageCode;
+    return code === "ar" ? "ar" : "en";
+  });
+
   const engine = useMemo(() => {
     const e = createMetroEngine();
-    e.setLanguage(
-      e.languages.some((l) => l.code === language) ? language : "ar",
-    );
+    const valid = e.languages.some((l) => l.code === language) ? language : "ar";
+    e.setLanguage(valid);
     return e;
   }, [language]);
-  const [from, setFrom] = useState(""),
-    [to, setTo] = useState(""),
-    [picker, setPicker] = useState<"from" | "to" | null>(null),
-    [query, setQuery] = useState("");
-  const [tab, setTab] = useState<"map" | "saved">("map"),
-    [languages, setLanguages] = useState(false),
-    [option, setOption] = useState(0);
-  const [favourites, setFavourites] = useState<Trip[]>([]),
-    [recent, setRecent] = useState<Trip[]>([]),
-    [hydrated, setHydrated] = useState(false),
-    [locating, setLocating] = useState(false),
-    [now, setNow] = useState(Date.now());
-  const [expanded, setExpanded] = useState<number | null>(null);
-  const writeQueue = useRef(Promise.resolve()),
-    mounted = useRef(true),
-    storageHealthy = useRef(true);
-  const dark = useColorScheme() === "dark";
-  const rtl = engine.languages.find((l) => l.code === language)?.rtl;
-  const c = {
-    bg: dark ? "#0D1723" : "#F5F7FA",
-    surface: dark ? "#1C2B3C" : "#FFFFFF",
-    text: dark ? "#EDF3FA" : "#102A43",
-    muted: dark ? "#A6B7CA" : "#596D82",
-    border: dark ? "#33465C" : "#DEE6EF",
-    accent: dark ? "#8EBFFF" : "#175BB3",
-  };
-  const x = (key: string) =>
-    (EXTRA[language] || EXTRA.en)[key] || EXTRA.en[key];
+
+  const rtl = Boolean(
+    engine.languages.find((l) => l.code === language)?.rtl,
+  );
+  const isArabicScript = language === "ar" || language === "ur";
+  const theme = useMemo(
+    () => resolveTheme(themeMode, false, isArabicScript),
+    [isArabicScript, themeMode],
+  );
+  const s = getAppStrings(language);
   const t = engine.text;
-  const txt = {
-    color: c.text,
-    textAlign: rtl ? ("right" as const) : ("left" as const),
-    writingDirection: rtl ? ("rtl" as const) : ("ltr" as const),
-  };
+
+  const [from, setFrom] = useState<string>("");
+  const [to, setTo] = useState<string>("");
+  const [activeField, setActiveField] = useState<"from" | "to" | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [selectedStationId, setSelectedStationId] = useState<string | null>(
+    null,
+  );
+  const [selectedOption, setSelectedOption] = useState<number>(0);
+  const [sheetIndex, setSheetIndex] = useState<number>(0);
+  const [nowMs, setNowMs] = useState<number>(() => Date.now());
+  const [departOffsetMin, setDepartOffsetMin] = useState<number>(0);
+
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  const [menuSection, setMenuSection] = useState<MenuSection>("language");
+
+  const [favourites, setFavourites] = useState<SavedTrip[]>([]);
+  const [recent, setRecent] = useState<SavedTrip[]>([]);
+  const [hydrated, setHydrated] = useState<boolean>(false);
+  const [locating, setLocating] = useState<boolean>(false);
+
+  const mapRef = useRef<MetroMapRef>(null);
+  const bottomSheetRef = useRef<BottomSheet>(null);
+  const writeQueue = useRef<Promise<void>>(Promise.resolve());
+  const mounted = useRef<boolean>(true);
+  const storageHealthy = useRef<boolean>(true);
+
   useEffect(() => {
     mounted.current = true;
-    const timer = setInterval(() => setNow(Date.now()), 60000);
+    const timer = setInterval(() => setNowMs(Date.now()), 60000);
     return () => {
       mounted.current = false;
       clearInterval(timer);
     };
   }, []);
+
   useEffect(() => {
-    AsyncStorage.getItem(KEY)
+    AsyncStorage.getItem(STORAGE_KEY)
       .then((raw) => {
         if (!raw) return;
-        const p = JSON.parse(raw) as Partial<Preferences>;
-        if (engine.languages.some((l) => l.code === p.language))
-          setLanguage(p.language!);
-        const valid = (v: unknown): Trip[] =>
-          Array.isArray(v)
-            ? v
+        const parsed = JSON.parse(raw) as Partial<StoredPreferences>;
+        if (
+          parsed.language &&
+          engine.languages.some((l) => l.code === parsed.language)
+        ) {
+          setLanguage(parsed.language);
+        }
+        const sanitizeTrips = (list: unknown): SavedTrip[] =>
+          Array.isArray(list)
+            ? list
                 .filter(
-                  (a) =>
-                    a &&
-                    typeof a.from === "string" &&
-                    typeof a.to === "string" &&
-                    engine.parseToken(a.from) &&
-                    engine.parseToken(a.to),
+                  (item): item is SavedTrip =>
+                    Boolean(item) &&
+                    typeof (item as SavedTrip).from === "string" &&
+                    typeof (item as SavedTrip).to === "string" &&
+                    Boolean(engine.parseToken((item as SavedTrip).from)) &&
+                    Boolean(engine.parseToken((item as SavedTrip).to)),
                 )
                 .slice(0, 50)
             : [];
-        setFavourites(valid(p.favourites));
-        setRecent(valid(p.recent));
+        setFavourites(sanitizeTrips(parsed.favourites));
+        setRecent(sanitizeTrips(parsed.recent));
       })
       .catch(() => {
         storageHealthy.current = false;
-        Alert.alert(x("error"), x("storage"));
+        Alert.alert(s.generalError, s.storageError);
       })
       .finally(() => setHydrated(true));
   }, []);
+
   useEffect(() => {
     if (!hydrated || !storageHealthy.current) return;
-    const value = JSON.stringify({ language, favourites, recent });
+    const payload = JSON.stringify({ language, favourites, recent });
     writeQueue.current = writeQueue.current
-      .then(() => AsyncStorage.setItem(KEY, value))
+      .then(() => AsyncStorage.setItem(STORAGE_KEY, payload))
       .catch(() => {
-        if (mounted.current) Alert.alert(x("error"), x("storage"));
+        if (mounted.current) {
+          Alert.alert(s.generalError, s.storageError);
+        }
       });
-  }, [hydrated, language, favourites, recent]);
+  }, [favourites, hydrated, language, recent, s.generalError, s.storageError]);
+
   useEffect(() => {
     if (!hydrated) return;
-    const open = (url: string) => {
-      const trip = parseRouteLink(url, engine);
-      if (trip) {
-        setFrom(trip.from);
-        setTo(trip.to);
-        setTab("map");
-        if (trip.language) setLanguage(trip.language);
+    const handleUrl = (url: string) => {
+      const parsed = parseRouteLink(url, engine);
+      if (parsed) {
+        setFrom(parsed.from);
+        setTo(parsed.to);
+        setSelectedStationId(null);
+        setActiveField(null);
+        if (parsed.language) setLanguage(parsed.language);
       }
     };
     Linking.getInitialURL()
       .then((url) => {
-        if (url) open(url);
+        if (url) handleUrl(url);
       })
       .catch(() => {});
-    const listener = Linking.addEventListener("url", (e) => open(e.url));
-    return () => listener.remove();
-  }, [hydrated]);
+    const sub = Linking.addEventListener("url", (event) => handleUrl(event.url));
+    return () => sub.remove();
+  }, [engine, hydrated]);
+
+  const departMs = nowMs + departOffsetMin * 60000;
+
+  const routes = useMemo(
+    () => (from && to && from !== to ? engine.plan(from, to, departMs) : []),
+    [departMs, engine, from, to],
+  );
+
   useEffect(() => {
-    const listener = BackHandler.addEventListener("hardwareBackPress", () => {
-      if (languages) {
-        setLanguages(false);
+    setSelectedOption(0);
+  }, [from, to]);
+
+  const activeRoute = useMemo(() => {
+    if (!routes.length) return null;
+    const r = routes[Math.min(selectedOption, routes.length - 1)];
+    const fromSt = engine.parseToken(from)?.st;
+    const toSt = engine.parseToken(to)?.st;
+    return {
+      ...r,
+      from: fromSt,
+      to: toSt,
+    };
+  }, [engine, from, routes, selectedOption, to]);
+
+  useEffect(() => {
+    if (!hydrated || !from || !to || from === to || !activeRoute) return;
+    const trip: SavedTrip = { from, to };
+    setRecent((prev) =>
+      [trip, ...prev.filter((item) => !sameTrip(item, trip))].slice(0, 8),
+    );
+  }, [activeRoute, from, hydrated, to]);
+
+  useEffect(() => {
+    const sub = BackHandler.addEventListener("hardwareBackPress", () => {
+      if (menuOpen) {
+        setMenuOpen(false);
         return true;
       }
-      if (tab === "saved") {
-        setTab("map");
+      if (activeField) {
+        setActiveField(null);
+        setSearchQuery("");
+        Keyboard.dismiss();
+        return true;
+      }
+      if (selectedStationId) {
+        setSelectedStationId(null);
+        return true;
+      }
+      if (activeRoute && sheetIndex > 0) {
+        bottomSheetRef.current?.snapToIndex(0);
         return true;
       }
       if (from || to) {
@@ -197,453 +234,370 @@ function Main() {
       }
       return false;
     });
-    return () => listener.remove();
-  }, [languages, tab, from, to]);
-  const routes = useMemo(
-    () => (from && to ? engine.plan(from, to, now) : []),
-    [engine, from, to, now],
-  );
-  useEffect(() => {
-    setOption(0);
-    setExpanded(null);
-  }, [from, to]);
-  const route = routes[Math.min(option, routes.length - 1)];
-  useEffect(() => {
-    if (!hydrated || !from || !to || from === to || !route) return;
-    const trip = { from, to };
-    setRecent((prev) =>
-      [trip, ...prev.filter((p) => !same(p, trip))].slice(0, 5),
-    );
-  }, [from, to, hydrated]);
-  const hits = useMemo(
-    () => engine.search(query).slice(0, 80),
-    [engine, query],
-  );
-  const choose = (id: string) => {
-    if (picker === "from" || (!picker && !from)) setFrom(id);
-    else setTo(id);
-    setPicker(null);
-    setQuery("");
-  };
-  const pick = (which: "from" | "to") => {
-    setQuery("");
-    setPicker(which);
-  };
-  const locate = async () => {
+    return () => sub.remove();
+  }, [activeField, activeRoute, from, menuOpen, selectedStationId, sheetIndex, to]);
+
+  const handleStationPress = useCallback((stationId: string) => {
+    Keyboard.dismiss();
+    setActiveField(null);
+    setSearchQuery("");
+    setSelectedStationId((prev) => (prev === stationId ? null : stationId));
+  }, []);
+
+  const handleLocate = useCallback(async () => {
     setLocating(true);
     try {
-      const p = await Location.requestForegroundPermissionsAsync();
-      if (p.status !== "granted") {
-        Alert.alert(t("locBtn"), x("location"));
+      const perm = await Location.requestForegroundPermissionsAsync();
+      if (perm.status !== "granted") {
+        Alert.alert(t("locBtn"), s.locationError);
         return;
       }
-      const location = await Location.getCurrentPositionAsync({
+      const pos = await Location.getCurrentPositionAsync({
         accuracy: Location.Accuracy.Balanced,
       });
-      const near = engine.nearestStation([
-        location.coords.latitude,
-        location.coords.longitude,
+      const nearest = engine.nearestStation([
+        pos.coords.latitude,
+        pos.coords.longitude,
       ]);
-      if (near && mounted.current) {
-        setFrom(near.id);
-        if (near.d > 1500)
+      if (nearest && mounted.current) {
+        if (activeField === "to") {
+          setTo(nearest.id);
+          setActiveField(null);
+          setSearchQuery("");
+        } else {
+          setFrom(nearest.id);
+          if (activeField === "from") {
+            setActiveField(to ? null : "to");
+            setSearchQuery("");
+          }
+        }
+        setSelectedStationId(nearest.id);
+        mapRef.current?.focus([nearest.id]);
+        if (nearest.d > 1500) {
           Alert.alert(
             t("locBtn"),
             t("locFar", {
-              s: engine.stationName(near.id),
-              k: (near.d / 1000).toFixed(1),
+              s: engine.stationName(nearest.id),
+              k: (nearest.d / 1000).toFixed(1),
             }),
           );
+        }
       }
     } catch {
-      Alert.alert(t("locBtn"), x("location"));
+      Alert.alert(t("locBtn"), s.locationError);
     } finally {
       if (mounted.current) setLocating(false);
     }
-  };
-  const share = async () => {
+  }, [activeField, engine, s.locationError, t, to]);
+
+  const handlePressField = useCallback((field: "from" | "to") => {
+    setSelectedStationId(null);
+    setActiveField(field);
+    setSearchQuery("");
+  }, []);
+
+  const handleSelectSearchToken = useCallback(
+    (token: string) => {
+      Keyboard.dismiss();
+      setSearchQuery("");
+      if (activeField === "from") {
+        setFrom(token);
+        if (!to) {
+          setActiveField("to");
+        } else {
+          setActiveField(null);
+        }
+      } else {
+        setTo(token);
+        if (!from) {
+          setActiveField("from");
+        } else {
+          setActiveField(null);
+        }
+      }
+    },
+    [activeField, from, to],
+  );
+
+  const handleSwap = useCallback(() => {
+    setFrom(to);
+    setTo(from);
+  }, [from, to]);
+
+  const handleClear = useCallback(() => {
+    Keyboard.dismiss();
+    setFrom("");
+    setTo("");
+    setActiveField(null);
+    setSearchQuery("");
+    setSelectedStationId(null);
+  }, []);
+
+  const isCurrentRouteSaved = useMemo(
+    () => Boolean(from && to && favourites.some((p) => sameTrip(p, { from, to }))),
+    [favourites, from, to],
+  );
+
+  const handleToggleSaveRoute = useCallback(() => {
+    if (!from || !to) return;
+    const trip = { from, to };
+    setFavourites((prev) =>
+      prev.some((p) => sameTrip(p, trip))
+        ? prev.filter((p) => !sameTrip(p, trip))
+        : [trip, ...prev].slice(0, 50),
+    );
+  }, [from, to]);
+
+  const handleShareRoute = useCallback(async () => {
+    if (!activeRoute || !from || !to) return;
     try {
       await Share.share({
-        message: `${engine.name(from)} → ${engine.name(to)}\n${t("minRange", { a: route.time, b: route.timeMax })} · ${t("changes", { n: route.xf })}\n${engine.shareUrl(from, to)}`,
+        message: `${engine.name(from)} → ${engine.name(to)}\n${t("minRange", {
+          a: activeRoute.time,
+          b: activeRoute.timeMax,
+        })} · ${t("changes", { n: activeRoute.xf })}\n${engine.shareUrl(
+          from,
+          to,
+        )}`,
       });
     } catch {
-      Alert.alert(x("error"));
+      Alert.alert(s.generalError);
     }
-  };
-  const button = (
-    label: string,
-    fn: () => void,
-    selected = false,
-    accessibilityLabel = label,
-  ) => (
-    <Pressable
-      accessibilityLabel={accessibilityLabel}
-      accessibilityRole="button"
-      accessibilityState={{ selected }}
-      onPress={fn}
-      style={[
-        s.button,
-        {
-          backgroundColor: selected ? c.accent : c.surface,
-          borderColor: c.border,
-        },
-      ]}
-    >
-      <Text
-        style={[txt, { color: selected ? c.bg : c.text, fontWeight: "600" }]}
-      >
-        {label}
-      </Text>
-    </Pressable>
-  );
-  const openTrip = (p: Trip) => {
-    setFrom(p.from);
-    setTo(p.to);
-    setTab("map");
-  };
+  }, [activeRoute, engine, from, s.generalError, t, to]);
+
+  const { colors } = theme;
+  const topBarRow = directionalRow(rtl);
+  const scrimHeight = insets.top + 24;
+  const compactBarHeight = 76 + Math.max(12, insets.bottom + 8);
+  const mapBottomInset = activeRoute ? 185 : compactBarHeight;
+
   return (
-    <SafeAreaView style={[s.screen, { backgroundColor: c.bg }]}>
-      <StatusBar barStyle={dark ? "light-content" : "dark-content"} />
-      <View style={[s.header, { flexDirection: rtl ? "row-reverse" : "row" }]}>
-        <View style={{ flex: 1 }}>
-          <Text accessibilityRole="header" style={[s.title, txt]}>
-            {t("title")}
-          </Text>
-          <Text style={[txt, { color: c.muted, fontSize: 12 }]}>
-            {x("offline")}
-          </Text>
-        </View>
-        {button(language.toUpperCase(), () => setLanguages(true))}
-      </View>
-      <View style={[s.tabs, { flexDirection: rtl ? "row-reverse" : "row" }]}>
-        {button(x("map"), () => setTab("map"), tab === "map")}
-        {button(x("saved"), () => setTab("saved"), tab === "saved")}
-        {locating ? (
-          <ActivityIndicator accessibilityLabel={x("loading")} />
-        ) : (
-          button("⌖", locate, false, t("locBtn"))
-        )}
-      </View>
-      {tab === "map" ? (
-        <>
-          <View style={[s.fields, { backgroundColor: c.surface }]}>
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={t("phFrom")}
-              onPress={() => pick("from")}
-              style={s.field}
-            >
-              <Text numberOfLines={2} style={txt}>
-                ● {from ? engine.name(from) : t("phFrom")}
-              </Text>
-            </Pressable>
-            <View style={{ height: 1, backgroundColor: c.border }} />
-            <Pressable
-              accessibilityRole="button"
-              accessibilityLabel={t("phTo")}
-              onPress={() => pick("to")}
-              style={s.field}
-            >
-              <Text numberOfLines={2} style={txt}>
-                ◎ {to ? engine.name(to) : t("phTo")}
-              </Text>
-            </Pressable>
-            <View style={s.row}>
-              {button(t("swap"), () => {
-                setFrom(to);
-                setTo(from);
-              })}
-              {button(t("clear"), () => {
-                setFrom("");
-                setTo("");
-              })}
-            </View>
-          </View>
-          <MetroMap
-            engine={engine}
-            from={from}
-            to={to}
-            route={route}
-            onStation={choose}
-            dark={dark}
-          />
-          <ScrollView
-            style={s.details}
-            contentContainerStyle={{ padding: 16, gap: 12 }}
-          >
-            {!engine.serviceState(now).open && (
-              <Text style={[txt, { color: dark ? "#FFD28C" : "#855000" }]}>
-                {x("closed")}
-              </Text>
-            )}
-            {!route ? (
-              <Text style={txt}>{t(from ? "hintOne" : "hintNone")}</Text>
-            ) : from === to ? (
-              <Text style={txt}>{t("hintSame")}</Text>
-            ) : (
-              <>
-                <ScrollView horizontal contentContainerStyle={{ gap: 8 }}>
-                  {routes.map((r, i) => (
-                    <Pressable
-                      key={r.sig}
-                      onPress={() => setOption(i)}
-                      accessibilityRole="button"
-                      accessibilityState={{ selected: option === i }}
-                      style={[
-                        s.option,
-                        {
-                          borderColor: option === i ? c.accent : c.border,
-                          backgroundColor: c.surface,
-                        },
-                      ]}
-                    >
-                      <Text style={[s.summary, txt]}>
-                        {t("minRange", { a: r.time, b: r.timeMax })}
-                      </Text>
-                      <Text style={txt}>
-                        {t("changes", { n: r.xf })} ·{" "}
-                        {r.rides ? `${engine.fares.std} SAR` : "0 SAR"}
-                      </Text>
-                    </Pressable>
-                  ))}
-                </ScrollView>
-                <Text style={[txt, { color: c.muted }]}>{t("estNote")}</Text>
-                {[from, to].map((id) => {
-                  const p = engine.parseToken(id)?.lm;
-                  return p && p.min > 0 ? (
-                    <Text key={id} style={txt}>
-                      {engine.name(id)}: {t("walkChip", { n: p.min })}
-                      {p.note
-                        ? ` · ${t("n_bus", { s: engine.stationName(engine.parseToken(id)!.st) })}`
-                        : ""}
-                    </Text>
-                  ) : null;
-                })}
-                {route.legs.map((leg, i) =>
-                  leg.type === "ride" ? (
-                    <Pressable
-                      key={i}
-                      accessibilityRole="button"
-                      onPress={() => setExpanded(expanded === i ? null : i)}
-                      style={[
-                        s.leg,
-                        {
-                          borderLeftColor:
-                            lineColors[
-                              engine.services.find((l) => l.id === leg.svc)!
-                                .line
-                            ],
-                          backgroundColor: c.surface,
-                        },
-                      ]}
-                    >
-                      <Text style={[txt, { fontWeight: "700" }]}>
-                        {engine.lineName(leg.svc)} · {x("towards")}{" "}
-                        {engine.direction(leg)}
-                      </Text>
-                      <Text style={txt}>
-                        {engine.stationName(leg.stops[0])} →{" "}
-                        {engine.stationName(leg.stops[leg.stops.length - 1])}
-                      </Text>
-                      <Text style={[txt, { color: c.muted }]}>
-                        {t("stops", { n: leg.stops.length - 1 })} ⌄
-                      </Text>
-                      {expanded === i &&
-                        leg.stops.map((id) => (
-                          <Text key={id} style={[txt, { paddingVertical: 5 }]}>
-                            • {engine.stationName(id)}
-                          </Text>
-                        ))}
-                    </Pressable>
-                  ) : (
-                    <Text key={i} style={txt}>
-                      {leg.type === "xfer" ? t("changes", { n: 1 }) : x("walk")}{" "}
-                      · {engine.stationName(leg.from!)} ·{" "}
-                      {t("min", { n: leg.t! })}
-                    </Text>
-                  ),
-                )}
-                <View style={s.row}>
-                  {button(t("shareRoute"), share)}
-                  {button(
-                    favourites.some((p) => same(p, { from, to }))
-                      ? x("unsave")
-                      : x("save"),
-                    () =>
-                      setFavourites((prev) =>
-                        prev.some((p) => same(p, { from, to }))
-                          ? prev.filter((p) => !same(p, { from, to }))
-                          : [{ from, to }, ...prev].slice(0, 50),
-                      ),
-                  )}
-                </View>
-              </>
-            )}
-            <Text style={[txt, { color: c.muted, fontSize: 12 }]}>
-              {x("privacy")} · RCRC open data · © OpenStreetMap contributors
-              (ODbL), Wikipedia
-            </Text>
-          </ScrollView>
-        </>
-      ) : (
-        <ScrollView contentContainerStyle={{ padding: 16, gap: 12 }}>
-          {[
-            { title: x("saved"), data: favourites },
-            { title: x("recent"), data: recent },
-          ].map((group) => (
-            <View key={group.title} style={{ gap: 8 }}>
-              <Text style={[s.summary, txt]}>{group.title}</Text>
-              {!group.data.length && <Text style={txt}>{x("empty")}</Text>}
-              {group.data.map((p) => (
-                <Pressable
-                  key={p.from + "~" + p.to}
-                  onPress={() => openTrip(p)}
-                  style={[
-                    s.leg,
-                    { backgroundColor: c.surface, borderLeftColor: c.accent },
-                  ]}
-                >
-                  <Text style={txt}>
-                    {engine.name(p.from)} → {engine.name(p.to)}
-                  </Text>
-                </Pressable>
-              ))}
-            </View>
-          ))}
-        </ScrollView>
-      )}
-      <Modal
-        visible={!!picker}
-        onRequestClose={() => setPicker(null)}
-        animationType="slide"
+    <View style={[styles.container, { backgroundColor: colors.bg }]}>
+      <StatusBar barStyle={theme.isDark ? "light-content" : "dark-content"} />
+
+      <MetroMap
+        ref={mapRef}
+        theme={theme.mode}
+        language={language}
+        selected={selectedStationId}
+        route={activeRoute}
+        onStationPress={handleStationPress}
+        topInset={scrimHeight}
+        bottomInset={mapBottomInset}
+        fontRegular={theme.fonts.regular}
+        fontBold={theme.fonts.bold}
+      />
+
+      <View
+        pointerEvents="none"
+        style={[styles.topScrim, { height: scrimHeight }]}
       >
-        <SafeAreaView style={[s.screen, { backgroundColor: c.bg }]}>
-          <View style={s.header}>
-            <Text style={[s.summary, txt]}>
-              {picker === "from" ? t("phFrom") : t("phTo")}
-            </Text>
-            {button(t("close"), () => setPicker(null))}
-          </View>
-          <TextInput
-            autoFocus
-            value={query}
-            onChangeText={setQuery}
-            accessibilityLabel={x("choose")}
-            placeholder={x("choose")}
-            placeholderTextColor={c.muted}
+        <Svg width="100%" height="100%">
+          <Defs>
+            <LinearGradient id="statusScrim" x1="0" y1="0" x2="0" y2="1">
+              <Stop offset="0" stopColor={colors.bg} stopOpacity="0.88" />
+              <Stop offset="0.65" stopColor={colors.bg} stopOpacity="0.5" />
+              <Stop offset="1" stopColor={colors.bg} stopOpacity="0" />
+            </LinearGradient>
+          </Defs>
+          <Rect x="0" y="0" width="100%" height="100%" fill="url(#statusScrim)" />
+        </Svg>
+      </View>
+
+      <View
+        pointerEvents="box-none"
+        style={[
+          styles.topOverlay,
+          topBarRow,
+          { top: insets.top + 10 },
+        ]}
+      >
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={s.menu}
+          onPress={() => {
+            setMenuSection("language");
+            setMenuOpen(true);
+          }}
+          style={[
+            styles.roundButton,
+            { backgroundColor: colors.surface, borderColor: colors.rule },
+          ]}
+        >
+          <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>☰</Text>
+        </Pressable>
+      </View>
+
+      {!selectedStationId && !activeField && (
+        <View
+          pointerEvents="box-none"
+          style={[
+            styles.sideButtonsWrap,
+            { bottom: mapBottomInset + 14 },
+            rtl ? { left: 14 } : { right: 14 },
+          ]}
+        >
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={t("locBtn")}
+            onPress={handleLocate}
             style={[
-              s.input,
-              txt,
-              { backgroundColor: c.surface, borderColor: c.border },
+              styles.roundButton,
+              { backgroundColor: colors.surface, borderColor: colors.rule },
             ]}
-          />
-          <FlatList
-            data={hits}
-            keyboardShouldPersistTaps="handled"
-            keyExtractor={(item) => item.id || item.place!.id}
-            renderItem={({ item }) => (
-              <Pressable
-                accessibilityRole="button"
-                onPress={() => choose(item.id || item.place!.id)}
-                style={[s.searchRow, { borderBottomColor: c.border }]}
-              >
-                <Text style={[txt, { fontSize: 17 }]}>
-                  {item.id ? engine.stationName(item.id) : item.place!.n}
-                </Text>
-                {item.id && engine.parkAndRide.has(item.id) && (
-                  <Text style={[txt, { color: c.muted }]}>{t("parkRide")}</Text>
-                )}
-              </Pressable>
+          >
+            {locating ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>
+                ⌖
+              </Text>
             )}
-          />
-        </SafeAreaView>
-      </Modal>
-      <Modal
-        visible={languages}
-        onRequestClose={() => setLanguages(false)}
-        animationType="slide"
-      >
-        <SafeAreaView style={[s.screen, { backgroundColor: c.bg }]}>
-          {button(t("close"), () => setLanguages(false))}
-          <ScrollView>
-            {engine.languages.map((l) => (
-              <Pressable
-                accessibilityRole="button"
-                key={l.code}
-                onPress={() => {
-                  setLanguage(l.code);
-                  setLanguages(false);
-                }}
-                style={s.searchRow}
-              >
-                <Text style={[txt, { fontSize: 22 }]}>
-                  {l.native} {l.code === language ? "✓" : ""}
-                </Text>
-              </Pressable>
-            ))}
-          </ScrollView>
-        </SafeAreaView>
-      </Modal>
-    </SafeAreaView>
+          </Pressable>
+
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={s.fitNetwork}
+            onPress={() => mapRef.current?.fitNetwork()}
+            style={[
+              styles.roundButton,
+              { backgroundColor: colors.surface, borderColor: colors.rule },
+            ]}
+          >
+            <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>
+              ⤢
+            </Text>
+          </Pressable>
+        </View>
+      )}
+
+      <StationCard
+        stationId={selectedStationId}
+        engine={engine}
+        language={language}
+        rtl={rtl}
+        theme={theme}
+        onFromHere={(sid) => {
+          setFrom(sid);
+          setSelectedStationId(null);
+        }}
+        onToHere={(sid) => {
+          setTo(sid);
+          setSelectedStationId(null);
+        }}
+        onClose={() => setSelectedStationId(null)}
+      />
+
+      <BottomPanel
+        ref={bottomSheetRef}
+        engine={engine}
+        language={language}
+        rtl={rtl}
+        theme={theme}
+        from={from}
+        to={to}
+        routes={routes}
+        selectedOption={selectedOption}
+        onSelectOption={setSelectedOption}
+        activeField={activeField}
+        searchQuery={searchQuery}
+        onChangeSearchQuery={setSearchQuery}
+        onPressField={handlePressField}
+        onSelectSearchToken={handleSelectSearchToken}
+        onSelectTrip={(trip) => {
+          Keyboard.dismiss();
+          setFrom(trip.from);
+          setTo(trip.to);
+          setActiveField(null);
+          setSearchQuery("");
+        }}
+        onUseLocation={handleLocate}
+        onCloseSearch={() => {
+          Keyboard.dismiss();
+          setActiveField(null);
+          setSearchQuery("");
+        }}
+        onSwap={handleSwap}
+        onClear={handleClear}
+        departMs={departMs}
+        departOffsetMin={departOffsetMin}
+        onChangeDepartOffsetMin={setDepartOffsetMin}
+        isCurrentRouteSaved={isCurrentRouteSaved}
+        onToggleSaveRoute={handleToggleSaveRoute}
+        onShareRoute={handleShareRoute}
+        recent={recent}
+        onSheetChange={setSheetIndex}
+      />
+
+      <MenuSheet
+        visible={menuOpen}
+        initialSection={menuSection}
+        onClose={() => setMenuOpen(false)}
+        engine={engine}
+        language={language}
+        onSelectLanguage={setLanguage}
+        favourites={favourites}
+        recent={recent}
+        onSelectTrip={(trip) => {
+          setFrom(trip.from);
+          setTo(trip.to);
+          setActiveField(null);
+        }}
+        onRemoveFavourite={(trip) =>
+          setFavourites((prev) => prev.filter((item) => !sameTrip(item, trip)))
+        }
+        theme={theme}
+        rtl={rtl}
+      />
+    </View>
   );
 }
+
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <Main />
-    </SafeAreaProvider>
+    <GestureHandlerRootView style={styles.container}>
+      <SafeAreaProvider>
+        <AppShell />
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
-const s = StyleSheet.create({
-  screen: { flex: 1 },
-  header: {
-    padding: 16,
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: 12,
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
   },
-  title: { fontSize: 26, fontWeight: "800" },
-  tabs: {
-    paddingHorizontal: 16,
-    paddingBottom: 10,
-    flexDirection: "row",
-    gap: 8,
-    alignItems: "center",
+  topScrim: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
   },
-  button: {
-    minHeight: 48,
-    minWidth: 48,
-    paddingHorizontal: 14,
-    paddingVertical: 12,
-    borderRadius: 14,
+  topOverlay: {
+    position: "absolute",
+    left: 14,
+    right: 14,
+    justifyContent: "flex-start",
+  },
+  sideButtonsWrap: {
+    position: "absolute",
+    gap: 10,
+  },
+  roundButton: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
     borderWidth: 1,
+    alignItems: "center",
     justifyContent: "center",
-    alignItems: "center",
+    elevation: 4,
+    shadowColor: "#000",
+    shadowOpacity: 0.14,
+    shadowRadius: 6,
+    shadowOffset: { width: 0, height: 3 },
   },
-  fields: {
-    marginHorizontal: 16,
-    borderRadius: 18,
-    paddingHorizontal: 14,
-    paddingBottom: 8,
-  },
-  field: { minHeight: 48, justifyContent: "center", paddingVertical: 12 },
-  row: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
-  details: { flex: 1, maxHeight: "40%" },
-  summary: { fontSize: 20, fontWeight: "700" },
-  option: { padding: 14, borderRadius: 16, borderWidth: 2, gap: 4 },
-  leg: { borderLeftWidth: 4, borderRadius: 12, padding: 14, gap: 8 },
-  input: {
-    margin: 16,
-    padding: 14,
-    minHeight: 50,
-    borderWidth: 1,
-    borderRadius: 14,
-    fontSize: 18,
-  },
-  searchRow: {
-    minHeight: 58,
-    padding: 18,
-    borderBottomWidth: StyleSheet.hairlineWidth,
+  roundButtonIcon: {
+    fontSize: 20,
+    fontWeight: "600",
   },
 });
