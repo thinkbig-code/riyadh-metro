@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-03T07:57:14Z",
+ "generated": "2026-11-03T10:04:17Z",
  "start": "2026-10-04",
  "end": "2026-11-04",
  "total": {
-  "total": 3672,
-  "total_events": 1687,
-  "total_utc": 3672,
+  "total": 3697,
+  "total_events": 1700,
+  "total_utc": 3697,
   "stats": [
    {
     "day": "2026-10-04",
@@ -882,8 +882,8 @@
      4
     ],
     "daily": 161,
-    "weekly": 216,
-    "monthly": 216
+    "weekly": 241,
+    "monthly": 241
    },
    {
     "day": "2026-11-02",
@@ -929,9 +929,9 @@
      3,
      3,
      0,
-     3,
-     0,
-     0,
+     5,
+     14,
+     9,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 43
    },
    {
     "day": "2026-11-04",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 752,
+   "count": 754,
    "daily": {
     "2026-10-04": 6,
     "2026-10-05": 10,
@@ -1015,7 +1015,7 @@
     "2026-10-31": 11,
     "2026-11-01": 6,
     "2026-11-02": 6,
-    "2026-11-03": 4
+    "2026-11-03": 6
    }
   },
   {
@@ -1091,7 +1091,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 83,
+   "count": 85,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1118,7 +1118,7 @@
     "2026-10-31": 3,
     "2026-11-01": 3,
     "2026-11-02": 3,
-    "2026-11-03": 1
+    "2026-11-03": 3
    }
   },
   {
@@ -1126,7 +1126,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 49,
+   "count": 50,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -1148,7 +1148,8 @@
     "2026-10-29": 1,
     "2026-10-30": 4,
     "2026-10-31": 6,
-    "2026-11-01": 5
+    "2026-11-01": 5,
+    "2026-11-03": 1
    }
   },
   {
@@ -1220,6 +1221,27 @@
    }
   },
   {
+   "path": "place/p_kafd_king_abdullah_financial_district/to",
+   "path_id": 110300373,
+   "title": "en|name",
+   "event": true,
+   "count": 23,
+   "daily": {
+    "2026-10-07": 2,
+    "2026-10-08": 5,
+    "2026-10-09": 4,
+    "2026-10-10": 3,
+    "2026-10-12": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-23": 1,
+    "2026-10-25": 2,
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-arid",
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
@@ -1240,26 +1262,6 @@
     "2026-10-26": 1,
     "2026-10-30": 3,
     "2026-11-01": 1
-   }
-  },
-  {
-   "path": "place/p_kafd_king_abdullah_financial_district/to",
-   "path_id": 110300373,
-   "title": "en|name",
-   "event": true,
-   "count": 22,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 5,
-    "2026-10-09": 4,
-    "2026-10-10": 3,
-    "2026-10-12": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-23": 1,
-    "2026-10-25": 2
    }
   },
   {
@@ -1548,6 +1550,22 @@
    }
   },
   {
+   "path": "/ar/stations",
+   "path_id": 112000986,
+   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-14": 2,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-24": 1,
+    "2026-10-31": 1,
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "/ar/districts",
    "path_id": 111998625,
    "title": "أقرب محطة مترو لكل أحياء الرياض",
@@ -1622,6 +1640,21 @@
    }
   },
   {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-05": 1,
+    "2026-10-09": 1,
+    "2026-10-12": 3,
+    "2026-10-17": 1,
+    "2026-10-24": 1,
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-mursalat",
    "path_id": 115154081,
    "title": "أقرب محطة مترو لحي المرسلات في الرياض: محطة وزارة التعليم، 1.0 كم",
@@ -1675,21 +1708,6 @@
     "2026-10-25": 2,
     "2026-10-26": 1,
     "2026-10-30": 1
-   }
-  },
-  {
-   "path": "/ar/stations",
-   "path_id": 112000986,
-   "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-14": 2,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1,
-    "2026-10-24": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -1777,20 +1795,6 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/destinations/al-awwal-park",
-   "path_id": 109448541,
-   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-05": 1,
-    "2026-10-09": 1,
-    "2026-10-12": 3,
-    "2026-10-17": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -1938,6 +1942,21 @@
     "2026-10-07": 3,
     "2026-10-08": 2,
     "2026-10-10": 1
+   }
+  },
+  {
+   "path": "/ar/lines/blue-line",
+   "path_id": 110184814,
+   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-15": 1,
+    "2026-10-19": 1,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-03": 1
    }
   },
   {
@@ -2233,20 +2252,6 @@
    "daily": {
     "2026-10-07": 2,
     "2026-10-08": 3
-   }
-  },
-  {
-   "path": "/ar/lines/blue-line",
-   "path_id": 110184814,
-   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-15": 1,
-    "2026-10-19": 1,
-    "2026-10-29": 1,
-    "2026-11-01": 1
    }
   },
   {
@@ -2668,6 +2673,29 @@
    }
   },
   {
+   "path": "place/p_king_fahd_national_library/to",
+   "path_id": 110299419,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-08": 2,
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-maizalah",
+   "path_id": 117381752,
+   "title": "أقرب محطة مترو لحي المعيزلة في الرياض: محطة استاد الملك فهد (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-03": 2
+   }
+  },
+  {
    "path": "/ar/districts/al-ezdihar",
    "path_id": 116920151,
    "title": "أقرب محطة مترو لحي الازدهار في الرياض: محطة غرناطة، 1.4 كم",
@@ -3015,6 +3043,18 @@
    "daily": {
     "2026-10-17": 2,
     "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/ar/lines/red-line",
+   "path_id": 112486392,
+   "title": "المسار الأحمر مترو الرياض (المسار 2): المحطات والخريطة والمواعيد",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-23": 1,
+    "2026-11-03": 1
    }
   },
   {
@@ -3378,17 +3418,6 @@
    }
   },
   {
-   "path": "place/p_king_fahd_national_library/to",
-   "path_id": 110299419,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 2
-   }
-  },
-  {
    "path": "noresult/from/-",
    "path_id": 110298937,
    "title": "en|minisi",
@@ -3726,6 +3755,17 @@
    "count": 2,
    "daily": {
     "2026-10-25": 2
+   }
+  },
+  {
+   "path": "/ar/stations/king-fahad-stadium",
+   "path_id": 114971598,
+   "title": "محطة استاد الملك فهد، مترو الرياض: المسار الأحمر (رقم 39)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-11-03": 1
    }
   },
   {
@@ -4194,17 +4234,6 @@
    }
   },
   {
-   "path": "/ar/lines/red-line",
-   "path_id": 112486392,
-   "title": "المسار الأحمر مترو الرياض (المسار 2): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-23": 1
-   }
-  },
-  {
    "path": "/stations/al-malaz",
    "path_id": 112456364,
    "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
@@ -4411,6 +4440,17 @@
    }
   },
   {
+   "path": "/destinations/king-fahd-stadium",
+   "path_id": 111855450,
+   "title": "King Fahd Stadium Metro Station: King Fahad Stadium, 8 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 1,
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "/destinations/jawazat",
    "path_id": 111853560,
    "title": "Jawazat (Passports Office) Metro Station: Passport Department, 4 min walk",
@@ -4507,6 +4547,17 @@
    "daily": {
     "2026-10-12": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "place/p_olaya_towers/from",
+   "path_id": 111328515,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-11-03": 1
    }
   },
   {
@@ -5084,6 +5135,96 @@
    }
   },
   {
+   "path": "noresult/baba_tuma",
+   "path_id": 117999009,
+   "title": "en|baba tuma",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "noresult/sulaimani_rise",
+   "path_id": 117998763,
+   "title": "en|sulaimani rise",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "route/sulimaniyah/hokm",
+   "path_id": 117994012,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "/ar/stations/harun-ar-rashid-road",
+   "path_id": 117982322,
+   "title": "محطة طريق هارون الرشيد، مترو الرياض: المسار البرتقالي (رقم 57)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "view/sportcity/p_king_fahd_national_library",
+   "path_id": 117980307,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "route/sportcity/p_king_fahd_national_library",
+   "path_id": 117980238,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "route/sportcity/p_kafd_king_abdullah_financial_district",
+   "path_id": 117980095,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "noresult/مركز_كير_الطبب",
+   "path_id": 117980058,
+   "title": "ar|مركز كير الطبب",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "geo/far/sportcity",
+   "path_id": 117980002,
+   "title": "ar",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "geo/ok/sultanah",
    "path_id": 117956536,
    "title": "en",
@@ -5307,16 +5448,6 @@
    "path": "/ar/stations/dr-sulaiman-al-habib",
    "path_id": 117411068,
    "title": "محطة د. سليمان الحبيب، مترو الرياض: المسار الأزرق (رقم 2)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-maizalah",
-   "path_id": 117381752,
-   "title": "أقرب محطة مترو لحي المعيزلة في الرياض: محطة استاد الملك فهد (داخل الحي)",
    "event": false,
    "count": 1,
    "daily": {
@@ -6367,16 +6498,6 @@
    "path": "/stations/uthman-bin-affan-road",
    "path_id": 115031199,
    "title": "Uthman Bin Affan Road Metro Station, Riyadh: Yellow/Purple lines, No. 62",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/ar/stations/king-fahad-stadium",
-   "path_id": 114971598,
-   "title": "محطة استاد الملك فهد، مترو الرياض: المسار الأحمر (رقم 39)",
    "event": false,
    "count": 1,
    "daily": {
@@ -8824,16 +8945,6 @@
    }
   },
   {
-   "path": "/destinations/king-fahd-stadium",
-   "path_id": 111855450,
-   "title": "King Fahd Stadium Metro Station: King Fahad Stadium, 8 min walk",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-13": 1
-   }
-  },
-  {
    "path": "route/mof/kbw",
    "path_id": 111852142,
    "title": "en|map|ok",
@@ -9277,16 +9388,6 @@
    "path": "route/p_olaya_towers/kbw",
    "path_id": 111328693,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "place/p_olaya_towers/from",
-   "path_id": 111328515,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -12626,9 +12727,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1985,
-  "events_total": 1687,
-  "goatcounter_total_with_events": 3672,
+  "visits": 1997,
+  "events_total": 1700,
+  "goatcounter_total_with_events": 3697,
   "page_loads_by_day": {
    "2026-10-04": 7,
    "2026-10-05": 12,
@@ -12660,7 +12761,7 @@
    "2026-10-31": 118,
    "2026-11-01": 145,
    "2026-11-02": 30,
-   "2026-11-03": 11
+   "2026-11-03": 23
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12689,11 +12790,11 @@
    "2026-10-31": 13,
    "2026-11-01": 7,
    "2026-11-02": 6,
-   "2026-11-03": 4
+   "2026-11-03": 6
   },
-  "visitor_days": 654,
-  "return_rate": 0.127,
-  "routes": 451,
+  "visitor_days": 656,
+  "return_rate": 0.13,
+  "routes": 454,
   "routes_not_found": 0,
   "routes_per_visit": 0.23,
   "routes_per_visitor_day": 0.66,
@@ -12705,11 +12806,23 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.059,
+  "failed_search_rate": 0.066,
   "failed_searches": [
    {
     "name": "baba sweet",
     "count": 2
+   },
+   {
+    "name": "baba tuma",
+    "count": 1
+   },
+   {
+    "name": "sulaimani rise",
+    "count": 1
+   },
+   {
+    "name": "مركز كير الطبب",
+    "count": 1
    },
    {
     "name": "تjjjjj",
@@ -12793,11 +12906,11 @@
    "ok": 54,
    "fail": 5,
    "outside": 3,
-   "far": 4
+   "far": 5
   },
   "visitors_new_return": {
    "new": 571,
-   "return": 83
+   "return": 85
   },
   "top_routes": [
    {
@@ -12906,15 +13019,15 @@
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 21
+    "count": 22
+   },
+   {
+    "name": "hokm",
+    "count": 16
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
     "count": 16
-   },
-   {
-    "name": "hokm",
-    "count": 15
    },
    {
     "name": "jeddahrd",
@@ -12950,7 +13063,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 492
+    "count": 494
    },
    {
     "name": "tiktok_ad",
@@ -13415,6 +13528,40 @@
     "count": 1
    }
   ],
+  "/ar/stations": [
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/nearest-station",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-maizalah",
+    "count": 1
+   }
+  ],
   "/ar/districts": [
    {
     "name": "Google",
@@ -13457,6 +13604,20 @@
    {
     "name": "Google",
     "count": 8
+   }
+  ],
+  "/destinations/al-awwal-park": [
+   {
+    "name": "Google",
+    "count": 6
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
    }
   ],
   "/ar/districts/al-mursalat": [
@@ -13515,36 +13676,6 @@
     "count": 3
    }
   ],
-  "/ar/stations": [
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/al-malaz",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/nearest-station",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/qasr-al-hokm",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations/salahaddin",
-    "count": 1
-   }
-  ],
   "/districts/al-taawun": [
    {
     "name": "(direct or unknown)",
@@ -13592,16 +13723,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/destinations/al-awwal-park": [
-   {
-    "name": "Google",
-    "count": 6
-   },
-   {
-    "name": "(direct or unknown)",
     "count": 1
    }
   ],
@@ -13695,6 +13816,24 @@
    {
     "name": "Google",
     "count": 6
+   }
+  ],
+  "/ar/lines/blue-line": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
    }
   ],
   "/ar/destinations/via-riyadh": [
@@ -13829,20 +13968,6 @@
     "count": 1
    }
   ],
-  "/ar/lines/blue-line": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-uraija": [
    {
     "name": "Google",
@@ -13860,7 +13985,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 492
+    "count": 494
    },
    {
     "path": "/ar/map",
@@ -13935,7 +14060,15 @@
     "count": 1
    },
    {
+    "path": "/ar/stations",
+    "count": 1
+   },
+   {
     "path": "/ar/districts",
+    "count": 1
+   },
+   {
+    "path": "/destinations/al-awwal-park",
     "count": 1
    },
    {
@@ -13947,15 +14080,7 @@
     "count": 1
    },
    {
-    "path": "/ar/stations",
-    "count": 1
-   },
-   {
     "path": "/destinations/diriyah",
-    "count": 1
-   },
-   {
-    "path": "/destinations/al-awwal-park",
     "count": 1
    },
    {
@@ -14061,11 +14186,11 @@
     "count": 6
    },
    {
-    "path": "/ar/districts/al-saadah",
+    "path": "/destinations/al-awwal-park",
     "count": 6
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/ar/districts/al-saadah",
     "count": 6
    },
    {
@@ -14173,15 +14298,15 @@
     "count": 3
    },
    {
+    "path": "/ar/lines/blue-line",
+    "count": 3
+   },
+   {
     "path": "/ar/districts/al-malqa",
     "count": 3
    },
    {
     "path": "/destinations/riyadh-gallery-mall",
-    "count": 3
-   },
-   {
-    "path": "/ar/lines/blue-line",
     "count": 3
    },
    {
@@ -14290,6 +14415,10 @@
    },
    {
     "path": "/ar/districts/al-aqeeq",
+    "count": 1
+   },
+   {
+    "path": "/destinations/al-awwal-park",
     "count": 1
    },
    {
@@ -14457,6 +14586,10 @@
    {
     "path": "/ar/stations/western-station",
     "count": 1
+   },
+   {
+    "path": "/ar/lines/blue-line",
+    "count": 1
    }
   ],
   "com.google.android.apps.searchlite": [
@@ -14515,11 +14648,11 @@
     "count": 1
    },
    {
-    "path": "/ar/districts",
+    "path": "/ar/stations",
     "count": 1
    },
    {
-    "path": "/ar/stations",
+    "path": "/ar/districts",
     "count": 1
    },
    {
@@ -14699,9 +14832,27 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-mursalat",
+    "path": "/ar/stations",
     "count": 1
    },
+   {
+    "path": "/ar/districts/al-mursalat",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/al-malaz": [
+   {
+    "path": "/ar/stations",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/stations/qasr-al-hokm": [
+   {
+    "path": "/ar/stations",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/districts/al-maizalah": [
    {
     "path": "/ar/stations",
     "count": 1
@@ -14719,18 +14870,6 @@
     "count": 1
    }
   ],
-  "riyadhmetro.fyi/ar/stations/al-malaz": [
-   {
-    "path": "/ar/stations",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/stations/qasr-al-hokm": [
-   {
-    "path": "/ar/stations",
-    "count": 1
-   }
-  ],
   "duckduckgo.com": [
    {
     "path": "/timings",
@@ -14744,6 +14883,12 @@
   "riyadhmetro.fyi/destinations/shola-mall": [
    {
     "path": "/timings",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
+   {
+    "path": "/ar/lines/blue-line",
     "count": 1
    }
   ],
@@ -14764,18 +14909,12 @@
     "path": "/ur.html",
     "count": 2
    }
-  ],
-  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
-   {
-    "path": "/ar/lines/blue-line",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "name": "",
-   "count": 1752,
+   "count": 1760,
    "ref_scheme": "o"
   },
   {
@@ -14793,7 +14932,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 154,
+   "count": 158,
    "ref_scheme": "c"
   },
   {
@@ -14869,6 +15008,18 @@
    "ref_scheme": "h"
   },
   {
+   "id": "riyadhmetro.fyi/ar/stations",
+   "name": "riyadhmetro.fyi/ar/stations",
+   "count": 8,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/stations/king-fahad-stadium",
+   "name": "riyadhmetro.fyi/ar/stations/king-fahad-stadium",
+   "count": 8,
+   "ref_scheme": "h"
+  },
+  {
    "id": "t.co",
    "name": "t.co",
    "count": 6,
@@ -14895,12 +15046,6 @@
   {
    "id": "www.ecosia.org",
    "name": "www.ecosia.org",
-   "count": 5,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/stations",
-   "name": "riyadhmetro.fyi/ar/stations",
    "count": 5,
    "ref_scheme": "h"
   },
@@ -15065,24 +15210,18 @@
    "name": "riyadhmetro.fyi/stations/qasr-al-hokm",
    "count": 2,
    "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
-   "name": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
-   "count": 2,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2635
+   "count": 2643
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 936
+   "count": 952
   },
   {
    "id": "(unknown)",
@@ -15154,12 +15293,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3108
+   "count": 3129
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 97
+   "count": 100
   },
   {
    "id": "US",
@@ -15406,7 +15545,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2992
+   "count": 3016
   },
   {
    "id": "tablet",
@@ -15433,12 +15572,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1942
+   "count": 1951
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1649
+   "count": 1664
   },
   {
    "name": "",
@@ -15454,12 +15593,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1637
+   "count": 1652
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1391
+   "count": 1400
   },
   {
    "id": "Windows",
