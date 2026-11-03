@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-03T18:02:45Z",
+ "generated": "2026-11-03T23:41:58Z",
  "start": "2026-10-04",
  "end": "2026-11-04",
  "total": {
-  "total": 3714,
-  "total_events": 1702,
-  "total_utc": 3714,
+  "total": 3724,
+  "total_events": 1704,
+  "total_utc": 3724,
   "stats": [
    {
     "day": "2026-10-04",
@@ -882,8 +882,8 @@
      4
     ],
     "daily": 161,
-    "weekly": 258,
-    "monthly": 258
+    "weekly": 268,
+    "monthly": 268
    },
    {
     "day": "2026-11-02",
@@ -940,18 +940,18 @@
      3,
      5,
      0,
-     0,
-     0
+     2,
+     4
     ],
-    "daily": 60
+    "daily": 66
    },
    {
     "day": "2026-11-04",
     "hourly": [
+     1,
      0,
      0,
-     0,
-     0,
+     3,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 4
    }
   ]
  },
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 756,
+   "count": 758,
    "daily": {
     "2026-10-04": 6,
     "2026-10-05": 10,
@@ -1015,7 +1015,7 @@
     "2026-10-31": 11,
     "2026-11-01": 6,
     "2026-11-02": 6,
-    "2026-11-03": 8
+    "2026-11-03": 10
    }
   },
   {
@@ -1023,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 572,
+   "count": 573,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1051,7 +1051,7 @@
     "2026-10-31": 10,
     "2026-11-01": 4,
     "2026-11-02": 3,
-    "2026-11-03": 4
+    "2026-11-03": 5
    }
   },
   {
@@ -1091,7 +1091,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 86,
+   "count": 87,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1118,7 +1118,7 @@
     "2026-10-31": 3,
     "2026-11-01": 3,
     "2026-11-02": 3,
-    "2026-11-03": 4
+    "2026-11-03": 5
    }
   },
   {
@@ -1157,7 +1157,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 44,
+   "count": 45,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -1177,7 +1177,8 @@
     "2026-10-31": 5,
     "2026-11-01": 6,
     "2026-11-02": 1,
-    "2026-11-03": 1
+    "2026-11-03": 1,
+    "2026-11-04": 1
    }
   },
   {
@@ -1185,7 +1186,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 24,
+   "count": 26,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -1198,7 +1199,9 @@
     "2026-10-28": 1,
     "2026-10-30": 1,
     "2026-11-01": 2,
-    "2026-11-02": 2
+    "2026-11-02": 2,
+    "2026-11-03": 1,
+    "2026-11-04": 1
    }
   },
   {
@@ -2978,6 +2981,18 @@
    }
   },
   {
+   "path": "/ar/destinations/king-khalid-university-hospital",
+   "path_id": 113279596,
+   "title": "محطة مترو مستشفى الملك خالد الجامعي: محطة جامعة الملك سعود، 12 دقيقة سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-24": 1,
+    "2026-11-04": 1
+   }
+  },
+  {
    "path": "/destinations/haraj-bin-qasim",
    "path_id": 112974216,
    "title": "Haraj Bin Qasim Metro Station: Ad Dar Al Baida (Blue Line)",
@@ -3160,6 +3175,18 @@
     "2026-10-14": 1,
     "2026-10-30": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/stations/king-saud-university",
+   "path_id": 112015343,
+   "title": "King Saud University Metro Station, Riyadh: Red Line, No. 26",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1
    }
   },
   {
@@ -4011,6 +4038,17 @@
    }
   },
   {
+   "path": "/ar/destinations/riyadh-park-mall",
+   "path_id": 113350615,
+   "title": "محطة مترو الرياض بارك مول: محطة المركز المالي",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-11-03": 1
+   }
+  },
+  {
    "path": "/ar/districts/manfuha-al-jadidah",
    "path_id": 113347307,
    "title": "أقرب محطة مترو لحي منفوحة الجديدة في الرياض: محطة سكيرينة، 0.9 كم",
@@ -4041,17 +4079,6 @@
    "daily": {
     "2026-10-20": 1,
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/king-khalid-university-hospital",
-   "path_id": 113279596,
-   "title": "محطة مترو مستشفى الملك خالد الجامعي: محطة جامعة الملك سعود، 12 دقيقة سيراً",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-24": 1
    }
   },
   {
@@ -4392,17 +4419,6 @@
    "path": "/ar/stations/al-malaz",
    "path_id": 112035318,
    "title": "محطة الملز، مترو الرياض: المسار البرتقالي (رقم 54)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/stations/king-saud-university",
-   "path_id": 112015343,
-   "title": "King Saud University Metro Station, Riyadh: Red Line, No. 26",
    "event": false,
    "count": 2,
    "daily": {
@@ -7493,16 +7509,6 @@
    "path": "/districts/king-faisal",
    "path_id": 113413853,
    "title": "Nearest Metro Station to King Faisal, Riyadh: Al Hamra, 1.6 km",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-21": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/riyadh-park-mall",
-   "path_id": 113350615,
-   "title": "محطة مترو الرياض بارك مول: محطة المركز المالي",
    "event": false,
    "count": 1,
    "daily": {
@@ -12782,9 +12788,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2012,
-  "events_total": 1702,
-  "goatcounter_total_with_events": 3714,
+  "visits": 2020,
+  "events_total": 1704,
+  "goatcounter_total_with_events": 3724,
   "page_loads_by_day": {
    "2026-10-04": 7,
    "2026-10-05": 12,
@@ -12816,7 +12822,8 @@
    "2026-10-31": 118,
    "2026-11-01": 145,
    "2026-11-02": 30,
-   "2026-11-03": 38
+   "2026-11-03": 42,
+   "2026-11-04": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12845,14 +12852,14 @@
    "2026-10-31": 13,
    "2026-11-01": 7,
    "2026-11-02": 6,
-   "2026-11-03": 8
+   "2026-11-03": 10
   },
-  "visitor_days": 658,
-  "return_rate": 0.131,
+  "visitor_days": 660,
+  "return_rate": 0.132,
   "routes": 454,
   "routes_not_found": 0,
-  "routes_per_visit": 0.23,
-  "routes_per_visitor_day": 0.66,
+  "routes_per_visit": 0.22,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.029,
   "shares": {
    "whatsapp": 4,
@@ -12964,8 +12971,8 @@
    "far": 5
   },
   "visitors_new_return": {
-   "new": 572,
-   "return": 86
+   "new": 573,
+   "return": 87
   },
   "top_routes": [
    {
@@ -13118,7 +13125,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 496
+    "count": 498
    },
    {
     "name": "tiktok_ad",
@@ -13327,11 +13334,11 @@
     "count": 29
    },
    {
-    "name": "(direct or unknown)",
-    "count": 4
+    "name": "chatgpt.com",
+    "count": 5
    },
    {
-    "name": "chatgpt.com",
+    "name": "(direct or unknown)",
     "count": 4
    },
    {
@@ -13366,7 +13373,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 20
+    "count": 22
    },
    {
     "name": "(direct or unknown)",
@@ -14048,7 +14055,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 496
+    "count": 498
    },
    {
     "path": "/ar/map",
@@ -14190,7 +14197,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 20
+    "count": 22
    },
    {
     "path": "/",
@@ -14426,7 +14433,7 @@
    },
    {
     "path": "/map",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/districts/ar-rabwah",
@@ -14985,13 +14992,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1768,
+   "count": 1772,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 861,
+   "count": 864,
    "ref_scheme": "g"
   },
   {
@@ -15003,7 +15010,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 166,
+   "count": 169,
    "ref_scheme": "c"
   },
   {
@@ -15287,12 +15294,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2652
+   "count": 2658
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 960
+   "count": 964
   },
   {
    "id": "(unknown)",
@@ -15364,7 +15371,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3139
+   "count": 3148
   },
   {
    "id": "AE",
@@ -15412,13 +15419,13 @@
    "count": 16
   },
   {
-   "id": "BH",
-   "name": "Bahrain",
-   "count": 13
-  },
-  {
    "id": "EG",
    "name": "Egypt",
+   "count": 14
+  },
+  {
+   "id": "BH",
+   "name": "Bahrain",
    "count": 13
   },
   {
@@ -15616,7 +15623,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3027
+   "count": 3036
   },
   {
    "id": "tablet",
@@ -15626,7 +15633,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 526
+   "count": 527
   },
   {
    "id": "desktophd",
@@ -15643,12 +15650,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1960
+   "count": 1964
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1672
+   "count": 1678
   },
   {
    "name": "",
@@ -15664,17 +15671,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1660
+   "count": 1666
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1403
+   "count": 1406
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 465
+   "count": 466
   },
   {
    "id": "macOS",
