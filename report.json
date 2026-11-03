@@ -1,11 +1,11 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "gsc_period": [
-  "2026-10-05",
-  "2026-11-02"
+  "2026-10-06",
+  "2026-11-03"
  ],
- "index_checked": "2026-11-02T07:45:32Z",
+ "index_checked": "2026-11-03T08:00:29Z",
  "low_ctr_queries": [
   {
    "query": "خريطة المترو",
@@ -33,11 +33,11 @@
   },
   {
    "query": "riyadh metro map",
-   "impressions": 265,
+   "impressions": 272,
    "clicks": 2,
-   "position": 4.9,
+   "position": 4.8,
    "page": "/map/",
-   "lost_clicks": 11.25
+   "lost_clicks": 11.6
   },
   {
    "query": "خريطة الميترو",
@@ -121,11 +121,11 @@
   },
   {
    "query": "national museum metro station",
-   "impressions": 74,
+   "impressions": 72,
    "clicks": 0,
-   "position": 9.9,
+   "position": 9.8,
    "page": "/stations/national-museum/",
-   "lost_clicks": 2.22
+   "lost_clicks": 2.16
   },
   {
    "query": "khalid bin waleed metro station",
@@ -206,12 +206,6 @@
    "page": "/ar/map/"
   },
   {
-   "query": "محطة قصر الحكم",
-   "impressions": 20,
-   "position": 12.8,
-   "page": "/ar/stations/qasr-al-hokm/"
-  },
-  {
    "query": "خطوط مترو الرياض",
    "impressions": 18,
    "position": 11.1,
@@ -258,6 +252,12 @@
    "impressions": 12,
    "position": 16.4,
    "page": "/stations/national-museum/"
+  },
+  {
+   "query": "riyadh gallery king fahad district station 15 olaya street riyadh",
+   "impressions": 10,
+   "position": 11.8,
+   "page": "/"
   }
  ],
  "pages_no_clicks": [
@@ -273,7 +273,7 @@
   },
   {
    "page": "/destinations/national-museum/",
-   "impressions": 260,
+   "impressions": 246,
    "position": 9.3
   },
   {
@@ -445,16 +445,19 @@
   }
  },
  "request_today": [
-  "https://riyadhmetro.fyi/ar/stations/al-jarradiyah/"
+  "https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/",
+  "https://riyadhmetro.fyi/districts/al-dirah/",
+  "https://riyadhmetro.fyi/districts/al-khalidiyah/",
+  "https://riyadhmetro.fyi/districts/al-mursalat/"
  ],
  "languages": {
   "en": {
-   "impressions": 5086,
+   "impressions": 5098,
    "clicks": 28
   },
   "ar": {
-   "impressions": 3910,
-   "clicks": 96
+   "impressions": 3889,
+   "clicks": 95
   }
  },
  "suggested_history": {
@@ -550,14 +553,14 @@
   "https://riyadhmetro.fyi/ar/stations/al-muorabba/": "2026-10-19",
   "https://riyadhmetro.fyi/ar/destinations/sahara-mall/": "2026-10-20",
   "https://riyadhmetro.fyi/ar/destinations/via-riyadh/": "2026-10-20",
-  "https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/": "2026-10-20",
+  "https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/": "2026-11-03",
   "https://riyadhmetro.fyi/ar/stations/al-wurud-2/": "2026-10-20",
   "https://riyadhmetro.fyi/ar/stations/al-wurud/": "2026-10-20",
   "https://riyadhmetro.fyi/ar/stations/ar-rabi/": "2026-10-20",
   "https://riyadhmetro.fyi/ar/lines/": "2026-10-20",
-  "https://riyadhmetro.fyi/districts/al-dirah/": "2026-10-20",
-  "https://riyadhmetro.fyi/districts/al-khalidiyah/": "2026-10-20",
-  "https://riyadhmetro.fyi/districts/al-mursalat/": "2026-10-20",
+  "https://riyadhmetro.fyi/districts/al-dirah/": "2026-11-03",
+  "https://riyadhmetro.fyi/districts/al-khalidiyah/": "2026-11-03",
+  "https://riyadhmetro.fyi/districts/al-mursalat/": "2026-11-03",
   "https://riyadhmetro.fyi/ar/stations/as-salam/": "2026-10-21",
   "https://riyadhmetro.fyi/ar/stations/as-salhiyah/": "2026-10-21",
   "https://riyadhmetro.fyi/ar/stations/as-sulimaniyah/": "2026-10-21",

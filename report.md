@@ -1,6 +1,6 @@
 # Search opportunities: riyadhmetro.fyi
 
-Updated 2026-11-02. Search data 2026-10-05 to 2026-11-02 (about 2 days behind). Index statuses checked up to 2026-11-02.
+Updated 2026-11-03. Search data 2026-10-06 to 2026-11-03 (about 2 days behind). Index statuses checked up to 2026-11-03.
 
 ## 1. Fewer clicks than the position should bring
 Improve the title or description of the page, or the page itself.
@@ -10,7 +10,7 @@ Improve the title or description of the page, or the page itself.
 | خريطة المترو | 1887 | 46 | 1.4 | /ar/map/ |
 | اقرب محطه | 900 | 2 | 5.2 | /ar/nearest-station/ |
 | خريطه المترو | 65 | 2 | 1.0 | /ar/map/ |
-| riyadh metro map | 265 | 2 | 4.9 | /map/ |
+| riyadh metro map | 272 | 2 | 4.8 | /map/ |
 | خريطة الميترو | 40 | 1 | 1.0 | /ar/map/ |
 | al murabba metro station | 94 | 0 | 4.1 | /stations/al-muorabba/ |
 | metro near me | 175 | 0 | 9.6 | /nearest-station/ |
@@ -21,7 +21,7 @@ Improve the title or description of the page, or the page itself.
 | manfuha metro station | 91 | 0 | 7.2 | /stations/manfouhah/ |
 | المسار الازرق | 122 | 1 | 8.6 | /ar/lines/blue-line/ |
 | granada metro station | 76 | 0 | 7.7 | /stations/granada/ |
-| national museum metro station | 74 | 0 | 9.9 | /stations/national-museum/ |
+| national museum metro station | 72 | 0 | 9.8 | /stations/national-museum/ |
 | khalid bin waleed metro station | 41 | 0 | 4.8 | /stations/khalid-bin-alwaleed-road/ |
 | king salman park metro station | 29 | 0 | 4.2 | /destinations/king-salman-park/ |
 | king fahad library metro station | 12 | 0 | 2.5 | /stations/king-fahad-library/ |
@@ -38,7 +38,6 @@ Improve the title or description of the page, or the page itself.
 | مترو الرياض خريطة | 38 | 10.9 | /ar/map/ |
 | king fahad district 2 | 27 | 10.8 | /destinations/al-majdoul-tower/ |
 | خريطة المترو الرياض | 23 | 11.3 | /ar/map/ |
-| محطة قصر الحكم | 20 | 12.8 | /ar/stations/qasr-al-hokm/ |
 | خطوط مترو الرياض | 18 | 11.1 | /ar/lines/ |
 | blue line metro | 18 | 12.3 | /lines/blue-line/ |
 | metro map riyadh | 16 | 15.0 | /map/ |
@@ -47,6 +46,7 @@ Improve the title or description of the page, or the page itself.
 | metro riyadh working hours | 13 | 10.6 | /timings/ |
 | national museum metro | 13 | 10.6 | /destinations/national-museum/ |
 | national museum riyadh metro station | 12 | 16.4 | /stations/national-museum/ |
+| riyadh gallery king fahad district station 15 olaya street riyadh | 10 | 11.8 | / |
 
 ## 3. Pages seen but never clicked
 
@@ -54,7 +54,7 @@ Improve the title or description of the page, or the page itself.
 |---|---|---|
 | /ar/stations/dr-sulaiman-al-habib/ | 450 | 8.9 |
 | /ar/districts/west-naseem/ | 272 | 6.2 |
-| /destinations/national-museum/ | 260 | 9.3 |
+| /destinations/national-museum/ | 246 | 9.3 |
 | /ar/districts/al-yarmuk/ | 230 | 11.9 |
 | /stations/dr-sulaiman-al-habib/ | 229 | 6.0 |
 | /stations/jarir-district/ | 224 | 5.3 |
@@ -97,12 +97,15 @@ Improve the title or description of the page, or the page itself.
 Request indexing by hand today (Search Console, URL inspection; skip any that already show as indexed):
 
 ```
-https://riyadhmetro.fyi/ar/stations/al-jarradiyah/
+https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/
+https://riyadhmetro.fyi/districts/al-dirah/
+https://riyadhmetro.fyi/districts/al-khalidiyah/
+https://riyadhmetro.fyi/districts/al-mursalat/
 ```
 
 ## 5. English and Arabic searches
 
 | | Impressions | Clicks |
 |---|---|---|
-| English (top queries) | 5086 | 28 |
-| Arabic (top queries) | 3910 | 96 |
+| English (top queries) | 5098 | 28 |
+| Arabic (top queries) | 3889 | 95 |
