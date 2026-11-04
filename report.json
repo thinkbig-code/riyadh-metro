@@ -1,11 +1,11 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-03",
+ "generated": "2026-11-04",
  "gsc_period": [
-  "2026-10-06",
-  "2026-11-03"
+  "2026-10-07",
+  "2026-11-04"
  ],
- "index_checked": "2026-11-03T08:00:29Z",
+ "index_checked": "2026-11-04T07:34:15Z",
  "low_ctr_queries": [
   {
    "query": "خريطة المترو",
@@ -33,11 +33,11 @@
   },
   {
    "query": "riyadh metro map",
-   "impressions": 272,
+   "impressions": 283,
    "clicks": 2,
-   "position": 4.8,
+   "position": 4.6,
    "page": "/map/",
-   "lost_clicks": 11.6
+   "lost_clicks": 12.15
   },
   {
    "query": "خريطة الميترو",
@@ -263,18 +263,13 @@
  "pages_no_clicks": [
   {
    "page": "/ar/stations/dr-sulaiman-al-habib/",
-   "impressions": 450,
+   "impressions": 458,
    "position": 8.9
   },
   {
    "page": "/ar/districts/west-naseem/",
-   "impressions": 272,
+   "impressions": 274,
    "position": 6.2
-  },
-  {
-   "page": "/destinations/national-museum/",
-   "impressions": 246,
-   "position": 9.3
   },
   {
    "page": "/ar/districts/al-yarmuk/",
@@ -283,18 +278,23 @@
   },
   {
    "page": "/stations/dr-sulaiman-al-habib/",
-   "impressions": 229,
-   "position": 6.0
+   "impressions": 230,
+   "position": 6
+  },
+  {
+   "page": "/lines/purple-line/",
+   "impressions": 225,
+   "position": 8.1
+  },
+  {
+   "page": "/destinations/national-museum/",
+   "impressions": 224,
+   "position": 9.0
   },
   {
    "page": "/stations/jarir-district/",
    "impressions": 224,
    "position": 5.3
-  },
-  {
-   "page": "/lines/purple-line/",
-   "impressions": 223,
-   "position": 8.1
   },
   {
    "page": "/districts/al-aziziyah/",
@@ -303,38 +303,38 @@
   },
   {
    "page": "/ar/stations/sab-bank/",
-   "impressions": 207,
+   "impressions": 208,
    "position": 8.5
   },
   {
+   "page": "/ar/destinations/granada-mall/",
+   "impressions": 207,
+   "position": 8.3
+  },
+  {
    "page": "/ar/lines/yellow-line/",
-   "impressions": 205,
+   "impressions": 206,
    "position": 9.3
   },
   {
    "page": "/ar/destinations/king-fahad-medical-city/",
-   "impressions": 203,
-   "position": 7.5
-  },
-  {
-   "page": "/ar/destinations/granada-mall/",
-   "impressions": 201,
-   "position": 8.2
+   "impressions": 204,
+   "position": 7.6
   },
   {
    "page": "/stations/granada/",
-   "impressions": 200,
+   "impressions": 203,
+   "position": 8.3
+  },
+  {
+   "page": "/ar/stations/uthman-bin-affan-road/",
+   "impressions": 194,
    "position": 8.3
   },
   {
    "page": "/lines/green-line/",
-   "impressions": 193,
+   "impressions": 194,
    "position": 8.0
-  },
-  {
-   "page": "/ar/stations/uthman-bin-affan-road/",
-   "impressions": 192,
-   "position": 8.3
   }
  ],
  "index_by_type": {
@@ -445,14 +445,12 @@
   }
  },
  "request_today": [
-  "https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/",
-  "https://riyadhmetro.fyi/districts/al-dirah/",
-  "https://riyadhmetro.fyi/districts/al-khalidiyah/",
-  "https://riyadhmetro.fyi/districts/al-mursalat/"
+  "https://riyadhmetro.fyi/districts/siyah/",
+  "https://riyadhmetro.fyi/ar/districts/al-aziziyah/"
  ],
  "languages": {
   "en": {
-   "impressions": 5098,
+   "impressions": 5119,
    "clicks": 28
   },
   "ar": {
@@ -567,9 +565,9 @@
   "https://riyadhmetro.fyi/ar/stations/courts-complex/": "2026-10-21",
   "https://riyadhmetro.fyi/districts/manfuhah/": "2026-10-21",
   "https://riyadhmetro.fyi/districts/qurtubah/": "2026-10-21",
-  "https://riyadhmetro.fyi/districts/siyah/": "2026-10-21",
+  "https://riyadhmetro.fyi/districts/siyah/": "2026-11-04",
   "https://riyadhmetro.fyi/ar/districts/al-aqeeq/": "2026-10-21",
-  "https://riyadhmetro.fyi/ar/districts/al-aziziyah/": "2026-10-21",
+  "https://riyadhmetro.fyi/ar/districts/al-aziziyah/": "2026-11-04",
   "https://riyadhmetro.fyi/ar/districts/al-dahou/": "2026-10-21",
   "https://riyadhmetro.fyi/ar/stations/harun-ar-rashid-road/": "2026-10-22",
   "https://riyadhmetro.fyi/ar/stations/hassan-bin-thabit-street/": "2026-10-22",

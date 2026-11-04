@@ -1,51 +1,19 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-03T23:41:58Z",
- "start": "2026-10-04",
- "end": "2026-11-04",
+ "generated": "2026-11-04T07:31:26Z",
+ "start": "2026-10-05",
+ "end": "2026-11-05",
  "total": {
-  "total": 3724,
-  "total_events": 1704,
-  "total_utc": 3724,
+  "total": 3730,
+  "total_events": 1709,
+  "total_utc": 3727,
   "stats": [
-   {
-    "day": "2026-10-04",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     3,
-     1,
-     0,
-     1,
-     0,
-     1,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 7,
-    "weekly": 1049,
-    "monthly": 3456
-   },
    {
     "day": "2026-10-05",
     "hourly": [
      0,
      0,
-     1,
+     0,
      0,
      2,
      0,
@@ -68,7 +36,9 @@
      0,
      0
     ],
-    "daily": 12
+    "daily": 11,
+    "weekly": 1200,
+    "monthly": 3448
    },
    {
     "day": "2026-10-06",
@@ -248,8 +218,7 @@
      1,
      1
     ],
-    "daily": 159,
-    "weekly": 1051
+    "daily": 159
    },
    {
     "day": "2026-10-12",
@@ -279,7 +248,8 @@
      12,
      1
     ],
-    "daily": 128
+    "daily": 128,
+    "weekly": 945
    },
    {
     "day": "2026-10-13",
@@ -459,8 +429,7 @@
      2,
      2
     ],
-    "daily": 53,
-    "weekly": 716
+    "daily": 53
    },
    {
     "day": "2026-10-19",
@@ -490,7 +459,8 @@
      6,
      0
     ],
-    "daily": 84
+    "daily": 84,
+    "weekly": 773
    },
    {
     "day": "2026-10-20",
@@ -670,8 +640,7 @@
      3,
      3
     ],
-    "daily": 110,
-    "weekly": 640
+    "daily": 110
    },
    {
     "day": "2026-10-26",
@@ -701,7 +670,8 @@
      4,
      0
     ],
-    "daily": 108
+    "daily": 108,
+    "weekly": 691
    },
    {
     "day": "2026-10-27",
@@ -882,8 +852,7 @@
      4
     ],
     "daily": 161,
-    "weekly": 268,
-    "monthly": 268
+    "monthly": 282
    },
    {
     "day": "2026-11-02",
@@ -913,7 +882,8 @@
      4,
      3
     ],
-    "daily": 37
+    "daily": 37,
+    "weekly": 121
    },
    {
     "day": "2026-11-03",
@@ -952,6 +922,36 @@
      0,
      0,
      3,
+     3,
+     0,
+     0,
+     0,
+     3,
+     7,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 18
+   },
+   {
+    "day": "2026-11-05",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 0
    }
   ]
  },
@@ -983,9 +983,8 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 758,
+   "count": 757,
    "daily": {
-    "2026-10-04": 6,
     "2026-10-05": 10,
     "2026-10-06": 4,
     "2026-10-07": 30,
@@ -1015,7 +1014,8 @@
     "2026-10-31": 11,
     "2026-11-01": 6,
     "2026-11-02": 6,
-    "2026-11-03": 10
+    "2026-11-03": 10,
+    "2026-11-04": 5
    }
   },
   {
@@ -1023,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 573,
+   "count": 575,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1051,7 +1051,8 @@
     "2026-10-31": 10,
     "2026-11-01": 4,
     "2026-11-02": 3,
-    "2026-11-03": 5
+    "2026-11-03": 5,
+    "2026-11-04": 2
    }
   },
   {
@@ -1091,7 +1092,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 87,
+   "count": 89,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1118,7 +1119,8 @@
     "2026-10-31": 3,
     "2026-11-01": 3,
     "2026-11-02": 3,
-    "2026-11-03": 5
+    "2026-11-03": 5,
+    "2026-11-04": 2
    }
   },
   {
@@ -1422,21 +1424,6 @@
    }
   },
   {
-   "path": "/destinations/al-awwal-park",
-   "path_id": 109448541,
-   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 11,
-   "daily": {
-    "2026-10-05": 1,
-    "2026-10-09": 1,
-    "2026-10-12": 3,
-    "2026-10-17": 1,
-    "2026-10-24": 1,
-    "2026-11-03": 4
-   }
-  },
-  {
    "path": "/ar/districts/al-aqeeq",
    "path_id": 114577512,
    "title": "أقرب محطة مترو لحي العقيق في الرياض: محطة المركز المالي (داخل الحي)",
@@ -1522,6 +1509,20 @@
     "2026-10-24": 1,
     "2026-10-28": 1,
     "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/destinations/al-awwal-park",
+   "path_id": 109448541,
+   "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-12": 3,
+    "2026-10-17": 1,
+    "2026-10-24": 1,
+    "2026-11-03": 4
    }
   },
   {
@@ -1644,21 +1645,6 @@
    }
   },
   {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-04": 1,
-    "2026-10-06": 1,
-    "2026-10-11": 1,
-    "2026-10-12": 3,
-    "2026-10-26": 1,
-    "2026-11-01": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-mursalat",
    "path_id": 115154081,
    "title": "أقرب محطة مترو لحي المرسلات في الرياض: محطة وزارة التعليم، 1.0 كم",
@@ -1759,6 +1745,22 @@
    }
   },
   {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1
+   }
+  },
+  {
    "path": "/destinations/diriyah",
    "path_id": 110689928,
    "title": "Diriyah Metro Station: King Saud University (Red Line)",
@@ -1802,6 +1804,20 @@
    }
   },
   {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-06": 1,
+    "2026-10-11": 1,
+    "2026-10-12": 3,
+    "2026-10-26": 1,
+    "2026-11-01": 1
+   }
+  },
+  {
    "path": "/ar/stations/western-station",
    "path_id": 116869318,
    "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
@@ -1838,6 +1854,20 @@
    }
   },
   {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-24": 2,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-nafel",
    "path_id": 111088602,
    "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
@@ -1862,21 +1892,6 @@
     "2026-10-19": 1,
     "2026-10-31": 1,
     "2026-11-01": 2
-   }
-  },
-  {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-22": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-03": 1
    }
   },
   {
@@ -2020,19 +2035,6 @@
     "2026-10-21": 1,
     "2026-10-30": 1,
     "2026-10-31": 2,
-    "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/districts/al-qadisiyah",
-   "path_id": 113291536,
-   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-24": 2,
-    "2026-10-29": 1,
     "2026-11-01": 1
    }
   },
@@ -2700,6 +2702,18 @@
     "2026-10-07": 1,
     "2026-10-08": 2,
     "2026-11-03": 1
+   }
+  },
+  {
+   "path": "route/sultanah/tuwaiq",
+   "path_id": 117853079,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-11-02": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1
    }
   },
   {
@@ -3504,17 +3518,6 @@
     "2026-10-05": 1,
     "2026-10-09": 1,
     "2026-10-22": 1
-   }
-  },
-  {
-   "path": "route/sultanah/tuwaiq",
-   "path_id": 117853079,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-11-02": 1,
-    "2026-11-03": 1
    }
   },
   {
@@ -5163,6 +5166,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/egyptian-embassy",
+   "path_id": 118217492,
+   "title": "محطة مترو سفارة مصر في الرياض: محطة جامعة الملك سعود (المسار الأحمر)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-04": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/prince-sultan-military-medical-city",
+   "path_id": 118170944,
+   "title": "محطة مترو مدينة الأمير سلطان الطبية العسكرية: محطة نادي الضباط",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-04": 1
    }
   },
   {
@@ -12788,12 +12811,11 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2020,
-  "events_total": 1704,
-  "goatcounter_total_with_events": 3724,
+  "visits": 2021,
+  "events_total": 1709,
+  "goatcounter_total_with_events": 3730,
   "page_loads_by_day": {
-   "2026-10-04": 7,
-   "2026-10-05": 12,
+   "2026-10-05": 11,
    "2026-10-06": 5,
    "2026-10-07": 35,
    "2026-10-08": 167,
@@ -12823,7 +12845,7 @@
    "2026-11-01": 145,
    "2026-11-02": 30,
    "2026-11-03": 42,
-   "2026-11-04": 4
+   "2026-11-04": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12852,13 +12874,14 @@
    "2026-10-31": 13,
    "2026-11-01": 7,
    "2026-11-02": 6,
-   "2026-11-03": 10
+   "2026-11-03": 10,
+   "2026-11-04": 4
   },
-  "visitor_days": 660,
-  "return_rate": 0.132,
-  "routes": 454,
+  "visitor_days": 664,
+  "return_rate": 0.134,
+  "routes": 455,
   "routes_not_found": 0,
-  "routes_per_visit": 0.22,
+  "routes_per_visit": 0.23,
   "routes_per_visitor_day": 0.65,
   "share_rate": 0.029,
   "shares": {
@@ -12971,8 +12994,8 @@
    "far": 5
   },
   "visitors_new_return": {
-   "new": 573,
-   "return": 87
+   "new": 575,
+   "return": 89
   },
   "top_routes": [
    {
@@ -12990,6 +13013,10 @@
    {
     "name": "tuwaiq > kbw",
     "count": 4
+   },
+   {
+    "name": "sultanah > tuwaiq",
+    "count": 3
    },
    {
     "name": "granadia > hokm",
@@ -13022,10 +13049,6 @@
    {
     "name": "gosi > p_panorama_mall",
     "count": 3
-   },
-   {
-    "name": "sultanah > tuwaiq",
-    "count": 2
    },
    {
     "name": "p_kafd_king_abdullah_financial_district > p_al_batha",
@@ -13100,11 +13123,11 @@
     "count": 12
    },
    {
-    "name": "museum",
-    "count": 11
+    "name": "tuwaiq",
+    "count": 12
    },
    {
-    "name": "tuwaiq",
+    "name": "museum",
     "count": 11
    },
    {
@@ -13125,7 +13148,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 498
+    "count": 497
    },
    {
     "name": "tiktok_ad",
@@ -13536,20 +13559,6 @@
     "count": 1
    }
   ],
-  "/destinations/al-awwal-park": [
-   {
-    "name": "Google",
-    "count": 6
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-aqeeq": [
    {
     "name": "Google",
@@ -13578,6 +13587,20 @@
    {
     "name": "Google",
     "count": 9
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
+  "/destinations/al-awwal-park": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 4
    },
    {
     "name": "chatgpt.com",
@@ -13676,12 +13699,6 @@
     "count": 8
    }
   ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 8
-   }
-  ],
   "/ar/districts/al-mursalat": [
    {
     "name": "Google",
@@ -13764,6 +13781,16 @@
     "count": 7
    }
   ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/destinations/diriyah": [
    {
     "name": "Google",
@@ -13786,6 +13813,12 @@
    {
     "name": "chatgpt.com",
     "count": 1
+   }
+  ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 7
    }
   ],
   "/ar/stations/western-station": [
@@ -13812,6 +13845,16 @@
     "count": 1
    }
   ],
+  "/districts/al-qadisiyah": [
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-nafel": [
    {
     "name": "Google",
@@ -13823,16 +13866,6 @@
    }
   ],
   "/districts/al-uraija": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-sahafah": [
    {
     "name": "Google",
     "count": 5
@@ -13933,16 +13966,6 @@
   "/ar/stations/king-salman-oasis": [
    {
     "name": "(direct or unknown)",
-    "count": 3
-   },
-   {
-    "name": "Google",
-    "count": 2
-   }
-  ],
-  "/districts/al-qadisiyah": [
-   {
-    "name": "chatgpt.com",
     "count": 3
    },
    {
@@ -14055,7 +14078,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 498
+    "count": 497
    },
    {
     "path": "/ar/map",
@@ -14236,10 +14259,6 @@
     "count": 8
    },
    {
-    "path": "/destinations/king-abdullah-park",
-    "count": 8
-   },
-   {
     "path": "/ar/nearest-station",
     "count": 7
    },
@@ -14252,11 +14271,11 @@
     "count": 7
    },
    {
-    "path": "/ar/districts/ar-rabwah",
-    "count": 6
+    "path": "/destinations/king-abdullah-park",
+    "count": 7
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/ar/districts/ar-rabwah",
     "count": 6
    },
    {
@@ -14284,11 +14303,19 @@
     "count": 5
    },
    {
+    "path": "/destinations/al-awwal-park",
+    "count": 5
+   },
+   {
     "path": "/ar/districts/al-rawabi",
     "count": 5
    },
    {
     "path": "/ar/districts/al-rayan",
+    "count": 5
+   },
+   {
+    "path": "/ar/districts/al-sahafah",
     "count": 5
    },
    {
@@ -14301,10 +14328,6 @@
    },
    {
     "path": "/districts/al-uraija",
-    "count": 5
-   },
-   {
-    "path": "/ar/districts/al-sahafah",
     "count": 5
    },
    {
@@ -14380,15 +14403,15 @@
     "count": 3
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 2
+   },
+   {
     "path": "/timings",
     "count": 2
    },
    {
     "path": "/ar/stations/king-salman-oasis",
-    "count": 2
-   },
-   {
-    "path": "/districts/al-qadisiyah",
     "count": 2
    },
    {
@@ -14444,6 +14467,10 @@
     "count": 4
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 4
    },
@@ -14468,10 +14495,6 @@
     "count": 3
    },
    {
-    "path": "/districts/al-qadisiyah",
-    "count": 3
-   },
-   {
     "path": "/districts/al-nada",
     "count": 3
    },
@@ -14488,15 +14511,19 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-sahafah",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/districts/al-yasmeen",
     "count": 1
    },
    {
-    "path": "/districts/al-yasmeen",
+    "path": "/destinations/al-awwal-park",
     "count": 1
    },
    {
@@ -14521,10 +14548,6 @@
    },
    {
     "path": "/districts/al-uraija",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-sahafah",
     "count": 1
    },
    {
@@ -14992,13 +15015,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1772,
+   "count": 1776,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 864,
+   "count": 862,
    "ref_scheme": "g"
   },
   {
@@ -15010,7 +15033,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 169,
+   "count": 172,
    "ref_scheme": "c"
   },
   {
@@ -15046,7 +15069,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 26,
+   "count": 27,
    "ref_scheme": "h"
   },
   {
@@ -15294,22 +15317,22 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2658
+   "count": 2661
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 964
+   "count": 967
   },
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 22
+   "count": 23
   },
   {
    "id": "fra",
    "name": "French",
-   "count": 18
+   "count": 17
   },
   {
    "id": "rus",
@@ -15371,17 +15394,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3148
+   "count": 3155
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 100
+   "count": 102
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 100
+   "count": 101
   },
   {
    "id": "GB",
@@ -15401,12 +15424,12 @@
   {
    "id": "IN",
    "name": "India",
-   "count": 22
+   "count": 21
   },
   {
    "id": "DE",
    "name": "Germany",
-   "count": 20
+   "count": 19
   },
   {
    "id": "JO",
@@ -15456,7 +15479,7 @@
   {
    "id": "FR",
    "name": "France",
-   "count": 9
+   "count": 7
   },
   {
    "id": "IE",
@@ -15623,7 +15646,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3036
+   "count": 3044
   },
   {
    "id": "tablet",
@@ -15633,12 +15656,12 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 527
+   "count": 526
   },
   {
    "id": "desktophd",
    "name": "",
-   "count": 78
+   "count": 77
   },
   {
    "id": "unknown",
@@ -15650,16 +15673,16 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1964
+   "count": 1965
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1678
+   "count": 1681
   },
   {
    "name": "",
-   "count": 53
+   "count": 55
   },
   {
    "id": "Firefox",
@@ -15671,17 +15694,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1666
+   "count": 1671
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1406
+   "count": 1409
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 466
+   "count": 465
   },
   {
    "id": "macOS",
@@ -15691,7 +15714,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 46
+   "count": 45
   },
   {
    "id": "Chrome OS",

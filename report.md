@@ -1,6 +1,6 @@
 # Search opportunities: riyadhmetro.fyi
 
-Updated 2026-11-03. Search data 2026-10-06 to 2026-11-03 (about 2 days behind). Index statuses checked up to 2026-11-03.
+Updated 2026-11-04. Search data 2026-10-07 to 2026-11-04 (about 2 days behind). Index statuses checked up to 2026-11-04.
 
 ## 1. Fewer clicks than the position should bring
 Improve the title or description of the page, or the page itself.
@@ -10,7 +10,7 @@ Improve the title or description of the page, or the page itself.
 | خريطة المترو | 1887 | 46 | 1.4 | /ar/map/ |
 | اقرب محطه | 900 | 2 | 5.2 | /ar/nearest-station/ |
 | خريطه المترو | 65 | 2 | 1.0 | /ar/map/ |
-| riyadh metro map | 272 | 2 | 4.8 | /map/ |
+| riyadh metro map | 283 | 2 | 4.6 | /map/ |
 | خريطة الميترو | 40 | 1 | 1.0 | /ar/map/ |
 | al murabba metro station | 94 | 0 | 4.1 | /stations/al-muorabba/ |
 | metro near me | 175 | 0 | 9.6 | /nearest-station/ |
@@ -52,21 +52,21 @@ Improve the title or description of the page, or the page itself.
 
 | Page | Impr. | Pos. |
 |---|---|---|
-| /ar/stations/dr-sulaiman-al-habib/ | 450 | 8.9 |
-| /ar/districts/west-naseem/ | 272 | 6.2 |
-| /destinations/national-museum/ | 246 | 9.3 |
+| /ar/stations/dr-sulaiman-al-habib/ | 458 | 8.9 |
+| /ar/districts/west-naseem/ | 274 | 6.2 |
 | /ar/districts/al-yarmuk/ | 230 | 11.9 |
-| /stations/dr-sulaiman-al-habib/ | 229 | 6.0 |
+| /stations/dr-sulaiman-al-habib/ | 230 | 6.0 |
+| /lines/purple-line/ | 225 | 8.1 |
+| /destinations/national-museum/ | 224 | 9.0 |
 | /stations/jarir-district/ | 224 | 5.3 |
-| /lines/purple-line/ | 223 | 8.1 |
 | /districts/al-aziziyah/ | 222 | 8.3 |
-| /ar/stations/sab-bank/ | 207 | 8.5 |
-| /ar/lines/yellow-line/ | 205 | 9.3 |
-| /ar/destinations/king-fahad-medical-city/ | 203 | 7.5 |
-| /ar/destinations/granada-mall/ | 201 | 8.2 |
-| /stations/granada/ | 200 | 8.3 |
-| /lines/green-line/ | 193 | 8.0 |
-| /ar/stations/uthman-bin-affan-road/ | 192 | 8.3 |
+| /ar/stations/sab-bank/ | 208 | 8.5 |
+| /ar/destinations/granada-mall/ | 207 | 8.3 |
+| /ar/lines/yellow-line/ | 206 | 9.3 |
+| /ar/destinations/king-fahad-medical-city/ | 204 | 7.6 |
+| /stations/granada/ | 203 | 8.3 |
+| /ar/stations/uthman-bin-affan-road/ | 194 | 8.3 |
+| /lines/green-line/ | 194 | 8.0 |
 
 ## 4. Index
 
@@ -97,15 +97,13 @@ Improve the title or description of the page, or the page itself.
 Request indexing by hand today (Search Console, URL inspection; skip any that already show as indexed):
 
 ```
-https://riyadhmetro.fyi/ar/stations/al-rajhi-grand-mosque/
-https://riyadhmetro.fyi/districts/al-dirah/
-https://riyadhmetro.fyi/districts/al-khalidiyah/
-https://riyadhmetro.fyi/districts/al-mursalat/
+https://riyadhmetro.fyi/districts/siyah/
+https://riyadhmetro.fyi/ar/districts/al-aziziyah/
 ```
 
 ## 5. English and Arabic searches
 
 | | Impressions | Clicks |
 |---|---|---|
-| English (top queries) | 5098 | 28 |
+| English (top queries) | 5119 | 28 |
 | Arabic (top queries) | 3889 | 95 |
