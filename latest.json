@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-04T07:31:26Z",
+ "generated": "2026-11-04T11:34:58Z",
  "start": "2026-10-05",
  "end": "2026-11-05",
  "total": {
-  "total": 3730,
-  "total_events": 1709,
-  "total_utc": 3727,
+  "total": 3734,
+  "total_events": 1710,
+  "total_utc": 3731,
   "stats": [
    {
     "day": "2026-10-05",
@@ -852,7 +852,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 282
+    "monthly": 286
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      3
     ],
     "daily": 37,
-    "weekly": 121
+    "weekly": 125
    },
    {
     "day": "2026-11-03",
@@ -930,10 +930,10 @@
      7,
      1,
      0,
+     1,
      0,
-     0,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 22
    },
    {
     "day": "2026-11-05",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 757,
+   "count": 758,
    "daily": {
     "2026-10-05": 10,
     "2026-10-06": 4,
@@ -1015,7 +1015,7 @@
     "2026-11-01": 6,
     "2026-11-02": 6,
     "2026-11-03": 10,
-    "2026-11-04": 5
+    "2026-11-04": 6
    }
   },
   {
@@ -1092,7 +1092,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 89,
+   "count": 90,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -1120,7 +1120,7 @@
     "2026-11-01": 3,
     "2026-11-02": 3,
     "2026-11-03": 5,
-    "2026-11-04": 2
+    "2026-11-04": 3
    }
   },
   {
@@ -1188,7 +1188,7 @@
    "path_id": 110820839,
    "title": "أقرب محطة مترو لحي القادسية في الرياض: محطة استاد الملك فهد، 3.4 كم",
    "event": false,
-   "count": 26,
+   "count": 27,
    "daily": {
     "2026-10-10": 1,
     "2026-10-11": 1,
@@ -1203,7 +1203,7 @@
     "2026-11-01": 2,
     "2026-11-02": 2,
     "2026-11-03": 1,
-    "2026-11-04": 1
+    "2026-11-04": 2
    }
   },
   {
@@ -2739,6 +2739,18 @@
    }
   },
   {
+   "path": "/ar/destinations/shg-arena",
+   "path_id": 116846947,
+   "title": "محطة مترو ملعب نادي الشباب: محطة د. سليمان الحبيب، 16 دقيقة سيراً",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1
+   }
+  },
+  {
    "path": "/ar/destinations/dallah-hospital",
    "path_id": 116750840,
    "title": "محطة مترو مستشفى دله النخيل: محطة حي الملك فهد، 13 دقيقة سيراً",
@@ -3593,17 +3605,6 @@
    "daily": {
     "2026-10-30": 1,
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/shg-arena",
-   "path_id": 116846947,
-   "title": "محطة مترو ملعب نادي الشباب: محطة د. سليمان الحبيب، 16 دقيقة سيراً",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-30": 1,
-    "2026-11-01": 1
    }
   },
   {
@@ -12811,9 +12812,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2021,
-  "events_total": 1709,
-  "goatcounter_total_with_events": 3730,
+  "visits": 2024,
+  "events_total": 1710,
+  "goatcounter_total_with_events": 3734,
   "page_loads_by_day": {
    "2026-10-05": 11,
    "2026-10-06": 5,
@@ -12845,7 +12846,7 @@
    "2026-11-01": 145,
    "2026-11-02": 30,
    "2026-11-03": 42,
-   "2026-11-04": 13
+   "2026-11-04": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -12875,13 +12876,13 @@
    "2026-11-01": 7,
    "2026-11-02": 6,
    "2026-11-03": 10,
-   "2026-11-04": 4
+   "2026-11-04": 5
   },
-  "visitor_days": 664,
-  "return_rate": 0.134,
+  "visitor_days": 665,
+  "return_rate": 0.135,
   "routes": 455,
   "routes_not_found": 0,
-  "routes_per_visit": 0.23,
+  "routes_per_visit": 0.22,
   "routes_per_visitor_day": 0.65,
   "share_rate": 0.029,
   "shares": {
@@ -12995,7 +12996,7 @@
   },
   "visitors_new_return": {
    "new": 575,
-   "return": 89
+   "return": 90
   },
   "top_routes": [
    {
@@ -13148,7 +13149,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 497
+    "count": 498
    },
    {
     "name": "tiktok_ad",
@@ -13396,7 +13397,7 @@
   "/ar/districts/al-qadisiyah": [
    {
     "name": "Google",
-    "count": 22
+    "count": 23
    },
    {
     "name": "(direct or unknown)",
@@ -14078,7 +14079,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 497
+    "count": 498
    },
    {
     "path": "/ar/map",
@@ -14220,7 +14221,7 @@
    },
    {
     "path": "/ar/districts/al-qadisiyah",
-    "count": 22
+    "count": 23
    },
    {
     "path": "/",
@@ -15015,13 +15016,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1776,
+   "count": 1778,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 862,
+   "count": 863,
    "ref_scheme": "g"
   },
   {
@@ -15033,7 +15034,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 172,
+   "count": 173,
    "ref_scheme": "c"
   },
   {
@@ -15317,12 +15318,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2661
+   "count": 2663
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 967
+   "count": 969
   },
   {
    "id": "(unknown)",
@@ -15394,7 +15395,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3155
+   "count": 3159
   },
   {
    "id": "AE",
@@ -15646,7 +15647,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3044
+   "count": 3048
   },
   {
    "id": "tablet",
@@ -15673,12 +15674,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1965
+   "count": 1966
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1681
+   "count": 1684
   },
   {
    "name": "",
@@ -15694,12 +15695,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1671
+   "count": 1674
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1409
+   "count": 1410
   },
   {
    "id": "Windows",
