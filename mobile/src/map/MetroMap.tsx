@@ -29,7 +29,6 @@ import {
 } from "./geometry";
 import {
   computeBoundsForStationIds,
-  FAR_ZOOM_THRESHOLD,
   findNearestStation,
   FULL_MAP_BOUNDS,
 } from "./labels";
@@ -124,11 +123,11 @@ function clampTranslation(
   return { x: clampedX, y: clampedY };
 }
 
-// Zoom tiers for the label layout: near zoom has one fixed layout (two for district opacity),
-// far zoom a few steps, so finishing a pinch rarely redraws the base map.
-function layoutScaleFor(renderScale: number): number {
-  if (renderScale >= FAR_ZOOM_THRESHOLD) return renderScale >= 1.25 ? 1.25 : 1;
-  return Math.max(0.2, Math.round(renderScale * 10) / 10);
+// One label layout for every zoom level, like Yandex Metro: names and lines simply grow and
+// shrink with the map, so nothing is redrawn or swapped while zooming and nothing jumps.
+// (renderScale is still tracked for camera logic; the drawing no longer depends on it.)
+function layoutScaleFor(_renderScale: number): number {
+  return 1;
 }
 
 const BaseMap = memo(function BaseMap({
