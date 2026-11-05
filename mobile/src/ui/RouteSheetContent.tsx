@@ -193,11 +193,9 @@ export default function RouteSheetContent({
       </View>
 
       {routes.length > 1 && (
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={[styles.optionsRow, rowDir]}
-        >
+        // options as full-width rows: a sideways list inside the sheet was cut off at the edge
+        // and hard to scroll
+        <View style={styles.optionsList}>
           {routes.map((r, idx) => {
             const selected = idx === selectedOption;
             const rideLegs = r.legs.filter((l) => l.type === "ride");
@@ -209,6 +207,7 @@ export default function RouteSheetContent({
                 onPress={() => onSelectOption(idx)}
                 style={[
                   styles.optionCard,
+                  rowDir,
                   {
                     backgroundColor: colors.bg,
                     borderColor: selected ? colors.accent : colors.rule,
@@ -239,17 +238,21 @@ export default function RouteSheetContent({
                     );
                   })}
                 </View>
-                <Text style={[styles.optionTime, txtBold]}>
-                  {t("minRange", { a: r.time, b: r.timeMax })}
-                </Text>
-                <Text style={[styles.optionSub, txt, { color: colors.muted }]}>
-                  {formatTransfers(engine, r.xf)} ·{" "}
-                  {r.rides ? `${engine.fares.std} SAR` : "0 SAR"}
-                </Text>
+                <View style={styles.optionText}>
+                  <Text style={[styles.optionTime, txtBold]}>
+                    {t("minRange", { a: r.time, b: r.timeMax })}
+                  </Text>
+                  <Text
+                    style={[styles.optionSub, txt, { color: colors.muted }]}
+                    numberOfLines={1}
+                  >
+                    {formatTransfers(engine, r.xf)}
+                  </Text>
+                </View>
               </Pressable>
             );
           })}
-        </ScrollView>
+        </View>
       )}
 
       <View
@@ -607,15 +610,24 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingVertical: 2,
   },
+  optionsList: {
+    gap: 8,
+  },
   optionCard: {
-    minWidth: 135,
-    padding: 12,
+    alignItems: "center",
+    paddingVertical: 10,
+    paddingHorizontal: 12,
     borderRadius: 14,
     borderWidth: 1.5,
-    gap: 4,
+    gap: 12,
+  },
+  optionText: {
+    flex: 1,
+    gap: 2,
   },
   optionBadges: {
     gap: 4,
+    minWidth: 92,
   },
   smallLineBadge: {
     width: 20,
@@ -629,11 +641,11 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
   optionTime: {
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: "700",
   },
   optionSub: {
-    fontSize: 12,
+    fontSize: 13,
   },
   summaryBanner: {
     padding: 12,
