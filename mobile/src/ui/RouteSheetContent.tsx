@@ -1,7 +1,21 @@
 import React, { useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import {
+  Modal,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import type { Leg, MetroEngine, Route } from "../core/metro";
-import { getAppStrings } from "../i18n";
+import {
+  formatMinutes,
+  formatPlaceDetails,
+  formatStops,
+  formatTransfers,
+  formatTransferStepLabel,
+  getAppStrings,
+} from "../i18n";
 import { LINE_BY_SERVICE, LineColorKey } from "../map/geometry";
 import {
   AppTheme,
@@ -21,14 +35,15 @@ export interface RouteSheetContentProps {
   selectedOption: number;
   onSelectOption: (idx: number) => void;
   departMs: number;
-  onChangeDepartOffsetMin: (offsetMinutes: number) => void;
-  departOffsetMin: number;
+  customDepartMs: number | null;
+  onChangeCustomDepartMs: (ms: number | null) => void;
   isSaved: boolean;
   onToggleSave: () => void;
   onShare: () => void;
 }
 
-const DEPART_OFFSETS = [0, 15, 30, 60, 120];
+const HOURS = Array.from({ length: 24 }, (_, i) => i);
+const MINUTES = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
 function formatClock(ms: number): string {
   const d = new Date(ms);
@@ -48,13 +63,20 @@ export default function RouteSheetContent({
   selectedOption,
   onSelectOption,
   departMs,
-  onChangeDepartOffsetMin,
-  departOffsetMin,
+  customDepartMs,
+  onChangeCustomDepartMs,
   isSaved,
   onToggleSave,
   onShare,
 }: RouteSheetContentProps) {
   const [expandedLeg, setExpandedLeg] = useState<number | null>(null);
+  const [pickerVisible, setPickerVisible] = useState(false);
+  const initDate = new Date(departMs);
+  const [pickedHour, setPickedHour] = useState<number>(initDate.getHours());
+  const [pickedMinute, setPickedMinute] = useState<number>(
+    Math.floor(initDate.getMinutes() / 5) * 5,
+  );
+
   const { colors } = theme;
   const s = getAppStrings(language);
   const t = engine.text;
@@ -69,6 +91,20 @@ export default function RouteSheetContent({
   const arrMinClock = formatClock(departMs + route.time * 60000);
   const arrMaxClock = formatClock(departMs + route.timeMax * 60000);
 
+  const openTimePicker = () => {
+    const d = new Date(departMs);
+    setPickedHour(d.getHours());
+    setPickedMinute(Math.floor(d.getMinutes() / 5) * 5);
+    setPickerVisible(true);
+  };
+
+  const applyPickedTime = (hour: number, minute: number) => {
+    const d = new Date();
+    d.setHours(hour, minute, 0, 0);
+    onChangeCustomDepartMs(d.getTime());
+    setPickerVisible(false);
+  };
+
   const resolveLineColor = (leg: Leg): LineColorKey => {
     const svc = engine.services.find((item) => item.id === leg.svc);
     const key = (svc?.line || LINE_BY_SERVICE[leg.svc]?.id || "blue") as LineColorKey;
@@ -79,6 +115,8 @@ export default function RouteSheetContent({
     const m = LINE_BY_SERVICE[leg.svc];
     return m ? m.number : Number(leg.svc.replace(/\D/g, "")) || 1;
   };
+
+  const isLeaveNow = customDepartMs === null;
 
   return (
     <View style={styles.container}>
@@ -95,41 +133,52 @@ export default function RouteSheetContent({
         </View>
       )}
 
-      <View style={[styles.departRow, rowDir]}>
-        <Text style={[styles.departLabel, txtBold]}>{s.leaveLater}:</Text>
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={[styles.departPills, rowDir]}
+      <View style={[styles.departButtonsRow, rowDir]}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityState={{ selected: isLeaveNow }}
+          onPress={() => onChangeCustomDepartMs(null)}
+          style={[
+            styles.departChoiceBtn,
+            {
+              backgroundColor: isLeaveNow ? colors.accent : colors.bg,
+              borderColor: isLeaveNow ? colors.accent : colors.rule,
+            },
+          ]}
         >
-          {DEPART_OFFSETS.map((offset) => {
-            const active = departOffsetMin === offset;
-            const label =
-              offset === 0 ? s.leaveNow : `+${offset}m (${formatClock(departMs)})`;
-            return (
-              <Pressable
-                key={offset}
-                onPress={() => onChangeDepartOffsetMin(offset)}
-                style={[
-                  styles.departPill,
-                  {
-                    backgroundColor: active ? colors.accent : colors.bg,
-                    borderColor: active ? colors.accent : colors.rule,
-                  },
-                ]}
-              >
-                <Text
-                  style={[
-                    styles.departPillText,
-                    { color: active ? "#FFFFFF" : colors.fg },
-                  ]}
-                >
-                  {offset === 0 ? s.leaveNow : `+${offset}m`}
-                </Text>
-              </Pressable>
-            );
-          })}
-        </ScrollView>
+          <Text
+            style={[
+              styles.departChoiceText,
+              { color: isLeaveNow ? "#FFFFFF" : colors.fg },
+            ]}
+          >
+            {s.leaveNow}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          accessibilityState={{ selected: !isLeaveNow }}
+          onPress={openTimePicker}
+          style={[
+            styles.departChoiceBtn,
+            {
+              backgroundColor: !isLeaveNow ? colors.accent : colors.bg,
+              borderColor: !isLeaveNow ? colors.accent : colors.rule,
+            },
+          ]}
+        >
+          <Text
+            style={[
+              styles.departChoiceText,
+              { color: !isLeaveNow ? "#FFFFFF" : colors.fg },
+            ]}
+          >
+            {customDepartMs !== null
+              ? `${s.leaveLater}: ${formatClock(customDepartMs)}`
+              : s.leaveLater}
+          </Text>
+        </Pressable>
       </View>
 
       {routes.length > 1 && (
@@ -183,7 +232,7 @@ export default function RouteSheetContent({
                   {t("minRange", { a: r.time, b: r.timeMax })}
                 </Text>
                 <Text style={[styles.optionSub, txt, { color: colors.muted }]}>
-                  {t("changes", { n: r.xf })} ·{" "}
+                  {formatTransfers(engine, r.xf)} ·{" "}
                   {r.rides ? `${engine.fares.std} SAR` : "0 SAR"}
                 </Text>
               </Pressable>
@@ -207,7 +256,7 @@ export default function RouteSheetContent({
             {route.rides
               ? `${engine.fares.std} SAR (${s.firstClassLabel}: ${engine.fares.first} SAR)`
               : "0 SAR"}{" "}
-            · {t("stops", { n: route.stops })}
+            · {formatStops(engine, route.stops)}
           </Text>
         </View>
       </View>
@@ -215,7 +264,13 @@ export default function RouteSheetContent({
       {[from, to].map((tok) => {
         const parsed = engine.parseToken(tok);
         const lm = parsed?.lm;
-        if (!lm || lm.min <= 0) return null;
+        if (!lm) return null;
+        const details = formatPlaceDetails(
+          engine,
+          { st: parsed!.st, min: lm.min, note: lm.note },
+          false,
+        );
+        if (!details) return null;
         return (
           <View
             key={`lm-${tok}`}
@@ -225,10 +280,7 @@ export default function RouteSheetContent({
             ]}
           >
             <Text style={[styles.placeNoteText, txt]}>
-              {engine.name(tok)}: {t("walkChip", { n: lm.min })}
-              {lm.note
-                ? ` · ${t("n_bus", { s: engine.stationName(parsed!.st) })}`
-                : ""}
+              {engine.name(tok)}: {details}
             </Text>
           </View>
         );
@@ -283,10 +335,14 @@ export default function RouteSheetContent({
                       {engine.direction(leg)}
                     </Text>
                     <Text
-                      style={[styles.rideStopsSummary, txt, { color: colors.muted }]}
+                      style={[
+                        styles.rideStopsSummary,
+                        txt,
+                        { color: colors.muted },
+                      ]}
                     >
-                      {t("stops", { n: leg.stops.length - 1 })}
-                      {leg.t ? ` · ${t("min", { n: leg.t })}` : ""}{" "}
+                      {formatStops(engine, leg.stops.length - 1)}
+                      {leg.t ? ` · ${formatMinutes(engine, leg.t)}` : ""}{" "}
                       {intermediate.length > 0 ? (isExpanded ? "▴" : "▾") : ""}
                     </Text>
                   </View>
@@ -327,9 +383,11 @@ export default function RouteSheetContent({
               ]}
             >
               <Text style={[styles.xferText, txt, { color: colors.muted }]}>
-                {leg.type === "xfer" ? t("changes", { n: 1 }) : s.walking} ·{" "}
-                {leg.from ? engine.stationName(leg.from) : ""} ·{" "}
-                {t("min", { n: leg.t ?? 3 })}
+                {leg.type === "xfer"
+                  ? formatTransferStepLabel(engine)
+                  : s.walking}{" "}
+                · {leg.from ? engine.stationName(leg.from) : ""} ·{" "}
+                {formatMinutes(engine, leg.t ?? 3)}
               </Text>
             </View>
           );
@@ -375,6 +433,133 @@ export default function RouteSheetContent({
           </Text>
         </Pressable>
       </View>
+
+      <Modal
+        visible={pickerVisible}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setPickerVisible(false)}
+      >
+        <View style={styles.modalBackdrop}>
+          <Pressable
+            style={styles.modalDismiss}
+            onPress={() => setPickerVisible(false)}
+          />
+          <View
+            style={[
+              styles.pickerSheet,
+              { backgroundColor: colors.surface, borderColor: colors.rule },
+            ]}
+          >
+            <View style={[styles.pickerHeader, rowDir]}>
+              <Text style={[styles.pickerTitle, txtBold]}>
+                {s.leaveLater} ({ String(pickedHour).padStart(2, "0") }:
+                { String(pickedMinute).padStart(2, "0") })
+              </Text>
+              <Pressable
+                onPress={() => setPickerVisible(false)}
+                style={[styles.pickerClose, { backgroundColor: colors.bg }]}
+              >
+                <Text style={{ color: colors.fg, fontWeight: "700" }}>✕</Text>
+              </Pressable>
+            </View>
+
+            <ScrollView
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.pickerScroll}
+            >
+              {HOURS.map((h) => {
+                const active = h === pickedHour;
+                return (
+                  <Pressable
+                    key={`h-${h}`}
+                    onPress={() => setPickedHour(h)}
+                    style={[
+                      styles.timeCell,
+                      {
+                        backgroundColor: active ? colors.accent : colors.bg,
+                        borderColor: active ? colors.accent : colors.rule,
+                      },
+                    ]}
+                  >
+                    <Text
+                      style={{
+                        color: active ? "#FFFFFF" : colors.fg,
+                        fontWeight: "700",
+                      }}
+                    >
+                      {String(h).padStart(2, "0")}
+                    </Text>
+                  </Pressable>
+                );
+              })}
+            </ScrollView>
+
+            <ScrollView
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.pickerScroll}
+            >
+              {MINUTES.map((m) => {
+                const active = m === pickedMinute;
+                return (
+                  <Pressable
+                    key={`m-${m}`}
+                    onPress={() => setPickedMinute(m)}
+                    style={[
+                      styles.timeCell,
+                      {
+                        backgroundColor: active ? colors.accent : colors.bg,
+                        borderColor: active ? colors.accent : colors.rule,
+                      },
+                    ]}
+                  >
+                    <Text
+                      style={{
+                        color: active ? "#FFFFFF" : colors.fg,
+                        fontWeight: "700",
+                      }}
+                    >
+                      :{String(m).padStart(2, "0")}
+                    </Text>
+                  </Pressable>
+                );
+              })}
+            </ScrollView>
+
+            <View style={[styles.actionsRow, rowDir]}>
+              <Pressable
+                onPress={() => {
+                  onChangeCustomDepartMs(null);
+                  setPickerVisible(false);
+                }}
+                style={[
+                  styles.actionBtn,
+                  { backgroundColor: colors.bg, borderColor: colors.rule },
+                ]}
+              >
+                <Text style={[styles.actionBtnText, { color: colors.fg }]}>
+                  {s.leaveNow}
+                </Text>
+              </Pressable>
+
+              <Pressable
+                onPress={() => applyPickedTime(pickedHour, pickedMinute)}
+                style={[
+                  styles.actionBtn,
+                  { backgroundColor: colors.accent, borderColor: colors.accent },
+                ]}
+              >
+                <Text style={[styles.actionBtnText, { color: "#FFFFFF" }]}>
+                  OK ({String(pickedHour).padStart(2, "0")}:
+                  {String(pickedMinute).padStart(2, "0")})
+                </Text>
+              </Pressable>
+            </View>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 }
@@ -391,25 +576,21 @@ const styles = StyleSheet.create({
   warningText: {
     fontSize: 13,
   },
-  departRow: {
-    alignItems: "center",
+  departButtonsRow: {
     gap: 8,
   },
-  departLabel: {
-    fontSize: 13,
-  },
-  departPills: {
-    gap: 6,
-  },
-  departPill: {
-    paddingHorizontal: 10,
-    paddingVertical: 6,
-    borderRadius: 14,
+  departChoiceBtn: {
+    flex: 1,
+    minHeight: 40,
+    borderRadius: 12,
     borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 10,
   },
-  departPillText: {
-    fontSize: 12,
-    fontWeight: "600",
+  departChoiceText: {
+    fontSize: 13,
+    fontWeight: "700",
   },
   optionsRow: {
     gap: 8,
@@ -537,5 +718,48 @@ const styles = StyleSheet.create({
   actionBtnText: {
     fontSize: 14,
     fontWeight: "700",
+  },
+  modalBackdrop: {
+    flex: 1,
+    justifyContent: "center",
+    padding: 20,
+    backgroundColor: "rgba(0,0,0,0.45)",
+  },
+  modalDismiss: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  pickerSheet: {
+    borderRadius: 20,
+    borderWidth: 1,
+    padding: 16,
+    gap: 14,
+  },
+  pickerHeader: {
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  pickerTitle: {
+    fontSize: 16,
+    fontWeight: "700",
+  },
+  pickerClose: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  pickerScroll: {
+    gap: 8,
+    paddingVertical: 2,
+  },
+  timeCell: {
+    minWidth: 46,
+    height: 42,
+    borderRadius: 12,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 10,
   },
 });

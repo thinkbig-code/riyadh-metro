@@ -108,6 +108,25 @@ export const LINE_BY_SERVICE: Record<string, MapLine> = Object.fromEntries(
   MAP_GEOMETRY.lines.map((l) => [l.service, l]),
 );
 
+export function normalizeLineParts(line: MapLine): [number, number][][] {
+  if (line.parts.length <= 1) return line.parts;
+  const merged: [number, number][] = [];
+  for (const part of line.parts) {
+    for (const pt of part) {
+      if (merged.length === 0) {
+        merged.push([pt[0], pt[1]]);
+      } else {
+        const prev = merged[merged.length - 1];
+        const dist = Math.hypot(pt[0] - prev[0], pt[1] - prev[1]);
+        if (dist >= 4.5) {
+          merged.push([pt[0], pt[1]]);
+        }
+      }
+    }
+  }
+  return [merged];
+}
+
 export function pointsToSvgPath(points: [number, number][]): string {
   if (!points.length) return "";
   let d = `M ${points[0][0]} ${points[0][1]}`;
@@ -142,12 +161,40 @@ export const PRECOMPUTED_LINE_PATHS: {
   number: number;
   d: string;
 }[] = MAP_GEOMETRY.lines.flatMap((line) =>
-  line.parts.map((part, idx) => ({
+  normalizeLineParts(line).map((part, idx) => ({
     key: `${line.id}-${idx}`,
     lineId: line.id,
     number: line.number,
     d: pointsToSvgPath(part),
   })),
+);
+
+export const ALL_LINE_SEGMENTS: {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  lineId: LineColorKey;
+}[] = MAP_GEOMETRY.lines.flatMap((line) =>
+  normalizeLineParts(line).flatMap((part) => {
+    const segs: {
+      x1: number;
+      y1: number;
+      x2: number;
+      y2: number;
+      lineId: LineColorKey;
+    }[] = [];
+    for (let i = 0; i < part.length - 1; i++) {
+      segs.push({
+        x1: part[i][0],
+        y1: part[i][1],
+        x2: part[i + 1][0],
+        y2: part[i + 1][1],
+        lineId: line.id,
+      });
+    }
+    return segs;
+  }),
 );
 
 export const HUB_ICONS: HubIconPlacement[] = [
@@ -185,8 +232,9 @@ function resolveLineForService(svc: string): MapLine | undefined {
 function sliceLinePartsForStops(line: MapLine, stopIds: string[]): string[] {
   if (stopIds.length < 2) return [];
   const paths: string[] = [];
+  const normalizedParts = normalizeLineParts(line);
 
-  for (const part of line.parts) {
+  for (const part of normalizedParts) {
     const matchedIndices: number[] = [];
     for (const sid of stopIds) {
       const st = STATION_BY_ID[sid];

@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import type { MetroEngine, SearchHit } from "../core/metro";
-import { getAppStrings } from "../i18n";
+import { formatPlaceDetails, getAppStrings } from "../i18n";
 import { LINE_BY_ID, LineColorKey, STATION_BY_ID } from "../map/geometry";
 import {
   AppTheme,
@@ -132,6 +132,10 @@ export default function SearchView({
               const title = isStation
                 ? engine.stationName(item.id!)
                 : item.place!.n;
+              const placeSub =
+                !isStation && item.place
+                  ? formatPlaceDetails(engine, item.place, true)
+                  : "";
 
               return (
                 <Pressable
@@ -186,12 +190,11 @@ export default function SearchView({
                       )}
                     </View>
 
-                    {!isStation && item.place && (
+                    {placeSub !== "" && (
                       <Text
                         style={[styles.placeSub, txt, { color: colors.muted }]}
                       >
-                        {engine.stationName(item.place.st)} ·{" "}
-                        {t("walkChip", { n: item.place.min })}
+                        {placeSub}
                       </Text>
                     )}
 
@@ -272,25 +275,32 @@ export default function SearchView({
               ))}
             </View>
 
-            {popularPlaces.map((pl) => (
-              <Pressable
-                key={pl.id}
-                onPress={() => onSelectToken(pl.id)}
-                style={[
-                  styles.resultRow,
-                  rowDir,
-                  { borderBottomColor: colors.rule },
-                ]}
-              >
-                <View style={styles.resultMain}>
-                  <Text style={[styles.resultTitle, txtBold]}>{pl.n}</Text>
-                  <Text style={[styles.placeSub, txt, { color: colors.muted }]}>
-                    {engine.stationName(pl.st)} · {t("walkChip", { n: pl.min })}
-                  </Text>
-                </View>
-                {renderLineBadges(pl.st)}
-              </Pressable>
-            ))}
+            {popularPlaces.map((pl) => {
+              const sub = formatPlaceDetails(engine, pl, true);
+              return (
+                <Pressable
+                  key={pl.id}
+                  onPress={() => onSelectToken(pl.id)}
+                  style={[
+                    styles.resultRow,
+                    rowDir,
+                    { borderBottomColor: colors.rule },
+                  ]}
+                >
+                  <View style={styles.resultMain}>
+                    <Text style={[styles.resultTitle, txtBold]}>{pl.n}</Text>
+                    {sub !== "" && (
+                      <Text
+                        style={[styles.placeSub, txt, { color: colors.muted }]}
+                      >
+                        {sub}
+                      </Text>
+                    )}
+                  </View>
+                  {renderLineBadges(pl.st)}
+                </Pressable>
+              );
+            })}
           </View>
         </View>
       )}

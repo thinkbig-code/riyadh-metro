@@ -25,7 +25,7 @@ import { getLocales } from "expo-localization";
 import { createMetroEngine } from "./src/core/metro";
 import { parseRouteLink } from "./src/core/links";
 import MetroMap, { MetroMapRef } from "./src/map/MetroMap";
-import { getAppStrings } from "./src/i18n";
+import { formatTransfers, getAppStrings } from "./src/i18n";
 import {
   directionalRow,
   resolveTheme,
@@ -84,7 +84,7 @@ function AppShell() {
   const [selectedOption, setSelectedOption] = useState<number>(0);
   const [sheetIndex, setSheetIndex] = useState<number>(0);
   const [nowMs, setNowMs] = useState<number>(() => Date.now());
-  const [departOffsetMin, setDepartOffsetMin] = useState<number>(0);
+  const [customDepartMs, setCustomDepartMs] = useState<number | null>(null);
 
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [menuSection, setMenuSection] = useState<MenuSection>("language");
@@ -176,7 +176,7 @@ function AppShell() {
     return () => sub.remove();
   }, [engine, hydrated]);
 
-  const departMs = nowMs + departOffsetMin * 60000;
+  const departMs = customDepartMs ?? nowMs;
 
   const routes = useMemo(
     () => (from && to && from !== to ? engine.plan(from, to, departMs) : []),
@@ -355,7 +355,7 @@ function AppShell() {
         message: `${engine.name(from)} → ${engine.name(to)}\n${t("minRange", {
           a: activeRoute.time,
           b: activeRoute.timeMax,
-        })} · ${t("changes", { n: activeRoute.xf })}\n${engine.shareUrl(
+        })} · ${formatTransfers(engine, activeRoute.xf)}\n${engine.shareUrl(
           from,
           to,
         )}`,
@@ -520,8 +520,8 @@ function AppShell() {
         onSwap={handleSwap}
         onClear={handleClear}
         departMs={departMs}
-        departOffsetMin={departOffsetMin}
-        onChangeDepartOffsetMin={setDepartOffsetMin}
+        customDepartMs={customDepartMs}
+        onChangeCustomDepartMs={setCustomDepartMs}
         isCurrentRouteSaved={isCurrentRouteSaved}
         onToggleSaveRoute={handleToggleSaveRoute}
         onShareRoute={handleShareRoute}

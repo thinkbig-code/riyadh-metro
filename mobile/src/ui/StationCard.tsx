@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import type { MetroEngine } from "../core/metro";
-import { getAppStrings } from "../i18n";
+import { formatPlaceDetails, getAppStrings } from "../i18n";
 import { LINE_BY_ID, LineColorKey, STATION_BY_ID } from "../map/geometry";
 import {
   AppTheme,
@@ -46,6 +46,10 @@ export default function StationCard({
   const txtBold = directionalText(rtl, theme, true);
   const rowDir = directionalRow(rtl);
 
+  const primaryTitle = engine.stationName(station.id);
+  const secondarySubtitle =
+    language === "ar" ? station.en : station.ar;
+
   return (
     <View
       style={[
@@ -55,9 +59,9 @@ export default function StationCard({
     >
       <View style={[styles.headerRow, rowDir]}>
         <View style={{ flex: 1, gap: 2 }}>
-          <Text style={[styles.titlePrimary, txtBold]}>{station.ar}</Text>
+          <Text style={[styles.titlePrimary, txtBold]}>{primaryTitle}</Text>
           <Text style={[styles.titleSecondary, txt, { color: colors.muted }]}>
-            {station.en} · #{station.number}
+            {secondarySubtitle} · #{station.number}
           </Text>
         </View>
         <Pressable
@@ -116,15 +120,19 @@ export default function StationCard({
       {nearby.length > 0 && (
         <View style={styles.nearbyWrap}>
           <Text style={[styles.nearbyTitle, txtBold]}>{s.nearbyPlaces}:</Text>
-          {nearby.map((pl) => (
-            <Text
-              key={pl.id}
-              numberOfLines={1}
-              style={[styles.nearbyItem, txt, { color: colors.muted }]}
-            >
-              • {pl.n} ({t("walkChip", { n: pl.min })})
-            </Text>
-          ))}
+          {nearby.map((pl) => {
+            const detail = formatPlaceDetails(engine, pl, false);
+            return (
+              <Text
+                key={pl.id}
+                numberOfLines={2}
+                style={[styles.nearbyItem, txt, { color: colors.muted }]}
+              >
+                • {pl.n}
+                {detail ? ` (${detail})` : ""}
+              </Text>
+            );
+          })}
         </View>
       )}
 
@@ -164,7 +172,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 14,
     right: 14,
-    bottom: "21%",
+    bottom: 98,
     borderRadius: 20,
     borderWidth: 1,
     padding: 14,

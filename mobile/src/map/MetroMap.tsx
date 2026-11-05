@@ -22,7 +22,11 @@ import {
   RouteHighlightInput,
   ThemeMode,
 } from "./geometry";
-import { computeBoundsForStationIds, findNearestStation } from "./labels";
+import {
+  computeBoundsForStationIds,
+  findNearestStation,
+  FULL_MAP_BOUNDS,
+} from "./labels";
 import {
   BadgesLayer,
   DistrictsLayer,
@@ -52,13 +56,12 @@ export interface MetroMapRef {
   focus: (stationIds: string[]) => void;
 }
 
-const BOX = MAP_GEOMETRY.box;
-const NET_W = BOX.x1 - BOX.x0;
-const NET_H = BOX.y1 - BOX.y0;
+const NET_W = FULL_MAP_BOUNDS.x1 - FULL_MAP_BOUNDS.x0;
+const NET_H = FULL_MAP_BOUNDS.y1 - FULL_MAP_BOUNDS.y0;
 
-const SVG_PAD = 110;
-const SVG_X0 = BOX.x0 - SVG_PAD;
-const SVG_Y0 = BOX.y0 - SVG_PAD;
+const SVG_PAD = 60;
+const SVG_X0 = FULL_MAP_BOUNDS.x0 - SVG_PAD;
+const SVG_Y0 = FULL_MAP_BOUNDS.y0 - SVG_PAD;
 const CANVAS_W = NET_W + SVG_PAD * 2;
 const CANVAS_H = NET_H + SVG_PAD * 2;
 
@@ -66,6 +69,7 @@ const DEFAULT_CENTER_X = 535;
 const DEFAULT_CENTER_Y = 645;
 const DEFAULT_SCALE = 1.0;
 const MAX_SCALE = 3.0;
+const FIT_MARGIN_PT = 16;
 
 function computeFitScale(
   viewW: number,
@@ -74,15 +78,16 @@ function computeFitScale(
   bottomInset: number,
 ): number {
   "worklet";
-  if (viewW <= 0 || viewH <= 0) return 0.32;
+  if (viewW <= 0 || viewH <= 0) return 0.28;
   const usableH = Math.max(200, viewH - topInset - bottomInset);
-  const padX = 14;
-  const padY = 18;
   return Math.min(
     1.0,
     Math.max(
-      0.22,
-      Math.min((viewW - padX * 2) / NET_W, (usableH - padY * 2) / NET_H),
+      0.2,
+      Math.min(
+        (viewW - FIT_MARGIN_PT * 2) / NET_W,
+        (usableH - FIT_MARGIN_PT * 2) / NET_H,
+      ),
     ),
   );
 }
@@ -102,25 +107,23 @@ function clampTranslation(
   const usableH = Math.max(200, viewH - topInset - bottomInset);
   const netScaledW = NET_W * scale;
   const netScaledH = NET_H * scale;
-  const marginX = 24;
-  const marginY = 24;
 
   let clampedX: number;
-  if (netScaledW <= viewW - marginX * 2) {
+  if (netScaledW <= viewW - FIT_MARGIN_PT * 2 + 0.5) {
     clampedX = viewW / 2 - (SVG_PAD + NET_W / 2) * scale;
   } else {
-    const maxTx = marginX - SVG_PAD * scale;
-    const minTx = viewW - marginX - (SVG_PAD + NET_W) * scale;
+    const maxTx = FIT_MARGIN_PT - SVG_PAD * scale;
+    const minTx = viewW - FIT_MARGIN_PT - (SVG_PAD + NET_W) * scale;
     clampedX = Math.min(maxTx, Math.max(minTx, tx));
   }
 
   let clampedY: number;
-  if (netScaledH <= usableH - marginY * 2) {
+  if (netScaledH <= usableH - FIT_MARGIN_PT * 2 + 0.5) {
     clampedY = topInset + usableH / 2 - (SVG_PAD + NET_H / 2) * scale;
   } else {
-    const maxTy = topInset + marginY - SVG_PAD * scale;
+    const maxTy = topInset + FIT_MARGIN_PT - SVG_PAD * scale;
     const minTy =
-      viewH - bottomInset - marginY - (SVG_PAD + NET_H) * scale;
+      viewH - bottomInset - FIT_MARGIN_PT - (SVG_PAD + NET_H) * scale;
     clampedY = Math.min(maxTy, Math.max(minTy, ty));
   }
 
@@ -148,22 +151,20 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   const [initialized, setInitialized] = useState(false);
 
   const scale = useSharedValue(DEFAULT_SCALE);
-  const minScaleShared = useSharedValue(0.32);
+  const minScaleShared = useSharedValue(0.28);
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
 
   const panStartX = useSharedValue(0);
   const panStartY = useSharedValue(0);
   const pinchStartScale = useSharedValue(DEFAULT_SCALE);
-  const pinchStartX = useSharedValue(0);
-  const pinchStartY = useSharedValue(0);
-  const pinchFocalX = useSharedValue(0);
-  const pinchFocalY = useSharedValue(0);
+  const pinchFocalMapX = useSharedValue(0);
+  const pinchFocalMapY = useSharedValue(0);
 
   const commitRenderScale = useCallback((nextScale: number) => {
     const quantized = Math.round(nextScale * 25) / 25;
     setRenderScale((prev) =>
-      Math.abs(prev - quantized) < 0.03 ? prev : quantized,
+      Math.abs(prev - quantized) < 0.025 ? prev : quantized,
     );
   }, []);
 
@@ -310,8 +311,8 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         bottomInset,
       );
       const usableH = Math.max(200, viewport.height - topInset - bottomInset);
-      const spanX = Math.max(140, bounds.maxX - bounds.minX + 140);
-      const spanY = Math.max(140, bounds.maxY - bounds.minY + 140);
+      const spanX = Math.max(160, bounds.maxX - bounds.minX + 160);
+      const spanY = Math.max(160, bounds.maxY - bounds.minY + 160);
       const targetScale = Math.min(
         1.45,
         Math.max(
@@ -389,6 +390,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     () =>
       Gesture.Pan()
         .minDistance(4)
+        .maxPointers(1)
         .onStart(() => {
           panStartX.value = translateX.value;
           panStartY.value = translateY.value;
@@ -424,21 +426,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       Gesture.Pinch()
         .onStart((e) => {
           pinchStartScale.value = scale.value;
-          pinchStartX.value = translateX.value;
-          pinchStartY.value = translateY.value;
-          pinchFocalX.value = e.focalX;
-          pinchFocalY.value = e.focalY;
+          pinchFocalMapX.value = (e.focalX - translateX.value) / scale.value;
+          pinchFocalMapY.value = (e.focalY - translateY.value) / scale.value;
         })
         .onUpdate((e) => {
           const nextScale = Math.min(
             MAX_SCALE,
             Math.max(minScaleShared.value, pinchStartScale.value * e.scale),
           );
-          const ratio = nextScale / pinchStartScale.value;
-          const rawTx =
-            pinchFocalX.value - (pinchFocalX.value - pinchStartX.value) * ratio;
-          const rawTy =
-            pinchFocalY.value - (pinchFocalY.value - pinchStartY.value) * ratio;
+          const rawTx = e.focalX - pinchFocalMapX.value * nextScale;
+          const rawTy = e.focalY - pinchFocalMapY.value * nextScale;
           const clamped = clampTranslation(
             rawTx,
             rawTy,
@@ -459,11 +456,9 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       bottomInset,
       commitRenderScale,
       minScaleShared,
-      pinchFocalX,
-      pinchFocalY,
+      pinchFocalMapX,
+      pinchFocalMapY,
       pinchStartScale,
-      pinchStartX,
-      pinchStartY,
       scale,
       topInset,
       translateX,
@@ -484,9 +479,10 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             currentScale >= 2.0
               ? DEFAULT_SCALE
               : Math.min(MAX_SCALE, currentScale * 1.65);
-          const ratio = nextScale / currentScale;
-          const rawTx = e.x - (e.x - translateX.value) * ratio;
-          const rawTy = e.y - (e.y - translateY.value) * ratio;
+          const fx = (e.x - translateX.value) / currentScale;
+          const fy = (e.y - translateY.value) / currentScale;
+          const rawTx = e.x - fx * nextScale;
+          const rawTy = e.y - fy * nextScale;
           const clamped = clampTranslation(
             rawTx,
             rawTy,
@@ -556,13 +552,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     [doubleTapGesture, longPressGesture, panGesture, pinchGesture, singleTapGesture],
   );
 
-  const animatedCanvasStyle = useAnimatedStyle(() => ({
-    transform: [
-      { translateX: translateX.value },
-      { translateY: translateY.value },
-      { scale: scale.value },
-    ],
-  }));
+  const animatedCanvasStyle = useAnimatedStyle(() => {
+    const s = scale.value;
+    return {
+      transform: [
+        { translateX: translateX.value + (CANVAS_W * (s - 1)) / 2 },
+        { translateY: translateY.value + (CANVAS_H * (s - 1)) / 2 },
+        { scale: s },
+      ],
+    };
+  });
 
   const hasActiveRoute = Boolean(routeData);
 
@@ -654,7 +653,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   canvasWrapper: {
-    transformOrigin: "0px 0px",
+    position: "absolute",
+    left: 0,
+    top: 0,
   },
 });
 

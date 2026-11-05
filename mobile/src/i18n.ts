@@ -1,3 +1,5 @@
+import type { MetroEngine } from "./core/metro";
+
 export type AppLanguageCode = "ar" | "en" | "ur" | "hi" | "bn" | "tl" | "ru" | "fr";
 
 export interface AppStrings {
@@ -57,7 +59,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "من هنا",
     toHere: "إلى هنا",
     leaveNow: "المغادرة الآن",
-    leaveLater: "وقت المغادرة",
+    leaveLater: "لاحقا",
     arrivalLabel: "الوصول",
     firstClassLabel: "الدرجة الأولى",
     walking: "مشي",
@@ -98,7 +100,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "From here",
     toHere: "To here",
     leaveNow: "Leave now",
-    leaveLater: "Leave at",
+    leaveLater: "Later",
     arrivalLabel: "Arrival",
     firstClassLabel: "First class",
     walking: "Walk",
@@ -139,7 +141,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "یہاں سے",
     toHere: "یہاں تک",
     leaveNow: "ابھی روانگی",
-    leaveLater: "روانگی کا وقت",
+    leaveLater: "بعد میں",
     arrivalLabel: "آمد",
     firstClassLabel: "فرسٹ کلاس",
     walking: "پیدل",
@@ -180,7 +182,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "यहाँ से",
     toHere: "यहाँ तक",
     leaveNow: "अभी निकलें",
-    leaveLater: "निकलने का समय",
+    leaveLater: "बाद में",
     arrivalLabel: "पहुँचने का समय",
     firstClassLabel: "फर्स्ट क्लास",
     walking: "पैदल",
@@ -221,7 +223,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "এখান থেকে",
     toHere: "এখানে",
     leaveNow: "এখনই যাত্রা",
-    leaveLater: "যাত্রার সময়",
+    leaveLater: "পরে",
     arrivalLabel: "পৌঁছানোর সময়",
     firstClassLabel: "প্রথম শ্রেণী",
     walking: "হাঁটা",
@@ -262,7 +264,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "Mula rito",
     toHere: "Papunta rito",
     leaveNow: "Umalis ngayon",
-    leaveLater: "Oras ng alis",
+    leaveLater: "Mamaya",
     arrivalLabel: "Dating",
     firstClassLabel: "First class",
     walking: "Lakad",
@@ -303,7 +305,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "Отсюда",
     toHere: "Сюда",
     leaveNow: "Сейчас",
-    leaveLater: "Время выезда",
+    leaveLater: "Позже",
     arrivalLabel: "Прибытие",
     firstClassLabel: "Первый класс",
     walking: "Пешком",
@@ -344,7 +346,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     fromHere: "Partir d'ici",
     toHere: "Aller ici",
     leaveNow: "Partir maintenant",
-    leaveLater: "Heure de départ",
+    leaveLater: "Plus tard",
     arrivalLabel: "Arrivée",
     firstClassLabel: "Première classe",
     walking: "Marche",
@@ -373,4 +375,81 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
 
 export function getAppStrings(language: string): AppStrings {
   return APP_STRINGS[language as AppLanguageCode] ?? APP_STRINGS.en;
+}
+
+function tryKey(
+  engine: MetroEngine,
+  key: string,
+  vars?: Record<string, string | number>,
+): string | null {
+  const val = engine.text(key, vars);
+  if (!val || val === key || /\{[a-zA-Z0-9_]+\}/.test(val)) {
+    return null;
+  }
+  return val;
+}
+
+export function formatTransfers(engine: MetroEngine, count: number): string {
+  if (count === 0) {
+    const direct =
+      tryKey(engine, "direct") ??
+      tryKey(engine, "noChanges") ??
+      tryKey(engine, "changes", { n: 0 });
+    if (direct) return direct;
+  }
+  if (count === 1) {
+    const one =
+      tryKey(engine, "change1", { n: 1 }) ??
+      tryKey(engine, "oneChange", { n: 1 }) ??
+      tryKey(engine, "change", { n: 1 });
+    if (one) return one;
+  }
+  return tryKey(engine, "changes", { n: count }) ?? `${count}`;
+}
+
+export function formatTransferStepLabel(engine: MetroEngine): string {
+  return (
+    tryKey(engine, "xfer") ??
+    tryKey(engine, "transfer") ??
+    formatTransfers(engine, 1)
+  );
+}
+
+export function formatStops(engine: MetroEngine, count: number): string {
+  if (count === 1) {
+    const one =
+      tryKey(engine, "stop1", { n: 1 }) ??
+      tryKey(engine, "oneStop", { n: 1 }) ??
+      tryKey(engine, "stop", { n: 1 });
+    if (one) return one;
+  }
+  return tryKey(engine, "stops", { n: count }) ?? `${count}`;
+}
+
+export function formatMinutes(engine: MetroEngine, minutes: number): string {
+  return tryKey(engine, "min", { n: minutes }) ?? `${minutes} min`;
+}
+
+export function formatPlaceDetails(
+  engine: MetroEngine,
+  place: { st: string; min?: number; note?: string },
+  includeStationPrefix = false,
+): string {
+  const stName = engine.stationName(place.st);
+  if (place.note) {
+    const noteText =
+      tryKey(engine, place.note, { s: stName }) ??
+      tryKey(engine, `n_${place.note}`, { s: stName }) ??
+      tryKey(engine, "n_bus", { s: stName });
+    if (noteText) return noteText;
+  }
+  if (typeof place.min === "number" && place.min > 0) {
+    const walk =
+      tryKey(engine, "walkChip", { n: place.min }) ??
+      tryKey(engine, "min", { n: place.min });
+    if (walk) {
+      return includeStationPrefix ? `${stName} · ${walk}` : walk;
+    }
+  }
+  return includeStationPrefix ? stName : "";
 }

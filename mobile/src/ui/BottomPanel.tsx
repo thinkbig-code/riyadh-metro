@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import type { MetroEngine, Route } from "../core/metro";
+import { formatTransfers } from "../i18n";
 import { AppTheme, directionalRow, directionalText } from "../theme";
 import type { SavedTrip } from "./MenuSheet";
 import RouteSheetContent from "./RouteSheetContent";
@@ -29,8 +30,8 @@ export interface BottomPanelProps {
   onSwap: () => void;
   onClear: () => void;
   departMs: number;
-  departOffsetMin: number;
-  onChangeDepartOffsetMin: (offsetMinutes: number) => void;
+  customDepartMs: number | null;
+  onChangeCustomDepartMs: (ms: number | null) => void;
   isCurrentRouteSaved: boolean;
   onToggleSaveRoute: () => void;
   onShareRoute: () => void;
@@ -61,8 +62,8 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
       onSwap,
       onClear,
       departMs,
-      departOffsetMin,
-      onChangeDepartOffsetMin,
+      customDepartMs,
+      onChangeCustomDepartMs,
       isCurrentRouteSaved,
       onToggleSaveRoute,
       onShareRoute,
@@ -254,7 +255,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
                 })}
               </Text>
               <Text style={[styles.quickMeta, txt, { color: colors.muted }]}>
-                {t("changes", { n: activeRoute.xf })} ·{" "}
+                {formatTransfers(engine, activeRoute.xf)} ·{" "}
                 {activeRoute.rides ? `${engine.fares.std} SAR` : "0 SAR"}
               </Text>
             </View>
@@ -292,8 +293,8 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               selectedOption={selectedOption}
               onSelectOption={onSelectOption}
               departMs={departMs}
-              departOffsetMin={departOffsetMin}
-              onChangeDepartOffsetMin={onChangeDepartOffsetMin}
+              customDepartMs={customDepartMs}
+              onChangeCustomDepartMs={onChangeCustomDepartMs}
               isSaved={isCurrentRouteSaved}
               onToggleSave={onToggleSaveRoute}
               onShare={onShareRoute}
