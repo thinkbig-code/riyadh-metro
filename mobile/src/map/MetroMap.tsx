@@ -108,28 +108,16 @@ function clampTranslation(
   "worklet";
   if (viewW <= 0 || viewH <= 0) return { x: tx, y: ty };
 
+  // Per axis the network must stay on screen: when it is larger than the free area it may not
+  // leave a gap at either edge, when it is smaller it may not leave the area. Both cases are one
+  // continuous range, so zooming never snaps the map to the centre (that was the "jump").
   const usableH = Math.max(200, viewH - topInset - bottomInset);
-  const netScaledW = NET_W * scale;
-  const netScaledH = NET_H * scale;
-
-  let clampedX: number;
-  if (netScaledW <= viewW - FIT_MARGIN_PT * 2 + 0.5) {
-    clampedX = viewW / 2 - (SVG_PAD + NET_W / 2) * scale;
-  } else {
-    const maxTx = FIT_MARGIN_PT - SVG_PAD * scale;
-    const minTx = viewW - FIT_MARGIN_PT - (SVG_PAD + NET_W) * scale;
-    clampedX = Math.min(maxTx, Math.max(minTx, tx));
-  }
-
-  let clampedY: number;
-  if (netScaledH <= usableH - FIT_MARGIN_PT * 2 + 0.5) {
-    clampedY = topInset + usableH / 2 - (SVG_PAD + NET_H / 2) * scale;
-  } else {
-    const maxTy = topInset + FIT_MARGIN_PT - SVG_PAD * scale;
-    const minTy =
-      viewH - bottomInset - FIT_MARGIN_PT - (SVG_PAD + NET_H) * scale;
-    clampedY = Math.min(maxTy, Math.max(minTy, ty));
-  }
+  const ax = FIT_MARGIN_PT - SVG_PAD * scale;
+  const bx = viewW - FIT_MARGIN_PT - (SVG_PAD + NET_W) * scale;
+  const ay = topInset + FIT_MARGIN_PT - SVG_PAD * scale;
+  const by = topInset + usableH - FIT_MARGIN_PT - (SVG_PAD + NET_H) * scale;
+  const clampedX = Math.min(Math.max(ax, bx), Math.max(Math.min(ax, bx), tx));
+  const clampedY = Math.min(Math.max(ay, by), Math.max(Math.min(ay, by), ty));
 
   return { x: clampedX, y: clampedY };
 }
@@ -233,6 +221,8 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   // zoom or drag is a stray finger, not a station choice
   const lastMoveMs = useSharedValue(0);
   const pinchFocalMapX = useSharedValue(0);
+  const pinchLastFocalX = useSharedValue(0);
+  const pinchLastFocalY = useSharedValue(0);
   const pinchFocalMapY = useSharedValue(0);
 
   const commitRenderScale = useCallback((nextScale: number) => {
@@ -298,10 +288,11 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         topInset,
         bottomInset,
       );
-      scale.value = withTiming(clampedScale, { duration: 260 });
-      translateX.value = withTiming(clamped.x, { duration: 260 });
-      translateY.value = withTiming(clamped.y, { duration: 260 });
-      commitRenderScale(clampedScale);
+      translateX.value = withTiming(clamped.x, { duration: 300 });
+      translateY.value = withTiming(clamped.y, { duration: 300 });
+      scale.value = withTiming(clampedScale, { duration: 300 }, (done) => {
+        if (done) runOnJS(commitRenderScale)(clampedScale);
+      });
     },
     [
       bottomInset,
@@ -521,10 +512,18 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           pinchFocalMapY.value = (e.focalY - translateY.value) / scale.value;
         })
         .onUpdate((e) => {
-          const nextScale = Math.min(
-            MAX_SCALE,
-            Math.max(minScaleShared.value, pinchStartScale.value * e.scale),
-          );
+          // past the zoom limits the map gives way softly instead of stopping dead, then
+          // eases back when the fingers lift
+          const raw = pinchStartScale.value * e.scale;
+          const lo = minScaleShared.value;
+          const nextScale =
+            raw < lo
+              ? lo * Math.pow(raw / lo, 0.35)
+              : raw > MAX_SCALE
+                ? MAX_SCALE * Math.pow(raw / MAX_SCALE, 0.35)
+                : raw;
+          pinchLastFocalX.value = e.focalX;
+          pinchLastFocalY.value = e.focalY;
           const rawTx = e.focalX - pinchFocalMapX.value * nextScale;
           const rawTy = e.focalY - pinchFocalMapY.value * nextScale;
           const clamped = clampTranslation(
@@ -543,7 +542,33 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         })
         .onEnd(() => {
           lastMoveMs.value = Date.now();
-          runOnJS(commitRenderScale)(scale.value);
+          const target = Math.min(
+            MAX_SCALE,
+            Math.max(minScaleShared.value, scale.value),
+          );
+          if (target !== scale.value) {
+            const fx = pinchLastFocalX.value;
+            const fy = pinchLastFocalY.value;
+            const mx = (fx - translateX.value) / scale.value;
+            const my = (fy - translateY.value) / scale.value;
+            const back = clampTranslation(
+              fx - mx * target,
+              fy - my * target,
+              target,
+              viewport.width,
+              viewport.height,
+              topInset,
+              bottomInset,
+            );
+            translateX.value = withTiming(back.x, { duration: 220 });
+            translateY.value = withTiming(back.y, { duration: 220 });
+            // redraw the labels only after the motion, so it never stutters
+            scale.value = withTiming(target, { duration: 220 }, (done) => {
+              if (done) runOnJS(commitRenderScale)(target);
+            });
+          } else {
+            runOnJS(commitRenderScale)(target);
+          }
         }),
     [
       bottomInset,
@@ -590,10 +615,11 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             topInset,
             bottomInset,
           );
-          scale.value = withTiming(nextScale, { duration: 220 });
-          translateX.value = withTiming(clamped.x, { duration: 220 });
-          translateY.value = withTiming(clamped.y, { duration: 220 });
-          runOnJS(commitRenderScale)(nextScale);
+          translateX.value = withTiming(clamped.x, { duration: 240 });
+          translateY.value = withTiming(clamped.y, { duration: 240 });
+          scale.value = withTiming(nextScale, { duration: 240 }, (done) => {
+            if (done) runOnJS(commitRenderScale)(nextScale);
+          });
         }),
     [
       bottomInset,

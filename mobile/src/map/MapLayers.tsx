@@ -263,50 +263,34 @@ function renderSingleStation(
   );
 }
 
+// Pictograms on a 24-unit grid (Material Design icons "flight" and "train", Apache License 2.0).
+const PLANE_D =
+  "M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z";
+const TRAIN_D =
+  "M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h2.23l2-2H14l2 2h2v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm3.5-7H6V6h5v4zm2 0V6h5v4h-5zm3.5 7c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z";
+export const HUB_RADIUS = 13;
+
 function renderHubBadge(
   stationId: string,
   kind: "plane" | "train",
   x: number,
   y: number,
   palette: ThemePalette,
+  theme: ThemeMode,
 ) {
-  const size = 16;
-  const half = size / 2;
+  // a solid round sign: dark disc with a white pictogram in the light theme, the reverse in dark
+  const disc = theme === "light" ? "#18212A" : "#E6ECF0";
+  const glyph = theme === "light" ? "#FFFFFF" : "#18212A";
+  const k = 0.78; // pictogram 24 * 0.78 = about 19 units inside a 26-unit disc
   return (
-    <G key={`hub-${stationId}`} transform={`translate(${x}, ${y})`}>
-      <Rect
-        x={-half}
-        y={-half}
-        width={size}
-        height={size}
-        rx={4.5}
-        fill={palette.surface}
-        stroke={palette.muted}
-        strokeWidth={1.1}
+    <G key={`hub-${stationId}`}>
+      <Circle cx={x} cy={y} r={HUB_RADIUS + 1.8} fill={palette.bg} />
+      <Circle cx={x} cy={y} r={HUB_RADIUS} fill={disc} />
+      <Path
+        d={kind === "plane" ? PLANE_D : TRAIN_D}
+        fill={glyph}
+        transform={`translate(${x - 12 * k}, ${y - 12 * k}) scale(${k})`}
       />
-      {kind === "plane" ? (
-        <Path
-          d="M -0.8 -5.2 C -0.8 -5.8 0.8 -5.8 0.8 -5.2 L 0.9 -1.6 L 5.2 0.8 L 5.2 2.0 L 0.9 0.7 L 0.8 3.5 L 2.6 4.7 L 2.6 5.6 L 0 4.9 L -2.6 5.6 L -2.6 4.7 L -0.8 3.5 L -0.9 0.7 L -5.2 2.0 L -5.2 0.8 L -0.9 -1.6 Z"
-          fill={palette.fg}
-        />
-      ) : (
-        <G>
-          <Path
-            d="M -3.8 -4.8 C -3.8 -5.4 -2.2 -5.8 0 -5.8 C 2.2 -5.8 3.8 -5.4 3.8 -4.8 L 4.2 1.8 C 4.2 2.8 3.4 3.5 2.4 3.5 L 3.8 5.5 L 2.3 5.5 L 1.1 3.5 L -1.1 3.5 L -2.3 5.5 L -3.8 5.5 L -2.4 3.5 C -3.4 3.5 -4.2 2.8 -4.2 1.8 Z"
-            fill={palette.fg}
-          />
-          <Rect
-            x={-2.7}
-            y={-3.8}
-            width={5.4}
-            height={2.6}
-            rx={0.8}
-            fill={palette.surface}
-          />
-          <Circle cx={-1.8} cy={1.4} r={0.85} fill={palette.surface} />
-          <Circle cx={1.8} cy={1.4} r={0.85} fill={palette.surface} />
-        </G>
-      )}
     </G>
   );
 }
@@ -326,7 +310,7 @@ export const StationsLayer = memo(function StationsLayer({
         renderSingleStation(station, palette, theme),
       )}
       {HUB_ICONS.map((hub) =>
-        renderHubBadge(hub.stationId, hub.kind, hub.x, hub.y, palette),
+        renderHubBadge(hub.stationId, hub.kind, hub.x, hub.y, palette, theme),
       )}
     </G>
   );

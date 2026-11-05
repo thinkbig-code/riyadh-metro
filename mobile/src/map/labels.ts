@@ -317,10 +317,10 @@ export function getVisibleStationLabels(
 
   for (const hub of HUB_ICONS) {
     obstacles.push({
-      x0: hub.x - 8.5,
-      y0: hub.y - 8.5,
-      x1: hub.x + 8.5,
-      y1: hub.y + 8.5,
+      x0: hub.x - 15,
+      y0: hub.y - 15,
+      x1: hub.x + 15,
+      y1: hub.y + 15,
     });
   }
 
@@ -421,10 +421,10 @@ export function getNonCollidingLineBadges(
 
   for (const hub of HUB_ICONS) {
     obstacles.push({
-      x0: hub.x - 9,
-      y0: hub.y - 9,
-      x1: hub.x + 9,
-      y1: hub.y + 9,
+      x0: hub.x - 16,
+      y0: hub.y - 16,
+      x1: hub.x + 16,
+      y1: hub.y + 16,
     });
   }
 

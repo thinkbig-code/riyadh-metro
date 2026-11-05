@@ -198,10 +198,10 @@ export const ALL_LINE_SEGMENTS: {
 );
 
 export const HUB_ICONS: HubIconPlacement[] = [
-  { stationId: "t12", kind: "plane", x: 659, y: 80 },
-  { stationId: "t34", kind: "plane", x: 659, y: 135 },
-  { stationId: "t5", kind: "plane", x: 659, y: 190 },
-  { stationId: "railway", kind: "train", x: 681, y: 850 },
+  { stationId: "t12", kind: "plane", x: 651, y: 80 },
+  { stationId: "t34", kind: "plane", x: 651, y: 135 },
+  { stationId: "t5", kind: "plane", x: 651, y: 190 },
+  { stationId: "railway", kind: "train", x: 672, y: 850 },
 ];
 
 export const LINE_BADGES: LineBadgePlacement[] = [
