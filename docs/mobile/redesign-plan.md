@@ -77,3 +77,7 @@ All workstreams merged; preview APK installs and runs offline on Andrey's phone;
 - The site source is one file: `src/riyadh-metro.html`. Read it before touching map or search; most answers are there.
 - CI: `.github/workflows/mobile.yml`. The Android job uses the runner's own SDK (setup-android was removed because it failed). A successful run on this branch replaces the `android-preview` pre-release.
 - Write user-facing text plainly; no em dashes in UI or store texts.
+
+## Later (after the Play release)
+
+- Best place to board ("board the front / middle / rear"), like Yandex Metro. Blocked on data: no open source has exit and transfer positions per platform. Collect per station and direction (own survey or user feedback), then show a train diagram in the route steps. Optional cheaper step: show where the First / Family / Singles cars are, once the car order is confirmed.
