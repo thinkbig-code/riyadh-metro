@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-05T15:50:54Z",
+ "generated": "2026-11-05T22:19:50Z",
  "start": "2025-11-05",
  "end": "2026-11-06",
  "total": {
-  "total": 3863,
-  "total_events": 1737,
-  "total_utc": 3863,
+  "total": 3874,
+  "total_events": 1742,
+  "total_utc": 3874,
   "stats": [
    {
     "day": "2025-11-05",
@@ -10873,7 +10873,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 391
+    "monthly": 402
    },
    {
     "day": "2026-11-02",
@@ -10964,7 +10964,7 @@
      1
     ],
     "daily": 55,
-    "weekly": 127
+    "weekly": 138
    },
    {
     "day": "2026-11-05",
@@ -10989,12 +10989,12 @@
      1,
      2,
      0,
-     0,
-     0,
-     0,
+     2,
+     2,
+     7,
      0
     ],
-    "daily": 72
+    "daily": 83
    },
    {
     "day": "2026-11-06",
@@ -11034,7 +11034,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 787,
+   "count": 790,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11070,7 +11070,7 @@
     "2026-11-02": 6,
     "2026-11-03": 10,
     "2026-11-04": 6,
-    "2026-11-05": 12
+    "2026-11-05": 15
    }
   },
   {
@@ -11078,7 +11078,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 584,
+   "count": 586,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11108,7 +11108,7 @@
     "2026-11-02": 3,
     "2026-11-03": 5,
     "2026-11-04": 2,
-    "2026-11-05": 9
+    "2026-11-05": 11
    }
   },
   {
@@ -11374,7 +11374,7 @@
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
-   "count": 16,
+   "count": 17,
    "daily": {
     "2026-10-10": 1,
     "2026-10-13": 1,
@@ -11383,7 +11383,8 @@
     "2026-10-24": 1,
     "2026-10-31": 2,
     "2026-11-01": 3,
-    "2026-11-02": 3
+    "2026-11-02": 3,
+    "2026-11-05": 1
    }
   },
   {
@@ -11421,6 +11422,25 @@
     "2026-11-01": 3,
     "2026-11-04": 1,
     "2026-11-05": 1
+   }
+  },
+  {
+   "path": "/ar/timings",
+   "path_id": 110802018,
+   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
+   "event": false,
+   "count": 13,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-17": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-24": 1,
+    "2026-10-25": 2,
+    "2026-10-29": 1,
+    "2026-10-30": 1,
+    "2026-11-03": 1,
+    "2026-11-05": 2
    }
   },
   {
@@ -11469,25 +11489,6 @@
     "2026-10-20": 1,
     "2026-11-01": 2,
     "2026-11-03": 1
-   }
-  },
-  {
-   "path": "/ar/timings",
-   "path_id": 110802018,
-   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
-   "event": false,
-   "count": 12,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-17": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 2,
-    "2026-10-24": 1,
-    "2026-10-25": 2,
-    "2026-10-29": 1,
-    "2026-10-30": 1,
-    "2026-11-03": 1,
-    "2026-11-05": 1
    }
   },
   {
@@ -11806,6 +11807,21 @@
    }
   },
   {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-24": 2,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1,
+    "2026-11-05": 1
+   }
+  },
+  {
    "path": "/ar/destinations/aster-sanad-hospital",
    "path_id": 112080374,
    "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
@@ -11940,20 +11956,6 @@
     "2026-10-25": 1,
     "2026-10-26": 1,
     "2026-10-31": 2
-   }
-  },
-  {
-   "path": "/districts/al-qadisiyah",
-   "path_id": 113291536,
-   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-24": 2,
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 1
    }
   },
   {
@@ -12820,6 +12822,19 @@
    }
   },
   {
+   "path": "station/sab/to",
+   "path_id": 110444019,
+   "title": "en|name",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-14": 1,
+    "2026-10-31": 1,
+    "2026-11-05": 1
+   }
+  },
+  {
    "path": "station/jeddahrd/to",
    "path_id": 110435923,
    "title": "en|name",
@@ -13613,18 +13628,6 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-15": 1
-   }
-  },
-  {
-   "path": "station/sab/to",
-   "path_id": 110444019,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-08": 1,
-    "2026-10-14": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -15370,6 +15373,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/nuzhah/sab",
+   "path_id": 119291704,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-05": 1
+   }
+  },
+  {
+   "path": "station/nuzhah/from",
+   "path_id": 119291689,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-05": 1
    }
   },
   {
@@ -23095,9 +23118,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2126,
-  "events_total": 1737,
-  "goatcounter_total_with_events": 3863,
+  "visits": 2132,
+  "events_total": 1742,
+  "goatcounter_total_with_events": 3874,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23133,7 +23156,7 @@
    "2026-11-02": 30,
    "2026-11-03": 42,
    "2026-11-04": 49,
-   "2026-11-05": 48
+   "2026-11-05": 54
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23164,11 +23187,11 @@
    "2026-11-02": 6,
    "2026-11-03": 10,
    "2026-11-04": 5,
-   "2026-11-05": 14
+   "2026-11-05": 16
   },
-  "visitor_days": 679,
+  "visitor_days": 681,
   "return_rate": 0.14,
-  "routes": 462,
+  "routes": 463,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
   "routes_per_visitor_day": 0.64,
@@ -23180,7 +23203,7 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.066,
+  "failed_search_rate": 0.065,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -23283,7 +23306,7 @@
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 584,
+   "new": 586,
    "return": 95
   },
   "top_routes": [
@@ -23424,11 +23447,11 @@
     "count": 12
    },
    {
-    "name": "kfl",
-    "count": 10
+    "name": "sab",
+    "count": 11
    },
    {
-    "name": "uthman",
+    "name": "kfl",
     "count": 10
    }
   ]
@@ -23437,7 +23460,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 523
+    "count": 526
    },
    {
     "name": "tiktok_ad",
@@ -23753,7 +23776,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 2
+    "count": 3
    }
   ],
   "/ar/districts/al-rawdah": [
@@ -23774,6 +23797,32 @@
    {
     "name": "(direct or unknown)",
     "count": 2
+   }
+  ],
+  "/ar/timings": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "www.bing.com",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/timings",
+    "count": 2
+   },
+   {
+    "name": "www.petalsearch.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
    }
   ],
   "/destinations/al-awwal-park": [
@@ -23808,32 +23857,6 @@
    {
     "name": "Google",
     "count": 12
-   }
-  ],
-  "/ar/timings": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "www.bing.com",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/timings",
-    "count": 2
-   },
-   {
-    "name": "www.petalsearch.com",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
    }
   ],
   "/ar/lines/orange-line": [
@@ -24068,6 +24091,16 @@
     "count": 1
    }
   ],
+  "/districts/al-qadisiyah": [
+   {
+    "name": "chatgpt.com",
+    "count": 5
+   },
+   {
+    "name": "Google",
+    "count": 2
+   }
+  ],
   "/ar/destinations/aster-sanad-hospital": [
    {
     "name": "Google",
@@ -24146,16 +24179,6 @@
    {
     "name": "chatgpt.com",
     "count": 1
-   }
-  ],
-  "/districts/al-qadisiyah": [
-   {
-    "name": "chatgpt.com",
-    "count": 4
-   },
-   {
-    "name": "Google",
-    "count": 2
    }
   ],
   "/ar/districts/al-yasmeen": [
@@ -24371,7 +24394,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 523
+    "count": 526
    },
    {
     "path": "/ar/map",
@@ -24410,12 +24433,12 @@
     "count": 3
    },
    {
-    "path": "/ar/stations/king-salman-oasis",
+    "path": "/ar/districts/qurtubah",
     "count": 3
    },
    {
-    "path": "/ar/districts/qurtubah",
-    "count": 2
+    "path": "/ar/stations/king-salman-oasis",
+    "count": 3
    },
    {
     "path": "/ar/districts/ar-rabwah",
@@ -24588,11 +24611,11 @@
     "count": 6
    },
    {
-    "path": "/districts/al-arid",
+    "path": "/ar/timings",
     "count": 5
    },
    {
-    "path": "/ar/timings",
+    "path": "/districts/al-arid",
     "count": 5
    },
    {
@@ -24746,6 +24769,10 @@
     "count": 5
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 5
+   },
+   {
     "path": "/destinations/diriyah",
     "count": 4
    },
@@ -24755,10 +24782,6 @@
    },
    {
     "path": "/ar/stations/western-station",
-    "count": 4
-   },
-   {
-    "path": "/districts/al-qadisiyah",
     "count": 4
    },
    {
@@ -24873,7 +24896,7 @@
    },
    {
     "path": "/ar/timings",
-    "count": 2
+    "count": 3
    },
    {
     "path": "/destinations/riyadh-gallery-mall",
@@ -25310,7 +25333,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1822,
+   "count": 1831,
    "ref_scheme": "o"
   },
   {
@@ -25328,7 +25351,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 183,
+   "count": 184,
    "ref_scheme": "c"
   },
   {
@@ -25358,7 +25381,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 32,
+   "count": 33,
    "ref_scheme": "h"
   },
   {
@@ -25612,12 +25635,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2735
+   "count": 2740
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1020
+   "count": 1021
   },
   {
    "id": "(unknown)",
@@ -25635,6 +25658,11 @@
    "count": 16
   },
   {
+   "id": "ind",
+   "name": "Indonesian",
+   "count": 13
+  },
+  {
    "id": "deu",
    "name": "German",
    "count": 12
@@ -25643,11 +25671,6 @@
    "id": "spa",
    "name": "Spanish",
    "count": 10
-  },
-  {
-   "id": "ind",
-   "name": "Indonesian",
-   "count": 8
   },
   {
    "id": "por",
@@ -25689,7 +25712,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3257
+   "count": 3263
   },
   {
    "id": "US",
@@ -25795,6 +25818,11 @@
    "id": "MX",
    "name": "Mexico",
    "count": 6
+  },
+  {
+   "id": "ID",
+   "name": "Indonesia",
+   "count": 5
   },
   {
    "id": "QA",
@@ -25930,18 +25958,13 @@
    "id": "JM",
    "name": "Jamaica",
    "count": 1
-  },
-  {
-   "id": "MN",
-   "name": "Mongolia",
-   "count": 1
   }
  ],
  "sizes": [
   {
    "id": "phone",
    "name": "",
-   "count": 3136
+   "count": 3142
   },
   {
    "id": "tablet",
@@ -25956,7 +25979,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 80
+   "count": 85
   },
   {
    "id": "unknown",
@@ -25968,12 +25991,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2044
+   "count": 2051
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1733
+   "count": 1737
   },
   {
    "name": "",
@@ -25989,12 +26012,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1720
+   "count": 1724
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1453
+   "count": 1455
   },
   {
    "id": "Windows",
@@ -26004,7 +26027,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 139
+   "count": 144
   },
   {
    "id": "Linux",
