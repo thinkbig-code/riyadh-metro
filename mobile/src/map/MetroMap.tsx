@@ -11,9 +11,11 @@ import React, {
 import { LayoutChangeEvent, StyleSheet, View } from "react-native";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import Animated, {
+  Easing,
   runOnJS,
   useAnimatedStyle,
   useSharedValue,
+  withDecay,
   withTiming,
 } from "react-native-reanimated";
 import Svg, { Rect } from "react-native-svg";
@@ -225,12 +227,24 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   const pinchLastFocalY = useSharedValue(0);
   const pinchFocalMapY = useSharedValue(0);
 
-  const commitRenderScale = useCallback((nextScale: number) => {
-    const quantized = Math.round(nextScale * 25) / 25;
-    setRenderScale((prev) =>
-      Math.abs(prev - quantized) < 0.025 ? prev : quantized,
-    );
+  // Redraw the labels for a new zoom only once the map has been still for a moment: a redraw
+  // takes a fraction of a second on a phone, and doing it between two quick pinches felt jerky.
+  const commitTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const cancelCommit = useCallback(() => {
+    if (commitTimer.current) clearTimeout(commitTimer.current);
+    commitTimer.current = null;
   }, []);
+  const commitRenderScale = useCallback((nextScale: number) => {
+    if (commitTimer.current) clearTimeout(commitTimer.current);
+    commitTimer.current = setTimeout(() => {
+      commitTimer.current = null;
+      const quantized = Math.round(nextScale * 25) / 25;
+      setRenderScale((prev) =>
+        Math.abs(prev - quantized) < 0.025 ? prev : quantized,
+      );
+    }, 350);
+  }, []);
+  useEffect(() => cancelCommit, [cancelCommit]);
 
   useEffect(() => {
     if (viewport.width > 0 && viewport.height > 0) {
@@ -468,6 +482,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         .minDistance(4)
         .maxPointers(1)
         .onStart(() => {
+          runOnJS(cancelCommit)();
           panStartX.value = translateX.value;
           panStartY.value = translateY.value;
         })
@@ -485,11 +500,25 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           translateY.value = next.y;
           lastMoveMs.value = Date.now();
         })
-        .onEnd(() => {
+        .onEnd((e) => {
           lastMoveMs.value = Date.now();
+          // a flick keeps the map gliding and slowing down, within the same bounds as dragging
+          const lo = clampTranslation(-1e9, -1e9, scale.value, viewport.width, viewport.height, topInset, bottomInset);
+          const hi = clampTranslation(1e9, 1e9, scale.value, viewport.width, viewport.height, topInset, bottomInset);
+          translateX.value = withDecay({
+            velocity: e.velocityX,
+            deceleration: 0.996,
+            clamp: [lo.x, hi.x],
+          });
+          translateY.value = withDecay({
+            velocity: e.velocityY,
+            deceleration: 0.996,
+            clamp: [lo.y, hi.y],
+          });
         }),
     [
       bottomInset,
+      cancelCommit,
       lastMoveMs,
       panStartX,
       panStartY,
@@ -506,6 +535,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     () =>
       Gesture.Pinch()
         .onStart((e) => {
+          runOnJS(cancelCommit)();
           lastMoveMs.value = Date.now();
           pinchStartScale.value = scale.value;
           pinchFocalMapX.value = (e.focalX - translateX.value) / scale.value;
@@ -540,13 +570,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           translateY.value = clamped.y;
           lastMoveMs.value = Date.now();
         })
-        .onEnd(() => {
+        .onEnd((e) => {
           lastMoveMs.value = Date.now();
+          // a quick pinch carries on a little and eases out instead of stopping dead
+          const v = Math.max(-3, Math.min(3, e.velocity || 0));
+          const coast = Math.abs(v) > 0.25 ? scale.value * (1 + v * 0.12) : scale.value;
           const target = Math.min(
             MAX_SCALE,
-            Math.max(minScaleShared.value, scale.value),
+            Math.max(minScaleShared.value, coast),
           );
-          if (target !== scale.value) {
+          if (Math.abs(target - scale.value) > 0.0005) {
             const fx = pinchLastFocalX.value;
             const fy = pinchLastFocalY.value;
             const mx = (fx - translateX.value) / scale.value;
@@ -560,10 +593,11 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
               topInset,
               bottomInset,
             );
-            translateX.value = withTiming(back.x, { duration: 220 });
-            translateY.value = withTiming(back.y, { duration: 220 });
+            const ease = { duration: 280, easing: Easing.out(Easing.cubic) };
+            translateX.value = withTiming(back.x, ease);
+            translateY.value = withTiming(back.y, ease);
             // redraw the labels only after the motion, so it never stutters
-            scale.value = withTiming(target, { duration: 220 }, (done) => {
+            scale.value = withTiming(target, ease, (done) => {
               if (done) runOnJS(commitRenderScale)(target);
             });
           } else {
@@ -572,6 +606,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
         }),
     [
       bottomInset,
+      cancelCommit,
       commitRenderScale,
       minScaleShared,
       pinchFocalMapX,

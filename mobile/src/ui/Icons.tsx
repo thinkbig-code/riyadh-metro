@@ -47,3 +47,23 @@ export function FitIcon({ color, size = 24 }: { color: string; size?: number }) 
     </Svg>
   );
 }
+
+// a small chevron; "down" when a section is open, otherwise pointing to the reading direction end
+export function ChevronIcon({
+  color,
+  open,
+  rtl,
+  size = 18,
+}: {
+  color: string;
+  open: boolean;
+  rtl: boolean;
+  size?: number;
+}) {
+  const d = open ? "M6 9l6 6 6-6" : rtl ? "M15 6l-6 6 6 6" : "M9 6l6 6-6 6";
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path d={d} stroke={color} strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" fill="none" />
+    </Svg>
+  );
+}
