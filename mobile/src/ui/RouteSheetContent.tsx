@@ -144,52 +144,37 @@ export default function RouteSheetContent({
         </View>
       )}
 
-      <View style={[styles.departButtonsRow, rowDir]}>
+      {/* departure time: one small chip; "now" by default, tap to pick a time, x to go back */}
+      <View style={[styles.departChipRow, rowDir]}>
         <Pressable
           accessibilityRole="button"
-          accessibilityState={{ selected: isLeaveNow }}
-          onPress={() => onChangeCustomDepartMs(null)}
-          style={[
-            styles.departChoiceBtn,
-            {
-              backgroundColor: isLeaveNow ? colors.accent : colors.bg,
-              borderColor: isLeaveNow ? colors.accent : colors.rule,
-            },
-          ]}
-        >
-          <Text
-            style={[
-              styles.departChoiceText,
-              { color: isLeaveNow ? "#FFFFFF" : colors.fg },
-            ]}
-          >
-            {s.leaveNow}
-          </Text>
-        </Pressable>
-
-        <Pressable
-          accessibilityRole="button"
-          accessibilityState={{ selected: !isLeaveNow }}
           onPress={openTimePicker}
           style={[
-            styles.departChoiceBtn,
+            styles.departChip,
+            rowDir,
             {
-              backgroundColor: !isLeaveNow ? colors.accent : colors.bg,
-              borderColor: !isLeaveNow ? colors.accent : colors.rule,
+              backgroundColor: isLeaveNow ? colors.bg : colors.accent,
+              borderColor: isLeaveNow ? colors.rule : colors.accent,
             },
           ]}
         >
-          <Text
-            style={[
-              styles.departChoiceText,
-              { color: !isLeaveNow ? "#FFFFFF" : colors.fg },
-            ]}
-          >
-            {customDepartMs !== null
-              ? `${s.leaveLater}: ${formatClock(customDepartMs)}`
-              : s.leaveLater}
+          <Text style={[styles.departChipText, { color: isLeaveNow ? colors.fg : "#FFFFFF" }]}>
+            {isLeaveNow
+              ? `${s.leaveNow} ▾`
+              : `${s.leaveLater}: ${formatClock(customDepartMs as number)} ▾`}
           </Text>
         </Pressable>
+        {!isLeaveNow && (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={s.leaveNow}
+            onPress={() => onChangeCustomDepartMs(null)}
+            hitSlop={8}
+            style={[styles.departReset, { backgroundColor: colors.bg, borderColor: colors.rule }]}
+          >
+            <Text style={{ color: colors.muted, fontWeight: "700" }}>✕</Text>
+          </Pressable>
+        )}
       </View>
 
       {routes.length > 1 && (
@@ -609,6 +594,29 @@ const styles = StyleSheet.create({
   optionsRow: {
     gap: 8,
     paddingVertical: 2,
+  },
+  departChipRow: {
+    alignItems: "center",
+    gap: 8,
+  },
+  departChip: {
+    alignItems: "center",
+    paddingVertical: 7,
+    paddingHorizontal: 14,
+    borderRadius: 16,
+    borderWidth: 1,
+  },
+  departChipText: {
+    fontSize: 14,
+    fontWeight: "600",
+  },
+  departReset: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
   },
   optionsList: {
     gap: 8,
