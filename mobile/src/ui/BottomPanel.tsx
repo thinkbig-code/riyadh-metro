@@ -90,11 +90,22 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
       [activeField],
     );
 
+    // search can be pulled down to close; with a route the route sheet then comes back at
+    // its middle height, without one the compact From/To bar replaces the sheet
     const handleChange = useCallback(
       (index: number) => {
+        if (index === -1 && activeField) {
+          onCloseSearch();
+          if (activeRoute) {
+            requestAnimationFrame(() => {
+              (ref as React.RefObject<BottomSheet | null>)?.current?.snapToIndex(1);
+            });
+          }
+          return;
+        }
         if (onSheetChange) onSheetChange(index);
       },
-      [onSheetChange],
+      [activeField, activeRoute, onCloseSearch, onSheetChange, ref],
     );
 
     const renderFieldsRow = () => (
@@ -227,7 +238,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
         index={activeField ? 0 : 1}
         snapPoints={snapPoints}
         onChange={handleChange}
-        enablePanDownToClose={false}
+        enablePanDownToClose={Boolean(activeField)}
         keyboardBehavior="extend"
         keyboardBlurBehavior="restore"
         backgroundStyle={{

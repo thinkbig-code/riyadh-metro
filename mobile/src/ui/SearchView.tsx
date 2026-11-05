@@ -92,11 +92,7 @@ export default function SearchView({
           autoFocus
           value={query}
           onChangeText={onChangeQuery}
-          placeholder={
-            activeField === "from"
-              ? `${t("phFrom")}: ${s.searchPlaceholder}`
-              : `${t("phTo")}: ${s.searchPlaceholder}`
-          }
+          placeholder={s.searchPlaceholder}
           placeholderTextColor={colors.muted}
           style={[
             styles.input,
