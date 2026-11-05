@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Linking,
   Modal,
@@ -54,7 +54,8 @@ export default function MenuSheet({
   theme,
   rtl,
 }: MenuSheetProps) {
-  const [section, setSection] = useState<MenuSection>(initialSection);
+  // one screen with all settings stacked; initialSection is kept for callers but unused
+  void initialSection;
   const s = getAppStrings(language);
   const t = engine.text;
   const { colors } = theme;
@@ -100,89 +101,46 @@ export default function MenuSheet({
             </Pressable>
           </View>
 
-          <View style={[styles.tabsRow, rowDir]}>
-            {(
-              [
-                { id: "language" as const, label: s.languageTitle },
-                { id: "saved" as const, label: s.savedTrips },
-                { id: "about" as const, label: s.aboutTitle },
-              ] as const
-            ).map((tab) => {
-              const active = section === tab.id;
-              return (
-                <Pressable
-                  key={tab.id}
-                  accessibilityRole="tab"
-                  accessibilityState={{ selected: active }}
-                  onPress={() => setSection(tab.id)}
-                  style={[
-                    styles.tabButton,
-                    {
-                      backgroundColor: active ? colors.accent : colors.bg,
-                      borderColor: active ? colors.accent : colors.rule,
-                    },
-                  ]}
-                >
-                  <Text
-                    style={[
-                      styles.tabLabel,
-                      txtBold,
-                      { color: active ? "#FFFFFF" : colors.fg, textAlign: "center" },
-                    ]}
-                  >
-                    {tab.label}
-                  </Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
           <ScrollView
             style={styles.body}
             contentContainerStyle={styles.bodyContent}
           >
-            {section === "language" && (
-              <View style={styles.listGroup}>
-                {engine.languages.map((lang) => {
-                  const selected = lang.code === language;
-                  return (
-                    <Pressable
-                      key={lang.code}
-                      accessibilityRole="button"
-                      accessibilityState={{ selected }}
-                      onPress={() => {
-                        onSelectLanguage(lang.code);
-                        onClose();
-                      }}
+            <Text style={[styles.sectionTitle, txtBold, { color: colors.muted }]}>
+              {s.languageTitle}
+            </Text>
+            <View style={[styles.langGrid, rowDir]}>
+              {engine.languages.map((lang) => {
+                const selected = lang.code === language;
+                return (
+                  <Pressable
+                    key={lang.code}
+                    accessibilityRole="button"
+                    accessibilityState={{ selected }}
+                    onPress={() => onSelectLanguage(lang.code)}
+                    style={[
+                      styles.langChip,
+                      {
+                        backgroundColor: selected ? colors.accent : colors.bg,
+                        borderColor: selected ? colors.accent : colors.rule,
+                      },
+                    ]}
+                  >
+                    <Text
                       style={[
-                        styles.langRow,
-                        rowDir,
-                        {
-                          backgroundColor: selected ? colors.bg : "transparent",
-                          borderColor: colors.rule,
-                        },
+                        styles.langChipText,
+                        { color: selected ? "#FFFFFF" : colors.fg },
                       ]}
                     >
-                      <Text style={[styles.langNative, txtBold]}>
-                        {lang.native}
-                      </Text>
-                      <Text
-                        style={[
-                          styles.langCode,
-                          { color: selected ? colors.accent : colors.muted },
-                        ]}
-                      >
-                        {selected ? "✓" : lang.code.toUpperCase()}
-                      </Text>
-                    </Pressable>
-                  );
-                })}
-              </View>
-            )}
+                      {lang.native}
+                    </Text>
+                  </Pressable>
+                );
+              })}
+            </View>
 
-            {section === "saved" && (
+            {(
               <View style={styles.savedContainer}>
-                <Text style={[styles.sectionSubheading, txtBold]}>
+                <Text style={[styles.sectionTitle, txtBold, { color: colors.muted }]}>
                   {s.savedTrips}
                 </Text>
                 {favourites.length === 0 ? (
@@ -223,13 +181,7 @@ export default function MenuSheet({
                   ))
                 )}
 
-                <Text
-                  style={[
-                    styles.sectionSubheading,
-                    txtBold,
-                    { marginTop: 16 },
-                  ]}
-                >
+                <Text style={[styles.sectionTitle, txtBold, { color: colors.muted }]}>
                   {s.recentTrips}
                 </Text>
                 {recent.length === 0 ? (
@@ -237,7 +189,7 @@ export default function MenuSheet({
                     {s.noRecentTrips}
                   </Text>
                 ) : (
-                  recent.map((trip) => (
+                  recent.slice(0, 5).map((trip) => (
                     <Pressable
                       key={`rec-${trip.from}~${trip.to}`}
                       onPress={() => {
@@ -259,8 +211,11 @@ export default function MenuSheet({
               </View>
             )}
 
-            {section === "about" && (
+            {(
               <View style={styles.aboutContainer}>
+                <Text style={[styles.sectionTitle, txtBold, { color: colors.muted }]}>
+                  {s.aboutTitle}
+                </Text>
                 <View
                   style={[
                     styles.aboutCard,
@@ -336,7 +291,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   sheet: {
-    maxHeight: "82%",
+    maxHeight: "90%",
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     borderTopWidth: 1,
@@ -392,6 +347,27 @@ const styles = StyleSheet.create({
   },
   bodyContent: {
     paddingBottom: 20,
+  },
+  sectionTitle: {
+    fontSize: 13,
+    fontWeight: "700",
+    letterSpacing: 0.4,
+    marginTop: 18,
+    marginBottom: 8,
+  },
+  langGrid: {
+    flexWrap: "wrap",
+    gap: 8,
+  },
+  langChip: {
+    paddingVertical: 9,
+    paddingHorizontal: 14,
+    borderRadius: 18,
+    borderWidth: 1,
+  },
+  langChipText: {
+    fontSize: 15,
+    fontWeight: "600",
   },
   listGroup: {
     gap: 8,

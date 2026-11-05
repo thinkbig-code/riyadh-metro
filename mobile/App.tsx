@@ -35,6 +35,8 @@ import {
 import BottomPanel from "./src/ui/BottomPanel";
 import MenuSheet, { MenuSection, SavedTrip } from "./src/ui/MenuSheet";
 import StationCard from "./src/ui/StationCard";
+import { FitIcon, LocateIcon, MenuIcon } from "./src/ui/Icons";
+import LaunchIntro from "./src/ui/LaunchIntro";
 
 const STORAGE_KEY = "riyadh-metro.preferences.v1";
 const SITE_LANGUAGES = createMetroEngine().languages.map((l) => l.code);
@@ -438,7 +440,7 @@ function AppShell() {
             { backgroundColor: colors.surface, borderColor: colors.rule },
           ]}
         >
-          <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>☰</Text>
+          <MenuIcon color={colors.fg} />
         </Pressable>
       </View>
 
@@ -463,9 +465,7 @@ function AppShell() {
             {locating ? (
               <ActivityIndicator size="small" color={colors.accent} />
             ) : (
-              <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>
-                ⌖
-              </Text>
+              <LocateIcon color={colors.accent} />
             )}
           </Pressable>
 
@@ -478,9 +478,7 @@ function AppShell() {
               { backgroundColor: colors.surface, borderColor: colors.rule },
             ]}
           >
-            <Text style={[styles.roundButtonIcon, { color: colors.fg }]}>
-              ⤢
-            </Text>
+            <FitIcon color={colors.fg} />
           </Pressable>
         </View>
       )}
@@ -563,6 +561,14 @@ function AppShell() {
         theme={theme}
         rtl={rtl}
       />
+
+      <LaunchIntro
+        background={colors.bg}
+        color={colors.fg}
+        muted={colors.muted}
+        title="Riyadh Metro"
+        subtitle="مترو الرياض"
+      />
     </View>
   );
 }
@@ -598,9 +604,9 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   roundButton: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 52,
+    height: 52,
+    borderRadius: 26,
     borderWidth: 1,
     alignItems: "center",
     justifyContent: "center",
