@@ -1,6 +1,5 @@
 import React, {
   forwardRef,
-  memo,
   useCallback,
   useEffect,
   useImperativeHandle,
@@ -10,38 +9,26 @@ import React, {
 } from "react";
 import { LayoutChangeEvent, StyleSheet, View } from "react-native";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
-import Animated, {
+import {
   Easing,
   runOnJS,
-  useAnimatedStyle,
   useSharedValue,
   withDecay,
   withTiming,
 } from "react-native-reanimated";
-import Svg, { Rect } from "react-native-svg";
 import type { Route } from "../core/metro";
 import {
   buildRouteRenderData,
   MAP_GEOMETRY,
   RouteHighlightInput,
   ThemeMode,
-  ThemePalette,
 } from "./geometry";
 import {
   computeBoundsForStationIds,
   findNearestStation,
   FULL_MAP_BOUNDS,
 } from "./labels";
-import {
-  BadgesLayer,
-  DistrictsLayer,
-  LabelsLayer,
-  LinesLayer,
-  RouteOverlayLayer,
-  SelectionLayer,
-  StationsLayer,
-  WadiLayer,
-} from "./MapLayers";
+import SkiaMap from "./SkiaMap";
 
 export interface MetroMapProps {
   theme: ThemeMode;
@@ -69,6 +56,7 @@ const SVG_X0 = FULL_MAP_BOUNDS.x0 - SVG_PAD;
 const SVG_Y0 = FULL_MAP_BOUNDS.y0 - SVG_PAD;
 const CANVAS_W = NET_W + SVG_PAD * 2;
 const CANVAS_H = NET_H + SVG_PAD * 2;
+const CANVAS_ORIGIN = { x0: SVG_X0, y0: SVG_Y0, w: CANVAS_W, h: CANVAS_H };
 
 const DEFAULT_CENTER_X = 535;
 const DEFAULT_CENTER_Y = 645;
@@ -123,72 +111,6 @@ function clampTranslation(
   return { x: clampedX, y: clampedY };
 }
 
-// One label layout for every zoom level, like Yandex Metro: names and lines simply grow and
-// shrink with the map, so nothing is redrawn or swapped while zooming and nothing jumps.
-// (renderScale is still tracked for camera logic; the drawing no longer depends on it.)
-function layoutScaleFor(_renderScale: number): number {
-  return 1;
-}
-
-const BaseMap = memo(function BaseMap({
-  palette,
-  theme,
-  language,
-  layoutScale,
-  fontRegular,
-  fontBold,
-}: {
-  palette: ThemePalette;
-  theme: ThemeMode;
-  language: string;
-  layoutScale: number;
-  fontRegular?: string;
-  fontBold?: string;
-}) {
-  return (
-    <Svg
-      width={CANVAS_W}
-      height={CANVAS_H}
-      viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
-    >
-      <Rect x={SVG_X0} y={SVG_Y0} width={CANVAS_W} height={CANVAS_H} fill={palette.bg} />
-      <WadiLayer
-        palette={palette}
-        theme={theme}
-        language={language}
-        fontRegular={fontRegular}
-        fontBold={fontBold}
-      />
-      <DistrictsLayer
-        palette={palette}
-        theme={theme}
-        language={language}
-        renderScale={layoutScale}
-        fontRegular={fontRegular}
-        fontBold={fontBold}
-      />
-      <LinesLayer palette={palette} dimmed={false} />
-      <StationsLayer palette={palette} theme={theme} dimmed={false} />
-      <BadgesLayer
-        palette={palette}
-        language={language}
-        renderScale={layoutScale}
-        activeStationIds={null}
-        dimmed={false}
-        fontBold={fontBold}
-      />
-      <LabelsLayer
-        palette={palette}
-        language={language}
-        renderScale={layoutScale}
-        activeStationIds={null}
-        fontRegular={fontRegular}
-        fontBold={fontBold}
-      />
-    </Svg>
-  );
-});
-
 const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   {
     theme,
@@ -199,16 +121,13 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     onLongPress,
     topInset = 0,
     bottomInset = 88,
-    fontRegular,
-    fontBold,
   },
   ref,
 ) {
   const palette = MAP_GEOMETRY.colors[theme];
   const [viewport, setViewport] = useState({ width: 0, height: 0 });
-  const [renderScale, setRenderScale] = useState<number>(DEFAULT_SCALE);
+  const [, setRenderScale] = useState<number>(DEFAULT_SCALE);
   const [initialized, setInitialized] = useState(false);
-  const layoutScale = layoutScaleFor(renderScale);
 
   const scale = useSharedValue(DEFAULT_SCALE);
   const minScaleShared = useSharedValue(0.28);
@@ -721,17 +640,6 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     [doubleTapGesture, longPressGesture, panGesture, pinchGesture, singleTapGesture],
   );
 
-  // scale around the canvas top-left corner (transformOrigin below), so a map point p is drawn at
-  // translate + p * scale exactly, the same formula the pinch and clamp maths use. Relying on the
-  // default centre origin let the map drift sideways while zooming on Android.
-  const animatedCanvasStyle = useAnimatedStyle(() => ({
-    transform: [
-      { translateX: translateX.value },
-      { translateY: translateY.value },
-      { scale: scale.value },
-    ],
-  }));
-
   return (
     <View
       style={[styles.container, { backgroundColor: palette.bg }]}
@@ -739,63 +647,17 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     >
       <GestureDetector gesture={composedGesture}>
         <View style={styles.gestureSurface} collapsable={false}>
-          <Animated.View
-            style={[
-              styles.canvasWrapper,
-              { width: CANVAS_W, height: CANVAS_H },
-              animatedCanvasStyle,
-            ]}
-          >
-            {/* Base map: changes only with theme, language or zoom tier. react-native-svg
-                rasterises a whole Svg on any change, so everything that changes often (route,
-                selection) lives in the small overlay Svg below, never here. */}
-            <BaseMap
-              palette={palette}
-              theme={theme}
-              language={language}
-              layoutScale={layoutScale}
-              fontRegular={fontRegular}
-              fontBold={fontBold}
-            />
-            {routeData ? (
-              <View
-                pointerEvents="none"
-                style={[
-                  StyleSheet.absoluteFill,
-                  { backgroundColor: palette.bg, opacity: 0.74 },
-                ]}
-              />
-            ) : null}
-            {routeData || selected ? (
-              <Svg
-                pointerEvents="none"
-                style={StyleSheet.absoluteFill}
-                width={CANVAS_W}
-                height={CANVAS_H}
-                viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
-              >
-                {routeData ? (
-                  <>
-                    <RouteOverlayLayer
-                      palette={palette}
-                      theme={theme}
-                      routeData={routeData}
-                      fontBold={fontBold}
-                    />
-                    <LabelsLayer
-                      palette={palette}
-                      language={language}
-                      renderScale={layoutScale}
-                      activeStationIds={routeData.stationIds}
-                      fontRegular={fontRegular}
-                      fontBold={fontBold}
-                    />
-                  </>
-                ) : null}
-                <SelectionLayer palette={palette} selectedId={selected} />
-              </Svg>
-            ) : null}
-          </Animated.View>
+          <SkiaMap
+            palette={palette}
+            theme={theme}
+            language={language}
+            routeData={routeData}
+            selected={selected}
+            origin={CANVAS_ORIGIN}
+            translateX={translateX}
+            translateY={translateY}
+            scale={scale}
+          />
         </View>
       </GestureDetector>
     </View>
@@ -809,12 +671,6 @@ const styles = StyleSheet.create({
   },
   gestureSurface: {
     flex: 1,
-  },
-  canvasWrapper: {
-    position: "absolute",
-    left: 0,
-    top: 0,
-    transformOrigin: "left top",
   },
 });
 
