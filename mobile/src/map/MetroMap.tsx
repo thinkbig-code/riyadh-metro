@@ -4,6 +4,7 @@ import React, {
   useEffect,
   useImperativeHandle,
   useMemo,
+  useRef,
   useState,
 } from "react";
 import { LayoutChangeEvent, StyleSheet, View } from "react-native";
@@ -340,10 +341,20 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
 
   const routeData = useMemo(() => buildRouteRenderData(route), [route]);
 
+  // focus the camera once per new route, not again when the sheet height, the viewport or the
+  // minute clock re-creates the same route object
+  const focusedRouteKey = useRef("");
   useEffect(() => {
-    if (routeData && routeData.stationIds.size > 0 && initialized) {
-      focus(Array.from(routeData.stationIds));
+    if (!routeData || routeData.stationIds.size === 0) {
+      focusedRouteKey.current = "";
+      return;
     }
+    if (!initialized) return;
+    const ids = Array.from(routeData.stationIds);
+    const key = ids.join(",");
+    if (key === focusedRouteKey.current) return;
+    focusedRouteKey.current = key;
+    focus(ids);
   }, [focus, initialized, routeData]);
 
   const handleTapOnJS = useCallback(

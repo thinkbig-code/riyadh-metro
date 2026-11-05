@@ -18,6 +18,30 @@ import {
   StationLabelLayout,
 } from "./labels";
 
+// Label and badge layout (collision checks against every line and label) is the expensive part of a
+// render. Compute it once per language and zoom step and keep it, so selecting a route or the minute
+// clock never recomputes it (that made "To here" take seconds on a phone).
+const labelCache = new Map<string, ReturnType<typeof getVisibleStationLabels>>();
+const badgeCache = new Map<string, ReturnType<typeof getNonCollidingLineBadges>>();
+function cachedLabels(language: string, renderScale: number) {
+  const key = `${language}:${renderScale}`;
+  let v = labelCache.get(key);
+  if (!v) {
+    v = getVisibleStationLabels(language, renderScale, null);
+    labelCache.set(key, v);
+  }
+  return v;
+}
+function cachedBadges(language: string, renderScale: number) {
+  const key = `${language}:${renderScale}`;
+  let v = badgeCache.get(key);
+  if (!v) {
+    v = getNonCollidingLineBadges(language, renderScale, null);
+    badgeCache.set(key, v);
+  }
+  return v;
+}
+
 interface BaseLayerProps {
   palette: ThemePalette;
   theme: ThemeMode;
@@ -128,10 +152,8 @@ export const BadgesLayer = memo(function BadgesLayer({
   dimmed: boolean;
   fontBold?: string;
 }) {
-  const visibleBadges = useMemo(
-    () => getNonCollidingLineBadges(language, renderScale, activeStationIds),
-    [activeStationIds, language, renderScale],
-  );
+  // layout depends only on language and zoom, never on the route (a route only changes opacity)
+  const visibleBadges = useMemo(() => cachedBadges(language, renderScale), [language, renderScale]);
 
   return (
     <G opacity={dimmed ? 0.25 : 1}>
@@ -372,10 +394,7 @@ export const LabelsLayer = memo(function LabelsLayer({
   fontRegular?: string;
   fontBold?: string;
 }) {
-  const visibleLabels = useMemo(
-    () => getVisibleStationLabels(language, renderScale, activeStationIds),
-    [activeStationIds, language, renderScale],
-  );
+  const visibleLabels = useMemo(() => cachedLabels(language, renderScale), [language, renderScale]);
 
   return (
     <G>
