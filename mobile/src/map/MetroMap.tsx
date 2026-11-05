@@ -418,8 +418,10 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           translateY.value = next.y;
           lastMoveMs.value = Date.now();
         })
-        .onEnd((e) => {
+        .onEnd((e, success) => {
           lastMoveMs.value = Date.now();
+          // no glide when the drag was interrupted by a second finger (a pinch takes over)
+          if (!success) return;
           // a flick keeps the map gliding and slowing down, within the same bounds as dragging
           const lo = clampTranslation(-1e9, -1e9, scale.value, viewport.width, viewport.height, topInset, bottomInset);
           const hi = clampTranslation(1e9, 1e9, scale.value, viewport.width, viewport.height, topInset, bottomInset);
@@ -460,6 +462,9 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           pinchFocalMapY.value = (e.focalY - translateY.value) / scale.value;
         })
         .onUpdate((e) => {
+          // when one finger lifts first, the "centre between the fingers" jumps to the remaining
+          // finger for a frame; following it shifted the map on release. Ignore those frames.
+          if (e.numberOfPointers < 2) return;
           // past the zoom limits the map gives way softly instead of stopping dead, then
           // eases back when the fingers lift
           const raw = pinchStartScale.value * e.scale;
@@ -488,14 +493,12 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           translateY.value = clamped.y;
           lastMoveMs.value = Date.now();
         })
-        .onEnd((e) => {
+        .onEnd(() => {
           lastMoveMs.value = Date.now();
-          // a quick pinch carries on a little and eases out instead of stopping dead
-          const v = Math.max(-3, Math.min(3, e.velocity || 0));
-          const coast = Math.abs(v) > 0.25 ? scale.value * (1 + v * 0.12) : scale.value;
+          // the map stays exactly where the fingers left it; only a zoom past the limits eases back
           const target = Math.min(
             MAX_SCALE,
-            Math.max(minScaleShared.value, coast),
+            Math.max(minScaleShared.value, scale.value),
           );
           if (Math.abs(target - scale.value) > 0.0005) {
             const fx = pinchLastFocalX.value;
