@@ -63,6 +63,9 @@ const DEFAULT_CENTER_Y = 645;
 const DEFAULT_SCALE = 1.0;
 const MAX_SCALE = 3.0;
 const FIT_MARGIN_PT = 16;
+// width that must fit on screen at the furthest zoom-out: the stations from Jeddah Road to
+// Khashm Al An with their names (x -70..1020), not the faint wadi and Ad Diriyah label further west
+const FIT_W = 1090;
 
 function computeFitScale(
   viewW: number,
@@ -78,7 +81,7 @@ function computeFitScale(
     Math.max(
       0.2,
       Math.min(
-        (viewW - FIT_MARGIN_PT * 2) / NET_W,
+        (viewW - FIT_MARGIN_PT * 2) / FIT_W,
         (usableH - FIT_MARGIN_PT * 2) / NET_H,
       ),
     ),
