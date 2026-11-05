@@ -500,6 +500,9 @@ function AppShell() {
         onClose={() => setSelectedStationId(null)}
       />
 
+      {/* while a station card is open it takes the bottom of the screen alone; the route
+          panel comes back when the card closes */}
+      {!selectedStationId && (
       <BottomPanel
         ref={bottomSheetRef}
         engine={engine}
@@ -540,6 +543,7 @@ function AppShell() {
         recent={recent}
         onSheetChange={setSheetIndex}
       />
+      )}
 
       <MenuSheet
         visible={menuOpen}

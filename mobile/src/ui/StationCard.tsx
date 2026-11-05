@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { MetroEngine } from "../core/metro";
 import { formatPlaceDetails, getAppStrings } from "../i18n";
 import { LINE_BY_ID, LineColorKey, STATION_BY_ID } from "../map/geometry";
@@ -37,6 +38,7 @@ export default function StationCard({
     return engine.places.filter((p) => p.st === stationId).slice(0, 4);
   }, [engine.places, stationId]);
 
+  const insets = useSafeAreaInsets();
   if (!station) return null;
 
   const { colors } = theme;
@@ -54,14 +56,18 @@ export default function StationCard({
     <View
       style={[
         styles.card,
-        { backgroundColor: colors.surface, borderColor: colors.rule },
+        {
+          backgroundColor: colors.surface,
+          borderColor: colors.rule,
+          bottom: insets.bottom + 14,
+        },
       ]}
     >
       <View style={[styles.headerRow, rowDir]}>
         <View style={{ flex: 1, gap: 2 }}>
           <Text style={[styles.titlePrimary, txtBold]}>{primaryTitle}</Text>
           <Text style={[styles.titleSecondary, txt, { color: colors.muted }]}>
-            {secondarySubtitle} · #{station.number}
+            {`\u2068${secondarySubtitle}\u2069 · #${station.number}`}
           </Text>
         </View>
         <Pressable
@@ -172,7 +178,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 14,
     right: 14,
-    bottom: 98,
+    bottom: 16,
+    maxHeight: "62%",
     borderRadius: 20,
     borderWidth: 1,
     padding: 14,
