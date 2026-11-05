@@ -396,16 +396,16 @@ export const LabelsLayer = memo(function LabelsLayer({
 }) {
   const visibleLabels = useMemo(() => cachedLabels(language, renderScale), [language, renderScale]);
 
+  // activeStationIds = null: every label; otherwise only the route's labels (drawn above the veil).
+  // No per-label opacity: on Android each translucent group is an offscreen layer, and dozens of
+  // them made every frame with a route slow.
   return (
     <G>
-      {visibleLabels.map((lbl) => {
-        const isHighlighted = !activeStationIds || activeStationIds.has(lbl.id);
-        return (
-          <G key={lbl.id} opacity={isHighlighted ? 1 : 0.25}>
-            {renderLabelNode(lbl, palette, fontRegular, fontBold)}
-          </G>
-        );
-      })}
+      {visibleLabels.map((lbl) =>
+        !activeStationIds || activeStationIds.has(lbl.id) ? (
+          <G key={lbl.id}>{renderLabelNode(lbl, palette, fontRegular, fontBold)}</G>
+        ) : null,
+      )}
     </G>
   );
 });

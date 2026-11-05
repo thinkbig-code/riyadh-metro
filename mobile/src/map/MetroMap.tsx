@@ -591,18 +591,16 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     [doubleTapGesture, longPressGesture, panGesture, pinchGesture, singleTapGesture],
   );
 
-  const animatedCanvasStyle = useAnimatedStyle(() => {
-    const s = scale.value;
-    return {
-      transform: [
-        { translateX: translateX.value + (CANVAS_W * (s - 1)) / 2 },
-        { translateY: translateY.value + (CANVAS_H * (s - 1)) / 2 },
-        { scale: s },
-      ],
-    };
-  });
-
-  const hasActiveRoute = Boolean(routeData);
+  // scale around the canvas top-left corner (transformOrigin below), so a map point p is drawn at
+  // translate + p * scale exactly, the same formula the pinch and clamp maths use. Relying on the
+  // default centre origin let the map drift sideways while zooming on Android.
+  const animatedCanvasStyle = useAnimatedStyle(() => ({
+    transform: [
+      { translateX: translateX.value },
+      { translateY: translateY.value },
+      { scale: scale.value },
+    ],
+  }));
 
   return (
     <View
@@ -646,28 +644,46 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
                 fontRegular={fontRegular}
                 fontBold={fontBold}
               />
-              <LinesLayer palette={palette} dimmed={hasActiveRoute} />
-              <StationsLayer
-                palette={palette}
-                theme={theme}
-                dimmed={hasActiveRoute}
-              />
+              <LinesLayer palette={palette} dimmed={false} />
+              <StationsLayer palette={palette} theme={theme} dimmed={false} />
               <BadgesLayer
                 palette={palette}
                 language={language}
                 renderScale={renderScale}
-                activeStationIds={routeData ? routeData.stationIds : null}
-                dimmed={hasActiveRoute}
+                activeStationIds={null}
+                dimmed={false}
                 fontBold={fontBold}
               />
               <LabelsLayer
                 palette={palette}
                 language={language}
                 renderScale={renderScale}
-                activeStationIds={routeData ? routeData.stationIds : null}
+                activeStationIds={null}
                 fontRegular={fontRegular}
                 fontBold={fontBold}
               />
+              {routeData ? (
+                <>
+                  {/* one opaque-ish veil dims the whole map: far cheaper on Android than
+                      translucent groups, which each need an offscreen layer */}
+                  <Rect
+                    x={SVG_X0}
+                    y={SVG_Y0}
+                    width={CANVAS_W}
+                    height={CANVAS_H}
+                    fill={palette.bg}
+                    fillOpacity={0.74}
+                  />
+                  <LabelsLayer
+                    palette={palette}
+                    language={language}
+                    renderScale={renderScale}
+                    activeStationIds={routeData.stationIds}
+                    fontRegular={fontRegular}
+                    fontBold={fontBold}
+                  />
+                </>
+              ) : null}
               <RouteOverlayLayer
                 palette={palette}
                 theme={theme}
@@ -695,6 +711,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     top: 0,
+    transformOrigin: "left top",
   },
 });
 
