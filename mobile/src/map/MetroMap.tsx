@@ -159,6 +159,9 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   const panStartX = useSharedValue(0);
   const panStartY = useSharedValue(0);
   const pinchStartScale = useSharedValue(DEFAULT_SCALE);
+  // time of the last pan or pinch movement: a tap or long press right after (or during) a
+  // zoom or drag is a stray finger, not a station choice
+  const lastMoveMs = useSharedValue(0);
   const pinchFocalMapX = useSharedValue(0);
   const pinchFocalMapY = useSharedValue(0);
 
@@ -233,6 +236,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     [
       bottomInset,
       commitRenderScale,
+      lastMoveMs,
       minScaleShared,
       scale,
       topInset,
@@ -418,9 +422,14 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           );
           translateX.value = next.x;
           translateY.value = next.y;
+          lastMoveMs.value = Date.now();
+        })
+        .onEnd(() => {
+          lastMoveMs.value = Date.now();
         }),
     [
       bottomInset,
+      lastMoveMs,
       panStartX,
       panStartY,
       scale,
@@ -436,6 +445,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     () =>
       Gesture.Pinch()
         .onStart((e) => {
+          lastMoveMs.value = Date.now();
           pinchStartScale.value = scale.value;
           pinchFocalMapX.value = (e.focalX - translateX.value) / scale.value;
           pinchFocalMapY.value = (e.focalY - translateY.value) / scale.value;
@@ -459,8 +469,10 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
           scale.value = nextScale;
           translateX.value = clamped.x;
           translateY.value = clamped.y;
+          lastMoveMs.value = Date.now();
         })
         .onEnd(() => {
+          lastMoveMs.value = Date.now();
           runOnJS(commitRenderScale)(scale.value);
         }),
     [
@@ -484,7 +496,12 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       Gesture.Tap()
         .numberOfTaps(2)
         .maxDuration(250)
-        .onEnd((e) => {
+        .maxDistance(10)
+        .onTouchesDown((e, manager) => {
+          if (e.numberOfTouches > 1) manager.fail();
+        })
+        .onEnd((e, success) => {
+          if (!success || Date.now() - lastMoveMs.value < 300) return;
           const currentScale = scale.value;
           const nextScale =
             currentScale >= 2.0
@@ -511,6 +528,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
     [
       bottomInset,
       commitRenderScale,
+      lastMoveMs,
       scale,
       topInset,
       translateX,
@@ -525,7 +543,12 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       Gesture.Tap()
         .numberOfTaps(1)
         .maxDuration(250)
-        .onEnd((e) => {
+        .maxDistance(10)
+        .onTouchesDown((e, manager) => {
+          if (e.numberOfTouches > 1) manager.fail();
+        })
+        .onEnd((e, success) => {
+          if (!success || Date.now() - lastMoveMs.value < 300) return;
           runOnJS(handleTapOnJS)(
             e.x,
             e.y,
@@ -534,14 +557,19 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             scale.value,
           );
         }),
-    [handleTapOnJS, scale, translateX, translateY],
+    [handleTapOnJS, scale, translateX, translateY, lastMoveMs],
   );
 
   const longPressGesture = useMemo(
     () =>
       Gesture.LongPress()
         .minDuration(450)
+        .maxDistance(10)
+        .onTouchesDown((e, manager) => {
+          if (e.numberOfTouches > 1) manager.fail();
+        })
         .onStart((e) => {
+          if (Date.now() - lastMoveMs.value < 300) return;
           runOnJS(handleLongPressOnJS)(
             e.x,
             e.y,
@@ -550,7 +578,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
             scale.value,
           );
         }),
-    [handleLongPressOnJS, scale, translateX, translateY],
+    [handleLongPressOnJS, scale, translateX, translateY, lastMoveMs],
   );
 
   const composedGesture = useMemo(
