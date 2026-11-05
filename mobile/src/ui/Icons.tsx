@@ -67,3 +67,19 @@ export function ChevronIcon({
     </Svg>
   );
 }
+
+// swap From and To: two arrows passing each other
+export function SwapIcon({ color, size = 24 }: { color: string; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d="M7 4v15M7 19l-3.5-3.5M7 19l3.5-3.5M17 20V5M17 5l-3.5 3.5M17 5l3.5 3.5"
+        stroke={color}
+        strokeWidth={2.2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </Svg>
+  );
+}
