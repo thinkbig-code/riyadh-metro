@@ -10,6 +10,7 @@ import {
   StatusBar,
   StyleSheet,
   Text,
+  useWindowDimensions,
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -36,6 +37,7 @@ import MenuSheet, { MenuSection, SavedTrip } from "./src/ui/MenuSheet";
 import StationCard from "./src/ui/StationCard";
 
 const STORAGE_KEY = "riyadh-metro.preferences.v1";
+const SITE_LANGUAGES = createMetroEngine().languages.map((l) => l.code);
 
 interface StoredPreferences {
   language: string;
@@ -49,11 +51,13 @@ function sameTrip(a: SavedTrip, b: SavedTrip): boolean {
 
 function AppShell() {
   const insets = useSafeAreaInsets();
+  const { height: windowHeight } = useWindowDimensions();
   const themeMode = useSystemThemeMode();
 
+  // first launch: the phone's language when the site has it (8 languages), else Arabic
   const [language, setLanguage] = useState<string>(() => {
-    const code = getLocales()[0]?.languageCode;
-    return code === "ar" ? "ar" : "en";
+    const code = getLocales()[0]?.languageCode ?? "";
+    return SITE_LANGUAGES.includes(code) ? code : "ar";
   });
 
   const engine = useMemo(() => {
@@ -82,7 +86,8 @@ function AppShell() {
     null,
   );
   const [selectedOption, setSelectedOption] = useState<number>(0);
-  const [sheetIndex, setSheetIndex] = useState<number>(0);
+  // the route sheet opens at its middle height (index 1)
+  const [sheetIndex, setSheetIndex] = useState<number>(1);
   const [nowMs, setNowMs] = useState<number>(() => Date.now());
   const [customDepartMs, setCustomDepartMs] = useState<number | null>(null);
 
@@ -185,6 +190,8 @@ function AppShell() {
 
   useEffect(() => {
     setSelectedOption(0);
+    setSheetIndex(1);
+    bottomSheetRef.current?.snapToIndex(1);
   }, [from, to]);
 
   const activeRoute = useMemo(() => {
@@ -199,13 +206,17 @@ function AppShell() {
     };
   }, [engine, from, routes, selectedOption, to]);
 
+  // add a trip to recent once per new from/to pair (not on every minute re-plan)
+  const hasRoute = routes.length > 0;
   useEffect(() => {
-    if (!hydrated || !from || !to || from === to || !activeRoute) return;
+    if (!hydrated || !from || !to || from === to || !hasRoute) return;
     const trip: SavedTrip = { from, to };
     setRecent((prev) =>
-      [trip, ...prev.filter((item) => !sameTrip(item, trip))].slice(0, 8),
+      prev.length && sameTrip(prev[0], trip)
+        ? prev
+        : [trip, ...prev.filter((item) => !sameTrip(item, trip))].slice(0, 8),
     );
-  }, [activeRoute, from, hydrated, to]);
+  }, [from, hasRoute, hydrated, to]);
 
   useEffect(() => {
     const sub = BackHandler.addEventListener("hardwareBackPress", () => {
@@ -369,7 +380,10 @@ function AppShell() {
   const topBarRow = directionalRow(rtl);
   const scrimHeight = insets.top + 24;
   const compactBarHeight = 76 + Math.max(12, insets.bottom + 8);
-  const mapBottomInset = activeRoute ? 185 : compactBarHeight;
+  // keep the camera's free area above the route sheet: peek 22%, half and full 50% of the screen
+  const mapBottomInset = activeRoute
+    ? Math.round(windowHeight * (sheetIndex >= 1 ? 0.5 : 0.22))
+    : compactBarHeight;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.bg }]}>

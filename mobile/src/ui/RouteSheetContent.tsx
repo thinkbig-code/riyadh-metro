@@ -45,11 +45,24 @@ export interface RouteSheetContentProps {
 const HOURS = Array.from({ length: 24 }, (_, i) => i);
 const MINUTES = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
+// All clock times are Riyadh time (UTC+3, no daylight saving), like the engine and the site,
+// whatever time zone the phone is set to.
+const RIYADH_OFFSET_MS = 3 * 3600000;
+function riyadhParts(ms: number): { h: number; m: number } {
+  const d = new Date(ms + RIYADH_OFFSET_MS);
+  return { h: d.getUTCHours(), m: d.getUTCMinutes() };
+}
 function formatClock(ms: number): string {
-  const d = new Date(ms);
-  const hh = String(d.getHours()).padStart(2, "0");
-  const mm = String(d.getMinutes()).padStart(2, "0");
-  return `${hh}:${mm}`;
+  const { h, m } = riyadhParts(ms);
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+// the next moment (today, or tomorrow if already more than an hour ago) at h:m Riyadh time
+function riyadhTimeToMs(hour: number, minute: number, nowMs: number): number {
+  const day = new Date(nowMs + RIYADH_OFFSET_MS);
+  day.setUTCHours(hour, minute, 0, 0);
+  let ms = day.getTime() - RIYADH_OFFSET_MS;
+  if (ms < nowMs - 3600000) ms += 86400000;
+  return ms;
 }
 
 export default function RouteSheetContent({
@@ -71,10 +84,10 @@ export default function RouteSheetContent({
 }: RouteSheetContentProps) {
   const [expandedLeg, setExpandedLeg] = useState<number | null>(null);
   const [pickerVisible, setPickerVisible] = useState(false);
-  const initDate = new Date(departMs);
-  const [pickedHour, setPickedHour] = useState<number>(initDate.getHours());
+  const initClock = riyadhParts(departMs);
+  const [pickedHour, setPickedHour] = useState<number>(initClock.h);
   const [pickedMinute, setPickedMinute] = useState<number>(
-    Math.floor(initDate.getMinutes() / 5) * 5,
+    Math.floor(initClock.m / 5) * 5,
   );
 
   const { colors } = theme;
@@ -92,16 +105,14 @@ export default function RouteSheetContent({
   const arrMaxClock = formatClock(departMs + route.timeMax * 60000);
 
   const openTimePicker = () => {
-    const d = new Date(departMs);
-    setPickedHour(d.getHours());
-    setPickedMinute(Math.floor(d.getMinutes() / 5) * 5);
+    const c = riyadhParts(departMs);
+    setPickedHour(c.h);
+    setPickedMinute(Math.floor(c.m / 5) * 5);
     setPickerVisible(true);
   };
 
   const applyPickedTime = (hour: number, minute: number) => {
-    const d = new Date();
-    d.setHours(hour, minute, 0, 0);
-    onChangeCustomDepartMs(d.getTime());
+    onChangeCustomDepartMs(riyadhTimeToMs(hour, minute, Date.now()));
     setPickerVisible(false);
   };
 

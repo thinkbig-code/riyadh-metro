@@ -1,5 +1,6 @@
 import React, {
   forwardRef,
+  memo,
   useCallback,
   useEffect,
   useImperativeHandle,
@@ -22,9 +23,11 @@ import {
   MAP_GEOMETRY,
   RouteHighlightInput,
   ThemeMode,
+  ThemePalette,
 } from "./geometry";
 import {
   computeBoundsForStationIds,
+  FAR_ZOOM_THRESHOLD,
   findNearestStation,
   FULL_MAP_BOUNDS,
 } from "./labels";
@@ -131,6 +134,72 @@ function clampTranslation(
   return { x: clampedX, y: clampedY };
 }
 
+// Zoom tiers for the label layout: near zoom has one fixed layout (two for district opacity),
+// far zoom a few steps, so finishing a pinch rarely redraws the base map.
+function layoutScaleFor(renderScale: number): number {
+  if (renderScale >= FAR_ZOOM_THRESHOLD) return renderScale >= 1.25 ? 1.25 : 1;
+  return Math.max(0.2, Math.round(renderScale * 10) / 10);
+}
+
+const BaseMap = memo(function BaseMap({
+  palette,
+  theme,
+  language,
+  layoutScale,
+  fontRegular,
+  fontBold,
+}: {
+  palette: ThemePalette;
+  theme: ThemeMode;
+  language: string;
+  layoutScale: number;
+  fontRegular?: string;
+  fontBold?: string;
+}) {
+  return (
+    <Svg
+      width={CANVAS_W}
+      height={CANVAS_H}
+      viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
+    >
+      <Rect x={SVG_X0} y={SVG_Y0} width={CANVAS_W} height={CANVAS_H} fill={palette.bg} />
+      <WadiLayer
+        palette={palette}
+        theme={theme}
+        language={language}
+        fontRegular={fontRegular}
+        fontBold={fontBold}
+      />
+      <DistrictsLayer
+        palette={palette}
+        theme={theme}
+        language={language}
+        renderScale={layoutScale}
+        fontRegular={fontRegular}
+        fontBold={fontBold}
+      />
+      <LinesLayer palette={palette} dimmed={false} />
+      <StationsLayer palette={palette} theme={theme} dimmed={false} />
+      <BadgesLayer
+        palette={palette}
+        language={language}
+        renderScale={layoutScale}
+        activeStationIds={null}
+        dimmed={false}
+        fontBold={fontBold}
+      />
+      <LabelsLayer
+        palette={palette}
+        language={language}
+        renderScale={layoutScale}
+        activeStationIds={null}
+        fontRegular={fontRegular}
+        fontBold={fontBold}
+      />
+    </Svg>
+  );
+});
+
 const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   {
     theme,
@@ -150,6 +219,7 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
   const [viewport, setViewport] = useState({ width: 0, height: 0 });
   const [renderScale, setRenderScale] = useState<number>(DEFAULT_SCALE);
   const [initialized, setInitialized] = useState(false);
+  const layoutScale = layoutScaleFor(renderScale);
 
   const scale = useSharedValue(DEFAULT_SCALE);
   const minScaleShared = useSharedValue(0.28);
@@ -610,88 +680,61 @@ const MetroMap = forwardRef<MetroMapRef, MetroMapProps>(function MetroMap(
       <GestureDetector gesture={composedGesture}>
         <View style={styles.gestureSurface} collapsable={false}>
           <Animated.View
-            renderToHardwareTextureAndroid
             style={[
               styles.canvasWrapper,
               { width: CANVAS_W, height: CANVAS_H },
               animatedCanvasStyle,
             ]}
           >
-            <Svg
-              width={CANVAS_W}
-              height={CANVAS_H}
-              viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
-            >
-              <Rect
-                x={SVG_X0}
-                y={SVG_Y0}
+            {/* Base map: changes only with theme, language or zoom tier. react-native-svg
+                rasterises a whole Svg on any change, so everything that changes often (route,
+                selection) lives in the small overlay Svg below, never here. */}
+            <BaseMap
+              palette={palette}
+              theme={theme}
+              language={language}
+              layoutScale={layoutScale}
+              fontRegular={fontRegular}
+              fontBold={fontBold}
+            />
+            {routeData ? (
+              <View
+                pointerEvents="none"
+                style={[
+                  StyleSheet.absoluteFill,
+                  { backgroundColor: palette.bg, opacity: 0.74 },
+                ]}
+              />
+            ) : null}
+            {routeData || selected ? (
+              <Svg
+                pointerEvents="none"
+                style={StyleSheet.absoluteFill}
                 width={CANVAS_W}
                 height={CANVAS_H}
-                fill={palette.bg}
-              />
-              <WadiLayer
-                palette={palette}
-                theme={theme}
-                language={language}
-                fontRegular={fontRegular}
-                fontBold={fontBold}
-              />
-              <DistrictsLayer
-                palette={palette}
-                theme={theme}
-                language={language}
-                renderScale={renderScale}
-                fontRegular={fontRegular}
-                fontBold={fontBold}
-              />
-              <LinesLayer palette={palette} dimmed={false} />
-              <StationsLayer palette={palette} theme={theme} dimmed={false} />
-              <BadgesLayer
-                palette={palette}
-                language={language}
-                renderScale={renderScale}
-                activeStationIds={null}
-                dimmed={false}
-                fontBold={fontBold}
-              />
-              <LabelsLayer
-                palette={palette}
-                language={language}
-                renderScale={renderScale}
-                activeStationIds={null}
-                fontRegular={fontRegular}
-                fontBold={fontBold}
-              />
-              {routeData ? (
-                <>
-                  {/* one opaque-ish veil dims the whole map: far cheaper on Android than
-                      translucent groups, which each need an offscreen layer */}
-                  <Rect
-                    x={SVG_X0}
-                    y={SVG_Y0}
-                    width={CANVAS_W}
-                    height={CANVAS_H}
-                    fill={palette.bg}
-                    fillOpacity={0.74}
-                  />
-                  <LabelsLayer
-                    palette={palette}
-                    language={language}
-                    renderScale={renderScale}
-                    activeStationIds={routeData.stationIds}
-                    fontRegular={fontRegular}
-                    fontBold={fontBold}
-                  />
-                </>
-              ) : null}
-              <RouteOverlayLayer
-                palette={palette}
-                theme={theme}
-                routeData={routeData}
-                fontBold={fontBold}
-              />
-              <SelectionLayer palette={palette} selectedId={selected} />
-            </Svg>
+                viewBox={`${SVG_X0} ${SVG_Y0} ${CANVAS_W} ${CANVAS_H}`}
+              >
+                {routeData ? (
+                  <>
+                    <RouteOverlayLayer
+                      palette={palette}
+                      theme={theme}
+                      routeData={routeData}
+                      fontBold={fontBold}
+                    />
+                    <LabelsLayer
+                      palette={palette}
+                      language={language}
+                      renderScale={layoutScale}
+                      activeStationIds={routeData.stationIds}
+                      fontRegular={fontRegular}
+                      fontBold={fontBold}
+                    />
+                  </>
+                ) : null}
+                <SelectionLayer palette={palette} selectedId={selected} />
+              </Svg>
+            ) : null}
           </Animated.View>
         </View>
       </GestureDetector>
