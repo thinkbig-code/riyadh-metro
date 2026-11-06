@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-06T18:30:24Z",
+ "generated": "2026-11-06T23:32:59Z",
  "start": "2025-11-06",
  "end": "2026-11-07",
  "total": {
-  "total": 3899,
-  "total_events": 1751,
-  "total_utc": 3899,
+  "total": 3905,
+  "total_events": 1752,
+  "total_utc": 3905,
   "stats": [
    {
     "day": "2025-11-06",
@@ -10843,7 +10843,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 427
+    "monthly": 433
    },
    {
     "day": "2026-11-02",
@@ -10964,7 +10964,7 @@
      0
     ],
     "daily": 83,
-    "weekly": 108
+    "weekly": 114
    },
    {
     "day": "2026-11-06",
@@ -10991,15 +10991,15 @@
      1,
      2,
      0,
-     1,
-     0
+     4,
+     1
     ],
-    "daily": 25
+    "daily": 29
    },
    {
     "day": "2026-11-07",
     "hourly": [
-     0,
+     2,
      0,
      0,
      0,
@@ -11024,7 +11024,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 2
    }
   ]
  },
@@ -11034,7 +11034,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 793,
+   "count": 794,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11071,7 +11071,7 @@
     "2026-11-03": 10,
     "2026-11-04": 6,
     "2026-11-05": 15,
-    "2026-11-06": 3
+    "2026-11-06": 4
    }
   },
   {
@@ -11079,7 +11079,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 589,
+   "count": 590,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11110,7 +11110,7 @@
     "2026-11-03": 5,
     "2026-11-04": 2,
     "2026-11-05": 11,
-    "2026-11-06": 3
+    "2026-11-06": 4
    }
   },
   {
@@ -11582,6 +11582,23 @@
    }
   },
   {
+   "path": "/destinations/diriyah",
+   "path_id": 110689928,
+   "title": "Diriyah Metro Station: King Saud University (Red Line)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 2,
+    "2026-10-26": 1,
+    "2026-11-01": 1,
+    "2026-11-03": 1,
+    "2026-11-05": 2,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11657,22 +11674,6 @@
    }
   },
   {
-   "path": "/destinations/diriyah",
-   "path_id": 110689928,
-   "title": "Diriyah Metro Station: King Saud University (Red Line)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 2,
-    "2026-10-26": 1,
-    "2026-11-01": 1,
-    "2026-11-03": 1,
-    "2026-11-05": 2
-   }
-  },
-  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -11698,6 +11699,21 @@
     "2026-10-31": 1,
     "2026-11-01": 3,
     "2026-11-02": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-rayan",
+   "path_id": 114059743,
+   "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-25": 1,
+    "2026-10-31": 3,
+    "2026-11-01": 1,
+    "2026-11-07": 1
    }
   },
   {
@@ -11798,20 +11814,6 @@
    "daily": {
     "2026-10-26": 4,
     "2026-10-31": 2,
-    "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-rayan",
-   "path_id": 114059743,
-   "title": "أقرب محطة مترو لحي الريان في الرياض: محطة طريق هارون الرشيد، 3.4 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-23": 1,
-    "2026-10-25": 1,
-    "2026-10-31": 3,
     "2026-11-01": 1
    }
   },
@@ -12920,6 +12922,18 @@
    }
   },
   {
+   "path": "/ar/stations/khurais-road",
+   "path_id": 117540241,
+   "title": "محطة طريق خريص، مترو الرياض: المسار البنفسجي (رقم 82)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-05": 1,
+    "2026-11-06": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-maizalah",
    "path_id": 117381752,
    "title": "أقرب محطة مترو لحي المعيزلة في الرياض: محطة استاد الملك فهد (داخل الحي)",
@@ -13804,17 +13818,6 @@
    }
   },
   {
-   "path": "/ar/stations/khurais-road",
-   "path_id": 117540241,
-   "title": "محطة طريق خريص، مترو الرياض: المسار البنفسجي (رقم 82)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-01": 1,
-    "2026-11-05": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-woroud",
    "path_id": 117511512,
    "title": "أقرب محطة مترو لحي الورود في الرياض: محطة الورود 2 (داخل الحي)",
@@ -14190,6 +14193,17 @@
    "daily": {
     "2026-10-23": 1,
     "2026-11-04": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/lulu-hypermarket-murabba",
+   "path_id": 114095240,
+   "title": "محطة مترو لولو هايبر ماركت المربع: محطة المربع، 3 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-11-06": 1
    }
   },
   {
@@ -17468,16 +17482,6 @@
    "count": 1,
    "daily": {
     "2026-10-23": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/lulu-hypermarket-murabba",
-   "path_id": 114095240,
-   "title": "محطة مترو لولو هايبر ماركت المربع: محطة المربع، 3 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-22": 1
    }
   },
   {
@@ -23183,9 +23187,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2148,
-  "events_total": 1751,
-  "goatcounter_total_with_events": 3899,
+  "visits": 2153,
+  "events_total": 1752,
+  "goatcounter_total_with_events": 3905,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23222,7 +23226,8 @@
    "2026-11-03": 42,
    "2026-11-04": 49,
    "2026-11-05": 54,
-   "2026-11-06": 16
+   "2026-11-06": 19,
+   "2026-11-07": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23254,9 +23259,9 @@
    "2026-11-03": 10,
    "2026-11-04": 5,
    "2026-11-05": 16,
-   "2026-11-06": 3
+   "2026-11-06": 4
   },
-  "visitor_days": 684,
+  "visitor_days": 685,
   "return_rate": 0.139,
   "routes": 465,
   "routes_not_found": 0,
@@ -23373,7 +23378,7 @@
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 589,
+   "new": 590,
    "return": 95
   },
   "top_routes": [
@@ -23527,7 +23532,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 529
+    "count": 530
    },
    {
     "name": "tiktok_ad",
@@ -24016,6 +24021,20 @@
     "count": 1
    }
   ],
+  "/destinations/diriyah": [
+   {
+    "name": "chatgpt.com",
+    "count": 5
+   },
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/destinations/sahara-mall": [
    {
     "name": "Google",
@@ -24036,20 +24055,6 @@
     "count": 9
    }
   ],
-  "/destinations/diriyah": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 4
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
   "/ar/districts/al-rawabi": [
    {
     "name": "Google",
@@ -24061,6 +24066,20 @@
    },
    {
     "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
+  "/ar/districts/al-rayan": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
     "count": 1
    }
   ],
@@ -24145,20 +24164,6 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
-   }
-  ],
-  "/ar/districts/al-rayan": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
     "count": 1
    }
   ],
@@ -24465,7 +24470,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 529
+    "count": 530
    },
    {
     "path": "/ar/map",
@@ -24520,6 +24525,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-rayan",
+    "count": 2
+   },
+   {
     "path": "/destinations/pakistan-embassy",
     "count": 2
    },
@@ -24544,11 +24553,11 @@
     "count": 1
    },
    {
-    "path": "/ar/destinations/sahara-mall",
+    "path": "/destinations/diriyah",
     "count": 1
    },
    {
-    "path": "/destinations/diriyah",
+    "path": "/ar/destinations/sahara-mall",
     "count": 1
    },
    {
@@ -24557,10 +24566,6 @@
    },
    {
     "path": "/ar/stations",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 1
    },
    {
@@ -24840,12 +24845,12 @@
     "count": 6
    },
    {
-    "path": "/districts/al-qadisiyah",
+    "path": "/destinations/diriyah",
     "count": 5
    },
    {
-    "path": "/destinations/diriyah",
-    "count": 4
+    "path": "/districts/al-qadisiyah",
+    "count": 5
    },
    {
     "path": "/districts/ar-rabwah",
@@ -24908,15 +24913,15 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/al-rayan",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-saadah",
     "count": 1
    },
    {
     "path": "/ar/districts/al-mursalat",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-rayan",
     "count": 1
    },
    {
@@ -25408,7 +25413,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1845,
+   "count": 1848,
    "ref_scheme": "o"
   },
   {
@@ -25426,7 +25431,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 192,
+   "count": 195,
    "ref_scheme": "c"
   },
   {
@@ -25710,12 +25715,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2761
+   "count": 2766
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1025
+   "count": 1026
   },
   {
    "id": "(unknown)",
@@ -25787,12 +25792,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3288
+   "count": 3291
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 112
+   "count": 114
   },
   {
    "id": "AE",
@@ -25925,6 +25930,11 @@
    "count": 4
   },
   {
+   "id": "OM",
+   "name": "Oman",
+   "count": 4
+  },
+  {
    "id": "RU",
    "name": "Russia",
    "count": 4
@@ -25957,11 +25967,6 @@
   {
    "id": "LB",
    "name": "Lebanon",
-   "count": 3
-  },
-  {
-   "id": "OM",
-   "name": "Oman",
    "count": 3
   },
   {
@@ -26039,7 +26044,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3160
+   "count": 3162
   },
   {
    "id": "tablet",
@@ -26049,7 +26054,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 561
+   "count": 565
   },
   {
    "id": "desktophd",
@@ -26066,12 +26071,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2059
+   "count": 2064
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1754
+   "count": 1755
   },
   {
    "name": "",
@@ -26087,12 +26092,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1737
+   "count": 1738
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1459
+   "count": 1460
   },
   {
    "id": "Windows",
@@ -26102,12 +26107,12 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 148
+   "count": 149
   },
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 56
+   "count": 58
   },
   {
    "id": "Chrome OS",
