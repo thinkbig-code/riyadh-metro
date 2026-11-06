@@ -54,6 +54,11 @@ function riyadhParts(ms: number): { h: number; m: number } {
   const d = new Date(ms + RIYADH_OFFSET_MS);
   return { h: d.getUTCHours(), m: d.getUTCMinutes() };
 }
+// minutes after midnight (the engine's opening times) as HH:MM
+function minutesToClock(min: number): string {
+  const m = ((Math.round(min) % 1440) + 1440) % 1440;
+  return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+}
 function formatClock(ms: number): string {
   const { h, m } = riyadhParts(ms);
   return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
@@ -141,7 +146,9 @@ export default function RouteSheetContent({
           ]}
         >
           <Text style={[styles.warningText, txtBold, { color: colors.warningFg }]}>
-            {s.metroClosedWarning}
+            {serviceStatus.opens != null
+              ? t("wClosed", { m: t("mMetro"), t: minutesToClock(serviceStatus.opens) })
+              : s.metroClosedWarning}
           </Text>
         </View>
       )}
@@ -407,7 +414,7 @@ export default function RouteSheetContent({
       </View>
 
       <Text style={[styles.estNote, txt, { color: colors.muted }]}>
-        {t("estNote")}
+        {s.estimateNote}
       </Text>
 
       <View style={[styles.actionsRow, rowDir]}>

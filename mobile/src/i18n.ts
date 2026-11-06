@@ -29,6 +29,7 @@ export interface AppStrings {
   clearHistory: string;
   fieldFrom: string;
   fieldTo: string;
+  estimateNote: string;
   toHere: string;
   leaveNow: string;
   leaveLater: string;
@@ -83,6 +84,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "مسح السجل",
     fieldFrom: "من",
     fieldTo: "إلى",
+    estimateNote: "تقدير وليس وقتًا فعليًا. الوقت الأقصر للرحلة فقط، والأطول يشمل الانتظار المعتاد لكل قطار.",
     toHere: "إلى هنا",
     leaveNow: "المغادرة الآن",
     leaveLater: "لاحقا",
@@ -137,6 +139,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "Clear history",
     fieldFrom: "From",
     fieldTo: "To",
+    estimateNote: "Estimate, not real-time. The shorter time is the ride alone. The longer one adds the usual wait for each train.",
     toHere: "To here",
     leaveNow: "Leave now",
     leaveLater: "Later",
@@ -191,6 +194,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "ہسٹری صاف کریں",
     fieldFrom: "کہاں سے",
     fieldTo: "کہاں تک",
+    estimateNote: "یہ اندازہ ہے، لائیو وقت نہیں۔ کم وقت صرف سفر کا ہے۔ زیادہ وقت میں ہر ٹرین کا عام انتظار شامل ہے۔",
     toHere: "یہاں تک",
     leaveNow: "ابھی روانگی",
     leaveLater: "بعد میں",
@@ -245,6 +249,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "इतिहास साफ़ करें",
     fieldFrom: "कहाँ से",
     fieldTo: "कहाँ तक",
+    estimateNote: "यह अनुमान है, लाइव समय नहीं। कम समय सिर्फ़ सफ़र का है। ज़्यादा समय में हर ट्रेन का सामान्य इंतज़ार शामिल है।",
     toHere: "यहाँ तक",
     leaveNow: "अभी निकलें",
     leaveLater: "बाद में",
@@ -299,6 +304,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "ইতিহাস মুছুন",
     fieldFrom: "কোথা থেকে",
     fieldTo: "কোথায়",
+    estimateNote: "এটি আনুমানিক, লাইভ সময় নয়। কম সময়টি শুধু যাত্রার। বেশি সময়টিতে প্রতিটি ট্রেনের সাধারণ অপেক্ষা যোগ করা আছে।",
     toHere: "এখানে",
     leaveNow: "এখনই যাত্রা",
     leaveLater: "পরে",
@@ -353,6 +359,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "Burahin ang history",
     fieldFrom: "Mula",
     fieldTo: "Papunta",
+    estimateNote: "Tantiya ito, hindi real-time. Ang mas maikling oras ay biyahe lang. Kasama sa mas mahaba ang karaniwang paghihintay sa bawat tren.",
     toHere: "Papunta rito",
     leaveNow: "Umalis ngayon",
     leaveLater: "Mamaya",
@@ -407,6 +414,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "Очистить историю",
     fieldFrom: "Откуда",
     fieldTo: "Куда",
+    estimateNote: "Оценка, не в реальном времени. Меньшее время: только поездка. Большее: с обычным ожиданием каждого поезда.",
     toHere: "Сюда",
     leaveNow: "Сейчас",
     leaveLater: "Позже",
@@ -461,6 +469,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     clearHistory: "Effacer l'historique",
     fieldFrom: "Départ",
     fieldTo: "Arrivée",
+    estimateNote: "Estimation, pas en temps réel. Le temps le plus court correspond au trajet seul. Le plus long ajoute l'attente habituelle de chaque train.",
     toHere: "Aller ici",
     leaveNow: "Partir maintenant",
     leaveLater: "Plus tard",
