@@ -83,3 +83,26 @@ export function SwapIcon({ color, size = 24 }: { color: string; size?: number })
     </Svg>
   );
 }
+
+// star for saved trips: outline when not saved, filled when saved
+export function StarIcon({
+  color,
+  filled,
+  size = 20,
+}: {
+  color: string;
+  filled: boolean;
+  size?: number;
+}) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.5l6-.8z"
+        stroke={color}
+        strokeWidth={2}
+        strokeLinejoin="round"
+        fill={filled ? color : "none"}
+      />
+    </Svg>
+  );
+}

@@ -7,6 +7,7 @@ import {
   Text,
   View,
 } from "react-native";
+import { StarIcon } from "./Icons";
 import type { Leg, MetroEngine, Route } from "../core/metro";
 import {
   formatMinutes,
@@ -422,14 +423,17 @@ export default function RouteSheetContent({
             },
           ]}
         >
-          <Text
-            style={[
-              styles.actionBtnText,
-              { color: isSaved ? colors.accent : colors.fg },
-            ]}
-          >
-            {isSaved ? `★ ${s.savedLabel}` : `☆ ${s.saveTrip}`}
-          </Text>
+          <View style={[styles.saveInner, rowDir]}>
+            <StarIcon color={isSaved ? colors.accent : colors.fg} filled={isSaved} />
+            <Text
+              style={[
+                styles.actionBtnText,
+                { color: isSaved ? colors.accent : colors.fg },
+              ]}
+            >
+              {isSaved ? s.savedLabel : s.saveTrip}
+            </Text>
+          </View>
         </Pressable>
       </View>
 
@@ -566,6 +570,10 @@ export default function RouteSheetContent({
 const styles = StyleSheet.create({
   container: {
     gap: 12,
+  },
+  saveInner: {
+    alignItems: "center",
+    gap: 8,
   },
   warningBanner: {
     padding: 12,

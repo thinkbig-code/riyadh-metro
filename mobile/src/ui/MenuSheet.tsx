@@ -21,7 +21,7 @@ import type { MetroEngine } from "../core/metro";
 import { getAppStrings } from "../i18n";
 import { MAP_GEOMETRY } from "../map/geometry";
 import { AppTheme, directionalRow, directionalText } from "../theme";
-import { ChevronIcon } from "./Icons";
+import { ChevronIcon, StarIcon } from "./Icons";
 
 if (Platform.OS === "android") {
   UIManager.setLayoutAnimationEnabledExperimental?.(true);
@@ -207,7 +207,7 @@ export default function MenuSheet({
           hitSlop={10}
           style={styles.removeBtn}
         >
-          <Text style={{ color: colors.accent, fontSize: 18 }}>★</Text>
+          <StarIcon color={colors.accent} filled size={20} />
         </Pressable>
       ) : null}
     </View>
