@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-05T22:19:50Z",
- "start": "2025-11-05",
- "end": "2026-11-06",
+ "generated": "2026-11-06T02:50:57Z",
+ "start": "2025-11-06",
+ "end": "2026-11-07",
  "total": {
-  "total": 3874,
+  "total": 3875,
   "total_events": 1742,
-  "total_utc": 3874,
+  "total_utc": 3875,
   "stats": [
-   {
-    "day": "2025-11-05",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-11-06",
     "hourly": [
@@ -9906,8 +9876,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 42
+    "daily": 0
    },
    {
     "day": "2026-10-01",
@@ -9938,6 +9907,7 @@
      0
     ],
     "daily": 0,
+    "weekly": 148,
     "monthly": 3472
    },
    {
@@ -10118,8 +10088,7 @@
      44,
      42
     ],
-    "daily": 106,
-    "weekly": 1440
+    "daily": 106
    },
    {
     "day": "2026-10-08",
@@ -10149,7 +10118,8 @@
      9,
      12
     ],
-    "daily": 541
+    "daily": 541,
+    "weekly": 1499
    },
    {
     "day": "2026-10-09",
@@ -10329,8 +10299,7 @@
      11,
      4
     ],
-    "daily": 165,
-    "weekly": 899
+    "daily": 165
    },
    {
     "day": "2026-10-15",
@@ -10360,7 +10329,8 @@
      4,
      0
     ],
-    "daily": 67
+    "daily": 67,
+    "weekly": 832
    },
    {
     "day": "2026-10-16",
@@ -10540,8 +10510,7 @@
      8,
      9
     ],
-    "daily": 98,
-    "weekly": 694
+    "daily": 98
    },
    {
     "day": "2026-10-22",
@@ -10571,7 +10540,8 @@
      5,
      6
     ],
-    "daily": 143
+    "daily": 143,
+    "weekly": 639
    },
    {
     "day": "2026-10-23",
@@ -10751,8 +10721,7 @@
      1,
      0
     ],
-    "daily": 43,
-    "weekly": 661
+    "daily": 43
    },
    {
     "day": "2026-10-29",
@@ -10782,7 +10751,8 @@
      5,
      22
     ],
-    "daily": 81
+    "daily": 81,
+    "weekly": 673
    },
    {
     "day": "2026-10-30",
@@ -10873,7 +10843,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 402
+    "monthly": 403
    },
    {
     "day": "2026-11-02",
@@ -10963,8 +10933,7 @@
      3,
      1
     ],
-    "daily": 55,
-    "weekly": 138
+    "daily": 55
    },
    {
     "day": "2026-11-05",
@@ -10994,10 +10963,41 @@
      7,
      0
     ],
-    "daily": 83
+    "daily": 83,
+    "weekly": 84
    },
    {
     "day": "2026-11-06",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 1
+   },
+   {
+    "day": "2026-11-07",
     "hourly": [
      0,
      0,
@@ -11116,7 +11116,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 181,
+   "count": 182,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -11142,7 +11142,8 @@
     "2026-11-01": 11,
     "2026-11-02": 2,
     "2026-11-04": 2,
-    "2026-11-05": 2
+    "2026-11-05": 2,
+    "2026-11-06": 1
    }
   },
   {
@@ -23118,9 +23119,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2132,
+  "visits": 2133,
   "events_total": 1742,
-  "goatcounter_total_with_events": 3874,
+  "goatcounter_total_with_events": 3875,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23156,7 +23157,8 @@
    "2026-11-02": 30,
    "2026-11-03": 42,
    "2026-11-04": 49,
-   "2026-11-05": 54
+   "2026-11-05": 54,
+   "2026-11-06": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23559,6 +23561,10 @@
    {
     "name": "riyadhmetro.fyi/ar/stations",
     "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
    },
    {
     "name": "com.google.android.apps.searchlite",
@@ -24825,6 +24831,10 @@
     "count": 2
    },
    {
+    "path": "/ar/map",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-qadisiyah",
     "count": 1
    },
@@ -25351,7 +25361,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 184,
+   "count": 185,
    "ref_scheme": "c"
   },
   {
@@ -25640,7 +25650,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1021
+   "count": 1022
   },
   {
    "id": "(unknown)",
@@ -25712,7 +25722,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3263
+   "count": 3264
   },
   {
    "id": "US",
@@ -25964,7 +25974,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3142
+   "count": 3143
   },
   {
    "id": "tablet",
@@ -25996,7 +26006,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1737
+   "count": 1738
   },
   {
    "name": "",
@@ -26012,7 +26022,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1724
+   "count": 1725
   },
   {
    "id": "Android",

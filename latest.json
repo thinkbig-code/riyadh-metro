@@ -1,50 +1,18 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-05T22:18:29Z",
- "start": "2026-10-06",
- "end": "2026-11-06",
+ "generated": "2026-11-06T02:49:35Z",
+ "start": "2026-10-07",
+ "end": "2026-11-07",
  "total": {
-  "total": 3839,
-  "total_events": 1739,
-  "total_utc": 3837,
+  "total": 3832,
+  "total_events": 1737,
+  "total_utc": 3831,
   "stats": [
-   {
-    "day": "2026-10-06",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     1,
-     0,
-     0,
-     1,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0,
-     3,
-     0,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 7,
-    "weekly": 1317,
-    "monthly": 3437
-   },
    {
     "day": "2026-10-07",
     "hourly": [
      0,
-     1,
+     0,
      0,
      0,
      1,
@@ -68,7 +36,9 @@
      44,
      42
     ],
-    "daily": 106
+    "daily": 105,
+    "weekly": 1439,
+    "monthly": 3429
    },
    {
     "day": "2026-10-08",
@@ -248,8 +218,7 @@
      10,
      4
     ],
-    "daily": 130,
-    "weekly": 901
+    "daily": 130
    },
    {
     "day": "2026-10-14",
@@ -279,7 +248,8 @@
      11,
      4
     ],
-    "daily": 165
+    "daily": 165,
+    "weekly": 899
    },
    {
     "day": "2026-10-15",
@@ -459,8 +429,7 @@
      6,
      4
     ],
-    "daily": 128,
-    "weekly": 797
+    "daily": 128
    },
    {
     "day": "2026-10-21",
@@ -490,7 +459,8 @@
      8,
      9
     ],
-    "daily": 98
+    "daily": 98,
+    "weekly": 694
    },
    {
     "day": "2026-10-22",
@@ -670,8 +640,7 @@
      2,
      0
     ],
-    "daily": 25,
-    "weekly": 620
+    "daily": 25
    },
    {
     "day": "2026-10-28",
@@ -701,7 +670,8 @@
      1,
      0
     ],
-    "daily": 43
+    "daily": 43,
+    "weekly": 661
    },
    {
     "day": "2026-10-29",
@@ -822,7 +792,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 402
+    "monthly": 403
    },
    {
     "day": "2026-11-02",
@@ -882,8 +852,7 @@
      2,
      4
     ],
-    "daily": 66,
-    "weekly": 204
+    "daily": 66
    },
    {
     "day": "2026-11-04",
@@ -913,7 +882,8 @@
      3,
      1
     ],
-    "daily": 55
+    "daily": 55,
+    "weekly": 139
    },
    {
     "day": "2026-11-05",
@@ -952,6 +922,36 @@
      0,
      0,
      0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 1
+   },
+   {
+    "day": "2026-11-07",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -983,10 +983,9 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 763,
+   "count": 758,
    "daily": {
-    "2026-10-06": 4,
-    "2026-10-07": 30,
+    "2026-10-07": 29,
     "2026-10-08": 157,
     "2026-10-09": 48,
     "2026-10-10": 52,
@@ -1061,7 +1060,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 181,
+   "count": 182,
    "daily": {
     "2026-10-10": 2,
     "2026-10-11": 3,
@@ -1087,7 +1086,8 @@
     "2026-11-01": 11,
     "2026-11-02": 2,
     "2026-11-04": 2,
-    "2026-11-05": 2
+    "2026-11-05": 2,
+    "2026-11-06": 1
    }
   },
   {
@@ -1838,20 +1838,6 @@
    }
   },
   {
-   "path": "/destinations/king-abdullah-park",
-   "path_id": 109503763,
-   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-06": 1,
-    "2026-10-11": 1,
-    "2026-10-12": 3,
-    "2026-10-26": 1,
-    "2026-11-01": 1
-   }
-  },
-  {
    "path": "/ar/stations/western-station",
    "path_id": 116869318,
    "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
@@ -2068,6 +2054,19 @@
     "2026-10-29": 1,
     "2026-11-01": 1,
     "2026-11-03": 1
+   }
+  },
+  {
+   "path": "/destinations/king-abdullah-park",
+   "path_id": 109503763,
+   "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-10-12": 3,
+    "2026-10-26": 1,
+    "2026-11-01": 1
    }
   },
   {
@@ -13005,36 +13004,15 @@
    "daily": {
     "2026-10-07": 1
    }
-  },
-  {
-   "path": "report/uthman/granadia",
-   "path_id": 109978340,
-   "title": "en|opened",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-06": 1
-   }
-  },
-  {
-   "path": "route/uthman/granadia",
-   "path_id": 109978172,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-06": 1
-   }
   }
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2100,
-  "events_total": 1739,
-  "goatcounter_total_with_events": 3839,
+  "visits": 2095,
+  "events_total": 1737,
+  "goatcounter_total_with_events": 3832,
   "page_loads_by_day": {
-   "2026-10-06": 5,
-   "2026-10-07": 35,
+   "2026-10-07": 34,
    "2026-10-08": 167,
    "2026-10-09": 61,
    "2026-10-10": 78,
@@ -13063,7 +13041,8 @@
    "2026-11-02": 30,
    "2026-11-03": 42,
    "2026-11-04": 49,
-   "2026-11-05": 54
+   "2026-11-05": 54,
+   "2026-11-06": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13098,7 +13077,7 @@
   },
   "visitor_days": 681,
   "return_rate": 0.14,
-  "routes": 460,
+  "routes": 459,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
   "routes_per_visitor_day": 0.64,
@@ -13281,7 +13260,7 @@
   "top_origins": [
    {
     "name": "uthman",
-    "count": 18
+    "count": 17
    },
    {
     "name": "sab",
@@ -13367,7 +13346,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 499
+    "count": 494
    },
    {
     "name": "tiktok_ad",
@@ -13466,6 +13445,10 @@
    {
     "name": "riyadhmetro.fyi/ar/stations",
     "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
    },
    {
     "name": "com.google.android.apps.searchlite",
@@ -14048,12 +14031,6 @@
     "count": 2
    }
   ],
-  "/destinations/king-abdullah-park": [
-   {
-    "name": "Google",
-    "count": 7
-   }
-  ],
   "/ar/stations/western-station": [
    {
     "name": "chatgpt.com",
@@ -14188,6 +14165,12 @@
     "count": 1
    }
   ],
+  "/destinations/king-abdullah-park": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
   "/ar/districts/al-mansurah": [
    {
     "name": "Google",
@@ -14301,7 +14284,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 499
+    "count": 494
    },
    {
     "path": "/ar/map",
@@ -14498,10 +14481,6 @@
     "count": 7
    },
    {
-    "path": "/destinations/king-abdullah-park",
-    "count": 7
-   },
-   {
     "path": "/ar/destinations/sahara-mall",
     "count": 6
    },
@@ -14511,6 +14490,10 @@
    },
    {
     "path": "/districts/al-rawdah",
+    "count": 6
+   },
+   {
+    "path": "/destinations/king-abdullah-park",
     "count": 6
    },
    {
@@ -14730,6 +14713,10 @@
    {
     "path": "/districts/al-wadi",
     "count": 2
+   },
+   {
+    "path": "/ar/map",
+    "count": 1
    },
    {
     "path": "/ar/districts/al-qadisiyah",
@@ -15240,13 +15227,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1801,
+   "count": 1794,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 918,
+   "count": 917,
    "ref_scheme": "g"
   },
   {
@@ -15258,7 +15245,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 184,
+   "count": 185,
    "ref_scheme": "c"
   },
   {
@@ -15542,12 +15529,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2712
+   "count": 2704
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1021
+   "count": 1022
   },
   {
    "id": "(unknown)",
@@ -15629,7 +15616,7 @@
   {
    "id": "US",
    "name": "United States",
-   "count": 97
+   "count": 94
   },
   {
    "id": "GB",
@@ -15639,7 +15626,7 @@
   {
    "id": "CA",
    "name": "Canada",
-   "count": 33
+   "count": 32
   },
   {
    "id": "IN",
@@ -15672,11 +15659,6 @@
    "count": 14
   },
   {
-   "id": "BH",
-   "name": "Bahrain",
-   "count": 13
-  },
-  {
    "id": "IT",
    "name": "Italy",
    "count": 13
@@ -15685,6 +15667,11 @@
    "id": "ES",
    "name": "Spain",
    "count": 12
+  },
+  {
+   "id": "BH",
+   "name": "Bahrain",
+   "count": 10
   },
   {
    "id": "JP",
@@ -15876,12 +15863,12 @@
   {
    "id": "tablet",
    "name": "",
-   "count": 83
+   "count": 79
   },
   {
    "id": "desktop",
    "name": "",
-   "count": 536
+   "count": 533
   },
   {
    "id": "desktophd",
@@ -15898,12 +15885,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2020
+   "count": 2012
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1735
+   "count": 1736
   },
   {
    "name": "",
@@ -15919,17 +15906,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1722
+   "count": 1723
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1451
+   "count": 1450
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 473
+   "count": 470
   },
   {
    "id": "macOS",
@@ -15939,12 +15926,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 46
-  },
-  {
-   "id": "Chrome OS",
-   "name": "Chrome OS",
-   "count": 3
+   "count": 45
   }
  ],
  "campaigns": []
