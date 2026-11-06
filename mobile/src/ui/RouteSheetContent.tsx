@@ -7,7 +7,7 @@ import {
   Text,
   View,
 } from "react-native";
-import { CaretIcon, CloseIcon, StarIcon, StopDot } from "./Icons";
+import { CaretIcon, CloseIcon, ShareIcon, StarIcon, StopDot } from "./Icons";
 import type { Leg, MetroEngine, Route } from "../core/metro";
 import {
   formatMinutes,
@@ -419,9 +419,12 @@ export default function RouteSheetContent({
             { backgroundColor: colors.accent, borderColor: colors.accent },
           ]}
         >
-          <Text style={[styles.actionBtnText, { color: "#FFFFFF" }]}>
-            {t("shareRoute")}
-          </Text>
+          <View style={[styles.saveInner, rowDir]}>
+            <ShareIcon color="#FFFFFF" />
+            <Text style={[styles.actionBtnText, { color: "#FFFFFF" }]}>
+              {t("shareRoute")}
+            </Text>
+          </View>
         </Pressable>
 
         <Pressable

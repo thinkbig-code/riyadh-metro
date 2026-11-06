@@ -177,3 +177,15 @@ export function StopDot({ color, ring, size = 12 }: { color: string; ring: boole
     </Svg>
   );
 }
+
+// share: three connected dots, the usual Android share sign
+export function ShareIcon({ color, size = 20 }: { color: string; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path d="M8.6 10.6l6.8-3.9M8.6 13.4l6.8 3.9" stroke={color} strokeWidth={2} strokeLinecap="round" />
+      <Circle cx={18} cy={5.5} r={2.8} fill={color} />
+      <Circle cx={6} cy={12} r={2.8} fill={color} />
+      <Circle cx={18} cy={18.5} r={2.8} fill={color} />
+    </Svg>
+  );
+}
