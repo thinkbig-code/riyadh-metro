@@ -16,6 +16,7 @@ export interface AppStrings {
   popularPlaces: string;
   fitNetwork: string;
   fromHere: string;
+  openInMaps: string;
   toHere: string;
   leaveNow: string;
   leaveLater: string;
@@ -57,6 +58,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "أماكن شائعة",
     fitNetwork: "إظهار كل الشبكة",
     fromHere: "من هنا",
+    openInMaps: "افتح في خرائط Google",
     toHere: "إلى هنا",
     leaveNow: "المغادرة الآن",
     leaveLater: "لاحقا",
@@ -98,6 +100,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "Popular places",
     fitNetwork: "Fit whole network",
     fromHere: "From here",
+    openInMaps: "Open in Google Maps",
     toHere: "To here",
     leaveNow: "Leave now",
     leaveLater: "Later",
@@ -139,6 +142,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "مشہور مقامات",
     fitNetwork: "پورا نقشہ دیکھیں",
     fromHere: "یہاں سے",
+    openInMaps: "Google Maps میں کھولیں",
     toHere: "یہاں تک",
     leaveNow: "ابھی روانگی",
     leaveLater: "بعد میں",
@@ -180,6 +184,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "प्रमुख स्थान",
     fitNetwork: "पूरा नेटवर्क देखें",
     fromHere: "यहाँ से",
+    openInMaps: "Google Maps में खोलें",
     toHere: "यहाँ तक",
     leaveNow: "अभी निकलें",
     leaveLater: "बाद में",
@@ -221,6 +226,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "জনপ্রিয় স্থান",
     fitNetwork: "পুরো ম্যাপ দেখুন",
     fromHere: "এখান থেকে",
+    openInMaps: "Google Maps-এ খুলুন",
     toHere: "এখানে",
     leaveNow: "এখনই যাত্রা",
     leaveLater: "পরে",
@@ -262,6 +268,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "Mga sikat na lugar",
     fitNetwork: "Ipakita ang buong mapa",
     fromHere: "Mula rito",
+    openInMaps: "Buksan sa Google Maps",
     toHere: "Papunta rito",
     leaveNow: "Umalis ngayon",
     leaveLater: "Mamaya",
@@ -303,6 +310,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "Популярные места",
     fitNetwork: "Вся схема метро",
     fromHere: "Отсюда",
+    openInMaps: "Открыть в Google Картах",
     toHere: "Сюда",
     leaveNow: "Сейчас",
     leaveLater: "Позже",
@@ -344,6 +352,7 @@ export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
     popularPlaces: "Lieux populaires",
     fitNetwork: "Voir tout le réseau",
     fromHere: "Partir d'ici",
+    openInMaps: "Ouvrir dans Google Maps",
     toHere: "Aller ici",
     leaveNow: "Partir maintenant",
     leaveLater: "Plus tard",

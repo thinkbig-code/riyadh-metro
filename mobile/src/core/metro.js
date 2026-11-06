@@ -719,6 +719,7 @@ return {
   linePath: ids => lineD(ids),
   setLanguage(code) { if (!I18N[code]) throw new Error('Unknown language'); LANG=code; setNames(); },
   text: t, search: matches, parseToken, nearestStation,
+  stationGeo: id => GEO[id] || null,
   stationName: id => ST[id]?.n || id,
   name: token => endName(parseToken(token)),
   lineName: id => t(LINES[svcById[id].line].key),

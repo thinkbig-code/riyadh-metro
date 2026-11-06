@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Linking, Pressable, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { MetroEngine } from "../core/metro";
 import { formatPlaceDetails, getAppStrings } from "../i18n";
@@ -40,6 +40,7 @@ export default function StationCard({
 
   const insets = useSafeAreaInsets();
   if (!station) return null;
+  const geo = engine.stationGeo(station.id);
 
   const { colors } = theme;
   const s = getAppStrings(language);
@@ -169,6 +170,22 @@ export default function StationCard({
           </Text>
         </Pressable>
       </View>
+
+      {/* opens the phone's own Maps app (or the browser) at the station; nothing is sent by us */}
+      {geo ? (
+        <Pressable
+          accessibilityRole="link"
+          onPress={() =>
+            Linking.openURL(
+              `https://www.google.com/maps/search/?api=1&query=${geo[0]},${geo[1]}`,
+            ).catch(() => {})
+          }
+          hitSlop={6}
+          style={styles.mapsLink}
+        >
+          <Text style={[styles.mapsLinkText, { color: colors.accent }]}>{s.openInMaps}</Text>
+        </Pressable>
+      ) : null}
     </View>
   );
 }
@@ -261,5 +278,13 @@ const styles = StyleSheet.create({
   actionText: {
     fontSize: 14,
     fontWeight: "700",
+  },
+  mapsLink: {
+    alignSelf: "center",
+    paddingVertical: 6,
+  },
+  mapsLinkText: {
+    fontSize: 14,
+    fontWeight: "600",
   },
 });

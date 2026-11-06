@@ -50,6 +50,8 @@ export interface MetroEngine {
     token: string,
   ): { st: string; lm?: { min: number; note?: string } } | null;
   nearestStation(point: [number, number]): { id: string; d: number } | null;
+  /** station position as [latitude, longitude], or null */
+  stationGeo(id: string): [number, number] | null;
   plan(from: string, to: string, departMs?: number): Route[];
   shareUrl(from: string, to: string): string;
   serviceState(ms?: number): { open: boolean; opens?: number; close?: number };
