@@ -1,0 +1,586 @@
+import type { MetroEngine } from "./core/metro";
+
+export type AppLanguageCode = "ar" | "en" | "ur" | "hi" | "bn" | "tl" | "ru" | "fr";
+
+export interface AppStrings {
+  menu: string;
+  languageTitle: string;
+  savedTrips: string;
+  recentTrips: string;
+  aboutTitle: string;
+  saveTrip: string;
+  savedLabel: string;
+  noSavedTrips: string;
+  noRecentTrips: string;
+  useMyLocation: string;
+  popularPlaces: string;
+  fitNetwork: string;
+  fromHere: string;
+  openInMaps: string;
+  settings: string;
+  theme: string;
+  themeAuto: string;
+  themeLight: string;
+  themeDark: string;
+  mapLabels: string;
+  sameAsApp: string;
+  quickTap: string;
+  quickTapHint: string;
+  clearHistory: string;
+  fieldFrom: string;
+  fieldTo: string;
+  estimateNote: string;
+  toHere: string;
+  leaveNow: string;
+  leaveLater: string;
+  arrivalLabel: string;
+  firstClassLabel: string;
+  walking: string;
+  towards: string;
+  stationsCount: string;
+  formerNames: string;
+  nearbyPlaces: string;
+  metroClosedWarning: string;
+  locationError: string;
+  storageError: string;
+  generalError: string;
+  findingLocation: string;
+  unofficialDisclaimer: string;
+  dataCreditsTitle: string;
+  dataCreditsBody: string;
+  feedbackLabel: string;
+  versionLabel: string;
+  dataDateLabel: string;
+  searchPlaceholder: string;
+  pullUpHint: string;
+  noSearchResults: string;
+}
+
+export const APP_STRINGS: Record<AppLanguageCode, AppStrings> = {
+  ar: {
+    menu: "القائمة",
+    languageTitle: "اللغة",
+    savedTrips: "الرحلات المحفوظة",
+    recentTrips: "الرحلات الأخيرة",
+    aboutTitle: "حول التطبيق",
+    saveTrip: "حفظ الرحلة",
+    savedLabel: "محفوظة",
+    noSavedTrips: "لا توجد رحلات محفوظة بعد",
+    noRecentTrips: "لا توجد رحلات أخيرة بعد",
+    useMyLocation: "استخدام موقعي الحالي",
+    popularPlaces: "أماكن شائعة",
+    fitNetwork: "إظهار كل الشبكة",
+    fromHere: "من هنا",
+    openInMaps: "افتح في خرائط Google",
+    settings: "الإعدادات",
+    theme: "المظهر",
+    themeAuto: "تلقائي",
+    themeLight: "فاتح",
+    themeDark: "داكن",
+    mapLabels: "أسماء المحطات على الخريطة",
+    sameAsApp: "مثل التطبيق",
+    quickTap: "اختيار المحطات بالنقر",
+    quickTapHint: "النقرة الأولى تحدد نقطة الانطلاق، والثانية الوجهة",
+    clearHistory: "مسح السجل",
+    fieldFrom: "من",
+    fieldTo: "إلى",
+    estimateNote: "تقدير وليس وقتًا فعليًا. الوقت الأقصر للرحلة فقط، والأطول يشمل الانتظار المعتاد لكل قطار.",
+    toHere: "إلى هنا",
+    leaveNow: "المغادرة الآن",
+    leaveLater: "لاحقا",
+    arrivalLabel: "الوصول",
+    firstClassLabel: "الدرجة الأولى",
+    walking: "مشي",
+    towards: "باتجاه",
+    stationsCount: "محطات",
+    formerNames: "الأسماء السابقة",
+    nearbyPlaces: "أماكن قريبة",
+    metroClosedWarning: "المترو مغلق الآن. تحقق من أوقات العمل قبل السفر.",
+    locationError: "تعذر تحديد موقعك. يمكنك اختيار المحطة يدويا.",
+    storageError: "تعذر حفظ الإعدادات على هذا الجهاز.",
+    generalError: "تعذر إتمام العملية",
+    findingLocation: "جار تحديد موقعك...",
+    unofficialDisclaimer:
+      "تطبيق مستقل وغير رسمي لخريطة ومسارات مترو الرياض. يعمل بالكامل دون اتصال بالإنترنت، ولا يجمع أي بيانات شخصية. موقعك الجغرافي يحسب على جهازك فقط عند الطلب.",
+    dataCreditsTitle: "مصادر البيانات",
+    dataCreditsBody:
+      "البيانات المفتوحة للهيئة الملكية لمدينة الرياض (RCRC)، المساهمون في OpenStreetMap (رخصة ODbL)، ويكيبيديا.",
+    feedbackLabel: "الملاحظات والاقتراحات",
+    versionLabel: "الإصدار",
+    dataDateLabel: "تحديث البيانات",
+    searchPlaceholder: "ابحث عن محطة أو مكان...",
+    pullUpHint: "اختر محطة الانطلاق والوصول لعرض المسار",
+    noSearchResults: "لا توجد نتائج مطابقة",
+  },
+  en: {
+    menu: "Menu",
+    languageTitle: "Language",
+    savedTrips: "Saved trips",
+    recentTrips: "Recent trips",
+    aboutTitle: "About",
+    saveTrip: "Save trip",
+    savedLabel: "Saved",
+    noSavedTrips: "No saved trips yet",
+    noRecentTrips: "No recent trips yet",
+    useMyLocation: "Use my location",
+    popularPlaces: "Popular places",
+    fitNetwork: "Fit whole network",
+    fromHere: "From here",
+    openInMaps: "Open in Google Maps",
+    settings: "Settings",
+    theme: "Theme",
+    themeAuto: "Auto",
+    themeLight: "Light",
+    themeDark: "Dark",
+    mapLabels: "Map labels",
+    sameAsApp: "Same as app",
+    quickTap: "Pick stations by tapping",
+    quickTapHint: "First tap sets From, second sets To",
+    clearHistory: "Clear history",
+    fieldFrom: "From",
+    fieldTo: "To",
+    estimateNote: "Estimate, not real-time. The shorter time is the ride alone. The longer one adds the usual wait for each train.",
+    toHere: "To here",
+    leaveNow: "Leave now",
+    leaveLater: "Later",
+    arrivalLabel: "Arrival",
+    firstClassLabel: "First class",
+    walking: "Walk",
+    towards: "Towards",
+    stationsCount: "Stations",
+    formerNames: "Former names",
+    nearbyPlaces: "Nearby places",
+    metroClosedWarning: "Metro is closed right now. Check operating hours before travelling.",
+    locationError: "Could not find your location. You can still pick a station.",
+    storageError: "Could not save preferences on this device.",
+    generalError: "Could not complete the action",
+    findingLocation: "Finding your location...",
+    unofficialDisclaimer:
+      "Independent, unofficial Riyadh Metro map and route planner. Works offline with no accounts, ads or tracking. Your location is used only when you tap the location button and never leaves your phone.",
+    dataCreditsTitle: "Data credits",
+    dataCreditsBody:
+      "RCRC open data, (c) OpenStreetMap contributors (ODbL), Wikipedia.",
+    feedbackLabel: "Feedback",
+    versionLabel: "Version",
+    dataDateLabel: "Data date",
+    searchPlaceholder: "Search station or place...",
+    pullUpHint: "Pick From and To stations to plan a route",
+    noSearchResults: "No matching stations or places",
+  },
+  ur: {
+    menu: "مینو",
+    languageTitle: "زبان",
+    savedTrips: "محفوظ سفر",
+    recentTrips: "حالیہ سفر",
+    aboutTitle: "ایپ کے بارے میں",
+    saveTrip: "سفر محفوظ کریں",
+    savedLabel: "محفوظ شدہ",
+    noSavedTrips: "ابھی کوئی محفوظ سفر نہیں",
+    noRecentTrips: "ابھی کوئی حالیہ سفر نہیں",
+    useMyLocation: "میری موجودہ لوکیشن استعمال کریں",
+    popularPlaces: "مشہور مقامات",
+    fitNetwork: "پورا نقشہ دیکھیں",
+    fromHere: "یہاں سے",
+    openInMaps: "Google Maps میں کھولیں",
+    settings: "ترتیبات",
+    theme: "تھیم",
+    themeAuto: "خودکار",
+    themeLight: "روشن",
+    themeDark: "گہرا",
+    mapLabels: "نقشے پر اسٹیشن کے نام",
+    sameAsApp: "ایپ جیسی",
+    quickTap: "ٹیپ سے اسٹیشن چنیں",
+    quickTapHint: "پہلا ٹیپ روانگی، دوسرا منزل",
+    clearHistory: "ہسٹری صاف کریں",
+    fieldFrom: "کہاں سے",
+    fieldTo: "کہاں تک",
+    estimateNote: "یہ اندازہ ہے، لائیو وقت نہیں۔ کم وقت صرف سفر کا ہے۔ زیادہ وقت میں ہر ٹرین کا عام انتظار شامل ہے۔",
+    toHere: "یہاں تک",
+    leaveNow: "ابھی روانگی",
+    leaveLater: "بعد میں",
+    arrivalLabel: "آمد",
+    firstClassLabel: "فرسٹ کلاس",
+    walking: "پیدل",
+    towards: "کی طرف",
+    stationsCount: "اسٹیشن",
+    formerNames: "پرانے نام",
+    nearbyPlaces: "قریبی مقامات",
+    metroClosedWarning: "میٹرو اس وقت بند ہے۔ سفر سے پہلے اوقات چیک کریں۔",
+    locationError: "لوکیشن معلوم نہیں ہو سکی۔ آپ خود اسٹیشن منتخب کر سکتے ہیں۔",
+    storageError: "ترجیحات محفوظ نہیں ہو سکیں۔",
+    generalError: "عمل مکمل نہیں ہو سکا",
+    findingLocation: "لوکیشن تلاش کی جا رہی ہے...",
+    unofficialDisclaimer:
+      "ریاض میٹرو کا غیر سرکاری اور مفت آف لائن نقشہ۔ کوئی ٹریکنگ یا اشتہارات نہیں۔ آپ کی لوکیشن صرف آپ کے فون پر رہتی ہے۔",
+    dataCreditsTitle: "ڈیٹا کے ذرائع",
+    dataCreditsBody:
+      "RCRC اوپن ڈیٹا، (c) OpenStreetMap contributors (ODbL)، Wikipedia۔",
+    feedbackLabel: "رائے اور رابطہ",
+    versionLabel: "ورژن",
+    dataDateLabel: "ڈیٹا کی تاریخ",
+    searchPlaceholder: "اسٹیشن یا جگہ تلاش کریں...",
+    pullUpHint: "راستہ دیکھنے کے لیے روانگی اور منزل منتخب کریں",
+    noSearchResults: "کوئی نتیجہ نہیں ملا",
+  },
+  hi: {
+    menu: "मेनू",
+    languageTitle: "भाषा",
+    savedTrips: "सेव की गई यात्राएं",
+    recentTrips: "हाल की यात्राएं",
+    aboutTitle: "ऐप के बारे में",
+    saveTrip: "यात्रा सेव करें",
+    savedLabel: "सेव किया गया",
+    noSavedTrips: "अभी कोई सेव की गई यात्रा नहीं है",
+    noRecentTrips: "अभी कोई हालिया यात्रा नहीं है",
+    useMyLocation: "मेरी लोकेशन इस्तेमाल करें",
+    popularPlaces: "प्रमुख स्थान",
+    fitNetwork: "पूरा नेटवर्क देखें",
+    fromHere: "यहाँ से",
+    openInMaps: "Google Maps में खोलें",
+    settings: "सेटिंग्स",
+    theme: "थीम",
+    themeAuto: "अपने आप",
+    themeLight: "लाइट",
+    themeDark: "डार्क",
+    mapLabels: "मानचित्र पर स्टेशन के नाम",
+    sameAsApp: "ऐप जैसी",
+    quickTap: "टैप से स्टेशन चुनें",
+    quickTapHint: "पहला टैप कहाँ से, दूसरा कहाँ तक",
+    clearHistory: "इतिहास साफ़ करें",
+    fieldFrom: "कहाँ से",
+    fieldTo: "कहाँ तक",
+    estimateNote: "यह अनुमान है, लाइव समय नहीं। कम समय सिर्फ़ सफ़र का है। ज़्यादा समय में हर ट्रेन का सामान्य इंतज़ार शामिल है।",
+    toHere: "यहाँ तक",
+    leaveNow: "अभी निकलें",
+    leaveLater: "बाद में",
+    arrivalLabel: "पहुँचने का समय",
+    firstClassLabel: "फर्स्ट क्लास",
+    walking: "पैदल",
+    towards: "की ओर",
+    stationsCount: "स्टेशन",
+    formerNames: "पुराने नाम",
+    nearbyPlaces: "आस-पास के स्थान",
+    metroClosedWarning: "मेट्रो अभी बंद है। यात्रा से पहले समय जांच लें।",
+    locationError: "आपकी लोकेशन नहीं मिल सकी। कृपया स्टेशन चुनें।",
+    storageError: "इस डिवाइस पर सेटिंग सेव नहीं हो सकी।",
+    generalError: "कार्रवाई पूरी नहीं हो सकी",
+    findingLocation: "लोकेशन खोजी जा रही है...",
+    unofficialDisclaimer:
+      "रियाद मेट्रो के लिए स्वतंत्र और गैर-आधिकारिक ऑफ़लाइन ऐप। कोई विज्ञापन या ट्रैकिंग नहीं। आपकी लोकेशन आपके फ़ोन पर ही रहती है।",
+    dataCreditsTitle: "डेटा स्रोत",
+    dataCreditsBody:
+      "RCRC ओपन डेटा, (c) OpenStreetMap contributors (ODbL), Wikipedia.",
+    feedbackLabel: "सुझाव",
+    versionLabel: "संस्करण",
+    dataDateLabel: "डेटा तिथि",
+    searchPlaceholder: "स्टेशन या जगह खोजें...",
+    pullUpHint: "रूट देखने के लिए प्रस्थान और गंतव्य चुनें",
+    noSearchResults: "कोई परिणाम नहीं मिला",
+  },
+  bn: {
+    menu: "মেনু",
+    languageTitle: "ভাষা",
+    savedTrips: "সংরক্ষিত যাত্রা",
+    recentTrips: "সাম্প্রতিক যাত্রা",
+    aboutTitle: "অ্যাপ সম্পর্কে",
+    saveTrip: "যাত্রা সংরক্ষণ করুন",
+    savedLabel: "সংরক্ষিত",
+    noSavedTrips: "কোনো সংরক্ষিত যাত্রা নেই",
+    noRecentTrips: "কোনো সাম্প্রতিক যাত্রা নেই",
+    useMyLocation: "আমার অবস্থান ব্যবহার করুন",
+    popularPlaces: "জনপ্রিয় স্থান",
+    fitNetwork: "পুরো ম্যাপ দেখুন",
+    fromHere: "এখান থেকে",
+    openInMaps: "Google Maps-এ খুলুন",
+    settings: "সেটিংস",
+    theme: "থিম",
+    themeAuto: "স্বয়ংক্রিয়",
+    themeLight: "লাইট",
+    themeDark: "ডার্ক",
+    mapLabels: "মানচিত্রে স্টেশনের নাম",
+    sameAsApp: "অ্যাপের মতো",
+    quickTap: "ট্যাপ করে স্টেশন বাছুন",
+    quickTapHint: "প্রথম ট্যাপ কোথা থেকে, দ্বিতীয়টি কোথায়",
+    clearHistory: "ইতিহাস মুছুন",
+    fieldFrom: "কোথা থেকে",
+    fieldTo: "কোথায়",
+    estimateNote: "এটি আনুমানিক, লাইভ সময় নয়। কম সময়টি শুধু যাত্রার। বেশি সময়টিতে প্রতিটি ট্রেনের সাধারণ অপেক্ষা যোগ করা আছে।",
+    toHere: "এখানে",
+    leaveNow: "এখনই যাত্রা",
+    leaveLater: "পরে",
+    arrivalLabel: "পৌঁছানোর সময়",
+    firstClassLabel: "প্রথম শ্রেণী",
+    walking: "হাঁটা",
+    towards: "দিকে",
+    stationsCount: "স্টেশন",
+    formerNames: "পূর্ববর্তী নাম",
+    nearbyPlaces: "কাছাকাছি স্থান",
+    metroClosedWarning: "মেট্রো এখন বন্ধ। যাত্রার আগে সময়সূচী দেখে নিন।",
+    locationError: "আপনার অবস্থান পাওয়া যায়নি। অনুগ্রহ করে স্টেশন বেছে নিন।",
+    storageError: "ডিভাইসে তথ্য সংরক্ষণ করা যায়নি।",
+    generalError: "কাজটি সম্পন্ন করা যায়নি",
+    findingLocation: "অবস্থান খোঁজা হচ্ছে...",
+    unofficialDisclaimer:
+      "রিয়াদ মেট্রোর স্বাধীন ও বেসরকারি অফলাইন ম্যাপ। কোনো বিজ্ঞাপন বা ট্র্যাকিং নেই। আপনার অবস্থান কেবল আপনার ফোনেই থাকে।",
+    dataCreditsTitle: "তথ্যসূত্র",
+    dataCreditsBody:
+      "RCRC ওপেন ডেটা, (c) OpenStreetMap contributors (ODbL), Wikipedia.",
+    feedbackLabel: "মতামত",
+    versionLabel: "সংস্করণ",
+    dataDateLabel: "তথ্যের তারিখ",
+    searchPlaceholder: "স্টেশন বা স্থান খুঁজুন...",
+    pullUpHint: "রুট দেখতে শুরুর ও গন্তব্য স্টেশন বেছে নিন",
+    noSearchResults: "কোনো ফলাফল পাওয়া যায়নি",
+  },
+  tl: {
+    menu: "Menu",
+    languageTitle: "Wika",
+    savedTrips: "Mga naka-save na biyahe",
+    recentTrips: "Kamakailang biyahe",
+    aboutTitle: "Tungkol sa app",
+    saveTrip: "I-save ang biyahe",
+    savedLabel: "Naka-save",
+    noSavedTrips: "Wala pang naka-save na biyahe",
+    noRecentTrips: "Wala pang kamakailang biyahe",
+    useMyLocation: "Gamitin ang lokasyon ko",
+    popularPlaces: "Mga sikat na lugar",
+    fitNetwork: "Ipakita ang buong mapa",
+    fromHere: "Mula rito",
+    openInMaps: "Buksan sa Google Maps",
+    settings: "Mga setting",
+    theme: "Tema",
+    themeAuto: "Awtomatiko",
+    themeLight: "Maliwanag",
+    themeDark: "Madilim",
+    mapLabels: "Mga pangalan sa mapa",
+    sameAsApp: "Gaya ng app",
+    quickTap: "Pumili ng istasyon sa pag-tap",
+    quickTapHint: "Unang tap: mula saan, pangalawa: saan pupunta",
+    clearHistory: "Burahin ang history",
+    fieldFrom: "Mula",
+    fieldTo: "Papunta",
+    estimateNote: "Tantiya ito, hindi real-time. Ang mas maikling oras ay biyahe lang. Kasama sa mas mahaba ang karaniwang paghihintay sa bawat tren.",
+    toHere: "Papunta rito",
+    leaveNow: "Umalis ngayon",
+    leaveLater: "Mamaya",
+    arrivalLabel: "Dating",
+    firstClassLabel: "First class",
+    walking: "Lakad",
+    towards: "Papuntang",
+    stationsCount: "Mga istasyon",
+    formerNames: "Dating pangalan",
+    nearbyPlaces: "Malapit na lugar",
+    metroClosedWarning: "Sarado ang metro ngayon. Tingnan ang oras bago bumiyahe.",
+    locationError: "Hindi mahanap ang lokasyon mo. Pumili na lang ng istasyon.",
+    storageError: "Hindi ma-save ang settings sa device na ito.",
+    generalError: "Hindi nagawa ang aksyon",
+    findingLocation: "Hinahanap ang lokasyon mo...",
+    unofficialDisclaimer:
+      "Hindi opisyal at libreng offline na mapa ng Riyadh Metro. Walang ads o tracking. Ang lokasyon mo ay nananatili lamang sa iyong telepono.",
+    dataCreditsTitle: "Pinagmulan ng datos",
+    dataCreditsBody:
+      "RCRC open data, (c) OpenStreetMap contributors (ODbL), Wikipedia.",
+    feedbackLabel: "Feedback",
+    versionLabel: "Bersyon",
+    dataDateLabel: "Petsa ng datos",
+    searchPlaceholder: "Maghanap ng istasyon o lugar...",
+    pullUpHint: "Pumili ng Mula at Papunta para makita ang ruta",
+    noSearchResults: "Walang nahanap na resulta",
+  },
+  ru: {
+    menu: "Меню",
+    languageTitle: "Язык",
+    savedTrips: "Сохраненные маршруты",
+    recentTrips: "Недавние маршруты",
+    aboutTitle: "О приложении",
+    saveTrip: "Сохранить маршрут",
+    savedLabel: "Сохранено",
+    noSavedTrips: "Пока нет сохраненных маршрутов",
+    noRecentTrips: "Пока нет недавних маршрутов",
+    useMyLocation: "Мое местоположение",
+    popularPlaces: "Популярные места",
+    fitNetwork: "Вся схема метро",
+    fromHere: "Отсюда",
+    openInMaps: "Открыть в Google Картах",
+    settings: "Настройки",
+    theme: "Тема",
+    themeAuto: "Авто",
+    themeLight: "Светлая",
+    themeDark: "Тёмная",
+    mapLabels: "Названия на карте",
+    sameAsApp: "Как в приложении",
+    quickTap: "Выбор станций касанием",
+    quickTapHint: "Первое касание: откуда, второе: куда",
+    clearHistory: "Очистить историю",
+    fieldFrom: "Откуда",
+    fieldTo: "Куда",
+    estimateNote: "Оценка, не в реальном времени. Меньшее время: только поездка. Большее: с обычным ожиданием каждого поезда.",
+    toHere: "Сюда",
+    leaveNow: "Сейчас",
+    leaveLater: "Позже",
+    arrivalLabel: "Прибытие",
+    firstClassLabel: "Первый класс",
+    walking: "Пешком",
+    towards: "В сторону",
+    stationsCount: "Станции",
+    formerNames: "Прежние названия",
+    nearbyPlaces: "Места рядом",
+    metroClosedWarning: "Метро сейчас закрыто. Проверьте часы работы перед поездкой.",
+    locationError: "Не удалось определить геопозицию. Выберите станцию вручную.",
+    storageError: "Не удалось сохранить настройки на устройстве.",
+    generalError: "Не удалось выполнить действие",
+    findingLocation: "Определяем местоположение...",
+    unofficialDisclaimer:
+      "Неофициальная бесплатная офлайн-карта и планировщик маршрутов метро Эр-Рияда. Без рекламы, аккаунтов и аналитики. Геопозиция запрашивается только по нажатию и не покидает ваше устройство.",
+    dataCreditsTitle: "Источники данных",
+    dataCreditsBody:
+      "Открытые данные RCRC, (c) участники OpenStreetMap (ODbL), Wikipedia.",
+    feedbackLabel: "Обратная связь",
+    versionLabel: "Версия",
+    dataDateLabel: "Дата данных",
+    searchPlaceholder: "Станция или место...",
+    pullUpHint: "Выберите станции Откуда и Куда для расчета маршрута",
+    noSearchResults: "Ничего не найдено",
+  },
+  fr: {
+    menu: "Menu",
+    languageTitle: "Langue",
+    savedTrips: "Trajets enregistrés",
+    recentTrips: "Trajets récents",
+    aboutTitle: "À propos",
+    saveTrip: "Enregistrer le trajet",
+    savedLabel: "Enregistré",
+    noSavedTrips: "Aucun trajet enregistré",
+    noRecentTrips: "Aucun trajet récent",
+    useMyLocation: "Utiliser ma position",
+    popularPlaces: "Lieux populaires",
+    fitNetwork: "Voir tout le réseau",
+    fromHere: "Partir d'ici",
+    openInMaps: "Ouvrir dans Google Maps",
+    settings: "Réglages",
+    theme: "Thème",
+    themeAuto: "Auto",
+    themeLight: "Clair",
+    themeDark: "Sombre",
+    mapLabels: "Noms sur la carte",
+    sameAsApp: "Comme l'application",
+    quickTap: "Choisir les stations d'un toucher",
+    quickTapHint: "Premier toucher : départ, second : arrivée",
+    clearHistory: "Effacer l'historique",
+    fieldFrom: "Départ",
+    fieldTo: "Arrivée",
+    estimateNote: "Estimation, pas en temps réel. Le temps le plus court correspond au trajet seul. Le plus long ajoute l'attente habituelle de chaque train.",
+    toHere: "Aller ici",
+    leaveNow: "Partir maintenant",
+    leaveLater: "Plus tard",
+    arrivalLabel: "Arrivée",
+    firstClassLabel: "Première classe",
+    walking: "Marche",
+    towards: "Direction",
+    stationsCount: "Stations",
+    formerNames: "Anciens noms",
+    nearbyPlaces: "Lieux à proximité",
+    metroClosedWarning: "Le métro est fermé. Vérifiez les horaires avant de partir.",
+    locationError: "Position introuvable. Vous pouvez choisir une station manuellement.",
+    storageError: "Impossible d'enregistrer vos préférences sur cet appareil.",
+    generalError: "Action impossible",
+    findingLocation: "Recherche de votre position...",
+    unofficialDisclaimer:
+      "Carte et calculateur d'itinéraires non officiel et hors ligne du métro de Riyad. Sans publicité ni suivi. Votre position reste uniquement sur votre téléphone.",
+    dataCreditsTitle: "Sources des données",
+    dataCreditsBody:
+      "Données ouvertes RCRC, (c) contributeurs OpenStreetMap (ODbL), Wikipédia.",
+    feedbackLabel: "Contact et retours",
+    versionLabel: "Version",
+    dataDateLabel: "Date des données",
+    searchPlaceholder: "Rechercher une station ou un lieu...",
+    pullUpHint: "Choisissez le départ et l'arrivée pour calculer l'itinéraire",
+    noSearchResults: "Aucun résultat trouvé",
+  },
+};
+
+export function getAppStrings(language: string): AppStrings {
+  return APP_STRINGS[language as AppLanguageCode] ?? APP_STRINGS.en;
+}
+
+function tryKey(
+  engine: MetroEngine,
+  key: string,
+  vars?: Record<string, string | number>,
+): string | null {
+  const val = engine.text(key, vars);
+  if (!val || val === key || /\{[a-zA-Z0-9_]+\}/.test(val)) {
+    return null;
+  }
+  return val;
+}
+
+export function formatTransfers(engine: MetroEngine, count: number): string {
+  if (count === 0) {
+    const direct =
+      tryKey(engine, "direct") ??
+      tryKey(engine, "noChanges") ??
+      tryKey(engine, "changes", { n: 0 });
+    if (direct) return direct;
+  }
+  if (count === 1) {
+    const one =
+      tryKey(engine, "change1", { n: 1 }) ??
+      tryKey(engine, "oneChange", { n: 1 }) ??
+      tryKey(engine, "change", { n: 1 });
+    if (one) return one;
+  }
+  return tryKey(engine, "changes", { n: count }) ?? `${count}`;
+}
+
+export function formatTransferStepLabel(engine: MetroEngine): string {
+  return (
+    tryKey(engine, "xfer") ??
+    tryKey(engine, "transfer") ??
+    formatTransfers(engine, 1)
+  );
+}
+
+export function formatStops(engine: MetroEngine, count: number): string {
+  if (count === 1) {
+    const one =
+      tryKey(engine, "stop1", { n: 1 }) ??
+      tryKey(engine, "oneStop", { n: 1 }) ??
+      tryKey(engine, "stop", { n: 1 });
+    if (one) return one;
+  }
+  return tryKey(engine, "stops", { n: count }) ?? `${count}`;
+}
+
+export function formatMinutes(engine: MetroEngine, minutes: number): string {
+  return tryKey(engine, "min", { n: minutes }) ?? `${minutes} min`;
+}
+
+export function formatPlaceDetails(
+  engine: MetroEngine,
+  place: { st: string; min?: number; note?: string },
+  includeStationPrefix = false,
+): string {
+  const stName = engine.stationName(place.st);
+  if (place.note) {
+    const noteText =
+      tryKey(engine, place.note, { s: stName }) ??
+      tryKey(engine, `n_${place.note}`, { s: stName }) ??
+      tryKey(engine, "n_bus", { s: stName });
+    if (noteText) return noteText;
+  }
+  if (typeof place.min === "number" && place.min > 0) {
+    const walk =
+      tryKey(engine, "walkChip", { n: place.min }) ??
+      tryKey(engine, "min", { n: place.min });
+    if (walk) {
+      return includeStationPrefix ? `${stName} · ${walk}` : walk;
+    }
+  }
+  return includeStationPrefix ? stName : "";
+}
+
+// a fare amount the way the site writes it: "4 ريال" in Arabic, "4 SAR" otherwise
+export function formatMoney(language: string, amount: number): string {
+  return language === "ar" ? `${amount} ريال` : `${amount} SAR`;
+}

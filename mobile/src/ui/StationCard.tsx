@@ -1,0 +1,291 @@
+import React, { useMemo } from "react";
+import { Linking, Pressable, StyleSheet, Text, View } from "react-native";
+import { CloseIcon } from "./Icons";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import type { MetroEngine } from "../core/metro";
+import { formatPlaceDetails, getAppStrings } from "../i18n";
+import { LINE_BY_ID, LineColorKey, STATION_BY_ID } from "../map/geometry";
+import {
+  AppTheme,
+  directionalRow,
+  directionalText,
+  lineBadgeTextColor,
+} from "../theme";
+
+export interface StationCardProps {
+  stationId: string | null;
+  engine: MetroEngine;
+  language: string;
+  rtl: boolean;
+  theme: AppTheme;
+  onFromHere: (stationId: string) => void;
+  onToHere: (stationId: string) => void;
+  onClose: () => void;
+}
+
+export default function StationCard({
+  stationId,
+  engine,
+  language,
+  rtl,
+  theme,
+  onFromHere,
+  onToHere,
+  onClose,
+}: StationCardProps) {
+  const station = stationId ? STATION_BY_ID[stationId] : null;
+  const nearby = useMemo(() => {
+    if (!stationId) return [];
+    return engine.places.filter((p) => p.st === stationId).slice(0, 4);
+  }, [engine.places, stationId]);
+
+  const insets = useSafeAreaInsets();
+  if (!station) return null;
+  const geo = engine.stationGeo(station.id);
+
+  const { colors } = theme;
+  const s = getAppStrings(language);
+  const t = engine.text;
+  const txt = directionalText(rtl, theme, false);
+  const txtBold = directionalText(rtl, theme, true);
+  const rowDir = directionalRow(rtl);
+
+  const primaryTitle = engine.stationName(station.id);
+  const secondarySubtitle =
+    language === "ar" ? station.en : station.ar;
+
+  return (
+    <View
+      style={[
+        styles.card,
+        {
+          backgroundColor: colors.surface,
+          borderColor: colors.rule,
+          bottom: insets.bottom + 14,
+        },
+      ]}
+    >
+      <View style={[styles.headerRow, rowDir]}>
+        <View style={{ flex: 1, gap: 2 }}>
+          <Text style={[styles.titlePrimary, txtBold]}>{primaryTitle}</Text>
+          <Text style={[styles.titleSecondary, txt, { color: colors.muted }]}>
+            {`\u2068${secondarySubtitle}\u2069 · #${station.number}`}
+          </Text>
+        </View>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("close")}
+          onPress={onClose}
+          style={[styles.closeBtn, { backgroundColor: colors.bg }]}
+        >
+          <CloseIcon color={colors.fg} size={16} />
+        </Pressable>
+      </View>
+
+      <View style={[styles.badgesRow, rowDir]}>
+        {station.lines.map((lineKey: LineColorKey) => {
+          const lineObj = LINE_BY_ID[lineKey];
+          return (
+            <View
+              key={lineKey}
+              style={[
+                styles.linePill,
+                rowDir,
+                { backgroundColor: colors[lineKey] },
+              ]}
+            >
+              <Text
+                style={[
+                  styles.linePillText,
+                  { color: lineBadgeTextColor(lineKey) },
+                ]}
+              >
+                {lineObj.number} · {engine.lineName(lineObj.service)}
+              </Text>
+            </View>
+          );
+        })}
+        {engine.parkAndRide.has(station.id) && (
+          <View
+            style={[
+              styles.parkPill,
+              { backgroundColor: colors.bg, borderColor: colors.rule },
+            ]}
+          >
+            <Text style={[styles.parkText, { color: colors.fg }]}>
+              P · {t("parkRide")}
+            </Text>
+          </View>
+        )}
+      </View>
+
+      {station.former.length > 0 && (
+        <Text style={[styles.metaLine, txt, { color: colors.muted }]}>
+          {s.formerNames}: {station.former.join(", ")}
+        </Text>
+      )}
+
+      {nearby.length > 0 && (
+        <View style={styles.nearbyWrap}>
+          <Text style={[styles.nearbyTitle, txtBold]}>{s.nearbyPlaces}:</Text>
+          {nearby.map((pl) => {
+            const detail = formatPlaceDetails(engine, pl, false);
+            return (
+              <Text
+                key={pl.id}
+                numberOfLines={2}
+                style={[styles.nearbyItem, txt, { color: colors.muted }]}
+              >
+                • {pl.n}
+                {detail ? ` (${detail})` : ""}
+              </Text>
+            );
+          })}
+        </View>
+      )}
+
+      <View style={[styles.actionsRow, rowDir]}>
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => onFromHere(station.id)}
+          style={[
+            styles.actionButton,
+            { backgroundColor: colors.accent, borderColor: colors.accent },
+          ]}
+        >
+          <Text style={[styles.actionText, { color: "#FFFFFF" }]}>
+            {s.fromHere}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => onToHere(station.id)}
+          style={[
+            styles.actionButton,
+            { backgroundColor: colors.bg, borderColor: colors.rule },
+          ]}
+        >
+          <Text style={[styles.actionText, { color: colors.fg }]}>
+            {s.toHere}
+          </Text>
+        </Pressable>
+      </View>
+
+      {/* opens the phone's own Maps app (or the browser) at the station; nothing is sent by us */}
+      {geo ? (
+        <Pressable
+          accessibilityRole="link"
+          onPress={() =>
+            Linking.openURL(
+              `https://www.google.com/maps/search/?api=1&query=${geo[0]},${geo[1]}`,
+            ).catch(() => {})
+          }
+          hitSlop={6}
+          style={styles.mapsLink}
+        >
+          <Text style={[styles.mapsLinkText, { color: colors.accent }]}>{s.openInMaps}</Text>
+        </Pressable>
+      ) : null}
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  card: {
+    position: "absolute",
+    left: 14,
+    right: 14,
+    bottom: 16,
+    maxHeight: "62%",
+    borderRadius: 20,
+    borderWidth: 1,
+    padding: 14,
+    gap: 10,
+    elevation: 6,
+    shadowColor: "#000",
+    shadowOpacity: 0.18,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: 4 },
+  },
+  headerRow: {
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    gap: 8,
+  },
+  titlePrimary: {
+    fontSize: 18,
+    fontWeight: "700",
+  },
+  titleSecondary: {
+    fontSize: 14,
+  },
+  closeBtn: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  badgesRow: {
+    flexWrap: "wrap",
+    gap: 6,
+    alignItems: "center",
+  },
+  linePill: {
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+  },
+  linePillText: {
+    fontSize: 12,
+    fontWeight: "700",
+  },
+  parkPill: {
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+    borderWidth: 1,
+  },
+  parkText: {
+    fontSize: 12,
+    fontWeight: "600",
+  },
+  metaLine: {
+    fontSize: 12,
+  },
+  nearbyWrap: {
+    gap: 2,
+  },
+  nearbyTitle: {
+    fontSize: 13,
+    fontWeight: "700",
+  },
+  nearbyItem: {
+    fontSize: 12,
+  },
+  actionsRow: {
+    gap: 8,
+    marginTop: 2,
+  },
+  actionButton: {
+    flex: 1,
+    minHeight: 42,
+    borderRadius: 12,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  actionText: {
+    fontSize: 14,
+    fontWeight: "700",
+  },
+  mapsLink: {
+    alignSelf: "center",
+    paddingVertical: 6,
+  },
+  mapsLinkText: {
+    fontSize: 14,
+    fontWeight: "600",
+  },
+});

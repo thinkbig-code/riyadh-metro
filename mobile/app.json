@@ -16,7 +16,11 @@
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
-      ]
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "ios": {
       "bundleIdentifier": "fyi.riyadhmetro.app",
@@ -30,7 +34,21 @@
           "locationWhenInUsePermission": "Find the nearest metro station when you request it. Your location stays on your device."
         }
       ],
-      "expo-localization"
-    ]
+      "expo-localization",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "backgroundColor": "#F4F7F8",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#10161C"
+          }
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png"
   }
 }

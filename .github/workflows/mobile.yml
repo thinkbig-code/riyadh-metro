@@ -3,7 +3,7 @@ on:
   pull_request:
     paths: ['mobile/**', 'src/riyadh-metro.html', '.github/workflows/mobile.yml']
   push:
-    branches: ['main', 'feat/android-offline-app']
+    branches: ['main', 'feat/android-offline-app', 'ws/**']
     paths: ['mobile/**', 'src/riyadh-metro.html', '.github/workflows/mobile.yml']
   workflow_dispatch:
 permissions:
@@ -25,7 +25,13 @@ jobs:
       - run: npm run check:core
       - run: npm run check:map
       - run: npm test
-      - run: npm run typecheck
+      - name: typecheck (errors become annotations)
+        run: |
+          set +e
+          npx tsc --noEmit --pretty false > tsc.txt 2>&1; code=$?
+          sed -nE 's/^(.+)\(([0-9]+),([0-9]+)\): error (TS[0-9]+): (.*)$/::error file=mobile\/\1,line=\2,col=\3::\4 \5/p' tsc.txt | head -50
+          cat tsc.txt | head -100
+          exit $code
       - run: npx playwright install --with-deps chromium
       - run: npm run test:parity
       - run: npm run export:native
@@ -62,12 +68,13 @@ jobs:
           retention-days: 14
       # a direct download link for a phone: a pre-release on the repo, replaced on every build of this branch
       - name: Publish preview APK as a pre-release
-        if: github.ref == 'refs/heads/feat/android-offline-app'
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/android-offline-app' || startsWith(github.ref, 'refs/heads/ws/'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           cp android/app/build/outputs/apk/release/app-release.apk riyadh-metro-preview.apk
-          gh release delete android-preview --yes --cleanup-tag || true
-          gh release create android-preview riyadh-metro-preview.apk --prerelease --target "$GITHUB_SHA" \
-            --title "Android preview (internal test, not for the store)" \
+          TAG=android-preview; [ "$GITHUB_REF_NAME" != "feat/android-offline-app" ] && TAG=android-preview-next
+          gh release delete $TAG --yes --cleanup-tag || true
+          gh release create $TAG riyadh-metro-preview.apk --prerelease --target "$GITHUB_SHA" \
+            --title "Android preview $TAG ($GITHUB_REF_NAME)" \
             --notes "Debug-signed test build from ${GITHUB_SHA::7}. Install on your own phone only."

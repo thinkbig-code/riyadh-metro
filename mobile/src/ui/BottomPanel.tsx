@@ -1,0 +1,404 @@
+import React, { forwardRef, useCallback, useMemo } from "react";
+import { Pressable, StyleSheet, Text, View } from "react-native";
+import { CloseIcon, SwapIcon } from "./Icons";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
+import type { MetroEngine, Route } from "../core/metro";
+import { formatMoney, formatTransfers, getAppStrings } from "../i18n";
+import { AppTheme, directionalRow, directionalText } from "../theme";
+import type { SavedTrip } from "./MenuSheet";
+import RouteSheetContent from "./RouteSheetContent";
+import SearchView from "./SearchView";
+
+export interface BottomPanelProps {
+  engine: MetroEngine;
+  language: string;
+  rtl: boolean;
+  theme: AppTheme;
+  from: string;
+  to: string;
+  routes: Route[];
+  selectedOption: number;
+  onSelectOption: (idx: number) => void;
+  activeField: "from" | "to" | null;
+  searchQuery: string;
+  onChangeSearchQuery: (q: string) => void;
+  onPressField: (field: "from" | "to") => void;
+  onSelectSearchToken: (token: string) => void;
+  onSelectTrip: (trip: SavedTrip) => void;
+  onUseLocation: () => void;
+  onCloseSearch: () => void;
+  onSwap: () => void;
+  onClear: () => void;
+  departMs: number;
+  customDepartMs: number | null;
+  onChangeCustomDepartMs: (ms: number | null) => void;
+  isCurrentRouteSaved: boolean;
+  onToggleSaveRoute: () => void;
+  onShareRoute: () => void;
+  recent: SavedTrip[];
+  onSheetChange?: (index: number) => void;
+}
+
+const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
+  function BottomPanel(
+    {
+      engine,
+      language,
+      rtl,
+      theme,
+      from,
+      to,
+      routes,
+      selectedOption,
+      onSelectOption,
+      activeField,
+      searchQuery,
+      onChangeSearchQuery,
+      onPressField,
+      onSelectSearchToken,
+      onSelectTrip,
+      onUseLocation,
+      onCloseSearch,
+      onSwap,
+      onClear,
+      departMs,
+      customDepartMs,
+      onChangeCustomDepartMs,
+      isCurrentRouteSaved,
+      onToggleSaveRoute,
+      onShareRoute,
+      recent,
+      onSheetChange,
+    },
+    ref,
+  ) {
+    const insets = useSafeAreaInsets();
+    const { colors } = theme;
+    const t = engine.text;
+    const s = getAppStrings(language);
+    const txt = directionalText(rtl, theme, false);
+    const txtBold = directionalText(rtl, theme, true);
+    const rowDir = directionalRow(rtl);
+
+    const activeRoute =
+      routes.length > 0
+        ? routes[Math.min(selectedOption, routes.length - 1)]
+        : null;
+
+    const hasSheetContent = Boolean(activeField || activeRoute);
+    const snapPoints = useMemo(
+      () => (activeField ? ["88%"] : ["22%", "50%", "88%"]),
+      [activeField],
+    );
+
+    // search can be pulled down to close; with a route the route sheet then comes back at
+    // its middle height, without one the compact From/To bar replaces the sheet
+    const handleChange = useCallback(
+      (index: number) => {
+        if (index === -1 && activeField) {
+          onCloseSearch();
+          if (activeRoute) {
+            requestAnimationFrame(() => {
+              (ref as React.RefObject<BottomSheet | null>)?.current?.snapToIndex(1);
+            });
+          }
+          return;
+        }
+        if (onSheetChange) onSheetChange(index);
+      },
+      [activeField, activeRoute, onCloseSearch, onSheetChange, ref],
+    );
+
+    const renderFieldsRow = () => (
+      <View style={[styles.fieldsRow, rowDir]}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("phFrom")}
+          onPress={() => onPressField("from")}
+          style={[
+            styles.fieldBox,
+            rowDir,
+            {
+              backgroundColor: colors.bg,
+              // a coloured outline only while the field is being edited; the dot says which is which
+              borderColor: activeField === "from" ? colors.accent : "transparent",
+            },
+          ]}
+        >
+          <View
+            style={[
+              styles.fieldDot,
+              { backgroundColor: from ? colors.accent : colors.muted },
+            ]}
+          />
+          <Text
+            numberOfLines={1}
+            style={[
+              styles.fieldText,
+              from ? txtBold : txt,
+              { color: from ? colors.fg : colors.muted },
+            ]}
+          >
+            {from ? engine.name(from) : s.fieldFrom}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("swap")}
+          onPress={onSwap}
+          style={[
+            styles.swapButton,
+            { backgroundColor: colors.bg, borderColor: "transparent" },
+          ]}
+        >
+          <SwapIcon color={colors.fg} />
+        </Pressable>
+
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t("phTo")}
+          onPress={() => onPressField("to")}
+          style={[
+            styles.fieldBox,
+            rowDir,
+            {
+              backgroundColor: colors.bg,
+              borderColor: activeField === "to" ? colors.danger : "transparent",
+            },
+          ]}
+        >
+          <View
+            style={[
+              styles.fieldDot,
+              { backgroundColor: to ? colors.danger : colors.muted },
+            ]}
+          />
+          <Text
+            numberOfLines={1}
+            style={[
+              styles.fieldText,
+              to ? txtBold : txt,
+              { color: to ? colors.fg : colors.muted },
+            ]}
+          >
+            {to ? engine.name(to) : s.fieldTo}
+          </Text>
+        </Pressable>
+
+        {(from !== "" || to !== "") && (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={t("clear")}
+            onPress={onClear}
+            style={[
+              styles.clearButton,
+              { backgroundColor: colors.bg, borderColor: "transparent" },
+            ]}
+          >
+            <CloseIcon color={colors.muted} size={18} />
+          </Pressable>
+        )}
+      </View>
+    );
+
+    if (!hasSheetContent) {
+      return (
+        <View
+          style={[
+            styles.compactBar,
+            {
+              backgroundColor: colors.surface,
+              borderColor: colors.rule,
+              paddingBottom: Math.max(12, insets.bottom + 8),
+            },
+          ]}
+        >
+          {renderFieldsRow()}
+          {from !== "" && to !== "" && from === to && (
+            <Text style={[styles.sameHint, txt, { color: colors.muted }]}>
+              {t("hintSame")}
+            </Text>
+          )}
+        </View>
+      );
+    }
+
+    return (
+      <BottomSheet
+        ref={ref}
+        index={activeField ? 0 : 1}
+        snapPoints={snapPoints}
+        onChange={handleChange}
+        enablePanDownToClose={Boolean(activeField)}
+        keyboardBehavior="extend"
+        keyboardBlurBehavior="restore"
+        backgroundStyle={{
+          backgroundColor: colors.surface,
+          borderTopLeftRadius: 24,
+          borderTopRightRadius: 24,
+          borderWidth: 1,
+          borderColor: colors.rule,
+        }}
+        handleIndicatorStyle={{
+          backgroundColor: colors.muted,
+          width: 40,
+          height: 4,
+        }}
+      >
+        <View style={styles.peekHeader}>
+          {renderFieldsRow()}
+
+          {activeRoute && !activeField && (
+            <View style={[styles.quickSummaryRow, rowDir]}>
+              <Text style={[styles.quickTime, txtBold]}>
+                {t("minRange", {
+                  a: activeRoute.time,
+                  b: activeRoute.timeMax,
+                })}
+              </Text>
+              <Text style={[styles.quickMeta, txt, { color: colors.muted }]}>
+                {formatTransfers(engine, activeRoute.xf)} ·{" "}
+                {formatMoney(language, activeRoute.rides ? engine.fares.std : 0)}
+              </Text>
+            </View>
+          )}
+        </View>
+
+        <BottomSheetScrollView
+          contentContainerStyle={styles.sheetContent}
+          keyboardShouldPersistTaps="handled"
+        >
+          {activeField ? (
+            <SearchView
+              engine={engine}
+              language={language}
+              rtl={rtl}
+              theme={theme}
+              activeField={activeField}
+              query={searchQuery}
+              onChangeQuery={onChangeSearchQuery}
+              onSelectToken={onSelectSearchToken}
+              onSelectTrip={onSelectTrip}
+              onUseLocation={onUseLocation}
+              onCloseSearch={onCloseSearch}
+              recent={recent}
+            />
+          ) : activeRoute ? (
+            <RouteSheetContent
+              engine={engine}
+              language={language}
+              rtl={rtl}
+              theme={theme}
+              from={from}
+              to={to}
+              routes={routes}
+              selectedOption={selectedOption}
+              onSelectOption={onSelectOption}
+              departMs={departMs}
+              customDepartMs={customDepartMs}
+              onChangeCustomDepartMs={onChangeCustomDepartMs}
+              isSaved={isCurrentRouteSaved}
+              onToggleSave={onToggleSaveRoute}
+              onShare={onShareRoute}
+            />
+          ) : null}
+        </BottomSheetScrollView>
+      </BottomSheet>
+    );
+  },
+);
+
+const styles = StyleSheet.create({
+  compactBar: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    paddingTop: 12,
+    paddingHorizontal: 14,
+    borderTopLeftRadius: 22,
+    borderTopRightRadius: 22,
+    borderTopWidth: 1,
+    gap: 6,
+    elevation: 8,
+    shadowColor: "#000",
+    shadowOpacity: 0.14,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: -2 },
+  },
+  sameHint: {
+    fontSize: 13,
+    paddingHorizontal: 4,
+  },
+  peekHeader: {
+    paddingHorizontal: 14,
+    paddingBottom: 10,
+    gap: 8,
+  },
+  fieldsRow: {
+    alignItems: "center",
+    gap: 6,
+  },
+  fieldBox: {
+    flex: 1,
+    minHeight: 46,
+    borderRadius: 14,
+    borderWidth: 1.5,
+    paddingHorizontal: 10,
+    alignItems: "center",
+    gap: 8,
+  },
+  fieldDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  fieldText: {
+    flex: 1,
+    fontSize: 14,
+  },
+  swapButton: {
+    width: 40,
+    height: 46,
+    borderRadius: 12,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  swapIcon: {
+    fontSize: 17,
+    fontWeight: "700",
+  },
+  clearButton: {
+    width: 36,
+    height: 46,
+    borderRadius: 12,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  clearIcon: {
+    fontSize: 14,
+    fontWeight: "700",
+  },
+  quickSummaryRow: {
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 4,
+  },
+  quickTime: {
+    fontSize: 16,
+    fontWeight: "700",
+  },
+  quickMeta: {
+    fontSize: 13,
+  },
+  sheetContent: {
+    paddingHorizontal: 14,
+    paddingBottom: 32,
+  },
+});
+
+export default BottomPanel;
