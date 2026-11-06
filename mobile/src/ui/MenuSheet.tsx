@@ -32,7 +32,7 @@ export interface SavedTrip {
 }
 
 export type MenuSection = "language" | "saved" | "about";
-type OpenSection = "saved" | "recent" | "language" | "about" | null;
+type OpenSection = "saved" | "recent" | "language" | "about" | "feedback" | null;
 
 export interface MenuSheetProps {
   visible: boolean;
@@ -291,16 +291,17 @@ export default function MenuSheet({
                   </View>
                 ) : null}
                 {divider}
-                <Pressable
-                  accessibilityRole="link"
-                  onPress={openFeedbackEmail}
-                  style={[styles.row, rowDir]}
-                >
-                  <Text style={[styles.rowTitle, txtBold]}>{s.feedbackLabel}</Text>
-                  <Text style={[styles.rowValue, { color: colors.accent }]} numberOfLines={1}>
-                    {FEEDBACK_EMAIL}
-                  </Text>
-                </Pressable>
+                {/* the address stays folded away until the row is opened */}
+                {row("feedback", s.feedbackLabel, null)}
+                {open === "feedback" ? (
+                  <View style={styles.panel}>
+                    <Pressable accessibilityRole="link" onPress={openFeedbackEmail} hitSlop={6}>
+                      <Text style={[styles.aboutBody, txt, { color: colors.accent }]}>
+                        {FEEDBACK_EMAIL}
+                      </Text>
+                    </Pressable>
+                  </View>
+                ) : null}
               </View>
 
               <Text style={[styles.metaText, { color: colors.muted }]}>
