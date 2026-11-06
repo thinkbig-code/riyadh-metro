@@ -11,6 +11,7 @@ import {
   Pressable,
   ScrollView,
   StyleSheet,
+  Switch,
   Text,
   UIManager,
   View,
@@ -32,7 +33,7 @@ export interface SavedTrip {
 }
 
 export type MenuSection = "language" | "saved" | "about";
-type OpenSection = "saved" | "recent" | "language" | "about" | "feedback" | null;
+type OpenSection = "saved" | "recent" | "settings" | "about" | "feedback" | null;
 
 export interface MenuSheetProps {
   visible: boolean;
@@ -45,6 +46,13 @@ export interface MenuSheetProps {
   recent: SavedTrip[];
   onSelectTrip: (trip: SavedTrip) => void;
   onRemoveFavourite: (trip: SavedTrip) => void;
+  onClearRecent: () => void;
+  themePref: "auto" | "light" | "dark";
+  onChangeThemePref: (v: "auto" | "light" | "dark") => void;
+  mapLabels: "auto" | "en" | "ar";
+  onChangeMapLabels: (v: "auto" | "en" | "ar") => void;
+  quickTap: boolean;
+  onChangeQuickTap: (v: boolean) => void;
   theme: AppTheme;
   rtl: boolean;
 }
@@ -67,6 +75,13 @@ export default function MenuSheet({
   recent,
   onSelectTrip,
   onRemoveFavourite,
+  onClearRecent,
+  themePref,
+  onChangeThemePref,
+  mapLabels,
+  onChangeMapLabels,
+  quickTap,
+  onChangeQuickTap,
   theme,
   rtl,
 }: MenuSheetProps) {
@@ -200,6 +215,39 @@ export default function MenuSheet({
 
   const divider = <View style={[styles.divider, { backgroundColor: colors.rule }]} />;
 
+  // minimal choice: plain words, the chosen one in the accent colour with a thin underline
+  function choices<T extends string>(
+    options: { value: T; label: string }[],
+    value: T,
+    onChange: (v: T) => void,
+  ) {
+    return (
+      <View style={[styles.choiceRow, rowDir]}>
+        {options.map((o) => {
+          const on = o.value === value;
+          return (
+            <Pressable
+              key={o.value}
+              accessibilityRole="button"
+              accessibilityState={{ selected: on }}
+              onPress={() => onChange(o.value)}
+              hitSlop={6}
+              style={[styles.choice, { borderBottomColor: on ? colors.accent : "transparent" }]}
+            >
+              <Text style={[styles.choiceText, { color: on ? colors.accent : colors.muted }, on && styles.choiceOn]}>
+                {o.label}
+              </Text>
+            </Pressable>
+          );
+        })}
+      </View>
+    );
+  }
+
+  const settingLabel = (label: string) => (
+    <Text style={[styles.settingLabel, txt, { color: colors.muted }]}>{label}</Text>
+  );
+
   return (
     <Modal visible={mounted} animationType="fade" transparent onRequestClose={animateClose}>
       <View style={styles.backdrop}>
@@ -227,82 +275,100 @@ export default function MenuSheet({
             </View>
 
             <ScrollView style={styles.body} contentContainerStyle={styles.bodyContent}>
-              <View style={[styles.group, { backgroundColor: colors.bg, borderColor: colors.rule }]}>
-                {row("saved", s.savedTrips, favourites.length ? String(favourites.length) : null)}
-                {open === "saved" ? (
-                  <View style={styles.panel}>
-                    {favourites.length === 0 ? (
-                      <Text style={[styles.emptyText, txt, { color: colors.muted }]}>{s.noSavedTrips}</Text>
-                    ) : (
-                      favourites.map((trip) => tripRow(trip, true))
+              {row("saved", s.savedTrips, favourites.length ? String(favourites.length) : null)}
+              {open === "saved" ? (
+                <View style={styles.panel}>
+                  {favourites.length === 0 ? (
+                    <Text style={[styles.emptyText, txt, { color: colors.muted }]}>{s.noSavedTrips}</Text>
+                  ) : (
+                    favourites.map((trip) => tripRow(trip, true))
+                  )}
+                </View>
+              ) : null}
+              {divider}
+              {row("recent", s.recentTrips, null)}
+              {open === "recent" ? (
+                <View style={styles.panel}>
+                  {recent.length === 0 ? (
+                    <Text style={[styles.emptyText, txt, { color: colors.muted }]}>{s.noRecentTrips}</Text>
+                  ) : (
+                    <>
+                      {recent.slice(0, 5).map((trip) => tripRow(trip, false))}
+                      <Pressable accessibilityRole="button" onPress={onClearRecent} hitSlop={6} style={styles.textButton}>
+                        <Text style={[styles.textButtonLabel, txt, { color: colors.muted }]}>{s.clearHistory}</Text>
+                      </Pressable>
+                    </>
+                  )}
+                </View>
+              ) : null}
+              {divider}
+              {row("settings", s.settings, null)}
+              {open === "settings" ? (
+                <View style={[styles.panel, { gap: 14 }]}>
+                  <View>
+                    {settingLabel(s.languageTitle)}
+                    {choices(
+                      engine.languages.map((l) => ({ value: l.code, label: l.native })),
+                      language,
+                      onSelectLanguage,
                     )}
                   </View>
-                ) : null}
-                {divider}
-                {row("recent", s.recentTrips, null)}
-                {open === "recent" ? (
-                  <View style={styles.panel}>
-                    {recent.length === 0 ? (
-                      <Text style={[styles.emptyText, txt, { color: colors.muted }]}>{s.noRecentTrips}</Text>
-                    ) : (
-                      recent.slice(0, 5).map((trip) => tripRow(trip, false))
+                  <View>
+                    {settingLabel(s.mapLabels)}
+                    {choices(
+                      [
+                        { value: "auto" as const, label: s.sameAsApp },
+                        { value: "en" as const, label: "English" },
+                        { value: "ar" as const, label: "العربية" },
+                      ],
+                      mapLabels,
+                      onChangeMapLabels,
                     )}
                   </View>
-                ) : null}
-              </View>
-
-              <View style={[styles.group, { backgroundColor: colors.bg, borderColor: colors.rule }]}>
-                {row("language", s.languageTitle, currentLanguage)}
-                {open === "language" ? (
-                  <View style={[styles.panel, styles.langGrid, rowDir]}>
-                    {engine.languages.map((lang) => {
-                      const selected = lang.code === language;
-                      return (
-                        <Pressable
-                          key={lang.code}
-                          accessibilityRole="button"
-                          accessibilityState={{ selected }}
-                          onPress={() => onSelectLanguage(lang.code)}
-                          style={[
-                            styles.langChip,
-                            {
-                              backgroundColor: selected ? colors.accent : colors.surface,
-                              borderColor: selected ? colors.accent : colors.rule,
-                            },
-                          ]}
-                        >
-                          <Text style={[styles.langChipText, { color: selected ? "#FFFFFF" : colors.fg }]}>
-                            {lang.native}
-                          </Text>
-                        </Pressable>
-                      );
-                    })}
+                  <View>
+                    {settingLabel(s.theme)}
+                    {choices(
+                      [
+                        { value: "auto" as const, label: s.themeAuto },
+                        { value: "light" as const, label: s.themeLight },
+                        { value: "dark" as const, label: s.themeDark },
+                      ],
+                      themePref,
+                      onChangeThemePref,
+                    )}
                   </View>
-                ) : null}
-              </View>
-
-              <View style={[styles.group, { backgroundColor: colors.bg, borderColor: colors.rule }]}>
-                {row("about", s.aboutTitle, null)}
-                {open === "about" ? (
-                  <View style={styles.panel}>
-                    <Text style={[styles.aboutBody, txt]}>{s.unofficialDisclaimer}</Text>
-                    <Text style={[styles.aboutHeading, txtBold]}>{s.dataCreditsTitle}</Text>
-                    <Text style={[styles.aboutBody, txt, { color: colors.muted }]}>{s.dataCreditsBody}</Text>
+                  <View style={[styles.switchRow, rowDir]}>
+                    <View style={{ flex: 1 }}>
+                      <Text style={[styles.switchTitle, txt]}>{s.quickTap}</Text>
+                      <Text style={[styles.switchHint, txt, { color: colors.muted }]}>{s.quickTapHint}</Text>
+                    </View>
+                    <Switch
+                      value={quickTap}
+                      onValueChange={onChangeQuickTap}
+                      trackColor={{ false: colors.rule, true: colors.accent }}
+                      thumbColor="#FFFFFF"
+                    />
                   </View>
-                ) : null}
-                {divider}
-                {/* the address stays folded away until the row is opened */}
-                {row("feedback", s.feedbackLabel, null)}
-                {open === "feedback" ? (
-                  <View style={styles.panel}>
-                    <Pressable accessibilityRole="link" onPress={openFeedbackEmail} hitSlop={6}>
-                      <Text style={[styles.aboutBody, txt, { color: colors.accent }]}>
-                        {FEEDBACK_EMAIL}
-                      </Text>
-                    </Pressable>
-                  </View>
-                ) : null}
-              </View>
+                </View>
+              ) : null}
+              {divider}
+              {row("about", s.aboutTitle, null)}
+              {open === "about" ? (
+                <View style={styles.panel}>
+                  <Text style={[styles.aboutBody, txt]}>{s.unofficialDisclaimer}</Text>
+                  <Text style={[styles.aboutBody, txt, { color: colors.muted }]}>{s.dataCreditsBody}</Text>
+                </View>
+              ) : null}
+              {divider}
+              {/* the address stays folded away until the row is opened */}
+              {row("feedback", s.feedbackLabel, null)}
+              {open === "feedback" ? (
+                <View style={styles.panel}>
+                  <Pressable accessibilityRole="link" onPress={openFeedbackEmail} hitSlop={6}>
+                    <Text style={[styles.aboutBody, txt, { color: colors.accent }]}>{FEEDBACK_EMAIL}</Text>
+                  </Pressable>
+                </View>
+              ) : null}
 
               <Text style={[styles.metaText, { color: colors.muted }]}>
                 {s.versionLabel} {APP_VERSION} · {s.dataDateLabel} {DATA_DATE} ({MAP_GEOMETRY.sourceSha256.slice(0, 7)})
@@ -368,7 +434,6 @@ const styles = StyleSheet.create({
     flexGrow: 0,
   },
   bodyContent: {
-    gap: 12,
     paddingBottom: 12,
   },
   group: {
@@ -377,15 +442,15 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   row: {
-    minHeight: 56,
+    minHeight: 54,
     alignItems: "center",
     justifyContent: "space-between",
-    paddingHorizontal: 16,
+    paddingHorizontal: 4,
     gap: 12,
   },
   rowTitle: {
-    fontSize: 16,
-    fontWeight: "600",
+    fontSize: 17,
+    fontWeight: "500",
   },
   rowEnd: {
     alignItems: "center",
@@ -398,12 +463,48 @@ const styles = StyleSheet.create({
   },
   divider: {
     height: StyleSheet.hairlineWidth,
-    marginHorizontal: 16,
   },
   panel: {
-    paddingHorizontal: 16,
-    paddingBottom: 14,
+    paddingHorizontal: 4,
+    paddingBottom: 16,
     gap: 8,
+  },
+  choiceRow: {
+    flexWrap: "wrap",
+    columnGap: 18,
+    rowGap: 6,
+    marginTop: 6,
+  },
+  choice: {
+    paddingVertical: 4,
+    borderBottomWidth: 2,
+  },
+  choiceText: {
+    fontSize: 15,
+  },
+  choiceOn: {
+    fontWeight: "700",
+  },
+  settingLabel: {
+    fontSize: 13,
+  },
+  switchRow: {
+    alignItems: "center",
+    gap: 12,
+  },
+  switchTitle: {
+    fontSize: 15,
+  },
+  switchHint: {
+    fontSize: 13,
+    marginTop: 2,
+  },
+  textButton: {
+    paddingVertical: 6,
+  },
+  textButtonLabel: {
+    fontSize: 14,
+    textDecorationLine: "underline",
   },
   langGrid: {
     flexWrap: "wrap",

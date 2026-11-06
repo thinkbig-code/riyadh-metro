@@ -4,7 +4,7 @@ import { SwapIcon } from "./Icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import type { MetroEngine, Route } from "../core/metro";
-import { formatTransfers } from "../i18n";
+import { formatTransfers, getAppStrings } from "../i18n";
 import { AppTheme, directionalRow, directionalText } from "../theme";
 import type { SavedTrip } from "./MenuSheet";
 import RouteSheetContent from "./RouteSheetContent";
@@ -76,6 +76,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
     const insets = useSafeAreaInsets();
     const { colors } = theme;
     const t = engine.text;
+    const s = getAppStrings(language);
     const txt = directionalText(rtl, theme, false);
     const txtBold = directionalText(rtl, theme, true);
     const rowDir = directionalRow(rtl);
@@ -143,7 +144,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               { color: from ? colors.fg : colors.muted },
             ]}
           >
-            {from ? engine.name(from) : t("phFrom")}
+            {from ? engine.name(from) : s.fieldFrom}
           </Text>
         </Pressable>
 
@@ -191,7 +192,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               { color: to ? colors.fg : colors.muted },
             ]}
           >
-            {to ? engine.name(to) : t("phTo")}
+            {to ? engine.name(to) : s.fieldTo}
           </Text>
         </Pressable>
 

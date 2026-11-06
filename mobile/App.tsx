@@ -41,10 +41,16 @@ import LaunchIntro from "./src/ui/LaunchIntro";
 const STORAGE_KEY = "riyadh-metro.preferences.v1";
 const SITE_LANGUAGES = createMetroEngine().languages.map((l) => l.code);
 
+type ThemePref = "auto" | "light" | "dark";
+type MapLabelsPref = "auto" | "en" | "ar";
+
 interface StoredPreferences {
   language: string;
   favourites: SavedTrip[];
   recent: SavedTrip[];
+  themePref: ThemePref;
+  mapLabels: MapLabelsPref;
+  quickTap: boolean;
 }
 
 function sameTrip(a: SavedTrip, b: SavedTrip): boolean {
@@ -54,7 +60,11 @@ function sameTrip(a: SavedTrip, b: SavedTrip): boolean {
 function AppShell() {
   const insets = useSafeAreaInsets();
   const { height: windowHeight } = useWindowDimensions();
-  const themeMode = useSystemThemeMode();
+  const systemThemeMode = useSystemThemeMode();
+  const [themePref, setThemePref] = useState<ThemePref>("auto");
+  const [mapLabels, setMapLabels] = useState<MapLabelsPref>("auto");
+  const [quickTap, setQuickTap] = useState<boolean>(false);
+  const themeMode = themePref === "auto" ? systemThemeMode : themePref;
 
   // first launch: the phone's language when the site has it (8 languages), else Arabic
   const [language, setLanguage] = useState<string>(() => {
@@ -140,6 +150,13 @@ function AppShell() {
                 )
                 .slice(0, 50)
             : [];
+        if (parsed.themePref === "light" || parsed.themePref === "dark") {
+          setThemePref(parsed.themePref);
+        }
+        if (parsed.mapLabels === "en" || parsed.mapLabels === "ar") {
+          setMapLabels(parsed.mapLabels);
+        }
+        if (parsed.quickTap === true) setQuickTap(true);
         setFavourites(sanitizeTrips(parsed.favourites));
         setRecent(sanitizeTrips(parsed.recent));
       })
@@ -152,7 +169,14 @@ function AppShell() {
 
   useEffect(() => {
     if (!hydrated || !storageHealthy.current) return;
-    const payload = JSON.stringify({ language, favourites, recent });
+    const payload = JSON.stringify({
+      language,
+      favourites,
+      recent,
+      themePref,
+      mapLabels,
+      quickTap,
+    });
     writeQueue.current = writeQueue.current
       .then(() => AsyncStorage.setItem(STORAGE_KEY, payload))
       .catch(() => {
@@ -160,7 +184,17 @@ function AppShell() {
           Alert.alert(s.generalError, s.storageError);
         }
       });
-  }, [favourites, hydrated, language, recent, s.generalError, s.storageError]);
+  }, [
+    favourites,
+    hydrated,
+    language,
+    mapLabels,
+    quickTap,
+    recent,
+    s.generalError,
+    s.storageError,
+    themePref,
+  ]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -250,12 +284,29 @@ function AppShell() {
     return () => sub.remove();
   }, [activeField, activeRoute, from, menuOpen, selectedStationId, sheetIndex, to]);
 
-  const handleStationPress = useCallback((stationId: string) => {
-    Keyboard.dismiss();
-    setActiveField(null);
-    setSearchQuery("");
-    setSelectedStationId((prev) => (prev === stationId ? null : stationId));
-  }, []);
+  // quick mode: the first tap on the map sets From, the second sets To, a third starts over
+  const tripRef = useRef({ from: "", to: "" });
+  tripRef.current = { from, to };
+  const handleStationPress = useCallback(
+    (stationId: string) => {
+      Keyboard.dismiss();
+      setActiveField(null);
+      setSearchQuery("");
+      if (quickTap) {
+        const cur = tripRef.current;
+        setSelectedStationId(null);
+        if (!cur.from || cur.to) {
+          setFrom(stationId);
+          setTo("");
+        } else if (stationId !== cur.from) {
+          setTo(stationId);
+        }
+        return;
+      }
+      setSelectedStationId((prev) => (prev === stationId ? null : stationId));
+    },
+    [quickTap],
+  );
 
   const handleLocate = useCallback(async () => {
     setLocating(true);
@@ -394,7 +445,7 @@ function AppShell() {
       <MetroMap
         ref={mapRef}
         theme={theme.mode}
-        language={language}
+        language={mapLabels === "auto" ? language : mapLabels}
         selected={selectedStationId}
         route={activeRoute}
         onStationPress={handleStationPress}
@@ -562,6 +613,13 @@ function AppShell() {
         onRemoveFavourite={(trip) =>
           setFavourites((prev) => prev.filter((item) => !sameTrip(item, trip)))
         }
+        onClearRecent={() => setRecent([])}
+        themePref={themePref}
+        onChangeThemePref={setThemePref}
+        mapLabels={mapLabels}
+        onChangeMapLabels={setMapLabels}
+        quickTap={quickTap}
+        onChangeQuickTap={setQuickTap}
         theme={theme}
         rtl={rtl}
       />
@@ -601,7 +659,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 14,
     right: 14,
-    justifyContent: "flex-start",
+    justifyContent: "flex-end",
   },
   sideButtonsWrap: {
     position: "absolute",
