@@ -416,12 +416,12 @@ export default function RouteSheetContent({
           onPress={onShare}
           style={[
             styles.actionBtn,
-            { backgroundColor: colors.accent, borderColor: colors.accent },
+            { borderColor: colors.rule },
           ]}
         >
           <View style={[styles.saveInner, rowDir]}>
-            <ShareIcon color="#FFFFFF" />
-            <Text style={[styles.actionBtnText, { color: "#FFFFFF" }]}>
+            <ShareIcon color={colors.accent} size={17} />
+            <Text style={[styles.actionBtnText, { color: colors.accent }]}>
               {t("shareRoute")}
             </Text>
           </View>
@@ -433,13 +433,12 @@ export default function RouteSheetContent({
           style={[
             styles.actionBtn,
             {
-              backgroundColor: isSaved ? colors.bg : colors.surface,
               borderColor: isSaved ? colors.accent : colors.rule,
             },
           ]}
         >
           <View style={[styles.saveInner, rowDir]}>
-            <StarIcon color={isSaved ? colors.accent : colors.fg} filled={isSaved} />
+            <StarIcon color={isSaved ? colors.accent : colors.fg} filled={isSaved} size={17} />
             <Text
               style={[
                 styles.actionBtnText,
@@ -596,7 +595,7 @@ const styles = StyleSheet.create({
   },
   saveInner: {
     alignItems: "center",
-    gap: 8,
+    gap: 6,
   },
   warningBanner: {
     padding: 12,
@@ -769,18 +768,18 @@ const styles = StyleSheet.create({
     gap: 10,
     marginTop: 4,
   },
+  // small outline pills: the actions stay findable without dominating the sheet
   actionBtn: {
-    flex: 1,
-    minHeight: 46,
-    borderRadius: 14,
+    minHeight: 36,
+    borderRadius: 18,
     borderWidth: 1,
     alignItems: "center",
     justifyContent: "center",
-    paddingHorizontal: 12,
+    paddingHorizontal: 14,
   },
   actionBtnText: {
     fontSize: 14,
-    fontWeight: "700",
+    fontWeight: "600",
   },
   modalBackdrop: {
     flex: 1,
