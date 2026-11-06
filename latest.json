@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-06T02:49:35Z",
+ "generated": "2026-11-06T11:30:12Z",
  "start": "2026-10-07",
  "end": "2026-11-07",
  "total": {
-  "total": 3832,
-  "total_events": 1737,
-  "total_utc": 3831,
+  "total": 3843,
+  "total_events": 1744,
+  "total_utc": 3842,
   "stats": [
    {
     "day": "2026-10-07",
@@ -792,7 +792,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 403
+    "monthly": 414
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 55,
-    "weekly": 139
+    "weekly": 150
    },
    {
     "day": "2026-11-05",
@@ -925,15 +925,15 @@
      1,
      0,
      0,
+     1,
      0,
      0,
      0,
      0,
      0,
      0,
-     0,
-     0,
-     0,
+     2,
+     8,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 12
    },
    {
     "day": "2026-11-07",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 758,
+   "count": 759,
    "daily": {
     "2026-10-07": 29,
     "2026-10-08": 157,
@@ -1014,7 +1014,8 @@
     "2026-11-02": 6,
     "2026-11-03": 10,
     "2026-11-04": 6,
-    "2026-11-05": 15
+    "2026-11-05": 15,
+    "2026-11-06": 1
    }
   },
   {
@@ -1022,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 586,
+   "count": 587,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -1052,7 +1053,8 @@
     "2026-11-02": 3,
     "2026-11-03": 5,
     "2026-11-04": 2,
-    "2026-11-05": 11
+    "2026-11-05": 11,
+    "2026-11-06": 1
    }
   },
   {
@@ -1296,6 +1298,25 @@
    }
   },
   {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 18,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 4,
+    "2026-10-24": 1,
+    "2026-10-31": 2,
+    "2026-11-01": 3,
+    "2026-11-02": 3,
+    "2026-11-05": 1,
+    "2026-11-06": 1
+   }
+  },
+  {
    "path": "/ar/nearest-station",
    "path_id": 112000992,
    "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
@@ -1312,24 +1333,6 @@
     "2026-11-01": 4,
     "2026-11-04": 1,
     "2026-11-05": 3
-   }
-  },
-  {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
-   "count": 17,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-15": 4,
-    "2026-10-24": 1,
-    "2026-10-31": 2,
-    "2026-11-01": 3,
-    "2026-11-02": 3,
-    "2026-11-05": 1
    }
   },
   {
@@ -3572,6 +3575,18 @@
    }
   },
   {
+   "path": "station/tuwaiq/from",
+   "path_id": 110439978,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-22": 1,
+    "2026-11-06": 1
+   }
+  },
+  {
    "path": "station/mof/to",
    "path_id": 110415608,
    "title": "en|name",
@@ -4468,6 +4483,17 @@
    }
   },
   {
+   "path": "/districts/al-ezdihar",
+   "path_id": 112349150,
+   "title": "Nearest Metro Station to Al Ezdihar, Riyadh: Granada, 1.4 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-11-06": 1
+   }
+  },
+  {
    "path": "geo/ok/salam",
    "path_id": 112324898,
    "title": "en",
@@ -4519,6 +4545,17 @@
    "daily": {
     "2026-10-15": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "station/t12/to",
+   "path_id": 112076529,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-11-06": 1
    }
   },
   {
@@ -5037,14 +5074,14 @@
    }
   },
   {
-   "path": "station/tuwaiq/from",
-   "path_id": 110439978,
+   "path": "place/p_dr_sulaiman_al_habib_hospital/to",
+   "path_id": 110438650,
    "title": "en|name",
    "event": true,
    "count": 2,
    "daily": {
     "2026-10-08": 1,
-    "2026-10-22": 1
+    "2026-11-06": 1
    }
   },
   {
@@ -5313,6 +5350,46 @@
    "daily": {
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/tuwaiq/t12",
+   "path_id": 119527021,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-06": 1
+   }
+  },
+  {
+   "path": "view/tuwaiq/p_dr_sulaiman_al_habib_hospital",
+   "path_id": 119526489,
+   "title": "ar|details",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-06": 1
+   }
+  },
+  {
+   "path": "route/tuwaiq/p_dr_sulaiman_al_habib_hospital",
+   "path_id": 119526394,
+   "title": "ar|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-06": 1
+   }
+  },
+  {
+   "path": "/ar/stations/manfouhah",
+   "path_id": 119519561,
+   "title": "محطة منفوحة، مترو الرياض: المسار الأزرق (رقم 21)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-06": 1
    }
   },
   {
@@ -8426,16 +8503,6 @@
    }
   },
   {
-   "path": "/districts/al-ezdihar",
-   "path_id": 112349150,
-   "title": "Nearest Metro Station to Al Ezdihar, Riyadh: Granada, 1.4 km",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-16": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-amal",
    "path_id": 112348497,
    "title": "أقرب محطة مترو لحي العمل في الرياض: محطة المتحف الوطني، 0.9 كم",
@@ -8789,16 +8856,6 @@
    "path": "route/malaz/t12",
    "path_id": 112076530,
    "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-14": 1
-   }
-  },
-  {
-   "path": "station/t12/to",
-   "path_id": 112076529,
-   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -11886,16 +11943,6 @@
    }
   },
   {
-   "path": "place/p_dr_sulaiman_al_habib_hospital/to",
-   "path_id": 110438650,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
    "path": "route/p_king_khalid_airport_terminals_1_2/owd",
    "path_id": 110437653,
    "title": "en|search|ok",
@@ -13008,9 +13055,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2095,
-  "events_total": 1737,
-  "goatcounter_total_with_events": 3832,
+  "visits": 2099,
+  "events_total": 1744,
+  "goatcounter_total_with_events": 3843,
   "page_loads_by_day": {
    "2026-10-07": 34,
    "2026-10-08": 167,
@@ -13042,7 +13089,7 @@
    "2026-11-03": 42,
    "2026-11-04": 49,
    "2026-11-05": 54,
-   "2026-11-06": 1
+   "2026-11-06": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13073,14 +13120,15 @@
    "2026-11-02": 6,
    "2026-11-03": 10,
    "2026-11-04": 5,
-   "2026-11-05": 16
+   "2026-11-05": 16,
+   "2026-11-06": 1
   },
-  "visitor_days": 681,
-  "return_rate": 0.14,
-  "routes": 459,
+  "visitor_days": 682,
+  "return_rate": 0.139,
+  "routes": 461,
   "routes_not_found": 0,
   "routes_per_visit": 0.22,
-  "routes_per_visitor_day": 0.64,
+  "routes_per_visitor_day": 0.65,
   "share_rate": 0.028,
   "shares": {
    "whatsapp": 4,
@@ -13192,7 +13240,7 @@
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 586,
+   "new": 587,
    "return": 95
   },
   "top_routes": [
@@ -13329,16 +13377,16 @@
     "count": 12
    },
    {
+    "name": "t12",
+    "count": 11
+   },
+   {
     "name": "p_kingdom_centre",
     "count": 11
    },
    {
     "name": "sab",
     "count": 11
-   },
-   {
-    "name": "kfl",
-    "count": 10
    }
   ]
  },
@@ -13346,7 +13394,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 494
+    "count": 495
    },
    {
     "name": "tiktok_ad",
@@ -13629,6 +13677,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 14
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 4
+   }
+  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
@@ -13657,16 +13715,6 @@
    {
     "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
     "count": 1
-   }
-  ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 14
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 3
    }
   ],
   "/ar/districts/al-rawdah": [
@@ -14284,7 +14332,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 494
+    "count": 495
    },
    {
     "path": "/ar/map",
@@ -14307,6 +14355,10 @@
     "count": 4
    },
    {
+    "path": "/ar/districts/qurtubah",
+    "count": 4
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 4
    },
@@ -14320,10 +14372,6 @@
    },
    {
     "path": "/ar/nearest-station",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/qurtubah",
     "count": 3
    },
    {
@@ -15227,7 +15275,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1794,
+   "count": 1803,
    "ref_scheme": "o"
   },
   {
@@ -15245,7 +15293,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 185,
+   "count": 187,
    "ref_scheme": "c"
   },
   {
@@ -15529,12 +15577,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2704
+   "count": 2714
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1022
+   "count": 1023
   },
   {
    "id": "(unknown)",
@@ -15606,7 +15654,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3261
+   "count": 3272
   },
   {
    "id": "AE",
@@ -15858,7 +15906,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3136
+   "count": 3147
   },
   {
    "id": "tablet",
@@ -15885,12 +15933,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2012
+   "count": 2013
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1736
+   "count": 1746
   },
   {
    "name": "",
@@ -15906,12 +15954,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1723
+   "count": 1733
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1450
+   "count": 1451
   },
   {
    "id": "Windows",
