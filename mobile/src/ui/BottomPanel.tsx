@@ -121,12 +121,8 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
             rowDir,
             {
               backgroundColor: colors.bg,
-              borderColor:
-                activeField === "from"
-                  ? colors.accent
-                  : from
-                    ? colors.accent
-                    : colors.rule,
+              // a coloured outline only while the field is being edited; the dot says which is which
+              borderColor: activeField === "from" ? colors.accent : "transparent",
             },
           ]}
         >
@@ -154,7 +150,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
           onPress={onSwap}
           style={[
             styles.swapButton,
-            { backgroundColor: colors.bg, borderColor: colors.rule },
+            { backgroundColor: colors.bg, borderColor: "transparent" },
           ]}
         >
           <SwapIcon color={colors.fg} />
@@ -169,12 +165,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
             rowDir,
             {
               backgroundColor: colors.bg,
-              borderColor:
-                activeField === "to"
-                  ? colors.danger
-                  : to
-                    ? colors.danger
-                    : colors.rule,
+              borderColor: activeField === "to" ? colors.danger : "transparent",
             },
           ]}
         >
@@ -203,7 +194,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
             onPress={onClear}
             style={[
               styles.clearButton,
-              { backgroundColor: colors.bg, borderColor: colors.rule },
+              { backgroundColor: colors.bg, borderColor: "transparent" },
             ]}
           >
             <CloseIcon color={colors.muted} size={18} />

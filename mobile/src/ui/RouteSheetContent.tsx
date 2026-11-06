@@ -250,24 +250,17 @@ export default function RouteSheetContent({
         </View>
       )}
 
-      <View
-        style={[
-          styles.summaryBanner,
-          rowDir,
-          { backgroundColor: colors.bg, borderColor: colors.rule },
-        ]}
-      >
-        <View style={{ flex: 1, gap: 2 }}>
-          <Text style={[styles.arrivalText, txtBold]}>
-            {s.arrivalLabel}: {arrMinClock} - {arrMaxClock}
-          </Text>
-          <Text style={[styles.fareSub, txt, { color: colors.muted }]}>
-            {route.rides
-              ? `${formatMoney(language, engine.fares.std)} (${s.firstClassLabel}: ${formatMoney(language, engine.fares.first)})`
-              : formatMoney(language, 0)}{" "}
-            · {formatStops(engine, route.stops)}
-          </Text>
-        </View>
+      {/* one quiet line instead of a boxed card: arrival, stops, fares */}
+      <View style={styles.summaryPlain}>
+        <Text style={[styles.arrivalText, txtBold]}>
+          {s.arrivalLabel} {arrMinClock}–{arrMaxClock}
+        </Text>
+        <Text style={[styles.fareSub, txt, { color: colors.muted }]}>
+          {formatStops(engine, route.stops)} ·{" "}
+          {route.rides
+            ? `${formatMoney(language, engine.fares.std)} · ${s.firstClassLabel} ${formatMoney(language, engine.fares.first)}`
+            : formatMoney(language, 0)}
+        </Text>
       </View>
 
       {[from, to].map((tok) => {
@@ -295,6 +288,7 @@ export default function RouteSheetContent({
         );
       })}
 
+      {/* steps as a timeline: a coloured rail per ride, board and leave stations in bold */}
       <View style={styles.timeline}>
         {route.legs.map((leg, i) => {
           if (leg.type === "ride") {
@@ -307,106 +301,65 @@ export default function RouteSheetContent({
             const intermediate = leg.stops.slice(1, -1);
 
             return (
-              <Pressable
-                key={`leg-${i}`}
-                onPress={() => setExpandedLeg(isExpanded ? null : i)}
-                style={[
-                  styles.rideCard,
-                  {
-                    backgroundColor: colors.bg,
-                    borderColor: colors.rule,
-                    borderLeftColor: rtl ? colors.rule : lineHex,
-                    borderRightColor: rtl ? lineHex : colors.rule,
-                    borderLeftWidth: rtl ? 1 : 5,
-                    borderRightWidth: rtl ? 5 : 1,
-                  },
-                ]}
-              >
-                <View style={[styles.rideHeader, rowDir]}>
-                  <View
-                    style={[
-                      styles.lineBadge,
-                      { backgroundColor: lineHex },
-                    ]}
-                  >
-                    <Text
-                      style={[
-                        styles.lineBadgeTxt,
-                        { color: lineBadgeTextColor(lineKey) },
-                      ]}
-                    >
-                      {lineNum}
-                    </Text>
-                  </View>
-                  <View style={{ flex: 1 }}>
-                    <Text style={[styles.rideTitle, txtBold]}>
-                      {engine.lineName(leg.svc)} · {s.towards}{" "}
-                      {engine.direction(leg)}
-                    </Text>
-                    <View style={[styles.stopsSummaryRow, rowDir]}>
-                      <Text
-                        style={[
-                          styles.rideStopsSummary,
-                          txt,
-                          { color: colors.muted },
-                        ]}
-                      >
-                        {formatStops(engine, leg.stops.length - 1)}
-                        {leg.t ? ` · ${formatMinutes(engine, leg.t)}` : ""}
-                      </Text>
-                      {intermediate.length > 0 ? (
-                        <CaretIcon color={colors.muted} up={isExpanded} size={13} />
-                      ) : null}
-                    </View>
-                  </View>
+              <View key={`leg-${i}`} style={[styles.legRow, rowDir]}>
+                <View style={styles.rail}>
+                  <StopDot color={lineHex} ring={false} size={14} />
+                  <View style={[styles.railBar, { backgroundColor: lineHex }]} />
+                  <StopDot color={lineHex} ring size={14} />
                 </View>
-
-                <View style={styles.endpointsWrap}>
-                  <View style={[styles.endpointRow, rowDir]}>
-                    <StopDot color={lineHex} ring={false} />
-                    <Text style={[styles.endpointStation, txtBold]}>
-                      {engine.stationName(firstStop)}
+                <View style={styles.legBody}>
+                  <Text style={[styles.endpointStation, txtBold]}>
+                    {engine.stationName(firstStop)}
+                  </Text>
+                  <View style={[styles.lineRow, rowDir]}>
+                    <View style={[styles.lineBadge, { backgroundColor: lineHex }]}>
+                      <Text style={[styles.lineBadgeTxt, { color: lineBadgeTextColor(lineKey) }]}>
+                        {lineNum}
+                      </Text>
+                    </View>
+                    <Text style={[styles.rideTitle, txt, { flex: 1 }]} numberOfLines={2}>
+                      {s.towards} {engine.direction(leg)}
                     </Text>
                   </View>
+                  <Pressable
+                    disabled={intermediate.length === 0}
+                    onPress={() => setExpandedLeg(isExpanded ? null : i)}
+                    hitSlop={6}
+                    style={[styles.stopsSummaryRow, rowDir]}
+                  >
+                    <Text style={[styles.rideStopsSummary, txt, { color: colors.muted }]}>
+                      {formatStops(engine, leg.stops.length - 1)}
+                      {leg.t ? ` · ${formatMinutes(engine, leg.t)}` : ""}
+                    </Text>
+                    {intermediate.length > 0 ? (
+                      <CaretIcon color={colors.muted} up={isExpanded} size={13} />
+                    ) : null}
+                  </Pressable>
                   {isExpanded &&
                     intermediate.map((sid) => (
-                      <Text
-                        key={sid}
-                        style={[
-                          styles.intermediateStop,
-                          txt,
-                          { color: colors.muted },
-                        ]}
-                      >
-                        · {engine.stationName(sid)}
+                      <Text key={sid} style={[styles.intermediateStop, txt, { color: colors.muted }]}>
+                        {engine.stationName(sid)}
                       </Text>
                     ))}
-                  <View style={[styles.endpointRow, rowDir]}>
-                    <StopDot color={lineHex} ring />
-                    <Text style={[styles.endpointStation, txtBold]}>
-                      {engine.stationName(lastStop)}
-                    </Text>
-                  </View>
+                  <Text style={[styles.endpointStation, txtBold]}>
+                    {engine.stationName(lastStop)}
+                  </Text>
                 </View>
-              </Pressable>
+              </View>
             );
           }
 
+          const atStation = leg.from ? engine.stationName(leg.from) : "";
           return (
-            <View
-              key={`leg-${i}`}
-              style={[
-                styles.xferRow,
-                rowDir,
-                { borderColor: colors.rule },
-              ]}
-            >
+            <View key={`leg-${i}`} style={[styles.legRow, rowDir]}>
+              <View style={styles.rail}>
+                <View style={[styles.railDots, { borderColor: colors.muted }]} />
+              </View>
               <Text style={[styles.xferText, txt, { color: colors.muted }]}>
-                {leg.type === "xfer"
-                  ? formatTransferStepLabel(engine)
+                {leg.type === "xfer" && atStation
+                  ? t("changeAt", { s: atStation })
                   : s.walking}{" "}
-                · {leg.from ? engine.stationName(leg.from) : ""} ·{" "}
-                {formatMinutes(engine, leg.t ?? 3)}
+                · {formatMinutes(engine, leg.t ?? 3)}
               </Text>
             </View>
           );
@@ -592,6 +545,39 @@ const styles = StyleSheet.create({
   container: {
     gap: 12,
   },
+  summaryPlain: {
+    gap: 2,
+  },
+  legRow: {
+    gap: 12,
+  },
+  rail: {
+    width: 14,
+    alignItems: "center",
+    paddingTop: 4,
+    paddingBottom: 4,
+  },
+  railBar: {
+    flex: 1,
+    width: 4,
+    borderRadius: 2,
+    marginVertical: 2,
+  },
+  railDots: {
+    flex: 1,
+    minHeight: 22,
+    borderLeftWidth: 2,
+    borderStyle: "dotted",
+  },
+  legBody: {
+    flex: 1,
+    gap: 6,
+    paddingBottom: 4,
+  },
+  lineRow: {
+    alignItems: "center",
+    gap: 8,
+  },
   stopsSummaryRow: {
     alignItems: "center",
     gap: 4,
@@ -700,11 +686,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   arrivalText: {
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: "700",
   },
   fareSub: {
-    fontSize: 12,
+    fontSize: 13,
   },
   placeNoteBox: {
     padding: 10,
@@ -715,7 +701,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
   },
   timeline: {
-    gap: 8,
+    gap: 6,
   },
   rideCard: {
     padding: 12,
@@ -728,9 +714,9 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   lineBadge: {
-    width: 26,
-    height: 26,
-    borderRadius: 13,
+    width: 22,
+    height: 22,
+    borderRadius: 11,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -740,7 +726,7 @@ const styles = StyleSheet.create({
   },
   rideTitle: {
     fontSize: 14,
-    fontWeight: "700",
+    fontWeight: "500",
   },
   rideStopsSummary: {
     fontSize: 12,
@@ -751,12 +737,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   endpointStation: {
-    fontSize: 14,
-    fontWeight: "600",
+    fontSize: 16,
+    fontWeight: "700",
   },
   intermediateStop: {
     fontSize: 13,
-    paddingHorizontal: 10,
+    paddingHorizontal: 0,
     paddingVertical: 1,
   },
   xferRow: {
@@ -766,7 +752,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   xferText: {
+    flex: 1,
     fontSize: 13,
+    paddingVertical: 8,
   },
   estNote: {
     fontSize: 12,

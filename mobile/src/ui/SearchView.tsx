@@ -222,7 +222,7 @@ export default function SearchView({
             style={[
               styles.locationRow,
               rowDir,
-              { backgroundColor: colors.bg, borderColor: colors.rule },
+              { borderColor: "transparent" },
             ]}
           >
             <LocateIcon color={colors.accent} size={22} />
