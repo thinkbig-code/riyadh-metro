@@ -570,3 +570,8 @@ export function formatPlaceDetails(
   }
   return includeStationPrefix ? stName : "";
 }
+
+// a fare amount the way the site writes it: "4 ريال" in Arabic, "4 SAR" otherwise
+export function formatMoney(language: string, amount: number): string {
+  return language === "ar" ? `${amount} ريال` : `${amount} SAR`;
+}

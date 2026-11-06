@@ -4,7 +4,7 @@ import { CloseIcon, SwapIcon } from "./Icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import type { MetroEngine, Route } from "../core/metro";
-import { formatTransfers, getAppStrings } from "../i18n";
+import { formatMoney, formatTransfers, getAppStrings } from "../i18n";
 import { AppTheme, directionalRow, directionalText } from "../theme";
 import type { SavedTrip } from "./MenuSheet";
 import RouteSheetContent from "./RouteSheetContent";
@@ -269,7 +269,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               </Text>
               <Text style={[styles.quickMeta, txt, { color: colors.muted }]}>
                 {formatTransfers(engine, activeRoute.xf)} ·{" "}
-                {activeRoute.rides ? `${engine.fares.std} SAR` : "0 SAR"}
+                {formatMoney(language, activeRoute.rides ? engine.fares.std : 0)}
               </Text>
             </View>
           )}

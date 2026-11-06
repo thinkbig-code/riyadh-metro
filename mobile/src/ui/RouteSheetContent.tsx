@@ -11,6 +11,7 @@ import { CaretIcon, CloseIcon, StarIcon, StopDot } from "./Icons";
 import type { Leg, MetroEngine, Route } from "../core/metro";
 import {
   formatMinutes,
+  formatMoney,
   formatPlaceDetails,
   formatStops,
   formatTransfers,
@@ -255,8 +256,8 @@ export default function RouteSheetContent({
           </Text>
           <Text style={[styles.fareSub, txt, { color: colors.muted }]}>
             {route.rides
-              ? `${engine.fares.std} SAR (${s.firstClassLabel}: ${engine.fares.first} SAR)`
-              : "0 SAR"}{" "}
+              ? `${formatMoney(language, engine.fares.std)} (${s.firstClassLabel}: ${formatMoney(language, engine.fares.first)})`
+              : formatMoney(language, 0)}{" "}
             · {formatStops(engine, route.stops)}
           </Text>
         </View>

@@ -316,15 +316,22 @@ function AppShell() {
         Alert.alert(t("locBtn"), s.locationError);
         return;
       }
-      const pos = await Location.getCurrentPositionAsync({
-        accuracy: Location.Accuracy.Balanced,
-      });
+      // a recent known position answers at once; otherwise ask for a fresh one
+      const pos =
+        (await Location.getLastKnownPositionAsync({ maxAge: 120000 })) ??
+        (await Location.getCurrentPositionAsync({
+          accuracy: Location.Accuracy.Balanced,
+        }));
       const nearest = engine.nearestStation([
         pos.coords.latitude,
         pos.coords.longitude,
       ]);
       if (nearest && mounted.current) {
-        if (activeField === "to") {
+        // the map button only shows the nearest station (its card offers From here / To here);
+        // "Use my location" in search fills the field being edited
+        if (activeField === null) {
+          setSelectedStationId(nearest.id);
+        } else if (activeField === "to") {
           setTo(nearest.id);
           setActiveField(null);
           setSearchQuery("");
@@ -335,7 +342,6 @@ function AppShell() {
             setSearchQuery("");
           }
         }
-        setSelectedStationId(nearest.id);
         mapRef.current?.focus([nearest.id]);
         if (nearest.d > 1500) {
           Alert.alert(

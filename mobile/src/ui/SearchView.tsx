@@ -27,7 +27,6 @@ export interface SearchViewProps {
   recent: SavedTrip[];
 }
 
-const POPULAR_STATION_IDS = ["kafd", "stc", "museum", "hokm", "t12", "railway"];
 
 export default function SearchView({
   engine,
@@ -56,7 +55,16 @@ export default function SearchView({
     return engine.search(trimmed).slice(0, 60);
   }, [engine, query]);
 
-  const popularPlaces = useMemo(() => engine.places.slice(0, 10), [engine]);
+  // the site's own popular list (the engine returns it for an empty query)
+  const popularPlaces = useMemo(
+    () =>
+      engine
+        .search("")
+        .map((h) => h.place)
+        .filter((p): p is NonNullable<SearchHit["place"]> => Boolean(p))
+        .slice(0, 10),
+    [engine],
+  );
 
   const renderLineBadges = (stationId: string) => {
     const st = STATION_BY_ID[stationId];
@@ -250,24 +258,6 @@ export default function SearchView({
             <Text style={[styles.sectionHeader, txtBold]}>
               {s.popularPlaces}
             </Text>
-            <View style={[styles.chipsGrid, rowDir]}>
-              {POPULAR_STATION_IDS.map((sid) => (
-                <Pressable
-                  key={sid}
-                  onPress={() => onSelectToken(sid)}
-                  style={[
-                    styles.popularChip,
-                    rowDir,
-                    { backgroundColor: colors.bg, borderColor: colors.rule },
-                  ]}
-                >
-                  <Text style={[styles.chipText, txtBold]}>
-                    {engine.stationName(sid)}
-                  </Text>
-                </Pressable>
-              ))}
-            </View>
-
             {popularPlaces.map((pl) => {
               const sub = formatPlaceDetails(engine, pl, true);
               return (
@@ -281,7 +271,7 @@ export default function SearchView({
                   ]}
                 >
                   <View style={styles.resultMain}>
-                    <Text style={[styles.resultTitle, txtBold]}>{pl.n}</Text>
+                    <Text style={[styles.resultTitle, txtBold]}>{engine.name(pl.id)}</Text>
                     {sub !== "" && (
                       <Text
                         style={[styles.placeSub, txt, { color: colors.muted }]}
