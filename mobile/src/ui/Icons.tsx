@@ -106,3 +106,74 @@ export function StarIcon({
     </Svg>
   );
 }
+
+export function CloseIcon({ color, size = 18 }: { color: string; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path d="M6 6l12 12M18 6L6 18" stroke={color} strokeWidth={2.4} strokeLinecap="round" />
+    </Svg>
+  );
+}
+
+// small caret for "open a list": down when closed, up when open
+export function CaretIcon({ color, up, size = 14 }: { color: string; up: boolean; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d={up ? "M6 15l6-6 6 6" : "M6 9l6 6 6-6"}
+        stroke={color}
+        strokeWidth={2.6}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+      />
+    </Svg>
+  );
+}
+
+// metro train front, for station results
+export function TrainIcon({ color, size = 18 }: { color: string; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d="M7 3h10a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3zM6.5 7v4h11V7zM8 21l2-3M16 21l-2-3"
+        stroke={color}
+        strokeWidth={1.9}
+        strokeLinejoin="round"
+        strokeLinecap="round"
+        fill="none"
+      />
+      <Circle cx={8.5} cy={14.5} r={1.2} fill={color} />
+      <Circle cx={15.5} cy={14.5} r={1.2} fill={color} />
+    </Svg>
+  );
+}
+
+// map pin, for places
+export function PinIcon({ color, size = 18 }: { color: string; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24">
+      <Path
+        d="M12 21s-6.5-6.2-6.5-11.2A6.5 6.5 0 0 1 18.5 9.8C18.5 14.8 12 21 12 21z"
+        stroke={color}
+        strokeWidth={1.9}
+        strokeLinejoin="round"
+        fill="none"
+      />
+      <Circle cx={12} cy={9.8} r={2.3} fill={color} />
+    </Svg>
+  );
+}
+
+// timeline marker: filled dot for where you board, ring for where you get off
+export function StopDot({ color, ring, size = 12 }: { color: string; ring: boolean; size?: number }) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 12 12">
+      {ring ? (
+        <Circle cx={6} cy={6} r={4.2} stroke={color} strokeWidth={2.2} fill="none" />
+      ) : (
+        <Circle cx={6} cy={6} r={5} fill={color} />
+      )}
+    </Svg>
+  );
+}

@@ -1,6 +1,6 @@
 import React, { forwardRef, useCallback, useMemo } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { SwapIcon } from "./Icons";
+import { CloseIcon, SwapIcon } from "./Icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import type { MetroEngine, Route } from "../core/metro";
@@ -206,7 +206,7 @@ const BottomPanel = forwardRef<BottomSheet, BottomPanelProps>(
               { backgroundColor: colors.bg, borderColor: colors.rule },
             ]}
           >
-            <Text style={[styles.clearIcon, { color: colors.muted }]}>✕</Text>
+            <CloseIcon color={colors.muted} size={18} />
           </Pressable>
         )}
       </View>

@@ -7,7 +7,7 @@ import {
   Text,
   View,
 } from "react-native";
-import { StarIcon } from "./Icons";
+import { CaretIcon, CloseIcon, StarIcon, StopDot } from "./Icons";
 import type { Leg, MetroEngine, Route } from "../core/metro";
 import {
   formatMinutes,
@@ -161,9 +161,10 @@ export default function RouteSheetContent({
         >
           <Text style={[styles.departChipText, { color: isLeaveNow ? colors.fg : "#FFFFFF" }]}>
             {isLeaveNow
-              ? `${s.leaveNow} ▾`
-              : `${s.leaveLater}: ${formatClock(customDepartMs as number)} ▾`}
+              ? s.leaveNow
+              : `${s.leaveLater}: ${formatClock(customDepartMs as number)}`}
           </Text>
+          <CaretIcon color={isLeaveNow ? colors.fg : "#FFFFFF"} up={false} />
         </Pressable>
         {!isLeaveNow && (
           <Pressable
@@ -173,7 +174,7 @@ export default function RouteSheetContent({
             hitSlop={8}
             style={[styles.departReset, { backgroundColor: colors.bg, borderColor: colors.rule }]}
           >
-            <Text style={{ color: colors.muted, fontWeight: "700" }}>✕</Text>
+            <CloseIcon color={colors.muted} size={14} />
           </Pressable>
         )}
       </View>
@@ -334,24 +335,31 @@ export default function RouteSheetContent({
                       {engine.lineName(leg.svc)} · {s.towards}{" "}
                       {engine.direction(leg)}
                     </Text>
-                    <Text
-                      style={[
-                        styles.rideStopsSummary,
-                        txt,
-                        { color: colors.muted },
-                      ]}
-                    >
-                      {formatStops(engine, leg.stops.length - 1)}
-                      {leg.t ? ` · ${formatMinutes(engine, leg.t)}` : ""}{" "}
-                      {intermediate.length > 0 ? (isExpanded ? "▴" : "▾") : ""}
-                    </Text>
+                    <View style={[styles.stopsSummaryRow, rowDir]}>
+                      <Text
+                        style={[
+                          styles.rideStopsSummary,
+                          txt,
+                          { color: colors.muted },
+                        ]}
+                      >
+                        {formatStops(engine, leg.stops.length - 1)}
+                        {leg.t ? ` · ${formatMinutes(engine, leg.t)}` : ""}
+                      </Text>
+                      {intermediate.length > 0 ? (
+                        <CaretIcon color={colors.muted} up={isExpanded} size={13} />
+                      ) : null}
+                    </View>
                   </View>
                 </View>
 
                 <View style={styles.endpointsWrap}>
-                  <Text style={[styles.endpointStation, txtBold]}>
-                    ● {engine.stationName(firstStop)}
-                  </Text>
+                  <View style={[styles.endpointRow, rowDir]}>
+                    <StopDot color={lineHex} ring={false} />
+                    <Text style={[styles.endpointStation, txtBold]}>
+                      {engine.stationName(firstStop)}
+                    </Text>
+                  </View>
                   {isExpanded &&
                     intermediate.map((sid) => (
                       <Text
@@ -365,9 +373,12 @@ export default function RouteSheetContent({
                         · {engine.stationName(sid)}
                       </Text>
                     ))}
-                  <Text style={[styles.endpointStation, txtBold]}>
-                    ◎ {engine.stationName(lastStop)}
-                  </Text>
+                  <View style={[styles.endpointRow, rowDir]}>
+                    <StopDot color={lineHex} ring />
+                    <Text style={[styles.endpointStation, txtBold]}>
+                      {engine.stationName(lastStop)}
+                    </Text>
+                  </View>
                 </View>
               </Pressable>
             );
@@ -463,7 +474,7 @@ export default function RouteSheetContent({
                 onPress={() => setPickerVisible(false)}
                 style={[styles.pickerClose, { backgroundColor: colors.bg }]}
               >
-                <Text style={{ color: colors.fg, fontWeight: "700" }}>✕</Text>
+                <CloseIcon color={colors.fg} size={16} />
               </Pressable>
             </View>
 
@@ -571,6 +582,14 @@ const styles = StyleSheet.create({
   container: {
     gap: 12,
   },
+  stopsSummaryRow: {
+    alignItems: "center",
+    gap: 4,
+  },
+  endpointRow: {
+    alignItems: "center",
+    gap: 8,
+  },
   saveInner: {
     alignItems: "center",
     gap: 8,
@@ -609,6 +628,7 @@ const styles = StyleSheet.create({
   },
   departChip: {
     alignItems: "center",
+    gap: 6,
     paddingVertical: 7,
     paddingHorizontal: 14,
     borderRadius: 16,

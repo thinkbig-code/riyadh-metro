@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { Linking, Pressable, StyleSheet, Text, View } from "react-native";
+import { CloseIcon } from "./Icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { MetroEngine } from "../core/metro";
 import { formatPlaceDetails, getAppStrings } from "../i18n";
@@ -77,7 +78,7 @@ export default function StationCard({
           onPress={onClose}
           style={[styles.closeBtn, { backgroundColor: colors.bg }]}
         >
-          <Text style={{ color: colors.fg, fontWeight: "700" }}>✕</Text>
+          <CloseIcon color={colors.fg} size={16} />
         </Pressable>
       </View>
 

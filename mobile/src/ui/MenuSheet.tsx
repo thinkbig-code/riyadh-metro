@@ -21,7 +21,7 @@ import type { MetroEngine } from "../core/metro";
 import { getAppStrings } from "../i18n";
 import { MAP_GEOMETRY } from "../map/geometry";
 import { AppTheme, directionalRow, directionalText } from "../theme";
-import { ChevronIcon, StarIcon } from "./Icons";
+import { ChevronIcon, CloseIcon, StarIcon } from "./Icons";
 
 if (Platform.OS === "android") {
   UIManager.setLayoutAnimationEnabledExperimental?.(true);
@@ -197,7 +197,7 @@ export default function MenuSheet({
         }}
       >
         <Text style={[styles.tripText, txt]} numberOfLines={2}>
-          {engine.name(trip.from)} → {engine.name(trip.to)}
+          {engine.name(trip.from)}{rtl ? " ← " : " → "}{engine.name(trip.to)}
         </Text>
       </Pressable>
       {saved ? (
@@ -269,7 +269,7 @@ export default function MenuSheet({
                   onPress={animateClose}
                   style={[styles.closeButton, { backgroundColor: colors.bg }]}
                 >
-                  <Text style={[styles.closeText, { color: colors.fg }]}>✕</Text>
+                  <CloseIcon color={colors.fg} size={16} />
                 </Pressable>
               </View>
             </View>

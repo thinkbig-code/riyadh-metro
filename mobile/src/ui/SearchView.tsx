@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { LocateIcon, PinIcon, TrainIcon } from "./Icons";
 import type { MetroEngine, SearchHit } from "../core/metro";
 import { formatPlaceDetails, getAppStrings } from "../i18n";
 import { LINE_BY_ID, LineColorKey, STATION_BY_ID } from "../map/geometry";
@@ -155,15 +156,11 @@ export default function SearchView({
                       },
                     ]}
                   >
-                    <Text
-                      style={{
-                        color: isStation ? "#FFFFFF" : colors.fg,
-                        fontSize: 13,
-                        fontWeight: "700",
-                      }}
-                    >
-                      {isStation ? "M" : "⌖"}
-                    </Text>
+                    {isStation ? (
+                      <TrainIcon color="#FFFFFF" size={17} />
+                    ) : (
+                      <PinIcon color={colors.fg} size={17} />
+                    )}
                   </View>
 
                   <View style={styles.resultMain}>
@@ -220,7 +217,7 @@ export default function SearchView({
               { backgroundColor: colors.bg, borderColor: colors.rule },
             ]}
           >
-            <Text style={[styles.locIcon, { color: colors.accent }]}>⌖</Text>
+            <LocateIcon color={colors.accent} size={22} />
             <Text style={[styles.locLabel, txtBold, { color: colors.accent }]}>
               {s.useMyLocation}
             </Text>
@@ -242,7 +239,7 @@ export default function SearchView({
                   ]}
                 >
                   <Text style={[styles.quickRowText, txt]}>
-                    {engine.name(trip.from)} → {engine.name(trip.to)}
+                    {engine.name(trip.from)}{rtl ? " ← " : " → "}{engine.name(trip.to)}
                   </Text>
                 </Pressable>
               ))}
