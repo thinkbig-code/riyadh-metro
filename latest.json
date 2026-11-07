@@ -1,52 +1,20 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-06T23:31:23Z",
- "start": "2026-10-07",
- "end": "2026-11-07",
+ "generated": "2026-11-07T03:13:19Z",
+ "start": "2026-10-08",
+ "end": "2026-11-08",
  "total": {
-  "total": 3862,
-  "total_events": 1747,
-  "total_utc": 3861,
+  "total": 3714,
+  "total_events": 1647,
+  "total_utc": 3699,
   "stats": [
-   {
-    "day": "2026-10-07",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0,
-     4,
-     2,
-     0,
-     0,
-     0,
-     0,
-     1,
-     0,
-     0,
-     0,
-     3,
-     8,
-     44,
-     42
-    ],
-    "daily": 105,
-    "weekly": 1439,
-    "monthly": 3429
-   },
    {
     "day": "2026-10-08",
     "hourly": [
-     29,
-     6,
-     2,
-     7,
+     0,
+     0,
+     0,
+     0,
      10,
      0,
      2,
@@ -68,7 +36,9 @@
      9,
      12
     ],
-    "daily": 541
+    "daily": 497,
+    "weekly": 1455,
+    "monthly": 3280
    },
    {
     "day": "2026-10-09",
@@ -248,8 +218,7 @@
      11,
      4
     ],
-    "daily": 165,
-    "weekly": 899
+    "daily": 165
    },
    {
     "day": "2026-10-15",
@@ -279,7 +248,8 @@
      4,
      0
     ],
-    "daily": 67
+    "daily": 67,
+    "weekly": 832
    },
    {
     "day": "2026-10-16",
@@ -459,8 +429,7 @@
      8,
      9
     ],
-    "daily": 98,
-    "weekly": 694
+    "daily": 98
    },
    {
     "day": "2026-10-22",
@@ -490,7 +459,8 @@
      5,
      6
     ],
-    "daily": 143
+    "daily": 143,
+    "weekly": 639
    },
    {
     "day": "2026-10-23",
@@ -670,8 +640,7 @@
      1,
      0
     ],
-    "daily": 43,
-    "weekly": 661
+    "daily": 43
    },
    {
     "day": "2026-10-29",
@@ -701,7 +670,8 @@
      5,
      22
     ],
-    "daily": 81
+    "daily": 81,
+    "weekly": 673
    },
    {
     "day": "2026-10-30",
@@ -792,7 +762,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 433
+    "monthly": 434
    },
    {
     "day": "2026-11-02",
@@ -882,8 +852,7 @@
      3,
      1
     ],
-    "daily": 55,
-    "weekly": 169
+    "daily": 55
    },
    {
     "day": "2026-11-05",
@@ -913,7 +882,8 @@
      7,
      0
     ],
-    "daily": 83
+    "daily": 83,
+    "weekly": 115
    },
    {
     "day": "2026-11-06",
@@ -952,6 +922,36 @@
      0,
      0,
      0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 3
+   },
+   {
+    "day": "2026-11-08",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 0
    }
   ]
  },
@@ -983,10 +983,9 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 762,
+   "count": 720,
    "daily": {
-    "2026-10-07": 29,
-    "2026-10-08": 157,
+    "2026-10-08": 144,
     "2026-10-09": 48,
     "2026-10-10": 52,
     "2026-10-11": 41,
@@ -1134,9 +1133,8 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 53,
+   "count": 52,
    "daily": {
-    "2026-10-07": 1,
     "2026-10-10": 1,
     "2026-10-11": 2,
     "2026-10-12": 1,
@@ -1215,25 +1213,6 @@
    }
   },
   {
-   "path": "geo/denied/-",
-   "path_id": 110295286,
-   "title": "en",
-   "event": true,
-   "count": 24,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 7,
-    "2026-10-09": 2,
-    "2026-10-10": 3,
-    "2026-10-12": 1,
-    "2026-10-14": 3,
-    "2026-10-16": 3,
-    "2026-10-17": 1,
-    "2026-10-19": 1,
-    "2026-10-27": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-arid",
    "path_id": 111505455,
    "title": "أقرب محطة مترو لحي العارض في الرياض: محطة بنك الأول (داخل الحي)",
@@ -1262,9 +1241,8 @@
    "path_id": 110300373,
    "title": "en|name",
    "event": true,
-   "count": 23,
+   "count": 21,
    "daily": {
-    "2026-10-07": 2,
     "2026-10-08": 5,
     "2026-10-09": 4,
     "2026-10-10": 3,
@@ -1276,6 +1254,24 @@
     "2026-10-23": 1,
     "2026-10-25": 2,
     "2026-11-03": 1
+   }
+  },
+  {
+   "path": "geo/denied/-",
+   "path_id": 110295286,
+   "title": "en",
+   "event": true,
+   "count": 21,
+   "daily": {
+    "2026-10-08": 6,
+    "2026-10-09": 2,
+    "2026-10-10": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 3,
+    "2026-10-16": 3,
+    "2026-10-17": 1,
+    "2026-10-19": 1,
+    "2026-10-27": 1
    }
   },
   {
@@ -1553,36 +1549,6 @@
    }
   },
   {
-   "path": "place/p_kingdom_centre/from",
-   "path_id": 110315049,
-   "title": "en|name",
-   "event": true,
-   "count": 10,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 7,
-    "2026-10-09": 1,
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_1_2/to",
-   "path_id": 110315048,
-   "title": "en|name",
-   "event": true,
-   "count": 10,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 3,
-    "2026-10-12": 1,
-    "2026-10-14": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1,
-    "2026-10-28": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
    "path": "/ar/destinations/sahara-mall",
    "path_id": 114050969,
    "title": "محطة مترو صحارى مول وحياة مول: محطة طريق الملك عبدالعزيز، 6 دقائق سيراً",
@@ -1616,18 +1582,31 @@
    }
   },
   {
-   "path": "place/p_national_museum/to",
-   "path_id": 110181107,
+   "path": "place/p_kingdom_centre/from",
+   "path_id": 110315049,
    "title": "en|name",
    "event": true,
    "count": 9,
    "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
+    "2026-10-08": 7,
     "2026-10-09": 1,
-    "2026-10-10": 2,
-    "2026-10-11": 1,
-    "2026-10-25": 1
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "place/p_king_khalid_airport_terminals_1_2/to",
+   "path_id": 110315048,
+   "title": "en|name",
+   "event": true,
+   "count": 9,
+   "daily": {
+    "2026-10-08": 3,
+    "2026-10-12": 1,
+    "2026-10-14": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-28": 1,
+    "2026-10-30": 1
    }
   },
   {
@@ -1717,19 +1696,6 @@
     "2026-10-30": 1,
     "2026-11-01": 1,
     "2026-11-04": 1
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_1_2/from",
-   "path_id": 110181103,
-   "title": "en|name",
-   "event": true,
-   "count": 8,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 3,
-    "2026-10-09": 2,
-    "2026-10-18": 1
    }
   },
   {
@@ -1845,6 +1811,20 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-14": 1
+   }
+  },
+  {
+   "path": "place/p_national_museum/to",
+   "path_id": 110181107,
+   "title": "en|name",
+   "event": true,
+   "count": 7,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 2,
+    "2026-10-11": 1,
+    "2026-10-25": 1
    }
   },
   {
@@ -2010,60 +1990,15 @@
    }
   },
   {
-   "path": "/destinations/riyadh-gallery-mall",
-   "path_id": 110311601,
-   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-17": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-05": 1
-   }
-  },
-  {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 6,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-12": 1,
-    "2026-10-19": 1,
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-05": 1
-   }
-  },
-  {
-   "path": "place/p_souq_al_zal/to",
-   "path_id": 110299388,
+   "path": "place/p_king_khalid_airport_terminals_1_2/from",
+   "path_id": 110181103,
    "title": "en|name",
    "event": true,
    "count": 6,
    "daily": {
-    "2026-10-07": 3,
-    "2026-10-08": 2,
-    "2026-10-10": 1
-   }
-  },
-  {
-   "path": "/ar/lines/blue-line",
-   "path_id": 110184814,
-   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-15": 1,
-    "2026-10-19": 1,
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-03": 1
+    "2026-10-08": 3,
+    "2026-10-09": 2,
+    "2026-10-18": 1
    }
   },
   {
@@ -2408,39 +2343,45 @@
    }
   },
   {
-   "path": "station/malaz/from",
-   "path_id": 110309312,
-   "title": "en|name",
-   "event": true,
+   "path": "/destinations/riyadh-gallery-mall",
+   "path_id": 110311601,
+   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
+   "event": false,
    "count": 5,
    "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 2,
-    "2026-10-14": 1,
-    "2026-10-31": 1
+    "2026-10-17": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-05": 1
    }
   },
   {
-   "path": "place/p_al_masmak_fortress/from",
-   "path_id": 110300993,
-   "title": "en|name",
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
    "event": true,
    "count": 5,
    "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 2,
-    "2026-10-10": 1
+    "2026-10-12": 1,
+    "2026-10-19": 1,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-05": 1
    }
   },
   {
-   "path": "place/p_souq_al_zal/from",
-   "path_id": 110295276,
-   "title": "en|name",
-   "event": true,
+   "path": "/ar/lines/blue-line",
+   "path_id": 110184814,
+   "title": "المسار الأزرق مترو الرياض (المسار 1): المحطات والخريطة والمواعيد",
+   "event": false,
    "count": 5,
    "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 3
+    "2026-10-15": 1,
+    "2026-10-19": 1,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-03": 1
    }
   },
   {
@@ -2561,6 +2502,19 @@
     "2026-10-24": 1,
     "2026-11-01": 1,
     "2026-11-04": 1
+   }
+  },
+  {
+   "path": "/ar/districts/west-suwaidi",
+   "path_id": 114062394,
+   "title": "أقرب محطة مترو لحي السويدي الغربي: محطة المحطة الغربية (داخل الحي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-31": 1,
+    "2026-11-07": 1
    }
   },
   {
@@ -2810,43 +2764,6 @@
     "2026-10-12": 1,
     "2026-10-14": 1,
     "2026-10-20": 1
-   }
-  },
-  {
-   "path": "place/p_granada_mall/to",
-   "path_id": 110301082,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 2,
-    "2026-10-08": 1,
-    "2026-10-16": 1
-   }
-  },
-  {
-   "path": "place/p_king_fahd_national_library/to",
-   "path_id": 110299419,
-   "title": "en|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 2,
-    "2026-11-03": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/diriyah",
-   "path_id": 110283859,
-   "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1,
-    "2026-10-11": 1,
-    "2026-11-04": 1
    }
   },
   {
@@ -3136,18 +3053,6 @@
     "2026-10-22": 1,
     "2026-10-30": 1,
     "2026-11-02": 1
-   }
-  },
-  {
-   "path": "/ar/districts/west-suwaidi",
-   "path_id": 114062394,
-   "title": "أقرب محطة مترو لحي السويدي الغربي: محطة المحطة الغربية (داخل الحي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-24": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -3665,62 +3570,47 @@
    }
   },
   {
-   "path": "station/naseem/to",
-   "path_id": 110309376,
+   "path": "station/malaz/from",
+   "path_id": 110309312,
    "title": "en|name",
    "event": true,
    "count": 3,
    "daily": {
-    "2026-10-07": 1,
-    "2026-10-18": 1,
-    "2026-10-29": 1
-   }
-  },
-  {
-   "path": "place/p_al_batha/to",
-   "path_id": 110302142,
-   "title": "en|alias",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-14": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
-   "path": "place/p_granada_mall/from",
-   "path_id": 110301445,
-   "title": "en|name",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
     "2026-10-08": 1,
-    "2026-10-14": 1
+    "2026-10-14": 1,
+    "2026-10-31": 1
    }
   },
   {
-   "path": "noresult/from/-",
-   "path_id": 110298937,
-   "title": "en|minisi",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "place/p_olaya_street/to",
-   "path_id": 110295227,
+   "path": "place/p_king_fahd_national_library/to",
+   "path_id": 110299419,
    "title": "en|name",
    "event": true,
    "count": 3,
    "daily": {
-    "2026-10-07": 1,
-    "2026-10-16": 1,
-    "2026-10-21": 1
+    "2026-10-08": 2,
+    "2026-11-03": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/to",
+   "path_id": 110299388,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 2,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "place/p_souq_al_zal/from",
+   "path_id": 110295276,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-08": 3
    }
   },
   {
@@ -5179,187 +5069,90 @@
    }
   },
   {
-   "path": "place/p_haraj_bin_qasim/to",
-   "path_id": 110351417,
+   "path": "station/naseem/to",
+   "path_id": 110309376,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-29": 1
+   }
+  },
+  {
+   "path": "place/p_al_batha/to",
+   "path_id": 110302142,
    "title": "en|alias",
    "event": true,
    "count": 2,
    "daily": {
+    "2026-10-14": 1,
+    "2026-10-30": 1
+   }
+  },
+  {
+   "path": "place/p_granada_mall/from",
+   "path_id": 110301445,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
     "2026-10-08": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "place/p_national_museum/from",
-   "path_id": 110323701,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "station/alinma/to",
-   "path_id": 110318254,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "route/kafd/t5",
-   "path_id": 110317668,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-08": 2
-   }
-  },
-  {
-   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
-   "path_id": 110315050,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/takhassussi/from",
-   "path_id": 110313209,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
-   "path": "route/sabic/khashm",
-   "path_id": 110312429,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-18": 1
-   }
-  },
-  {
-   "path": "station/sabic/from",
-   "path_id": 110312410,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "station/t12/from",
-   "path_id": 110311096,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "geo/ok/urubah",
-   "path_id": 110302101,
-   "title": "en",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "geo/outside/jeddahrd",
-   "path_id": 110301428,
-   "title": "en",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "place/p_al_masmak_fortress/to",
-   "path_id": 110301057,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/khashm/p_kafd_king_abdullah_financial_district",
-   "path_id": 110300415,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/khashm/from",
-   "path_id": 110300414,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-28": 1
-   }
-  },
-  {
-   "path": "place/p_al_othaim_mall_rabwah/from",
-   "path_id": 110299344,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
     "2026-10-14": 1
    }
   },
   {
-   "path": "/ar/destinations/riyadh-gallery-mall",
-   "path_id": 110184768,
-   "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/p_king_khalid_airport_terminals_1_2/p_national_museum",
-   "path_id": 110181108,
-   "title": "en|search|ok",
+   "path": "place/p_granada_mall/to",
+   "path_id": 110301082,
+   "title": "en|name",
    "event": true,
    "count": 2,
    "daily": {
-    "2026-10-07": 1,
-    "2026-10-09": 1
+    "2026-10-08": 1,
+    "2026-10-16": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/from",
+   "path_id": 110300993,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 1,
+    "2026-10-10": 1
+   }
+  },
+  {
+   "path": "noresult/from/-",
+   "path_id": 110298937,
+   "title": "en|minisi",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-08": 2
+   }
+  },
+  {
+   "path": "place/p_olaya_street/to",
+   "path_id": 110295227,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-21": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/diriyah",
+   "path_id": 110283859,
+   "title": "الدرعية بالمترو: أقرب محطة مترو والطريق",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-11-04": 1
    }
   },
   {
@@ -12524,9 +12317,19 @@
    }
   },
   {
-   "path": "route/p_haraj_bin_qasim/pnu2",
-   "path_id": 110351710,
-   "title": "en|swap|ok",
+   "path": "place/p_haraj_bin_qasim/to",
+   "path_id": 110351417,
+   "title": "en|alias",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
+   }
+  },
+  {
+   "path": "place/p_national_museum/from",
+   "path_id": 110323701,
+   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -12534,9 +12337,9 @@
    }
   },
   {
-   "path": "view/pnu2/p_haraj_bin_qasim",
-   "path_id": 110351578,
-   "title": "en|details",
+   "path": "station/alinma/to",
+   "path_id": 110318254,
+   "title": "en|name",
    "event": true,
    "count": 1,
    "daily": {
@@ -12544,8 +12347,18 @@
    }
   },
   {
-   "path": "route/pnu2/p_haraj_bin_qasim",
-   "path_id": 110351416,
+   "path": "route/kafd/t5",
+   "path_id": 110317668,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/p_kingdom_centre/p_king_khalid_airport_terminals_1_2",
+   "path_id": 110315050,
    "title": "en|search|ok",
    "event": true,
    "count": 1,
@@ -12554,8 +12367,48 @@
    }
   },
   {
-   "path": "geo/far/pnu2",
-   "path_id": 110351315,
+   "path": "station/takhassussi/from",
+   "path_id": 110313209,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-22": 1
+   }
+  },
+  {
+   "path": "route/sabic/khashm",
+   "path_id": 110312429,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-18": 1
+   }
+  },
+  {
+   "path": "station/sabic/from",
+   "path_id": 110312410,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "station/t12/from",
+   "path_id": 110311096,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-11": 1
+   }
+  },
+  {
+   "path": "geo/ok/urubah",
+   "path_id": 110302101,
    "title": "en",
    "event": true,
    "count": 1,
@@ -12564,9 +12417,59 @@
    }
   },
   {
-   "path": "/tl.html",
-   "path_id": 110333273,
-   "title": "Interactive na Mapa ng Riyadh Metro: lahat ng 6 na linya",
+   "path": "geo/outside/jeddahrd",
+   "path_id": 110301428,
+   "title": "en",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-19": 1
+   }
+  },
+  {
+   "path": "place/p_al_masmak_fortress/to",
+   "path_id": 110301057,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "route/khashm/p_kafd_king_abdullah_financial_district",
+   "path_id": 110300415,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-08": 1
+   }
+  },
+  {
+   "path": "station/khashm/from",
+   "path_id": 110300414,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-28": 1
+   }
+  },
+  {
+   "path": "place/p_al_othaim_mall_rabwah/from",
+   "path_id": 110299344,
+   "title": "en|name",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-10-14": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-gallery-mall",
+   "path_id": 110184768,
+   "title": "الرياض جاليري مول بالمترو: أقرب محطة مترو والطريق",
    "event": false,
    "count": 1,
    "daily": {
@@ -12574,514 +12477,23 @@
    }
   },
   {
-   "path": "view/t12/ishbiliyah",
-   "path_id": 110331033,
-   "title": "en|opt_2",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/t12/ishbiliyah",
-   "path_id": 110331018,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/ishbiliyah/t12",
-   "path_id": 110330925,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/passport/rec",
-   "path_id": 110325666,
+   "path": "route/p_king_khalid_airport_terminals_1_2/p_national_museum",
+   "path_id": 110181108,
    "title": "en|search|ok",
    "event": true,
    "count": 1,
    "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/passport/from",
-   "path_id": 110325665,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/rec/to",
-   "path_id": 110325609,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "geo/ok/passport",
-   "path_id": 110325566,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/tuwaiq/salam",
-   "path_id": 110323905,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/p_al_masmak_fortress/salam",
-   "path_id": 110323882,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "view/museum/stc",
-   "path_id": 110323879,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/museum/stc",
-   "path_id": 110323857,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "view/urubah/salam",
-   "path_id": 110323768,
-   "title": "en|opt_2",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/urubah/salam",
-   "path_id": 110323735,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/museum/from",
-   "path_id": 110323721,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "station/murooj/from",
-   "path_id": 110322261,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "view/malaz/alinma",
-   "path_id": 110318279,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/malaz/alinma",
-   "path_id": 110318255,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/sab/alinma",
-   "path_id": 110317335,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-08": 1
-   }
-  },
-  {
-   "path": "route/takhassussi/p_king_khalid_airport_terminals_3_4",
-   "path_id": 110313255,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_king_khalid_airport_terminals_3_4/to",
-   "path_id": 110313254,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/sabic/khashm",
-   "path_id": 110312451,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "station/khashm/to",
-   "path_id": 110312428,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/t12/rajhi",
-   "path_id": 110311173,
-   "title": "en|opt_2",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/t12/rajhi",
-   "path_id": 110311127,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "station/rajhi/to",
-   "path_id": 110311126,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_al_faisaliah_tower/from",
-   "path_id": 110311078,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/malaz/naseem",
-   "path_id": 110309405,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/malaz/naseem",
-   "path_id": 110309377,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/ishbiliyah/mod",
-   "path_id": 110308835,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/ishbiliyah/mod",
-   "path_id": 110308829,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "geo/ok/ishbiliyah",
-   "path_id": 110308810,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/p_souq_al_zal/p_granada_mall",
-   "path_id": 110306680,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_souq_al_zal/p_granada_mall",
-   "path_id": 110306659,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/aishah/p_souq_al_zal",
-   "path_id": 110302701,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "geo/ok/aishah",
-   "path_id": 110302682,
-   "title": "en",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/urubah/p_al_batha",
-   "path_id": 110302143,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_granada_mall/p_national_museum",
-   "path_id": 110301446,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/ksp/kfl",
-   "path_id": 110301441,
-   "title": "ar|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_al_masmak_fortress/p_granada_mall",
-   "path_id": 110301083,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/kbw/p_kafd_king_abdullah_financial_district",
-   "path_id": 110300843,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/khaleej/p_kafd_king_abdullah_financial_district",
-   "path_id": 110300472,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/khaleej/p_kafd_king_abdullah_financial_district",
-   "path_id": 110300438,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "station/khaleej/from",
-   "path_id": 110300437,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "view/p_al_othaim_mall_rabwah/p_king_fahd_national_library",
-   "path_id": 110299446,
-   "title": "en|details",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_al_othaim_mall_rabwah/p_king_fahd_national_library",
-   "path_id": 110299439,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_al_othaim_mall_rabwah/p_souq_al_zal",
-   "path_id": 110299389,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_king_abdulaziz_manakh_park/p_olaya_street",
-   "path_id": 110295324,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "place/p_king_abdulaziz_manakh_park/from",
-   "path_id": 110295323,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_souq_al_zal/p_olaya_street",
-   "path_id": 110295277,
-   "title": "en|search|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
-   }
-  },
-  {
-   "path": "route/p_king_khalid_airport_terminals_1_2/p_diriyah",
-   "path_id": 110284022,
-   "title": "ar|link|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-07": 1
+    "2026-10-09": 1
    }
   }
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2115,
-  "events_total": 1747,
-  "goatcounter_total_with_events": 3862,
+  "visits": 2067,
+  "events_total": 1647,
+  "goatcounter_total_with_events": 3714,
   "page_loads_by_day": {
-   "2026-10-07": 34,
-   "2026-10-08": 167,
+   "2026-10-08": 152,
    "2026-10-09": 61,
    "2026-10-10": 78,
    "2026-10-11": 71,
@@ -13111,7 +12523,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 2
+   "2026-11-07": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13147,11 +12559,11 @@
   },
   "visitor_days": 685,
   "return_rate": 0.139,
-  "routes": 461,
+  "routes": 428,
   "routes_not_found": 0,
-  "routes_per_visit": 0.22,
-  "routes_per_visitor_day": 0.64,
-  "share_rate": 0.028,
+  "routes_per_visit": 0.21,
+  "routes_per_visitor_day": 0.62,
+  "share_rate": 0.03,
   "shares": {
    "whatsapp": 4,
    "send": 4,
@@ -13159,7 +12571,7 @@
    "qr": 2,
    "card": 1
   },
-  "failed_search_rate": 0.065,
+  "failed_search_rate": 0.074,
   "failed_searches": [
    {
     "name": "baba sweet",
@@ -13255,11 +12667,11 @@
    }
   ],
   "nearest_station": {
-   "denied": 24,
-   "fail": 6,
-   "ok": 54,
-   "far": 7,
-   "outside": 3
+   "denied": 21,
+   "ok": 50,
+   "fail": 5,
+   "far": 6,
+   "outside": 2
   },
   "visitors_new_return": {
    "new": 590,
@@ -13334,7 +12746,7 @@
    },
    {
     "name": "sab",
-    "count": 17
+    "count": 16
    },
    {
     "name": "granadia",
@@ -13342,37 +12754,37 @@
    },
    {
     "name": "sabic",
-    "count": 14
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2",
-    "count": 14
-   },
-   {
-    "name": "kbw",
-    "count": 12
+    "count": 13
    },
    {
     "name": "ksu",
     "count": 12
    },
    {
-    "name": "urubah",
-    "count": 12
-   },
-   {
-    "name": "malaz",
+    "name": "p_king_khalid_airport_terminals_1_2",
     "count": 12
    },
    {
     "name": "andalus",
     "count": 11
+   },
+   {
+    "name": "kbw",
+    "count": 11
+   },
+   {
+    "name": "murabba",
+    "count": 11
+   },
+   {
+    "name": "p_kingdom_centre",
+    "count": 10
    }
   ],
   "top_destinations": [
    {
     "name": "p_kafd_king_abdullah_financial_district",
-    "count": 22
+    "count": 19
    },
    {
     "name": "hokm",
@@ -13380,7 +12792,7 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
-    "count": 16
+    "count": 15
    },
    {
     "name": "jeddahrd",
@@ -13399,16 +12811,16 @@
     "count": 12
    },
    {
-    "name": "t12",
-    "count": 11
-   },
-   {
     "name": "p_kingdom_centre",
     "count": 11
    },
    {
     "name": "sab",
     "count": 11
+   },
+   {
+    "name": "uthman",
+    "count": 10
    }
   ]
  },
@@ -13416,7 +12828,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 498
+    "count": 471
    },
    {
     "name": "tiktok_ad",
@@ -13424,7 +12836,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 77
+    "count": 63
    },
    {
     "name": "Google",
@@ -13444,7 +12856,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 5
+    "count": 4
    },
    {
     "name": "www.facebook.com",
@@ -13575,10 +12987,6 @@
     "count": 2
    },
    {
-    "name": "riyadhmetro.fyi/ar/destinations/diriyah",
-    "count": 1
-   },
-   {
     "name": "riyadhmetro.fyi/ar/destinations/pif-tower",
     "count": 1
    },
@@ -13620,6 +13028,10 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/stations/western-station",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/ar-rabwah",
     "count": 1
    }
   ],
@@ -14203,38 +13615,6 @@
     "count": 6
    }
   ],
-  "/destinations/riyadh-gallery-mall": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "www.bing.com",
-    "count": 2
-   },
-   {
-    "name": "duckduckgo.com",
-    "count": 1
-   }
-  ],
-  "/ar/lines/blue-line": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations",
-    "count": 1
-   }
-  ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
@@ -14348,13 +13728,37 @@
     "name": "Google",
     "count": 5
    }
+  ],
+  "/districts/al-nada": [
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
+  "/ar/destinations/taibah-markets": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
   ]
  },
  "ref_pages": {
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 498
+    "count": 471
    },
    {
     "path": "/ar/map",
@@ -14463,6 +13867,14 @@
    {
     "path": "/ar/stations/salahaddin",
     "count": 1
+   },
+   {
+    "path": "/districts/al-nada",
+    "count": 1
+   },
+   {
+    "path": "/ar/destinations/taibah-markets",
+    "count": 1
    }
   ],
   "tiktok_ad": [
@@ -14474,7 +13886,7 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 77
+    "count": 63
    },
    {
     "path": "/map",
@@ -14659,6 +14071,10 @@
     "count": 4
    },
    {
+    "path": "/ar/destinations/taibah-markets",
+    "count": 4
+   },
+   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 3
    },
@@ -14668,14 +14084,6 @@
    },
    {
     "path": "/districts/ar-rabwah",
-    "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
-    "count": 3
-   },
-   {
-    "path": "/ar/lines/blue-line",
     "count": 3
    },
    {
@@ -14708,6 +14116,10 @@
    },
    {
     "path": "/ar/destinations/wadi-namar-park",
+    "count": 1
+   },
+   {
+    "path": "/districts/al-nada",
     "count": 1
    }
   ],
@@ -14758,6 +14170,10 @@
    },
    {
     "path": "/districts/al-taawun",
+    "count": 3
+   },
+   {
+    "path": "/districts/al-nada",
     "count": 3
    },
    {
@@ -14856,7 +14272,7 @@
    },
    {
     "path": "/",
-    "count": 5
+    "count": 4
    },
    {
     "path": "/ar/timings",
@@ -14864,10 +14280,6 @@
    },
    {
     "path": "/ar/districts",
-    "count": 2
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
     "count": 2
    },
    {
@@ -14971,10 +14383,6 @@
    {
     "path": "/ar/stations/western-station",
     "count": 1
-   },
-   {
-    "path": "/ar/lines/blue-line",
-    "count": 1
    }
   ],
   "com.google.android.apps.searchlite": [
@@ -15017,6 +14425,10 @@
    {
     "path": "/ar/map",
     "count": 1
+   },
+   {
+    "path": "/ar.html",
+    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/map": [
@@ -15038,10 +14450,6 @@
    },
    {
     "path": "/ar/stations",
-    "count": 1
-   },
-   {
-    "path": "/ar/lines/blue-line",
     "count": 1
    }
   ],
@@ -15083,12 +14491,6 @@
    {
     "path": "/ar.html",
     "count": 2
-   }
-  ],
-  "riyadhmetro.fyi/ar/destinations/diriyah": [
-   {
-    "path": "/ar.html",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/ar/destinations/pif-tower": [
@@ -15263,21 +14665,11 @@
    {
     "path": "/timings",
     "count": 1
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
-    "count": 1
    }
   ],
   "riyadhmetro.fyi/destinations/shola-mall": [
    {
     "path": "/timings",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall": [
-   {
-    "path": "/ar/lines/blue-line",
     "count": 1
    }
   ],
@@ -15297,25 +14689,25 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1811,
+   "count": 1725,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 919,
+   "count": 915,
    "ref_scheme": "g"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 273,
+   "count": 222,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 195,
+   "count": 196,
    "ref_scheme": "c"
   },
   {
@@ -15345,7 +14737,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 34,
+   "count": 30,
    "ref_scheme": "h"
   },
   {
@@ -15493,12 +14885,6 @@
    "ref_scheme": "h"
   },
   {
-   "id": "Facebook",
-   "name": "Facebook",
-   "count": 3,
-   "ref_scheme": "c"
-  },
-  {
    "id": "riyadhmetro.fyi/timings",
    "name": "riyadhmetro.fyi/timings",
    "count": 3,
@@ -15553,6 +14939,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "Facebook",
+   "name": "Facebook",
+   "count": 2,
+   "ref_scheme": "c"
+  },
+  {
    "id": "duckduckgo.com",
    "name": "duckduckgo.com",
    "count": 2,
@@ -15561,12 +14953,6 @@
   {
    "id": "riyadhmetro.fyi/ar/lines/blue-line",
    "name": "riyadhmetro.fyi/ar/lines/blue-line",
-   "count": 2,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/destinations/diriyah",
-   "name": "riyadhmetro.fyi/ar/destinations/diriyah",
    "count": 2,
    "ref_scheme": "h"
   },
@@ -15593,18 +14979,24 @@
    "name": "riyadhmetro.fyi/stations/qasr-al-hokm",
    "count": 2,
    "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+   "name": "riyadhmetro.fyi/ar/destinations/al-maigliah-market",
+   "count": 2,
+   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 2730
+   "count": 2590
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1026
+   "count": 1018
   },
   {
    "id": "(unknown)",
@@ -15676,27 +15068,27 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3288
+   "count": 3157
   },
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 102
+   "count": 99
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 96
+   "count": 95
   },
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 58
+   "count": 53
   },
   {
    "id": "CA",
    "name": "Canada",
-   "count": 32
+   "count": 31
   },
   {
    "id": "IN",
@@ -15706,17 +15098,12 @@
   {
    "id": "NL",
    "name": "Netherlands",
-   "count": 22
+   "count": 21
   },
   {
    "id": "DE",
    "name": "Germany",
    "count": 20
-  },
-  {
-   "id": "JO",
-   "name": "Hashemite Kingdom of Jordan",
-   "count": 17
   },
   {
    "id": "PK",
@@ -15731,6 +15118,11 @@
   {
    "id": "IT",
    "name": "Italy",
+   "count": 13
+  },
+  {
+   "id": "JO",
+   "name": "Hashemite Kingdom of Jordan",
    "count": 13
   },
   {
@@ -15756,16 +15148,11 @@
   {
    "id": "CH",
    "name": "Switzerland",
-   "count": 9
+   "count": 8
   },
   {
    "id": "FR",
    "name": "France",
-   "count": 7
-  },
-  {
-   "id": "IE",
-   "name": "Ireland",
    "count": 7
   },
   {
@@ -15777,6 +15164,11 @@
    "id": "SE",
    "name": "Sweden",
    "count": 7
+  },
+  {
+   "id": "IE",
+   "name": "Ireland",
+   "count": 6
   },
   {
    "id": "MX",
@@ -15928,7 +15320,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3155
+   "count": 3023
   },
   {
    "id": "tablet",
@@ -15938,12 +15330,12 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 540
+   "count": 525
   },
   {
    "id": "desktophd",
    "name": "",
-   "count": 84
+   "count": 83
   },
   {
    "id": "unknown",
@@ -15955,12 +15347,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2025
+   "count": 1940
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1753
+   "count": 1690
   },
   {
    "name": "",
@@ -15976,22 +15368,22 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1736
+   "count": 1676
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1455
+   "count": 1383
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 473
+   "count": 461
   },
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 149
+   "count": 145
   },
   {
    "id": "Linux",
