@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-07T03:14:53Z",
+ "generated": "2026-11-07T07:15:14Z",
  "start": "2025-11-07",
  "end": "2026-11-08",
  "total": {
-  "total": 3906,
+  "total": 3907,
   "total_events": 1752,
-  "total_utc": 3906,
+  "total_utc": 3907,
   "stats": [
    {
     "day": "2025-11-07",
@@ -10813,7 +10813,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 434
+    "monthly": 435
    },
    {
     "day": "2026-11-02",
@@ -10964,12 +10964,16 @@
      1
     ],
     "daily": 29,
-    "weekly": 32
+    "weekly": 33
    },
    {
     "day": "2026-11-07",
     "hourly": [
      2,
+     0,
+     0,
+     0,
+     1,
      0,
      0,
      0,
@@ -10988,13 +10992,9 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
      0
     ],
-    "daily": 3
+    "daily": 4
    },
    {
     "day": "2026-11-08",
@@ -14036,6 +14036,17 @@
    }
   },
   {
+   "path": "/ar/stations/as-sulimaniyah",
+   "path_id": 115319474,
+   "title": "محطة السليمانية، مترو الرياض: المسار الأخضر (رقم 77)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "/destinations/shola-mall",
    "path_id": 115307592,
    "title": "Shola Mall Metro Station: Al Wizarat (Green Line), 2 min walk",
@@ -16819,16 +16830,6 @@
    "path": "/districts/al-sinaiyah",
    "path_id": 115338312,
    "title": "Nearest Metro Station to Al Sinaiyah, Riyadh: First Industrial City (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/stations/as-sulimaniyah",
-   "path_id": 115319474,
-   "title": "محطة السليمانية، مترو الرياض: المسار الأخضر (رقم 77)",
    "event": false,
    "count": 1,
    "daily": {
@@ -23188,9 +23189,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2154,
+  "visits": 2155,
   "events_total": 1752,
-  "goatcounter_total_with_events": 3906,
+  "goatcounter_total_with_events": 3907,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23228,7 +23229,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 3
+   "2026-11-07": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25462,7 +25463,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 34,
+   "count": 35,
    "ref_scheme": "h"
   },
   {
@@ -25716,7 +25717,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2766
+   "count": 2767
   },
   {
    "id": "ara",
@@ -25793,7 +25794,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3292
+   "count": 3293
   },
   {
    "id": "US",
@@ -26045,7 +26046,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3163
+   "count": 3164
   },
   {
    "id": "tablet",
@@ -26072,7 +26073,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2064
+   "count": 2065
   },
   {
    "id": "Safari",
@@ -26098,7 +26099,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1460
+   "count": 1461
   },
   {
    "id": "Windows",

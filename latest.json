@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-07T03:13:19Z",
+ "generated": "2026-11-07T07:13:48Z",
  "start": "2026-10-08",
  "end": "2026-11-08",
  "total": {
-  "total": 3714,
+  "total": 3715,
   "total_events": 1647,
-  "total_utc": 3699,
+  "total_utc": 3700,
   "stats": [
    {
     "day": "2026-10-08",
@@ -762,7 +762,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 434
+    "monthly": 435
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 83,
-    "weekly": 115
+    "weekly": 116
    },
    {
     "day": "2026-11-06",
@@ -926,7 +926,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 3
+    "daily": 4
    },
    {
     "day": "2026-11-08",
@@ -3853,6 +3853,17 @@
    }
   },
   {
+   "path": "/ar/stations/as-sulimaniyah",
+   "path_id": 115319474,
+   "title": "محطة السليمانية، مترو الرياض: المسار الأخضر (رقم 77)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "/destinations/shola-mall",
    "path_id": 115307592,
    "title": "Shola Mall Metro Station: Al Wizarat (Green Line), 2 min walk",
@@ -6550,16 +6561,6 @@
    "path": "/districts/al-sinaiyah",
    "path_id": 115338312,
    "title": "Nearest Metro Station to Al Sinaiyah, Riyadh: First Industrial City (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/ar/stations/as-sulimaniyah",
-   "path_id": 115319474,
-   "title": "محطة السليمانية، مترو الرياض: المسار الأخضر (رقم 77)",
    "event": false,
    "count": 1,
    "daily": {
@@ -12489,9 +12490,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2067,
+  "visits": 2068,
   "events_total": 1647,
-  "goatcounter_total_with_events": 3714,
+  "goatcounter_total_with_events": 3715,
   "page_loads_by_day": {
    "2026-10-08": 152,
    "2026-10-09": 61,
@@ -12523,7 +12524,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 3
+   "2026-11-07": 4
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -14737,7 +14738,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 30,
+   "count": 31,
    "ref_scheme": "h"
   },
   {
@@ -14991,7 +14992,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2590
+   "count": 2591
   },
   {
    "id": "ara",
@@ -15068,7 +15069,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3157
+   "count": 3158
   },
   {
    "id": "AE",
@@ -15320,7 +15321,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3023
+   "count": 3024
   },
   {
    "id": "tablet",
@@ -15347,7 +15348,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1940
+   "count": 1941
   },
   {
    "id": "Safari",
@@ -15373,7 +15374,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1383
+   "count": 1384
   },
   {
    "id": "Windows",
