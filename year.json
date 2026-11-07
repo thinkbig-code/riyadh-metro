@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-07T16:38:58Z",
+ "generated": "2026-11-07T20:31:29Z",
  "start": "2025-11-07",
  "end": "2026-11-08",
  "total": {
-  "total": 3917,
+  "total": 3919,
   "total_events": 1753,
-  "total_utc": 3917,
+  "total_utc": 3919,
   "stats": [
    {
     "day": "2025-11-07",
@@ -10813,7 +10813,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 445
+    "monthly": 447
    },
    {
     "day": "2026-11-02",
@@ -10964,7 +10964,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 43
+    "weekly": 45
    },
    {
     "day": "2026-11-07",
@@ -10992,9 +10992,9 @@
      2,
      0,
      0,
-     0
+     2
     ],
-    "daily": 14
+    "daily": 16
    },
    {
     "day": "2026-11-08",
@@ -11397,6 +11397,26 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 14,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-26": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1,
+    "2026-11-01": 3,
+    "2026-11-04": 1,
+    "2026-11-05": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rawdah",
    "path_id": 112412104,
    "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
@@ -11429,25 +11449,6 @@
     "2026-10-24": 1,
     "2026-11-03": 4,
     "2026-11-06": 1
-   }
-  },
-  {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 13,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1,
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-26": 2,
-    "2026-10-27": 1,
-    "2026-10-28": 1,
-    "2026-11-01": 3,
-    "2026-11-04": 1,
-    "2026-11-05": 1
    }
   },
   {
@@ -15482,6 +15483,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/railway",
+   "path_id": 119988250,
+   "title": "Railway Metro Station, Riyadh: Orange Line, No. 53",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-07": 1
    }
   },
   {
@@ -23207,9 +23218,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2164,
+  "visits": 2166,
   "events_total": 1753,
-  "goatcounter_total_with_events": 3917,
+  "goatcounter_total_with_events": 3919,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23247,7 +23258,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 13
+   "2026-11-07": 15
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23876,6 +23887,20 @@
     "count": 1
    }
   ],
+  "/ar/districts/ar-rabwah": [
+   {
+    "name": "Google",
+    "count": 8
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-rawdah": [
    {
     "name": "Google",
@@ -23893,20 +23918,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 2
-   }
-  ],
-  "/ar/districts/ar-rabwah": [
-   {
-    "name": "Google",
-    "count": 8
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
     "count": 2
    }
   ],
@@ -24668,11 +24679,11 @@
     "count": 9
    },
    {
-    "path": "/destinations/al-awwal-park",
+    "path": "/ar/districts/ar-rabwah",
     "count": 8
    },
    {
-    "path": "/ar/districts/ar-rabwah",
+    "path": "/destinations/al-awwal-park",
     "count": 8
    },
    {
@@ -24874,6 +24885,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 4
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 4
    },
@@ -24884,10 +24899,6 @@
    {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 4
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
-    "count": 3
    },
    {
     "path": "/ar/stations/salahaddin",
@@ -25452,7 +25463,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 202,
+   "count": 204,
    "ref_scheme": "c"
   },
   {
@@ -25736,12 +25747,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2770
+   "count": 2771
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1034
+   "count": 1035
   },
   {
    "id": "(unknown)",
@@ -25813,7 +25824,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3301
+   "count": 3302
   },
   {
    "id": "US",
@@ -25838,7 +25849,7 @@
   {
    "id": "IN",
    "name": "India",
-   "count": 24
+   "count": 25
   },
   {
    "id": "NL",
@@ -26065,7 +26076,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3172
+   "count": 3174
   },
   {
    "id": "tablet",
@@ -26097,7 +26108,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1760
+   "count": 1762
   },
   {
    "name": "",
@@ -26113,7 +26124,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1743
+   "count": 1745
   },
   {
    "id": "Android",

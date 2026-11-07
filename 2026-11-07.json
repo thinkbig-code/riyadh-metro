@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-07T16:37:42Z",
+ "generated": "2026-11-07T20:30:12Z",
  "start": "2026-10-08",
  "end": "2026-11-08",
  "total": {
-  "total": 3725,
+  "total": 3727,
   "total_events": 1648,
-  "total_utc": 3710,
+  "total_utc": 3712,
   "stats": [
    {
     "day": "2026-10-08",
@@ -762,7 +762,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 445
+    "monthly": 447
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 83,
-    "weekly": 126
+    "weekly": 128
    },
    {
     "day": "2026-11-06",
@@ -941,9 +941,9 @@
      2,
      0,
      0,
-     0
+     2
     ],
-    "daily": 14
+    "daily": 16
    },
    {
     "day": "2026-11-08",
@@ -1337,6 +1337,26 @@
    }
   },
   {
+   "path": "/ar/districts/ar-rabwah",
+   "path_id": 112729802,
+   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
+   "event": false,
+   "count": 14,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-26": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1,
+    "2026-11-01": 3,
+    "2026-11-04": 1,
+    "2026-11-05": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-rawdah",
    "path_id": 112412104,
    "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
@@ -1352,25 +1372,6 @@
     "2026-10-31": 1,
     "2026-11-01": 3,
     "2026-11-02": 2
-   }
-  },
-  {
-   "path": "/ar/districts/ar-rabwah",
-   "path_id": 112729802,
-   "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
-   "event": false,
-   "count": 13,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1,
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-26": 2,
-    "2026-10-27": 1,
-    "2026-10-28": 1,
-    "2026-11-01": 3,
-    "2026-11-04": 1,
-    "2026-11-05": 1
    }
   },
   {
@@ -5213,6 +5214,16 @@
    "daily": {
     "2026-10-09": 1,
     "2026-10-22": 1
+   }
+  },
+  {
+   "path": "/stations/railway",
+   "path_id": 119988250,
+   "title": "Railway Metro Station, Riyadh: Orange Line, No. 53",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-07": 1
    }
   },
   {
@@ -12508,9 +12519,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2077,
+  "visits": 2079,
   "events_total": 1648,
-  "goatcounter_total_with_events": 3725,
+  "goatcounter_total_with_events": 3727,
   "page_loads_by_day": {
    "2026-10-08": 152,
    "2026-10-09": 61,
@@ -12542,7 +12553,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 13
+   "2026-11-07": 15
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -13171,12 +13182,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-rawdah": [
-   {
-    "name": "Google",
-    "count": 14
-   }
-  ],
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -13184,11 +13189,17 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 3
+    "count": 4
    },
    {
     "name": "(direct or unknown)",
     "count": 2
+   }
+  ],
+  "/ar/districts/al-rawdah": [
+   {
+    "name": "Google",
+    "count": 14
    }
   ],
   "/districts/al-arid": [
@@ -14169,6 +14180,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/ar-rabwah",
+    "count": 4
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 4
    },
@@ -14179,10 +14194,6 @@
    {
     "path": "/ar/destinations/wadi-namar-park",
     "count": 4
-   },
-   {
-    "path": "/ar/districts/ar-rabwah",
-    "count": 3
    },
    {
     "path": "/ar/stations/salahaddin",
@@ -14727,7 +14738,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 202,
+   "count": 204,
    "ref_scheme": "c"
   },
   {
@@ -15011,12 +15022,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2594
+   "count": 2595
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1025
+   "count": 1026
   },
   {
    "id": "(unknown)",
@@ -15088,7 +15099,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3166
+   "count": 3167
   },
   {
    "id": "AE",
@@ -15113,7 +15124,7 @@
   {
    "id": "IN",
    "name": "India",
-   "count": 23
+   "count": 24
   },
   {
    "id": "NL",
@@ -15340,7 +15351,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3032
+   "count": 3034
   },
   {
    "id": "tablet",
@@ -15372,7 +15383,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1694
+   "count": 1696
   },
   {
    "name": "",
@@ -15388,7 +15399,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1680
+   "count": 1682
   },
   {
    "id": "Android",
