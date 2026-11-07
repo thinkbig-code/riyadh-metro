@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-07T07:15:14Z",
+ "generated": "2026-11-07T16:38:58Z",
  "start": "2025-11-07",
  "end": "2026-11-08",
  "total": {
-  "total": 3907,
-  "total_events": 1752,
-  "total_utc": 3907,
+  "total": 3917,
+  "total_events": 1753,
+  "total_utc": 3917,
   "stats": [
    {
     "day": "2025-11-07",
@@ -10813,7 +10813,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 435
+    "monthly": 445
    },
    {
     "day": "2026-11-02",
@@ -10964,7 +10964,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 33
+    "weekly": 43
    },
    {
     "day": "2026-11-07",
@@ -10980,21 +10980,21 @@
      1,
      0,
      0,
+     1,
      0,
      0,
+     1,
+     1,
+     2,
+     3,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     2,
      0,
      0,
      0
     ],
-    "daily": 4
+    "daily": 14
    },
    {
     "day": "2026-11-08",
@@ -11034,7 +11034,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 794,
+   "count": 795,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11071,7 +11071,8 @@
     "2026-11-03": 10,
     "2026-11-04": 6,
     "2026-11-05": 15,
-    "2026-11-06": 4
+    "2026-11-06": 4,
+    "2026-11-07": 1
    }
   },
   {
@@ -11153,7 +11154,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 95,
+   "count": 96,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11182,7 +11183,8 @@
     "2026-11-02": 3,
     "2026-11-03": 5,
     "2026-11-04": 3,
-    "2026-11-05": 5
+    "2026-11-05": 5,
+    "2026-11-07": 1
    }
   },
   {
@@ -11222,7 +11224,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 48,
+   "count": 49,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11244,7 +11246,8 @@
     "2026-11-02": 1,
     "2026-11-03": 1,
     "2026-11-04": 3,
-    "2026-11-06": 1
+    "2026-11-06": 1,
+    "2026-11-07": 1
    }
   },
   {
@@ -11818,6 +11821,21 @@
    }
   },
   {
+   "path": "/ar/stations/salahaddin",
+   "path_id": 114245825,
+   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-23": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-06": 1,
+    "2026-11-07": 2
+   }
+  },
+  {
    "path": "/districts/al-qadisiyah",
    "path_id": 113291536,
    "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
@@ -12176,20 +12194,6 @@
     "2026-10-26": 1,
     "2026-10-28": 1,
     "2026-11-04": 1
-   }
-  },
-  {
-   "path": "/ar/stations/salahaddin",
-   "path_id": 114245825,
-   "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-23": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-06": 1
    }
   },
   {
@@ -12716,6 +12720,19 @@
    "count": 4,
    "daily": {
     "2026-10-16": 4
+   }
+  },
+  {
+   "path": "/ar/districts/al-fayha",
+   "path_id": 112330224,
+   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-23": 1,
+    "2026-10-30": 1,
+    "2026-11-07": 1
    }
   },
   {
@@ -13423,18 +13440,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-fayha",
-   "path_id": 112330224,
-   "title": "أقرب محطة مترو لحي الفيحاء في الرياض: محطة طريق هارون الرشيد (داخل الحي)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-23": 1,
-    "2026-10-30": 1
-   }
-  },
-  {
    "path": "/ar/stations/jeddah-road",
    "path_id": 112221462,
    "title": "محطة طريق جدة، مترو الرياض: المسار البرتقالي (رقم 40)",
@@ -13959,6 +13964,17 @@
    }
   },
   {
+   "path": "/ar/destinations/al-batha",
+   "path_id": 116553600,
+   "title": "محطة مترو البطحاء: محطة البطحاء (المسار الأزرق)، 7 دقائق سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "/stations/jeddah-road",
    "path_id": 116545777,
    "title": "Jeddah Road Metro Station, Riyadh: Orange Line, No. 40",
@@ -14000,6 +14016,17 @@
    "daily": {
     "2026-10-29": 1,
     "2026-10-30": 1
+   }
+  },
+  {
+   "path": "/districts/al-malqa",
+   "path_id": 116254618,
+   "title": "Nearest Metro Station to Al Malqa, Riyadh: Dr Sulaiman Al Habib, 3.2 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-11-07": 1
    }
   },
   {
@@ -14862,6 +14889,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-ghadeer",
+   "path_id": 111322351,
+   "title": "أقرب محطة مترو لحي الغدير في الرياض: محطة المركز المالي، 1.2 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-11-07": 1
+   }
+  },
+  {
    "path": "station/stc/to",
    "path_id": 111183552,
    "title": "en|name",
@@ -15444,6 +15482,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-aziziah",
+   "path_id": 119851783,
+   "title": "محطة العزيزية، مترو الرياض: المسار الأزرق (رقم 24)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-07": 1
    }
   },
   {
@@ -16437,16 +16485,6 @@
    }
   },
   {
-   "path": "/ar/destinations/al-batha",
-   "path_id": 116553600,
-   "title": "محطة مترو البطحاء: محطة البطحاء (المسار الأزرق)، 7 دقائق سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
-   }
-  },
-  {
    "path": "route/p_king_khalid_airport_terminals_1_2/p_specialized_medical_center_hospital",
    "path_id": 116531156,
    "title": "en|landing:destinations-smc-hospital|ok",
@@ -16640,16 +16678,6 @@
    "path": "/stations/al-yarmuk",
    "path_id": 116339778,
    "title": "Al Yarmuk Metro Station, Riyadh: Purple Line, No. 80",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-29": 1
-   }
-  },
-  {
-   "path": "/districts/al-malqa",
-   "path_id": 116254618,
-   "title": "Nearest Metro Station to Al Malqa, Riyadh: Dr Sulaiman Al Habib, 3.2 km",
    "event": false,
    "count": 1,
    "daily": {
@@ -19841,16 +19869,6 @@
    "path_id": 111328693,
    "title": "en|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-ghadeer",
-   "path_id": 111322351,
-   "title": "أقرب محطة مترو لحي الغدير في الرياض: محطة المركز المالي، 1.2 كم",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-11": 1
@@ -23189,9 +23207,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2155,
-  "events_total": 1752,
-  "goatcounter_total_with_events": 3907,
+  "visits": 2164,
+  "events_total": 1753,
+  "goatcounter_total_with_events": 3917,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23229,7 +23247,7 @@
    "2026-11-04": 49,
    "2026-11-05": 54,
    "2026-11-06": 19,
-   "2026-11-07": 4
+   "2026-11-07": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23261,13 +23279,14 @@
    "2026-11-03": 10,
    "2026-11-04": 5,
    "2026-11-05": 16,
-   "2026-11-06": 4
+   "2026-11-06": 4,
+   "2026-11-07": 1
   },
-  "visitor_days": 685,
-  "return_rate": 0.139,
+  "visitor_days": 686,
+  "return_rate": 0.14,
   "routes": 465,
   "routes_not_found": 0,
-  "routes_per_visit": 0.22,
+  "routes_per_visit": 0.21,
   "routes_per_visitor_day": 0.64,
   "share_rate": 0.028,
   "shares": {
@@ -23381,7 +23400,7 @@
   },
   "visitors_new_return": {
    "new": 590,
-   "return": 95
+   "return": 96
   },
   "top_routes": [
    {
@@ -23534,7 +23553,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 530
+    "count": 531
    },
    {
     "name": "tiktok_ad",
@@ -23755,11 +23774,11 @@
     "count": 4
    },
    {
-    "name": "com.reddit.frontpage",
-    "count": 1
+    "name": "www.bing.com",
+    "count": 2
    },
    {
-    "name": "www.bing.com",
+    "name": "com.reddit.frontpage",
     "count": 1
    },
    {
@@ -24169,6 +24188,20 @@
     "count": 1
    }
   ],
+  "/ar/stations/salahaddin": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/districts/al-qadisiyah": [
    {
     "name": "chatgpt.com",
@@ -24385,20 +24418,6 @@
     "count": 1
    }
   ],
-  "/ar/stations/salahaddin": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/ar/districts/utayqah": [
    {
     "name": "Google",
@@ -24472,7 +24491,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 530
+    "count": 531
    },
    {
     "path": "/ar/map",
@@ -24571,15 +24590,15 @@
     "count": 1
    },
    {
+    "path": "/ar/stations/salahaddin",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
     "path": "/timings",
-    "count": 1
-   },
-   {
-    "path": "/ar/stations/salahaddin",
     "count": 1
    }
   ],
@@ -24785,6 +24804,10 @@
     "count": 3
    },
    {
+    "path": "/ar/stations/salahaddin",
+    "count": 3
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 3
    },
@@ -24794,10 +24817,6 @@
    },
    {
     "path": "/ar/lines/blue-line",
-    "count": 3
-   },
-   {
-    "path": "/ar/stations/salahaddin",
     "count": 3
    },
    {
@@ -24868,6 +24887,10 @@
    },
    {
     "path": "/ar/districts/ar-rabwah",
+    "count": 3
+   },
+   {
+    "path": "/ar/stations/salahaddin",
     "count": 3
    },
    {
@@ -24945,10 +24968,6 @@
    {
     "path": "/ar/districts/ghobairah",
     "count": 1
-   },
-   {
-    "path": "/ar/stations/salahaddin",
-    "count": 1
    }
   ],
   "Yahoo": [
@@ -24981,16 +25000,16 @@
     "count": 3
    },
    {
+    "path": "/map",
+    "count": 2
+   },
+   {
     "path": "/ar/districts",
     "count": 2
    },
    {
     "path": "/destinations/riyadh-gallery-mall",
     "count": 2
-   },
-   {
-    "path": "/map",
-    "count": 1
    },
    {
     "path": "/ar/rules",
@@ -25415,7 +25434,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1848,
+   "count": 1850,
    "ref_scheme": "o"
   },
   {
@@ -25433,7 +25452,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 196,
+   "count": 202,
    "ref_scheme": "c"
   },
   {
@@ -25463,7 +25482,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 35,
+   "count": 37,
    "ref_scheme": "h"
   },
   {
@@ -25717,12 +25736,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2767
+   "count": 2770
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1027
+   "count": 1034
   },
   {
    "id": "(unknown)",
@@ -25794,12 +25813,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3293
+   "count": 3301
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 114
+   "count": 116
   },
   {
    "id": "AE",
@@ -26046,7 +26065,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3164
+   "count": 3172
   },
   {
    "id": "tablet",
@@ -26056,7 +26075,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 565
+   "count": 567
   },
   {
    "id": "desktophd",
@@ -26073,12 +26092,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2065
+   "count": 2071
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1756
+   "count": 1760
   },
   {
    "name": "",
@@ -26094,17 +26113,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1739
+   "count": 1743
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1461
+   "count": 1465
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 496
+   "count": 498
   },
   {
    "id": "macOS",
