@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-08T19:09:31Z",
+ "generated": "2026-11-08T23:09:06Z",
  "start": "2026-10-09",
  "end": "2026-11-09",
  "total": {
-  "total": 3251,
+  "total": 3253,
   "total_events": 1309,
-  "total_utc": 3239,
+  "total_utc": 3241,
   "stats": [
    {
     "day": "2026-10-09",
@@ -732,7 +732,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 487
+    "monthly": 489
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 85
+    "weekly": 87
    },
    {
     "day": "2026-11-07",
@@ -941,14 +941,14 @@
      1,
      1,
      0,
-     1
+     2
     ],
-    "daily": 40
+    "daily": 41
    },
    {
     "day": "2026-11-09",
     "hourly": [
-     0,
+     1,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -1247,7 +1247,7 @@
    "path_id": 112883345,
    "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
    "event": false,
-   "count": 19,
+   "count": 20,
    "daily": {
     "2026-10-19": 3,
     "2026-10-20": 2,
@@ -1260,7 +1260,8 @@
     "2026-10-31": 1,
     "2026-11-01": 1,
     "2026-11-05": 1,
-    "2026-11-06": 1
+    "2026-11-06": 1,
+    "2026-11-08": 1
    }
   },
   {
@@ -4428,6 +4429,17 @@
    "daily": {
     "2026-10-13": 1,
     "2026-10-23": 1
+   }
+  },
+  {
+   "path": "/stations/stc",
+   "path_id": 111871403,
+   "title": "stc Metro Station, Riyadh: Blue/Red lines, No. 7",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-13": 1,
+    "2026-11-09": 1
    }
   },
   {
@@ -8892,16 +8904,6 @@
    }
   },
   {
-   "path": "/stations/stc",
-   "path_id": 111871403,
-   "title": "stc Metro Station, Riyadh: Blue/Red lines, No. 7",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-13": 1
-   }
-  },
-  {
    "path": "route/mof/kbw",
    "path_id": 111852142,
    "title": "en|map|ok",
@@ -10934,9 +10936,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1942,
+  "visits": 1944,
   "events_total": 1309,
-  "goatcounter_total_with_events": 3251,
+  "goatcounter_total_with_events": 3253,
   "page_loads_by_day": {
    "2026-10-09": 53,
    "2026-10-10": 78,
@@ -10968,7 +10970,8 @@
    "2026-11-05": 54,
    "2026-11-06": 19,
    "2026-11-07": 15,
-   "2026-11-08": 23
+   "2026-11-08": 24,
+   "2026-11-09": 1
   },
   "visitor_days_by_day": {
    "2026-10-09": 41,
@@ -11543,6 +11546,10 @@
    {
     "name": "Google",
     "count": 18
+   },
+   {
+    "name": "www.bing.com",
+    "count": 1
    },
    {
     "name": "riyadhmetro.fyi",
@@ -12733,6 +12740,10 @@
     "count": 2
    },
    {
+    "path": "/ar/lines",
+    "count": 1
+   },
+   {
     "path": "/ar/rules",
     "count": 1
    }
@@ -13183,7 +13194,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 34,
+   "count": 35,
    "ref_scheme": "h"
   },
   {
@@ -13259,6 +13270,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "duckduckgo.com",
+   "name": "duckduckgo.com",
+   "count": 5,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.ecosia.org",
    "name": "www.ecosia.org",
    "count": 5,
@@ -13286,12 +13303,6 @@
    "id": "riyadhmetro.fyi/ar/stations/al-urubah",
    "name": "riyadhmetro.fyi/ar/stations/al-urubah",
    "count": 5,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "duckduckgo.com",
-   "name": "duckduckgo.com",
-   "count": 4,
    "ref_scheme": "h"
   },
   {
@@ -13437,7 +13448,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2135
+   "count": 2137
   },
   {
    "id": "ara",
@@ -13514,7 +13525,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2783
+   "count": 2785
   },
   {
    "id": "AE",
@@ -13766,7 +13777,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2660
+   "count": 2661
   },
   {
    "id": "tablet",
@@ -13776,7 +13787,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 459
+   "count": 460
   },
   {
    "id": "desktophd",
@@ -13793,7 +13804,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1714
+   "count": 1716
   },
   {
    "id": "Safari",
@@ -13819,7 +13830,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1240
+   "count": 1241
   },
   {
    "id": "Windows",
@@ -13834,7 +13845,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 45
+   "count": 46
   }
  ],
  "campaigns": []
