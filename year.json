@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-09T02:59:53Z",
+ "generated": "2026-11-09T08:01:46Z",
  "start": "2025-11-09",
  "end": "2026-11-10",
  "total": {
-  "total": 3961,
-  "total_events": 1770,
-  "total_utc": 3961,
+  "total": 3967,
+  "total_events": 1771,
+  "total_utc": 3967,
   "stats": [
    {
     "day": "2025-11-09",
@@ -10754,7 +10754,7 @@
     ],
     "daily": 161,
     "weekly": 447,
-    "monthly": 489
+    "monthly": 495
    },
    {
     "day": "2026-11-02",
@@ -10965,7 +10965,7 @@
      2
     ],
     "daily": 41,
-    "weekly": 42
+    "weekly": 48
    },
    {
     "day": "2026-11-09",
@@ -10977,11 +10977,11 @@
      0,
      0,
      0,
+     1,
+     2,
      0,
-     0,
-     0,
-     0,
-     0,
+     1,
+     2,
      0,
      0,
      0,
@@ -10995,7 +10995,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 7
    },
    {
     "day": "2026-11-10",
@@ -11035,7 +11035,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 803,
+   "count": 804,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11074,7 +11074,8 @@
     "2026-11-05": 15,
     "2026-11-06": 4,
     "2026-11-07": 1,
-    "2026-11-08": 8
+    "2026-11-08": 8,
+    "2026-11-09": 1
    }
   },
   {
@@ -11158,7 +11159,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 98,
+   "count": 99,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11189,7 +11190,8 @@
     "2026-11-04": 3,
     "2026-11-05": 5,
     "2026-11-07": 1,
-    "2026-11-08": 2
+    "2026-11-08": 2,
+    "2026-11-09": 1
    }
   },
   {
@@ -11229,7 +11231,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 50,
+   "count": 51,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11253,7 +11255,8 @@
     "2026-11-04": 3,
     "2026-11-06": 1,
     "2026-11-07": 1,
-    "2026-11-08": 1
+    "2026-11-08": 1,
+    "2026-11-09": 1
    }
   },
   {
@@ -11497,6 +11500,24 @@
    }
   },
   {
+   "path": "/ar/destinations/al-maigliah-market",
+   "path_id": 112354112,
+   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
+   "event": false,
+   "count": 12,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-24": 2,
+    "2026-10-25": 1,
+    "2026-10-28": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-01": 3,
+    "2026-11-08": 1,
+    "2026-11-09": 1
+   }
+  },
+  {
    "path": "/ar/districts/middle-oraija",
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
@@ -11509,23 +11530,6 @@
     "2026-10-20": 1,
     "2026-11-01": 2,
     "2026-11-03": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-maigliah-market",
-   "path_id": 112354112,
-   "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
-   "event": false,
-   "count": 11,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-24": 2,
-    "2026-10-25": 1,
-    "2026-10-28": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-01": 3,
-    "2026-11-08": 1
    }
   },
   {
@@ -12640,6 +12644,18 @@
    }
   },
   {
+   "path": "/ar/districts/west-umm-al-hamam",
+   "path_id": 114458544,
+   "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-24": 2,
+    "2026-10-31": 1,
+    "2026-11-09": 1
+   }
+  },
+  {
    "path": "/districts/al-nakheel",
    "path_id": 114342963,
    "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
@@ -13221,17 +13237,6 @@
    }
   },
   {
-   "path": "/ar/districts/west-umm-al-hamam",
-   "path_id": 114458544,
-   "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-24": 2,
-    "2026-10-31": 1
-   }
-  },
-  {
    "path": "/ar/destinations/al-qasr-mall",
    "path_id": 114328700,
    "title": "محطة مترو القصر مول: محطة سلطانة (المسار البرتقالي)",
@@ -13395,6 +13400,18 @@
     "2026-10-19": 1,
     "2026-10-24": 1,
     "2026-10-25": 1
+   }
+  },
+  {
+   "path": "/districts/al-nafel",
+   "path_id": 112790868,
+   "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-19": 1,
+    "2026-11-09": 1
    }
   },
   {
@@ -14532,17 +14549,6 @@
    "daily": {
     "2026-10-19": 1,
     "2026-10-26": 1
-   }
-  },
-  {
-   "path": "/districts/al-nafel",
-   "path_id": 112790868,
-   "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-19": 1
    }
   },
   {
@@ -23308,9 +23314,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2191,
-  "events_total": 1770,
-  "goatcounter_total_with_events": 3961,
+  "visits": 2196,
+  "events_total": 1771,
+  "goatcounter_total_with_events": 3967,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23350,7 +23356,7 @@
    "2026-11-06": 19,
    "2026-11-07": 15,
    "2026-11-08": 24,
-   "2026-11-09": 1
+   "2026-11-09": 6
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -23384,14 +23390,15 @@
    "2026-11-05": 16,
    "2026-11-06": 4,
    "2026-11-07": 1,
-   "2026-11-08": 7
+   "2026-11-08": 7,
+   "2026-11-09": 1
   },
-  "visitor_days": 693,
-  "return_rate": 0.141,
+  "visitor_days": 694,
+  "return_rate": 0.143,
   "routes": 472,
   "routes_not_found": 0,
-  "routes_per_visit": 0.22,
-  "routes_per_visitor_day": 0.65,
+  "routes_per_visit": 0.21,
+  "routes_per_visitor_day": 0.64,
   "share_rate": 0.028,
   "shares": {
    "whatsapp": 4,
@@ -23504,7 +23511,7 @@
   },
   "visitors_new_return": {
    "new": 595,
-   "return": 98
+   "return": 99
   },
   "top_routes": [
    {
@@ -23681,7 +23688,7 @@
    },
    {
     "name": "www.facebook.com",
-    "count": 6
+    "count": 7
    },
    {
     "name": "www.bing.com",
@@ -23879,7 +23886,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 2
+    "count": 3
    },
    {
     "name": "com.reddit.frontpage",
@@ -24058,20 +24065,20 @@
     "count": 1
    }
   ],
-  "/ar/districts/middle-oraija": [
-   {
-    "name": "Google",
-    "count": 12
-   }
-  ],
   "/ar/destinations/al-maigliah-market": [
    {
     "name": "chatgpt.com",
-    "count": 8
+    "count": 9
    },
    {
     "name": "Google",
     "count": 3
+   }
+  ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 12
    }
   ],
   "/ar/lines/orange-line": [
@@ -24969,7 +24976,7 @@
    },
    {
     "path": "/ar/destinations/al-maigliah-market",
-    "count": 8
+    "count": 9
    },
    {
     "path": "/map",
@@ -25087,7 +25094,7 @@
   "www.facebook.com": [
    {
     "path": "/",
-    "count": 6
+    "count": 7
    },
    {
     "path": "/",
@@ -25104,12 +25111,12 @@
     "count": 5
    },
    {
-    "path": "/ar/timings",
+    "path": "/map",
     "count": 3
    },
    {
-    "path": "/map",
-    "count": 2
+    "path": "/ar/timings",
+    "count": 3
    },
    {
     "path": "/ar/districts",
@@ -25552,7 +25559,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 926,
+   "count": 927,
    "ref_scheme": "g"
   },
   {
@@ -25564,7 +25571,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 213,
+   "count": 215,
    "ref_scheme": "c"
   },
   {
@@ -25594,13 +25601,13 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 39,
+   "count": 40,
    "ref_scheme": "h"
   },
   {
    "id": "www.facebook.com",
    "name": "www.facebook.com",
-   "count": 30,
+   "count": 32,
    "ref_scheme": "h"
   },
   {
@@ -25848,12 +25855,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2807
+   "count": 2811
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1041
+   "count": 1043
   },
   {
    "id": "(unknown)",
@@ -25925,7 +25932,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3336
+   "count": 3341
   },
   {
    "id": "US",
@@ -25935,7 +25942,7 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 109
+   "count": 110
   },
   {
    "id": "GB",
@@ -26177,7 +26184,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3207
+   "count": 3212
   },
   {
    "id": "tablet",
@@ -26192,7 +26199,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 85
+   "count": 86
   },
   {
    "id": "unknown",
@@ -26204,12 +26211,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2091
+   "count": 2095
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1782
+   "count": 1784
   },
   {
    "name": "",
@@ -26225,17 +26232,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1764
+   "count": 1766
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1479
+   "count": 1482
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 503
+   "count": 504
   },
   {
    "id": "macOS",

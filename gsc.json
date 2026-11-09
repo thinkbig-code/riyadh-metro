@@ -1,21 +1,14 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-08T07:28:21Z",
+ "generated": "2026-11-09T08:03:39Z",
  "property": "sc-domain:riyadhmetro.fyi",
  "properties_visible": [
-  "sc-domain:riyadhmetro.fyi",
-  "sc-domain:dubaimetro.fyi"
+  "sc-domain:dubaimetro.fyi",
+  "sc-domain:riyadhmetro.fyi"
  ],
- "start": "2026-10-11",
- "end": "2026-11-08",
+ "start": "2026-10-12",
+ "end": "2026-11-09",
  "by_date": [
-  {
-   "date": "2026-10-11",
-   "clicks": 21,
-   "impressions": 2142,
-   "ctr": 0.0098,
-   "position": 6.8
-  },
   {
    "date": "2026-10-12",
    "clicks": 17,
@@ -201,32 +194,39 @@
   {
    "date": "2026-11-07",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 26,
    "ctr": 0,
-   "position": 15.9
+   "position": 16.9
+  },
+  {
+   "date": "2026-11-08",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 4.6
   }
  ],
  "queries": [
   {
    "query": "خريطة المترو",
    "clicks": 46,
-   "impressions": 1887,
-   "ctr": 0.0244,
-   "position": 1.2
+   "impressions": 1843,
+   "ctr": 0.025,
+   "position": 1.3
   },
   {
    "query": "خريطة مترو الرياض",
    "clicks": 5,
-   "impressions": 153,
-   "ctr": 0.0327,
-   "position": 13.3
+   "impressions": 137,
+   "ctr": 0.0365,
+   "position": 14.8
   },
   {
    "query": "transportation center metro station",
    "clicks": 3,
-   "impressions": 34,
-   "ctr": 0.0882,
-   "position": 3.4
+   "impressions": 31,
+   "ctr": 0.0968,
+   "position": 3.5
   },
   {
    "query": "اقرب محطة مترو من موقعي",
@@ -238,21 +238,21 @@
   {
    "query": "murabba metro station",
    "clicks": 2,
-   "impressions": 32,
-   "ctr": 0.0625,
-   "position": 3.5
+   "impressions": 29,
+   "ctr": 0.069,
+   "position": 3.4
   },
   {
    "query": "riyadh metro map",
    "clicks": 2,
-   "impressions": 273,
-   "ctr": 0.0073,
-   "position": 5.2
+   "impressions": 255,
+   "ctr": 0.0078,
+   "position": 5.5
   },
   {
    "query": "اقرب محطه",
    "clicks": 2,
-   "impressions": 940,
+   "impressions": 939,
    "ctr": 0.0021,
    "position": 5.0
   },
@@ -271,13 +271,6 @@
    "position": 5.7
   },
   {
-   "query": "خريطة المترو الرياض",
-   "clicks": 2,
-   "impressions": 24,
-   "ctr": 0.0833,
-   "position": 10.9
-  },
-  {
    "query": "خريطة مترو الرياض 2026",
    "clicks": 2,
    "impressions": 13,
@@ -287,8 +280,8 @@
   {
    "query": "خريطه المترو",
    "clicks": 2,
-   "impressions": 67,
-   "ctr": 0.0299,
+   "impressions": 64,
+   "ctr": 0.0312,
    "position": 1.0
   },
   {
@@ -315,15 +308,15 @@
   {
    "query": "al rayan metro station",
    "clicks": 1,
-   "impressions": 2,
-   "ctr": 0.5,
+   "impressions": 1,
+   "ctr": 1,
    "position": 2
   },
   {
    "query": "batha metro station",
    "clicks": 1,
-   "impressions": 31,
-   "ctr": 0.0323,
+   "impressions": 30,
+   "ctr": 0.0333,
    "position": 6.3
   },
   {
@@ -357,9 +350,9 @@
   {
    "query": "metro riyadh map",
    "clicks": 1,
-   "impressions": 38,
-   "ctr": 0.0263,
-   "position": 18.2
+   "impressions": 39,
+   "ctr": 0.0256,
+   "position": 20.0
   },
   {
    "query": "metro terdekat dari lokasi saya",
@@ -383,13 +376,6 @@
    "position": 4
   },
   {
-   "query": "sab bank metro station riyadh",
-   "clicks": 1,
-   "impressions": 10,
-   "ctr": 0.1,
-   "position": 5.3
-  },
-  {
    "query": "sahara mall near metro station",
    "clicks": 1,
    "impressions": 9,
@@ -406,8 +392,8 @@
   {
    "query": "transportation center riyadh",
    "clicks": 1,
-   "impressions": 46,
-   "ctr": 0.0217,
+   "impressions": 43,
+   "ctr": 0.0233,
    "position": 10.3
   },
   {
@@ -490,8 +476,8 @@
   {
    "query": "المسار الازرق",
    "clicks": 1,
-   "impressions": 131,
-   "ctr": 0.0076,
+   "impressions": 130,
+   "ctr": 0.0077,
    "position": 8.5
   },
   {
@@ -516,10 +502,17 @@
    "position": 3
   },
   {
+   "query": "خريطة المترو الرياض",
+   "clicks": 1,
+   "impressions": 21,
+   "ctr": 0.0476,
+   "position": 12.3
+  },
+  {
    "query": "خريطة الميترو",
    "clicks": 1,
-   "impressions": 40,
-   "ctr": 0.025,
+   "impressions": 39,
+   "ctr": 0.0256,
    "position": 1
   },
   {
@@ -539,16 +532,16 @@
   {
    "query": "صورة خريطة المترو",
    "clicks": 1,
-   "impressions": 9,
-   "ctr": 0.1111,
+   "impressions": 8,
+   "ctr": 0.125,
    "position": 1
   },
   {
    "query": "مترو الرياض خريطة",
    "clicks": 1,
-   "impressions": 35,
-   "ctr": 0.0286,
-   "position": 5.3
+   "impressions": 29,
+   "ctr": 0.0345,
+   "position": 6.2
   },
   {
    "query": "مترو القادسيه",
@@ -567,22 +560,22 @@
   {
    "query": "محطة الدار البيضاء",
    "clicks": 1,
-   "impressions": 129,
-   "ctr": 0.0078,
-   "position": 6.4
+   "impressions": 124,
+   "ctr": 0.0081,
+   "position": 6.5
   },
   {
    "query": "محطة النسيم المسار البرتقالي",
    "clicks": 1,
-   "impressions": 13,
-   "ctr": 0.0769,
+   "impressions": 12,
+   "ctr": 0.0833,
    "position": 8.2
   },
   {
    "query": "محطة مترو العارض",
    "clicks": 1,
-   "impressions": 31,
-   "ctr": 0.0323,
+   "impressions": 30,
+   "ctr": 0.0333,
    "position": 4.1
   },
   {
@@ -616,9 +609,9 @@
   {
    "query": "محطة واحة الملك سلمان",
    "clicks": 1,
-   "impressions": 47,
-   "ctr": 0.0213,
-   "position": 8.7
+   "impressions": 46,
+   "ctr": 0.0217,
+   "position": 8.8
   },
   {
    "query": "مواعيد المترو يوم الجمعة",
@@ -642,39 +635,25 @@
    "position": 6
   },
   {
-   "query": "\"dallah-hospital.com\" -site:dallah-hospital.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 1
-  },
-  {
    "query": "\"dar al uloom university\"",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 9,
    "ctr": 0,
-   "position": 5.2
+   "position": 6.6
   },
   {
    "query": "\"rcrc.sa\" -site:rcrc.sa -site:cyble2.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 9.5
+   "position": 10
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 23,
    "ctr": 0,
-   "position": 3.2
-  },
-  {
-   "query": "\"royal commission for riyadh city\"",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 8
+   "position": 3.5
   },
   {
    "query": "\"royal commission of riyadh city\" -site:cyble2.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -707,9 +686,9 @@
   {
    "query": "2g1 riyadh metro station - king fahad stadium",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 13.4
+   "position": 13.7
   },
   {
    "query": "3k1 station riyadh metro",
@@ -763,9 +742,9 @@
   {
    "query": "abu dhabi square metro station",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 12
+   "position": 12.5
   },
   {
    "query": "abu dhabi square riyadh",
@@ -833,9 +812,9 @@
   {
    "query": "al andalus metro station",
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 23,
    "ctr": 0,
-   "position": 5.2
+   "position": 5.3
   },
   {
    "query": "al anoud tower",
@@ -868,16 +847,16 @@
   {
    "query": "al aziziyah metro station riyadh",
    "clicks": 0,
-   "impressions": 34,
+   "impressions": 32,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.5
   },
   {
    "query": "al aziziyah riyadh metro station",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 22,
    "ctr": 0,
-   "position": 6.8
+   "position": 7.0
   },
   {
    "query": "al batha metro station riyadh",
@@ -924,9 +903,9 @@
   {
    "query": "al hamra metro station riyadh",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.8
   },
   {
    "query": "al hamra square",
@@ -938,9 +917,9 @@
   {
    "query": "al hamra station",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
-   "position": 7.6
+   "position": 8
   },
   {
    "query": "al hilla metro station",
@@ -987,7 +966,7 @@
   {
    "query": "al khaleej metro station",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
    "position": 1
   },
@@ -1001,7 +980,7 @@
   {
    "query": "al khaleej station",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
    "position": 3
   },
@@ -1036,9 +1015,9 @@
   {
    "query": "al murabba metro station",
    "clicks": 0,
-   "impressions": 96,
+   "impressions": 95,
    "ctr": 0,
-   "position": 4.1
+   "position": 4.0
   },
   {
    "query": "al murabba station",
@@ -1057,9 +1036,9 @@
   {
    "query": "al murooj metro station riyadh",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 4.4
+   "position": 4.2
   },
   {
    "query": "al murooj riyadh metro station",
@@ -1071,9 +1050,9 @@
   {
    "query": "al murooj station",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 7.5
+   "position": 10
   },
   {
    "query": "al muruj",
@@ -1106,16 +1085,16 @@
   {
    "query": "al nuzha metro station",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 12,
    "ctr": 0,
-   "position": 4.4
+   "position": 4.2
   },
   {
    "query": "al oud metro station",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 4,
    "ctr": 0,
-   "position": 2.7
+   "position": 2.2
   },
   {
    "query": "al owd metro station",
@@ -1176,7 +1155,7 @@
   {
    "query": "al salhiya metro station",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 11,
    "ctr": 0,
    "position": 3.5
   },
@@ -1211,9 +1190,9 @@
   {
    "query": "al wizarat metro station",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 10.7
+   "position": 10
   },
   {
    "query": "al wurud 2",
@@ -1253,7 +1232,7 @@
   {
    "query": "albatha metro station",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 28,
    "ctr": 0,
    "position": 4.6
   },
@@ -1267,7 +1246,7 @@
   {
    "query": "alhamra metro station",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
    "position": 8.5
   },
@@ -1281,9 +1260,9 @@
   {
    "query": "alinma bank station",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 5
+   "position": 4
   },
   {
    "query": "all station of blue line metro",
@@ -1323,9 +1302,9 @@
   {
    "query": "andalus metro station",
    "clicks": 0,
-   "impressions": 36,
+   "impressions": 34,
    "ctr": 0,
-   "position": 5.8
+   "position": 6.0
   },
   {
    "query": "ar rabi metro station",
@@ -1379,9 +1358,9 @@
   {
    "query": "as-salam international hospital",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 1,
    "ctr": 0,
-   "position": 93.3
+   "position": 104
   },
   {
    "query": "at what time does the metro bus start running",
@@ -1463,23 +1442,23 @@
   {
    "query": "aziziyah metro station riyadh",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 18,
    "ctr": 0,
-   "position": 7.1
+   "position": 7.2
   },
   {
    "query": "aziziyah riyadh metro station",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 20,
    "ctr": 0,
    "position": 7.2
   },
   {
    "query": "aziziyah station",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 8,
    "ctr": 0,
-   "position": 8.7
+   "position": 8.6
   },
   {
    "query": "bangladesh embassy riyadh new location map",
@@ -1571,13 +1550,6 @@
    "impressions": 2,
    "ctr": 0,
    "position": 9.5
-  },
-  {
-   "query": "bay station",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 4
   },
   {
    "query": "best station near me",
@@ -1932,9 +1904,9 @@
   {
    "query": "darul baida metro station",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 18,
    "ctr": 0,
-   "position": 4.2
+   "position": 4
   },
   {
    "query": "dhahrat al badiah station",
@@ -2177,7 +2149,7 @@
   {
    "query": "granada metro station",
    "clicks": 0,
-   "impressions": 74,
+   "impressions": 71,
    "ctr": 0,
    "position": 7.7
   },
@@ -2343,13 +2315,6 @@
    "position": 9
   },
   {
-   "query": "habib station",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 7
-  },
-  {
    "query": "hamra metro station",
    "clicks": 0,
    "impressions": 3,
@@ -2373,9 +2338,9 @@
   {
    "query": "hassan bin thabit street",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 14,
    "ctr": 0,
-   "position": 7.3
+   "position": 7.1
   },
   {
    "query": "hassan bin thabit street metro station",
@@ -2604,9 +2569,9 @@
   {
    "query": "ishbiliyah metro station",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 9
+   "position": 10.3
   },
   {
    "query": "ishbiliyah metro station riyadh",
@@ -2716,16 +2681,16 @@
   {
    "query": "jeddah road metro station",
    "clicks": 0,
-   "impressions": 37,
+   "impressions": 33,
    "ctr": 0,
-   "position": 8.1
+   "position": 8.2
   },
   {
    "query": "jeddah road metro station riyadh",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 5,
    "ctr": 0,
-   "position": 9
+   "position": 8.8
   },
   {
    "query": "jeddah road station",
@@ -2800,14 +2765,14 @@
   {
    "query": "khalid bin al waleed metro station",
    "clicks": 0,
-   "impressions": 18,
+   "impressions": 16,
    "ctr": 0,
-   "position": 5.1
+   "position": 5
   },
   {
    "query": "khalid bin waleed metro station",
    "clicks": 0,
-   "impressions": 36,
+   "impressions": 35,
    "ctr": 0,
    "position": 4.8
   },
@@ -2821,9 +2786,9 @@
   {
    "query": "khashm al an",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 4,
    "ctr": 0,
-   "position": 9.6
+   "position": 9.2
   },
   {
    "query": "khashm al an metro station",
@@ -2849,16 +2814,9 @@
   {
    "query": "king abdulaziz metro station",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
-   "position": 7.2
-  },
-  {
-   "query": "king abdulaziz public library",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
+   "position": 7.4
   },
   {
    "query": "king abdulaziz road metro station",
@@ -2912,9 +2870,9 @@
   {
    "query": "king fahad library station",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 5.3
+   "position": 5.5
   },
   {
    "query": "king fahad metro station",
@@ -2954,9 +2912,9 @@
   {
    "query": "king salman metro station",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 6.7
   },
   {
    "query": "king salman oasis metro station",
@@ -3178,9 +3136,9 @@
   {
    "query": "malaz railway station",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.6
+   "position": 7.5
   },
   {
    "query": "malaz stadium",
@@ -3367,9 +3325,9 @@
   {
    "query": "metro aziziyah",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 11,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.9
   },
   {
    "query": "metro blue line",
@@ -3489,13 +3447,6 @@
    "impressions": 4,
    "ctr": 0,
    "position": 26
-  },
-  {
-   "query": "metro bus working hours",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 13
   },
   {
    "query": "metro charges",
@@ -3771,13 +3722,6 @@
    "position": 8
   },
   {
-   "query": "metro line opening time",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 6
-  },
-  {
    "query": "metro line riyadh map",
    "clicks": 0,
    "impressions": 3,
@@ -3843,14 +3787,14 @@
   {
    "query": "metro map riyadh",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 12,
    "ctr": 0,
-   "position": 12.4
+   "position": 14.2
   },
   {
    "query": "metro morning starting time",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 5.2
   },
@@ -3878,7 +3822,7 @@
   {
    "query": "metro near me",
    "clicks": 0,
-   "impressions": 179,
+   "impressions": 178,
    "ctr": 0,
    "position": 9.4
   },
@@ -4025,7 +3969,7 @@
   {
    "query": "metro open time",
    "clicks": 0,
-   "impressions": 21,
+   "impressions": 20,
    "ctr": 0,
    "position": 6.0
   },
@@ -4060,9 +4004,9 @@
   {
    "query": "metro opening hours",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 6.4
+   "position": 6.3
   },
   {
    "query": "metro opening time",
@@ -4270,9 +4214,9 @@
   {
    "query": "metro riyadh open time",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 9,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.1
   },
   {
    "query": "metro riyadh opening time",
@@ -4284,9 +4228,9 @@
   {
    "query": "metro riyadh working hours",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 12,
    "ctr": 0,
-   "position": 10.6
+   "position": 10.7
   },
   {
    "query": "metro route",
@@ -4312,9 +4256,9 @@
   {
    "query": "metro sab",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 9
+   "position": 8.5
   },
   {
    "query": "metro salam",
@@ -4326,9 +4270,9 @@
   {
    "query": "metro schedule",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 8.5
+   "position": 11
   },
   {
    "query": "metro schedule friday",
@@ -4340,9 +4284,9 @@
   {
    "query": "metro schedule today",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.7
   },
   {
    "query": "metro schedule tomorrow",
@@ -4417,7 +4361,7 @@
   {
    "query": "metro station al hamra",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 10.2
   },
@@ -4494,9 +4438,9 @@
   {
    "query": "metro station diriyah",
    "clicks": 0,
-   "impressions": 32,
+   "impressions": 31,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.6
   },
   {
    "query": "metro station friday schedule",
@@ -4543,7 +4487,7 @@
   {
    "query": "metro station map riyadh",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 5,
    "ctr": 0,
    "position": 1
   },
@@ -4599,9 +4543,9 @@
   {
    "query": "metro station near me",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 18.9
+   "position": 20.3
   },
   {
    "query": "metro station near me blue line",
@@ -4623,13 +4567,6 @@
    "impressions": 23,
    "ctr": 0,
    "position": 8.3
-  },
-  {
-   "query": "metro station near me open time",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
   },
   {
    "query": "metro station near my location",
@@ -4809,7 +4746,7 @@
   {
    "query": "metro station time schedule",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 8.8
   },
@@ -4933,13 +4870,6 @@
    "position": 5
   },
   {
-   "query": "metro time close",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
-  },
-  {
    "query": "metro time close today",
    "clicks": 0,
    "impressions": 1,
@@ -4970,9 +4900,9 @@
   {
    "query": "metro time open",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 5.6
+   "position": 5.5
   },
   {
    "query": "metro time open and close",
@@ -5012,9 +4942,9 @@
   {
    "query": "metro times",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 4.3
+   "position": 4.5
   },
   {
    "query": "metro times today",
@@ -5022,13 +4952,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 4
-  },
-  {
-   "query": "metro timetable today",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 3
   },
   {
    "query": "metro timing",
@@ -5115,13 +5038,6 @@
    "position": 11
   },
   {
-   "query": "metro train friday schedule",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 4
-  },
-  {
    "query": "metro train hours",
    "clicks": 0,
    "impressions": 2,
@@ -5176,13 +5092,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 7
-  },
-  {
-   "query": "metro train operating hours",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
   },
   {
    "query": "metro train red line",
@@ -5257,9 +5166,9 @@
   {
    "query": "metro train timings",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 9
+   "position": 10
   },
   {
    "query": "metro trains timetable",
@@ -5404,14 +5313,14 @@
   {
    "query": "ministry of interior metro station",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 5,
    "ctr": 0,
-   "position": 3.5
+   "position": 3.4
   },
   {
    "query": "moi metro station",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 24,
    "ctr": 0,
    "position": 5.8
   },
@@ -5486,13 +5395,6 @@
    "position": 3.8
   },
   {
-   "query": "museum metro station",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
-  },
-  {
    "query": "my location nearest metro",
    "clicks": 0,
    "impressions": 1,
@@ -5516,9 +5418,9 @@
   {
    "query": "my location to near metro station",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 8
   },
   {
    "query": "my near metro station",
@@ -5542,13 +5444,6 @@
    "position": 72
   },
   {
-   "query": "naseem metro",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
-  },
-  {
    "query": "naseem metro station riyadh",
    "clicks": 0,
    "impressions": 1,
@@ -5565,16 +5460,16 @@
   {
    "query": "national museum metro station",
    "clicks": 0,
-   "impressions": 62,
+   "impressions": 51,
    "ctr": 0,
-   "position": 9.7
+   "position": 9.6
   },
   {
    "query": "national museum metro station riyadh",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
-   "position": 10.8
+   "position": 10.6
   },
   {
    "query": "national museum riyadh metro",
@@ -5600,9 +5495,9 @@
   {
    "query": "national museum station riyadh",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 10.3
+   "position": 11
   },
   {
    "query": "near by metro bus station",
@@ -5635,9 +5530,9 @@
   {
    "query": "near me metro station",
    "clicks": 0,
-   "impressions": 50,
+   "impressions": 45,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.6
   },
   {
    "query": "near me metro station blue line",
@@ -5943,9 +5838,9 @@
   {
    "query": "nuzha metro station",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
-   "position": 4.8
+   "position": 4.6
   },
   {
    "query": "o',' hgljv,",
@@ -6139,16 +6034,16 @@
   {
    "query": "orange line riyadh metro map",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
    "position": 1
   },
   {
    "query": "orange line station near me",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 10.7
+   "position": 11
   },
   {
    "query": "orange line stations",
@@ -6258,9 +6153,9 @@
   {
    "query": "owais market",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 10.4
+   "position": 10
   },
   {
    "query": "panorama mall metro station",
@@ -6296,13 +6191,6 @@
    "impressions": 13,
    "ctr": 0,
    "position": 5
-  },
-  {
-   "query": "pnu metro",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 8
   },
   {
    "query": "pnu station",
@@ -6482,7 +6370,7 @@
   {
    "query": "qurtuba metro station",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
    "position": 3
   },
@@ -6545,9 +6433,9 @@
   {
    "query": "red line metro map",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 21,
    "ctr": 0,
-   "position": 8.6
+   "position": 8.7
   },
   {
    "query": "red line metro map riyadh",
@@ -6571,13 +6459,6 @@
    "position": 10
   },
   {
-   "query": "red line metro route",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 8
-  },
-  {
    "query": "red line metro station",
    "clicks": 0,
    "impressions": 1,
@@ -6587,9 +6468,9 @@
   {
    "query": "red line metro stations",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 5,
    "ctr": 0,
-   "position": 9.9
+   "position": 10.2
   },
   {
    "query": "red line near me",
@@ -6685,9 +6566,9 @@
   {
    "query": "riyadh airport metro station",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 9.3
+   "position": 10
   },
   {
    "query": "riyadh airport terminal 1 to terminal 2 distance",
@@ -6734,9 +6615,9 @@
   {
    "query": "riyadh exhibition center metro station",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 11,
    "ctr": 0,
-   "position": 5.8
+   "position": 6.2
   },
   {
    "query": "riyadh front location",
@@ -6762,7 +6643,7 @@
   {
    "query": "riyadh gallery mall metro station name",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
    "position": 12
   },
@@ -6793,13 +6674,6 @@
    "impressions": 5,
    "ctr": 0,
    "position": 19
-  },
-  {
-   "query": "riyadh metro batha station",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
   },
   {
    "query": "riyadh metro batha station route map",
@@ -6839,23 +6713,16 @@
   {
    "query": "riyadh metro closing time",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 13,
    "ctr": 0,
-   "position": 10.1
+   "position": 9.9
   },
   {
    "query": "riyadh metro closing time today",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 8
-  },
-  {
-   "query": "riyadh metro contact number",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 1
+   "position": 7.7
   },
   {
    "query": "riyadh metro friday schedule",
@@ -6895,9 +6762,9 @@
   {
    "query": "riyadh metro line 4",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.5
   },
   {
    "query": "riyadh metro line 5",
@@ -6951,9 +6818,9 @@
   {
    "query": "riyadh metro map pdf",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 5,
    "ctr": 0,
-   "position": 14.2
+   "position": 11.6
   },
   {
    "query": "riyadh metro maps",
@@ -7000,9 +6867,9 @@
   {
    "query": "riyadh metro open time",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 5,
    "ctr": 0,
-   "position": 7.8
+   "position": 8
   },
   {
    "query": "riyadh metro opening time",
@@ -7021,9 +6888,9 @@
   {
    "query": "riyadh metro opening time today",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
-   "position": 9.1
+   "position": 9.5
   },
   {
    "query": "riyadh metro opening time tomorrow",
@@ -7084,9 +6951,9 @@
   {
    "query": "riyadh metro red line stations list",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 6,
    "ctr": 0,
-   "position": 8.9
+   "position": 7.8
   },
   {
    "query": "riyadh metro route map",
@@ -7133,9 +7000,9 @@
   {
    "query": "riyadh metro station - al jarradiyah",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 2,
    "ctr": 0,
-   "position": 8.8
+   "position": 10.5
   },
   {
    "query": "riyadh metro station - transportation center",
@@ -7168,9 +7035,9 @@
   {
    "query": "riyadh metro station near me",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 8
+   "position": 7.8
   },
   {
    "query": "riyadh metro station | al iman hospital",
@@ -7189,9 +7056,9 @@
   {
    "query": "riyadh metro station | ar rabi",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 1,
    "ctr": 0,
-   "position": 7
+   "position": 5
   },
   {
    "query": "riyadh metro station | jarir district",
@@ -7206,42 +7073,175 @@
    "impressions": 1,
    "ctr": 0,
    "position": 10
+  },
+  {
+   "query": "riyadh metro station | western station",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "riyadh metro stations",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "riyadh metro stations map",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "query": "riyadh metro ticket prices",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "query": "riyadh metro time friday",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "riyadh metro timing",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 49.2
+  },
+  {
+   "query": "riyadh metro timings",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "query": "riyadh metro to new murabba",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 16.5
+  },
+  {
+   "query": "riyadh metro train map",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "query": "riyadh metro yellow line",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "riyadh north railway station",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "riyadh north railway station location",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 10.2
+  },
+  {
+   "query": "riyadh north station",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 12.2
+  },
+  {
+   "query": "riyadh park metro station",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "riyadh railway station",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 10.8
+  },
+  {
+   "query": "riyadh railway station location",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "query": "riyadh railway station to riyadh airport distance",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "query": "riyadh reddit",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 4.4
+  },
+  {
+   "query": "riyadh route map",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 40
   }
  ],
  "pages": [
   {
    "page": "https://riyadhmetro.fyi/ar/map/",
-   "clicks": 68,
-   "impressions": 2939,
-   "ctr": 0.0231,
-   "position": 2.4
+   "clicks": 67,
+   "impressions": 2826,
+   "ctr": 0.0237,
+   "position": 2.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-arid/",
-   "clicks": 20,
-   "impressions": 586,
-   "ctr": 0.0341,
+   "clicks": 19,
+   "impressions": 553,
+   "ctr": 0.0344,
    "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-qadisiyah/",
-   "clicks": 20,
-   "impressions": 467,
-   "ctr": 0.0428,
-   "position": 4.7
+   "clicks": 19,
+   "impressions": 456,
+   "ctr": 0.0417,
+   "position": 4.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/nearest-station/",
    "clicks": 16,
-   "impressions": 2396,
+   "impressions": 2393,
    "ctr": 0.0067,
    "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/qurtubah/",
-   "clicks": 14,
-   "impressions": 320,
-   "ctr": 0.0437,
+   "clicks": 13,
+   "impressions": 298,
+   "ctr": 0.0436,
    "position": 6.0
   },
   {
@@ -7253,38 +7253,38 @@
   },
   {
    "page": "https://riyadhmetro.fyi/",
-   "clicks": 10,
-   "impressions": 1203,
-   "ctr": 0.0083,
+   "clicks": 9,
+   "impressions": 1173,
+   "ctr": 0.0077,
    "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-wisham/",
    "clicks": 9,
-   "impressions": 86,
-   "ctr": 0.1047,
+   "impressions": 83,
+   "ctr": 0.1084,
    "position": 3.8
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-yasmeen/",
    "clicks": 9,
-   "impressions": 60,
-   "ctr": 0.15,
-   "position": 4
+   "impressions": 56,
+   "ctr": 0.1607,
+   "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/middle-oraija/",
    "clicks": 8,
-   "impressions": 185,
-   "ctr": 0.0432,
+   "impressions": 182,
+   "ctr": 0.044,
    "position": 4.8
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/pakistan-embassy/",
    "clicks": 8,
-   "impressions": 106,
-   "ctr": 0.0755,
-   "position": 5.5
+   "impressions": 96,
+   "ctr": 0.0833,
+   "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-aqeeq/",
@@ -7303,23 +7303,23 @@
   {
    "page": "https://riyadhmetro.fyi/map/",
    "clicks": 7,
-   "impressions": 756,
-   "ctr": 0.0093,
-   "position": 7.3
+   "impressions": 723,
+   "ctr": 0.0097,
+   "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-awaly/",
    "clicks": 6,
-   "impressions": 69,
-   "ctr": 0.087,
+   "impressions": 65,
+   "ctr": 0.0923,
    "position": 8.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-muhammadiyah/",
    "clicks": 6,
-   "impressions": 94,
-   "ctr": 0.0638,
-   "position": 15.9
+   "impressions": 89,
+   "ctr": 0.0674,
+   "position": 16.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-rawabi/",
@@ -7338,16 +7338,16 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-arid/",
    "clicks": 6,
-   "impressions": 90,
-   "ctr": 0.0667,
+   "impressions": 89,
+   "ctr": 0.0674,
    "position": 4.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/aster-sanad-hospital/",
    "clicks": 5,
-   "impressions": 41,
-   "ctr": 0.122,
-   "position": 3.4
+   "impressions": 37,
+   "ctr": 0.1351,
+   "position": 3.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/haraj-bin-qasim/",
@@ -7366,22 +7366,22 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/taibah-markets/",
    "clicks": 5,
-   "impressions": 650,
+   "impressions": 649,
    "ctr": 0.0077,
    "position": 7.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/",
    "clicks": 5,
-   "impressions": 630,
-   "ctr": 0.0079,
+   "impressions": 590,
+   "ctr": 0.0085,
    "position": 8.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-malqa/",
    "clicks": 5,
-   "impressions": 266,
-   "ctr": 0.0188,
+   "impressions": 252,
+   "ctr": 0.0198,
    "position": 5.2
   },
   {
@@ -7392,25 +7392,11 @@
    "position": 5.5
   },
   {
-   "page": "https://riyadhmetro.fyi/ar/districts/al-maseef/",
-   "clicks": 5,
-   "impressions": 120,
-   "ctr": 0.0417,
-   "position": 3.6
-  },
-  {
    "page": "https://riyadhmetro.fyi/ar/districts/al-mursalat/",
    "clicks": 5,
    "impressions": 73,
    "ctr": 0.0685,
    "position": 5.5
-  },
-  {
-   "page": "https://riyadhmetro.fyi/ar/districts/al-nafel/",
-   "clicks": 5,
-   "impressions": 92,
-   "ctr": 0.0543,
-   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-uraija/",
@@ -7422,9 +7408,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-yasmeen/",
    "clicks": 5,
-   "impressions": 129,
-   "ctr": 0.0388,
-   "position": 4.5
+   "impressions": 112,
+   "ctr": 0.0446,
+   "position": 4.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/east-umm-al-hamam/",
@@ -7448,13 +7434,6 @@
    "position": 7.4
   },
   {
-   "page": "https://riyadhmetro.fyi/destinations/al-batha/",
-   "clicks": 5,
-   "impressions": 413,
-   "ctr": 0.0121,
-   "position": 6.8
-  },
-  {
    "page": "https://riyadhmetro.fyi/destinations/al-nakheel-mall/",
    "clicks": 5,
    "impressions": 133,
@@ -7471,30 +7450,30 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/diriyah/",
    "clicks": 5,
-   "impressions": 238,
-   "ctr": 0.021,
+   "impressions": 226,
+   "ctr": 0.0221,
    "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-rawdah/",
    "clicks": 5,
-   "impressions": 67,
-   "ctr": 0.0746,
-   "position": 4.3
+   "impressions": 64,
+   "ctr": 0.0781,
+   "position": 4.4
   },
   {
    "page": "https://riyadhmetro.fyi/stations/transportation-center/",
    "clicks": 5,
-   "impressions": 287,
-   "ctr": 0.0174,
-   "position": 7.7
+   "impressions": 274,
+   "ctr": 0.0182,
+   "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-faisaliah-tower/",
    "clicks": 4,
-   "impressions": 256,
-   "ctr": 0.0156,
-   "position": 5.8
+   "impressions": 237,
+   "ctr": 0.0169,
+   "position": 5.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/hayat-national-hospital-rabwah/",
@@ -7527,44 +7506,44 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-manar/",
    "clicks": 4,
-   "impressions": 46,
-   "ctr": 0.087,
-   "position": 3.9
+   "impressions": 44,
+   "ctr": 0.0909,
+   "position": 3.8
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-nafel/",
+   "clicks": 4,
+   "impressions": 86,
+   "ctr": 0.0465,
+   "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-saadah/",
    "clicks": 4,
-   "impressions": 88,
-   "ctr": 0.0455,
+   "impressions": 81,
+   "ctr": 0.0494,
    "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-sahafah/",
    "clicks": 4,
-   "impressions": 130,
-   "ctr": 0.0308,
-   "position": 4.7
+   "impressions": 100,
+   "ctr": 0.04,
+   "position": 4.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-wizarat/",
    "clicks": 4,
-   "impressions": 39,
-   "ctr": 0.1026,
-   "position": 5.1
+   "impressions": 30,
+   "ctr": 0.1333,
+   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/ghirnatah/",
    "clicks": 4,
-   "impressions": 138,
-   "ctr": 0.029,
+   "impressions": 133,
+   "ctr": 0.0301,
    "position": 5.4
-  },
-  {
-   "page": "https://riyadhmetro.fyi/ar/districts/north-mathar/",
-   "clicks": 4,
-   "impressions": 76,
-   "ctr": 0.0526,
-   "position": 4.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/utayqah/",
@@ -7590,71 +7569,71 @@
   {
    "page": "https://riyadhmetro.fyi/ar/timings/",
    "clicks": 4,
-   "impressions": 2482,
+   "impressions": 2473,
    "ctr": 0.0016,
    "position": 8.9
   },
   {
-   "page": "https://riyadhmetro.fyi/destinations/al-awwal-park/",
+   "page": "https://riyadhmetro.fyi/destinations/al-batha/",
    "clicks": 4,
-   "impressions": 208,
-   "ctr": 0.0192,
-   "position": 5.6
+   "impressions": 400,
+   "ctr": 0.01,
+   "position": 6.9
   },
   {
    "page": "https://riyadhmetro.fyi/rules/",
    "clicks": 4,
-   "impressions": 293,
-   "ctr": 0.0137,
+   "impressions": 280,
+   "ctr": 0.0143,
    "position": 6.4
   },
   {
    "page": "https://riyadhmetro.fyi/stations/",
    "clicks": 4,
-   "impressions": 629,
-   "ctr": 0.0064,
-   "position": 11.1
+   "impressions": 614,
+   "ctr": 0.0065,
+   "position": 11.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-muorabba/",
    "clicks": 4,
-   "impressions": 286,
-   "ctr": 0.014,
-   "position": 4.9
+   "impressions": 276,
+   "ctr": 0.0145,
+   "position": 4.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar.html",
    "clicks": 3,
-   "impressions": 152,
-   "ctr": 0.0197,
-   "position": 30.8
+   "impressions": 148,
+   "ctr": 0.0203,
+   "position": 30.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/dallah-hospital/",
    "clicks": 3,
-   "impressions": 123,
-   "ctr": 0.0244,
-   "position": 5.3
+   "impressions": 118,
+   "ctr": 0.0254,
+   "position": 5.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/ministry-of-foreign-affairs/",
    "clicks": 3,
-   "impressions": 58,
-   "ctr": 0.0517,
+   "impressions": 57,
+   "ctr": 0.0526,
    "position": 4.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/olaya-street/",
    "clicks": 3,
-   "impressions": 381,
-   "ctr": 0.0079,
+   "impressions": 372,
+   "ctr": 0.0081,
    "position": 6.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/panorama-mall/",
    "clicks": 3,
-   "impressions": 243,
-   "ctr": 0.0123,
+   "impressions": 236,
+   "ctr": 0.0127,
    "position": 6.5
   },
   {
@@ -7667,16 +7646,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-falah/",
    "clicks": 3,
-   "impressions": 108,
-   "ctr": 0.0278,
+   "impressions": 104,
+   "ctr": 0.0288,
    "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-fayha/",
    "clicks": 3,
-   "impressions": 66,
-   "ctr": 0.0455,
-   "position": 5.8
+   "impressions": 55,
+   "ctr": 0.0545,
+   "position": 5.7
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-maseef/",
+   "clicks": 3,
+   "impressions": 111,
+   "ctr": 0.027,
+   "position": 3.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-muruj/",
@@ -7709,14 +7695,21 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-yamamah/",
    "clicks": 3,
-   "impressions": 125,
-   "ctr": 0.024,
+   "impressions": 123,
+   "ctr": 0.0244,
    "position": 5.6
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/north-mathar/",
+   "clicks": 3,
+   "impressions": 65,
+   "ctr": 0.0462,
+   "position": 4.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/lines/blue-line/",
    "clicks": 3,
-   "impressions": 556,
+   "impressions": 553,
    "ctr": 0.0054,
    "position": 8.8
   },
@@ -7728,25 +7721,32 @@
    "position": 7.5
   },
   {
+   "page": "https://riyadhmetro.fyi/destinations/al-awwal-park/",
+   "clicks": 3,
+   "impressions": 191,
+   "ctr": 0.0157,
+   "position": 5.5
+  },
+  {
    "page": "https://riyadhmetro.fyi/destinations/haraj-bin-qasim/",
    "clicks": 3,
-   "impressions": 184,
-   "ctr": 0.0163,
+   "impressions": 181,
+   "ctr": 0.0166,
    "position": 5.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/indian-embassy/",
    "clicks": 3,
-   "impressions": 63,
-   "ctr": 0.0476,
-   "position": 4.8
+   "impressions": 56,
+   "ctr": 0.0536,
+   "position": 4.6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/kingdom-centre/",
    "clicks": 3,
-   "impressions": 320,
-   "ctr": 0.0094,
-   "position": 6.0
+   "impressions": 301,
+   "ctr": 0.01,
+   "position": 6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/narcissus-hotel/",
@@ -7756,17 +7756,10 @@
    "position": 3.3
   },
   {
-   "page": "https://riyadhmetro.fyi/destinations/riyadh-front/",
-   "clicks": 3,
-   "impressions": 117,
-   "ctr": 0.0256,
-   "position": 7.0
-  },
-  {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-park-mall/",
    "clicks": 3,
-   "impressions": 193,
-   "ctr": 0.0155,
+   "impressions": 186,
+   "ctr": 0.0161,
    "position": 6.5
   },
   {
@@ -7786,44 +7779,37 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-qadisiyah/",
    "clicks": 3,
-   "impressions": 33,
-   "ctr": 0.0909,
-   "position": 4.1
+   "impressions": 29,
+   "ctr": 0.1034,
+   "position": 3.8
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-wadi/",
    "clicks": 3,
-   "impressions": 77,
-   "ctr": 0.039,
-   "position": 6.6
-  },
-  {
-   "page": "https://riyadhmetro.fyi/districts/ar-rabwah/",
-   "clicks": 3,
-   "impressions": 43,
-   "ctr": 0.0698,
-   "position": 5.0
+   "impressions": 73,
+   "ctr": 0.0411,
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 3,
-   "impressions": 917,
-   "ctr": 0.0033,
-   "position": 9.4
+   "impressions": 887,
+   "ctr": 0.0034,
+   "position": 9.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 3,
-   "impressions": 406,
-   "ctr": 0.0074,
+   "impressions": 384,
+   "ctr": 0.0078,
    "position": 6.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/ministry-of-education/",
    "clicks": 3,
-   "impressions": 63,
-   "ctr": 0.0476,
-   "position": 4.9
+   "impressions": 59,
+   "ctr": 0.0508,
+   "position": 4.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-awwal-park/",
@@ -7835,9 +7821,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-maigliah-market/",
    "clicks": 2,
-   "impressions": 199,
-   "ctr": 0.0101,
-   "position": 7.9
+   "impressions": 184,
+   "ctr": 0.0109,
+   "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-nakheel-tower/",
@@ -7856,16 +7842,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-qasr-mall/",
    "clicks": 2,
-   "impressions": 75,
-   "ctr": 0.0267,
-   "position": 6.2
+   "impressions": 68,
+   "ctr": 0.0294,
+   "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/imam-university/",
    "clicks": 2,
-   "impressions": 321,
-   "ctr": 0.0062,
-   "position": 5.7
+   "impressions": 272,
+   "ctr": 0.0074,
+   "position": 5.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/jawazat/",
@@ -7884,8 +7870,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-khalid-university-hospital/",
    "clicks": 2,
-   "impressions": 209,
-   "ctr": 0.0096,
+   "impressions": 204,
+   "ctr": 0.0098,
    "position": 6.5
   },
   {
@@ -7898,8 +7884,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/olaya-mall/",
    "clicks": 2,
-   "impressions": 164,
-   "ctr": 0.0122,
+   "impressions": 163,
+   "ctr": 0.0123,
    "position": 5.6
   },
   {
@@ -7919,9 +7905,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-park-mall/",
    "clicks": 2,
-   "impressions": 287,
-   "ctr": 0.007,
-   "position": 6.7
+   "impressions": 275,
+   "ctr": 0.0073,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/shg-arena/",
@@ -7929,13 +7915,6 @@
    "impressions": 136,
    "ctr": 0.0147,
    "position": 5.3
-  },
-  {
-   "page": "https://riyadhmetro.fyi/ar/districts/al-duraihemiyah/",
-   "clicks": 2,
-   "impressions": 66,
-   "ctr": 0.0303,
-   "position": 21.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-jazeerah/",
@@ -7947,8 +7926,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-khalidiyah/",
    "clicks": 2,
-   "impressions": 104,
-   "ctr": 0.0192,
+   "impressions": 99,
+   "ctr": 0.0202,
    "position": 4.5
   },
   {
@@ -7961,8 +7940,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-malaz/",
    "clicks": 2,
-   "impressions": 177,
-   "ctr": 0.0113,
+   "impressions": 169,
+   "ctr": 0.0118,
    "position": 8.0
   },
   {
@@ -8003,9 +7982,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/manfuha-al-jadidah/",
    "clicks": 2,
-   "impressions": 118,
-   "ctr": 0.0169,
-   "position": 6.8
+   "impressions": 104,
+   "ctr": 0.0192,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/west-suwaidi/",
@@ -8024,9 +8003,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/routes/kafd-to-diriyah/",
    "clicks": 2,
-   "impressions": 173,
+   "impressions": 172,
    "ctr": 0.0116,
-   "position": 7.8
+   "position": 7.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/routes/riyadh-airport-to-riyadh-railway-station/",
@@ -8038,8 +8017,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/rules/",
    "clicks": 2,
-   "impressions": 177,
-   "ctr": 0.0113,
+   "impressions": 176,
+   "ctr": 0.0114,
    "position": 6.8
   },
   {
@@ -8052,15 +8031,15 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/granada/",
    "clicks": 2,
-   "impressions": 16,
-   "ctr": 0.125,
-   "position": 7.1
+   "impressions": 15,
+   "ctr": 0.1333,
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/khashm-al-an/",
    "clicks": 2,
-   "impressions": 138,
-   "ctr": 0.0145,
+   "impressions": 134,
+   "ctr": 0.0149,
    "position": 8.8
   },
   {
@@ -8073,51 +8052,58 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/sultanah/",
    "clicks": 2,
-   "impressions": 146,
-   "ctr": 0.0137,
+   "impressions": 142,
+   "ctr": 0.0141,
    "position": 6.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-faisaliah-tower/",
    "clicks": 2,
-   "impressions": 54,
-   "ctr": 0.037,
-   "position": 5.0
+   "impressions": 53,
+   "ctr": 0.0377,
+   "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/boulevard-city/",
    "clicks": 2,
-   "impressions": 225,
-   "ctr": 0.0089,
+   "impressions": 215,
+   "ctr": 0.0093,
    "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/jawazat/",
    "clicks": 2,
-   "impressions": 87,
-   "ctr": 0.023,
+   "impressions": 86,
+   "ctr": 0.0233,
    "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/king-abdullah-park/",
    "clicks": 2,
-   "impressions": 99,
-   "ctr": 0.0202,
-   "position": 8.5
+   "impressions": 91,
+   "ctr": 0.022,
+   "position": 8.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/lulu-hypermarket-murabba/",
    "clicks": 2,
-   "impressions": 144,
-   "ctr": 0.0139,
+   "impressions": 143,
+   "ctr": 0.014,
    "position": 5.9
+  },
+  {
+   "page": "https://riyadhmetro.fyi/destinations/riyadh-front/",
+   "clicks": 2,
+   "impressions": 104,
+   "ctr": 0.0192,
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-gallery-mall/",
    "clicks": 2,
-   "impressions": 236,
-   "ctr": 0.0085,
-   "position": 8.5
+   "impressions": 214,
+   "ctr": 0.0093,
+   "position": 8.6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/u-walk/",
@@ -8129,15 +8115,15 @@
   {
    "page": "https://riyadhmetro.fyi/districts/",
    "clicks": 2,
-   "impressions": 55,
-   "ctr": 0.0364,
-   "position": 11.8
+   "impressions": 53,
+   "ctr": 0.0377,
+   "position": 12.0
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-malaz/",
    "clicks": 2,
-   "impressions": 115,
-   "ctr": 0.0174,
+   "impressions": 106,
+   "ctr": 0.0189,
    "position": 7.7
   },
   {
@@ -8150,37 +8136,37 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-nahdah/",
    "clicks": 2,
-   "impressions": 33,
-   "ctr": 0.0606,
+   "impressions": 31,
+   "ctr": 0.0645,
    "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-nakheel/",
    "clicks": 2,
-   "impressions": 50,
-   "ctr": 0.04,
-   "position": 6.7
+   "impressions": 48,
+   "ctr": 0.0417,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-rayan/",
    "clicks": 2,
-   "impressions": 33,
-   "ctr": 0.0606,
-   "position": 5.6
+   "impressions": 26,
+   "ctr": 0.0769,
+   "position": 5.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-uraija/",
    "clicks": 2,
-   "impressions": 29,
-   "ctr": 0.069,
+   "impressions": 28,
+   "ctr": 0.0714,
    "position": 3.3
   },
   {
-   "page": "https://riyadhmetro.fyi/districts/east-umm-al-hamam/",
+   "page": "https://riyadhmetro.fyi/districts/ar-rabwah/",
    "clicks": 2,
-   "impressions": 88,
-   "ctr": 0.0227,
-   "position": 6.4
+   "impressions": 39,
+   "ctr": 0.0513,
+   "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/lines/blue-line/",
@@ -8192,16 +8178,16 @@
   {
    "page": "https://riyadhmetro.fyi/lines/orange-line/",
    "clicks": 2,
-   "impressions": 247,
+   "impressions": 248,
    "ctr": 0.0081,
-   "position": 10.3
+   "position": 10.2
   },
   {
    "page": "https://riyadhmetro.fyi/lines/red-line/",
    "clicks": 2,
-   "impressions": 212,
-   "ctr": 0.0094,
-   "position": 9.7
+   "impressions": 204,
+   "ctr": 0.0098,
+   "position": 9.8
   },
   {
    "page": "https://riyadhmetro.fyi/routes/riyadh-airport-to-al-batha/",
@@ -8213,16 +8199,16 @@
   {
    "page": "https://riyadhmetro.fyi/stations/ad-dar-al-baida/",
    "clicks": 2,
-   "impressions": 95,
-   "ctr": 0.0211,
-   "position": 6.5
+   "impressions": 88,
+   "ctr": 0.0227,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-malaz/",
    "clicks": 2,
-   "impressions": 153,
-   "ctr": 0.0131,
-   "position": 6.3
+   "impressions": 147,
+   "ctr": 0.0136,
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/an-naseem/",
@@ -8234,30 +8220,30 @@
   {
    "page": "https://riyadhmetro.fyi/stations/ar-rabi/",
    "clicks": 2,
-   "impressions": 104,
-   "ctr": 0.0192,
-   "position": 8.0
+   "impressions": 96,
+   "ctr": 0.0208,
+   "position": 8.1
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-saud-university/",
    "clicks": 2,
-   "impressions": 75,
-   "ctr": 0.0267,
+   "impressions": 72,
+   "ctr": 0.0278,
    "position": 8.7
   },
   {
    "page": "https://riyadhmetro.fyi/stations/qasr-al-hokm/",
    "clicks": 2,
-   "impressions": 193,
-   "ctr": 0.0104,
+   "impressions": 188,
+   "ctr": 0.0106,
    "position": 8.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-batha/",
    "clicks": 1,
-   "impressions": 164,
-   "ctr": 0.0061,
-   "position": 8.7
+   "impressions": 162,
+   "ctr": 0.0062,
+   "position": 8.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-deira-market/",
@@ -8295,18 +8281,11 @@
    "position": 5.9
   },
   {
-   "page": "https://riyadhmetro.fyi/ar/destinations/diriyah/",
-   "clicks": 1,
-   "impressions": 149,
-   "ctr": 0.0067,
-   "position": 5.5
-  },
-  {
    "page": "https://riyadhmetro.fyi/ar/destinations/gold-souq/",
    "clicks": 1,
-   "impressions": 57,
-   "ctr": 0.0175,
-   "position": 3.9
+   "impressions": 50,
+   "ctr": 0.02,
+   "position": 3.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kacst/",
@@ -8318,9 +8297,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kafd/",
    "clicks": 1,
-   "impressions": 26,
-   "ctr": 0.0385,
-   "position": 8.4
+   "impressions": 14,
+   "ctr": 0.0714,
+   "position": 8.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-abdullah-park/",
@@ -8339,23 +8318,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-salman-oasis/",
    "clicks": 1,
-   "impressions": 42,
-   "ctr": 0.0238,
+   "impressions": 33,
+   "ctr": 0.0303,
    "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-saud-medical-city/",
    "clicks": 1,
-   "impressions": 132,
-   "ctr": 0.0076,
+   "impressions": 130,
+   "ctr": 0.0077,
    "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-hospital/",
    "clicks": 1,
-   "impressions": 62,
-   "ctr": 0.0161,
-   "position": 6.3
+   "impressions": 60,
+   "ctr": 0.0167,
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/ksau-hs/",
@@ -8367,8 +8346,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/lulu-hypermarket-murabba/",
    "clicks": 1,
-   "impressions": 32,
-   "ctr": 0.0312,
+   "impressions": 31,
+   "ctr": 0.0323,
    "position": 4.2
   },
   {
@@ -8377,13 +8356,6 @@
    "impressions": 2,
    "ctr": 0.5,
    "position": 1.5
-  },
-  {
-   "page": "https://riyadhmetro.fyi/ar/destinations/ministry-of-municipal-rural-affairs-and-housing/",
-   "clicks": 1,
-   "impressions": 26,
-   "ctr": 0.0385,
-   "position": 3.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/olaya-towers/",
@@ -8409,8 +8381,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-front/",
    "clicks": 1,
-   "impressions": 54,
-   "ctr": 0.0185,
+   "impressions": 47,
+   "ctr": 0.0213,
    "position": 7.2
   },
   {
@@ -8423,16 +8395,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-amal/",
    "clicks": 1,
-   "impressions": 195,
-   "ctr": 0.0051,
-   "position": 15.2
+   "impressions": 191,
+   "ctr": 0.0052,
+   "position": 15.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-andalus/",
    "clicks": 1,
-   "impressions": 26,
-   "ctr": 0.0385,
-   "position": 10.3
+   "impressions": 23,
+   "ctr": 0.0435,
+   "position": 10.5
+  },
+  {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-duraihemiyah/",
+   "clicks": 1,
+   "impressions": 64,
+   "ctr": 0.0156,
+   "position": 21.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-futah/",
@@ -8440,13 +8419,6 @@
    "impressions": 30,
    "ctr": 0.0333,
    "position": 6.6
-  },
-  {
-   "page": "https://riyadhmetro.fyi/ar/districts/al-ghadeer/",
-   "clicks": 1,
-   "impressions": 35,
-   "ctr": 0.0286,
-   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-jarradiyah/",
@@ -8500,9 +8472,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-sulaimaniyah/",
    "clicks": 1,
-   "impressions": 33,
-   "ctr": 0.0303,
-   "position": 7.3
+   "impressions": 32,
+   "ctr": 0.0312,
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-wahah/",
@@ -8521,9 +8493,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/ar-rabie/",
    "clicks": 1,
-   "impressions": 44,
-   "ctr": 0.0227,
-   "position": 6.1
+   "impressions": 40,
+   "ctr": 0.025,
+   "position": 5.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/ar-rahmaniyah/",
@@ -8535,16 +8507,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/dhahrat-al-badeah/",
    "clicks": 1,
-   "impressions": 68,
-   "ctr": 0.0147,
-   "position": 7.6
+   "impressions": 64,
+   "ctr": 0.0156,
+   "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/king-faisal/",
    "clicks": 1,
-   "impressions": 43,
-   "ctr": 0.0233,
-   "position": 13.5
+   "impressions": 39,
+   "ctr": 0.0256,
+   "position": 13.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/manfuhah/",
@@ -8556,16 +8528,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/salahuddin/",
    "clicks": 1,
-   "impressions": 49,
-   "ctr": 0.0204,
-   "position": 8.4
+   "impressions": 41,
+   "ctr": 0.0244,
+   "position": 9.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/sultanah/",
    "clicks": 1,
-   "impressions": 80,
-   "ctr": 0.0125,
-   "position": 12.4
+   "impressions": 77,
+   "ctr": 0.013,
+   "position": 12.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/west-oraija/",
@@ -8584,8 +8556,8 @@
   {
    "page": "https://riyadhmetro.fyi/ar/lines/red-line/",
    "clicks": 1,
-   "impressions": 65,
-   "ctr": 0.0154,
+   "impressions": 64,
+   "ctr": 0.0156,
    "position": 10.4
   },
   {
@@ -8619,16 +8591,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/ad-dar-al-baida/",
    "clicks": 1,
-   "impressions": 396,
-   "ctr": 0.0025,
-   "position": 6.9
+   "impressions": 378,
+   "ctr": 0.0026,
+   "position": 7.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/alinma-bank/",
    "clicks": 1,
-   "impressions": 45,
-   "ctr": 0.0222,
-   "position": 8.4
+   "impressions": 43,
+   "ctr": 0.0233,
+   "position": 8.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/as-sulimaniyah/",
@@ -8647,9 +8619,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/kacst/",
    "clicks": 1,
-   "impressions": 28,
-   "ctr": 0.0357,
-   "position": 9.8
+   "impressions": 26,
+   "ctr": 0.0385,
+   "position": 10.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/kafd/",
@@ -8696,16 +8668,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/bangladesh-embassy/",
    "clicks": 1,
-   "impressions": 40,
-   "ctr": 0.025,
+   "impressions": 36,
+   "ctr": 0.0278,
    "position": 5.8
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/gold-souq/",
    "clicks": 1,
-   "impressions": 51,
-   "ctr": 0.0196,
-   "position": 9.8
+   "impressions": 50,
+   "ctr": 0.02,
+   "position": 9.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/hamad-tower/",
@@ -8729,18 +8701,11 @@
    "position": 9.3
   },
   {
-   "page": "https://riyadhmetro.fyi/destinations/king-fahad-medical-city/",
-   "clicks": 1,
-   "impressions": 24,
-   "ctr": 0.0417,
-   "position": 5.2
-  },
-  {
    "page": "https://riyadhmetro.fyi/destinations/king-faisal-specialist-hospital/",
    "clicks": 1,
-   "impressions": 71,
-   "ctr": 0.0141,
-   "position": 6.5
+   "impressions": 52,
+   "ctr": 0.0192,
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/ksau-hs/",
@@ -8773,9 +8738,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-badiah/",
    "clicks": 1,
-   "impressions": 19,
-   "ctr": 0.0526,
-   "position": 8
+   "impressions": 18,
+   "ctr": 0.0556,
+   "position": 7.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-farooq/",
@@ -8801,30 +8766,30 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-khuzama/",
    "clicks": 1,
-   "impressions": 14,
-   "ctr": 0.0714,
-   "position": 4.9
+   "impressions": 13,
+   "ctr": 0.0769,
+   "position": 4.5
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-malqa/",
    "clicks": 1,
-   "impressions": 84,
-   "ctr": 0.0119,
+   "impressions": 82,
+   "ctr": 0.0122,
    "position": 3.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-manar/",
    "clicks": 1,
-   "impressions": 15,
-   "ctr": 0.0667,
-   "position": 9.1
+   "impressions": 14,
+   "ctr": 0.0714,
+   "position": 9.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-mathar/",
    "clicks": 1,
-   "impressions": 12,
-   "ctr": 0.0833,
-   "position": 13.2
+   "impressions": 10,
+   "ctr": 0.1,
+   "position": 15.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-mughrazat/",
@@ -8836,9 +8801,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-quds/",
    "clicks": 1,
-   "impressions": 17,
-   "ctr": 0.0588,
-   "position": 5.7
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 5.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-rawabi/",
@@ -8857,30 +8822,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-sinaiyah/",
    "clicks": 1,
-   "impressions": 32,
-   "ctr": 0.0312,
-   "position": 10.7
+   "impressions": 31,
+   "ctr": 0.0323,
+   "position": 10.8
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-sulaimaniyah/",
    "clicks": 1,
-   "impressions": 75,
-   "ctr": 0.0133,
-   "position": 6.5
-  },
-  {
-   "page": "https://riyadhmetro.fyi/districts/al-taawun/",
-   "clicks": 1,
-   "impressions": 34,
-   "ctr": 0.0294,
-   "position": 4.4
+   "impressions": 74,
+   "ctr": 0.0135,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-wisham/",
    "clicks": 1,
-   "impressions": 8,
-   "ctr": 0.125,
-   "position": 11.1
+   "impressions": 7,
+   "ctr": 0.1429,
+   "position": 12.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/ar-rahmaniyah/",
@@ -8888,6 +8846,13 @@
    "impressions": 12,
    "ctr": 0.0833,
    "position": 6.2
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/east-umm-al-hamam/",
+   "clicks": 1,
+   "impressions": 78,
+   "ctr": 0.0128,
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/ghobairah/",
@@ -8899,30 +8864,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/north-mathar/",
    "clicks": 1,
-   "impressions": 13,
-   "ctr": 0.0769,
+   "impressions": 12,
+   "ctr": 0.0833,
    "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/skirinah/",
    "clicks": 1,
-   "impressions": 41,
-   "ctr": 0.0244,
-   "position": 8.5
-  },
-  {
-   "page": "https://riyadhmetro.fyi/districts/west-umm-al-hamam/",
-   "clicks": 1,
-   "impressions": 96,
-   "ctr": 0.0104,
-   "position": 6.8
+   "impressions": 39,
+   "ctr": 0.0256,
+   "position": 8.6
   },
   {
    "page": "https://riyadhmetro.fyi/routes/al-batha-to-kafd/",
    "clicks": 1,
-   "impressions": 95,
-   "ctr": 0.0105,
-   "position": 6.9
+   "impressions": 91,
+   "ctr": 0.011,
+   "position": 7.1
   },
   {
    "page": "https://riyadhmetro.fyi/routes/kafd-to-national-museum/",
@@ -8962,72 +8920,65 @@
   {
    "page": "https://riyadhmetro.fyi/stations/al-rajhi-grand-mosque/",
    "clicks": 1,
-   "impressions": 22,
-   "ctr": 0.0455,
+   "impressions": 19,
+   "ctr": 0.0526,
    "position": 8.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-wizarat/",
    "clicks": 1,
-   "impressions": 54,
-   "ctr": 0.0185,
-   "position": 6.1
+   "impressions": 47,
+   "ctr": 0.0213,
+   "position": 5.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/kafd/",
    "clicks": 1,
-   "impressions": 68,
-   "ctr": 0.0147,
-   "position": 10.8
+   "impressions": 67,
+   "ctr": 0.0149,
+   "position": 10.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-salman-oasis/",
    "clicks": 1,
-   "impressions": 51,
-   "ctr": 0.0196,
-   "position": 6.6
+   "impressions": 46,
+   "ctr": 0.0217,
+   "position": 6.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/ministry-of-finance/",
    "clicks": 1,
-   "impressions": 49,
-   "ctr": 0.0204,
+   "impressions": 47,
+   "ctr": 0.0213,
    "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/riyadh-exhibition-center/",
    "clicks": 1,
-   "impressions": 91,
-   "ctr": 0.011,
+   "impressions": 78,
+   "ctr": 0.0128,
    "position": 5.0
-  },
-  {
-   "page": "https://riyadhmetro.fyi/stations/sab-bank/",
-   "clicks": 1,
-   "impressions": 292,
-   "ctr": 0.0034,
-   "position": 7.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/stc/",
    "clicks": 1,
-   "impressions": 295,
-   "ctr": 0.0034,
+   "impressions": 289,
+   "ctr": 0.0035,
    "position": 8.7
   },
   {
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 1,
-   "impressions": 2247,
-   "ctr": 0.0004,
+   "impressions": 2181,
+   "ctr": 0.0005,
    "position": 7.0
   },
   {
    "page": "https://www.riyadhmetro.fyi/",
    "clicks": 1,
-   "impressions": 19,
-   "ctr": 0.0526,
-   "position": 4.1
+   "impressions": 20,
+   "ctr": 0.05,
+   "position": 4.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/ad-douh-park/",
@@ -9039,28 +8990,28 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-anoud-tower/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 6,
    "ctr": 0,
-   "position": 6.9
+   "position": 5.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-fouta-garden/",
    "clicks": 0,
-   "impressions": 20,
+   "impressions": 19,
    "ctr": 0,
-   "position": 5.5
+   "position": 5.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-hamra-square/",
    "clicks": 0,
-   "impressions": 77,
+   "impressions": 71,
    "ctr": 0,
    "position": 10.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-iman-general-hospital/",
    "clicks": 0,
-   "impressions": 49,
+   "impressions": 47,
    "ctr": 0,
    "position": 7.0
   },
@@ -9088,9 +9039,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-nakheel-mall/",
    "clicks": 0,
-   "impressions": 139,
+   "impressions": 121,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-oud-cemetery/",
@@ -9116,9 +9067,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-yamamah-hospital/",
    "clicks": 0,
-   "impressions": 33,
+   "impressions": 32,
    "ctr": 0,
-   "position": 5.0
+   "position": 4.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/al-yamamah-university/",
@@ -9165,9 +9116,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/centria-mall/",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 20,
    "ctr": 0,
-   "position": 5.3
+   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/crowne-plaza-riyadh-minhal/",
@@ -9186,9 +9137,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/dar-al-uloom-university/",
    "clicks": 0,
-   "impressions": 21,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.7
+   "position": 5.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/diplomatic-quarter/",
@@ -9198,9 +9149,16 @@
    "position": 6.1
   },
   {
+   "page": "https://riyadhmetro.fyi/ar/destinations/diriyah/",
+   "clicks": 0,
+   "impressions": 122,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
    "page": "https://riyadhmetro.fyi/ar/destinations/dr-sulaiman-al-habib-hospital/",
    "clicks": 0,
-   "impressions": 85,
+   "impressions": 67,
    "ctr": 0,
    "position": 7.2
   },
@@ -9214,14 +9172,14 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/first-notary-public-central-riyadh/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 11,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/four-points-by-sheraton-khaldia/",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 27,
    "ctr": 0,
    "position": 8.1
   },
@@ -9235,9 +9193,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/hamad-tower/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 7.5
+   "position": 3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/human-resources-development-fund/",
@@ -9284,9 +9242,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-abdulaziz-medical-city/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 13,
    "ctr": 0,
-   "position": 5.9
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-abdullah-mosque/",
@@ -9305,23 +9263,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-fahd-stadium/",
    "clicks": 0,
-   "impressions": 100,
+   "impressions": 78,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-faisal-specialist-hospital/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 11,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-khalid-eye-specialist-hospital/",
    "clicks": 0,
-   "impressions": 43,
+   "impressions": 40,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-salman-park/",
@@ -9333,30 +9291,30 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/king-saud-university/",
    "clicks": 0,
-   "impressions": 49,
+   "impressions": 45,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/kingdom-arena/",
    "clicks": 0,
-   "impressions": 71,
+   "impressions": 70,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/lulu-hypermarket-batha/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 10,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/masmak-fortress/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 9,
    "ctr": 0,
-   "position": 6.9
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/ministry-of-hajj-and-umrah/",
@@ -9373,16 +9331,23 @@
    "position": 5.4
   },
   {
+   "page": "https://riyadhmetro.fyi/ar/destinations/ministry-of-municipal-rural-affairs-and-housing/",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 3.9
+  },
+  {
    "page": "https://riyadhmetro.fyi/ar/destinations/mouwasat-hospital-riyadh/",
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 23,
    "ctr": 0,
-   "position": 4.2
+   "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/narcissus-hotel/",
    "clicks": 0,
-   "impressions": 67,
+   "impressions": 64,
    "ctr": 0,
    "position": 4.1
   },
@@ -9431,14 +9396,14 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/prince-sultan-military-medical-city/",
    "clicks": 0,
-   "impressions": 85,
+   "impressions": 84,
    "ctr": 0,
    "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/princess-nourah-university/",
    "clicks": 0,
-   "impressions": 73,
+   "impressions": 33,
    "ctr": 0,
    "position": 8.2
   },
@@ -9459,23 +9424,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-exhibition-center/",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 24,
    "ctr": 0,
    "position": 7.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-gallery-mall/",
    "clicks": 0,
-   "impressions": 101,
+   "impressions": 100,
    "ctr": 0,
    "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-north-railway-station/",
    "clicks": 0,
-   "impressions": 68,
+   "impressions": 62,
    "ctr": 0,
-   "position": 8.2
+   "position": 8.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/riyadh-railway-station/",
@@ -9508,14 +9473,14 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/saudi-german-hospital/",
    "clicks": 0,
-   "impressions": 41,
+   "impressions": 40,
    "ctr": 0,
    "position": 6.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/security-forces-hospital/",
    "clicks": 0,
-   "impressions": 54,
+   "impressions": 53,
    "ctr": 0,
    "position": 7.2
   },
@@ -9536,9 +9501,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/smc-hospital/",
    "clicks": 0,
-   "impressions": 34,
+   "impressions": 33,
    "ctr": 0,
-   "position": 6.7
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/transportation-center/",
@@ -9550,9 +9515,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/u-walk/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 16,
    "ctr": 0,
-   "position": 4.3
+   "position": 4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/destinations/wadi-hanifa-park/",
@@ -9564,7 +9529,7 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-badiah/",
    "clicks": 0,
-   "impressions": 83,
+   "impressions": 79,
    "ctr": 0,
    "position": 8.1
   },
@@ -9592,9 +9557,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-dhubbat/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 13,
    "ctr": 0,
-   "position": 8.9
+   "position": 9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-dubiyah/",
@@ -9611,11 +9576,18 @@
    "position": 17.5
   },
   {
+   "page": "https://riyadhmetro.fyi/ar/districts/al-ghadeer/",
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 4.4
+  },
+  {
    "page": "https://riyadhmetro.fyi/ar/districts/al-khaleej/",
    "clicks": 0,
-   "impressions": 171,
+   "impressions": 164,
    "ctr": 0,
-   "position": 12.1
+   "position": 12.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-masani/",
@@ -9634,16 +9606,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-nakheel/",
    "clicks": 0,
-   "impressions": 66,
+   "impressions": 61,
    "ctr": 0,
-   "position": 10.1
+   "position": 10.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-namudhajiyah/",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 11,
    "ctr": 0,
-   "position": 6.4
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-oud/",
@@ -9683,9 +9655,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-wadi/",
    "clicks": 0,
-   "impressions": 59,
+   "impressions": 49,
    "ctr": 0,
-   "position": 6.4
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/al-wusayta/",
@@ -9718,16 +9690,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/as-salhiyah/",
    "clicks": 0,
-   "impressions": 30,
+   "impressions": 28,
    "ctr": 0,
-   "position": 6.8
+   "position": 6.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/east-naseem/",
    "clicks": 0,
-   "impressions": 91,
+   "impressions": 76,
    "ctr": 0,
-   "position": 8.3
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/ishbiliyah/",
@@ -9753,16 +9725,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/king-abdulaziz/",
    "clicks": 0,
-   "impressions": 30,
+   "impressions": 25,
    "ctr": 0,
-   "position": 19.4
+   "position": 21.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/king-fahd/",
    "clicks": 0,
-   "impressions": 111,
+   "impressions": 104,
    "ctr": 0,
-   "position": 19.8
+   "position": 20.5
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/meakal/",
@@ -9781,9 +9753,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/skirinah/",
    "clicks": 0,
-   "impressions": 49,
+   "impressions": 48,
    "ctr": 0,
-   "position": 18.6
+   "position": 18.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/districts/thulaim/",
@@ -9809,9 +9781,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/districts/west-naseem/",
    "clicks": 0,
-   "impressions": 274,
+   "impressions": 262,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/lines/purple-line/",
@@ -9823,7 +9795,7 @@
   {
    "page": "https://riyadhmetro.fyi/ar/lines/yellow-line/",
    "clicks": 0,
-   "impressions": 202,
+   "impressions": 186,
    "ctr": 0,
    "position": 9.3
   },
@@ -9837,9 +9809,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/routes/al-batha-to-kingdom-centre/",
    "clicks": 0,
-   "impressions": 20,
+   "impressions": 18,
    "ctr": 0,
-   "position": 8.6
+   "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/routes/kafd-to-kingdom-centre/",
@@ -9977,9 +9949,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 28,
    "ctr": 0,
-   "position": 29.7
+   "position": 30.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/abu-dhabi-square/",
@@ -9991,16 +9963,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/ad-dhabab/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 5,
    "ctr": 0,
-   "position": 8.9
+   "position": 9.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/airport-t1-2/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 9.8
+   "position": 9.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/airport-t3-4/",
@@ -10033,7 +10005,7 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 190,
+   "impressions": 183,
    "ctr": 0,
    "position": 7.8
   },
@@ -10068,16 +10040,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-khaleej/",
    "clicks": 0,
-   "impressions": 37,
+   "impressions": 34,
    "ctr": 0,
-   "position": 6.9
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-malaz/",
    "clicks": 0,
-   "impressions": 121,
+   "impressions": 113,
    "ctr": 0,
-   "position": 12.7
+   "position": 12.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-margab/",
@@ -10096,23 +10068,23 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-murooj/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 8,
    "ctr": 0,
-   "position": 6.4
+   "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-owd/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 13,
    "ctr": 0,
-   "position": 3.8
+   "position": 4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-urubah/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 5,
    "ctr": 0,
-   "position": 7.4
+   "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-wizarat/",
@@ -10138,21 +10110,21 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/al-yarmuk/",
    "clicks": 0,
-   "impressions": 27,
+   "impressions": 26,
    "ctr": 0,
    "position": 9.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/an-naseem/",
    "clicks": 0,
-   "impressions": 80,
+   "impressions": 76,
    "ctr": 0,
    "position": 7.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/an-nuzhah/",
    "clicks": 0,
-   "impressions": 109,
+   "impressions": 93,
    "ctr": 0,
    "position": 4.7
   },
@@ -10180,16 +10152,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/at-takhassussi/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.2
+   "position": 7
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/bank-albilad/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 18,
    "ctr": 0,
-   "position": 8.1
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/city-centre-ishbiliyah/",
@@ -10201,21 +10173,21 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/dr-sulaiman-al-habib/",
    "clicks": 0,
-   "impressions": 455,
+   "impressions": 432,
    "ctr": 0,
    "position": 8.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/first-industrial-city/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 13,
    "ctr": 0,
-   "position": 13.9
+   "position": 14.9
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/gosi/",
    "clicks": 0,
-   "impressions": 39,
+   "impressions": 38,
    "ctr": 0,
    "position": 6.2
   },
@@ -10236,16 +10208,16 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/jarir-district/",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 20,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/jeddah-road/",
    "clicks": 0,
-   "impressions": 35,
+   "impressions": 29,
    "ctr": 0,
-   "position": 12.5
+   "position": 13.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/khalid-bin-alwaleed-road/",
@@ -10278,9 +10250,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/king-fahad-library/",
    "clicks": 0,
-   "impressions": 55,
+   "impressions": 52,
    "ctr": 0,
-   "position": 9.2
+   "position": 9.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/king-fahad-stadium/",
@@ -10306,9 +10278,9 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/mew-a/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 13,
    "ctr": 0,
-   "position": 5.7
+   "position": 5.1
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/ministry-of-defense/",
@@ -10348,44 +10320,44 @@
   {
    "page": "https://riyadhmetro.fyi/ar/stations/passport-department/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 25,
    "ctr": 0,
-   "position": 8.8
+   "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/pnu/",
    "clicks": 0,
-   "impressions": 67,
+   "impressions": 61,
    "ctr": 0,
    "position": 10.0
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/qasr-al-hokm/",
    "clicks": 0,
-   "impressions": 267,
+   "impressions": 254,
    "ctr": 0,
-   "position": 8.6
+   "position": 8.3
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/railway/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.4
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/riyadh-exhibition-center/",
    "clicks": 0,
-   "impressions": 61,
+   "impressions": 56,
    "ctr": 0,
-   "position": 6.7
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/sab-bank/",
    "clicks": 0,
-   "impressions": 168,
+   "impressions": 130,
    "ctr": 0,
-   "position": 8.5
+   "position": 8.6
   },
   {
    "page": "https://riyadhmetro.fyi/ar/stations/sabic/",
@@ -10425,9 +10397,9 @@
   {
    "page": "https://riyadhmetro.fyi/bn.html",
    "clicks": 0,
-   "impressions": 47,
+   "impressions": 42,
    "ctr": 0,
-   "position": 8.1
+   "position": 8.0
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/ad-douh-park/",
@@ -10446,16 +10418,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/al-deira-market/",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 11,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-hammadi-hospital/",
    "clicks": 0,
-   "impressions": 28,
+   "impressions": 25,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-hamra-square/",
@@ -10474,9 +10446,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/al-majdoul-tower/",
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 24,
    "ctr": 0,
-   "position": 9.4
+   "position": 10.0
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-mashari-hospital/",
@@ -10495,9 +10467,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/al-nakheel-tower/",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 20,
    "ctr": 0,
-   "position": 7.6
+   "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-oud-cemetery/",
@@ -10509,9 +10481,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/al-rajhi-bank-tower/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 39,
    "ctr": 0,
-   "position": 8.0
+   "position": 7.9
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/al-rajhi-grand-mosque/",
@@ -10523,7 +10495,7 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/al-shuhada-park/",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
    "position": 9.4
   },
@@ -10558,9 +10530,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/aster-sanad-hospital/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/atyaf-mall/",
@@ -10600,9 +10572,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/dallah-hospital/",
    "clicks": 0,
-   "impressions": 34,
+   "impressions": 25,
    "ctr": 0,
-   "position": 5.6
+   "position": 5.4
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/dar-al-uloom-university/",
@@ -10614,16 +10586,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/diplomatic-quarter/",
    "clicks": 0,
-   "impressions": 55,
+   "impressions": 50,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/dr-sulaiman-al-habib-hospital/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 41,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/egyptian-embassy/",
@@ -10649,23 +10621,23 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/granada-mall/",
    "clicks": 0,
-   "impressions": 93,
+   "impressions": 81,
    "ctr": 0,
    "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/hayat-national-hospital-rabwah/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 6.5
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/human-resources-development-fund/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.6
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/hyatt-regency-riyadh-olaya/",
@@ -10677,9 +10649,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/imam-university/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 9,
    "ctr": 0,
-   "position": 6.9
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/kacst/",
@@ -10691,14 +10663,14 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/kafd-grand-mosque/",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.5
+   "position": 5.8
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/kafd/",
    "clicks": 0,
-   "impressions": 77,
+   "impressions": 74,
    "ctr": 0,
    "position": 10.5
   },
@@ -10724,11 +10696,18 @@
    "position": 6
   },
   {
+   "page": "https://riyadhmetro.fyi/destinations/king-fahad-medical-city/",
+   "clicks": 0,
+   "impressions": 21,
+   "ctr": 0,
+   "position": 4.9
+  },
+  {
    "page": "https://riyadhmetro.fyi/destinations/king-fahd-stadium/",
    "clicks": 0,
-   "impressions": 104,
+   "impressions": 100,
    "ctr": 0,
-   "position": 7.3
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/king-khalid-eye-specialist-hospital/",
@@ -10747,16 +10726,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/king-khalid-university-hospital/",
    "clicks": 0,
-   "impressions": 27,
+   "impressions": 24,
    "ctr": 0,
-   "position": 9.3
+   "position": 9.5
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/king-salman-oasis/",
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 20,
    "ctr": 0,
-   "position": 10.0
+   "position": 10.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/king-salman-park/",
@@ -10789,23 +10768,23 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/kingdom-hospital/",
    "clicks": 0,
-   "impressions": 17,
+   "impressions": 12,
    "ctr": 0,
-   "position": 7.5
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/lulu-hypermarket-batha/",
    "clicks": 0,
-   "impressions": 136,
+   "impressions": 134,
    "ctr": 0,
    "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/masmak-fortress/",
    "clicks": 0,
-   "impressions": 38,
+   "impressions": 36,
    "ctr": 0,
-   "position": 6
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/ministry-of-commerce/",
@@ -10845,9 +10824,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/mouwasat-hospital-riyadh/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 3,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/national-hospital/",
@@ -10859,28 +10838,28 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/national-museum/",
    "clicks": 0,
-   "impressions": 187,
+   "impressions": 180,
    "ctr": 0,
    "position": 9.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/nepal-embassy/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 6.6
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/olaya-mall/",
    "clicks": 0,
-   "impressions": 38,
+   "impressions": 35,
    "ctr": 0,
-   "position": 7.6
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/olaya-street/",
    "clicks": 0,
-   "impressions": 119,
+   "impressions": 115,
    "ctr": 0,
    "position": 6.2
   },
@@ -10894,9 +10873,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/owais-market/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 9,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/panorama-mall/",
@@ -10908,9 +10887,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/philippine-embassy/",
    "clicks": 0,
-   "impressions": 67,
+   "impressions": 62,
    "ctr": 0,
-   "position": 5.1
+   "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/pif-tower/",
@@ -10929,9 +10908,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/prince-sultan-military-medical-city/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 40,
    "ctr": 0,
-   "position": 5.5
+   "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/prince-sultan-university/",
@@ -10943,16 +10922,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/princess-nourah-university/",
    "clicks": 0,
-   "impressions": 147,
+   "impressions": 132,
    "ctr": 0,
-   "position": 7.3
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-airport/",
    "clicks": 0,
-   "impressions": 140,
+   "impressions": 130,
    "ctr": 0,
-   "position": 8.5
+   "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-dry-port/",
@@ -10964,9 +10943,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-exhibition-center/",
    "clicks": 0,
-   "impressions": 30,
+   "impressions": 29,
    "ctr": 0,
-   "position": 9.0
+   "position": 9
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/riyadh-railway-station/",
@@ -11013,16 +10992,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/saudi-german-hospital/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 14,
    "ctr": 0,
    "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/security-forces-hospital/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 4,
    "ctr": 0,
-   "position": 5.5
+   "position": 3
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/sheraton-riyadh-hotel-towers/",
@@ -11041,16 +11020,16 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/taibah-markets/",
    "clicks": 0,
-   "impressions": 30,
+   "impressions": 29,
    "ctr": 0,
    "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/transportation-center/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 41,
    "ctr": 0,
-   "position": 18.5
+   "position": 16.7
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/us-embassy/",
@@ -11062,9 +11041,9 @@
   {
    "page": "https://riyadhmetro.fyi/destinations/via-riyadh/",
    "clicks": 0,
-   "impressions": 38,
+   "impressions": 34,
    "ctr": 0,
-   "position": 11.6
+   "position": 12.1
   },
   {
    "page": "https://riyadhmetro.fyi/destinations/wadi-hanifa-park/",
@@ -11090,9 +11069,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-andalus/",
    "clicks": 0,
-   "impressions": 72,
+   "impressions": 71,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-awaly/",
@@ -11104,9 +11083,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-aziziyah/",
    "clicks": 0,
-   "impressions": 201,
+   "impressions": 184,
    "ctr": 0,
-   "position": 8.2
+   "position": 8.1
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-butaiha/",
@@ -11118,7 +11097,7 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-dar-al-baida/",
    "clicks": 0,
-   "impressions": 52,
+   "impressions": 51,
    "ctr": 0,
    "position": 7.0
   },
@@ -11146,16 +11125,16 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-fakhiriyah/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 9.3
+   "position": 9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-falah/",
    "clicks": 0,
-   "impressions": 37,
+   "impressions": 30,
    "ctr": 0,
-   "position": 5.6
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-futah/",
@@ -11167,9 +11146,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-ghadeer/",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 20,
    "ctr": 0,
-   "position": 4.9
+   "position": 5
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-hamra/",
@@ -11181,9 +11160,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-jarradiyah/",
    "clicks": 0,
-   "impressions": 49,
+   "impressions": 46,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.5
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-jazeerah/",
@@ -11195,9 +11174,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-maizalah/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
-   "position": 9.1
+   "position": 9.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-mansurah/",
@@ -11209,7 +11188,7 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-marqab/",
    "clicks": 0,
-   "impressions": 55,
+   "impressions": 54,
    "ctr": 0,
    "position": 4.6
   },
@@ -11230,9 +11209,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-muhammadiyah/",
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 23,
    "ctr": 0,
-   "position": 6.2
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-muruj/",
@@ -11244,16 +11223,16 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-mutamarat/",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 10,
    "ctr": 0,
-   "position": 6
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-nada/",
    "clicks": 0,
-   "impressions": 28,
+   "impressions": 24,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-nafel/",
@@ -11279,23 +11258,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-nuzha/",
    "clicks": 0,
-   "impressions": 111,
+   "impressions": 108,
    "ctr": 0,
    "position": 6.1
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-olaya/",
    "clicks": 0,
-   "impressions": 152,
+   "impressions": 142,
    "ctr": 0,
-   "position": 6.9
+   "position": 7.0
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-oud/",
    "clicks": 0,
-   "impressions": 27,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.3
+   "position": 4.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-qura/",
@@ -11307,9 +11286,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-raed/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
-   "position": 7.7
+   "position": 8
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-saadah/",
@@ -11321,21 +11300,21 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-safa/",
    "clicks": 0,
-   "impressions": 24,
+   "impressions": 21,
    "ctr": 0,
-   "position": 6.0
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-sahafah/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 28,
    "ctr": 0,
-   "position": 5.6
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-salam/",
    "clicks": 0,
-   "impressions": 60,
+   "impressions": 59,
    "ctr": 0,
    "position": 6.8
   },
@@ -11356,14 +11335,21 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-suwaidi/",
    "clicks": 0,
-   "impressions": 80,
+   "impressions": 72,
    "ctr": 0,
    "position": 5.4
   },
   {
+   "page": "https://riyadhmetro.fyi/districts/al-taawun/",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
    "page": "https://riyadhmetro.fyi/districts/al-wahah/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
    "position": 8.8
   },
@@ -11377,9 +11363,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-woroud/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 6,
    "ctr": 0,
-   "position": 8.4
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-wusayta/",
@@ -11391,23 +11377,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/al-yamamah/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 30,
    "ctr": 0,
    "position": 4.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-yarmuk/",
    "clicks": 0,
-   "impressions": 162,
+   "impressions": 155,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-zahra/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 9,
    "ctr": 0,
-   "position": 7.8
+   "position": 8.1
   },
   {
    "page": "https://riyadhmetro.fyi/districts/al-zahrah/",
@@ -11419,16 +11405,16 @@
   {
    "page": "https://riyadhmetro.fyi/districts/ar-rabie/",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 23,
    "ctr": 0,
    "position": 8.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/as-salhiyah/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 39,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/dhahrat-al-badeah/",
@@ -11440,23 +11426,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/east-naseem/",
    "clicks": 0,
-   "impressions": 17,
+   "impressions": 16,
    "ctr": 0,
-   "position": 8.4
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/ghirnatah/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.2
+   "position": 7
   },
   {
    "page": "https://riyadhmetro.fyi/districts/ishbiliyah/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.1
   },
   {
    "page": "https://riyadhmetro.fyi/districts/jabrah/",
@@ -11468,28 +11454,28 @@
   {
    "page": "https://riyadhmetro.fyi/districts/jareer/",
    "clicks": 0,
-   "impressions": 14,
-   "ctr": 0,
-   "position": 8.3
-  },
-  {
-   "page": "https://riyadhmetro.fyi/districts/king-abdulaziz/",
-   "clicks": 0,
-   "impressions": 12,
+   "impressions": 13,
    "ctr": 0,
    "position": 8.8
   },
   {
+   "page": "https://riyadhmetro.fyi/districts/king-abdulaziz/",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
    "page": "https://riyadhmetro.fyi/districts/king-abdullah/",
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 23,
    "ctr": 0,
-   "position": 6.3
+   "position": 6.6
   },
   {
    "page": "https://riyadhmetro.fyi/districts/king-fahd/",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 23,
    "ctr": 0,
    "position": 7.8
   },
@@ -11503,7 +11489,7 @@
   {
    "page": "https://riyadhmetro.fyi/districts/manfuha-al-jadidah/",
    "clicks": 0,
-   "impressions": 46,
+   "impressions": 42,
    "ctr": 0,
    "position": 9.3
   },
@@ -11524,21 +11510,21 @@
   {
    "page": "https://riyadhmetro.fyi/districts/middle-oraija/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 8.1
+   "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/districts/olaishah/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 13,
    "ctr": 0,
-   "position": 7.5
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/qurtubah/",
    "clicks": 0,
-   "impressions": 35,
+   "impressions": 32,
    "ctr": 0,
    "position": 3.9
   },
@@ -11552,7 +11538,7 @@
   {
    "page": "https://riyadhmetro.fyi/districts/sultanah/",
    "clicks": 0,
-   "impressions": 108,
+   "impressions": 105,
    "ctr": 0,
    "position": 7.1
   },
@@ -11566,9 +11552,9 @@
   {
    "page": "https://riyadhmetro.fyi/districts/tuwaiq/",
    "clicks": 0,
-   "impressions": 36,
+   "impressions": 34,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.9
   },
   {
    "page": "https://riyadhmetro.fyi/districts/umm-saleem/",
@@ -11594,16 +11580,23 @@
   {
    "page": "https://riyadhmetro.fyi/districts/west-oraija/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 6.7
+   "position": 4
   },
   {
    "page": "https://riyadhmetro.fyi/districts/west-suwaidi/",
    "clicks": 0,
-   "impressions": 21,
+   "impressions": 18,
    "ctr": 0,
-   "position": 8.9
+   "position": 8.7
+  },
+  {
+   "page": "https://riyadhmetro.fyi/districts/west-umm-al-hamam/",
+   "clicks": 0,
+   "impressions": 87,
+   "ctr": 0,
+   "position": 6.5
   },
   {
    "page": "https://riyadhmetro.fyi/fr.html",
@@ -11643,23 +11636,23 @@
   {
    "page": "https://riyadhmetro.fyi/lines/yellow-line/",
    "clicks": 0,
-   "impressions": 205,
+   "impressions": 185,
    "ctr": 0,
    "position": 8.2
   },
   {
    "page": "https://riyadhmetro.fyi/routes/al-batha-to-kingdom-centre/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 13,
    "ctr": 0,
-   "position": 7.1
+   "position": 6.5
   },
   {
    "page": "https://riyadhmetro.fyi/routes/kafd-to-al-batha/",
    "clicks": 0,
-   "impressions": 74,
+   "impressions": 69,
    "ctr": 0,
-   "position": 8.5
+   "position": 6.2
   },
   {
    "page": "https://riyadhmetro.fyi/routes/kafd-to-diriyah/",
@@ -11783,9 +11776,9 @@
   {
    "page": "https://riyadhmetro.fyi/ru.html",
    "clicks": 0,
-   "impressions": 41,
+   "impressions": 40,
    "ctr": 0,
-   "position": 10.8
+   "position": 10.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/abu-dhabi-square/",
@@ -11797,37 +11790,37 @@
   {
    "page": "https://riyadhmetro.fyi/stations/ad-dhabab/",
    "clicks": 0,
-   "impressions": 39,
+   "impressions": 36,
    "ctr": 0,
-   "position": 3.7
+   "position": 3.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/ad-douh/",
    "clicks": 0,
-   "impressions": 71,
+   "impressions": 69,
    "ctr": 0,
    "position": 4.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/airport-t1-2/",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 23,
    "ctr": 0,
-   "position": 7.6
+   "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/stations/airport-t3-4/",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 9,
    "ctr": 0,
-   "position": 4.6
+   "position": 4.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/airport-t5/",
    "clicks": 0,
-   "impressions": 85,
+   "impressions": 76,
    "ctr": 0,
-   "position": 13.7
+   "position": 14.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/aishah-bint-abi-bakr-street/",
@@ -11839,7 +11832,7 @@
   {
    "page": "https://riyadhmetro.fyi/stations/al-andalus/",
    "clicks": 0,
-   "impressions": 86,
+   "impressions": 77,
    "ctr": 0,
    "position": 3.3
   },
@@ -11853,14 +11846,14 @@
   {
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
-   "impressions": 127,
+   "impressions": 117,
    "ctr": 0,
    "position": 7.7
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-hilla/",
    "clicks": 0,
-   "impressions": 63,
+   "impressions": 62,
    "ctr": 0,
    "position": 4.5
   },
@@ -11874,37 +11867,37 @@
   {
    "page": "https://riyadhmetro.fyi/stations/al-jarradiyah/",
    "clicks": 0,
-   "impressions": 51,
+   "impressions": 48,
    "ctr": 0,
-   "position": 6.8
+   "position": 6.7
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-khaleej/",
    "clicks": 0,
-   "impressions": 105,
+   "impressions": 102,
    "ctr": 0,
    "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-murooj/",
    "clicks": 0,
-   "impressions": 150,
+   "impressions": 147,
    "ctr": 0,
    "position": 5.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-owd/",
    "clicks": 0,
-   "impressions": 42,
+   "impressions": 39,
    "ctr": 0,
-   "position": 4.9
+   "position": 5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-urubah/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 13,
    "ctr": 0,
-   "position": 6.5
+   "position": 6.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/al-wurud-2/",
@@ -11930,23 +11923,23 @@
   {
    "page": "https://riyadhmetro.fyi/stations/alinma-bank/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 26,
    "ctr": 0,
-   "position": 7.1
+   "position": 7.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/an-nuzhah/",
    "clicks": 0,
-   "impressions": 48,
+   "impressions": 41,
    "ctr": 0,
-   "position": 5.9
+   "position": 6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/as-salam/",
    "clicks": 0,
-   "impressions": 125,
+   "impressions": 121,
    "ctr": 0,
-   "position": 5.5
+   "position": 5.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/as-salhiyah/",
@@ -11958,30 +11951,30 @@
   {
    "page": "https://riyadhmetro.fyi/stations/as-sulimaniyah/",
    "clicks": 0,
-   "impressions": 135,
+   "impressions": 134,
    "ctr": 0,
    "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/at-takhassussi/",
    "clicks": 0,
-   "impressions": 27,
+   "impressions": 25,
    "ctr": 0,
-   "position": 10.0
+   "position": 10.1
   },
   {
    "page": "https://riyadhmetro.fyi/stations/bank-albilad/",
    "clicks": 0,
-   "impressions": 24,
+   "impressions": 23,
    "ctr": 0,
-   "position": 5.7
+   "position": 5.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/city-centre-ishbiliyah/",
    "clicks": 0,
-   "impressions": 55,
+   "impressions": 53,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/stations/courts-complex/",
@@ -11993,23 +11986,23 @@
   {
    "page": "https://riyadhmetro.fyi/stations/dhahrat-al-badiah/",
    "clicks": 0,
-   "impressions": 24,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.2
+   "position": 5.0
   },
   {
    "page": "https://riyadhmetro.fyi/stations/dr-sulaiman-al-habib/",
    "clicks": 0,
-   "impressions": 219,
+   "impressions": 204,
    "ctr": 0,
-   "position": 5.9
+   "position": 5.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/first-industrial-city/",
    "clicks": 0,
-   "impressions": 17,
+   "impressions": 15,
    "ctr": 0,
-   "position": 9.8
+   "position": 10.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/gosi/",
@@ -12028,9 +12021,9 @@
   {
    "page": "https://riyadhmetro.fyi/stations/granada/",
    "clicks": 0,
-   "impressions": 197,
+   "impressions": 189,
    "ctr": 0,
-   "position": 8.2
+   "position": 8.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/harun-ar-rashid-road/",
@@ -12042,21 +12035,21 @@
   {
    "page": "https://riyadhmetro.fyi/stations/hassan-bin-thabit-street/",
    "clicks": 0,
-   "impressions": 69,
+   "impressions": 65,
    "ctr": 0,
-   "position": 5.4
+   "position": 5.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/jarir-district/",
    "clicks": 0,
-   "impressions": 206,
+   "impressions": 201,
    "ctr": 0,
    "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/jeddah-road/",
    "clicks": 0,
-   "impressions": 80,
+   "impressions": 73,
    "ctr": 0,
    "position": 7.6
   },
@@ -12070,58 +12063,58 @@
   {
    "page": "https://riyadhmetro.fyi/stations/khalid-bin-alwaleed-road/",
    "clicks": 0,
-   "impressions": 131,
+   "impressions": 118,
    "ctr": 0,
-   "position": 5.5
+   "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/khashm-al-an/",
    "clicks": 0,
-   "impressions": 17,
+   "impressions": 14,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.4
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-abdulaziz-road/",
    "clicks": 0,
-   "impressions": 77,
+   "impressions": 72,
    "ctr": 0,
    "position": 7.6
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-fahad-district/",
    "clicks": 0,
-   "impressions": 45,
+   "impressions": 41,
    "ctr": 0,
    "position": 8.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-fahad-library/",
    "clicks": 0,
-   "impressions": 101,
+   "impressions": 90,
    "ctr": 0,
    "position": 3.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/king-fahad-stadium/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 12,
    "ctr": 0,
-   "position": 6.1
+   "position": 5.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/manfouhah/",
    "clicks": 0,
-   "impressions": 154,
+   "impressions": 149,
    "ctr": 0,
    "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/mew-a/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 6,
    "ctr": 0,
-   "position": 4.1
+   "position": 4.2
   },
   {
    "page": "https://riyadhmetro.fyi/stations/ministry-of-defense/",
@@ -12133,16 +12126,16 @@
   {
    "page": "https://riyadhmetro.fyi/stations/ministry-of-interior/",
    "clicks": 0,
-   "impressions": 113,
+   "impressions": 102,
    "ctr": 0,
-   "position": 4.6
+   "position": 4.5
   },
   {
    "page": "https://riyadhmetro.fyi/stations/national-museum/",
    "clicks": 0,
-   "impressions": 84,
+   "impressions": 69,
    "ctr": 0,
-   "position": 9.1
+   "position": 8.9
   },
   {
    "page": "https://riyadhmetro.fyi/stations/officers-club/",
@@ -12154,23 +12147,30 @@
   {
    "page": "https://riyadhmetro.fyi/stations/passport-department/",
    "clicks": 0,
-   "impressions": 70,
+   "impressions": 67,
    "ctr": 0,
    "position": 5.7
   },
   {
    "page": "https://riyadhmetro.fyi/stations/pnu/",
    "clicks": 0,
-   "impressions": 47,
+   "impressions": 42,
    "ctr": 0,
-   "position": 6.1
+   "position": 6.0
   },
   {
    "page": "https://riyadhmetro.fyi/stations/railway/",
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 23,
    "ctr": 0,
-   "position": 10.6
+   "position": 11
+  },
+  {
+   "page": "https://riyadhmetro.fyi/stations/sab-bank/",
+   "clicks": 0,
+   "impressions": 261,
+   "ctr": 0,
+   "position": 7.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/sabic/",
@@ -12189,35 +12189,35 @@
   {
    "page": "https://riyadhmetro.fyi/stations/skirinah/",
    "clicks": 0,
-   "impressions": 89,
+   "impressions": 84,
    "ctr": 0,
-   "position": 6.9
+   "position": 6.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/sultanah/",
    "clicks": 0,
-   "impressions": 77,
+   "impressions": 70,
    "ctr": 0,
-   "position": 5.6
+   "position": 5.4
   },
   {
    "page": "https://riyadhmetro.fyi/stations/tuwaiq/",
    "clicks": 0,
-   "impressions": 54,
+   "impressions": 51,
    "ctr": 0,
-   "position": 8.7
+   "position": 8.8
   },
   {
    "page": "https://riyadhmetro.fyi/stations/uthman-bin-affan-road/",
    "clicks": 0,
-   "impressions": 126,
+   "impressions": 119,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.3
   },
   {
    "page": "https://riyadhmetro.fyi/stations/western-station/",
    "clicks": 0,
-   "impressions": 101,
+   "impressions": 99,
    "ctr": 0,
    "position": 8.1
   }
@@ -12227,17 +12227,17 @@
    "query": "خريطة المترو",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 46,
-   "impressions": 1882,
-   "ctr": 0.0244,
+   "impressions": 1838,
+   "ctr": 0.025,
    "position": 1.1
   },
   {
    "query": "transportation center metro station",
    "page": "https://riyadhmetro.fyi/stations/transportation-center/",
    "clicks": 3,
-   "impressions": 34,
-   "ctr": 0.0882,
-   "position": 3.4
+   "impressions": 31,
+   "ctr": 0.0968,
+   "position": 3.5
   },
   {
    "query": "اقرب محطة مترو من موقعي",
@@ -12251,17 +12251,17 @@
    "query": "خريطة مترو الرياض",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 3,
-   "impressions": 130,
-   "ctr": 0.0231,
-   "position": 6.9
+   "impressions": 114,
+   "ctr": 0.0263,
+   "position": 7.7
   },
   {
    "query": "murabba metro station",
    "page": "https://riyadhmetro.fyi/stations/al-muorabba/",
    "clicks": 2,
-   "impressions": 32,
-   "ctr": 0.0625,
-   "position": 3.5
+   "impressions": 29,
+   "ctr": 0.069,
+   "position": 3.4
   },
   {
    "query": "اقرب محطه",
@@ -12288,14 +12288,6 @@
    "position": 5.7
   },
   {
-   "query": "خريطة المترو الرياض",
-   "page": "https://riyadhmetro.fyi/ar/map/",
-   "clicks": 2,
-   "impressions": 22,
-   "ctr": 0.0909,
-   "position": 7.8
-  },
-  {
    "query": "خريطة مترو الرياض 2026",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 2,
@@ -12307,8 +12299,8 @@
    "query": "خريطه المترو",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 2,
-   "impressions": 67,
-   "ctr": 0.0299,
+   "impressions": 64,
+   "ctr": 0.0312,
    "position": 1.0
   },
   {
@@ -12339,16 +12331,16 @@
    "query": "al rayan metro station",
    "page": "https://riyadhmetro.fyi/districts/al-rayan/",
    "clicks": 1,
-   "impressions": 2,
-   "ctr": 0.5,
+   "impressions": 1,
+   "ctr": 1,
    "position": 2
   },
   {
    "query": "batha metro station",
    "page": "https://riyadhmetro.fyi/destinations/al-batha/",
    "clicks": 1,
-   "impressions": 28,
-   "ctr": 0.0357,
+   "impressions": 27,
+   "ctr": 0.037,
    "position": 6.1
   },
   {
@@ -12419,25 +12411,17 @@
    "query": "riyadh metro map",
    "page": "https://riyadhmetro.fyi/",
    "clicks": 1,
-   "impressions": 10,
-   "ctr": 0.1,
-   "position": 65.3
+   "impressions": 11,
+   "ctr": 0.0909,
+   "position": 59.5
   },
   {
    "query": "riyadh metro map",
    "page": "https://riyadhmetro.fyi/map/",
    "clicks": 1,
-   "impressions": 261,
-   "ctr": 0.0038,
-   "position": 2.5
-  },
-  {
-   "query": "sab bank metro station riyadh",
-   "page": "https://riyadhmetro.fyi/stations/sab-bank/",
-   "clicks": 1,
-   "impressions": 10,
-   "ctr": 0.1,
-   "position": 5.3
+   "impressions": 242,
+   "ctr": 0.0041,
+   "position": 2.6
   },
   {
    "query": "sahara mall near metro station",
@@ -12459,8 +12443,8 @@
    "query": "transportation center riyadh",
    "page": "https://riyadhmetro.fyi/stations/transportation-center/",
    "clicks": 1,
-   "impressions": 46,
-   "ctr": 0.0217,
+   "impressions": 43,
+   "ctr": 0.0233,
    "position": 10.3
   },
   {
@@ -12555,8 +12539,8 @@
    "query": "المسار الازرق",
    "page": "https://riyadhmetro.fyi/ar/lines/blue-line/",
    "clicks": 1,
-   "impressions": 130,
-   "ctr": 0.0077,
+   "impressions": 129,
+   "ctr": 0.0078,
    "position": 8.6
   },
   {
@@ -12584,11 +12568,19 @@
    "position": 4.5
   },
   {
+   "query": "خريطة المترو الرياض",
+   "page": "https://riyadhmetro.fyi/ar/map/",
+   "clicks": 1,
+   "impressions": 19,
+   "ctr": 0.0526,
+   "position": 8.9
+  },
+  {
    "query": "خريطة الميترو",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 1,
-   "impressions": 39,
-   "ctr": 0.0256,
+   "impressions": 38,
+   "ctr": 0.0263,
    "position": 1
   },
   {
@@ -12627,17 +12619,17 @@
    "query": "صورة خريطة المترو",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 1,
-   "impressions": 9,
-   "ctr": 0.1111,
+   "impressions": 8,
+   "ctr": 0.125,
    "position": 1
   },
   {
    "query": "مترو الرياض خريطة",
    "page": "https://riyadhmetro.fyi/ar/map/",
    "clicks": 1,
-   "impressions": 33,
-   "ctr": 0.0303,
-   "position": 1.3
+   "impressions": 27,
+   "ctr": 0.037,
+   "position": 1.4
   },
   {
    "query": "مترو القادسيه",
@@ -12659,9 +12651,9 @@
    "query": "محطة الدار البيضاء",
    "page": "https://riyadhmetro.fyi/ar/stations/ad-dar-al-baida/",
    "clicks": 1,
-   "impressions": 123,
-   "ctr": 0.0081,
-   "position": 6.3
+   "impressions": 118,
+   "ctr": 0.0085,
+   "position": 6.4
   },
   {
    "query": "محطة النسيم المسار البرتقالي",
@@ -12675,8 +12667,8 @@
    "query": "محطة مترو العارض",
    "page": "https://riyadhmetro.fyi/ar/districts/al-arid/",
    "clicks": 1,
-   "impressions": 31,
-   "ctr": 0.0323,
+   "impressions": 30,
+   "ctr": 0.0333,
    "position": 4.1
   },
   {
@@ -12744,28 +12736,12 @@
    "position": 5
   },
   {
-   "query": "\"dallah-hospital.com\" -site:dallah-hospital.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "page": "https://riyadhmetro.fyi/destinations/dallah-hospital/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 1
-  },
-  {
    "query": "\"dar al uloom university\"",
    "page": "https://riyadhmetro.fyi/ar/destinations/dar-al-uloom-university/",
    "clicks": 0,
    "impressions": 8,
    "ctr": 0,
    "position": 6.5
-  },
-  {
-   "query": "\"dar al uloom university\"",
-   "page": "https://riyadhmetro.fyi/destinations/princess-nourah-university/",
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
-   "position": 2.8
   },
   {
    "query": "\"dar al uloom university\"",
@@ -12779,9 +12755,9 @@
    "query": "\"rcrc.sa\" -site:rcrc.sa -site:cyble2.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 9.5
+   "position": 10
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -12793,27 +12769,11 @@
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "page": "https://riyadhmetro.fyi/routes/al-batha-to-kafd/",
    "clicks": 0,
    "impressions": 3,
    "ctr": 0,
-   "position": 2
-  },
-  {
-   "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "page": "https://riyadhmetro.fyi/routes/al-batha-to-kafd/",
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
-   "position": 2.4
-  },
-  {
-   "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
-   "page": "https://riyadhmetro.fyi/routes/kafd-to-al-batha/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 1
+   "position": 2.3
   },
   {
    "query": "\"riyadh chamber\" -site:chamber.sa -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -12862,14 +12822,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 2
-  },
-  {
-   "query": "\"royal commission for riyadh city\"",
-   "page": "https://riyadhmetro.fyi/nearest-station/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 8
   },
   {
    "query": "\"royal commission of riyadh city\" -site:cyble2.com -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",
@@ -12923,9 +12875,9 @@
    "query": "2g1 riyadh metro station - king fahad stadium",
    "page": "https://riyadhmetro.fyi/destinations/king-fahd-stadium/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 13.4
+   "position": 13.7
   },
   {
    "query": "3k1 station riyadh metro",
@@ -12995,9 +12947,9 @@
    "query": "abu dhabi square metro station",
    "page": "https://riyadhmetro.fyi/stations/ad-dhabab/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 12
+   "position": 13
   },
   {
    "query": "abu dhabi square riyadh",
@@ -13099,9 +13051,9 @@
    "query": "al andalus metro station",
    "page": "https://riyadhmetro.fyi/stations/al-andalus/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 12,
    "ctr": 0,
-   "position": 3.5
+   "position": 3.3
   },
   {
    "query": "al anoud tower",
@@ -13153,19 +13105,11 @@
   },
   {
    "query": "al aziziyah metro station riyadh",
-   "page": "https://riyadhmetro.fyi/districts/al-aziziyah/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 13
-  },
-  {
-   "query": "al aziziyah metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 34,
+   "impressions": 32,
    "ctr": 0,
-   "position": 7.4
+   "position": 7.5
   },
   {
    "query": "al aziziyah riyadh metro station",
@@ -13179,9 +13123,9 @@
    "query": "al aziziyah riyadh metro station",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 22,
    "ctr": 0,
-   "position": 7.0
+   "position": 7.2
   },
   {
    "query": "al batha metro station",
@@ -13251,9 +13195,9 @@
    "query": "al hamra metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.9
+   "position": 7.8
   },
   {
    "query": "al hamra square",
@@ -13267,9 +13211,9 @@
    "query": "al hamra station",
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
-   "position": 7.6
+   "position": 8
   },
   {
    "query": "al hilla metro station",
@@ -13331,7 +13275,7 @@
    "query": "al khaleej metro station",
    "page": "https://riyadhmetro.fyi/stations/al-khaleej/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
    "position": 1
   },
@@ -13355,7 +13299,7 @@
    "query": "al khaleej station",
    "page": "https://riyadhmetro.fyi/stations/al-khaleej/",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
    "position": 3
   },
@@ -13403,9 +13347,9 @@
    "query": "al murabba metro station",
    "page": "https://riyadhmetro.fyi/stations/al-muorabba/",
    "clicks": 0,
-   "impressions": 94,
+   "impressions": 93,
    "ctr": 0,
-   "position": 4
+   "position": 4.0
   },
   {
    "query": "al murabba station",
@@ -13427,9 +13371,9 @@
    "query": "al murooj metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/al-murooj/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 4.4
+   "position": 4.2
   },
   {
    "query": "al murooj riyadh metro station",
@@ -13443,9 +13387,9 @@
    "query": "al murooj station",
    "page": "https://riyadhmetro.fyi/stations/al-murooj/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 7.5
+   "position": 10
   },
   {
    "query": "al muruj",
@@ -13499,15 +13443,15 @@
    "query": "al nuzha metro station",
    "page": "https://riyadhmetro.fyi/districts/al-nuzha/",
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 12,
    "ctr": 0,
-   "position": 4.4
+   "position": 4.3
   },
   {
    "query": "al nuzha metro station",
    "page": "https://riyadhmetro.fyi/stations/an-nuzhah/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 7,
    "ctr": 0,
    "position": 7.4
   },
@@ -13515,17 +13459,17 @@
    "query": "al oud metro station",
    "page": "https://riyadhmetro.fyi/districts/al-oud/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 4,
    "ctr": 0,
-   "position": 4.9
+   "position": 3.8
   },
   {
    "query": "al oud metro station",
    "page": "https://riyadhmetro.fyi/stations/al-owd/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 4,
    "ctr": 0,
-   "position": 4.3
+   "position": 5
   },
   {
    "query": "al owd metro station",
@@ -13643,9 +13587,9 @@
    "query": "al salhiya metro station",
    "page": "https://riyadhmetro.fyi/districts/as-salhiyah/",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 11,
    "ctr": 0,
-   "position": 5.2
+   "position": 5.5
   },
   {
    "query": "al salhiya metro station",
@@ -13691,9 +13635,9 @@
    "query": "al wizarat metro station",
    "page": "https://riyadhmetro.fyi/stations/al-wizarat/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 10.7
+   "position": 10
   },
   {
    "query": "al wurud 2",
@@ -13747,9 +13691,9 @@
    "query": "albatha metro station",
    "page": "https://riyadhmetro.fyi/destinations/al-batha/",
    "clicks": 0,
-   "impressions": 28,
+   "impressions": 27,
    "ctr": 0,
-   "position": 4.6
+   "position": 4.7
   },
   {
    "query": "albatha metro station",
@@ -13771,7 +13715,7 @@
    "query": "alhamra metro station",
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
    "position": 8.5
   },
@@ -13787,9 +13731,9 @@
    "query": "alinma bank station",
    "page": "https://riyadhmetro.fyi/stations/alinma-bank/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 5
+   "position": 4
   },
   {
    "query": "all station of blue line metro",
@@ -13883,9 +13827,9 @@
    "query": "andalus metro station",
    "page": "https://riyadhmetro.fyi/stations/al-andalus/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 17,
    "ctr": 0,
-   "position": 2.6
+   "position": 2.5
   },
   {
    "query": "ar rabi metro station",
@@ -13958,14 +13902,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 12
-  },
-  {
-   "query": "as-salam international hospital",
-   "page": "https://riyadhmetro.fyi/routes/kafd-to-al-batha/",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 88
   },
   {
    "query": "as-salam international hospital",
@@ -14107,9 +14043,9 @@
    "query": "aziziyah metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 18,
    "ctr": 0,
-   "position": 7.1
+   "position": 7.2
   },
   {
    "query": "aziziyah riyadh metro station",
@@ -14123,17 +14059,17 @@
    "query": "aziziyah riyadh metro station",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 21,
+   "impressions": 19,
    "ctr": 0,
-   "position": 7.2
+   "position": 7.3
   },
   {
    "query": "aziziyah station",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 8,
    "ctr": 0,
-   "position": 8.7
+   "position": 8.6
   },
   {
    "query": "bangladesh embassy riyadh new location map",
@@ -14254,46 +14190,6 @@
    "impressions": 2,
    "ctr": 0,
    "position": 9.5
-  },
-  {
-   "query": "bay station",
-   "page": "https://riyadhmetro.fyi/stations/ad-dar-al-baida/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 5
-  },
-  {
-   "query": "bay station",
-   "page": "https://riyadhmetro.fyi/stations/king-fahad-district/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
-  },
-  {
-   "query": "bay station",
-   "page": "https://riyadhmetro.fyi/stations/king-salman-oasis/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 8
-  },
-  {
-   "query": "bay station",
-   "page": "https://riyadhmetro.fyi/stations/ministry-of-interior/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 4
-  },
-  {
-   "query": "bay station",
-   "page": "https://riyadhmetro.fyi/stations/sab-bank/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 6
   },
   {
    "query": "best station near me",
@@ -14827,9 +14723,9 @@
    "query": "darul baida metro station",
    "page": "https://riyadhmetro.fyi/stations/ad-dar-al-baida/",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 18,
    "ctr": 0,
-   "position": 4.2
+   "position": 4
   },
   {
    "query": "dhahrat al badiah station",
@@ -15147,7 +15043,7 @@
    "query": "granada metro station",
    "page": "https://riyadhmetro.fyi/stations/granada/",
    "clicks": 0,
-   "impressions": 73,
+   "impressions": 70,
    "ctr": 0,
    "position": 7.7
   },
@@ -15336,14 +15232,6 @@
    "position": 9
   },
   {
-   "query": "habib station",
-   "page": "https://riyadhmetro.fyi/stations/dr-sulaiman-al-habib/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 7
-  },
-  {
    "query": "hamra metro station",
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
@@ -15371,9 +15259,9 @@
    "query": "hassan bin thabit street",
    "page": "https://riyadhmetro.fyi/stations/hassan-bin-thabit-street/",
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 14,
    "ctr": 0,
-   "position": 7.3
+   "position": 7.1
   },
   {
    "query": "hassan bin thabit street metro station",
@@ -15633,19 +15521,11 @@
   },
   {
    "query": "ishbiliyah metro station",
-   "page": "https://riyadhmetro.fyi/districts/ishbiliyah/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 10
-  },
-  {
-   "query": "ishbiliyah metro station",
    "page": "https://riyadhmetro.fyi/stations/city-centre-ishbiliyah/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 9
+   "position": 10.3
   },
   {
    "query": "ishbiliyah metro station riyadh",
@@ -15803,17 +15683,17 @@
    "query": "jeddah road metro station",
    "page": "https://riyadhmetro.fyi/stations/jeddah-road/",
    "clicks": 0,
-   "impressions": 31,
+   "impressions": 27,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.9
   },
   {
    "query": "jeddah road metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/jeddah-road/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 5,
    "ctr": 0,
-   "position": 9
+   "position": 8.8
   },
   {
    "query": "jeddah road station",
@@ -15923,15 +15803,15 @@
    "query": "khalid bin al waleed metro station",
    "page": "https://riyadhmetro.fyi/stations/khalid-bin-alwaleed-road/",
    "clicks": 0,
-   "impressions": 18,
+   "impressions": 16,
    "ctr": 0,
-   "position": 5.1
+   "position": 5
   },
   {
    "query": "khalid bin waleed metro station",
    "page": "https://riyadhmetro.fyi/stations/khalid-bin-alwaleed-road/",
    "clicks": 0,
-   "impressions": 36,
+   "impressions": 35,
    "ctr": 0,
    "position": 4.8
   },
@@ -15955,7 +15835,7 @@
    "query": "khashm al an",
    "page": "https://riyadhmetro.fyi/stations/khashm-al-an/",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 3,
    "ctr": 0,
    "position": 10
   },
@@ -15995,17 +15875,9 @@
    "query": "king abdulaziz metro station",
    "page": "https://riyadhmetro.fyi/stations/king-abdulaziz-road/",
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 15,
    "ctr": 0,
-   "position": 7.2
-  },
-  {
-   "query": "king abdulaziz public library",
-   "page": "https://riyadhmetro.fyi/routes/kafd-to-al-batha/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
+   "position": 7.4
   },
   {
    "query": "king abdulaziz road metro station",
@@ -16091,9 +15963,9 @@
    "query": "king fahad library station",
    "page": "https://riyadhmetro.fyi/stations/king-fahad-library/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 5.3
+   "position": 5.5
   },
   {
    "query": "king fahad metro station",
@@ -16147,9 +16019,9 @@
    "query": "king salman metro station",
    "page": "https://riyadhmetro.fyi/stations/king-salman-oasis/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 7.5
+   "position": 6.7
   },
   {
    "query": "king salman oasis metro station",
@@ -16419,9 +16291,9 @@
    "query": "malaz railway station",
    "page": "https://riyadhmetro.fyi/stations/al-malaz/",
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.6
+   "position": 7.5
   },
   {
    "query": "malaz stadium",
@@ -16715,9 +16587,9 @@
    "query": "metro aziziyah",
    "page": "https://riyadhmetro.fyi/stations/al-aziziah/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 5.7
+   "position": 5.8
   },
   {
    "query": "metro blue line",
@@ -16862,14 +16734,6 @@
    "impressions": 4,
    "ctr": 0,
    "position": 26
-  },
-  {
-   "query": "metro bus working hours",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 13
   },
   {
    "query": "metro charges",
@@ -17216,14 +17080,6 @@
    "position": 8
   },
   {
-   "query": "metro line opening time",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 6
-  },
-  {
    "query": "metro line riyadh map",
    "page": "https://riyadhmetro.fyi/map/",
    "clicks": 0,
@@ -17331,9 +17187,9 @@
    "query": "metro map riyadh",
    "page": "https://riyadhmetro.fyi/map/",
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 10,
    "ctr": 0,
-   "position": 6.5
+   "position": 7.6
   },
   {
    "query": "metro map riyadh",
@@ -17347,7 +17203,7 @@
    "query": "metro morning starting time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 5.2
   },
@@ -17395,7 +17251,7 @@
    "query": "metro near me",
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 0,
-   "impressions": 175,
+   "impressions": 174,
    "ctr": 0,
    "position": 9.8
   },
@@ -17627,7 +17483,7 @@
    "query": "metro open time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 21,
+   "impressions": 20,
    "ctr": 0,
    "position": 6.0
   },
@@ -17667,9 +17523,9 @@
    "query": "metro opening hours",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 6.4
+   "position": 6.3
   },
   {
    "query": "metro opening time",
@@ -18019,9 +17875,9 @@
    "query": "metro riyadh map",
    "page": "https://riyadhmetro.fyi/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 80.7
+   "position": 82.5
   },
   {
    "query": "metro riyadh map",
@@ -18043,9 +17899,9 @@
    "query": "metro riyadh open time",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 9,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.1
   },
   {
    "query": "metro riyadh opening time",
@@ -18059,9 +17915,9 @@
    "query": "metro riyadh working hours",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 12,
    "ctr": 0,
-   "position": 10.6
+   "position": 10.7
   },
   {
    "query": "metro route",
@@ -18091,9 +17947,9 @@
    "query": "metro sab",
    "page": "https://riyadhmetro.fyi/stations/sab-bank/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 9
+   "position": 8.5
   },
   {
    "query": "metro salam",
@@ -18107,9 +17963,9 @@
    "query": "metro schedule",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 8.5
+   "position": 11
   },
   {
    "query": "metro schedule friday",
@@ -18123,9 +17979,9 @@
    "query": "metro schedule today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 22,
    "ctr": 0,
-   "position": 5.8
+   "position": 5.7
   },
   {
    "query": "metro schedule tomorrow",
@@ -18283,7 +18139,7 @@
    "query": "metro station al hamra",
    "page": "https://riyadhmetro.fyi/stations/al-hamra/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 10.2
   },
@@ -18379,9 +18235,9 @@
    "query": "metro station diriyah",
    "page": "https://riyadhmetro.fyi/destinations/diriyah/",
    "clicks": 0,
-   "impressions": 32,
+   "impressions": 31,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.6
   },
   {
    "query": "metro station friday schedule",
@@ -18459,7 +18315,7 @@
    "query": "metro station map riyadh",
    "page": "https://riyadhmetro.fyi/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
    "position": 1
   },
@@ -18539,9 +18395,9 @@
    "query": "metro station near me",
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 32.2
+   "position": 39.7
   },
   {
    "query": "metro station near me",
@@ -18606,14 +18462,6 @@
    "impressions": 22,
    "ctr": 0,
    "position": 8.5
-  },
-  {
-   "query": "metro station near me open time",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
   },
   {
    "query": "metro station near my location",
@@ -18883,7 +18731,7 @@
    "query": "metro station time schedule",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
    "position": 8.8
   },
@@ -19048,14 +18896,6 @@
    "position": 5
   },
   {
-   "query": "metro time close",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
-  },
-  {
    "query": "metro time close today",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
@@ -19091,9 +18931,9 @@
    "query": "metro time open",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 4,
    "ctr": 0,
-   "position": 5.6
+   "position": 5.5
   },
   {
    "query": "metro time open and close",
@@ -19139,9 +18979,9 @@
    "query": "metro times",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 4.3
+   "position": 4.5
   },
   {
    "query": "metro times today",
@@ -19150,14 +18990,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 4
-  },
-  {
-   "query": "metro timetable today",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 3
   },
   {
    "query": "metro timing",
@@ -19256,14 +19088,6 @@
    "position": 11
   },
   {
-   "query": "metro train friday schedule",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 4
-  },
-  {
    "query": "metro train hours",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
@@ -19326,14 +19150,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 7
-  },
-  {
-   "query": "metro train operating hours",
-   "page": "https://riyadhmetro.fyi/timings/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 9
   },
   {
    "query": "metro train red line",
@@ -19451,9 +19267,9 @@
    "query": "metro train timings",
    "page": "https://riyadhmetro.fyi/timings/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 9
+   "position": 10
   },
   {
    "query": "metro trains timetable",
@@ -19619,15 +19435,15 @@
    "query": "ministry of interior metro station",
    "page": "https://riyadhmetro.fyi/stations/ministry-of-interior/",
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 5,
    "ctr": 0,
-   "position": 3.5
+   "position": 3.4
   },
   {
    "query": "moi metro station",
    "page": "https://riyadhmetro.fyi/stations/ministry-of-interior/",
    "clicks": 0,
-   "impressions": 25,
+   "impressions": 24,
    "ctr": 0,
    "position": 5.8
   },
@@ -19720,14 +19536,6 @@
    "position": 3.8
   },
   {
-   "query": "museum metro station",
-   "page": "https://riyadhmetro.fyi/stations/national-museum/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
-  },
-  {
    "query": "my location nearest metro",
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 0,
@@ -19755,9 +19563,9 @@
    "query": "my location to near metro station",
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 8
   },
   {
    "query": "my near metro station",
@@ -19790,14 +19598,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 72
-  },
-  {
-   "query": "naseem metro",
-   "page": "https://riyadhmetro.fyi/districts/east-naseem/",
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 11
   },
   {
    "query": "naseem metro station riyadh",
@@ -19835,17 +19635,17 @@
    "query": "national museum metro station",
    "page": "https://riyadhmetro.fyi/stations/national-museum/",
    "clicks": 0,
-   "impressions": 39,
+   "impressions": 28,
    "ctr": 0,
-   "position": 9.7
+   "position": 9.6
   },
   {
    "query": "national museum metro station riyadh",
    "page": "https://riyadhmetro.fyi/stations/national-museum/",
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 8,
    "ctr": 0,
-   "position": 10.8
+   "position": 10.6
   },
   {
    "query": "national museum riyadh metro",
@@ -19891,9 +19691,9 @@
    "query": "national museum station riyadh",
    "page": "https://riyadhmetro.fyi/stations/national-museum/",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 11
   },
   {
    "query": "near by metro bus station",
@@ -19931,9 +19731,9 @@
    "query": "near me metro station",
    "page": "https://riyadhmetro.fyi/nearest-station/",
    "clicks": 0,
-   "impressions": 48,
+   "impressions": 43,
    "ctr": 0,
-   "position": 8.3
+   "position": 8.0
   },
   {
    "query": "near me metro station",
@@ -20222,28 +20022,228 @@
    "impressions": 1,
    "ctr": 0,
    "position": 6
+  },
+  {
+   "query": "nearest mt",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "nearest orange line station",
+   "page": "https://riyadhmetro.fyi/lines/orange-line/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "nearest purple line metro station to me",
+   "page": "https://riyadhmetro.fyi/lines/purple-line/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "nearest railway station",
+   "page": "https://riyadhmetro.fyi/destinations/riyadh-railway-station/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "nearest railway station from here",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "nearest railway station to me from my location",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "nearest station",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "nearest station near me",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "nearest station to airport",
+   "page": "https://riyadhmetro.fyi/destinations/riyadh-airport/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "nearest station to me",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3.3
+  },
+  {
+   "query": "nearest train station",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "query": "nearest train station near me",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "query": "nearest train station to me",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "nearest train stations to me",
+   "page": "https://riyadhmetro.fyi/nearest-station/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "nesto hyper market near me",
+   "page": "https://riyadhmetro.fyi/stations/transportation-center/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "next orange line train",
+   "page": "https://riyadhmetro.fyi/lines/orange-line/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "north mathar district riyadh",
+   "page": "https://riyadhmetro.fyi/districts/north-mathar/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "north train station",
+   "page": "https://riyadhmetro.fyi/destinations/riyadh-north-railway-station/",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "query": "number 2 timetable",
+   "page": "https://riyadhmetro.fyi/lines/red-line/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "nuzha metro station",
+   "page": "https://riyadhmetro.fyi/districts/al-nuzha/",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "query": "nuzha metro station",
+   "page": "https://riyadhmetro.fyi/stations/an-nuzhah/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "o',' hgljv,",
+   "page": "https://riyadhmetro.fyi/ar/lines/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "oasis metro",
+   "page": "https://riyadhmetro.fyi/stations/king-salman-oasis/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "officer club metro station",
+   "page": "https://riyadhmetro.fyi/districts/king-abdulaziz/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "officer club metro station",
+   "page": "https://riyadhmetro.fyi/stations/officers-club/",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 12.2
   }
  ],
  "countries": [
   {
    "country": "sau",
-   "clicks": 725,
-   "impressions": 56353,
-   "ctr": 0.0129,
+   "clicks": 705,
+   "impressions": 54406,
+   "ctr": 0.013,
    "position": 6.6
   },
   {
    "country": "are",
    "clicks": 4,
-   "impressions": 229,
-   "ctr": 0.0175,
+   "impressions": 221,
+   "ctr": 0.0181,
    "position": 6.1
   },
   {
    "country": "ind",
    "clicks": 2,
-   "impressions": 516,
-   "ctr": 0.0039,
+   "impressions": 487,
+   "ctr": 0.0041,
    "position": 6.7
   },
   {
@@ -20254,18 +20254,11 @@
    "position": 9
   },
   {
-   "country": "che",
-   "clicks": 1,
-   "impressions": 15,
-   "ctr": 0.0667,
-   "position": 14.5
-  },
-  {
    "country": "egy",
    "clicks": 1,
-   "impressions": 316,
-   "ctr": 0.0032,
-   "position": 10.0
+   "impressions": 300,
+   "ctr": 0.0033,
+   "position": 9.6
   },
   {
    "country": "esp",
@@ -20277,37 +20270,37 @@
   {
    "country": "gbr",
    "clicks": 1,
-   "impressions": 119,
-   "ctr": 0.0084,
-   "position": 4.9
+   "impressions": 114,
+   "ctr": 0.0088,
+   "position": 4.8
   },
   {
    "country": "irn",
    "clicks": 1,
-   "impressions": 11,
-   "ctr": 0.0909,
-   "position": 7.5
+   "impressions": 10,
+   "ctr": 0.1,
+   "position": 7.4
   },
   {
    "country": "jor",
    "clicks": 1,
-   "impressions": 61,
-   "ctr": 0.0164,
-   "position": 9.0
+   "impressions": 58,
+   "ctr": 0.0172,
+   "position": 9.1
   },
   {
    "country": "nld",
    "clicks": 1,
-   "impressions": 44,
-   "ctr": 0.0227,
-   "position": 7.4
+   "impressions": 41,
+   "ctr": 0.0244,
+   "position": 7.5
   },
   {
    "country": "pak",
    "clicks": 1,
-   "impressions": 158,
-   "ctr": 0.0063,
-   "position": 10.3
+   "impressions": 151,
+   "ctr": 0.0066,
+   "position": 10.4
   },
   {
    "country": "syr",
@@ -20333,9 +20326,9 @@
   {
    "country": "arg",
    "clicks": 0,
-   "impressions": 19,
+   "impressions": 20,
    "ctr": 0,
-   "position": 25
+   "position": 26.6
   },
   {
    "country": "arm",
@@ -20347,16 +20340,16 @@
   {
    "country": "aus",
    "clicks": 0,
-   "impressions": 39,
+   "impressions": 36,
    "ctr": 0,
-   "position": 6.2
+   "position": 6.1
   },
   {
    "country": "aut",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 3,
    "ctr": 0,
-   "position": 6
+   "position": 5.3
   },
   {
    "country": "aze",
@@ -20375,9 +20368,9 @@
   {
    "country": "bgd",
    "clicks": 0,
-   "impressions": 80,
+   "impressions": 74,
    "ctr": 0,
-   "position": 18.8
+   "position": 19.8
   },
   {
    "country": "bgr",
@@ -20410,16 +20403,23 @@
   {
    "country": "bra",
    "clicks": 0,
-   "impressions": 87,
+   "impressions": 83,
    "ctr": 0,
-   "position": 23.7
+   "position": 24.6
   },
   {
    "country": "can",
    "clicks": 0,
-   "impressions": 56,
+   "impressions": 52,
    "ctr": 0,
-   "position": 12.2
+   "position": 12.8
+  },
+  {
+   "country": "che",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 17.6
   },
   {
    "country": "chl",
@@ -20452,9 +20452,9 @@
   {
    "country": "col",
    "clicks": 0,
-   "impressions": 11,
+   "impressions": 10,
    "ctr": 0,
-   "position": 10.9
+   "position": 11.6
   },
   {
    "country": "cri",
@@ -20466,9 +20466,9 @@
   {
    "country": "cub",
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 1,
    "ctr": 0,
-   "position": 5
+   "position": 1
   },
   {
    "country": "cyp",
@@ -20501,9 +20501,9 @@
   {
    "country": "dom",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
-   "position": 4.6
+   "position": 3.7
   },
   {
    "country": "dza",
@@ -20529,14 +20529,14 @@
   {
    "country": "fin",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 2,
    "ctr": 0,
-   "position": 3.3
+   "position": 2.5
   },
   {
    "country": "fra",
    "clicks": 0,
-   "impressions": 57,
+   "impressions": 55,
    "ctr": 0,
    "position": 7.3
   },
@@ -20550,9 +20550,9 @@
   {
    "country": "grc",
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 7,
    "ctr": 0,
-   "position": 3.4
+   "position": 2.4
   },
   {
    "country": "gtm",
@@ -20579,29 +20579,29 @@
  "devices": [
   {
    "device": "MOBILE",
-   "clicks": 675,
-   "impressions": 54302,
-   "ctr": 0.0124,
+   "clicks": 657,
+   "impressions": 52414,
+   "ctr": 0.0125,
    "position": 6.3
   },
   {
    "device": "DESKTOP",
-   "clicks": 58,
-   "impressions": 5070,
-   "ctr": 0.0114,
-   "position": 11.4
+   "clicks": 55,
+   "impressions": 4852,
+   "ctr": 0.0113,
+   "position": 11.6
   },
   {
    "device": "TABLET",
    "clicks": 8,
-   "impressions": 300,
-   "ctr": 0.0267,
-   "position": 6.2
+   "impressions": 288,
+   "ctr": 0.0278,
+   "position": 6.3
   }
  ],
  "totals": {
-  "clicks": 741,
-  "impressions": 59672
+  "clicks": 720,
+  "impressions": 57554
  },
  "sitemaps": [
   {
