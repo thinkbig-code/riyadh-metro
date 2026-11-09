@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-09T08:01:46Z",
+ "generated": "2026-11-09T12:09:45Z",
  "start": "2025-11-09",
  "end": "2026-11-10",
  "total": {
-  "total": 3967,
+  "total": 3968,
   "total_events": 1771,
-  "total_utc": 3967,
+  "total_utc": 3968,
   "stats": [
    {
     "day": "2025-11-09",
@@ -10754,7 +10754,7 @@
     ],
     "daily": 161,
     "weekly": 447,
-    "monthly": 495
+    "monthly": 496
    },
    {
     "day": "2026-11-02",
@@ -10965,7 +10965,7 @@
      2
     ],
     "daily": 41,
-    "weekly": 48
+    "weekly": 49
    },
    {
     "day": "2026-11-09",
@@ -10985,7 +10985,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10995,7 +10995,7 @@
      0,
      0
     ],
-    "daily": 7
+    "daily": 8
    },
    {
     "day": "2026-11-10",
@@ -15559,6 +15559,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/sabic",
+   "path_id": 120477749,
+   "title": "SABIC Metro Station, Riyadh: Yellow/Purple lines, No. 63",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-09": 1
    }
   },
   {
@@ -23314,9 +23324,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2196,
+  "visits": 2197,
   "events_total": 1771,
-  "goatcounter_total_with_events": 3967,
+  "goatcounter_total_with_events": 3968,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -23356,7 +23366,7 @@
    "2026-11-06": 19,
    "2026-11-07": 15,
    "2026-11-08": 24,
-   "2026-11-09": 6
+   "2026-11-09": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25601,7 +25611,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 40,
+   "count": 41,
    "ref_scheme": "h"
   },
   {
@@ -25855,7 +25865,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2811
+   "count": 2812
   },
   {
    "id": "ara",
@@ -25982,7 +25992,7 @@
   {
    "id": "EG",
    "name": "Egypt",
-   "count": 14
+   "count": 15
   },
   {
    "id": "ES",
@@ -26194,7 +26204,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 576
+   "count": 577
   },
   {
    "id": "desktophd",
@@ -26211,7 +26221,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2095
+   "count": 2096
   },
   {
    "id": "Safari",
@@ -26242,7 +26252,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 504
+   "count": 505
   },
   {
    "id": "macOS",
