@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-12T08:22:59Z",
+ "generated": "2026-11-12T13:16:16Z",
  "start": "2026-10-13",
  "end": "2026-11-13",
  "total": {
-  "total": 2868,
-  "total_events": 959,
-  "total_utc": 2855,
+  "total": 2884,
+  "total_events": 970,
+  "total_utc": 2871,
   "stats": [
    {
     "day": "2026-10-13",
@@ -611,7 +611,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 761
+    "monthly": 777
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      4
     ],
     "daily": 90,
-    "weekly": 243
+    "weekly": 259
    },
    {
     "day": "2026-11-11",
@@ -931,10 +931,10 @@
      1,
      6,
      0,
+     1,
      0,
-     0,
-     0,
-     0,
+     7,
+     8,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 22
+    "daily": 38
    },
    {
     "day": "2026-11-13",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 421,
+   "count": 422,
    "daily": {
     "2026-10-13": 31,
     "2026-10-14": 36,
@@ -1015,7 +1015,7 @@
     "2026-11-09": 3,
     "2026-11-10": 5,
     "2026-11-11": 6,
-    "2026-11-12": 2
+    "2026-11-12": 3
    }
   },
   {
@@ -1097,7 +1097,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 92,
+   "count": 93,
    "daily": {
     "2026-10-13": 6,
     "2026-10-14": 5,
@@ -1126,7 +1126,8 @@
     "2026-11-07": 1,
     "2026-11-08": 2,
     "2026-11-09": 2,
-    "2026-11-10": 2
+    "2026-11-10": 2,
+    "2026-11-12": 1
    }
   },
   {
@@ -1165,7 +1166,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 52,
+   "count": 53,
    "daily": {
     "2026-10-13": 4,
     "2026-10-15": 1,
@@ -1189,7 +1190,7 @@
     "2026-11-09": 1,
     "2026-11-10": 3,
     "2026-11-11": 6,
-    "2026-11-12": 1
+    "2026-11-12": 2
    }
   },
   {
@@ -1287,7 +1288,7 @@
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
-   "count": 22,
+   "count": 23,
    "daily": {
     "2026-10-13": 1,
     "2026-10-14": 1,
@@ -1300,7 +1301,8 @@
     "2026-11-06": 1,
     "2026-11-08": 1,
     "2026-11-10": 1,
-    "2026-11-11": 3
+    "2026-11-11": 3,
+    "2026-11-12": 1
    }
   },
   {
@@ -2458,6 +2460,18 @@
    }
   },
   {
+   "path": "/ar/stations/hassan-bin-thabit-street",
+   "path_id": 117529204,
+   "title": "محطة شارع حسان بن ثابت، مترو الرياض: المسار البرتقالي (رقم 59)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-11": 2,
+    "2026-11-12": 1
+   }
+  },
+  {
    "path": "/ar/destinations/imam-university",
    "path_id": 116826499,
    "title": "محطة مترو جامعة الإمام محمد بن سعود الإسلامية: محطة سابك، 14 دقيقة سيراً",
@@ -2650,6 +2664,19 @@
     "2026-10-20": 1,
     "2026-10-31": 1,
     "2026-11-10": 1
+   }
+  },
+  {
+   "path": "route/uthman/hokm",
+   "path_id": 112970405,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 4,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-10-21": 1,
+    "2026-10-31": 1,
+    "2026-11-12": 1
    }
   },
   {
@@ -2902,17 +2929,6 @@
     "2026-11-03": 1,
     "2026-11-08": 1,
     "2026-11-11": 1
-   }
-  },
-  {
-   "path": "/ar/stations/hassan-bin-thabit-street",
-   "path_id": 117529204,
-   "title": "محطة شارع حسان بن ثابت، مترو الرياض: المسار البرتقالي (رقم 59)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-11-01": 1,
-    "2026-11-11": 2
    }
   },
   {
@@ -3193,18 +3209,6 @@
     "2026-10-19": 1,
     "2026-11-01": 1,
     "2026-11-04": 1
-   }
-  },
-  {
-   "path": "route/uthman/hokm",
-   "path_id": 112970405,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 3,
-   "daily": {
-    "2026-10-19": 1,
-    "2026-10-21": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -4245,6 +4249,39 @@
    }
   },
   {
+   "path": "route/naseem/uthman",
+   "path_id": 112969532,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "route/sultanah/naseem",
+   "path_id": 112969305,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "route/kafd/hokm",
+   "path_id": 112966782,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-19": 1,
+    "2026-11-12": 1
+   }
+  },
+  {
    "path": "/ar/stations/ad-dar-al-baida",
    "path_id": 112955569,
    "title": "محطة الدار البيضاء، مترو الرياض: المسار الأزرق (رقم 25)",
@@ -4605,6 +4642,17 @@
    }
   },
   {
+   "path": "place/p_al_murabba_palace/to",
+   "path_id": 110571170,
+   "title": "ar|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-11-12": 1
+   }
+  },
+  {
    "path": "/ar/destinations/gold-souq",
    "path_id": 110461167,
    "title": "محطة مترو سوق الذهب بالرياض: محطة قصر الحكم، 5 دقائق سيراً",
@@ -4754,6 +4802,56 @@
    "daily": {
     "2026-10-26": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "noresult/view",
+   "path_id": 121430813,
+   "title": "en|view",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "noresult/view_mall",
+   "path_id": 121430784,
+   "title": "en|view mall",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "noresult/the_view_mall",
+   "path_id": 121430684,
+   "title": "en|the view mall",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "noresult/the_view",
+   "path_id": 121430647,
+   "title": "en|the view",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-12": 1
+   }
+  },
+  {
+   "path": "route/uthman/naseem",
+   "path_id": 121421856,
+   "title": "en|swap|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-12": 1
    }
   },
   {
@@ -7747,38 +7845,8 @@
    }
   },
   {
-   "path": "route/naseem/uthman",
-   "path_id": 112969532,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "route/sultanah/naseem",
-   "path_id": 112969305,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
    "path": "route/kafd/uthman",
    "path_id": 112968657,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-19": 1
-   }
-  },
-  {
-   "path": "route/kafd/hokm",
-   "path_id": 112966782,
    "title": "en|map|ok",
    "event": true,
    "count": 1,
@@ -9227,13 +9295,13 @@
    }
   },
   {
-   "path": "place/p_al_murabba_palace/to",
-   "path_id": 110571170,
-   "title": "ar|name",
-   "event": true,
+   "path": "/ar/destinations/al-nakheel-mall",
+   "path_id": 110629504,
+   "title": "محطة مترو النخيل مول: محطة مركز الرياض للمعارض (المسار الأحمر)",
+   "event": false,
    "count": 1,
    "daily": {
-    "2026-10-22": 1
+    "2026-11-12": 1
    }
   },
   {
@@ -9589,9 +9657,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1909,
-  "events_total": 959,
-  "goatcounter_total_with_events": 2868,
+  "visits": 1914,
+  "events_total": 970,
+  "goatcounter_total_with_events": 2884,
   "page_loads_by_day": {
    "2026-10-13": 56,
    "2026-10-14": 77,
@@ -9623,7 +9691,7 @@
    "2026-11-09": 17,
    "2026-11-10": 75,
    "2026-11-11": 118,
-   "2026-11-12": 17
+   "2026-11-12": 22
   },
   "visitor_days_by_day": {
    "2026-10-13": 34,
@@ -9656,15 +9724,15 @@
    "2026-11-09": 5,
    "2026-11-10": 7,
    "2026-11-11": 7,
-   "2026-11-12": 1
+   "2026-11-12": 2
   },
-  "visitor_days": 444,
-  "return_rate": 0.207,
-  "routes": 238,
+  "visitor_days": 445,
+  "return_rate": 0.209,
+  "routes": 243,
   "routes_not_found": 0,
-  "routes_per_visit": 0.12,
-  "routes_per_visitor_day": 0.54,
-  "share_rate": 0.046,
+  "routes_per_visit": 0.13,
+  "routes_per_visitor_day": 0.55,
+  "share_rate": 0.045,
   "shares": {
    "card": 1,
    "whatsapp": 4,
@@ -9672,8 +9740,24 @@
    "copy": 1,
    "qr": 1
   },
-  "failed_search_rate": 0.094,
+  "failed_search_rate": 0.117,
   "failed_searches": [
+   {
+    "name": "view",
+    "count": 1
+   },
+   {
+    "name": "view mall",
+    "count": 1
+   },
+   {
+    "name": "the view mall",
+    "count": 1
+   },
+   {
+    "name": "the view",
+    "count": 1
+   },
    {
     "name": "baba tuma",
     "count": 1
@@ -9740,7 +9824,7 @@
   },
   "visitors_new_return": {
    "new": 352,
-   "return": 92
+   "return": 93
   },
   "top_routes": [
    {
@@ -9753,6 +9837,10 @@
    },
    {
     "name": "sultanah > tuwaiq",
+    "count": 4
+   },
+   {
+    "name": "uthman > hokm",
     "count": 4
    },
    {
@@ -9773,10 +9861,6 @@
    },
    {
     "name": "jeddahrd > granadia",
-    "count": 3
-   },
-   {
-    "name": "uthman > hokm",
     "count": 3
    },
    {
@@ -9807,7 +9891,7 @@
   "top_origins": [
    {
     "name": "uthman",
-    "count": 16
+    "count": 18
    },
    {
     "name": "sabic",
@@ -9842,7 +9926,7 @@
     "count": 7
    },
    {
-    "name": "jeddahrd",
+    "name": "sultanah",
     "count": 6
    }
   ],
@@ -9853,7 +9937,7 @@
    },
    {
     "name": "hokm",
-    "count": 11
+    "count": 13
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -9868,15 +9952,15 @@
     "count": 9
    },
    {
+    "name": "uthman",
+    "count": 9
+   },
+   {
     "name": "p_kafd_king_abdullah_financial_district",
     "count": 9
    },
    {
     "name": "museum",
-    "count": 8
-   },
-   {
-    "name": "uthman",
     "count": 8
    },
    {
@@ -9893,7 +9977,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 228
+    "count": 229
    },
    {
     "name": "tiktok_ad",
@@ -10119,7 +10203,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 4
+    "count": 5
    },
    {
     "name": "www.bing.com",
@@ -10233,7 +10317,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 7
+    "count": 8
    }
   ],
   "/ar/destinations/al-maigliah-market": [
@@ -10859,7 +10943,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 228
+    "count": 229
    },
    {
     "path": "/ar/map",
@@ -10871,11 +10955,11 @@
    },
    {
     "path": "/ar/districts/qurtubah",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/map",
-    "count": 4
+    "count": 5
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -11821,20 +11905,20 @@
  },
  "toprefs": [
   {
+   "name": "",
+   "count": 952,
+   "ref_scheme": "o"
+  },
+  {
    "id": "Google",
    "name": "Google",
    "count": 949,
    "ref_scheme": "g"
   },
   {
-   "name": "",
-   "count": 943,
-   "ref_scheme": "o"
-  },
-  {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 254,
+   "count": 256,
    "ref_scheme": "c"
   },
   {
@@ -11850,16 +11934,16 @@
    "ref_scheme": "c"
   },
   {
+   "id": "Yahoo",
+   "name": "Yahoo",
+   "count": 52,
+   "ref_scheme": "g"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/map",
    "name": "riyadhmetro.fyi/ar/map",
    "count": 50,
    "ref_scheme": "h"
-  },
-  {
-   "id": "Yahoo",
-   "name": "Yahoo",
-   "count": 47,
-   "ref_scheme": "g"
   },
   {
    "id": "com.reddit.frontpage",
@@ -12124,12 +12208,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1711
+   "count": 1725
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1074
+   "count": 1076
   },
   {
    "id": "(unknown)",
@@ -12201,7 +12285,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2519
+   "count": 2527
   },
   {
    "id": "US",
@@ -12242,6 +12326,11 @@
    "id": "IN",
    "name": "India",
    "count": 13
+  },
+  {
+   "id": "CH",
+   "name": "Switzerland",
+   "count": 11
   },
   {
    "id": "JO",
@@ -12287,11 +12376,6 @@
    "id": "TN",
    "name": "Tunisia",
    "count": 5
-  },
-  {
-   "id": "CH",
-   "name": "Switzerland",
-   "count": 4
   },
   {
    "id": "ES",
@@ -12434,6 +12518,11 @@
    "count": 1
   },
   {
+   "id": "PT",
+   "name": "Portugal",
+   "count": 1
+  },
+  {
    "id": "SD",
    "name": "Sudan",
    "count": 1
@@ -12448,7 +12537,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2335
+   "count": 2345
   },
   {
    "id": "tablet",
@@ -12458,7 +12547,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 432
+   "count": 438
   },
   {
    "id": "desktophd",
@@ -12475,12 +12564,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1531
+   "count": 1539
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1270
+   "count": 1278
   },
   {
    "name": "",
@@ -12496,17 +12585,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1264
+   "count": 1272
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1104
+   "count": 1106
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 377
+   "count": 383
   },
   {
    "id": "macOS",
