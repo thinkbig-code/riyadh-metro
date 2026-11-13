@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-13T02:08:19Z",
+ "generated": "2026-11-13T09:59:19Z",
  "start": "2026-10-14",
  "end": "2026-11-14",
  "total": {
-  "total": 2768,
+  "total": 2771,
   "total_events": 901,
-  "total_utc": 2735,
+  "total_utc": 2738,
   "stats": [
    {
     "day": "2026-10-14",
@@ -581,7 +581,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 797
+    "monthly": 800
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      2
     ],
     "daily": 131,
-    "weekly": 189
+    "weekly": 192
    },
    {
     "day": "2026-11-12",
@@ -925,10 +925,10 @@
      0,
      1,
      0,
+     1,
      0,
-     0,
-     0,
-     0,
+     1,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 4
+    "daily": 7
    },
    {
     "day": "2026-11-14",
@@ -1654,6 +1654,22 @@
    }
   },
   {
+   "path": "/ar/districts/al-saadah",
+   "path_id": 110638521,
+   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-26": 1,
+    "2026-10-30": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1,
+    "2026-11-11": 2,
+    "2026-11-13": 1
+   }
+  },
+  {
    "path": "/destinations/al-awwal-park",
    "path_id": 109448541,
    "title": "Al-Awwal Park (Al Nassr stadium) by Metro: Nearest Station, Walk and Route",
@@ -1839,21 +1855,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-saadah",
-   "path_id": 110638521,
-   "title": "أقرب محطة مترو لحي السعادة في الرياض: محطة النسيم (داخل الحي)",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-26": 1,
-    "2026-10-30": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 1,
-    "2026-11-11": 2
-   }
-  },
-  {
    "path": "place/p_kafd_king_abdullah_financial_district/to",
    "path_id": 110300373,
    "title": "en|name",
@@ -1971,6 +1972,20 @@
     "2026-11-04": 2,
     "2026-11-05": 1,
     "2026-11-12": 1
+   }
+  },
+  {
+   "path": "/districts/al-murabba",
+   "path_id": 112555949,
+   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-10-18": 1,
+    "2026-10-26": 1,
+    "2026-11-11": 2,
+    "2026-11-13": 1
    }
   },
   {
@@ -2255,19 +2270,6 @@
     "2026-10-28": 1,
     "2026-11-05": 1,
     "2026-11-10": 1
-   }
-  },
-  {
-   "path": "/districts/al-murabba",
-   "path_id": 112555949,
-   "title": "Nearest Metro Station to Al Murabba, Riyadh: Passport Department (in the district)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-10-18": 1,
-    "2026-10-26": 1,
-    "2026-11-11": 2
    }
   },
   {
@@ -3158,6 +3160,18 @@
     "2026-10-22": 1,
     "2026-10-30": 1,
     "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nahdah",
+   "path_id": 113373584,
+   "title": "أقرب محطة مترو لحي النهضة في الرياض: محطة الأندلس (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-23": 1,
+    "2026-11-13": 1
    }
   },
   {
@@ -4087,17 +4101,6 @@
    "daily": {
     "2026-10-21": 1,
     "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nahdah",
-   "path_id": 113373584,
-   "title": "أقرب محطة مترو لحي النهضة في الرياض: محطة الأندلس (داخل الحي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-23": 1
    }
   },
   {
@@ -9405,9 +9408,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1867,
+  "visits": 1870,
   "events_total": 901,
-  "goatcounter_total_with_events": 2768,
+  "goatcounter_total_with_events": 2771,
   "page_loads_by_day": {
    "2026-10-14": 67,
    "2026-10-15": 34,
@@ -9439,7 +9442,7 @@
    "2026-11-10": 75,
    "2026-11-11": 118,
    "2026-11-12": 38,
-   "2026-11-13": 3
+   "2026-11-13": 6
   },
   "visitor_days_by_day": {
    "2026-10-14": 32,
@@ -10400,6 +10403,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-saadah": [
+   {
+    "name": "Google",
+    "count": 6
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/destinations/al-awwal-park": [
    {
     "name": "(direct or unknown)",
@@ -10546,16 +10559,6 @@
     "count": 7
    }
   ],
-  "/ar/districts/al-saadah": [
-   {
-    "name": "Google",
-    "count": 6
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
   "/ar/stations/khurais-road": [
    {
     "name": "chatgpt.com",
@@ -10609,6 +10612,12 @@
    }
   ],
   "/destinations/al-nakheel-mall": [
+   {
+    "name": "Google",
+    "count": 6
+   }
+  ],
+  "/districts/al-murabba": [
    {
     "name": "Google",
     "count": 6
@@ -10687,16 +10696,6 @@
    }
   ],
   "/ar/districts/al-uraija": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/shg-arena": [
    {
     "name": "Google",
     "count": 4
@@ -10930,15 +10929,15 @@
     "count": 6
    },
    {
+    "path": "/ar/districts/al-saadah",
+    "count": 6
+   },
+   {
     "path": "/ar/districts/east-umm-al-hamam",
     "count": 6
    },
    {
     "path": "/destinations/pakistan-embassy",
-    "count": 6
-   },
-   {
-    "path": "/ar/districts/al-saadah",
     "count": 6
    },
    {
@@ -10951,6 +10950,10 @@
    },
    {
     "path": "/destinations/al-nakheel-mall",
+    "count": 6
+   },
+   {
+    "path": "/districts/al-murabba",
     "count": 6
    },
    {
@@ -11027,10 +11030,6 @@
    },
    {
     "path": "/ar/districts/al-uraija",
-    "count": 4
-   },
-   {
-    "path": "/ar/destinations/shg-arena",
     "count": 4
    },
    {
@@ -11162,6 +11161,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-saadah",
+    "count": 2
+   },
+   {
     "path": "/destinations/al-awwal-park",
     "count": 2
    },
@@ -11206,19 +11209,11 @@
     "count": 1
    },
    {
-    "path": "/ar/districts/al-saadah",
-    "count": 1
-   },
-   {
     "path": "/ar/districts/al-suwaidi",
     "count": 1
    },
    {
     "path": "/ar/districts/al-uraija",
-    "count": 1
-   },
-   {
-    "path": "/ar/destinations/shg-arena",
     "count": 1
    }
   ],
@@ -11695,7 +11690,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 926,
+   "count": 927,
    "ref_scheme": "g"
   },
   {
@@ -11706,7 +11701,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 265,
+   "count": 267,
    "ref_scheme": "c"
   },
   {
@@ -11996,12 +11991,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1618
+   "count": 1619
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1077
+   "count": 1079
   },
   {
    "id": "(unknown)",
@@ -12073,7 +12068,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2458
+   "count": 2461
   },
   {
    "id": "US",
@@ -12315,7 +12310,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2254
+   "count": 2257
   },
   {
    "id": "tablet",
@@ -12342,12 +12337,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1486
+   "count": 1487
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1221
+   "count": 1223
   },
   {
    "name": "",
@@ -12363,12 +12358,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1214
+   "count": 1216
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1073
+   "count": 1074
   },
   {
    "id": "Windows",
