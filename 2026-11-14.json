@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-14T14:31:26Z",
+ "generated": "2026-11-14T19:28:49Z",
  "start": "2026-10-15",
  "end": "2026-11-15",
  "total": {
-  "total": 2661,
-  "total_events": 827,
-  "total_utc": 2660,
+  "total": 2668,
+  "total_events": 829,
+  "total_utc": 2667,
   "stats": [
    {
     "day": "2026-10-15",
@@ -551,7 +551,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 838
+    "monthly": 845
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 54,
-    "weekly": 99
+    "weekly": 106
    },
    {
     "day": "2026-11-13",
@@ -937,13 +937,13 @@
      3,
      5,
      0,
-     0,
-     0,
-     0,
+     2,
+     4,
+     1,
      0,
      0
     ],
-    "daily": 29
+    "daily": 36
    },
    {
     "day": "2026-11-15",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 357,
+   "count": 358,
    "daily": {
     "2026-10-15": 9,
     "2026-10-16": 81,
@@ -1015,7 +1015,7 @@
     "2026-11-11": 6,
     "2026-11-12": 3,
     "2026-11-13": 1,
-    "2026-11-14": 1
+    "2026-11-14": 2
    }
   },
   {
@@ -1023,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 294,
+   "count": 295,
    "daily": {
     "2026-10-15": 6,
     "2026-10-16": 79,
@@ -1054,7 +1054,7 @@
     "2026-11-11": 7,
     "2026-11-12": 1,
     "2026-11-13": 1,
-    "2026-11-14": 1
+    "2026-11-14": 2
    }
   },
   {
@@ -1096,7 +1096,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 82,
+   "count": 83,
    "daily": {
     "2026-10-15": 5,
     "2026-10-16": 5,
@@ -1124,7 +1124,8 @@
     "2026-11-08": 2,
     "2026-11-09": 2,
     "2026-11-10": 2,
-    "2026-11-12": 1
+    "2026-11-12": 1,
+    "2026-11-14": 1
    }
   },
   {
@@ -1660,6 +1661,19 @@
    }
   },
   {
+   "path": "/ar/destinations/prince-sultan-military-medical-city",
+   "path_id": 118170944,
+   "title": "محطة مترو مدينة الأمير سلطان الطبية العسكرية: محطة نادي الضباط",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-11-04": 1,
+    "2026-11-10": 3,
+    "2026-11-11": 1,
+    "2026-11-14": 2
+   }
+  },
+  {
    "path": "/ar/stations/western-station",
    "path_id": 116869318,
    "title": "محطة المحطة الغربية، مترو الرياض: المسار البرتقالي (رقم 43)",
@@ -1713,6 +1727,20 @@
     "2026-10-26": 1,
     "2026-11-10": 1,
     "2026-11-11": 1
+   }
+  },
+  {
+   "path": "/destinations/kingdom-centre",
+   "path_id": 114014557,
+   "title": "Kingdom Centre (Kingdom Tower) Metro Station: Al Urubah, 4 min walk",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-29": 1,
+    "2026-10-31": 2,
+    "2026-11-11": 2,
+    "2026-11-14": 1
    }
   },
   {
@@ -1863,19 +1891,6 @@
    "count": 6,
    "daily": {
     "2026-10-22": 6
-   }
-  },
-  {
-   "path": "/destinations/kingdom-centre",
-   "path_id": 114014557,
-   "title": "Kingdom Centre (Kingdom Tower) Metro Station: Al Urubah, 4 min walk",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-29": 1,
-    "2026-10-31": 2,
-    "2026-11-11": 2
    }
   },
   {
@@ -2103,18 +2118,6 @@
     "2026-10-17": 1,
     "2026-10-19": 1,
     "2026-10-27": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/prince-sultan-military-medical-city",
-   "path_id": 118170944,
-   "title": "محطة مترو مدينة الأمير سلطان الطبية العسكرية: محطة نادي الضباط",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-11-04": 1,
-    "2026-11-10": 3,
-    "2026-11-11": 1
    }
   },
   {
@@ -3572,6 +3575,17 @@
    "daily": {
     "2026-11-03": 1,
     "2026-11-10": 1
+   }
+  },
+  {
+   "path": "/districts/al-raed",
+   "path_id": 117536272,
+   "title": "Nearest Metro Station to Al Raed, Riyadh: King Salman Oasis (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-14": 1
    }
   },
   {
@@ -5592,16 +5606,6 @@
    "path": "/ar/districts/al-andalus",
    "path_id": 117539680,
    "title": "أقرب محطة مترو لحي الاندلس في الرياض: محطة طريق خريص، 1.3 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/districts/al-raed",
-   "path_id": 117536272,
-   "title": "Nearest Metro Station to Al Raed, Riyadh: King Salman Oasis (in the district)",
    "event": false,
    "count": 1,
    "daily": {
@@ -9091,9 +9095,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1834,
-  "events_total": 827,
-  "goatcounter_total_with_events": 2661,
+  "visits": 1839,
+  "events_total": 829,
+  "goatcounter_total_with_events": 2668,
   "page_loads_by_day": {
    "2026-10-15": 32,
    "2026-10-16": 130,
@@ -9125,7 +9129,7 @@
    "2026-11-11": 118,
    "2026-11-12": 38,
    "2026-11-13": 15,
-   "2026-11-14": 24
+   "2026-11-14": 29
   },
   "visitor_days_by_day": {
    "2026-10-15": 11,
@@ -9158,10 +9162,10 @@
    "2026-11-11": 7,
    "2026-11-12": 2,
    "2026-11-13": 1,
-   "2026-11-14": 1
+   "2026-11-14": 3
   },
-  "visitor_days": 376,
-  "return_rate": 0.218,
+  "visitor_days": 378,
+  "return_rate": 0.22,
   "routes": 210,
   "routes_not_found": 0,
   "routes_per_visit": 0.11,
@@ -9245,8 +9249,8 @@
    "outside": 1
   },
   "visitors_new_return": {
-   "new": 294,
-   "return": 82
+   "new": 295,
+   "return": 83
   },
   "top_routes": [
    {
@@ -9399,7 +9403,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 173
+    "count": 174
    },
    {
     "name": "tiktok_ad",
@@ -10080,6 +10084,12 @@
     "count": 1
    }
   ],
+  "/ar/destinations/prince-sultan-military-medical-city": [
+   {
+    "name": "chatgpt.com",
+    "count": 7
+   }
+  ],
   "/ar/stations/western-station": [
    {
     "name": "chatgpt.com",
@@ -10119,6 +10129,12 @@
    }
   ],
   "/ar/districts/utayqah": [
+   {
+    "name": "Google",
+    "count": 7
+   }
+  ],
+  "/destinations/kingdom-centre": [
    {
     "name": "Google",
     "count": 7
@@ -10222,12 +10238,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/destinations/kingdom-centre": [
-   {
-    "name": "Google",
-    "count": 6
    }
   ],
   "/destinations/al-nakheel-mall": [
@@ -10360,12 +10370,6 @@
     "count": 1
    }
   ],
-  "/ar/destinations/prince-sultan-military-medical-city": [
-   {
-    "name": "chatgpt.com",
-    "count": 5
-   }
-  ],
   "/ar/districts/al-uraija": [
    {
     "name": "Google",
@@ -10381,7 +10385,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 173
+    "count": 174
    },
    {
     "path": "/ar/map",
@@ -10556,6 +10560,10 @@
     "count": 7
    },
    {
+    "path": "/destinations/kingdom-centre",
+    "count": 7
+   },
+   {
     "path": "/ar/destinations/al-maigliah-market",
     "count": 6
    },
@@ -10597,10 +10605,6 @@
    },
    {
     "path": "/ar/districts/west-umm-al-hamam",
-    "count": 6
-   },
-   {
-    "path": "/destinations/kingdom-centre",
     "count": 6
    },
    {
@@ -10746,6 +10750,10 @@
     "count": 8
    },
    {
+    "path": "/ar/destinations/prince-sultan-military-medical-city",
+    "count": 7
+   },
+   {
     "path": "/districts/al-arid",
     "count": 6
    },
@@ -10763,10 +10771,6 @@
    },
    {
     "path": "/ar/stations/khurais-road",
-    "count": 5
-   },
-   {
-    "path": "/ar/destinations/prince-sultan-military-medical-city",
     "count": 5
    },
    {
@@ -11357,18 +11361,18 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 911,
+   "count": 912,
    "ref_scheme": "g"
   },
   {
    "name": "",
-   "count": 751,
+   "count": 754,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 277,
+   "count": 280,
    "ref_scheme": "c"
   },
   {
@@ -11658,12 +11662,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1521
+   "count": 1527
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1072
+   "count": 1073
   },
   {
    "id": "(unknown)",
@@ -11730,7 +11734,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2379
+   "count": 2385
   },
   {
    "id": "US",
@@ -11745,7 +11749,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 29
+   "count": 30
   },
   {
    "id": "EG",
@@ -11957,7 +11961,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2191
+   "count": 2198
   },
   {
    "id": "tablet",
@@ -11984,12 +11988,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1432
+   "count": 1434
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1170
+   "count": 1175
   },
   {
    "name": "",
@@ -12005,12 +12009,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1171
+   "count": 1176
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1053
+   "count": 1055
   },
   {
    "id": "Windows",
