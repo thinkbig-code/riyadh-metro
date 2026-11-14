@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-14T07:03:06Z",
+ "generated": "2026-11-14T07:39:21Z",
  "start": "2025-11-14",
  "end": "2026-11-15",
  "total": {
-  "total": 4297,
+  "total": 4298,
   "total_events": 1832,
-  "total_utc": 4297,
+  "total_utc": 4298,
   "stats": [
    {
     "day": "2025-11-14",
@@ -10603,7 +10603,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 825
+    "monthly": 826
    },
    {
     "day": "2026-11-02",
@@ -10965,7 +10965,7 @@
      1
     ],
     "daily": 16,
-    "weekly": 32
+    "weekly": 33
    },
    {
     "day": "2026-11-14",
@@ -10981,7 +10981,7 @@
      1,
      0,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -10995,7 +10995,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 17
    },
    {
     "day": "2026-11-15",
@@ -11600,6 +11600,28 @@
    }
   },
   {
+   "path": "/ar/districts",
+   "path_id": 111998625,
+   "title": "أقرب محطة مترو لكل أحياء الرياض",
+   "event": false,
+   "count": 13,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-29": 1,
+    "2026-10-31": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1,
+    "2026-11-05": 1,
+    "2026-11-06": 1,
+    "2026-11-11": 1,
+    "2026-11-14": 1
+   }
+  },
+  {
    "path": "/timings",
    "path_id": 110802013,
    "title": "Riyadh Metro Timings: Sat–Thu 05:30–00:00, Fri 10:00–00:00, Fares",
@@ -11618,27 +11640,6 @@
     "2026-11-12": 1,
     "2026-11-13": 1,
     "2026-11-14": 1
-   }
-  },
-  {
-   "path": "/ar/districts",
-   "path_id": 111998625,
-   "title": "أقرب محطة مترو لكل أحياء الرياض",
-   "event": false,
-   "count": 12,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1,
-    "2026-10-29": 1,
-    "2026-10-31": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 1,
-    "2026-11-05": 1,
-    "2026-11-06": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -23976,9 +23977,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2465,
+  "visits": 2466,
   "events_total": 1832,
-  "goatcounter_total_with_events": 4297,
+  "goatcounter_total_with_events": 4298,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24023,7 +24024,7 @@
    "2026-11-11": 118,
    "2026-11-12": 38,
    "2026-11-13": 15,
-   "2026-11-14": 12
+   "2026-11-14": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24835,6 +24836,32 @@
     "count": 1
    }
   ],
+  "/ar/districts": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "www.bing.com",
+    "count": 4
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/map",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/districts",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts/al-saadah",
+    "count": 1
+   }
+  ],
   "/timings": [
    {
     "name": "Google",
@@ -24862,32 +24889,6 @@
    },
    {
     "name": "riyadhmetro.fyi/destinations/shola-mall",
-    "count": 1
-   }
-  ],
-  "/ar/districts": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "www.bing.com",
-    "count": 3
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/map",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/districts",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts/al-saadah",
     "count": 1
    }
   ],
@@ -25433,11 +25434,11 @@
     "count": 1
    },
    {
-    "path": "/timings",
+    "path": "/ar/districts",
     "count": 1
    },
    {
-    "path": "/ar/districts",
+    "path": "/timings",
     "count": 1
    },
    {
@@ -25895,15 +25896,15 @@
     "count": 5
    },
    {
+    "path": "/ar/districts",
+    "count": 4
+   },
+   {
     "path": "/map",
     "count": 3
    },
    {
     "path": "/ar/timings",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts",
     "count": 3
    },
    {
@@ -26299,6 +26300,18 @@
     "count": 1
    }
   ],
+  "riyadhmetro.fyi/districts": [
+   {
+    "path": "/ar/districts",
+    "count": 1
+   }
+  ],
+  "riyadhmetro.fyi/ar/districts/al-saadah": [
+   {
+    "path": "/ar/districts",
+    "count": 1
+   }
+  ],
   "duckduckgo.com": [
    {
     "path": "/timings",
@@ -26312,18 +26325,6 @@
   "riyadhmetro.fyi/destinations/shola-mall": [
    {
     "path": "/timings",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/districts": [
-   {
-    "path": "/ar/districts",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/districts/al-saadah": [
-   {
-    "path": "/ar/districts",
     "count": 1
    }
   ],
@@ -26389,15 +26390,15 @@
    "ref_scheme": "g"
   },
   {
-   "id": "riyadhmetro.fyi/ar/map",
-   "name": "riyadhmetro.fyi/ar/map",
+   "id": "www.bing.com",
+   "name": "www.bing.com",
    "count": 55,
    "ref_scheme": "h"
   },
   {
-   "id": "www.bing.com",
-   "name": "www.bing.com",
-   "count": 54,
+   "id": "riyadhmetro.fyi/ar/map",
+   "name": "riyadhmetro.fyi/ar/map",
+   "count": 55,
    "ref_scheme": "h"
   },
   {
@@ -26656,7 +26657,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1197
+   "count": 1198
   },
   {
    "id": "(unknown)",
@@ -26728,7 +26729,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3631
+   "count": 3632
   },
   {
    "id": "US",
@@ -26980,7 +26981,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3480
+   "count": 3481
   },
   {
    "id": "tablet",
@@ -27007,7 +27008,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2268
+   "count": 2269
   },
   {
    "id": "Safari",
@@ -27033,7 +27034,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1598
+   "count": 1599
   },
   {
    "id": "Windows",

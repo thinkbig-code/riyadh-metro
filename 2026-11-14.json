@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-14T07:01:40Z",
+ "generated": "2026-11-14T07:37:54Z",
  "start": "2026-10-15",
  "end": "2026-11-15",
  "total": {
-  "total": 2648,
+  "total": 2649,
   "total_events": 826,
-  "total_utc": 2647,
+  "total_utc": 2648,
   "stats": [
    {
     "day": "2026-10-15",
@@ -551,7 +551,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 825
+    "monthly": 826
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 54,
-    "weekly": 86
+    "weekly": 87
    },
    {
     "day": "2026-11-13",
@@ -929,7 +929,7 @@
      1,
      0,
      2,
-     0,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 16
+    "daily": 17
    },
    {
     "day": "2026-11-15",
@@ -1418,6 +1418,27 @@
    }
   },
   {
+   "path": "/ar/districts",
+   "path_id": 111998625,
+   "title": "أقرب محطة مترو لكل أحياء الرياض",
+   "event": false,
+   "count": 12,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-29": 1,
+    "2026-10-31": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1,
+    "2026-11-05": 1,
+    "2026-11-06": 1,
+    "2026-11-11": 1,
+    "2026-11-14": 1
+   }
+  },
+  {
    "path": "/ar/districts/middle-oraija",
    "path_id": 110973042,
    "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
@@ -1430,26 +1451,6 @@
     "2026-11-03": 1,
     "2026-11-11": 2,
     "2026-11-14": 1
-   }
-  },
-  {
-   "path": "/ar/districts",
-   "path_id": 111998625,
-   "title": "أقرب محطة مترو لكل أحياء الرياض",
-   "event": false,
-   "count": 11,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1,
-    "2026-10-29": 1,
-    "2026-10-31": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 1,
-    "2026-11-05": 1,
-    "2026-11-06": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -9061,9 +9062,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1822,
+  "visits": 1823,
   "events_total": 826,
-  "goatcounter_total_with_events": 2648,
+  "goatcounter_total_with_events": 2649,
   "page_loads_by_day": {
    "2026-10-15": 32,
    "2026-10-16": 130,
@@ -9095,7 +9096,7 @@
    "2026-11-11": 118,
    "2026-11-12": 38,
    "2026-11-13": 15,
-   "2026-11-14": 12
+   "2026-11-14": 13
   },
   "visitor_days_by_day": {
    "2026-10-15": 11,
@@ -9824,12 +9825,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/middle-oraija": [
-   {
-    "name": "Google",
-    "count": 12
-   }
-  ],
   "/ar/districts": [
    {
     "name": "Google",
@@ -9837,7 +9832,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 3
+    "count": 4
    },
    {
     "name": "riyadhmetro.fyi/ar/map",
@@ -9850,6 +9845,12 @@
    {
     "name": "riyadhmetro.fyi/ar/districts/al-saadah",
     "count": 1
+   }
+  ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 12
    }
   ],
   "/timings": [
@@ -10880,15 +10881,15 @@
     "count": 4
    },
    {
+    "path": "/ar/districts",
+    "count": 4
+   },
+   {
     "path": "/map",
     "count": 3
    },
    {
     "path": "/ar/timings",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts",
     "count": 3
    },
    {
@@ -11354,7 +11355,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 50,
+   "count": 51,
    "ref_scheme": "h"
   },
   {
@@ -11625,7 +11626,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1064
+   "count": 1065
   },
   {
    "id": "(unknown)",
@@ -11692,7 +11693,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2371
+   "count": 2372
   },
   {
    "id": "US",
@@ -11919,7 +11920,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2182
+   "count": 2183
   },
   {
    "id": "tablet",
@@ -11946,7 +11947,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1421
+   "count": 1422
   },
   {
    "id": "Safari",
@@ -11972,7 +11973,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1046
+   "count": 1047
   },
   {
    "id": "Windows",
