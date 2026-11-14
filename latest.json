@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-14T19:28:49Z",
+ "generated": "2026-11-14T23:23:44Z",
  "start": "2026-10-15",
  "end": "2026-11-15",
  "total": {
-  "total": 2668,
+  "total": 2669,
   "total_events": 829,
-  "total_utc": 2667,
+  "total_utc": 2668,
   "stats": [
    {
     "day": "2026-10-15",
@@ -551,7 +551,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 845
+    "monthly": 846
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 54,
-    "weekly": 106
+    "weekly": 107
    },
    {
     "day": "2026-11-13",
@@ -949,7 +949,7 @@
     "day": "2026-11-15",
     "hourly": [
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -1267,7 +1267,7 @@
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
-   "count": 23,
+   "count": 24,
    "daily": {
     "2026-10-15": 4,
     "2026-10-24": 1,
@@ -1280,7 +1280,8 @@
     "2026-11-10": 1,
     "2026-11-11": 3,
     "2026-11-12": 2,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 1
    }
   },
   {
@@ -9095,9 +9096,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1839,
+  "visits": 1840,
   "events_total": 829,
-  "goatcounter_total_with_events": 2668,
+  "goatcounter_total_with_events": 2669,
   "page_loads_by_day": {
    "2026-10-15": 32,
    "2026-10-16": 130,
@@ -9129,7 +9130,8 @@
    "2026-11-11": 118,
    "2026-11-12": 38,
    "2026-11-13": 15,
-   "2026-11-14": 29
+   "2026-11-14": 29,
+   "2026-11-15": 1
   },
   "visitor_days_by_day": {
    "2026-10-15": 11,
@@ -9713,7 +9715,7 @@
    },
    {
     "name": "(direct or unknown)",
-    "count": 10
+    "count": 11
    }
   ],
   "/ar/nearest-station": [
@@ -10397,7 +10399,7 @@
    },
    {
     "path": "/ar/districts/qurtubah",
-    "count": 10
+    "count": 11
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -11366,7 +11368,7 @@
   },
   {
    "name": "",
-   "count": 754,
+   "count": 755,
    "ref_scheme": "o"
   },
   {
@@ -11662,7 +11664,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1527
+   "count": 1528
   },
   {
    "id": "ara",
@@ -11734,7 +11736,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2385
+   "count": 2386
   },
   {
    "id": "US",
@@ -11961,7 +11963,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 2198
+   "count": 2199
   },
   {
    "id": "tablet",
@@ -11988,7 +11990,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1434
+   "count": 1435
   },
   {
    "id": "Safari",
@@ -12014,7 +12016,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1055
+   "count": 1056
   },
   {
    "id": "Windows",

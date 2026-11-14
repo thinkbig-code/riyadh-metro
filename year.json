@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-14T19:30:01Z",
+ "generated": "2026-11-14T23:24:54Z",
  "start": "2025-11-14",
  "end": "2026-11-15",
  "total": {
-  "total": 4317,
+  "total": 4318,
   "total_events": 1835,
-  "total_utc": 4317,
+  "total_utc": 4318,
   "stats": [
    {
     "day": "2025-11-14",
@@ -10603,7 +10603,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 845
+    "monthly": 846
    },
    {
     "day": "2026-11-02",
@@ -10965,7 +10965,7 @@
      1
     ],
     "daily": 16,
-    "weekly": 52
+    "weekly": 53
    },
    {
     "day": "2026-11-14",
@@ -11001,7 +11001,7 @@
     "day": "2026-11-15",
     "hourly": [
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -11025,7 +11025,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -11338,6 +11338,31 @@
    }
   },
   {
+   "path": "/ar/districts/qurtubah",
+   "path_id": 110982918,
+   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
+   "event": false,
+   "count": 27,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 4,
+    "2026-10-24": 1,
+    "2026-10-31": 2,
+    "2026-11-01": 3,
+    "2026-11-02": 3,
+    "2026-11-05": 1,
+    "2026-11-06": 1,
+    "2026-11-08": 1,
+    "2026-11-10": 1,
+    "2026-11-11": 3,
+    "2026-11-12": 2,
+    "2026-11-14": 1,
+    "2026-11-15": 1
+   }
+  },
+  {
    "path": "/ar/lines",
    "path_id": 112883345,
    "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
@@ -11360,30 +11385,6 @@
     "2026-11-10": 3,
     "2026-11-11": 1,
     "2026-11-13": 1,
-    "2026-11-14": 1
-   }
-  },
-  {
-   "path": "/ar/districts/qurtubah",
-   "path_id": 110982918,
-   "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
-   "event": false,
-   "count": 26,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-15": 4,
-    "2026-10-24": 1,
-    "2026-10-31": 2,
-    "2026-11-01": 3,
-    "2026-11-02": 3,
-    "2026-11-05": 1,
-    "2026-11-06": 1,
-    "2026-11-08": 1,
-    "2026-11-10": 1,
-    "2026-11-11": 3,
-    "2026-11-12": 2,
     "2026-11-14": 1
    }
   },
@@ -24010,9 +24011,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2482,
+  "visits": 2483,
   "events_total": 1835,
-  "goatcounter_total_with_events": 4317,
+  "goatcounter_total_with_events": 4318,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24057,7 +24058,8 @@
    "2026-11-11": 118,
    "2026-11-12": 38,
    "2026-11-13": 15,
-   "2026-11-14": 29
+   "2026-11-14": 29,
+   "2026-11-15": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24679,6 +24681,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/qurtubah": [
+   {
+    "name": "Google",
+    "count": 16
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 11
+   }
+  ],
   "/ar/lines": [
    {
     "name": "Google",
@@ -24691,16 +24703,6 @@
    {
     "name": "riyadhmetro.fyi",
     "count": 1
-   }
-  ],
-  "/ar/districts/qurtubah": [
-   {
-    "name": "Google",
-    "count": 16
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 10
    }
   ],
   "/ar/nearest-station": [
@@ -25396,7 +25398,7 @@
    },
    {
     "path": "/ar/districts/qurtubah",
-    "count": 10
+    "count": 11
    },
    {
     "path": "/map",
@@ -26383,7 +26385,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1934,
+   "count": 1935,
    "ref_scheme": "o"
   },
   {
@@ -26685,7 +26687,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 2993
+   "count": 2994
   },
   {
    "id": "ara",
@@ -26762,7 +26764,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3645
+   "count": 3646
   },
   {
    "id": "US",
@@ -27014,7 +27016,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3496
+   "count": 3497
   },
   {
    "id": "tablet",
@@ -27041,7 +27043,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2281
+   "count": 2282
   },
   {
    "id": "Safari",
@@ -27067,7 +27069,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1607
+   "count": 1608
   },
   {
    "id": "Windows",
