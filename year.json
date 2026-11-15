@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-15T03:06:51Z",
+ "generated": "2026-11-15T07:55:29Z",
  "start": "2025-11-15",
  "end": "2026-11-16",
  "total": {
-  "total": 4326,
-  "total_events": 1839,
-  "total_utc": 4326,
+  "total": 4332,
+  "total_events": 1842,
+  "total_utc": 4332,
   "stats": [
    {
     "day": "2025-11-15",
@@ -10574,7 +10574,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 854
+    "monthly": 860
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      0
     ],
     "daily": 36,
-    "weekly": 45
+    "weekly": 51
    },
    {
     "day": "2026-11-15",
@@ -10978,11 +10978,11 @@
      0,
      5,
      3,
+     1,
+     4,
      0,
      0,
-     0,
-     0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 15
    },
    {
     "day": "2026-11-16",
@@ -11036,7 +11036,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 826,
+   "count": 827,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11082,7 +11082,7 @@
     "2026-11-12": 3,
     "2026-11-13": 1,
     "2026-11-14": 2,
-    "2026-11-15": 3
+    "2026-11-15": 4
    }
   },
   {
@@ -11176,7 +11176,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 104,
+   "count": 105,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11211,7 +11211,8 @@
     "2026-11-09": 2,
     "2026-11-10": 2,
     "2026-11-12": 1,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 1
    }
   },
   {
@@ -11826,6 +11827,24 @@
    }
   },
   {
+   "path": "/ar/rules",
+   "path_id": 113228104,
+   "title": "قواعد وغرامات مترو الرياض 2026: التذاكر وبطاقة درب والأخطاء الشائعة",
+   "event": false,
+   "count": 9,
+   "daily": {
+    "2026-10-20": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1,
+    "2026-11-10": 1,
+    "2026-11-12": 1,
+    "2026-11-13": 1,
+    "2026-11-15": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-muhammadiyah",
    "path_id": 110846046,
    "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
@@ -11910,23 +11929,6 @@
     "2026-10-31": 1,
     "2026-11-01": 3,
     "2026-11-02": 2
-   }
-  },
-  {
-   "path": "/ar/rules",
-   "path_id": 113228104,
-   "title": "قواعد وغرامات مترو الرياض 2026: التذاكر وبطاقة درب والأخطاء الشائعة",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-20": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-11-03": 1,
-    "2026-11-04": 1,
-    "2026-11-10": 1,
-    "2026-11-12": 1,
-    "2026-11-13": 1
    }
   },
   {
@@ -12527,6 +12529,20 @@
    }
   },
   {
+   "path": "route/sultanah/tuwaiq",
+   "path_id": 117853079,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-11-02": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1,
+    "2026-11-08": 1,
+    "2026-11-15": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-uraija",
    "path_id": 117446236,
    "title": "أقرب محطة مترو لحي العريجاء في الرياض: محطة ظهرة البديعة، 2.0 كم",
@@ -12929,19 +12945,6 @@
     "2026-11-11": 1,
     "2026-11-12": 1,
     "2026-11-13": 1
-   }
-  },
-  {
-   "path": "route/sultanah/tuwaiq",
-   "path_id": 117853079,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-11-02": 1,
-    "2026-11-03": 1,
-    "2026-11-04": 1,
-    "2026-11-08": 1
    }
   },
   {
@@ -13451,6 +13454,17 @@
    "daily": {
     "2026-11-09": 1,
     "2026-11-10": 2
+   }
+  },
+  {
+   "path": "route/uthman/kafd",
+   "path_id": 120188701,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-11-08": 2,
+    "2026-11-15": 1
    }
   },
   {
@@ -14336,16 +14350,6 @@
    "daily": {
     "2026-11-10": 1,
     "2026-11-11": 1
-   }
-  },
-  {
-   "path": "route/uthman/kafd",
-   "path_id": 120188701,
-   "title": "en|map|ok",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-11-08": 2
    }
   },
   {
@@ -16130,6 +16134,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/al-yamamah",
+   "path_id": 122499938,
+   "title": "Nearest Metro Station to Al Yamamah, Riyadh: Al Iman Hospital, 2.0 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-15": 1
    }
   },
   {
@@ -24025,9 +24039,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2487,
-  "events_total": 1839,
-  "goatcounter_total_with_events": 4326,
+  "visits": 2490,
+  "events_total": 1842,
+  "goatcounter_total_with_events": 4332,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24073,7 +24087,7 @@
    "2026-11-12": 38,
    "2026-11-13": 15,
    "2026-11-14": 29,
-   "2026-11-15": 5
+   "2026-11-15": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24114,15 +24128,15 @@
    "2026-11-12": 2,
    "2026-11-13": 1,
    "2026-11-14": 3,
-   "2026-11-15": 3
+   "2026-11-15": 4
   },
-  "visitor_days": 721,
-  "return_rate": 0.144,
-  "routes": 491,
+  "visitor_days": 722,
+  "return_rate": 0.145,
+  "routes": 493,
   "routes_not_found": 0,
   "routes_per_visit": 0.2,
   "routes_per_visitor_day": 0.65,
-  "share_rate": 0.033,
+  "share_rate": 0.032,
   "shares": {
    "card": 2,
    "whatsapp": 5,
@@ -24250,7 +24264,7 @@
   },
   "visitors_new_return": {
    "new": 617,
-   "return": 104
+   "return": 105
   },
   "top_routes": [
    {
@@ -24263,7 +24277,7 @@
    },
    {
     "name": "sultanah > tuwaiq",
-    "count": 4
+    "count": 5
    },
    {
     "name": "uthman > hokm",
@@ -24279,6 +24293,10 @@
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2 > khurais",
+    "count": 3
+   },
+   {
+    "name": "uthman > kafd",
     "count": 3
    },
    {
@@ -24308,16 +24326,12 @@
    {
     "name": "gosi > p_panorama_mall",
     "count": 3
-   },
-   {
-    "name": "p_king_khalid_airport_terminals_1_2 > p_riyadh_north_railway_station",
-    "count": 2
    }
   ],
   "top_origins": [
    {
     "name": "uthman",
-    "count": 23
+    "count": 24
    },
    {
     "name": "p_king_khalid_airport_terminals_1_2",
@@ -24370,6 +24384,10 @@
     "count": 16
    },
    {
+    "name": "tuwaiq",
+    "count": 14
+   },
+   {
     "name": "jeddahrd",
     "count": 14
    },
@@ -24378,20 +24396,16 @@
     "count": 13
    },
    {
-    "name": "tuwaiq",
-    "count": 13
+    "name": "kbw",
+    "count": 12
    },
    {
-    "name": "kbw",
+    "name": "kafd",
     "count": 12
    },
    {
     "name": "p_kingdom_centre",
     "count": 12
-   },
-   {
-    "name": "kafd",
-    "count": 11
    },
    {
     "name": "uthman",
@@ -24403,7 +24417,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 550
+    "count": 551
    },
    {
     "name": "tiktok_ad",
@@ -25038,6 +25052,24 @@
     "count": 1
    }
   ],
+  "/ar/rules": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "www.bing.com",
+    "count": 3
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/timings",
+    "count": 2
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-muhammadiyah": [
    {
     "name": "Google",
@@ -25087,24 +25119,6 @@
    },
    {
     "name": "chatgpt.com",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   }
-  ],
-  "/ar/rules": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "www.bing.com",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/timings",
     "count": 2
    },
    {
@@ -25409,7 +25423,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 550
+    "count": 551
    },
    {
     "path": "/ar/map",
@@ -25512,15 +25526,15 @@
     "count": 1
    },
    {
+    "path": "/ar/rules",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
     "path": "/ar/districts/al-rawabi",
-    "count": 1
-   },
-   {
-    "path": "/ar/rules",
     "count": 1
    },
    {
@@ -25970,12 +25984,12 @@
     "count": 3
    },
    {
-    "path": "/destinations/riyadh-gallery-mall",
+    "path": "/ar/rules",
     "count": 3
    },
    {
-    "path": "/ar/rules",
-    "count": 2
+    "path": "/destinations/riyadh-gallery-mall",
+    "count": 3
    },
    {
     "path": "/ar/lines",
@@ -26416,7 +26430,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1942,
+   "count": 1946,
    "ref_scheme": "o"
   },
   {
@@ -26428,7 +26442,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 283,
+   "count": 284,
    "ref_scheme": "c"
   },
   {
@@ -26452,7 +26466,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 56,
+   "count": 57,
    "ref_scheme": "h"
   },
   {
@@ -26718,12 +26732,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3001
+   "count": 3006
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1207
+   "count": 1208
   },
   {
    "id": "(unknown)",
@@ -26795,7 +26809,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3650
+   "count": 3656
   },
   {
    "id": "US",
@@ -27047,7 +27061,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3505
+   "count": 3510
   },
   {
    "id": "tablet",
@@ -27057,7 +27071,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 636
+   "count": 637
   },
   {
    "id": "desktophd",
@@ -27074,7 +27088,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2285
+   "count": 2291
   },
   {
    "id": "Safari",
@@ -27100,12 +27114,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1611
+   "count": 1616
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 558
+   "count": 559
   },
   {
    "id": "macOS",
