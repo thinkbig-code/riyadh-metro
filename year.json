@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-15T23:11:49Z",
- "start": "2025-11-15",
- "end": "2026-11-16",
+ "generated": "2026-11-16T03:09:38Z",
+ "start": "2025-11-16",
+ "end": "2026-11-17",
  "total": {
-  "total": 4353,
+  "total": 4354,
   "total_events": 1844,
-  "total_utc": 4353,
+  "total_utc": 4354,
   "stats": [
-   {
-    "day": "2025-11-15",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-11-16",
     "hourly": [
@@ -9486,8 +9456,7 @@
      0,
      0
     ],
-    "daily": 0,
-    "weekly": 5
+    "daily": 0
    },
    {
     "day": "2026-09-27",
@@ -9517,7 +9486,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 14
    },
    {
     "day": "2026-09-28",
@@ -9698,8 +9668,7 @@
      0,
      0
     ],
-    "daily": 9,
-    "weekly": 858
+    "daily": 9
    },
    {
     "day": "2026-10-04",
@@ -9729,7 +9698,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 1051
    },
    {
     "day": "2026-10-05",
@@ -9909,8 +9879,7 @@
      12,
      10
     ],
-    "daily": 202,
-    "weekly": 1103
+    "daily": 202
    },
    {
     "day": "2026-10-11",
@@ -9940,7 +9909,8 @@
      1,
      1
     ],
-    "daily": 159
+    "daily": 159,
+    "weekly": 1051
    },
    {
     "day": "2026-10-12",
@@ -10120,8 +10090,7 @@
      9,
      3
     ],
-    "daily": 150,
-    "weekly": 730
+    "daily": 150
    },
    {
     "day": "2026-10-18",
@@ -10151,7 +10120,8 @@
      2,
      2
     ],
-    "daily": 53
+    "daily": 53,
+    "weekly": 716
    },
    {
     "day": "2026-10-19",
@@ -10331,8 +10301,7 @@
      4,
      21
     ],
-    "daily": 136,
-    "weekly": 622
+    "daily": 136
    },
    {
     "day": "2026-10-25",
@@ -10362,7 +10331,8 @@
      3,
      3
     ],
-    "daily": 110
+    "daily": 110,
+    "weekly": 640
    },
    {
     "day": "2026-10-26",
@@ -10542,8 +10512,7 @@
      7,
      6
     ],
-    "daily": 154,
-    "weekly": 585
+    "daily": 154
    },
    {
     "day": "2026-11-01",
@@ -10574,7 +10543,8 @@
      4
     ],
     "daily": 161,
-    "monthly": 881
+    "weekly": 447,
+    "monthly": 882
    },
    {
     "day": "2026-11-02",
@@ -10754,8 +10724,7 @@
      0,
      2
     ],
-    "daily": 16,
-    "weekly": 378
+    "daily": 16
    },
    {
     "day": "2026-11-08",
@@ -10785,7 +10754,8 @@
      0,
      2
     ],
-    "daily": 41
+    "daily": 41,
+    "weekly": 398
    },
    {
     "day": "2026-11-09",
@@ -10965,8 +10935,7 @@
      0,
      0
     ],
-    "daily": 36,
-    "weekly": 72
+    "daily": 36
    },
    {
     "day": "2026-11-15",
@@ -10996,7 +10965,8 @@
      0,
      2
     ],
-    "daily": 34
+    "daily": 34,
+    "weekly": 37
    },
    {
     "day": "2026-11-16",
@@ -11004,6 +10974,36 @@
      1,
      0,
      1,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 3
+   },
+   {
+    "day": "2026-11-17",
+    "hourly": [
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -11026,7 +11026,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 0
    }
   ]
  },
@@ -16186,6 +16186,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/stations/governmental-complex",
+   "path_id": 122727650,
+   "title": "Governmental Complex Metro Station, Riyadh: Yellow Line, No. 65",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-16": 1
    }
   },
   {
@@ -24111,9 +24121,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2509,
+  "visits": 2510,
   "events_total": 1844,
-  "goatcounter_total_with_events": 4353,
+  "goatcounter_total_with_events": 4354,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24160,7 +24170,7 @@
    "2026-11-13": 15,
    "2026-11-14": 29,
    "2026-11-15": 26,
-   "2026-11-16": 1
+   "2026-11-16": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -26514,7 +26524,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1949,
+   "count": 1950,
    "ref_scheme": "o"
   },
   {
@@ -26816,7 +26826,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3023
+   "count": 3024
   },
   {
    "id": "ara",
@@ -26996,14 +27006,14 @@
    "count": 7
   },
   {
-   "id": "MX",
-   "name": "Mexico",
+   "id": "ID",
+   "name": "Indonesia",
    "count": 6
   },
   {
-   "id": "ID",
-   "name": "Indonesia",
-   "count": 5
+   "id": "MX",
+   "name": "Mexico",
+   "count": 6
   },
   {
    "id": "QA",
@@ -27155,7 +27165,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 648
+   "count": 649
   },
   {
    "id": "desktophd",
@@ -27172,7 +27182,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2304
+   "count": 2305
   },
   {
    "id": "Safari",
@@ -27203,7 +27213,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 567
+   "count": 568
   },
   {
    "id": "macOS",
