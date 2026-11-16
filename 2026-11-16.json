@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-16T03:08:22Z",
+ "generated": "2026-11-16T08:01:33Z",
  "start": "2026-10-17",
  "end": "2026-11-17",
  "total": {
-  "total": 2331,
+  "total": 2332,
   "total_events": 655,
-  "total_utc": 2289,
+  "total_utc": 2290,
   "stats": [
    {
     "day": "2026-10-17",
@@ -491,7 +491,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 882
+    "monthly": 883
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 36,
-    "weekly": 73
+    "weekly": 74
    },
    {
     "day": "2026-11-15",
@@ -929,7 +929,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 3
+    "daily": 4
    },
    {
     "day": "2026-11-17",
@@ -1589,6 +1589,22 @@
    }
   },
   {
+   "path": "/ar/districts/east-umm-al-hamam",
+   "path_id": 113337065,
+   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-26": 1,
+    "2026-11-10": 1,
+    "2026-11-11": 2,
+    "2026-11-16": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-muhammadiyah",
    "path_id": 110846046,
    "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
@@ -1714,21 +1730,6 @@
     "2026-10-26": 1,
     "2026-10-31": 2,
     "2026-11-10": 1
-   }
-  },
-  {
-   "path": "/ar/districts/east-umm-al-hamam",
-   "path_id": 113337065,
-   "title": "أقرب محطة مترو لحي ام الحمام الشرقي في الرياض: محطة بنك البلاد، 2.8 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-24": 1,
-    "2026-10-25": 1,
-    "2026-10-26": 1,
-    "2026-11-10": 1,
-    "2026-11-11": 2
    }
   },
   {
@@ -8643,9 +8644,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1676,
+  "visits": 1677,
   "events_total": 655,
-  "goatcounter_total_with_events": 2331,
+  "goatcounter_total_with_events": 2332,
   "page_loads_by_day": {
    "2026-10-17": 53,
    "2026-10-18": 36,
@@ -8677,7 +8678,7 @@
    "2026-11-13": 15,
    "2026-11-14": 29,
    "2026-11-15": 26,
-   "2026-11-16": 2
+   "2026-11-16": 3
   },
   "visitor_days_by_day": {
    "2026-10-17": 27,
@@ -9568,6 +9569,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/east-umm-al-hamam": [
+   {
+    "name": "Google",
+    "count": 7
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-muhammadiyah": [
    {
     "name": "Google",
@@ -9664,16 +9675,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/ar/districts/east-umm-al-hamam": [
-   {
-    "name": "Google",
-    "count": 6
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
    }
   ],
   "/districts/al-qadisiyah": [
@@ -10012,15 +10013,15 @@
     "count": 1
    },
    {
+    "path": "/ar/districts/east-umm-al-hamam",
+    "count": 1
+   },
+   {
     "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
     "path": "/ar/stations/salahaddin",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/east-umm-al-hamam",
     "count": 1
    },
    {
@@ -10084,6 +10085,10 @@
     "count": 7
    },
    {
+    "path": "/ar/districts/east-umm-al-hamam",
+    "count": 7
+   },
+   {
     "path": "/ar/districts/utayqah",
     "count": 7
    },
@@ -10121,10 +10126,6 @@
    },
    {
     "path": "/ar/districts/al-muhammadiyah",
-    "count": 6
-   },
-   {
-    "path": "/ar/districts/east-umm-al-hamam",
     "count": 6
    },
    {
@@ -10889,7 +10890,7 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 861,
+   "count": 862,
    "ref_scheme": "g"
   },
   {
@@ -11195,7 +11196,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 909
+   "count": 910
   },
   {
    "id": "ind",
@@ -11262,7 +11263,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 2050
+   "count": 2051
   },
   {
    "id": "US",
@@ -11479,7 +11480,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1903
+   "count": 1904
   },
   {
    "id": "tablet",
@@ -11511,7 +11512,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1008
+   "count": 1009
   },
   {
    "name": "",
@@ -11527,7 +11528,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1017
+   "count": 1018
   },
   {
    "id": "Android",
