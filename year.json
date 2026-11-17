@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-17T04:48:19Z",
+ "generated": "2026-11-17T09:16:40Z",
  "start": "2025-11-17",
  "end": "2026-11-18",
  "total": {
-  "total": 4384,
+  "total": 4387,
   "total_events": 1860,
-  "total_utc": 4384,
+  "total_utc": 4387,
   "stats": [
    {
     "day": "2025-11-17",
@@ -10513,7 +10513,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 912
+    "monthly": 915
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      1
     ],
     "daily": 33,
-    "weekly": 33
+    "weekly": 36
    },
    {
     "day": "2026-11-17",
@@ -10981,10 +10981,10 @@
      0,
      0,
      0,
+     1,
+     1,
      0,
-     0,
-     0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 3
    },
    {
     "day": "2026-11-18",
@@ -11223,7 +11223,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 67,
+   "count": 68,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11254,7 +11254,8 @@
     "2026-11-12": 2,
     "2026-11-13": 1,
     "2026-11-14": 2,
-    "2026-11-15": 2
+    "2026-11-15": 2,
+    "2026-11-17": 1
    }
   },
   {
@@ -12033,6 +12034,23 @@
    }
   },
   {
+   "path": "/destinations/riyadh-gallery-mall",
+   "path_id": 110311601,
+   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-17": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-05": 1,
+    "2026-11-12": 1,
+    "2026-11-17": 1
+   }
+  },
+  {
    "path": "/destinations/king-abdullah-park",
    "path_id": 109503763,
    "title": "King Abdullah Park (Malaz) by Metro: Nearest Station, Walk and Route",
@@ -12265,22 +12283,6 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "/destinations/riyadh-gallery-mall",
-   "path_id": 110311601,
-   "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-17": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-05": 1,
-    "2026-11-12": 1
    }
   },
   {
@@ -16230,6 +16232,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/districts/ar-rabie",
+   "path_id": 123150274,
+   "title": "Nearest Metro Station to Ar Rabie, Riyadh: Ar Rabi, 1.0 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-17": 1
    }
   },
   {
@@ -24225,9 +24237,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2524,
+  "visits": 2527,
   "events_total": 1860,
-  "goatcounter_total_with_events": 4384,
+  "goatcounter_total_with_events": 4387,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24274,7 +24286,8 @@
    "2026-11-13": 15,
    "2026-11-14": 29,
    "2026-11-15": 26,
-   "2026-11-16": 16
+   "2026-11-16": 16,
+   "2026-11-17": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24758,6 +24771,10 @@
    {
     "name": "com.reddit.frontpage",
     "count": 2
+   },
+   {
+    "name": "www.reddit.com",
+    "count": 1
    },
    {
     "name": "Yandex",
@@ -25398,6 +25415,20 @@
     "count": 8
    }
   ],
+  "/destinations/riyadh-gallery-mall": [
+   {
+    "name": "www.bing.com",
+    "count": 4
+   },
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "duckduckgo.com",
+    "count": 1
+   }
+  ],
   "/destinations/king-abdullah-park": [
    {
     "name": "Google",
@@ -25524,20 +25555,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/destinations/riyadh-gallery-mall": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "www.bing.com",
-    "count": 3
-   },
-   {
-    "name": "duckduckgo.com",
-    "count": 1
    }
   ],
   "/ar/stations/khurais-road": [
@@ -25964,15 +25981,15 @@
     "count": 3
    },
    {
+    "path": "/destinations/riyadh-gallery-mall",
+    "count": 3
+   },
+   {
     "path": "/ar/stations/salahaddin",
     "count": 3
    },
    {
     "path": "/districts/ar-rabwah",
-    "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
     "count": 3
    },
    {
@@ -26172,15 +26189,15 @@
     "count": 5
    },
    {
+    "path": "/destinations/riyadh-gallery-mall",
+    "count": 4
+   },
+   {
     "path": "/ar/timings",
     "count": 3
    },
    {
     "path": "/ar/rules",
-    "count": 3
-   },
-   {
-    "path": "/destinations/riyadh-gallery-mall",
     "count": 3
    },
    {
@@ -26277,6 +26294,10 @@
   "www.reddit.com": [
    {
     "path": "/",
+    "count": 1
+   },
+   {
+    "path": "/map",
     "count": 1
    }
   ],
@@ -26640,7 +26661,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 297,
+   "count": 298,
    "ref_scheme": "c"
   },
   {
@@ -26664,7 +26685,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 61,
+   "count": 62,
    "ref_scheme": "h"
   },
   {
@@ -26908,6 +26929,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "www.reddit.com",
+   "name": "www.reddit.com",
+   "count": 2,
+   "ref_scheme": "h"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/lines/blue-line",
    "name": "riyadhmetro.fyi/ar/lines/blue-line",
    "count": 2,
@@ -26918,24 +26945,18 @@
    "name": "riyadhmetro.fyi/ar/destinations/diriyah",
    "count": 2,
    "ref_scheme": "h"
-  },
-  {
-   "id": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
-   "name": "www.reddit.com/r/Riyadh/comments/1wztijc/i_made_a_free_riyadh_metro_route_planner_all_6",
-   "count": 2,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 3045
+   "count": 3046
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1221
+   "count": 1223
   },
   {
    "id": "(unknown)",
@@ -27007,7 +27028,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3697
+   "count": 3700
   },
   {
    "id": "US",
@@ -27259,7 +27280,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3549
+   "count": 3550
   },
   {
    "id": "tablet",
@@ -27269,7 +27290,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 650
+   "count": 652
   },
   {
    "id": "desktophd",
@@ -27286,12 +27307,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2319
+   "count": 2321
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1966
+   "count": 1967
   },
   {
    "name": "",
@@ -27307,7 +27328,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1956
+   "count": 1957
   },
   {
    "id": "Android",
@@ -27317,7 +27338,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 569
+   "count": 571
   },
   {
    "id": "macOS",
