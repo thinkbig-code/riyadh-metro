@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-17T09:16:40Z",
+ "generated": "2026-11-17T13:55:27Z",
  "start": "2025-11-17",
  "end": "2026-11-18",
  "total": {
-  "total": 4387,
+  "total": 4389,
   "total_events": 1860,
-  "total_utc": 4387,
+  "total_utc": 4389,
   "stats": [
    {
     "day": "2025-11-17",
@@ -10513,7 +10513,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 915
+    "monthly": 917
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      1
     ],
     "daily": 33,
-    "weekly": 36
+    "weekly": 38
    },
    {
     "day": "2026-11-17",
@@ -10985,7 +10985,7 @@
      1,
      0,
      1,
-     0,
+     2,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 3
+    "daily": 5
    },
    {
     "day": "2026-11-18",
@@ -12017,6 +12017,23 @@
    }
   },
   {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1,
+    "2026-11-17": 1
+   }
+  },
+  {
    "path": "/stations",
    "path_id": 110710632,
    "title": "Riyadh Metro Stations: Full List of All 6 Lines",
@@ -12254,22 +12271,6 @@
     "2026-10-26": 2,
     "2026-10-30": 1,
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-22": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-03": 1,
-    "2026-11-04": 1
    }
   },
   {
@@ -13209,6 +13210,19 @@
    }
   },
   {
+   "path": "/ar/destinations/king-saud-medical-city",
+   "path_id": 112701768,
+   "title": "محطة مترو مدينة الملك سعود الطبية: محطة الجرادية، 21 دقيقة سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-28": 1,
+    "2026-10-31": 1,
+    "2026-11-17": 1
+   }
+  },
+  {
    "path": "/destinations/sahara-mall",
    "path_id": 112492787,
    "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
@@ -13870,18 +13884,6 @@
     "2026-10-18": 1,
     "2026-10-24": 1,
     "2026-11-15": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/king-saud-medical-city",
-   "path_id": 112701768,
-   "title": "محطة مترو مدينة الملك سعود الطبية: محطة الجرادية، 21 دقيقة سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-28": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -24237,9 +24239,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2527,
+  "visits": 2529,
   "events_total": 1860,
-  "goatcounter_total_with_events": 4387,
+  "goatcounter_total_with_events": 4389,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24287,7 +24289,7 @@
    "2026-11-14": 29,
    "2026-11-15": 26,
    "2026-11-16": 16,
-   "2026-11-17": 3
+   "2026-11-17": 5
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25409,6 +25411,20 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   },
+   {
+    "name": "duckduckgo.com",
+    "count": 1
+   }
+  ],
   "/stations": [
    {
     "name": "Google",
@@ -25545,16 +25561,6 @@
    {
     "name": "Google",
     "count": 7
-   }
-  ],
-  "/ar/districts/al-sahafah": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 2
    }
   ],
   "/ar/stations/khurais-road": [
@@ -25925,6 +25931,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-sahafah",
+    "count": 5
+   },
+   {
     "path": "/ar/destinations/dallah-hospital",
     "count": 5
    },
@@ -25934,10 +25944,6 @@
    },
    {
     "path": "/ar/districts/al-malqa",
-    "count": 5
-   },
-   {
-    "path": "/ar/districts/al-sahafah",
     "count": 5
    },
    {
@@ -26103,11 +26109,11 @@
     "count": 2
    },
    {
-    "path": "/ar/destinations/royal-mall",
+    "path": "/ar/districts/al-sahafah",
     "count": 2
    },
    {
-    "path": "/ar/districts/al-sahafah",
+    "path": "/ar/destinations/royal-mall",
     "count": 2
    },
    {
@@ -26611,6 +26617,10 @@
     "count": 3
    },
    {
+    "path": "/ar/districts/al-sahafah",
+    "count": 1
+   },
+   {
     "path": "/destinations/riyadh-gallery-mall",
     "count": 1
    }
@@ -26685,7 +26695,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 62,
+   "count": 63,
    "ref_scheme": "h"
   },
   {
@@ -26785,6 +26795,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "duckduckgo.com",
+   "name": "duckduckgo.com",
+   "count": 6,
+   "ref_scheme": "h"
+  },
+  {
    "id": "t.co",
    "name": "t.co",
    "count": 6,
@@ -26800,12 +26816,6 @@
    "id": "riyadhmetro.fyi/nearest-station",
    "name": "riyadhmetro.fyi/nearest-station",
    "count": 6,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "duckduckgo.com",
-   "name": "duckduckgo.com",
-   "count": 5,
    "ref_scheme": "h"
   },
   {
@@ -26951,12 +26961,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3046
+   "count": 3047
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1223
+   "count": 1224
   },
   {
    "id": "(unknown)",
@@ -27028,7 +27038,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3700
+   "count": 3702
   },
   {
    "id": "US",
@@ -27280,7 +27290,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3550
+   "count": 3551
   },
   {
    "id": "tablet",
@@ -27290,7 +27300,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 652
+   "count": 653
   },
   {
    "id": "desktophd",
@@ -27307,7 +27317,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2321
+   "count": 2323
   },
   {
    "id": "Safari",
@@ -27333,12 +27343,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1631
+   "count": 1632
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 571
+   "count": 572
   },
   {
    "id": "macOS",
