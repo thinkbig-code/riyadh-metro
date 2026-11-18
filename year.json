@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-18T03:53:32Z",
+ "generated": "2026-11-18T08:36:21Z",
  "start": "2025-11-18",
  "end": "2026-11-19",
  "total": {
-  "total": 4403,
+  "total": 4404,
   "total_events": 1862,
-  "total_utc": 4403,
+  "total_utc": 4404,
   "stats": [
    {
     "day": "2025-11-18",
@@ -10483,7 +10483,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 931
+    "monthly": 932
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      0
     ],
     "daily": 11,
-    "weekly": 19
+    "weekly": 20
    },
    {
     "day": "2026-11-18",
@@ -10982,7 +10982,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 9
    },
    {
     "day": "2026-11-19",
@@ -11228,7 +11228,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 68,
+   "count": 69,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11260,7 +11260,8 @@
     "2026-11-13": 1,
     "2026-11-14": 2,
     "2026-11-15": 2,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -24271,9 +24272,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2541,
+  "visits": 2542,
   "events_total": 1862,
-  "goatcounter_total_with_events": 4403,
+  "goatcounter_total_with_events": 4404,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24322,7 +24323,7 @@
    "2026-11-15": 26,
    "2026-11-16": 16,
    "2026-11-17": 10,
-   "2026-11-18": 7
+   "2026-11-18": 8
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24798,12 +24799,12 @@
     "count": 38
    },
    {
-    "name": "chatgpt.com",
+    "name": "(direct or unknown)",
     "count": 8
    },
    {
-    "name": "(direct or unknown)",
-    "count": 7
+    "name": "chatgpt.com",
+    "count": 8
    },
    {
     "name": "www.bing.com",
@@ -25697,7 +25698,7 @@
    },
    {
     "path": "/map",
-    "count": 7
+    "count": 8
    },
    {
     "path": "/destinations/al-awwal-park",
@@ -26710,7 +26711,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1977,
+   "count": 1978,
    "ref_scheme": "o"
   },
   {
@@ -27022,7 +27023,7 @@
   {
    "id": "(unknown)",
    "name": "(unknown)",
-   "count": 30
+   "count": 31
   },
   {
    "id": "fra",
@@ -27192,6 +27193,11 @@
    "count": 7
   },
   {
+   "id": "BR",
+   "name": "Brazil",
+   "count": 6
+  },
+  {
    "id": "ID",
    "name": "Indonesia",
    "count": 6
@@ -27200,11 +27206,6 @@
    "id": "MX",
    "name": "Mexico",
    "count": 6
-  },
-  {
-   "id": "BR",
-   "name": "Brazil",
-   "count": 5
   },
   {
    "id": "QA",
@@ -27346,7 +27347,7 @@
   {
    "id": "tablet",
    "name": "",
-   "count": 98
+   "count": 99
   },
   {
    "id": "desktop",
@@ -27368,7 +27369,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2327
+   "count": 2328
   },
   {
    "id": "Safari",
@@ -27404,7 +27405,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 155
+   "count": 156
   },
   {
    "id": "Linux",
