@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-18T13:27:24Z",
+ "generated": "2026-11-18T21:36:05Z",
  "start": "2026-10-19",
  "end": "2026-11-19",
  "total": {
-  "total": 2241,
-  "total_events": 622,
-  "total_utc": 2231,
+  "total": 2258,
+  "total_events": 630,
+  "total_utc": 2248,
   "stats": [
    {
     "day": "2026-10-19",
@@ -430,7 +430,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 944
+    "monthly": 961
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 33,
-    "weekly": 65
+    "weekly": 82
    },
    {
     "day": "2026-11-17",
@@ -935,20 +935,20 @@
      0,
      2,
      3,
-     7,
+     13,
+     2,
      0,
-     0,
-     0,
-     0,
-     0,
-     0
+     1,
+     4,
+     2,
+     1
     ],
-    "daily": 21
+    "daily": 37
    },
    {
     "day": "2026-11-19",
     "hourly": [
-     0,
+     1,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 228,
+   "count": 232,
    "daily": {
     "2026-10-19": 10,
     "2026-10-20": 27,
@@ -1015,7 +1015,7 @@
     "2026-11-15": 5,
     "2026-11-16": 4,
     "2026-11-17": 1,
-    "2026-11-18": 3
+    "2026-11-18": 7
    }
   },
   {
@@ -1023,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 170,
+   "count": 171,
    "daily": {
     "2026-10-19": 8,
     "2026-10-20": 20,
@@ -1054,7 +1054,7 @@
     "2026-11-15": 4,
     "2026-11-16": 4,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 2
    }
   },
   {
@@ -1093,7 +1093,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 69,
+   "count": 71,
    "daily": {
     "2026-10-19": 3,
     "2026-10-20": 4,
@@ -1121,7 +1121,7 @@
     "2026-11-14": 1,
     "2026-11-15": 1,
     "2026-11-16": 1,
-    "2026-11-18": 2
+    "2026-11-18": 4
    }
   },
   {
@@ -1238,7 +1238,7 @@
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
-   "count": 22,
+   "count": 23,
    "daily": {
     "2026-10-24": 1,
     "2026-10-31": 2,
@@ -1253,7 +1253,8 @@
     "2026-11-14": 1,
     "2026-11-15": 1,
     "2026-11-16": 1,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -1502,6 +1503,23 @@
    }
   },
   {
+   "path": "/ar/destinations/taibah-markets",
+   "path_id": 112083999,
+   "title": "محطة مترو أسواق طيبة: محطة حي الملك فهد 2 (المسار الأزرق)، 4 دقائق سيراً",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 2,
+    "2026-11-10": 1,
+    "2026-11-11": 2,
+    "2026-11-12": 1,
+    "2026-11-14": 1,
+    "2026-11-19": 1
+   }
+  },
+  {
    "path": "/destinations/diriyah",
    "path_id": 110689928,
    "title": "Diriyah Metro Station: King Saud University (Red Line)",
@@ -1546,22 +1564,6 @@
     "2026-11-01": 1,
     "2026-11-07": 1,
     "2026-11-12": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/taibah-markets",
-   "path_id": 112083999,
-   "title": "محطة مترو أسواق طيبة: محطة حي الملك فهد 2 (المسار الأزرق)، 4 دقائق سيراً",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-30": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 2,
-    "2026-11-10": 1,
-    "2026-11-11": 2,
-    "2026-11-12": 1,
-    "2026-11-14": 1
    }
   },
   {
@@ -2243,6 +2245,19 @@
    }
   },
   {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-29": 1,
+    "2026-11-18": 2
+   }
+  },
+  {
    "path": "/ar/districts/al-taawun",
    "path_id": 111501833,
    "title": "أقرب محطة مترو لحي التعاون في الرياض: محطة طريق عثمان بن عفان، 3.1 كم",
@@ -2602,19 +2617,6 @@
    }
   },
   {
-   "path": "station/salam/from",
-   "path_id": 111702847,
-   "title": "ar|name",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-29": 1,
-    "2026-11-18": 1
-   }
-  },
-  {
    "path": "/districts/ar-rabwah",
    "path_id": 111168177,
    "title": "Nearest Metro Station to Ar Rabwah, Riyadh: Jarir District, 2.3 km",
@@ -2863,6 +2865,17 @@
    }
   },
   {
+   "path": "place/p_roshn_front/to",
+   "path_id": 114778835,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-11-18": 2
+   }
+  },
+  {
    "path": "route/granadia/hokm",
    "path_id": 114739842,
    "title": "ar|search|ok",
@@ -2989,6 +3002,18 @@
     "2026-10-22": 1,
     "2026-10-30": 1,
     "2026-10-31": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-khaleej",
+   "path_id": 114022343,
+   "title": "أقرب محطة مترو لحي الخليج في الرياض: محطة الخليج (داخل الحي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -3278,6 +3303,16 @@
    }
   },
   {
+   "path": "route/salam/p_roshn_front",
+   "path_id": 123693680,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-11-18": 2
+   }
+  },
+  {
    "path": "/ar/stations/bank-albilad",
    "path_id": 122228225,
    "title": "محطة بنك البلاد، مترو الرياض: المسار الأزرق (رقم 11)",
@@ -3306,6 +3341,17 @@
    "count": 2,
    "daily": {
     "2026-11-11": 2
+   }
+  },
+  {
+   "path": "/ar/districts/al-zahra",
+   "path_id": 121170045,
+   "title": "أقرب محطة مترو لحي الزهراء في الرياض: محطة التأمينات الاجتماعية، 1.2 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-11": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -3811,17 +3857,6 @@
    }
   },
   {
-   "path": "place/p_roshn_front/to",
-   "path_id": 114778835,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-25": 1,
-    "2026-11-18": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-shohda",
    "path_id": 114703526,
    "title": "أقرب محطة مترو لحي الشهداء في الرياض: محطة غرناطة (داخل الحي)",
@@ -3922,17 +3957,6 @@
    "path": "/districts/skirinah",
    "path_id": 114073698,
    "title": "Nearest Metro Station to Skirinah, Riyadh: Skirinah, 0.8 km",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-22": 1,
-    "2026-10-24": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-khaleej",
-   "path_id": 114022343,
-   "title": "أقرب محطة مترو لحي الخليج في الرياض: محطة الخليج (داخل الحي)",
    "event": false,
    "count": 2,
    "daily": {
@@ -4475,9 +4499,9 @@
    }
   },
   {
-   "path": "route/jarir/p_roshn_front",
-   "path_id": 123693982,
-   "title": "en|search|ok",
+   "path": "view/rec/mod",
+   "path_id": 123783993,
+   "title": "en|details",
    "event": true,
    "count": 1,
    "daily": {
@@ -4485,8 +4509,18 @@
    }
   },
   {
-   "path": "route/salam/p_roshn_front",
-   "path_id": 123693680,
+   "path": "route/rec/mod",
+   "path_id": 123783955,
+   "title": "en|map|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-18": 1
+   }
+  },
+  {
+   "path": "route/jarir/p_roshn_front",
+   "path_id": 123693982,
    "title": "en|search|ok",
    "event": true,
    "count": 1,
@@ -4938,16 +4972,6 @@
    "path": "/ar/stations/as-salhiyah",
    "path_id": 121180110,
    "title": "محطة الصالحية، مترو الرياض: المسار البرتقالي (رقم 51)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-11": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-zahra",
-   "path_id": 121170045,
-   "title": "أقرب محطة مترو لحي الزهراء في الرياض: محطة التأمينات الاجتماعية، 1.2 كم",
    "event": false,
    "count": 1,
    "daily": {
@@ -7875,6 +7899,16 @@
    }
   },
   {
+   "path": "/ar/destinations/al-suwaidi-park",
+   "path_id": 112343147,
+   "title": "محطة مترو حديقة السويدي: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-18": 1
+   }
+  },
+  {
    "path": "station/kbw/from",
    "path_id": 112310108,
    "title": "ar|name",
@@ -8517,9 +8551,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1619,
-  "events_total": 622,
-  "goatcounter_total_with_events": 2241,
+  "visits": 1628,
+  "events_total": 630,
+  "goatcounter_total_with_events": 2258,
   "page_loads_by_day": {
    "2026-10-19": 44,
    "2026-10-20": 79,
@@ -8551,7 +8585,8 @@
    "2026-11-15": 26,
    "2026-11-16": 16,
    "2026-11-17": 10,
-   "2026-11-18": 13
+   "2026-11-18": 21,
+   "2026-11-19": 1
   },
   "visitor_days_by_day": {
    "2026-10-19": 11,
@@ -8584,15 +8619,15 @@
    "2026-11-15": 5,
    "2026-11-16": 5,
    "2026-11-17": 1,
-   "2026-11-18": 3
+   "2026-11-18": 6
   },
-  "visitor_days": 239,
-  "return_rate": 0.289,
-  "routes": 175,
+  "visitor_days": 242,
+  "return_rate": 0.293,
+  "routes": 177,
   "routes_not_found": 0,
   "routes_per_visit": 0.11,
   "routes_per_visitor_day": 0.73,
-  "share_rate": 0.063,
+  "share_rate": 0.062,
   "shares": {
    "card": 1,
    "whatsapp": 4,
@@ -8600,7 +8635,7 @@
    "copy": 1,
    "qr": 1
   },
-  "failed_search_rate": 0.119,
+  "failed_search_rate": 0.117,
   "failed_searches": [
    {
     "name": "view",
@@ -8663,8 +8698,8 @@
    "outside": 1
   },
   "visitors_new_return": {
-   "new": 170,
-   "return": 69
+   "new": 171,
+   "return": 71
   },
   "top_routes": [
    {
@@ -8704,6 +8739,10 @@
     "count": 3
    },
    {
+    "name": "salam > p_roshn_front",
+    "count": 2
+   },
+   {
     "name": "p_king_khalid_airport_terminals_1_2 > p_riyadh_north_railway_station",
     "count": 2
    },
@@ -8721,10 +8760,6 @@
    },
    {
     "name": "dhabab > p_al_batha",
-    "count": 2
-   },
-   {
-    "name": "aishah > kbw",
     "count": 2
    }
   ],
@@ -8762,12 +8797,12 @@
     "count": 6
    },
    {
-    "name": "jarir",
+    "name": "salam",
     "count": 5
    },
    {
-    "name": "p_kafd_king_abdullah_financial_district",
-    "count": 4
+    "name": "jarir",
+    "count": 5
    }
   ],
   "top_destinations": [
@@ -8817,7 +8852,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 155
+    "count": 159
    },
    {
     "name": "Google",
@@ -9117,7 +9152,7 @@
   "/ar/districts/qurtubah": [
    {
     "name": "(direct or unknown)",
-    "count": 13
+    "count": 14
    },
    {
     "name": "Google",
@@ -9366,6 +9401,20 @@
     "count": 2
    }
   ],
+  "/ar/destinations/taibah-markets": [
+   {
+    "name": "Google",
+    "count": 6
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 1
+   }
+  ],
   "/destinations/diriyah": [
    {
     "name": "chatgpt.com",
@@ -9406,20 +9455,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/ar/destinations/taibah-markets": [
-   {
-    "name": "Google",
-    "count": 6
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
    }
   ],
   "/ar/districts/al-mansurah": [
@@ -9811,7 +9846,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 155
+    "count": 159
    },
    {
     "path": "/ar/map",
@@ -9819,7 +9854,7 @@
    },
    {
     "path": "/ar/districts/qurtubah",
-    "count": 13
+    "count": 14
    },
    {
     "path": "/ar.html",
@@ -9890,11 +9925,11 @@
     "count": 1
    },
    {
-    "path": "/destinations/diriyah",
+    "path": "/ar/destinations/taibah-markets",
     "count": 1
    },
    {
-    "path": "/ar/destinations/taibah-markets",
+    "path": "/destinations/diriyah",
     "count": 1
    },
    {
@@ -10202,6 +10237,10 @@
     "count": 3
    },
    {
+    "path": "/ar/destinations/taibah-markets",
+    "count": 3
+   },
+   {
     "path": "/ar/stations/salahaddin",
     "count": 3
    },
@@ -10219,10 +10258,6 @@
    },
    {
     "path": "/ar/districts/al-rayan",
-    "count": 2
-   },
-   {
-    "path": "/ar/destinations/taibah-markets",
     "count": 2
    },
    {
@@ -10801,18 +10836,18 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 817,
+   "count": 818,
    "ref_scheme": "g"
   },
   {
    "name": "",
-   "count": 689,
+   "count": 702,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 287,
+   "count": 290,
    "ref_scheme": "c"
   },
   {
@@ -11102,12 +11137,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1322
+   "count": 1336
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 869
+   "count": 872
   },
   {
    "id": "ind",
@@ -11169,7 +11204,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1967
+   "count": 1979
   },
   {
    "id": "US",
@@ -11179,12 +11214,12 @@
   {
    "id": "AE",
    "name": "United Arab Emirates",
-   "count": 31
+   "count": 35
   },
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 29
+   "count": 30
   },
   {
    "id": "DE",
@@ -11381,7 +11416,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1827
+   "count": 1842
   },
   {
    "id": "tablet",
@@ -11396,7 +11431,7 @@
   {
    "id": "desktophd",
    "name": "",
-   "count": 34
+   "count": 36
   },
   {
    "id": "unknown",
@@ -11408,12 +11443,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1222
+   "count": 1230
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 964
+   "count": 973
   },
   {
    "name": "",
@@ -11429,12 +11464,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 973
+   "count": 982
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 875
+   "count": 881
   },
   {
    "id": "Windows",
@@ -11449,7 +11484,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 36
+   "count": 38
   },
   {
    "id": "Chrome OS",
