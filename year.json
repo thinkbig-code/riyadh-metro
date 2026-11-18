@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-18T08:36:21Z",
+ "generated": "2026-11-18T13:28:48Z",
  "start": "2025-11-18",
  "end": "2026-11-19",
  "total": {
-  "total": 4404,
-  "total_events": 1862,
-  "total_utc": 4404,
+  "total": 4416,
+  "total_events": 1869,
+  "total_utc": 4416,
   "stats": [
    {
     "day": "2025-11-18",
@@ -10483,7 +10483,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 932
+    "monthly": 944
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      0
     ],
     "daily": 11,
-    "weekly": 20
+    "weekly": 32
    },
    {
     "day": "2026-11-18",
@@ -10986,9 +10986,9 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
+     2,
+     3,
+     7,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 21
    },
    {
     "day": "2026-11-19",
@@ -11036,7 +11036,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 834,
+   "count": 836,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11085,7 +11085,7 @@
     "2026-11-15": 5,
     "2026-11-16": 4,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 3
    }
   },
   {
@@ -11183,7 +11183,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 106,
+   "count": 108,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11220,7 +11220,8 @@
     "2026-11-12": 1,
     "2026-11-14": 1,
     "2026-11-15": 1,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-18": 2
    }
   },
   {
@@ -11228,7 +11229,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 69,
+   "count": 70,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11261,7 +11262,7 @@
     "2026-11-14": 2,
     "2026-11-15": 2,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 2
    }
   },
   {
@@ -12459,6 +12460,21 @@
    }
   },
   {
+   "path": "station/salam/from",
+   "path_id": 111702847,
+   "title": "ar|name",
+   "event": true,
+   "count": 6,
+   "daily": {
+    "2026-10-12": 1,
+    "2026-10-17": 1,
+    "2026-10-21": 1,
+    "2026-10-22": 1,
+    "2026-10-29": 1,
+    "2026-11-18": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-taawun",
    "path_id": 111501833,
    "title": "أقرب محطة مترو لحي التعاون في الرياض: محطة طريق عثمان بن عفان، 3.1 كم",
@@ -12791,20 +12807,6 @@
     "2026-10-20": 1,
     "2026-10-23": 2,
     "2026-11-11": 1
-   }
-  },
-  {
-   "path": "station/salam/from",
-   "path_id": 111702847,
-   "title": "ar|name",
-   "event": true,
-   "count": 5,
-   "daily": {
-    "2026-10-12": 1,
-    "2026-10-17": 1,
-    "2026-10-21": 1,
-    "2026-10-22": 1,
-    "2026-10-29": 1
    }
   },
   {
@@ -13910,6 +13912,18 @@
    }
   },
   {
+   "path": "/stations/qasr-al-hokm",
+   "path_id": 112701195,
+   "title": "Qasr Al Hokm Metro Station, Riyadh: Blue/Orange lines, No. 18",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-18": 1,
+    "2026-10-22": 1,
+    "2026-11-18": 1
+   }
+  },
+  {
    "path": "/ar/stations/khashm-al-an",
    "path_id": 112675911,
    "title": "محطة خشم العان، مترو الرياض: المسار البرتقالي (رقم 60)",
@@ -14138,6 +14152,18 @@
     "2026-10-11": 1,
     "2026-10-12": 1,
     "2026-11-16": 1
+   }
+  },
+  {
+   "path": "station/jarir/from",
+   "path_id": 111011435,
+   "title": "en|name",
+   "event": true,
+   "count": 3,
+   "daily": {
+    "2026-10-11": 1,
+    "2026-11-08": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -14945,6 +14971,17 @@
    }
   },
   {
+   "path": "place/p_roshn_front/to",
+   "path_id": 114778835,
+   "title": "en|name",
+   "event": true,
+   "count": 2,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-11-18": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-shohda",
    "path_id": 114703526,
    "title": "أقرب محطة مترو لحي الشهداء في الرياض: محطة غرناطة (داخل الحي)",
@@ -15282,17 +15319,6 @@
    }
   },
   {
-   "path": "/stations/qasr-al-hokm",
-   "path_id": 112701195,
-   "title": "Qasr Al Hokm Metro Station, Riyadh: Blue/Orange lines, No. 18",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-18": 1,
-    "2026-10-22": 1
-   }
-  },
-  {
    "path": "/ar/destinations/al-rajhi-grand-mosque",
    "path_id": 112682250,
    "title": "محطة مترو جامع الراجحي: محطة جامع الراجحي (المسار البرتقالي)، 5 دقائق سيراً",
@@ -15430,6 +15456,17 @@
    "daily": {
     "2026-10-15": 1,
     "2026-10-24": 1
+   }
+  },
+  {
+   "path": "/stations/national-museum",
+   "path_id": 112163643,
+   "title": "National Museum Metro Station, Riyadh: Blue/Green lines, No. 16",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-15": 1,
+    "2026-11-18": 1
    }
   },
   {
@@ -15661,17 +15698,6 @@
    "daily": {
     "2026-10-11": 1,
     "2026-11-15": 1
-   }
-  },
-  {
-   "path": "station/jarir/from",
-   "path_id": 111011435,
-   "title": "en|name",
-   "event": true,
-   "count": 2,
-   "daily": {
-    "2026-10-11": 1,
-    "2026-11-08": 1
    }
   },
   {
@@ -16257,6 +16283,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "route/jarir/p_roshn_front",
+   "path_id": 123693982,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-18": 1
+   }
+  },
+  {
+   "path": "route/salam/p_roshn_front",
+   "path_id": 123693680,
+   "title": "en|search|ok",
+   "event": true,
+   "count": 1,
+   "daily": {
+    "2026-11-18": 1
    }
   },
   {
@@ -18400,16 +18446,6 @@
    }
   },
   {
-   "path": "place/p_roshn_front/to",
-   "path_id": 114778835,
-   "title": "en|name",
-   "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-25": 1
-   }
-  },
-  {
    "path": "route/transport/p_kafd_king_abdullah_financial_district",
    "path_id": 114753858,
    "title": "ar|geo|ok",
@@ -19974,16 +20010,6 @@
    "path_id": 112169616,
    "title": "ar|search|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-15": 1
-   }
-  },
-  {
-   "path": "/stations/national-museum",
-   "path_id": 112163643,
-   "title": "National Museum Metro Station, Riyadh: Blue/Green lines, No. 16",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-15": 1
@@ -24272,9 +24298,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2542,
-  "events_total": 1862,
-  "goatcounter_total_with_events": 4404,
+  "visits": 2547,
+  "events_total": 1869,
+  "goatcounter_total_with_events": 4416,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24323,7 +24349,7 @@
    "2026-11-15": 26,
    "2026-11-16": 16,
    "2026-11-17": 10,
-   "2026-11-18": 8
+   "2026-11-18": 13
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24367,11 +24393,11 @@
    "2026-11-15": 5,
    "2026-11-16": 5,
    "2026-11-17": 1,
-   "2026-11-18": 1
+   "2026-11-18": 3
   },
-  "visitor_days": 730,
-  "return_rate": 0.145,
-  "routes": 498,
+  "visitor_days": 732,
+  "return_rate": 0.148,
+  "routes": 500,
   "routes_not_found": 0,
   "routes_per_visit": 0.2,
   "routes_per_visitor_day": 0.65,
@@ -24503,7 +24529,7 @@
   },
   "visitors_new_return": {
    "new": 624,
-   "return": 106
+   "return": 108
   },
   "top_routes": [
    {
@@ -24656,7 +24682,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 555
+    "count": 557
    },
    {
     "name": "tiktok_ad",
@@ -24808,7 +24834,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 5
+    "count": 6
    },
    {
     "name": "com.reddit.frontpage",
@@ -25682,7 +25708,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 555
+    "count": 557
    },
    {
     "path": "/ar/map",
@@ -26227,11 +26253,11 @@
     "count": 13
    },
    {
-    "path": "/",
-    "count": 5
+    "path": "/map",
+    "count": 6
    },
    {
-    "path": "/map",
+    "path": "/",
     "count": 5
    },
    {
@@ -26711,7 +26737,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 1978,
+   "count": 1994,
    "ref_scheme": "o"
   },
   {
@@ -26747,7 +26773,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 63,
+   "count": 64,
    "ref_scheme": "h"
   },
   {
@@ -27013,12 +27039,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3055
+   "count": 3071
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1229
+   "count": 1230
   },
   {
    "id": "(unknown)",
@@ -27090,7 +27116,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3713
+   "count": 3728
   },
   {
    "id": "US",
@@ -27105,7 +27131,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 67
+   "count": 69
   },
   {
    "id": "CA",
@@ -27342,7 +27368,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3560
+   "count": 3575
   },
   {
    "id": "tablet",
@@ -27352,7 +27378,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 655
+   "count": 657
   },
   {
    "id": "desktophd",
@@ -27369,12 +27395,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2328
+   "count": 2333
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 1975
+   "count": 1987
   },
   {
    "name": "",
@@ -27390,17 +27416,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1962
+   "count": 1974
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1635
+   "count": 1638
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 572
+   "count": 574
   },
   {
    "id": "macOS",
