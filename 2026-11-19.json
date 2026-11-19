@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-19T08:50:34Z",
+ "generated": "2026-11-19T12:09:57Z",
  "start": "2026-10-20",
  "end": "2026-11-20",
  "total": {
-  "total": 2177,
+  "total": 2180,
   "total_events": 594,
-  "total_utc": 2173,
+  "total_utc": 2176,
   "stats": [
    {
     "day": "2026-10-20",
@@ -400,7 +400,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 965
+    "monthly": 968
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 11,
-    "weekly": 53
+    "weekly": 56
    },
    {
     "day": "2026-11-18",
@@ -932,8 +932,8 @@
      1,
      1,
      0,
-     0,
-     0,
+     1,
+     2,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 8
    },
    {
     "day": "2026-11-20",
@@ -1671,6 +1671,22 @@
    }
   },
   {
+   "path": "/rules",
+   "path_id": 116526578,
+   "title": "Riyadh Metro Rules and Fines 2026: Tickets, Darb Card, Common Mistakes",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-02": 1,
+    "2026-11-05": 1,
+    "2026-11-11": 1,
+    "2026-11-14": 1,
+    "2026-11-19": 1
+   }
+  },
+  {
    "path": "/ar/stations/salahaddin",
    "path_id": 114245825,
    "title": "محطة صلاح الدين، مترو الرياض: المسار الأخضر (رقم 78)",
@@ -1811,21 +1827,6 @@
     "2026-11-06": 1,
     "2026-11-08": 1,
     "2026-11-09": 2
-   }
-  },
-  {
-   "path": "/rules",
-   "path_id": 116526578,
-   "title": "Riyadh Metro Rules and Fines 2026: Tickets, Darb Card, Common Mistakes",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-02": 1,
-    "2026-11-05": 1,
-    "2026-11-11": 1,
-    "2026-11-14": 1
    }
   },
   {
@@ -3647,6 +3648,17 @@
    }
   },
   {
+   "path": "/districts/al-saadah",
+   "path_id": 115668230,
+   "title": "Nearest Metro Station to Al Saadah, Riyadh: An Naseem (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-27": 1,
+    "2026-11-19": 1
+   }
+  },
+  {
    "path": "/ar/destinations/riyadh-north-railway-station",
    "path_id": 115543085,
    "title": "محطة مترو محطة قطار الرياض الشمالية: محطة جامعة الأميرة نورة",
@@ -4407,6 +4419,16 @@
    "daily": {
     "2026-10-26": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-wurud",
+   "path_id": 124097220,
+   "title": "محطة الورود، مترو الرياض: المسار الأحمر (رقم 30)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-19": 1
    }
   },
   {
@@ -6217,16 +6239,6 @@
    "count": 1,
    "daily": {
     "2026-10-28": 1
-   }
-  },
-  {
-   "path": "/districts/al-saadah",
-   "path_id": 115668230,
-   "title": "Nearest Metro Station to Al Saadah, Riyadh: An Naseem (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-27": 1
    }
   },
   {
@@ -8342,9 +8354,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1583,
+  "visits": 1586,
   "events_total": 594,
-  "goatcounter_total_with_events": 2177,
+  "goatcounter_total_with_events": 2180,
   "page_loads_by_day": {
    "2026-10-20": 74,
    "2026-10-21": 67,
@@ -8376,7 +8388,7 @@
    "2026-11-16": 16,
    "2026-11-17": 10,
    "2026-11-18": 21,
-   "2026-11-19": 5
+   "2026-11-19": 8
   },
   "visitor_days_by_day": {
    "2026-10-20": 22,
@@ -9341,6 +9353,20 @@
     "count": 2
    }
   ],
+  "/rules": [
+   {
+    "name": "Google",
+    "count": 3
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "riyadhmetro.fyi/timings",
+    "count": 2
+   }
+  ],
   "/ar/stations/salahaddin": [
    {
     "name": "Google",
@@ -9434,20 +9460,6 @@
    },
    {
     "name": "riyadhmetro.fyi",
-    "count": 1
-   }
-  ],
-  "/rules": [
-   {
-    "name": "Google",
-    "count": 3
-   },
-   {
-    "name": "riyadhmetro.fyi/timings",
-    "count": 2
-   },
-   {
-    "name": "(direct or unknown)",
     "count": 1
    }
   ],
@@ -9693,6 +9705,10 @@
     "count": 2
    },
    {
+    "path": "/rules",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-yasmeen",
     "count": 2
    },
@@ -9738,10 +9754,6 @@
    },
    {
     "path": "/destinations/pakistan-embassy",
-    "count": 1
-   },
-   {
-    "path": "/rules",
     "count": 1
    },
    {
@@ -10081,11 +10093,11 @@
     "count": 3
    },
    {
-    "path": "/ar/stations/salahaddin",
+    "path": "/rules",
     "count": 3
    },
    {
-    "path": "/rules",
+    "path": "/ar/stations/salahaddin",
     "count": 3
    },
    {
@@ -10629,13 +10641,13 @@
   },
   {
    "name": "",
-   "count": 676,
+   "count": 677,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 289,
+   "count": 291,
    "ref_scheme": "c"
   },
   {
@@ -10925,12 +10937,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1284
+   "count": 1286
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 845
+   "count": 846
   },
   {
    "id": "fra",
@@ -10992,12 +11004,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1906
+   "count": 1908
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 58
+   "count": 59
   },
   {
    "id": "AE",
@@ -11199,7 +11211,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1784
+   "count": 1786
   },
   {
    "id": "tablet",
@@ -11209,7 +11221,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 319
+   "count": 320
   },
   {
    "id": "desktophd",
@@ -11226,12 +11238,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1187
+   "count": 1188
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 943
+   "count": 945
   },
   {
    "name": "",
@@ -11247,7 +11259,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 946
+   "count": 948
   },
   {
    "id": "Android",
@@ -11267,7 +11279,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 38
+   "count": 39
   },
   {
    "id": "Chrome OS",
