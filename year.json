@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-20T02:37:41Z",
+ "generated": "2026-11-20T10:31:42Z",
  "start": "2025-11-20",
  "end": "2026-11-21",
  "total": {
-  "total": 4458,
-  "total_events": 1880,
-  "total_utc": 4458,
+  "total": 4463,
+  "total_events": 1882,
+  "total_utc": 4463,
   "stats": [
    {
     "day": "2025-11-20",
@@ -10423,7 +10423,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 986
+    "monthly": 991
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      0
     ],
     "daily": 18,
-    "weekly": 26
+    "weekly": 31
    },
    {
     "day": "2026-11-20",
@@ -10978,8 +10978,8 @@
      0,
      1,
      2,
-     0,
-     0,
+     4,
+     1,
      0,
      0,
      0,
@@ -10996,7 +10996,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 13
    },
    {
     "day": "2026-11-21",
@@ -11036,7 +11036,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 842,
+   "count": 844,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11087,7 +11087,7 @@
     "2026-11-17": 1,
     "2026-11-18": 7,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 3
    }
   },
   {
@@ -11095,7 +11095,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 626,
+   "count": 628,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11138,7 +11138,7 @@
     "2026-11-16": 4,
     "2026-11-17": 1,
     "2026-11-18": 2,
-    "2026-11-20": 1
+    "2026-11-20": 3
    }
   },
   {
@@ -11500,6 +11500,28 @@
    }
   },
   {
+   "path": "/ar/timings",
+   "path_id": 110802018,
+   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
+   "event": false,
+   "count": 17,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-17": 1,
+    "2026-10-20": 1,
+    "2026-10-21": 2,
+    "2026-10-24": 1,
+    "2026-10-25": 2,
+    "2026-10-29": 1,
+    "2026-10-30": 1,
+    "2026-11-03": 1,
+    "2026-11-05": 2,
+    "2026-11-12": 1,
+    "2026-11-19": 1,
+    "2026-11-20": 2
+   }
+  },
+  {
    "path": "/ar/districts/ar-rabwah",
    "path_id": 112729802,
    "title": "أقرب محطة مترو لحي الربوة في الرياض: محطة حي جرير، 2.3 كم",
@@ -11539,28 +11561,6 @@
     "2026-11-10": 1,
     "2026-11-11": 1,
     "2026-11-16": 1
-   }
-  },
-  {
-   "path": "/ar/timings",
-   "path_id": 110802018,
-   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
-   "event": false,
-   "count": 16,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-17": 1,
-    "2026-10-20": 1,
-    "2026-10-21": 2,
-    "2026-10-24": 1,
-    "2026-10-25": 2,
-    "2026-10-29": 1,
-    "2026-10-30": 1,
-    "2026-11-03": 1,
-    "2026-11-05": 2,
-    "2026-11-12": 1,
-    "2026-11-19": 1,
-    "2026-11-20": 1
    }
   },
   {
@@ -24372,9 +24372,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2578,
-  "events_total": 1880,
-  "goatcounter_total_with_events": 4458,
+  "visits": 2581,
+  "events_total": 1882,
+  "goatcounter_total_with_events": 4463,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24425,7 +24425,7 @@
    "2026-11-17": 10,
    "2026-11-18": 21,
    "2026-11-19": 16,
-   "2026-11-20": 7
+   "2026-11-20": 10
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24471,14 +24471,14 @@
    "2026-11-17": 1,
    "2026-11-18": 6,
    "2026-11-19": 2,
-   "2026-11-20": 1
+   "2026-11-20": 3
   },
-  "visitor_days": 738,
-  "return_rate": 0.152,
+  "visitor_days": 740,
+  "return_rate": 0.151,
   "routes": 502,
   "routes_not_found": 0,
   "routes_per_visit": 0.19,
-  "routes_per_visitor_day": 0.65,
+  "routes_per_visitor_day": 0.64,
   "share_rate": 0.032,
   "shares": {
    "card": 2,
@@ -24606,7 +24606,7 @@
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 626,
+   "new": 628,
    "return": 112
   },
   "top_routes": [
@@ -24764,7 +24764,7 @@
    },
    {
     "name": "tiktok_ad",
-    "count": 111
+    "count": 113
    },
    {
     "name": "com.reddit.frontpage",
@@ -25141,6 +25141,40 @@
     "count": 1
    }
   ],
+  "/ar/timings": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "www.bing.com",
+    "count": 5
+   },
+   {
+    "name": "riyadhmetro.fyi/timings",
+    "count": 2
+   },
+   {
+    "name": "Yahoo",
+    "count": 1
+   },
+   {
+    "name": "search-dra.dt.dbankcloud.com",
+    "count": 1
+   },
+   {
+    "name": "www.petalsearch.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/stations",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi/ar/districts",
+    "count": 1
+   }
+  ],
   "/ar/districts/ar-rabwah": [
    {
     "name": "Google",
@@ -25167,36 +25201,6 @@
    {
     "name": "(direct or unknown)",
     "count": 3
-   }
-  ],
-  "/ar/timings": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "www.bing.com",
-    "count": 5
-   },
-   {
-    "name": "riyadhmetro.fyi/timings",
-    "count": 2
-   },
-   {
-    "name": "Yahoo",
-    "count": 1
-   },
-   {
-    "name": "www.petalsearch.com",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/stations",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts",
-    "count": 1
    }
   ],
   "/destinations/al-awwal-park": [
@@ -25928,7 +25932,7 @@
   "tiktok_ad": [
    {
     "path": "/",
-    "count": 111
+    "count": 113
    }
   ],
   "com.reddit.frontpage": [
@@ -26753,6 +26757,12 @@
     "count": 1
    }
   ],
+  "search-dra.dt.dbankcloud.com": [
+   {
+    "path": "/ar/timings",
+    "count": 1
+   }
+  ],
   "www.petalsearch.com": [
    {
     "path": "/ar/timings",
@@ -26831,7 +26841,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2012,
+   "count": 2014,
    "ref_scheme": "o"
   },
   {
@@ -26861,7 +26871,7 @@
   {
    "id": "tiktok_ad",
    "name": "tiktok_ad",
-   "count": 111,
+   "count": 113,
    "ref_scheme": "c"
   },
   {
@@ -27133,12 +27143,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3093
+   "count": 3094
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1244
+   "count": 1248
   },
   {
    "id": "(unknown)",
@@ -27215,7 +27225,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3752
+   "count": 3757
   },
   {
    "id": "US",
@@ -27467,12 +27477,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3601
+   "count": 3602
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 101
+   "count": 105
   },
   {
    "id": "desktop",
@@ -27494,7 +27504,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2358
+   "count": 2363
   },
   {
    "id": "Safari",
@@ -27520,12 +27530,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1654
+   "count": 1655
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 576
+   "count": 580
   },
   {
    "id": "macOS",

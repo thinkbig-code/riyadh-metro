@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-20T02:36:32Z",
+ "generated": "2026-11-20T10:30:25Z",
  "start": "2026-10-21",
  "end": "2026-11-21",
  "total": {
-  "total": 2058,
-  "total_events": 546,
-  "total_utc": 2055,
+  "total": 2063,
+  "total_events": 548,
+  "total_utc": 2060,
   "stats": [
    {
     "day": "2026-10-21",
@@ -370,7 +370,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 986
+    "monthly": 991
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 37,
-    "weekly": 63
+    "weekly": 68
    },
    {
     "day": "2026-11-19",
@@ -925,8 +925,8 @@
      0,
      1,
      2,
-     0,
-     0,
+     4,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 8
+    "daily": 13
    },
    {
     "day": "2026-11-21",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 194,
+   "count": 196,
    "daily": {
     "2026-10-21": 10,
     "2026-10-22": 16,
@@ -1015,7 +1015,7 @@
     "2026-11-17": 1,
     "2026-11-18": 7,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 3
    }
   },
   {
@@ -1023,7 +1023,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 142,
+   "count": 144,
    "daily": {
     "2026-10-21": 5,
     "2026-10-22": 10,
@@ -1053,7 +1053,7 @@
     "2026-11-16": 4,
     "2026-11-17": 1,
     "2026-11-18": 2,
-    "2026-11-20": 1
+    "2026-11-20": 3
    }
   },
   {
@@ -1327,6 +1327,25 @@
    }
   },
   {
+   "path": "/ar/timings",
+   "path_id": 110802018,
+   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
+   "event": false,
+   "count": 14,
+   "daily": {
+    "2026-10-21": 2,
+    "2026-10-24": 1,
+    "2026-10-25": 2,
+    "2026-10-29": 1,
+    "2026-10-30": 1,
+    "2026-11-03": 1,
+    "2026-11-05": 2,
+    "2026-11-12": 1,
+    "2026-11-19": 1,
+    "2026-11-20": 2
+   }
+  },
+  {
    "path": "/districts/al-arid",
    "path_id": 112102406,
    "title": "Nearest Metro Station to Al Arid, Riyadh: SAB Bank (in the district)",
@@ -1343,25 +1362,6 @@
     "2026-11-10": 1,
     "2026-11-11": 1,
     "2026-11-16": 1
-   }
-  },
-  {
-   "path": "/ar/timings",
-   "path_id": 110802018,
-   "title": "مواعيد مترو الرياض اليوم: السبت–الخميس ⁦05:30–00:00⁩، الجمعة ⁦10:00–00:00⁩",
-   "event": false,
-   "count": 13,
-   "daily": {
-    "2026-10-21": 2,
-    "2026-10-24": 1,
-    "2026-10-25": 2,
-    "2026-10-29": 1,
-    "2026-10-30": 1,
-    "2026-11-03": 1,
-    "2026-11-05": 2,
-    "2026-11-12": 1,
-    "2026-11-19": 1,
-    "2026-11-20": 1
    }
   },
   {
@@ -8000,9 +8000,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1512,
-  "events_total": 546,
-  "goatcounter_total_with_events": 2058,
+  "visits": 1515,
+  "events_total": 548,
+  "goatcounter_total_with_events": 2063,
   "page_loads_by_day": {
    "2026-10-21": 52,
    "2026-10-22": 81,
@@ -8034,7 +8034,7 @@
    "2026-11-17": 10,
    "2026-11-18": 21,
    "2026-11-19": 16,
-   "2026-11-20": 7
+   "2026-11-20": 10
   },
   "visitor_days_by_day": {
    "2026-10-21": 11,
@@ -8067,14 +8067,14 @@
    "2026-11-17": 1,
    "2026-11-18": 6,
    "2026-11-19": 2,
-   "2026-11-20": 1
+   "2026-11-20": 3
   },
-  "visitor_days": 208,
-  "return_rate": 0.317,
+  "visitor_days": 210,
+  "return_rate": 0.314,
   "routes": 151,
   "routes_not_found": 0,
   "routes_per_visit": 0.1,
-  "routes_per_visitor_day": 0.73,
+  "routes_per_visitor_day": 0.72,
   "share_rate": 0.073,
   "shares": {
    "card": 1,
@@ -8141,7 +8141,7 @@
    "denied": 1
   },
   "visitors_new_return": {
-   "new": 142,
+   "new": 144,
    "return": 66
   },
   "top_routes": [
@@ -8335,6 +8335,10 @@
    },
    {
     "name": "riyadhmetro.fyi",
+    "count": 2
+   },
+   {
+    "name": "tiktok_ad",
     "count": 2
    },
    {
@@ -8662,20 +8666,6 @@
     "count": 3
    }
   ],
-  "/districts/al-arid": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 5
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 3
-   }
-  ],
   "/ar/timings": [
    {
     "name": "www.bing.com",
@@ -8690,6 +8680,10 @@
     "count": 1
    },
    {
+    "name": "search-dra.dt.dbankcloud.com",
+    "count": 1
+   },
+   {
     "name": "www.petalsearch.com",
     "count": 1
    },
@@ -8700,6 +8694,20 @@
    {
     "name": "riyadhmetro.fyi/ar/stations",
     "count": 1
+   }
+  ],
+  "/districts/al-arid": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 5
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 3
    }
   ],
   "/ar/districts/al-rawdah": [
@@ -9874,6 +9882,12 @@
     "count": 1
    }
   ],
+  "tiktok_ad": [
+   {
+    "path": "/",
+    "count": 2
+   }
+  ],
   "riyadhmetro.fyi/timings": [
    {
     "path": "/rules",
@@ -10162,6 +10176,12 @@
     "count": 1
    }
   ],
+  "search-dra.dt.dbankcloud.com": [
+   {
+    "path": "/ar/timings",
+    "count": 1
+   }
+  ],
   "www.petalsearch.com": [
    {
     "path": "/ar/timings",
@@ -10214,7 +10234,7 @@
   },
   {
    "name": "",
-   "count": 626,
+   "count": 628,
    "ref_scheme": "o"
   },
   {
@@ -10422,6 +10442,12 @@
    "ref_scheme": "g"
   },
   {
+   "id": "tiktok_ad",
+   "name": "tiktok_ad",
+   "count": 2,
+   "ref_scheme": "c"
+  },
+  {
    "id": "riyadhmetro.fyi/ar/stations/sultanah",
    "name": "riyadhmetro.fyi/ar/stations/sultanah",
    "count": 2,
@@ -10476,6 +10502,12 @@
    "ref_scheme": "h"
   },
   {
+   "id": "search-dra.dt.dbankcloud.com",
+   "name": "search-dra.dt.dbankcloud.com",
+   "count": 1,
+   "ref_scheme": "h"
+  },
+  {
    "id": "www.petalsearch.com",
    "name": "www.petalsearch.com",
    "count": 1,
@@ -10492,30 +10524,18 @@
    "name": "com.google.android.apps.searchlite",
    "count": 1,
    "ref_scheme": "o"
-  },
-  {
-   "id": "riyadhmetro.fyi/destinations/lulu-hypermarket-murabba",
-   "name": "riyadhmetro.fyi/destinations/lulu-hypermarket-murabba",
-   "count": 1,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/districts",
-   "name": "riyadhmetro.fyi/ar/districts",
-   "count": 1,
-   "ref_scheme": "h"
   }
  ],
  "languages": [
   {
    "id": "eng",
    "name": "English",
-   "count": 1203
+   "count": 1204
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 817
+   "count": 821
   },
   {
    "id": "fra",
@@ -10577,7 +10597,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1809
+   "count": 1814
   },
   {
    "id": "US",
@@ -10774,12 +10794,12 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1704
+   "count": 1705
   },
   {
    "id": "tablet",
    "name": "",
-   "count": 27
+   "count": 31
   },
   {
    "id": "desktop",
@@ -10801,7 +10821,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1115
+   "count": 1120
   },
   {
    "id": "Safari",
@@ -10827,12 +10847,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 812
+   "count": 813
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 260
+   "count": 264
   },
   {
    "id": "macOS",
