@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-21T08:18:57Z",
+ "generated": "2026-11-21T16:24:17Z",
  "start": "2026-10-22",
  "end": "2026-11-22",
  "total": {
-  "total": 1999,
+  "total": 2005,
   "total_events": 524,
-  "total_utc": 1992,
+  "total_utc": 1998,
   "stats": [
    {
     "day": "2026-10-22",
@@ -340,7 +340,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1010
+    "monthly": 1016
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 18,
-    "weekly": 50
+    "weekly": 56
    },
    {
     "day": "2026-11-20",
@@ -930,20 +930,20 @@
      0,
      1,
      0,
+     1,
+     1,
+     1,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     2,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 3
+    "daily": 9
    },
    {
     "day": "2026-11-22",
@@ -1121,7 +1121,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 50,
+   "count": 51,
    "daily": {
     "2026-10-22": 2,
     "2026-10-23": 2,
@@ -1144,7 +1144,8 @@
     "2026-11-15": 2,
     "2026-11-17": 1,
     "2026-11-18": 2,
-    "2026-11-20": 4
+    "2026-11-20": 4,
+    "2026-11-21": 1
    }
   },
   {
@@ -1197,7 +1198,7 @@
    "path_id": 110982918,
    "title": "أقرب محطة مترو لحي قرطبة في الرياض: محطة سابك، 2.6 كم",
    "event": false,
-   "count": 24,
+   "count": 25,
    "daily": {
     "2026-10-24": 1,
     "2026-10-31": 2,
@@ -1214,7 +1215,8 @@
     "2026-11-16": 1,
     "2026-11-17": 1,
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-21": 1
    }
   },
   {
@@ -1731,6 +1733,21 @@
    }
   },
   {
+   "path": "/districts/al-qadisiyah",
+   "path_id": 113291536,
+   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-10-24": 2,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-04": 1,
+    "2026-11-05": 1,
+    "2026-11-21": 1
+   }
+  },
+  {
    "path": "/destinations/pakistan-embassy",
    "path_id": 111947827,
    "title": "Pakistan Embassy Riyadh Metro Station: King Saud University (Red Line)",
@@ -1809,6 +1826,20 @@
    }
   },
   {
+   "path": "/districts/al-olaya",
+   "path_id": 114587147,
+   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-24": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1,
+    "2026-11-11": 1,
+    "2026-11-21": 1
+   }
+  },
+  {
    "path": "/ar/districts/west-umm-al-hamam",
    "path_id": 114458544,
    "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
@@ -1871,20 +1902,6 @@
     "2026-10-26": 1,
     "2026-10-31": 2,
     "2026-11-10": 1
-   }
-  },
-  {
-   "path": "/districts/al-qadisiyah",
-   "path_id": 113291536,
-   "title": "Nearest Metro Station to Al Qadisiyah, Riyadh: King Fahad Stadium, 3.4 km",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-10-24": 2,
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-04": 1,
-    "2026-11-05": 1
    }
   },
   {
@@ -2011,19 +2028,6 @@
    }
   },
   {
-   "path": "/districts/al-olaya",
-   "path_id": 114587147,
-   "title": "Nearest Metro Station to Al Olaya, Riyadh: Bank Albilad (in the district)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-24": 2,
-    "2026-10-27": 1,
-    "2026-10-28": 1,
-    "2026-11-11": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-nuzha",
    "path_id": 114063834,
    "title": "أقرب محطة مترو لحي النزهة في الرياض: محطة النزهة، 1.1 كم",
@@ -2141,6 +2145,18 @@
     "2026-11-01": 1,
     "2026-11-05": 1,
     "2026-11-08": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-nafel",
+   "path_id": 111088602,
+   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-22": 2,
+    "2026-10-25": 2,
+    "2026-11-21": 1
    }
   },
   {
@@ -2462,17 +2478,6 @@
     "2026-10-26": 1,
     "2026-10-27": 1,
     "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-nafel",
-   "path_id": 111088602,
-   "title": "أقرب محطة مترو لحي النفل في الرياض: محطة الربيع (داخل الحي)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-22": 2,
-    "2026-10-25": 2
    }
   },
   {
@@ -4216,6 +4221,16 @@
    "daily": {
     "2026-10-26": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-zahrah",
+   "path_id": 124755626,
+   "title": "أقرب محطة مترو لحي الزهرة في الرياض: محطة شارع عائشة بنت أبي بكر، 2.4 كم",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-21": 1
    }
   },
   {
@@ -7821,9 +7836,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1475,
+  "visits": 1481,
   "events_total": 524,
-  "goatcounter_total_with_events": 1999,
+  "goatcounter_total_with_events": 2005,
   "page_loads_by_day": {
    "2026-10-22": 77,
    "2026-10-23": 54,
@@ -7855,7 +7870,7 @@
    "2026-11-18": 21,
    "2026-11-19": 16,
    "2026-11-20": 23,
-   "2026-11-21": 3
+   "2026-11-21": 9
   },
   "visitor_days_by_day": {
    "2026-10-22": 13,
@@ -8271,7 +8286,7 @@
    },
    {
     "name": "duckduckgo.com",
-    "count": 1
+    "count": 2
    },
    {
     "name": "www.reddit.com",
@@ -8381,7 +8396,7 @@
   "/ar/districts/qurtubah": [
    {
     "name": "(direct or unknown)",
-    "count": 15
+    "count": 16
    },
    {
     "name": "Google",
@@ -8850,6 +8865,16 @@
     "count": 1
    }
   ],
+  "/districts/al-qadisiyah": [
+   {
+    "name": "chatgpt.com",
+    "count": 6
+   },
+   {
+    "name": "Google",
+    "count": 1
+   }
+  ],
   "/destinations/pakistan-embassy": [
    {
     "name": "Google",
@@ -8914,6 +8939,12 @@
     "count": 1
    }
   ],
+  "/districts/al-olaya": [
+   {
+    "name": "chatgpt.com",
+    "count": 6
+   }
+  ],
   "/ar/districts/west-umm-al-hamam": [
    {
     "name": "Google",
@@ -8948,16 +8979,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/districts/al-qadisiyah": [
-   {
-    "name": "chatgpt.com",
-    "count": 5
-   },
-   {
-    "name": "Google",
-    "count": 1
    }
   ],
   "/ar/districts/al-yasmeen": [
@@ -9048,12 +9069,6 @@
     "count": 5
    }
   ],
-  "/districts/al-olaya": [
-   {
-    "name": "chatgpt.com",
-    "count": 5
-   }
-  ],
   "/ar/districts/al-nuzha": [
    {
     "name": "Google",
@@ -9097,7 +9112,7 @@
    },
    {
     "path": "/ar/districts/qurtubah",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/ar.html",
@@ -9230,6 +9245,14 @@
     "count": 7
    },
    {
+    "path": "/districts/al-qadisiyah",
+    "count": 6
+   },
+   {
+    "path": "/districts/al-olaya",
+    "count": 6
+   },
+   {
     "path": "/ar/districts/ar-rabwah",
     "count": 5
    },
@@ -9243,14 +9266,6 @@
    },
    {
     "path": "/ar/stations/khurais-road",
-    "count": 5
-   },
-   {
-    "path": "/districts/al-qadisiyah",
-    "count": 5
-   },
-   {
-    "path": "/districts/al-olaya",
     "count": 5
    },
    {
@@ -9788,15 +9803,15 @@
     "count": 3
    },
    {
+    "path": "/map",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-sahafah",
     "count": 2
    },
    {
     "path": "/ar/map",
-    "count": 1
-   },
-   {
-    "path": "/map",
     "count": 1
    },
    {
@@ -10055,18 +10070,18 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 701,
+   "count": 702,
    "ref_scheme": "g"
   },
   {
    "name": "",
-   "count": 608,
+   "count": 609,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 296,
+   "count": 299,
    "ref_scheme": "c"
   },
   {
@@ -10112,15 +10127,15 @@
    "ref_scheme": "h"
   },
   {
-   "id": "riyadhmetro.fyi/map",
-   "name": "riyadhmetro.fyi/map",
+   "id": "duckduckgo.com",
+   "name": "duckduckgo.com",
    "count": 11,
    "ref_scheme": "h"
   },
   {
-   "id": "duckduckgo.com",
-   "name": "duckduckgo.com",
-   "count": 10,
+   "id": "riyadhmetro.fyi/map",
+   "name": "riyadhmetro.fyi/map",
+   "count": 11,
    "ref_scheme": "h"
   },
   {
@@ -10356,12 +10371,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1179
+   "count": 1183
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 786
+   "count": 788
   },
   {
    "id": "ind",
@@ -10418,7 +10433,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1751
+   "count": 1757
   },
   {
    "id": "US",
@@ -10615,7 +10630,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1650
+   "count": 1656
   },
   {
    "id": "tablet",
@@ -10642,12 +10657,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1086
+   "count": 1090
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 878
+   "count": 880
   },
   {
    "id": "Firefox",
@@ -10663,12 +10678,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 868
+   "count": 870
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 788
+   "count": 792
   },
   {
    "id": "Windows",
