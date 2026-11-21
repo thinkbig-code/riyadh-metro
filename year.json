@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-20T18:51:33Z",
- "start": "2025-11-20",
- "end": "2026-11-21",
+ "generated": "2026-11-21T00:58:06Z",
+ "start": "2025-11-21",
+ "end": "2026-11-22",
  "total": {
-  "total": 4478,
+  "total": 4480,
   "total_events": 1885,
-  "total_utc": 4478,
+  "total_utc": 4480,
   "stats": [
-   {
-    "day": "2025-11-20",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-11-21",
     "hourly": [
@@ -9487,7 +9457,6 @@
      0
     ],
     "daily": 0,
-    "weekly": 148,
     "monthly": 3472
    },
    {
@@ -9518,7 +9487,8 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 5,
+    "weekly": 689
    },
    {
     "day": "2026-10-03",
@@ -9698,8 +9668,7 @@
      9,
      12
     ],
-    "daily": 541,
-    "weekly": 1499
+    "daily": 541
    },
    {
     "day": "2026-10-09",
@@ -9729,7 +9698,8 @@
      28,
      0
     ],
-    "daily": 174
+    "daily": 174,
+    "weekly": 1025
    },
    {
     "day": "2026-10-10",
@@ -9909,8 +9879,7 @@
      4,
      0
     ],
-    "daily": 67,
-    "weekly": 832
+    "daily": 67
    },
    {
     "day": "2026-10-16",
@@ -9940,7 +9909,8 @@
      6,
      42
     ],
-    "daily": 252
+    "daily": 252,
+    "weekly": 908
    },
    {
     "day": "2026-10-17",
@@ -10120,8 +10090,7 @@
      5,
      6
     ],
-    "daily": 143,
-    "weekly": 639
+    "daily": 143
    },
    {
     "day": "2026-10-23",
@@ -10151,7 +10120,8 @@
      1,
      1
     ],
-    "daily": 74
+    "daily": 74,
+    "weekly": 577
    },
    {
     "day": "2026-10-24",
@@ -10331,8 +10301,7 @@
      5,
      22
     ],
-    "daily": 81,
-    "weekly": 673
+    "daily": 81
    },
    {
     "day": "2026-10-30",
@@ -10362,7 +10331,8 @@
      0,
      7
     ],
-    "daily": 119
+    "daily": 119,
+    "weekly": 675
    },
    {
     "day": "2026-10-31",
@@ -10423,7 +10393,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1006
+    "monthly": 1008
    },
    {
     "day": "2026-11-02",
@@ -10543,8 +10513,7 @@
      7,
      0
     ],
-    "daily": 83,
-    "weekly": 420
+    "daily": 83
    },
    {
     "day": "2026-11-06",
@@ -10574,7 +10543,8 @@
      4,
      1
     ],
-    "daily": 29
+    "daily": 29,
+    "weekly": 391
    },
    {
     "day": "2026-11-07",
@@ -10754,8 +10724,7 @@
      0,
      1
     ],
-    "daily": 54,
-    "weekly": 221
+    "daily": 54
    },
    {
     "day": "2026-11-13",
@@ -10785,7 +10754,8 @@
      2,
      1
     ],
-    "daily": 16
+    "daily": 16,
+    "weekly": 185
    },
    {
     "day": "2026-11-14",
@@ -10965,8 +10935,7 @@
      1,
      0
     ],
-    "daily": 18,
-    "weekly": 46
+    "daily": 18
    },
    {
     "day": "2026-11-20",
@@ -10994,12 +10963,43 @@
      1,
      3,
      3,
-     0
+     1
     ],
-    "daily": 28
+    "daily": 29,
+    "weekly": 30
    },
    {
     "day": "2026-11-21",
+    "hourly": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 1
+   },
+   {
+    "day": "2026-11-22",
     "hourly": [
      0,
      0,
@@ -11839,6 +11839,24 @@
    }
   },
   {
+   "path": "/ar/districts/al-muhammadiyah",
+   "path_id": 110846046,
+   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-23": 1,
+    "2026-10-29": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-01": 1,
+    "2026-11-10": 1,
+    "2026-11-11": 2,
+    "2026-11-20": 1
+   }
+  },
+  {
    "path": "place/p_kingdom_centre/to",
    "path_id": 110409518,
    "title": "en|name",
@@ -11909,23 +11927,6 @@
     "2026-11-04": 1,
     "2026-11-17": 1,
     "2026-11-20": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-muhammadiyah",
-   "path_id": 110846046,
-   "title": "أقرب محطة مترو لحي المحمدية في الرياض: محطة التخصصي، 1.1 كم",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-23": 1,
-    "2026-10-29": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-01": 1,
-    "2026-11-10": 1,
-    "2026-11-11": 2
    }
   },
   {
@@ -13520,6 +13521,18 @@
    }
   },
   {
+   "path": "/ar/stations/bank-albilad",
+   "path_id": 122228225,
+   "title": "محطة بنك البلاد، مترو الرياض: المسار الأزرق (رقم 11)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-14": 1,
+    "2026-11-17": 1,
+    "2026-11-21": 1
+   }
+  },
+  {
    "path": "route/p_king_khalid_airport_terminals_1_2/khurais",
    "path_id": 120572378,
    "title": "ar|search|ok",
@@ -14521,17 +14534,6 @@
    "count": 2,
    "daily": {
     "2026-11-18": 2
-   }
-  },
-  {
-   "path": "/ar/stations/bank-albilad",
-   "path_id": 122228225,
-   "title": "محطة بنك البلاد، مترو الرياض: المسار الأزرق (رقم 11)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-14": 1,
-    "2026-11-17": 1
    }
   },
   {
@@ -24387,9 +24389,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2593,
+  "visits": 2595,
   "events_total": 1885,
-  "goatcounter_total_with_events": 4478,
+  "goatcounter_total_with_events": 4480,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24440,7 +24442,8 @@
    "2026-11-17": 10,
    "2026-11-18": 21,
    "2026-11-19": 16,
-   "2026-11-20": 22
+   "2026-11-20": 23,
+   "2026-11-21": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25434,6 +25437,20 @@
     "count": 10
    }
   ],
+  "/ar/districts/al-muhammadiyah": [
+   {
+    "name": "Google",
+    "count": 7
+   },
+   {
+    "name": "(direct or unknown)",
+    "count": 2
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/stations/western-station": [
    {
     "name": "chatgpt.com",
@@ -25474,20 +25491,6 @@
    {
     "name": "chatgpt.com",
     "count": 2
-   }
-  ],
-  "/ar/districts/al-muhammadiyah": [
-   {
-    "name": "Google",
-    "count": 7
-   },
-   {
-    "name": "(direct or unknown)",
-    "count": 1
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 1
    }
   ],
   "/ar/districts/al-mansurah": [
@@ -25864,6 +25867,10 @@
     "count": 2
    },
    {
+    "path": "/ar/districts/al-muhammadiyah",
+    "count": 2
+   },
+   {
     "path": "/ar/districts/al-rayan",
     "count": 2
    },
@@ -25921,10 +25928,6 @@
    },
    {
     "path": "/ar/destinations/sahara-mall",
-    "count": 1
-   },
-   {
-    "path": "/ar/districts/al-muhammadiyah",
     "count": 1
    },
    {
@@ -26856,7 +26859,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2020,
+   "count": 2021,
    "ref_scheme": "o"
   },
   {
@@ -26868,7 +26871,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 316,
+   "count": 317,
    "ref_scheme": "c"
   },
   {
@@ -27158,12 +27161,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3108
+   "count": 3109
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1249
+   "count": 1250
   },
   {
    "id": "(unknown)",
@@ -27240,7 +27243,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3771
+   "count": 3773
   },
   {
    "id": "US",
@@ -27492,7 +27495,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3616
+   "count": 3617
   },
   {
    "id": "tablet",
@@ -27502,7 +27505,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 665
+   "count": 666
   },
   {
    "id": "desktophd",
@@ -27519,7 +27522,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2371
+   "count": 2372
   },
   {
    "id": "Safari",
@@ -27533,7 +27536,7 @@
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 39
+   "count": 40
   }
  ],
  "systems": [
@@ -27545,7 +27548,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1662
+   "count": 1663
   },
   {
    "id": "Windows",
@@ -27555,7 +27558,7 @@
   {
    "id": "macOS",
    "name": "macOS",
-   "count": 160
+   "count": 161
   },
   {
    "id": "Linux",
