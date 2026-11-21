@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-21T00:56:54Z",
+ "generated": "2026-11-21T08:18:57Z",
  "start": "2026-10-22",
  "end": "2026-11-22",
  "total": {
-  "total": 1997,
+  "total": 1999,
   "total_events": 524,
-  "total_utc": 1990,
+  "total_utc": 1992,
   "stats": [
    {
     "day": "2026-10-22",
@@ -340,7 +340,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1008
+    "monthly": 1010
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 18,
-    "weekly": 48
+    "weekly": 50
    },
    {
     "day": "2026-11-20",
@@ -923,12 +923,12 @@
      0,
      0,
      0,
+     1,
      0,
      0,
      0,
      0,
-     0,
-     0,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 1
+    "daily": 3
    },
    {
     "day": "2026-11-22",
@@ -1247,7 +1247,7 @@
    "path_id": 112354112,
    "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
    "event": false,
-   "count": 19,
+   "count": 20,
    "daily": {
     "2026-10-24": 2,
     "2026-10-25": 1,
@@ -1260,7 +1260,8 @@
     "2026-11-10": 1,
     "2026-11-11": 3,
     "2026-11-12": 3,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-21": 1
    }
   },
   {
@@ -3117,6 +3118,17 @@
    }
   },
   {
+   "path": "/ar/stations/at-takhassussi",
+   "path_id": 121367162,
+   "title": "محطة التخصصي، مترو الرياض: المسار الأحمر (رقم 29)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-12": 1,
+    "2026-11-21": 1
+   }
+  },
+  {
    "path": "/ar/destinations/king-faisal-specialist-hospital",
    "path_id": 121180505,
    "title": "محطة مترو مستشفى الملك فيصل التخصصي: محطة وزارة الداخلية (المسار الأزرق)",
@@ -4621,16 +4633,6 @@
    "path_id": 121367323,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-11-12": 1
-   }
-  },
-  {
-   "path": "/ar/stations/at-takhassussi",
-   "path_id": 121367162,
-   "title": "محطة التخصصي، مترو الرياض: المسار الأحمر (رقم 29)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-11-12": 1
@@ -7819,9 +7821,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1473,
+  "visits": 1475,
   "events_total": 524,
-  "goatcounter_total_with_events": 1997,
+  "goatcounter_total_with_events": 1999,
   "page_loads_by_day": {
    "2026-10-22": 77,
    "2026-10-23": 54,
@@ -7853,7 +7855,7 @@
    "2026-11-18": 21,
    "2026-11-19": 16,
    "2026-11-20": 23,
-   "2026-11-21": 1
+   "2026-11-21": 3
   },
   "visitor_days_by_day": {
    "2026-10-22": 13,
@@ -8407,7 +8409,7 @@
   "/ar/destinations/al-maigliah-market": [
    {
     "name": "chatgpt.com",
-    "count": 12
+    "count": 13
    },
    {
     "name": "Google",
@@ -9208,11 +9210,11 @@
   ],
   "chatgpt.com": [
    {
-    "path": "/",
-    "count": 12
+    "path": "/ar/destinations/al-maigliah-market",
+    "count": 13
    },
    {
-    "path": "/ar/destinations/al-maigliah-market",
+    "path": "/",
     "count": 12
    },
    {
@@ -10064,13 +10066,13 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 295,
+   "count": 296,
    "ref_scheme": "c"
   },
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 61,
+   "count": 62,
    "ref_scheme": "h"
   },
   {
@@ -10354,12 +10356,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1178
+   "count": 1179
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 785
+   "count": 786
   },
   {
    "id": "ind",
@@ -10416,7 +10418,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1749
+   "count": 1751
   },
   {
    "id": "US",
@@ -10613,7 +10615,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1649
+   "count": 1650
   },
   {
    "id": "tablet",
@@ -10623,7 +10625,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 290
+   "count": 291
   },
   {
    "id": "desktophd",
@@ -10640,12 +10642,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 1085
+   "count": 1086
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 877
+   "count": 878
   },
   {
    "id": "Firefox",
@@ -10661,7 +10663,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 867
+   "count": 868
   },
   {
    "id": "Android",
@@ -10671,7 +10673,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 254
+   "count": 255
   },
   {
    "id": "macOS",

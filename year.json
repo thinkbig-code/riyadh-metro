@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-21T00:58:06Z",
+ "generated": "2026-11-21T08:20:06Z",
  "start": "2025-11-21",
  "end": "2026-11-22",
  "total": {
-  "total": 4480,
+  "total": 4482,
   "total_events": 1885,
-  "total_utc": 4480,
+  "total_utc": 4482,
   "stats": [
    {
     "day": "2025-11-21",
@@ -10393,7 +10393,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1008
+    "monthly": 1010
    },
    {
     "day": "2026-11-02",
@@ -10966,11 +10966,20 @@
      1
     ],
     "daily": 29,
-    "weekly": 30
+    "weekly": 32
    },
    {
     "day": "2026-11-21",
     "hourly": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
      0,
      1,
      0,
@@ -10985,18 +10994,9 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
      0
     ],
-    "daily": 1
+    "daily": 3
    },
    {
     "day": "2026-11-22",
@@ -11482,7 +11482,7 @@
    "path_id": 112354112,
    "title": "محطة مترو سوق المعيقلية: محطة مجمع المحاكم، 9 دقائق سيراً",
    "event": false,
-   "count": 20,
+   "count": 21,
    "daily": {
     "2026-10-16": 1,
     "2026-10-24": 2,
@@ -11496,7 +11496,8 @@
     "2026-11-10": 1,
     "2026-11-11": 3,
     "2026-11-12": 3,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-21": 1
    }
   },
   {
@@ -14547,6 +14548,17 @@
    }
   },
   {
+   "path": "/ar/stations/at-takhassussi",
+   "path_id": 121367162,
+   "title": "محطة التخصصي، مترو الرياض: المسار الأحمر (رقم 29)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-12": 1,
+    "2026-11-21": 1
+   }
+  },
+  {
    "path": "/ar/destinations/king-faisal-specialist-hospital",
    "path_id": 121180505,
    "title": "محطة مترو مستشفى الملك فيصل التخصصي: محطة وزارة الداخلية (المسار الأزرق)",
@@ -16821,16 +16833,6 @@
    "path_id": 121367323,
    "title": "en|name",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-11-12": 1
-   }
-  },
-  {
-   "path": "/ar/stations/at-takhassussi",
-   "path_id": 121367162,
-   "title": "محطة التخصصي، مترو الرياض: المسار الأحمر (رقم 29)",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-11-12": 1
@@ -24389,9 +24391,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2595,
+  "visits": 2597,
   "events_total": 1885,
-  "goatcounter_total_with_events": 4480,
+  "goatcounter_total_with_events": 4482,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24443,7 +24445,7 @@
    "2026-11-18": 21,
    "2026-11-19": 16,
    "2026-11-20": 23,
-   "2026-11-21": 1
+   "2026-11-21": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25148,7 +25150,7 @@
   "/ar/destinations/al-maigliah-market": [
    {
     "name": "chatgpt.com",
-    "count": 13
+    "count": 14
    },
    {
     "name": "Google",
@@ -26192,7 +26194,7 @@
   "chatgpt.com": [
    {
     "path": "/ar/destinations/al-maigliah-market",
-    "count": 13
+    "count": 14
    },
    {
     "path": "/",
@@ -26871,7 +26873,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 317,
+   "count": 318,
    "ref_scheme": "c"
   },
   {
@@ -26895,7 +26897,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 70,
+   "count": 71,
    "ref_scheme": "h"
   },
   {
@@ -27161,12 +27163,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3109
+   "count": 3110
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1250
+   "count": 1251
   },
   {
    "id": "(unknown)",
@@ -27243,7 +27245,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3773
+   "count": 3775
   },
   {
    "id": "US",
@@ -27495,7 +27497,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3617
+   "count": 3618
   },
   {
    "id": "tablet",
@@ -27505,7 +27507,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 666
+   "count": 667
   },
   {
    "id": "desktophd",
@@ -27522,12 +27524,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2372
+   "count": 2373
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2005
+   "count": 2006
   },
   {
    "name": "",
@@ -27543,7 +27545,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1991
+   "count": 1992
   },
   {
    "id": "Android",
@@ -27553,7 +27555,7 @@
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 581
+   "count": 582
   },
   {
    "id": "macOS",
