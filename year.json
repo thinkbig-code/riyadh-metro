@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-21T16:25:41Z",
+ "generated": "2026-11-21T21:55:23Z",
  "start": "2025-11-21",
  "end": "2026-11-22",
  "total": {
-  "total": 4488,
+  "total": 4492,
   "total_events": 1885,
-  "total_utc": 4488,
+  "total_utc": 4492,
   "stats": [
    {
     "day": "2025-11-21",
@@ -10393,7 +10393,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1016
+    "monthly": 1020
    },
    {
     "day": "2026-11-02",
@@ -10966,7 +10966,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 38
+    "weekly": 42
    },
    {
     "day": "2026-11-21",
@@ -10994,15 +10994,15 @@
      0,
      0,
      0,
-     0
+     2
     ],
-    "daily": 9
+    "daily": 11
    },
    {
     "day": "2026-11-22",
     "hourly": [
-     0,
-     0,
+     1,
+     1,
      0,
      0,
      0,
@@ -11026,7 +11026,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 2
    }
   ]
  },
@@ -11233,7 +11233,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 75,
+   "count": 76,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11268,7 +11268,7 @@
     "2026-11-17": 1,
     "2026-11-18": 2,
     "2026-11-20": 4,
-    "2026-11-21": 1
+    "2026-11-21": 2
    }
   },
   {
@@ -13040,6 +13040,19 @@
    }
   },
   {
+   "path": "/ar/stations/riyadh-exhibition-center",
+   "path_id": 116745513,
+   "title": "محطة مركز الرياض للمعارض، مترو الرياض: المسار الأحمر (رقم 34)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-10": 1,
+    "2026-11-21": 1,
+    "2026-11-22": 1
+   }
+  },
+  {
    "path": "/ar/destinations/kingdom-arena",
    "path_id": 116679564,
    "title": "محطة مترو المملكة أرينا: محطة المركز المالي",
@@ -14606,6 +14619,17 @@
    }
   },
   {
+   "path": "/ar/districts/al-mutamarat",
+   "path_id": 119610866,
+   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-06": 1,
+    "2026-11-22": 1
+   }
+  },
+  {
    "path": "/ar/stations/al-murooj",
    "path_id": 119212248,
    "title": "محطة المروج، مترو الرياض: المسار الأزرق (رقم 4)",
@@ -14854,17 +14878,6 @@
    "daily": {
     "2026-10-30": 1,
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/ar/stations/riyadh-exhibition-center",
-   "path_id": 116745513,
-   "title": "محطة مركز الرياض للمعارض، مترو الرياض: المسار الأحمر (رقم 34)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-30": 1,
-    "2026-11-10": 1
    }
   },
   {
@@ -17201,16 +17214,6 @@
    "count": 1,
    "daily": {
     "2026-11-07": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-mutamarat",
-   "path_id": 119610866,
-   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-06": 1
    }
   },
   {
@@ -24406,9 +24409,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2603,
+  "visits": 2607,
   "events_total": 1885,
-  "goatcounter_total_with_events": 4488,
+  "goatcounter_total_with_events": 4492,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24460,7 +24463,8 @@
    "2026-11-18": 21,
    "2026-11-19": 16,
    "2026-11-20": 23,
-   "2026-11-21": 9
+   "2026-11-21": 11,
+   "2026-11-22": 2
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24955,7 +24959,7 @@
    },
    {
     "name": "duckduckgo.com",
-    "count": 2
+    "count": 3
    },
    {
     "name": "www.reddit.com",
@@ -26554,12 +26558,12 @@
   ],
   "duckduckgo.com": [
    {
-    "path": "/timings",
+    "path": "/map",
     "count": 3
    },
    {
-    "path": "/map",
-    "count": 2
+    "path": "/timings",
+    "count": 3
    },
    {
     "path": "/ar/districts/al-sahafah",
@@ -26882,13 +26886,13 @@
   {
    "id": "Google",
    "name": "Google",
-   "count": 1075,
+   "count": 1076,
    "ref_scheme": "g"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 321,
+   "count": 323,
    "ref_scheme": "c"
   },
   {
@@ -26954,7 +26958,7 @@
   {
    "id": "duckduckgo.com",
    "name": "duckduckgo.com",
-   "count": 11,
+   "count": 12,
    "ref_scheme": "h"
   },
   {
@@ -27178,7 +27182,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3114
+   "count": 3118
   },
   {
    "id": "ara",
@@ -27260,7 +27264,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3781
+   "count": 3785
   },
   {
    "id": "US",
@@ -27512,7 +27516,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3624
+   "count": 3628
   },
   {
    "id": "tablet",
@@ -27539,12 +27543,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2377
+   "count": 2379
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2008
+   "count": 2010
   },
   {
    "name": "",
@@ -27560,12 +27564,12 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1994
+   "count": 1996
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1667
+   "count": 1669
   },
   {
    "id": "Windows",
