@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-22T18:04:22Z",
+ "generated": "2026-11-22T23:52:17Z",
  "start": "2025-11-22",
  "end": "2026-11-23",
  "total": {
-  "total": 4525,
-  "total_events": 1899,
-  "total_utc": 4525,
+  "total": 4528,
+  "total_events": 1900,
+  "total_utc": 4528,
   "stats": [
    {
     "day": "2025-11-22",
@@ -10364,7 +10364,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1053
+    "monthly": 1056
    },
    {
     "day": "2026-11-02",
@@ -10967,7 +10967,7 @@
      2
     ],
     "daily": 11,
-    "weekly": 46
+    "weekly": 49
    },
    {
     "day": "2026-11-22",
@@ -10995,16 +10995,16 @@
      5,
      0,
      0,
-     0
+     1
     ],
-    "daily": 35
+    "daily": 36
    },
    {
     "day": "2026-11-23",
     "hourly": [
      0,
      0,
-     0,
+     2,
      0,
      0,
      0,
@@ -11027,7 +11027,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 2
    }
   ]
  },
@@ -11037,7 +11037,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 849,
+   "count": 850,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11089,7 +11089,8 @@
     "2026-11-18": 7,
     "2026-11-19": 1,
     "2026-11-20": 6,
-    "2026-11-22": 2
+    "2026-11-22": 2,
+    "2026-11-23": 1
    }
   },
   {
@@ -11097,7 +11098,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 633,
+   "count": 634,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11141,7 +11142,8 @@
     "2026-11-17": 1,
     "2026-11-18": 2,
     "2026-11-20": 6,
-    "2026-11-22": 2
+    "2026-11-22": 2,
+    "2026-11-23": 1
    }
   },
   {
@@ -11832,6 +11834,25 @@
    }
   },
   {
+   "path": "/ar/districts/al-sahafah",
+   "path_id": 110937894,
+   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
+   "event": false,
+   "count": 10,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-10-22": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-03": 1,
+    "2026-11-04": 1,
+    "2026-11-17": 1,
+    "2026-11-20": 1,
+    "2026-11-22": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-wisham",
    "path_id": 110894791,
    "title": "أقرب محطة مترو لحي الوشام في الرياض: محطة المتحف الوطني، 1.7 كم",
@@ -11952,24 +11973,6 @@
     "2026-11-11": 2,
     "2026-11-16": 1,
     "2026-11-22": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-sahafah",
-   "path_id": 110937894,
-   "title": "أقرب محطة مترو لحي الصحافة في الرياض: محطة د. سليمان الحبيب (داخل الحي)",
-   "event": false,
-   "count": 9,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-10-22": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 1,
-    "2026-10-31": 1,
-    "2026-11-03": 1,
-    "2026-11-04": 1,
-    "2026-11-17": 1,
-    "2026-11-20": 1
    }
   },
   {
@@ -24538,9 +24541,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2626,
-  "events_total": 1899,
-  "goatcounter_total_with_events": 4525,
+  "visits": 2628,
+  "events_total": 1900,
+  "goatcounter_total_with_events": 4528,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24593,7 +24596,8 @@
    "2026-11-19": 16,
    "2026-11-20": 23,
    "2026-11-21": 11,
-   "2026-11-22": 21
+   "2026-11-22": 22,
+   "2026-11-23": 1
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24640,9 +24644,10 @@
    "2026-11-18": 6,
    "2026-11-19": 2,
    "2026-11-20": 6,
-   "2026-11-22": 3
+   "2026-11-22": 3,
+   "2026-11-23": 1
   },
-  "visitor_days": 746,
+  "visitor_days": 747,
   "return_rate": 0.151,
   "routes": 508,
   "routes_not_found": 0,
@@ -24775,7 +24780,7 @@
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 633,
+   "new": 634,
    "return": 113
   },
   "top_routes": [
@@ -24929,7 +24934,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 566
+    "count": 567
    },
    {
     "name": "tiktok_ad",
@@ -25586,6 +25591,20 @@
     "count": 2
    }
   ],
+  "/ar/districts/al-sahafah": [
+   {
+    "name": "Google",
+    "count": 5
+   },
+   {
+    "name": "duckduckgo.com",
+    "count": 3
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 2
+   }
+  ],
   "/ar/districts/al-wisham": [
    {
     "name": "Google",
@@ -25652,20 +25671,6 @@
    {
     "name": "(direct or unknown)",
     "count": 1
-   }
-  ],
-  "/ar/districts/al-sahafah": [
-   {
-    "name": "Google",
-    "count": 5
-   },
-   {
-    "name": "duckduckgo.com",
-    "count": 2
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 2
    }
   ],
   "/ar/districts/al-mursalat": [
@@ -25975,7 +25980,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 566
+    "count": 567
    },
    {
     "path": "/ar/map",
@@ -26256,11 +26261,11 @@
     "count": 5
    },
    {
-    "path": "/ar/districts/al-rayan",
+    "path": "/ar/districts/al-sahafah",
     "count": 5
    },
    {
-    "path": "/ar/districts/al-sahafah",
+    "path": "/ar/districts/al-rayan",
     "count": 5
    },
    {
@@ -26438,11 +26443,11 @@
     "count": 2
    },
    {
-    "path": "/ar/districts/al-rayan",
+    "path": "/ar/districts/al-sahafah",
     "count": 2
    },
    {
-    "path": "/ar/districts/al-sahafah",
+    "path": "/ar/districts/al-rayan",
     "count": 2
    },
    {
@@ -26709,7 +26714,7 @@
    },
    {
     "path": "/ar/districts/al-sahafah",
-    "count": 2
+    "count": 3
    },
    {
     "path": "/ar/map",
@@ -27026,7 +27031,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2037,
+   "count": 2039,
    "ref_scheme": "o"
   },
   {
@@ -27104,7 +27109,7 @@
   {
    "id": "duckduckgo.com",
    "name": "duckduckgo.com",
-   "count": 14,
+   "count": 15,
    "ref_scheme": "h"
   },
   {
@@ -27328,12 +27333,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3144
+   "count": 3146
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1259
+   "count": 1260
   },
   {
    "id": "(unknown)",
@@ -27410,7 +27415,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3818
+   "count": 3819
   },
   {
    "id": "US",
@@ -27435,7 +27440,7 @@
   {
    "id": "DE",
    "name": "Germany",
-   "count": 26
+   "count": 28
   },
   {
    "id": "NL",
@@ -27662,7 +27667,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3643
+   "count": 3644
   },
   {
    "id": "tablet",
@@ -27672,7 +27677,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 685
+   "count": 687
   },
   {
    "id": "desktophd",
@@ -27689,7 +27694,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2402
+   "count": 2403
   },
   {
    "id": "Safari",
@@ -27703,7 +27708,7 @@
   {
    "id": "Firefox",
    "name": "Firefox",
-   "count": 40
+   "count": 42
   }
  ],
  "systems": [
@@ -27715,7 +27720,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1674
+   "count": 1675
   },
   {
    "id": "Windows",
@@ -27730,7 +27735,7 @@
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 78
+   "count": 80
   },
   {
    "id": "Chrome OS",
