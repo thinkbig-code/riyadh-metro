@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-21T21:55:23Z",
- "start": "2025-11-21",
- "end": "2026-11-22",
+ "generated": "2026-11-22T02:40:40Z",
+ "start": "2025-11-22",
+ "end": "2026-11-23",
  "total": {
-  "total": 4492,
+  "total": 4493,
   "total_events": 1885,
-  "total_utc": 4492,
+  "total_utc": 4493,
   "stats": [
-   {
-    "day": "2025-11-21",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-11-22",
     "hourly": [
@@ -9306,7 +9276,8 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 0,
+    "weekly": 5
    },
    {
     "day": "2026-09-27",
@@ -9487,8 +9458,7 @@
      0,
      0
     ],
-    "daily": 5,
-    "weekly": 689
+    "daily": 5
    },
    {
     "day": "2026-10-03",
@@ -9518,7 +9488,8 @@
      0,
      0
     ],
-    "daily": 9
+    "daily": 9,
+    "weekly": 858
    },
    {
     "day": "2026-10-04",
@@ -9698,8 +9669,7 @@
      28,
      0
     ],
-    "daily": 174,
-    "weekly": 1025
+    "daily": 174
    },
    {
     "day": "2026-10-10",
@@ -9729,7 +9699,8 @@
      12,
      10
     ],
-    "daily": 202
+    "daily": 202,
+    "weekly": 1103
    },
    {
     "day": "2026-10-11",
@@ -9909,8 +9880,7 @@
      6,
      42
     ],
-    "daily": 252,
-    "weekly": 908
+    "daily": 252
    },
    {
     "day": "2026-10-17",
@@ -9940,7 +9910,8 @@
      9,
      3
     ],
-    "daily": 150
+    "daily": 150,
+    "weekly": 730
    },
    {
     "day": "2026-10-18",
@@ -10120,8 +10091,7 @@
      1,
      1
     ],
-    "daily": 74,
-    "weekly": 577
+    "daily": 74
    },
    {
     "day": "2026-10-24",
@@ -10151,7 +10121,8 @@
      4,
      21
     ],
-    "daily": 136
+    "daily": 136,
+    "weekly": 622
    },
    {
     "day": "2026-10-25",
@@ -10331,8 +10302,7 @@
      0,
      7
     ],
-    "daily": 119,
-    "weekly": 675
+    "daily": 119
    },
    {
     "day": "2026-10-31",
@@ -10362,7 +10332,8 @@
      7,
      6
     ],
-    "daily": 154
+    "daily": 154,
+    "weekly": 585
    },
    {
     "day": "2026-11-01",
@@ -10393,7 +10364,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1020
+    "monthly": 1021
    },
    {
     "day": "2026-11-02",
@@ -10543,8 +10514,7 @@
      4,
      1
     ],
-    "daily": 29,
-    "weekly": 391
+    "daily": 29
    },
    {
     "day": "2026-11-07",
@@ -10574,7 +10544,8 @@
      0,
      2
     ],
-    "daily": 16
+    "daily": 16,
+    "weekly": 378
    },
    {
     "day": "2026-11-08",
@@ -10754,8 +10725,7 @@
      2,
      1
     ],
-    "daily": 16,
-    "weekly": 185
+    "daily": 16
    },
    {
     "day": "2026-11-14",
@@ -10785,7 +10755,8 @@
      0,
      0
     ],
-    "daily": 36
+    "daily": 36,
+    "weekly": 198
    },
    {
     "day": "2026-11-15",
@@ -10965,8 +10936,7 @@
      3,
      1
     ],
-    "daily": 29,
-    "weekly": 42
+    "daily": 29
    },
    {
     "day": "2026-11-21",
@@ -10996,13 +10966,44 @@
      0,
      2
     ],
-    "daily": 11
+    "daily": 11,
+    "weekly": 14
    },
    {
     "day": "2026-11-22",
     "hourly": [
      1,
      1,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 3
+   },
+   {
+    "day": "2026-11-23",
+    "hourly": [
+     0,
+     0,
      0,
      0,
      0,
@@ -11026,7 +11027,7 @@
      0,
      0
     ],
-    "daily": 2
+    "daily": 0
    }
   ]
  },
@@ -16434,6 +16435,16 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-jarradiyah",
+   "path_id": 124888071,
+   "title": "أقرب محطة مترو لحي الجرادية في الرياض: محطة الجرادية (داخل الحي)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-22": 1
    }
   },
   {
@@ -24409,9 +24420,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2607,
+  "visits": 2608,
   "events_total": 1885,
-  "goatcounter_total_with_events": 4492,
+  "goatcounter_total_with_events": 4493,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24464,7 +24475,7 @@
    "2026-11-19": 16,
    "2026-11-20": 23,
    "2026-11-21": 11,
-   "2026-11-22": 2
+   "2026-11-22": 3
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -26892,7 +26903,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 323,
+   "count": 324,
    "ref_scheme": "c"
   },
   {
@@ -27187,7 +27198,7 @@
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1253
+   "count": 1254
   },
   {
    "id": "(unknown)",
@@ -27264,7 +27275,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3785
+   "count": 3786
   },
   {
    "id": "US",
@@ -27516,7 +27527,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3628
+   "count": 3629
   },
   {
    "id": "tablet",
@@ -27548,7 +27559,7 @@
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2010
+   "count": 2011
   },
   {
    "name": "",
@@ -27564,7 +27575,7 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 1996
+   "count": 1997
   },
   {
    "id": "Android",
