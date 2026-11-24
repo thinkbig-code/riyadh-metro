@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-24T11:00:05Z",
+ "generated": "2026-11-24T16:27:58Z",
  "start": "2025-11-24",
  "end": "2026-11-25",
  "total": {
-  "total": 4563,
-  "total_events": 1914,
-  "total_utc": 4563,
+  "total": 4576,
+  "total_events": 1916,
+  "total_utc": 4576,
   "stats": [
    {
     "day": "2025-11-24",
@@ -10303,7 +10303,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1091
+    "monthly": 1104
    },
    {
     "day": "2026-11-02",
@@ -10967,7 +10967,7 @@
      0
     ],
     "daily": 26,
-    "weekly": 37
+    "weekly": 50
    },
    {
     "day": "2026-11-24",
@@ -10987,17 +10987,17 @@
      1,
      6,
      1,
+     3,
+     1,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     1,
+     6,
+     2,
      0,
      0,
      0
     ],
-    "daily": 11
+    "daily": 24
    },
    {
     "day": "2026-11-25",
@@ -11037,7 +11037,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 855,
+   "count": 857,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11091,7 +11091,7 @@
     "2026-11-20": 6,
     "2026-11-22": 2,
     "2026-11-23": 5,
-    "2026-11-24": 1
+    "2026-11-24": 3
    }
   },
   {
@@ -11099,7 +11099,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 637,
+   "count": 638,
    "daily": {
     "2026-10-08": 96,
     "2026-10-09": 47,
@@ -11145,7 +11145,7 @@
     "2026-11-20": 6,
     "2026-11-22": 2,
     "2026-11-23": 3,
-    "2026-11-24": 1
+    "2026-11-24": 2
    }
   },
   {
@@ -11242,7 +11242,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 78,
+   "count": 79,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 3,
@@ -11279,7 +11279,7 @@
     "2026-11-20": 4,
     "2026-11-21": 2,
     "2026-11-23": 1,
-    "2026-11-24": 1
+    "2026-11-24": 2
    }
   },
   {
@@ -11287,7 +11287,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 68,
+   "count": 69,
    "daily": {
     "2026-10-07": 1,
     "2026-10-10": 1,
@@ -11316,7 +11316,8 @@
     "2026-11-10": 4,
     "2026-11-11": 6,
     "2026-11-14": 1,
-    "2026-11-22": 1
+    "2026-11-22": 1,
+    "2026-11-24": 1
    }
   },
   {
@@ -11431,6 +11432,28 @@
    }
   },
   {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 24,
+   "daily": {
+    "2026-10-14": 1,
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-25": 2,
+    "2026-10-30": 2,
+    "2026-10-31": 1,
+    "2026-11-01": 4,
+    "2026-11-04": 1,
+    "2026-11-05": 3,
+    "2026-11-10": 2,
+    "2026-11-11": 4,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "geo/denied/-",
    "path_id": 110295286,
    "title": "en",
@@ -11447,27 +11470,6 @@
     "2026-10-17": 1,
     "2026-10-19": 1,
     "2026-10-27": 1
-   }
-  },
-  {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 23,
-   "daily": {
-    "2026-10-14": 1,
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-25": 2,
-    "2026-10-30": 2,
-    "2026-10-31": 1,
-    "2026-11-01": 4,
-    "2026-11-04": 1,
-    "2026-11-05": 3,
-    "2026-11-10": 2,
-    "2026-11-11": 4
    }
   },
   {
@@ -12035,6 +12037,24 @@
    }
   },
   {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 9,
+   "daily": {
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1,
+    "2026-10-22": 1,
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-28": 1,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "place/p_national_museum/to",
    "path_id": 110181107,
    "title": "en|name",
@@ -12151,23 +12171,6 @@
    }
   },
   {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
-   "count": 8,
-   "daily": {
-    "2026-10-09": 1,
-    "2026-10-10": 1,
-    "2026-10-19": 1,
-    "2026-10-20": 1,
-    "2026-10-22": 1,
-    "2026-10-24": 1,
-    "2026-10-25": 1,
-    "2026-10-28": 1
-   }
-  },
-  {
    "path": "/destinations/riyadh-gallery-mall",
    "path_id": 110311601,
    "title": "Riyadh Gallery Mall by Metro: Nearest Station, Walk and Route",
@@ -12182,6 +12185,23 @@
     "2026-11-05": 1,
     "2026-11-12": 1,
     "2026-11-17": 1
+   }
+  },
+  {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 8,
+   "daily": {
+    "2026-10-07": 1,
+    "2026-10-12": 1,
+    "2026-10-19": 1,
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-05": 1,
+    "2026-11-11": 1,
+    "2026-11-24": 1
    }
   },
   {
@@ -12401,22 +12421,6 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-14": 1
-   }
-  },
-  {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 7,
-   "daily": {
-    "2026-10-07": 1,
-    "2026-10-12": 1,
-    "2026-10-19": 1,
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-05": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -12766,6 +12770,19 @@
     "2026-10-30": 1,
     "2026-10-31": 2,
     "2026-11-11": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-park-mall",
+   "path_id": 114587867,
+   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-10-24": 1,
+    "2026-10-25": 1,
+    "2026-10-30": 2,
+    "2026-11-24": 1
    }
   },
   {
@@ -13193,18 +13210,6 @@
    }
   },
   {
-   "path": "/destinations/riyadh-park-mall",
-   "path_id": 114587867,
-   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-10-24": 1,
-    "2026-10-25": 1,
-    "2026-10-30": 2
-   }
-  },
-  {
    "path": "/districts/al-nakheel",
    "path_id": 114342963,
    "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
@@ -13367,6 +13372,19 @@
    }
   },
   {
+   "path": "/stations/al-malaz",
+   "path_id": 112456364,
+   "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-17": 1,
+    "2026-11-01": 1,
+    "2026-11-10": 1,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "route/kfl/yarmuk",
    "path_id": 112365147,
    "title": "en|map|ok",
@@ -13516,6 +13534,19 @@
     "2026-10-12": 1,
     "2026-10-22": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/lines/yellow-line",
+   "path_id": 110955995,
+   "title": "Riyadh Metro Yellow Line (Line 4): Stations, Map and Hours",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-10": 1,
+    "2026-11-10": 1,
+    "2026-11-11": 1,
+    "2026-11-24": 1
    }
   },
   {
@@ -14156,18 +14187,6 @@
    }
   },
   {
-   "path": "/stations/al-malaz",
-   "path_id": 112456364,
-   "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-17": 1,
-    "2026-11-01": 1,
-    "2026-11-10": 1
-   }
-  },
-  {
    "path": "view/kfl/yarmuk",
    "path_id": 112365338,
    "title": "en|details",
@@ -14385,18 +14404,6 @@
     "2026-10-10": 1,
     "2026-10-11": 1,
     "2026-10-16": 1
-   }
-  },
-  {
-   "path": "/lines/yellow-line",
-   "path_id": 110955995,
-   "title": "Riyadh Metro Yellow Line (Line 4): Stations, Map and Hours",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-10": 1,
-    "2026-11-10": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -16526,6 +16533,26 @@
    "daily": {
     "2026-10-07": 1,
     "2026-10-09": 1
+   }
+  },
+  {
+   "path": "/lines/green-line",
+   "path_id": 126335953,
+   "title": "Riyadh Metro Green Line (Line 5): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-24": 1
+   }
+  },
+  {
+   "path": "/districts/west-oraija",
+   "path_id": 126334079,
+   "title": "Nearest Metro Station to West Oraija, Riyadh: Ad Douh, 2.0 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-24": 1
    }
   },
   {
@@ -24631,9 +24658,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2649,
-  "events_total": 1914,
-  "goatcounter_total_with_events": 4563,
+  "visits": 2660,
+  "events_total": 1916,
+  "goatcounter_total_with_events": 4576,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24688,7 +24715,7 @@
    "2026-11-21": 11,
    "2026-11-22": 22,
    "2026-11-23": 13,
-   "2026-11-24": 9
+   "2026-11-24": 20
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -24737,9 +24764,9 @@
    "2026-11-20": 6,
    "2026-11-22": 3,
    "2026-11-23": 5,
-   "2026-11-24": 1
+   "2026-11-24": 2
   },
-  "visitor_days": 752,
+  "visitor_days": 753,
   "return_rate": 0.153,
   "routes": 512,
   "routes_not_found": 0,
@@ -24866,13 +24893,13 @@
   ],
   "nearest_station": {
    "denied": 24,
-   "fail": 7,
+   "fail": 8,
    "ok": 54,
    "far": 11,
    "outside": 3
   },
   "visitors_new_return": {
-   "new": 637,
+   "new": 638,
    "return": 115
   },
   "top_routes": [
@@ -25026,7 +25053,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 572
+    "count": 573
    },
    {
     "name": "tiktok_ad",
@@ -25034,7 +25061,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 78
+    "count": 79
    },
    {
     "name": "Google",
@@ -25182,7 +25209,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 3
+    "count": 4
    },
    {
     "name": "duckduckgo.com",
@@ -25228,7 +25255,7 @@
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/nearest-station",
-    "count": 15
+    "count": 16
    },
    {
     "name": "(direct or unknown)",
@@ -25371,6 +25398,10 @@
    {
     "name": "(direct or unknown)",
     "count": 3
+   },
+   {
+    "name": "Yahoo",
+    "count": 1
    },
    {
     "name": "www.bing.com",
@@ -25831,6 +25862,16 @@
     "count": 3
    }
   ],
+  "/stations": [
+   {
+    "name": "Google",
+    "count": 8
+   },
+   {
+    "name": "www.bing.com",
+    "count": 1
+   }
+  ],
   "/ar/districts/al-mursalat": [
    {
     "name": "Google",
@@ -25905,12 +25946,6 @@
    {
     "name": "chatgpt.com",
     "count": 4
-   }
-  ],
-  "/stations": [
-   {
-    "name": "Google",
-    "count": 8
    }
   ],
   "/destinations/riyadh-gallery-mall": [
@@ -26084,7 +26119,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 572
+    "count": 573
    },
    {
     "path": "/ar/map",
@@ -26224,11 +26259,11 @@
   "com.reddit.frontpage": [
    {
     "path": "/",
-    "count": 78
+    "count": 79
    },
    {
     "path": "/map",
-    "count": 3
+    "count": 4
    }
   ],
   "Google": [
@@ -26613,6 +26648,10 @@
     "count": 1
    },
    {
+    "path": "/ar/nearest-station",
+    "count": 1
+   },
+   {
     "path": "/ar/timings",
     "count": 1
    }
@@ -26678,6 +26717,10 @@
    },
    {
     "path": "/ar/stations",
+    "count": 1
+   },
+   {
+    "path": "/stations",
     "count": 1
    },
    {
@@ -26860,7 +26903,7 @@
   "riyadhmetro.fyi/ar/nearest-station": [
    {
     "path": "/ar.html",
-    "count": 15
+    "count": 16
    },
    {
     "path": "/ar/map",
@@ -27149,7 +27192,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2060,
+   "count": 2064,
    "ref_scheme": "o"
   },
   {
@@ -27161,13 +27204,13 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 338,
+   "count": 339,
    "ref_scheme": "c"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 277,
+   "count": 280,
    "ref_scheme": "o"
   },
   {
@@ -27185,13 +27228,13 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 75,
+   "count": 77,
    "ref_scheme": "h"
   },
   {
    "id": "Yahoo",
    "name": "Yahoo",
-   "count": 56,
+   "count": 57,
    "ref_scheme": "g"
   },
   {
@@ -27203,7 +27246,7 @@
   {
    "id": "riyadhmetro.fyi/ar/nearest-station",
    "name": "riyadhmetro.fyi/ar/nearest-station",
-   "count": 36,
+   "count": 38,
    "ref_scheme": "h"
   },
   {
@@ -27451,7 +27494,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3168
+   "count": 3181
   },
   {
    "id": "ara",
@@ -27533,7 +27576,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3843
+   "count": 3854
   },
   {
    "id": "US",
@@ -27558,7 +27601,7 @@
   {
    "id": "DE",
    "name": "Germany",
-   "count": 28
+   "count": 29
   },
   {
    "id": "NL",
@@ -27785,7 +27828,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3670
+   "count": 3674
   },
   {
    "id": "tablet",
@@ -27795,7 +27838,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 696
+   "count": 705
   },
   {
    "id": "desktophd",
@@ -27812,12 +27855,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2430
+   "count": 2442
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2027
+   "count": 2028
   },
   {
    "name": "",
@@ -27833,17 +27876,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 2013
+   "count": 2014
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1694
+   "count": 1697
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 609
+   "count": 618
   },
   {
    "id": "macOS",

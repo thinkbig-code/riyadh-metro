@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-24T10:58:58Z",
+ "generated": "2026-11-24T16:26:48Z",
  "start": "2026-10-25",
  "end": "2026-11-25",
  "total": {
-  "total": 1708,
-  "total_events": 420,
-  "total_utc": 1698,
+  "total": 1721,
+  "total_events": 422,
+  "total_utc": 1711,
   "stats": [
    {
     "day": "2026-10-25",
@@ -250,7 +250,7 @@
     ],
     "daily": 161,
     "weekly": 447,
-    "monthly": 1091
+    "monthly": 1104
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 36,
-    "weekly": 73
+    "weekly": 86
    },
    {
     "day": "2026-11-23",
@@ -933,17 +933,17 @@
      1,
      6,
      1,
+     3,
+     1,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     1,
+     6,
+     2,
      0,
      0,
      0
     ],
-    "daily": 11
+    "daily": 24
    },
    {
     "day": "2026-11-25",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 162,
+   "count": 164,
    "daily": {
     "2026-10-25": 8,
     "2026-10-26": 1,
@@ -1014,7 +1014,7 @@
     "2026-11-20": 6,
     "2026-11-22": 2,
     "2026-11-23": 5,
-    "2026-11-24": 1
+    "2026-11-24": 3
    }
   },
   {
@@ -1022,7 +1022,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 121,
+   "count": 122,
    "daily": {
     "2026-10-25": 7,
     "2026-10-26": 2,
@@ -1051,7 +1051,7 @@
     "2026-11-20": 6,
     "2026-11-22": 2,
     "2026-11-23": 3,
-    "2026-11-24": 1
+    "2026-11-24": 2
    }
   },
   {
@@ -1117,7 +1117,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 48,
+   "count": 49,
    "daily": {
     "2026-10-26": 1,
     "2026-10-31": 5,
@@ -1140,7 +1140,7 @@
     "2026-11-20": 4,
     "2026-11-21": 2,
     "2026-11-23": 1,
-    "2026-11-24": 1
+    "2026-11-24": 2
    }
   },
   {
@@ -1148,7 +1148,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 41,
+   "count": 42,
    "daily": {
     "2026-10-25": 3,
     "2026-10-26": 3,
@@ -1162,7 +1162,8 @@
     "2026-11-10": 4,
     "2026-11-11": 6,
     "2026-11-14": 1,
-    "2026-11-22": 1
+    "2026-11-22": 1,
+    "2026-11-24": 1
    }
   },
   {
@@ -1211,6 +1212,24 @@
    }
   },
   {
+   "path": "/ar/nearest-station",
+   "path_id": 112000992,
+   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
+   "event": false,
+   "count": 20,
+   "daily": {
+    "2026-10-25": 2,
+    "2026-10-30": 2,
+    "2026-10-31": 1,
+    "2026-11-01": 4,
+    "2026-11-04": 1,
+    "2026-11-05": 3,
+    "2026-11-10": 2,
+    "2026-11-11": 4,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "/ar/lines",
    "path_id": 112883345,
    "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
@@ -1231,23 +1250,6 @@
     "2026-11-14": 1,
     "2026-11-15": 1,
     "2026-11-18": 1
-   }
-  },
-  {
-   "path": "/ar/nearest-station",
-   "path_id": 112000992,
-   "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
-   "event": false,
-   "count": 19,
-   "daily": {
-    "2026-10-25": 2,
-    "2026-10-30": 2,
-    "2026-10-31": 1,
-    "2026-11-01": 4,
-    "2026-11-04": 1,
-    "2026-11-05": 3,
-    "2026-11-10": 2,
-    "2026-11-11": 4
    }
   },
   {
@@ -1957,6 +1959,20 @@
    }
   },
   {
+   "path": "geo/fail/-",
+   "path_id": 110299402,
+   "title": "en",
+   "event": true,
+   "count": 5,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-11-01": 1,
+    "2026-11-05": 1,
+    "2026-11-11": 1,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "/ar/stations/at-takhassussi",
    "path_id": 121367162,
    "title": "محطة التخصصي، مترو الرياض: المسار الأحمر (رقم 29)",
@@ -2076,6 +2092,18 @@
     "2026-10-30": 1,
     "2026-10-31": 2,
     "2026-11-11": 1
+   }
+  },
+  {
+   "path": "/destinations/riyadh-park-mall",
+   "path_id": 114587867,
+   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-10-30": 2,
+    "2026-11-24": 1
    }
   },
   {
@@ -2223,19 +2251,6 @@
     "2026-10-30": 1,
     "2026-11-16": 1,
     "2026-11-23": 1
-   }
-  },
-  {
-   "path": "geo/fail/-",
-   "path_id": 110299402,
-   "title": "en",
-   "event": true,
-   "count": 4,
-   "daily": {
-    "2026-10-29": 1,
-    "2026-11-01": 1,
-    "2026-11-05": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -2506,17 +2521,6 @@
    }
   },
   {
-   "path": "/destinations/riyadh-park-mall",
-   "path_id": 114587867,
-   "title": "Riyadh Park Mall Metro Station: KAFD (Blue/Yellow/Purple lines)",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-25": 1,
-    "2026-10-30": 2
-   }
-  },
-  {
    "path": "/districts/al-nakheel",
    "path_id": 114342963,
    "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
@@ -2636,6 +2640,18 @@
    }
   },
   {
+   "path": "/stations/al-malaz",
+   "path_id": 112456364,
+   "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-10": 1,
+    "2026-11-24": 1
+   }
+  },
+  {
    "path": "/ar/stations",
    "path_id": 112000986,
    "title": "محطات مترو الرياض: القائمة الكاملة للمسارات الستة",
@@ -2749,6 +2765,30 @@
     "2026-10-25": 1,
     "2026-10-31": 1,
     "2026-11-04": 1
+   }
+  },
+  {
+   "path": "/lines/yellow-line",
+   "path_id": 110955995,
+   "title": "Riyadh Metro Yellow Line (Line 4): Stations, Map and Hours",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-10": 1,
+    "2026-11-11": 1,
+    "2026-11-24": 1
+   }
+  },
+  {
+   "path": "/stations",
+   "path_id": 110710632,
+   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-10-28": 1,
+    "2026-11-24": 1
    }
   },
   {
@@ -3556,17 +3596,6 @@
    }
   },
   {
-   "path": "/stations/al-malaz",
-   "path_id": 112456364,
-   "title": "Al Malaz Metro Station, Riyadh: Orange Line, No. 54",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-01": 1,
-    "2026-11-10": 1
-   }
-  },
-  {
    "path": "/stations/ministry-of-education",
    "path_id": 112346296,
    "title": "Ministry of Education Metro Station, Riyadh: Red/Green lines, No. 32",
@@ -3707,17 +3736,6 @@
    }
   },
   {
-   "path": "/lines/yellow-line",
-   "path_id": 110955995,
-   "title": "Riyadh Metro Yellow Line (Line 4): Stations, Map and Hours",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-10": 1,
-    "2026-11-11": 1
-   }
-  },
-  {
    "path": "/districts/qurtubah",
    "path_id": 110768019,
    "title": "Nearest Metro Station to Qurtubah, Riyadh: SABIC, 2.6 km",
@@ -3726,17 +3744,6 @@
    "daily": {
     "2026-10-25": 1,
     "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/stations",
-   "path_id": 110710632,
-   "title": "Riyadh Metro Stations: Full List of All 6 Lines",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-25": 1,
-    "2026-10-28": 1
    }
   },
   {
@@ -3803,6 +3810,26 @@
    "daily": {
     "2026-10-26": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/lines/green-line",
+   "path_id": 126335953,
+   "title": "Riyadh Metro Green Line (Line 5): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-24": 1
+   }
+  },
+  {
+   "path": "/districts/west-oraija",
+   "path_id": 126334079,
+   "title": "Nearest Metro Station to West Oraija, Riyadh: Ad Douh, 2.0 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-24": 1
    }
   },
   {
@@ -7108,9 +7135,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1288,
-  "events_total": 420,
-  "goatcounter_total_with_events": 1708,
+  "visits": 1299,
+  "events_total": 422,
+  "goatcounter_total_with_events": 1721,
   "page_loads_by_day": {
    "2026-10-25": 64,
    "2026-10-26": 91,
@@ -7142,7 +7169,7 @@
    "2026-11-21": 11,
    "2026-11-22": 22,
    "2026-11-23": 13,
-   "2026-11-24": 9
+   "2026-11-24": 20
   },
   "visitor_days_by_day": {
    "2026-10-25": 10,
@@ -7174,13 +7201,13 @@
    "2026-11-20": 6,
    "2026-11-22": 3,
    "2026-11-23": 5,
-   "2026-11-24": 1
+   "2026-11-24": 2
   },
-  "visitor_days": 176,
-  "return_rate": 0.312,
+  "visitor_days": 177,
+  "return_rate": 0.311,
   "routes": 110,
   "routes_not_found": 0,
-  "routes_per_visit": 0.09,
+  "routes_per_visit": 0.08,
   "routes_per_visitor_day": 0.62,
   "share_rate": 0.027,
   "shares": {
@@ -7232,13 +7259,13 @@
    }
   ],
   "nearest_station": {
-   "fail": 4,
+   "fail": 5,
    "far": 8,
    "ok": 12,
    "denied": 1
   },
   "visitors_new_return": {
-   "new": 121,
+   "new": 122,
    "return": 55
   },
   "top_routes": [
@@ -7392,7 +7419,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 112
+    "count": 113
    },
    {
     "name": "chatgpt.com",
@@ -7403,11 +7430,11 @@
     "count": 7
    },
    {
-    "name": "Yahoo",
-    "count": 6
+    "name": "com.reddit.frontpage",
+    "count": 7
    },
    {
-    "name": "com.reddit.frontpage",
+    "name": "Yahoo",
     "count": 6
    },
    {
@@ -7524,7 +7551,7 @@
    },
    {
     "name": "com.reddit.frontpage",
-    "count": 3
+    "count": 4
    },
    {
     "name": "duckduckgo.com",
@@ -7554,7 +7581,7 @@
   "/ar.html": [
    {
     "name": "riyadhmetro.fyi/ar/nearest-station",
-    "count": 13
+    "count": 14
    },
    {
     "name": "(direct or unknown)",
@@ -7641,24 +7668,6 @@
     "count": 1
    }
   ],
-  "/ar/lines": [
-   {
-    "name": "Google",
-    "count": 16
-   },
-   {
-    "name": "duckduckgo.com",
-    "count": 1
-   },
-   {
-    "name": "www.bing.com",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi",
-    "count": 1
-   }
-  ],
   "/ar/nearest-station": [
    {
     "name": "Google",
@@ -7667,6 +7676,10 @@
    {
     "name": "(direct or unknown)",
     "count": 2
+   },
+   {
+    "name": "Yahoo",
+    "count": 1
    },
    {
     "name": "www.bing.com",
@@ -7686,6 +7699,24 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/destinations/royal-mall",
+    "count": 1
+   }
+  ],
+  "/ar/lines": [
+   {
+    "name": "Google",
+    "count": 16
+   },
+   {
+    "name": "duckduckgo.com",
+    "count": 1
+   },
+   {
+    "name": "www.bing.com",
+    "count": 1
+   },
+   {
+    "name": "riyadhmetro.fyi",
     "count": 1
    }
   ],
@@ -8318,7 +8349,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 112
+    "count": 113
    },
    {
     "path": "/ar/districts/qurtubah",
@@ -8805,6 +8836,16 @@
     "count": 1
    }
   ],
+  "com.reddit.frontpage": [
+   {
+    "path": "/",
+    "count": 7
+   },
+   {
+    "path": "/map",
+    "count": 4
+   }
+  ],
   "Yahoo": [
    {
     "path": "/",
@@ -8819,18 +8860,12 @@
     "count": 1
    },
    {
-    "path": "/ar/timings",
+    "path": "/ar/nearest-station",
     "count": 1
-   }
-  ],
-  "com.reddit.frontpage": [
-   {
-    "path": "/",
-    "count": 6
    },
    {
-    "path": "/map",
-    "count": 3
+    "path": "/ar/timings",
+    "count": 1
    }
   ],
   "www.facebook.com": [
@@ -8869,11 +8904,11 @@
     "count": 1
    },
    {
-    "path": "/ar/lines",
+    "path": "/ar/nearest-station",
     "count": 1
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/ar/lines",
     "count": 1
    },
    {
@@ -8951,11 +8986,11 @@
     "count": 2
    },
    {
-    "path": "/ar/lines",
+    "path": "/ar/nearest-station",
     "count": 1
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/ar/lines",
     "count": 1
    },
    {
@@ -9072,7 +9107,7 @@
   "riyadhmetro.fyi/ar/nearest-station": [
    {
     "path": "/ar.html",
-    "count": 13
+    "count": 14
    }
   ],
   "riyadhmetro.fyi/ar/map": [
@@ -9227,37 +9262,37 @@
   },
   {
    "name": "",
-   "count": 522,
+   "count": 526,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 273,
+   "count": 274,
    "ref_scheme": "c"
   },
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 57,
+   "count": 59,
    "ref_scheme": "h"
   },
   {
    "id": "riyadhmetro.fyi/ar/nearest-station",
    "name": "riyadhmetro.fyi/ar/nearest-station",
-   "count": 31,
+   "count": 33,
    "ref_scheme": "h"
   },
   {
    "id": "Yahoo",
    "name": "Yahoo",
-   "count": 29,
+   "count": 30,
    "ref_scheme": "g"
   },
   {
    "id": "com.reddit.frontpage",
    "name": "com.reddit.frontpage",
-   "count": 20,
+   "count": 23,
    "ref_scheme": "o"
   },
   {
@@ -9523,7 +9558,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 1004
+   "count": 1017
   },
   {
    "id": "ara",
@@ -9585,7 +9620,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1467
+   "count": 1478
   },
   {
    "id": "US",
@@ -9610,7 +9645,7 @@
   {
    "id": "DE",
    "name": "Germany",
-   "count": 11
+   "count": 12
   },
   {
    "id": "JO",
@@ -9773,6 +9808,11 @@
    "count": 1
   },
   {
+   "id": "SV",
+   "name": "El Salvador",
+   "count": 1
+  },
+  {
    "id": "UZ",
    "name": "Uzbekistan",
    "count": 1
@@ -9782,7 +9822,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1391
+   "count": 1395
   },
   {
    "id": "tablet",
@@ -9792,7 +9832,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 273
+   "count": 282
   },
   {
    "id": "desktophd",
@@ -9809,12 +9849,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 946
+   "count": 958
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 726
+   "count": 727
   },
   {
    "id": "Firefox",
@@ -9830,17 +9870,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 724
+   "count": 725
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 671
+   "count": 674
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 235
+   "count": 244
   },
   {
    "id": "Linux",
