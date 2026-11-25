@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-25T09:53:02Z",
+ "generated": "2026-11-25T10:29:29Z",
  "start": "2026-10-26",
  "end": "2026-11-26",
  "total": {
-  "total": 1644,
-  "total_events": 392,
-  "total_utc": 1640,
+  "total": 1647,
+  "total_events": 393,
+  "total_utc": 1643,
   "stats": [
    {
     "day": "2026-10-26",
@@ -219,7 +219,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1132
+    "monthly": 1135
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 26,
-    "weekly": 78
+    "weekly": 81
    },
    {
     "day": "2026-11-24",
@@ -931,8 +931,8 @@
      5,
      2,
      4,
+     3,
      2,
-     0,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 23
+    "daily": 26
    },
    {
     "day": "2026-11-26",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 157,
+   "count": 158,
    "daily": {
     "2026-10-27": 5,
     "2026-10-28": 8,
@@ -1013,7 +1013,7 @@
     "2026-11-22": 2,
     "2026-11-23": 5,
     "2026-11-24": 3,
-    "2026-11-25": 2
+    "2026-11-25": 3
    }
   },
   {
@@ -1021,7 +1021,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 114,
+   "count": 115,
    "daily": {
     "2026-10-26": 1,
     "2026-10-27": 4,
@@ -1049,7 +1049,8 @@
     "2026-11-20": 6,
     "2026-11-22": 2,
     "2026-11-23": 3,
-    "2026-11-24": 2
+    "2026-11-24": 2,
+    "2026-11-25": 1
    }
   },
   {
@@ -1115,7 +1116,7 @@
    "path_id": 110710457,
    "title": "Riyadh Metro Map 2026: All Lines and Stations (Image and Interactive)",
    "event": false,
-   "count": 50,
+   "count": 51,
    "daily": {
     "2026-10-26": 1,
     "2026-10-31": 5,
@@ -1139,7 +1140,7 @@
     "2026-11-21": 2,
     "2026-11-23": 1,
     "2026-11-24": 2,
-    "2026-11-25": 1
+    "2026-11-25": 2
    }
   },
   {
@@ -6885,9 +6886,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1252,
-  "events_total": 392,
-  "goatcounter_total_with_events": 1644,
+  "visits": 1254,
+  "events_total": 393,
+  "goatcounter_total_with_events": 1647,
   "page_loads_by_day": {
    "2026-10-26": 81,
    "2026-10-27": 14,
@@ -6919,7 +6920,7 @@
    "2026-11-22": 22,
    "2026-11-23": 13,
    "2026-11-24": 25,
-   "2026-11-25": 22
+   "2026-11-25": 24
   },
   "visitor_days_by_day": {
    "2026-10-26": 2,
@@ -6951,10 +6952,10 @@
    "2026-11-22": 3,
    "2026-11-23": 5,
    "2026-11-24": 2,
-   "2026-11-25": 1
+   "2026-11-25": 2
   },
-  "visitor_days": 167,
-  "return_rate": 0.317,
+  "visitor_days": 168,
+  "return_rate": 0.315,
   "routes": 101,
   "routes_not_found": 0,
   "routes_per_visit": 0.08,
@@ -7015,7 +7016,7 @@
    "denied": 1
   },
   "visitors_new_return": {
-   "new": 114,
+   "new": 115,
    "return": 53
   },
   "top_routes": [
@@ -7169,7 +7170,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 108
+    "count": 109
    },
    {
     "name": "Google",
@@ -7293,7 +7294,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 6
+    "count": 7
    },
    {
     "name": "chatgpt.com",
@@ -8099,7 +8100,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 108
+    "count": 109
    },
    {
     "path": "/ar/districts/qurtubah",
@@ -8651,7 +8652,7 @@
    },
    {
     "path": "/map",
-    "count": 6
+    "count": 7
    },
    {
     "path": "/ar/districts",
@@ -9012,7 +9013,7 @@
   },
   {
    "name": "",
-   "count": 503,
+   "count": 505,
    "ref_scheme": "o"
   },
   {
@@ -9024,7 +9025,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 64,
+   "count": 65,
    "ref_scheme": "h"
   },
   {
@@ -9308,7 +9309,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 971
+   "count": 974
   },
   {
    "id": "ara",
@@ -9365,7 +9366,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1406
+   "count": 1408
   },
   {
    "id": "US",
@@ -9413,13 +9414,13 @@
    "count": 7
   },
   {
-   "id": "BR",
-   "name": "Brazil",
-   "count": 6
-  },
-  {
    "id": "IN",
    "name": "India",
+   "count": 7
+  },
+  {
+   "id": "BR",
+   "name": "Brazil",
    "count": 6
   },
   {
@@ -9567,7 +9568,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1317
+   "count": 1319
   },
   {
    "id": "tablet",
@@ -9577,7 +9578,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 283
+   "count": 284
   },
   {
    "id": "desktophd",
@@ -9594,7 +9595,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 907
+   "count": 910
   },
   {
    "id": "Safari",
@@ -9620,12 +9621,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 622
+   "count": 624
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 247
+   "count": 248
   },
   {
    "id": "macOS",
