@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-25T10:29:29Z",
+ "generated": "2026-11-25T20:12:01Z",
  "start": "2026-10-26",
  "end": "2026-11-26",
  "total": {
-  "total": 1647,
-  "total_events": 393,
-  "total_utc": 1643,
+  "total": 1666,
+  "total_events": 394,
+  "total_utc": 1662,
   "stats": [
    {
     "day": "2026-10-26",
@@ -219,7 +219,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1135
+    "monthly": 1154
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      0
     ],
     "daily": 26,
-    "weekly": 81
+    "weekly": 100
    },
    {
     "day": "2026-11-24",
@@ -933,22 +933,22 @@
      4,
      3,
      2,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
+     1,
+     6,
+     2,
+     1,
+     1,
+     2,
+     1,
+     1,
+     3
     ],
-    "daily": 26
+    "daily": 44
    },
    {
     "day": "2026-11-26",
     "hourly": [
-     0,
+     1,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 1
    }
   ]
  },
@@ -1021,7 +1021,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 115,
+   "count": 116,
    "daily": {
     "2026-10-26": 1,
     "2026-10-27": 4,
@@ -1050,7 +1050,7 @@
     "2026-11-22": 2,
     "2026-11-23": 3,
     "2026-11-24": 2,
-    "2026-11-25": 1
+    "2026-11-25": 2
    }
   },
   {
@@ -1058,7 +1058,7 @@
    "path_id": 110886300,
    "title": "خريطة مترو الرياض 2026: جميع المسارات والمحطات (صورة وخريطة تفاعلية)",
    "event": false,
-   "count": 80,
+   "count": 81,
    "daily": {
     "2026-10-26": 16,
     "2026-10-28": 1,
@@ -1075,7 +1075,7 @@
     "2026-11-11": 8,
     "2026-11-13": 1,
     "2026-11-18": 1,
-    "2026-11-25": 1
+    "2026-11-25": 2
    }
   },
   {
@@ -1148,7 +1148,7 @@
    "path_id": 110284017,
    "title": "خريطة مترو الرياض ومخطط الرحلات: المسارات الستة",
    "event": false,
-   "count": 40,
+   "count": 41,
    "daily": {
     "2026-10-26": 3,
     "2026-10-29": 1,
@@ -1163,7 +1163,7 @@
     "2026-11-14": 1,
     "2026-11-22": 1,
     "2026-11-24": 1,
-    "2026-11-25": 1
+    "2026-11-25": 2
    }
   },
   {
@@ -1196,7 +1196,7 @@
    "path_id": 112883345,
    "title": "مسارات مترو الرياض (خطوط المترو): المسارات الستة ومحطاتها",
    "event": false,
-   "count": 19,
+   "count": 20,
    "daily": {
     "2026-10-26": 2,
     "2026-10-29": 1,
@@ -1211,7 +1211,8 @@
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-25": 1
    }
   },
   {
@@ -1483,6 +1484,20 @@
    }
   },
   {
+   "path": "/ar/districts/al-suwaidi",
+   "path_id": 115025208,
+   "title": "أقرب محطة مترو لحي السويدي في الرياض: محطة ظهرة البديعة، 2.5 كم",
+   "event": false,
+   "count": 8,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-10-31": 1,
+    "2026-11-10": 1,
+    "2026-11-11": 2,
+    "2026-11-25": 3
+   }
+  },
+  {
    "path": "/ar/districts/al-rawdah",
    "path_id": 112412104,
    "title": "أقرب محطة مترو لحي الروضة في الرياض: محطة طريق خريص، 3.4 كم",
@@ -1599,20 +1614,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-suwaidi",
-   "path_id": 115025208,
-   "title": "أقرب محطة مترو لحي السويدي في الرياض: محطة ظهرة البديعة، 2.5 كم",
-   "event": false,
-   "count": 7,
-   "daily": {
-    "2026-10-26": 1,
-    "2026-10-31": 1,
-    "2026-11-10": 1,
-    "2026-11-11": 2,
-    "2026-11-25": 2
-   }
-  },
-  {
    "path": "/destinations/kingdom-centre",
    "path_id": 114014557,
    "title": "Kingdom Centre (Kingdom Tower) Metro Station: Al Urubah, 4 min walk",
@@ -1639,6 +1640,20 @@
     "2026-11-10": 1,
     "2026-11-11": 1,
     "2026-11-16": 1
+   }
+  },
+  {
+   "path": "/ar/districts/middle-oraija",
+   "path_id": 110973042,
+   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
+   "event": false,
+   "count": 7,
+   "daily": {
+    "2026-11-01": 2,
+    "2026-11-03": 1,
+    "2026-11-11": 2,
+    "2026-11-14": 1,
+    "2026-11-26": 1
    }
   },
   {
@@ -1752,19 +1767,6 @@
    }
   },
   {
-   "path": "/ar/districts/middle-oraija",
-   "path_id": 110973042,
-   "title": "أقرب محطة مترو لحي العريجاء الوسطى في الرياض: محطة شارع عائشة بنت أبي بكر، 1.0 كم",
-   "event": false,
-   "count": 6,
-   "daily": {
-    "2026-11-01": 2,
-    "2026-11-03": 1,
-    "2026-11-11": 2,
-    "2026-11-14": 1
-   }
-  },
-  {
    "path": "route/sultanah/tuwaiq",
    "path_id": 117853079,
    "title": "en|map|ok",
@@ -1855,6 +1857,19 @@
     "2026-10-31": 1,
     "2026-11-06": 1,
     "2026-11-07": 2
+   }
+  },
+  {
+   "path": "/destinations/al-nakheel-mall",
+   "path_id": 113432636,
+   "title": "Al Nakheel Mall Metro Station: Riyadh Exhibition Center (Red Line)",
+   "event": false,
+   "count": 5,
+   "daily": {
+    "2026-11-04": 2,
+    "2026-11-05": 1,
+    "2026-11-12": 1,
+    "2026-11-25": 1
    }
   },
   {
@@ -1965,6 +1980,18 @@
    }
   },
   {
+   "path": "/stations/al-wizarat",
+   "path_id": 117348000,
+   "title": "Al Wizarat Metro Station, Riyadh: Green Line, No. 72",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-11": 1,
+    "2026-11-25": 2
+   }
+  },
+  {
    "path": "/ar/stations/riyadh-exhibition-center",
    "path_id": 116745513,
    "title": "محطة مركز الرياض للمعارض، مترو الرياض: المسار الأحمر (رقم 34)",
@@ -2049,6 +2076,19 @@
    }
   },
   {
+   "path": "/ar/destinations/al-deira-market",
+   "path_id": 114600163,
+   "title": "محطة مترو أسواق الديرة: محطة مجمع المحاكم (المسار البرتقالي)، 5 دقائق سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-10-30": 1,
+    "2026-11-11": 1,
+    "2026-11-25": 1
+   }
+  },
+  {
    "path": "/ar/districts/west-umm-al-hamam",
    "path_id": 114458544,
    "title": "أقرب محطة مترو لحي ام الحمام الغربي: محطة جامعة الملك سعود، 2.7 كم",
@@ -2058,6 +2098,19 @@
     "2026-10-31": 1,
     "2026-11-09": 1,
     "2026-11-11": 2
+   }
+  },
+  {
+   "path": "/districts/al-nakheel",
+   "path_id": 114342963,
+   "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-10-29": 1,
+    "2026-10-31": 1,
+    "2026-11-25": 1
    }
   },
   {
@@ -2095,18 +2148,6 @@
     "2026-11-07": 1,
     "2026-11-11": 1,
     "2026-11-25": 1
-   }
-  },
-  {
-   "path": "/destinations/al-nakheel-mall",
-   "path_id": 113432636,
-   "title": "Al Nakheel Mall Metro Station: Riyadh Exhibition Center (Red Line)",
-   "event": false,
-   "count": 4,
-   "daily": {
-    "2026-11-04": 2,
-    "2026-11-05": 1,
-    "2026-11-12": 1
    }
   },
   {
@@ -2265,6 +2306,18 @@
    "daily": {
     "2026-11-08": 2,
     "2026-11-15": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-mutamarat",
+   "path_id": 119610866,
+   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-06": 1,
+    "2026-11-22": 1,
+    "2026-11-25": 1
    }
   },
   {
@@ -2443,18 +2496,6 @@
    }
   },
   {
-   "path": "/ar/destinations/al-deira-market",
-   "path_id": 114600163,
-   "title": "محطة مترو أسواق الديرة: محطة مجمع المحاكم (المسار البرتقالي)، 5 دقائق سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-26": 1,
-    "2026-10-30": 1,
-    "2026-11-11": 1
-   }
-  },
-  {
    "path": "/destinations/indian-embassy",
    "path_id": 114595757,
    "title": "Indian Embassy Riyadh Metro Station: King Saud University (Red Line)",
@@ -2475,18 +2516,6 @@
    "daily": {
     "2026-10-30": 2,
     "2026-11-24": 1
-   }
-  },
-  {
-   "path": "/districts/al-nakheel",
-   "path_id": 114342963,
-   "title": "Nearest Metro Station to Al Nakheel, Riyadh: Al Murooj, 3.2 km",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-26": 1,
-    "2026-10-29": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -2628,6 +2657,18 @@
     "2026-10-31": 1,
     "2026-11-03": 1,
     "2026-11-23": 1
+   }
+  },
+  {
+   "path": "/ar/districts/al-manar",
+   "path_id": 111972641,
+   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-10-31": 1,
+    "2026-11-25": 1
    }
   },
   {
@@ -2818,6 +2859,17 @@
    }
   },
   {
+   "path": "/districts/al-ghadeer",
+   "path_id": 120002358,
+   "title": "Nearest Metro Station to Al Ghadeer, Riyadh: KAFD, 1.2 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-08": 1,
+    "2026-11-25": 1
+   }
+  },
+  {
    "path": "/ar/stations/al-aziziah",
    "path_id": 119851783,
    "title": "محطة العزيزية، مترو الرياض: المسار الأزرق (رقم 24)",
@@ -2826,17 +2878,6 @@
    "daily": {
     "2026-11-07": 1,
     "2026-11-25": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-mutamarat",
-   "path_id": 119610866,
-   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-06": 1,
-    "2026-11-22": 1
    }
   },
   {
@@ -3001,17 +3042,6 @@
    "daily": {
     "2026-11-01": 1,
     "2026-11-16": 1
-   }
-  },
-  {
-   "path": "/stations/al-wizarat",
-   "path_id": 117348000,
-   "title": "Al Wizarat Metro Station, Riyadh: Green Line, No. 72",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-01": 1,
-    "2026-11-11": 1
    }
   },
   {
@@ -3363,6 +3393,17 @@
    }
   },
   {
+   "path": "/districts/al-nahdah",
+   "path_id": 114572064,
+   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-26": 1,
+    "2026-11-25": 1
+   }
+  },
+  {
    "path": "/ar/destinations/al-qasr-mall",
    "path_id": 114328700,
    "title": "محطة مترو القصر مول: محطة سلطانة (المسار البرتقالي)",
@@ -3525,6 +3566,17 @@
    }
   },
   {
+   "path": "/districts/east-umm-al-hamam",
+   "path_id": 112535111,
+   "title": "Nearest Metro Station to East Umm Al Hamam, Riyadh: Bank Albilad, 2.8 km",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-11": 1,
+    "2026-11-25": 1
+   }
+  },
+  {
    "path": "/destinations/sahara-mall",
    "path_id": 112492787,
    "title": "Sahara Mall and Hayat Mall Metro Station: King Abdulaziz Road, 6 min walk",
@@ -3620,17 +3672,6 @@
    "daily": {
     "2026-11-01": 1,
     "2026-11-04": 1
-   }
-  },
-  {
-   "path": "/ar/districts/al-manar",
-   "path_id": 111972641,
-   "title": "أقرب محطة مترو لحي المنار في الرياض: محطة طريق خريص، 1.4 كم",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-30": 1,
-    "2026-10-31": 1
    }
   },
   {
@@ -3741,6 +3782,16 @@
    "daily": {
     "2026-10-26": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-margab",
+   "path_id": 126869081,
+   "title": "محطة المرقب، مترو الرياض: المسار البرتقالي (رقم 50)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-25": 1
    }
   },
   {
@@ -4667,16 +4718,6 @@
    "path": "/ar/stations/al-rajhi-grand-mosque",
    "path_id": 120207924,
    "title": "محطة جامع الراجحي، مترو الرياض: المسار البرتقالي (رقم 56)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-08": 1
-   }
-  },
-  {
-   "path": "/districts/al-ghadeer",
-   "path_id": 120002358,
-   "title": "Nearest Metro Station to Al Ghadeer, Riyadh: KAFD, 1.2 km",
    "event": false,
    "count": 1,
    "daily": {
@@ -5924,16 +5965,6 @@
    }
   },
   {
-   "path": "/districts/al-nahdah",
-   "path_id": 114572064,
-   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-26": 1
-   }
-  },
-  {
    "path": "/districts/al-rayan",
    "path_id": 114192333,
    "title": "Nearest Metro Station to Al Rayan, Riyadh: Harun Ar Rashid Road, 3.4 km",
@@ -6104,6 +6135,16 @@
    }
   },
   {
+   "path": "/lines/red-line",
+   "path_id": 113262876,
+   "title": "Riyadh Metro Red Line (Line 2): Stations, Map and Hours",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-25": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-murabba",
    "path_id": 113259520,
    "title": "أقرب محطة مترو لحي المربع في الرياض: محطة الجوازات (داخل الحي)",
@@ -6201,16 +6242,6 @@
    "count": 1,
    "daily": {
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/districts/east-umm-al-hamam",
-   "path_id": 112535111,
-   "title": "Nearest Metro Station to East Umm Al Hamam, Riyadh: Bank Albilad, 2.8 km",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-11": 1
    }
   },
   {
@@ -6381,6 +6412,16 @@
    "count": 1,
    "daily": {
     "2026-11-10": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-salman-oasis",
+   "path_id": 111893705,
+   "title": "محطة مترو واحة الملك سلمان: محطة واحة الملك سلمان (المسار الأحمر)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-25": 1
    }
   },
   {
@@ -6886,9 +6927,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1254,
-  "events_total": 393,
-  "goatcounter_total_with_events": 1647,
+  "visits": 1272,
+  "events_total": 394,
+  "goatcounter_total_with_events": 1666,
   "page_loads_by_day": {
    "2026-10-26": 81,
    "2026-10-27": 14,
@@ -6920,7 +6961,8 @@
    "2026-11-22": 22,
    "2026-11-23": 13,
    "2026-11-24": 25,
-   "2026-11-25": 24
+   "2026-11-25": 41,
+   "2026-11-26": 1
   },
   "visitor_days_by_day": {
    "2026-10-26": 2,
@@ -6952,10 +6994,10 @@
    "2026-11-22": 3,
    "2026-11-23": 5,
    "2026-11-24": 2,
-   "2026-11-25": 2
+   "2026-11-25": 3
   },
-  "visitor_days": 168,
-  "return_rate": 0.315,
+  "visitor_days": 169,
+  "return_rate": 0.314,
   "routes": 101,
   "routes_not_found": 0,
   "routes_per_visit": 0.08,
@@ -7016,7 +7058,7 @@
    "denied": 1
   },
   "visitors_new_return": {
-   "new": 115,
+   "new": 116,
    "return": 53
   },
   "top_routes": [
@@ -7248,7 +7290,7 @@
    },
    {
     "name": "riyadhmetro.fyi/ar/lines",
-    "count": 3
+    "count": 4
    },
    {
     "name": "Yahoo",
@@ -7363,6 +7405,10 @@
     "count": 1
    },
    {
+    "name": "riyadhmetro.fyi/ar/lines",
+    "count": 1
+   },
+   {
     "name": "riyadhmetro.fyi/ar/stations/al-urubah",
     "count": 1
    },
@@ -7411,11 +7457,11 @@
     "count": 16
    },
    {
-    "name": "duckduckgo.com",
-    "count": 1
+    "name": "www.bing.com",
+    "count": 2
    },
    {
-    "name": "www.bing.com",
+    "name": "duckduckgo.com",
     "count": 1
    },
    {
@@ -7683,6 +7729,16 @@
     "count": 1
    }
   ],
+  "/ar/districts/al-suwaidi": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 4
+   }
+  ],
   "/ar/districts/al-rawdah": [
    {
     "name": "Google",
@@ -7783,16 +7839,6 @@
     "count": 1
    }
   ],
-  "/ar/districts/al-suwaidi": [
-   {
-    "name": "Google",
-    "count": 4
-   },
-   {
-    "name": "chatgpt.com",
-    "count": 3
-   }
-  ],
   "/destinations/kingdom-centre": [
    {
     "name": "Google",
@@ -7815,6 +7861,12 @@
    {
     "name": "chatgpt.com",
     "count": 2
+   }
+  ],
+  "/ar/districts/middle-oraija": [
+   {
+    "name": "Google",
+    "count": 7
    }
   ],
   "/ar/districts/al-sahafah": [
@@ -7913,12 +7965,6 @@
     "count": 2
    }
   ],
-  "/ar/districts/middle-oraija": [
-   {
-    "name": "Google",
-    "count": 6
-   }
-  ],
   "/ar/destinations/shg-arena": [
    {
     "name": "Google",
@@ -7973,6 +8019,16 @@
    {
     "name": "Google",
     "count": 2
+   }
+  ],
+  "/destinations/al-nakheel-mall": [
+   {
+    "name": "Google",
+    "count": 4
+   },
+   {
+    "name": "www.bing.com",
+    "count": 1
    }
   ],
   "/districts/al-qadisiyah": [
@@ -8045,6 +8101,20 @@
     "count": 1
    }
   ],
+  "/stations/al-wizarat": [
+   {
+    "name": "www.bing.com",
+    "count": 2
+   },
+   {
+    "name": "Google",
+    "count": 1
+   },
+   {
+    "name": "chatgpt.com",
+    "count": 1
+   }
+  ],
   "/ar/stations/riyadh-exhibition-center": [
    {
     "name": "chatgpt.com",
@@ -8073,26 +8143,6 @@
    {
     "name": "Google",
     "count": 1
-   }
-  ],
-  "/ar/stations/dhahrat-al-badiah": [
-   {
-    "name": "Google",
-    "count": 2
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts/middle-oraija",
-    "count": 1
-   },
-   {
-    "name": "riyadhmetro.fyi/ar/districts/al-uraija",
-    "count": 1
-   }
-  ],
-  "/ar/destinations/riyadh-care-hospital": [
-   {
-    "name": "Google",
-    "count": 4
    }
   ]
  },
@@ -8261,6 +8311,10 @@
     "count": 7
    },
    {
+    "path": "/ar/districts/middle-oraija",
+    "count": 7
+   },
+   {
     "path": "/ar/destinations/taibah-markets",
     "count": 6
    },
@@ -8274,10 +8328,6 @@
    },
    {
     "path": "/destinations/kingdom-centre",
-    "count": 6
-   },
-   {
-    "path": "/ar/districts/middle-oraija",
     "count": 6
    },
    {
@@ -8329,11 +8379,11 @@
     "count": 4
    },
    {
-    "path": "/ar/districts/al-taawun",
+    "path": "/destinations/al-nakheel-mall",
     "count": 4
    },
    {
-    "path": "/ar/destinations/riyadh-care-hospital",
+    "path": "/ar/districts/al-taawun",
     "count": 4
    },
    {
@@ -8393,10 +8443,6 @@
     "count": 2
    },
    {
-    "path": "/ar/stations/dhahrat-al-badiah",
-    "count": 2
-   },
-   {
     "path": "/timings",
     "count": 1
    },
@@ -8414,6 +8460,10 @@
    },
    {
     "path": "/destinations/riyadh-gallery-mall",
+    "count": 1
+   },
+   {
+    "path": "/stations/al-wizarat",
     "count": 1
    },
    {
@@ -8477,6 +8527,10 @@
     "count": 5
    },
    {
+    "path": "/ar/districts/al-suwaidi",
+    "count": 4
+   },
+   {
     "path": "/districts/ar-rabwah",
     "count": 4
    },
@@ -8490,10 +8544,6 @@
    },
    {
     "path": "/destinations/diriyah",
-    "count": 3
-   },
-   {
-    "path": "/ar/districts/al-suwaidi",
     "count": 3
    },
    {
@@ -8595,6 +8645,10 @@
    {
     "path": "/ar/districts/tuwaiq",
     "count": 1
+   },
+   {
+    "path": "/stations/al-wizarat",
+    "count": 1
    }
   ],
   "Yahoo": [
@@ -8675,12 +8729,16 @@
     "count": 2
    },
    {
+    "path": "/ar/lines",
+    "count": 2
+   },
+   {
     "path": "/ar/stations/at-takhassussi",
     "count": 2
    },
    {
-    "path": "/ar/lines",
-    "count": 1
+    "path": "/stations/al-wizarat",
+    "count": 2
    },
    {
     "path": "/ar/nearest-station",
@@ -8700,6 +8758,10 @@
    },
    {
     "path": "/ar/districts/al-uraija",
+    "count": 1
+   },
+   {
+    "path": "/destinations/al-nakheel-mall",
     "count": 1
    }
   ],
@@ -8762,7 +8824,11 @@
   "riyadhmetro.fyi/ar/lines": [
    {
     "path": "/ar/map",
-    "count": 3
+    "count": 4
+   },
+   {
+    "path": "/ar.html",
+    "count": 1
    }
   ],
   "duckduckgo.com": [
@@ -8990,42 +9056,30 @@
     "path": "/ar/districts/al-taawun",
     "count": 1
    }
-  ],
-  "riyadhmetro.fyi/ar/districts/middle-oraija": [
-   {
-    "path": "/ar/stations/dhahrat-al-badiah",
-    "count": 1
-   }
-  ],
-  "riyadhmetro.fyi/ar/districts/al-uraija": [
-   {
-    "path": "/ar/stations/dhahrat-al-badiah",
-    "count": 1
-   }
   ]
  },
  "toprefs": [
   {
    "id": "Google",
    "name": "Google",
-   "count": 541,
+   "count": 545,
    "ref_scheme": "g"
   },
   {
    "name": "",
-   "count": 505,
+   "count": 508,
    "ref_scheme": "o"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 276,
+   "count": 280,
    "ref_scheme": "c"
   },
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 65,
+   "count": 70,
    "ref_scheme": "h"
   },
   {
@@ -9086,6 +9140,12 @@
    "id": "riyadhmetro.fyi/ar/stations/king-fahad-stadium",
    "name": "riyadhmetro.fyi/ar/stations/king-fahad-stadium",
    "count": 8,
+   "ref_scheme": "h"
+  },
+  {
+   "id": "riyadhmetro.fyi/ar/lines",
+   "name": "riyadhmetro.fyi/ar/lines",
+   "count": 6,
    "ref_scheme": "h"
   },
   {
@@ -9151,12 +9211,6 @@
   {
    "id": "riyadhmetro.fyi/stations",
    "name": "riyadhmetro.fyi/stations",
-   "count": 3,
-   "ref_scheme": "h"
-  },
-  {
-   "id": "riyadhmetro.fyi/ar/lines",
-   "name": "riyadhmetro.fyi/ar/lines",
    "count": 3,
    "ref_scheme": "h"
   },
@@ -9309,12 +9363,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 974
+   "count": 988
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 647
+   "count": 652
   },
   {
    "id": "fra",
@@ -9366,12 +9420,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1408
+   "count": 1424
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 53
+   "count": 54
   },
   {
    "id": "AE",
@@ -9454,6 +9508,11 @@
    "count": 4
   },
   {
+   "id": "SG",
+   "name": "Singapore",
+   "count": 4
+  },
+  {
    "id": "CO",
    "name": "Colombia",
    "count": 3
@@ -9469,8 +9528,8 @@
    "count": 3
   },
   {
-   "id": "SG",
-   "name": "Singapore",
+   "id": "VN",
+   "name": "Vietnam",
    "count": 3
   },
   {
@@ -9496,11 +9555,6 @@
   {
    "id": "SE",
    "name": "Sweden",
-   "count": 2
-  },
-  {
-   "id": "VN",
-   "name": "Vietnam",
    "count": 2
   },
   {
@@ -9568,7 +9622,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1319
+   "count": 1329
   },
   {
    "id": "tablet",
@@ -9578,7 +9632,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 284
+   "count": 293
   },
   {
    "id": "desktophd",
@@ -9595,12 +9649,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 910
+   "count": 924
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 701
+   "count": 706
   },
   {
    "id": "Firefox",
@@ -9616,17 +9670,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 699
+   "count": 704
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 624
+   "count": 629
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 248
+   "count": 257
   },
   {
    "id": "macOS",
