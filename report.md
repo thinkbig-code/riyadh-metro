@@ -1,24 +1,23 @@
 # Search opportunities: riyadhmetro.fyi
 
-Updated 2026-11-24. Search data 2026-10-27 to 2026-11-24 (about 2 days behind). Index statuses checked up to 2026-11-24.
+Updated 2026-11-25. Search data 2026-10-28 to 2026-11-25 (about 2 days behind). Index statuses checked up to 2026-11-25.
 
 ## 1. Fewer clicks than the position should bring
 Improve the title or description of the page, or the page itself.
 
 | Query | Impr. | Clicks | Pos. | Page |
 |---|---|---|---|---|
-| riyadh metro map | 215 | 3 | 3.6 | /map/ |
+| riyadh metro map | 216 | 3 | 3.6 | /map/ |
 | اقرب محطه | 368 | 0 | 6.8 | / |
 | اقرب محطه من موقعي | 268 | 0 | 6.3 | / |
 | خطوط مترو الرياض | 21 | 1 | 1.0 | /ar/lines/ |
-| اقرب محطة مترو من موقعي | 121 | 3 | 5.0 | /ar/nearest-station/ |
+| اقرب محطة مترو من موقعي | 122 | 3 | 4.9 | /ar/nearest-station/ |
 | riyadh metro station | sab | 10 | 0 | 1.0 | /lines/blue-line/ |
 | جدول مترو الرياض | 10 | 0 | 1.2 | / |
 | transportation center | 23 | 0 | 3.4 | /stations/transportation-center/ |
 | اقرب محطه مترو | 65 | 1 | 4.7 | /ar/nearest-station/ |
 | خريطة مترو الرياض 2026 | 13 | 2 | 1.0 | /ar/map/ |
 | batha metro station | 32 | 0 | 5.4 | /destinations/al-batha/ |
-| al murabba metro station | 31 | 0 | 5.5 | /stations/al-muorabba/ |
 | near me metro station | 10 | 0 | 2.4 | /nearest-station/ |
 | metro train near me | 5 | 0 | 1.0 | /nearest-station/ |
 | اقرب محطة | 76 | 1 | 6.7 | /ar/nearest-station/ |
@@ -27,6 +26,7 @@ Improve the title or description of the page, or the page itself.
 | اقرب محطة مترو | 41 | 0 | 5.8 | / |
 | transportation center metro station | 12 | 0 | 3.4 | /stations/transportation-center/ |
 | أقرب محطة مترو | 12 | 0 | 3.0 | /ar/nearest-station/ |
+| اقرب محطة من موقعي | 24 | 0 | 5.3 | / |
 
 ## 2. Just below page 1 (positions 11-20)
 
@@ -52,19 +52,19 @@ Improve the title or description of the page, or the page itself.
 
 | Page | Impr. | Pos. |
 |---|---|---|
-| /timings/ | 759 | 6.3 |
-| /stations/stc/ | 147 | 8.6 |
+| /timings/ | 758 | 6.3 |
+| /stations/stc/ | 146 | 8.6 |
 | /stations/al-aziziah/ | 143 | 6.2 |
 | /ar/destinations/granada-mall/ | 135 | 7.4 |
-| /ar/stations/king-fahad-stadium/ | 134 | 7.4 |
-| /ar/districts/al-yarmuk/ | 118 | 5.7 |
+| /ar/stations/king-fahad-stadium/ | 135 | 7.4 |
+| /ar/districts/al-yarmuk/ | 117 | 5.7 |
 | /ar/stations/sabic/ | 111 | 6.9 |
 | /destinations/national-museum/ | 111 | 9.1 |
 | /ar/stations/dr-sulaiman-al-habib/ | 109 | 8.4 |
 | /ar/routes/kafd-to-kingdom-centre/ | 105 | 6.4 |
 | /ar/routes/kafd-to-diriyah/ | 97 | 7.5 |
-| /stations/transportation-center/ | 97 | 6.5 |
 | /ar/routes/riyadh-airport-to-princess-nourah-university/ | 96 | 5.8 |
+| /stations/transportation-center/ | 95 | 6.1 |
 | /ar/stations/ad-dar-al-baida/ | 90 | 7.5 |
 | /ar/stations/qasr-al-hokm/ | 89 | 7.6 |
 
@@ -85,7 +85,7 @@ Improve the title or description of the page, or the page itself.
 | en destinations | 129 | 1 | 0 |
 | en districts | 114 | 3 | 0 |
 | en home | 1 | 0 | 0 |
-| en home-other-language | 5 | 1 | 0 |
+| en home-other-language | 6 | 0 | 0 |
 | en lines | 7 | 0 | 0 |
 | en map | 1 | 0 | 0 |
 | en nearest-station | 1 | 0 | 0 |
@@ -103,5 +103,5 @@ Request indexing by hand today (Search Console, URL inspection; skip any that al
 
 | | Impressions | Clicks |
 |---|---|---|
-| English (top queries) | 2492 | 11 |
-| Arabic (top queries) | 2071 | 37 |
+| English (top queries) | 2499 | 11 |
+| Arabic (top queries) | 2068 | 37 |

@@ -1,19 +1,19 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "gsc_period": [
-  "2026-10-27",
-  "2026-11-24"
+  "2026-10-28",
+  "2026-11-25"
  ],
- "index_checked": "2026-11-24T11:01:43Z",
+ "index_checked": "2026-11-25T09:55:44Z",
  "low_ctr_queries": [
   {
    "query": "riyadh metro map",
-   "impressions": 215,
+   "impressions": 216,
    "clicks": 3,
    "position": 3.6,
    "page": "/map/",
-   "lost_clicks": 12.05
+   "lost_clicks": 12.12
   },
   {
    "query": "اقرب محطه",
@@ -41,11 +41,11 @@
   },
   {
    "query": "اقرب محطة مترو من موقعي",
-   "impressions": 121,
+   "impressions": 122,
    "clicks": 3,
-   "position": 5.0,
+   "position": 4.9,
    "page": "/ar/nearest-station/",
-   "lost_clicks": 3.05
+   "lost_clicks": 3.1
   },
   {
    "query": "riyadh metro station | sab",
@@ -94,14 +94,6 @@
    "position": 5.4,
    "page": "/destinations/al-batha/",
    "lost_clicks": 1.6
-  },
-  {
-   "query": "al murabba metro station",
-   "impressions": 31,
-   "clicks": 0,
-   "position": 5.5,
-   "page": "/stations/al-muorabba/",
-   "lost_clicks": 1.55
   },
   {
    "query": "near me metro station",
@@ -165,6 +157,14 @@
    "clicks": 0,
    "position": 3,
    "page": "/ar/nearest-station/",
+   "lost_clicks": 1.2
+  },
+  {
+   "query": "اقرب محطة من موقعي",
+   "impressions": 24,
+   "clicks": 0,
+   "position": 5.3,
+   "page": "/",
    "lost_clicks": 1.2
   }
  ],
@@ -263,12 +263,12 @@
  "pages_no_clicks": [
   {
    "page": "/timings/",
-   "impressions": 759,
+   "impressions": 758,
    "position": 6.3
   },
   {
    "page": "/stations/stc/",
-   "impressions": 147,
+   "impressions": 146,
    "position": 8.6
   },
   {
@@ -283,12 +283,12 @@
   },
   {
    "page": "/ar/stations/king-fahad-stadium/",
-   "impressions": 134,
+   "impressions": 135,
    "position": 7.4
   },
   {
    "page": "/ar/districts/al-yarmuk/",
-   "impressions": 118,
+   "impressions": 117,
    "position": 5.7
   },
   {
@@ -317,14 +317,14 @@
    "position": 7.5
   },
   {
-   "page": "/stations/transportation-center/",
-   "impressions": 97,
-   "position": 6.5
-  },
-  {
    "page": "/ar/routes/riyadh-airport-to-princess-nourah-university/",
    "impressions": 96,
    "position": 5.8
+  },
+  {
+   "page": "/stations/transportation-center/",
+   "impressions": 95,
+   "position": 6.1
   },
   {
    "page": "/ar/stations/ad-dar-al-baida/",
@@ -404,8 +404,8 @@
    "not_checked": 0
   },
   "en home-other-language": {
-   "indexed": 5,
-   "not_indexed": 1,
+   "indexed": 6,
+   "not_indexed": 0,
    "not_checked": 0
   },
   "en lines": {
@@ -447,11 +447,11 @@
  "request_today": [],
  "languages": {
   "en": {
-   "impressions": 2492,
+   "impressions": 2499,
    "clicks": 11
   },
   "ar": {
-   "impressions": 2071,
+   "impressions": 2068,
    "clicks": 37
   }
  },
