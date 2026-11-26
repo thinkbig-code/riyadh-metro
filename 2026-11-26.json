@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-26T09:34:45Z",
+ "generated": "2026-11-26T13:09:57Z",
  "start": "2026-10-27",
  "end": "2026-11-27",
  "total": {
-  "total": 1591,
+  "total": 1595,
   "total_events": 391,
-  "total_utc": 1591,
+  "total_utc": 1595,
   "stats": [
    {
     "day": "2026-10-27",
@@ -189,7 +189,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1171
+    "monthly": 1175
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 91
+    "weekly": 95
    },
    {
     "day": "2026-11-25",
@@ -932,10 +932,10 @@
      6,
      1,
      1,
+     1,
      0,
-     0,
-     0,
-     0,
+     2,
+     1,
      0,
      0,
      0,
@@ -943,7 +943,7 @@
      0,
      0
     ],
-    "daily": 18
+    "daily": 22
    },
    {
     "day": "2026-11-27",
@@ -2163,6 +2163,18 @@
    }
   },
   {
+   "path": "/stations/al-bat-ha",
+   "path_id": 121272182,
+   "title": "Al Bat'ha Metro Station, Riyadh: Blue Line, No. 17",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-12": 1,
+    "2026-11-22": 1,
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/ar/destinations/king-faisal-specialist-hospital",
    "path_id": 121180505,
    "title": "محطة مترو مستشفى الملك فيصل التخصصي: محطة وزارة الداخلية (المسار الأزرق)",
@@ -2772,17 +2784,6 @@
    }
   },
   {
-   "path": "/stations/al-bat-ha",
-   "path_id": 121272182,
-   "title": "Al Bat'ha Metro Station, Riyadh: Blue Line, No. 17",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-12": 1,
-    "2026-11-22": 1
-   }
-  },
-  {
    "path": "route/p_king_khalid_airport_terminals_1_2/p_riyadh_north_railway_station",
    "path_id": 120880809,
    "title": "en|link|ok",
@@ -3325,6 +3326,17 @@
    }
   },
   {
+   "path": "/lines/red-line",
+   "path_id": 113262876,
+   "title": "Riyadh Metro Red Line (Line 2): Stations, Map and Hours",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-25": 1,
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/routes/riyadh-airport-to-al-batha",
    "path_id": 113022809,
    "title": "Riyadh Airport to Al Batha by metro: Time, Fare and Steps",
@@ -3455,6 +3467,17 @@
    }
   },
   {
+   "path": "/ar/destinations/aster-sanad-hospital",
+   "path_id": 112080374,
+   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/ar/stations/al-malaz",
    "path_id": 112035318,
    "title": "محطة الملز، مترو الرياض: المسار البرتقالي (رقم 54)",
@@ -3573,6 +3596,16 @@
    "daily": {
     "2026-11-08": 1,
     "2026-11-17": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-olaya-street",
+   "path_id": 127502669,
+   "title": "Riyadh Airport to Olaya Street by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-26": 1
    }
   },
   {
@@ -5986,16 +6019,6 @@
    }
   },
   {
-   "path": "/lines/red-line",
-   "path_id": 113262876,
-   "title": "Riyadh Metro Red Line (Line 2): Stations, Map and Hours",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-25": 1
-   }
-  },
-  {
    "path": "/ar/districts/al-murabba",
    "path_id": 113259520,
    "title": "أقرب محطة مترو لحي المربع في الرياض: محطة الجوازات (داخل الحي)",
@@ -6213,16 +6236,6 @@
    "count": 1,
    "daily": {
     "2026-11-11": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/aster-sanad-hospital",
-   "path_id": 112080374,
-   "title": "محطة مترو مستشفى أستر سند: محطة غرناطة (المسار البنفسجي)، 21 دقيقة سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-10-30": 1
    }
   },
   {
@@ -6818,9 +6831,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1200,
+  "visits": 1204,
   "events_total": 391,
-  "goatcounter_total_with_events": 1591,
+  "goatcounter_total_with_events": 1595,
   "page_loads_by_day": {
    "2026-10-27": 12,
    "2026-10-28": 21,
@@ -6852,7 +6865,7 @@
    "2026-11-23": 13,
    "2026-11-24": 25,
    "2026-11-25": 41,
-   "2026-11-26": 12
+   "2026-11-26": 16
   },
   "visitor_days_by_day": {
    "2026-10-27": 6,
@@ -8963,13 +8976,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 497,
+   "count": 498,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 480,
+   "count": 481,
    "ref_scheme": "g"
   },
   {
@@ -8981,7 +8994,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 75,
+   "count": 77,
    "ref_scheme": "h"
   },
   {
@@ -9265,12 +9278,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 963
+   "count": 966
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 603
+   "count": 604
   },
   {
    "id": "fra",
@@ -9317,7 +9330,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1354
+   "count": 1356
   },
   {
    "id": "US",
@@ -9337,7 +9350,7 @@
   {
    "id": "ID",
    "name": "Indonesia",
-   "count": 15
+   "count": 16
   },
   {
    "id": "DE",
@@ -9505,6 +9518,11 @@
    "count": 1
   },
   {
+   "id": "QA",
+   "name": "Qatar",
+   "count": 1
+  },
+  {
    "id": "SV",
    "name": "El Salvador",
    "count": 1
@@ -9519,7 +9537,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1258
+   "count": 1260
   },
   {
    "id": "tablet",
@@ -9529,7 +9547,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 289
+   "count": 291
   },
   {
    "id": "desktophd",
@@ -9546,7 +9564,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 893
+   "count": 897
   },
   {
    "id": "Safari",
@@ -9572,12 +9590,12 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 600
+   "count": 602
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 255
+   "count": 257
   },
   {
    "id": "Linux",
