@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-26T13:09:57Z",
+ "generated": "2026-11-26T22:35:42Z",
  "start": "2026-10-27",
  "end": "2026-11-27",
  "total": {
-  "total": 1595,
-  "total_events": 391,
-  "total_utc": 1595,
+  "total": 1610,
+  "total_events": 392,
+  "total_utc": 1610,
   "stats": [
    {
     "day": "2026-10-27",
@@ -189,7 +189,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1175
+    "monthly": 1190
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      1
     ],
     "daily": 29,
-    "weekly": 95
+    "weekly": 110
    },
    {
     "day": "2026-11-25",
@@ -935,21 +935,21 @@
      1,
      0,
      2,
+     3,
+     0,
+     4,
+     1,
      1,
      0,
-     0,
-     0,
-     0,
-     0,
-     0
+     2
     ],
-    "daily": 22
+    "daily": 32
    },
    {
     "day": "2026-11-27",
     "hourly": [
-     0,
-     0,
+     3,
+     2,
      0,
      0,
      0,
@@ -973,7 +973,7 @@
      0,
      0
     ],
-    "daily": 0
+    "daily": 5
    }
   ]
  },
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 160,
+   "count": 161,
    "daily": {
     "2026-10-27": 5,
     "2026-10-28": 8,
@@ -1014,7 +1014,7 @@
     "2026-11-23": 5,
     "2026-11-24": 3,
     "2026-11-25": 3,
-    "2026-11-26": 2
+    "2026-11-26": 3
    }
   },
   {
@@ -1022,7 +1022,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 116,
+   "count": 117,
    "daily": {
     "2026-10-27": 4,
     "2026-10-28": 5,
@@ -1051,7 +1051,7 @@
     "2026-11-23": 3,
     "2026-11-24": 2,
     "2026-11-25": 2,
-    "2026-11-26": 1
+    "2026-11-26": 2
    }
   },
   {
@@ -2385,6 +2385,17 @@
    }
   },
   {
+   "path": "/stations/kafd",
+   "path_id": 115428103,
+   "title": "KAFD Metro Station, Riyadh: Blue/Yellow/Purple lines, No. 3",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-11-11": 2,
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/ar/stations/dhahrat-al-badiah",
    "path_id": 115382579,
    "title": "محطة ظهرة البديعة، مترو الرياض: المسار البرتقالي (رقم 45)",
@@ -2710,6 +2721,16 @@
    }
   },
   {
+   "path": "/districts/al-qura",
+   "path_id": 127733751,
+   "title": "Nearest Metro Station to Al Qura, Riyadh: Qasr Al Hokm (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-27": 2
+   }
+  },
+  {
    "path": "/ar/stations/sabic",
    "path_id": 126760081,
    "title": "محطة سابك، مترو الرياض: المسار الأصفر والمسار البنفسجي (رقم 63)",
@@ -2771,6 +2792,17 @@
    "daily": {
     "2026-11-15": 1,
     "2026-11-25": 1
+   }
+  },
+  {
+   "path": "/stations/gosi",
+   "path_id": 122584535,
+   "title": "GOSI Metro Station, Riyadh: Green Line, No. 73",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-15": 1,
+    "2026-11-26": 1
    }
   },
   {
@@ -2969,6 +3001,17 @@
    }
   },
   {
+   "path": "/routes/kafd-to-al-batha",
+   "path_id": 117417345,
+   "title": "KAFD to Al Batha by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-27": 1
+   }
+  },
+  {
    "path": "/ar/destinations/al-nakheel-tower",
    "path_id": 117415214,
    "title": "محطة مترو برج النخيل: محطة المروج (المسار الأزرق)، 11 دقيقة سيراً",
@@ -3154,16 +3197,6 @@
    }
   },
   {
-   "path": "/stations/kafd",
-   "path_id": 115428103,
-   "title": "KAFD Metro Station, Riyadh: Blue/Yellow/Purple lines, No. 3",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-11-11": 2
-   }
-  },
-  {
    "path": "/stations/ad-dar-al-baida",
    "path_id": 115352981,
    "title": "Ad Dar Al Baida Metro Station, Riyadh: Blue Line, No. 25",
@@ -3250,6 +3283,17 @@
    }
   },
   {
+   "path": "/districts/al-nahdah",
+   "path_id": 114572064,
+   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-25": 1,
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/ar/destinations/al-qasr-mall",
    "path_id": 114328700,
    "title": "محطة مترو القصر مول: محطة سلطانة (المسار البرتقالي)",
@@ -3323,6 +3367,17 @@
    "daily": {
     "2026-10-31": 1,
     "2026-11-11": 1
+   }
+  },
+  {
+   "path": "/ar/destinations/king-khalid-university-hospital",
+   "path_id": 113279596,
+   "title": "محطة مترو مستشفى الملك خالد الجامعي: محطة جامعة الملك سعود، 12 دقيقة سيراً",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-04": 1,
+    "2026-11-26": 1
    }
   },
   {
@@ -3596,6 +3651,46 @@
    "daily": {
     "2026-11-08": 1,
     "2026-11-17": 1
+   }
+  },
+  {
+   "path": "/districts/sultanah",
+   "path_id": 127743381,
+   "title": "Nearest Metro Station to Sultanah, Riyadh: Sultanah, 1.1 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
+   }
+  },
+  {
+   "path": "/districts/al-sahafah",
+   "path_id": 127701905,
+   "title": "Nearest Metro Station to Al Sahafah, Riyadh: Dr Sulaiman Al Habib (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-26": 1
+   }
+  },
+  {
+   "path": "/ar/stations/al-hilla",
+   "path_id": 127636470,
+   "title": "محطة الحلة، مترو الرياض: المسار البرتقالي (رقم 49)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-26": 1
+   }
+  },
+  {
+   "path": "/districts/meakal",
+   "path_id": 127579103,
+   "title": "Nearest Metro Station to Meakal, Riyadh: Courts Complex, 0.5 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-26": 1
    }
   },
   {
@@ -4082,16 +4177,6 @@
    "path": "/ar/destinations/king-fahad-cultural-centre",
    "path_id": 122615831,
    "title": "محطة مترو مركز الملك فهد الثقافي: محطة ظهرة البديعة (المسار البرتقالي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-15": 1
-   }
-  },
-  {
-   "path": "/stations/gosi",
-   "path_id": 122584535,
-   "title": "GOSI Metro Station, Riyadh: Green Line, No. 73",
    "event": false,
    "count": 1,
    "daily": {
@@ -4969,16 +5054,6 @@
    }
   },
   {
-   "path": "/routes/kafd-to-al-batha",
-   "path_id": 117417345,
-   "title": "KAFD to Al Batha by metro: Time, Fare and Steps",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-01": 1
-   }
-  },
-  {
    "path": "/destinations/sama-money-museum",
    "path_id": 117413038,
    "title": "SAMA Money Museum Metro Station: Ministry of Interior, 21 min walk",
@@ -5809,6 +5884,16 @@
    }
   },
   {
+   "path": "/routes/riyadh-railway-station-to-kafd",
+   "path_id": 114893882,
+   "title": "Riyadh Railway Station to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-26": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-shohda",
    "path_id": 114703526,
    "title": "أقرب محطة مترو لحي الشهداء في الرياض: محطة غرناطة (داخل الحي)",
@@ -5826,16 +5911,6 @@
    "count": 1,
    "daily": {
     "2026-11-11": 1
-   }
-  },
-  {
-   "path": "/districts/al-nahdah",
-   "path_id": 114572064,
-   "title": "Nearest Metro Station to Al Nahdah, Riyadh: Al Andalus (in the district)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-25": 1
    }
   },
   {
@@ -5999,6 +6074,16 @@
    }
   },
   {
+   "path": "/routes/riyadh-airport-to-kafd",
+   "path_id": 113287055,
+   "title": "Riyadh Airport to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
+   }
+  },
+  {
    "path": "/ar/stations/stc",
    "path_id": 113281106,
    "title": "محطة stc، مترو الرياض: المسار الأزرق والمسار الأحمر (رقم 7)",
@@ -6006,16 +6091,6 @@
    "count": 1,
    "daily": {
     "2026-10-31": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/king-khalid-university-hospital",
-   "path_id": 113279596,
-   "title": "محطة مترو مستشفى الملك خالد الجامعي: محطة جامعة الملك سعود، 12 دقيقة سيراً",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-04": 1
    }
   },
   {
@@ -6831,9 +6906,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1204,
-  "events_total": 391,
-  "goatcounter_total_with_events": 1595,
+  "visits": 1218,
+  "events_total": 392,
+  "goatcounter_total_with_events": 1610,
   "page_loads_by_day": {
    "2026-10-27": 12,
    "2026-10-28": 21,
@@ -6865,7 +6940,8 @@
    "2026-11-23": 13,
    "2026-11-24": 25,
    "2026-11-25": 41,
-   "2026-11-26": 16
+   "2026-11-26": 25,
+   "2026-11-27": 5
   },
   "visitor_days_by_day": {
    "2026-10-27": 6,
@@ -6897,10 +6973,10 @@
    "2026-11-23": 5,
    "2026-11-24": 2,
    "2026-11-25": 3,
-   "2026-11-26": 1
+   "2026-11-26": 2
   },
-  "visitor_days": 168,
-  "return_rate": 0.31,
+  "visitor_days": 169,
+  "return_rate": 0.308,
   "routes": 99,
   "routes_not_found": 0,
   "routes_per_visit": 0.08,
@@ -6961,7 +7037,7 @@
    "denied": 1
   },
   "visitors_new_return": {
-   "new": 116,
+   "new": 117,
    "return": 52
   },
   "top_routes": [
@@ -7115,7 +7191,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 109
+    "count": 110
    },
    {
     "name": "Google",
@@ -8057,7 +8133,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 109
+    "count": 110
    },
    {
     "path": "/ar/districts/qurtubah",
@@ -8976,7 +9052,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 498,
+   "count": 508,
    "ref_scheme": "o"
   },
   {
@@ -8988,7 +9064,7 @@
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 276,
+   "count": 281,
    "ref_scheme": "c"
   },
   {
@@ -9278,12 +9354,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 966
+   "count": 978
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 604
+   "count": 607
   },
   {
    "id": "fra",
@@ -9330,12 +9406,12 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1356
+   "count": 1364
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 54
+   "count": 56
   },
   {
    "id": "AE",
@@ -9350,7 +9426,7 @@
   {
    "id": "ID",
    "name": "Indonesia",
-   "count": 16
+   "count": 17
   },
   {
    "id": "DE",
@@ -9373,14 +9449,14 @@
    "count": 9
   },
   {
+   "id": "BR",
+   "name": "Brazil",
+   "count": 8
+  },
+  {
    "id": "CH",
    "name": "Switzerland",
    "count": 7
-  },
-  {
-   "id": "BR",
-   "name": "Brazil",
-   "count": 6
   },
   {
    "id": "IN",
@@ -9423,6 +9499,11 @@
    "count": 4
   },
   {
+   "id": "VN",
+   "name": "Vietnam",
+   "count": 4
+  },
+  {
    "id": "CO",
    "name": "Colombia",
    "count": 3
@@ -9430,11 +9511,6 @@
   {
    "id": "PK",
    "name": "Pakistan",
-   "count": 3
-  },
-  {
-   "id": "VN",
-   "name": "Vietnam",
    "count": 3
   },
   {
@@ -9466,6 +9542,11 @@
    "id": "SE",
    "name": "Sweden",
    "count": 2
+  },
+  {
+   "id": "AR",
+   "name": "Argentina",
+   "count": 1
   },
   {
    "id": "BA",
@@ -9537,7 +9618,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1260
+   "count": 1268
   },
   {
    "id": "tablet",
@@ -9547,7 +9628,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 291
+   "count": 298
   },
   {
    "id": "desktophd",
@@ -9564,12 +9645,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 897
+   "count": 907
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 662
+   "count": 667
   },
   {
    "id": "Firefox",
@@ -9585,17 +9666,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 662
+   "count": 667
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 602
+   "count": 605
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 257
+   "count": 264
   },
   {
    "id": "Linux",
