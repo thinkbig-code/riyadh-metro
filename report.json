@@ -1,19 +1,19 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "gsc_period": [
-  "2026-10-28",
-  "2026-11-25"
+  "2026-10-29",
+  "2026-11-26"
  ],
- "index_checked": "2026-11-25T09:55:44Z",
+ "index_checked": "2026-11-26T09:38:11Z",
  "low_ctr_queries": [
   {
    "query": "riyadh metro map",
-   "impressions": 216,
+   "impressions": 213,
    "clicks": 3,
    "position": 3.6,
    "page": "/map/",
-   "lost_clicks": 12.12
+   "lost_clicks": 11.91
   },
   {
    "query": "اقرب محطه",
@@ -64,20 +64,20 @@
    "lost_clicks": 2.8
   },
   {
+   "query": "اقرب محطه مترو",
+   "impressions": 66,
+   "clicks": 1,
+   "position": 4.7,
+   "page": "/ar/nearest-station/",
+   "lost_clicks": 2.3
+  },
+  {
    "query": "transportation center",
    "impressions": 23,
    "clicks": 0,
    "position": 3.4,
    "page": "/stations/transportation-center/",
    "lost_clicks": 2.3
-  },
-  {
-   "query": "اقرب محطه مترو",
-   "impressions": 65,
-   "clicks": 1,
-   "position": 4.7,
-   "page": "/ar/nearest-station/",
-   "lost_clicks": 2.25
   },
   {
    "query": "خريطة مترو الرياض 2026",
@@ -176,6 +176,12 @@
    "page": "/map/"
   },
   {
+   "query": "sultana metro station",
+   "impressions": 24,
+   "position": 11.3,
+   "page": "/districts/sultanah/"
+  },
+  {
    "query": "riyadh railway station",
    "impressions": 21,
    "position": 11,
@@ -195,15 +201,9 @@
   },
   {
    "query": "metro map riyadh",
-   "impressions": 9,
-   "position": 19.8,
+   "impressions": 10,
+   "position": 17.9,
    "page": "/map/"
-  },
-  {
-   "query": "riyadh metro route map",
-   "impressions": 8,
-   "position": 12,
-   "page": "/"
   },
   {
    "query": "sab metro station riyadh",
@@ -230,6 +230,12 @@
    "page": "/fr.html"
   },
   {
+   "query": "riyadh metro route map",
+   "impressions": 7,
+   "position": 13.6,
+   "page": "/"
+  },
+  {
    "query": "nearest metro station to riyadh gallery mall",
    "impressions": 6,
    "position": 11,
@@ -248,12 +254,6 @@
    "page": "/"
   },
   {
-   "query": "aisha bint abu bakr metro station",
-   "impressions": 5,
-   "position": 14.6,
-   "page": "/stations/aishah-bint-abi-bakr-street/"
-  },
-  {
    "query": "metro route riyadh",
    "impressions": 5,
    "position": 14.8,
@@ -263,18 +263,23 @@
  "pages_no_clicks": [
   {
    "page": "/timings/",
-   "impressions": 758,
+   "impressions": 756,
    "position": 6.3
   },
   {
-   "page": "/stations/stc/",
-   "impressions": 146,
-   "position": 8.6
+   "page": "/stations/",
+   "impressions": 281,
+   "position": 9.4
   },
   {
    "page": "/stations/al-aziziah/",
-   "impressions": 143,
-   "position": 6.2
+   "impressions": 144,
+   "position": 6.1
+  },
+  {
+   "page": "/stations/stc/",
+   "impressions": 144,
+   "position": 8.6
   },
   {
    "page": "/ar/destinations/granada-mall/",
@@ -288,8 +293,8 @@
   },
   {
    "page": "/ar/districts/al-yarmuk/",
-   "impressions": 117,
-   "position": 5.7
+   "impressions": 116,
+   "position": 5.4
   },
   {
    "page": "/ar/stations/sabic/",
@@ -330,11 +335,6 @@
    "page": "/ar/stations/ad-dar-al-baida/",
    "impressions": 90,
    "position": 7.5
-  },
-  {
-   "page": "/ar/stations/qasr-al-hokm/",
-   "impressions": 89,
-   "position": 7.6
   }
  ],
  "index_by_type": {
@@ -444,14 +444,17 @@
    "not_checked": 0
   }
  },
- "request_today": [],
+ "request_today": [
+  "https://riyadhmetro.fyi/ar/districts/al-wizarat/",
+  "https://riyadhmetro.fyi/ar/districts/al-wusayta/"
+ ],
  "languages": {
   "en": {
-   "impressions": 2499,
+   "impressions": 2498,
    "clicks": 11
   },
   "ar": {
-   "impressions": 2068,
+   "impressions": 2070,
    "clicks": 37
   }
  },
@@ -478,8 +481,8 @@
   "https://riyadhmetro.fyi/ar/districts/al-sinaiyah/": "2026-11-22",
   "https://riyadhmetro.fyi/ar/districts/king-abdullah/": "2026-11-23",
   "https://riyadhmetro.fyi/ar/districts/olaishah/": "2026-11-23",
-  "https://riyadhmetro.fyi/ar/districts/al-wizarat/": "2026-11-12",
-  "https://riyadhmetro.fyi/ar/districts/al-wusayta/": "2026-11-12",
+  "https://riyadhmetro.fyi/ar/districts/al-wizarat/": "2026-11-26",
+  "https://riyadhmetro.fyi/ar/districts/al-wusayta/": "2026-11-26",
   "https://riyadhmetro.fyi/ar/districts/ar-rabie/": "2026-11-18"
  },
  "_about": "Built by tools/gsc_report.py from gsc.json and gsc_index.json. Positions are averages over the period; lost_clicks = impressions x typical CTR for that position - clicks (a ranking aid, not a forecast)."
