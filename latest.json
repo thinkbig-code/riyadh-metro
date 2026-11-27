@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-27T14:21:20Z",
+ "generated": "2026-11-27T22:56:53Z",
  "start": "2026-10-28",
  "end": "2026-11-28",
  "total": {
-  "total": 1604,
-  "total_events": 384,
-  "total_utc": 1600,
+  "total": 1612,
+  "total_events": 385,
+  "total_utc": 1608,
   "stats": [
    {
     "day": "2026-10-28",
@@ -159,7 +159,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1209
+    "monthly": 1217
    },
    {
     "day": "2026-11-02",
@@ -883,7 +883,7 @@
      3
     ],
     "daily": 44,
-    "weekly": 100
+    "weekly": 108
    },
    {
     "day": "2026-11-26",
@@ -938,12 +938,12 @@
      0,
      0,
      0,
-     0,
-     0,
-     0,
-     0
+     4,
+     1,
+     2,
+     1
     ],
-    "daily": 24
+    "daily": 32
    },
    {
     "day": "2026-11-28",
@@ -983,7 +983,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 157,
+   "count": 158,
    "daily": {
     "2026-10-28": 8,
     "2026-10-29": 14,
@@ -1014,7 +1014,7 @@
     "2026-11-24": 3,
     "2026-11-25": 3,
     "2026-11-26": 3,
-    "2026-11-27": 1
+    "2026-11-27": 2
    }
   },
   {
@@ -1022,7 +1022,7 @@
    "path_id": 110432364,
    "title": "en",
    "event": true,
-   "count": 113,
+   "count": 114,
    "daily": {
     "2026-10-28": 5,
     "2026-10-29": 10,
@@ -1050,7 +1050,8 @@
     "2026-11-23": 3,
     "2026-11-24": 2,
     "2026-11-25": 2,
-    "2026-11-26": 2
+    "2026-11-26": 2,
+    "2026-11-27": 1
    }
   },
   {
@@ -3432,6 +3433,17 @@
    }
   },
   {
+   "path": "/ar/stations/kafd",
+   "path_id": 112914858,
+   "title": "محطة المركز المالي، مترو الرياض: المسار الأزرق، المسار الأصفر والمسار البنفسجي (رقم 3)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-20": 1,
+    "2026-11-27": 1
+   }
+  },
+  {
    "path": "/districts/al-quds",
    "path_id": 112744968,
    "title": "Nearest Metro Station to Al Quds, Riyadh: Khalid Bin Alwaleed Road (in the district)",
@@ -3607,6 +3619,17 @@
    }
   },
   {
+   "path": "/ar/districts/north-mathar",
+   "path_id": 111103818,
+   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-01": 1,
+    "2026-11-27": 1
+   }
+  },
+  {
    "path": "/ar/districts/al-awaly",
    "path_id": 111083087,
    "title": "أقرب محطة مترو لحي العوالي في الرياض: محطة المحطة الغربية، 2.6 كم",
@@ -3681,6 +3704,46 @@
    "daily": {
     "2026-11-08": 1,
     "2026-11-17": 1
+   }
+  },
+  {
+   "path": "/districts/thulaim",
+   "path_id": 128348480,
+   "title": "Nearest Metro Station to Thulaim, Riyadh: As Salhiyah, 0.6 km",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-diplomatic-quarter",
+   "path_id": 128332139,
+   "title": "Riyadh Airport to Diplomatic Quarter by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
+   }
+  },
+  {
+   "path": "/stations/kacst",
+   "path_id": 128317818,
+   "title": "KACST Metro Station, Riyadh: Red Line, No. 28",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-riyadh-railway-station",
+   "path_id": 128254391,
+   "title": "Riyadh Airport to Riyadh Railway Station by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-27": 1
    }
   },
   {
@@ -6204,16 +6267,6 @@
    }
   },
   {
-   "path": "/ar/stations/kafd",
-   "path_id": 112914858,
-   "title": "محطة المركز المالي، مترو الرياض: المسار الأزرق، المسار الأصفر والمسار البنفسجي (رقم 3)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-20": 1
-   }
-  },
-  {
    "path": "/districts/al-nafel",
    "path_id": 112790868,
    "title": "Nearest Metro Station to Al Nafel, Riyadh: Ar Rabi (in the district)",
@@ -6481,16 +6534,6 @@
    "count": 1,
    "daily": {
     "2026-11-07": 1
-   }
-  },
-  {
-   "path": "/ar/districts/north-mathar",
-   "path_id": 111103818,
-   "title": "أقرب محطة مترو لحي المعذر الشمالي في الرياض: محطة بنك البلاد، 1.8 كم",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-01": 1
    }
   },
   {
@@ -6926,9 +6969,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 1220,
-  "events_total": 384,
-  "goatcounter_total_with_events": 1604,
+  "visits": 1227,
+  "events_total": 385,
+  "goatcounter_total_with_events": 1612,
   "page_loads_by_day": {
    "2026-10-28": 19,
    "2026-10-29": 47,
@@ -6960,7 +7003,7 @@
    "2026-11-24": 25,
    "2026-11-25": 41,
    "2026-11-26": 25,
-   "2026-11-27": 21
+   "2026-11-27": 28
   },
   "visitor_days_by_day": {
    "2026-10-28": 8,
@@ -6992,14 +7035,14 @@
    "2026-11-24": 2,
    "2026-11-25": 3,
    "2026-11-26": 2,
-   "2026-11-27": 1
+   "2026-11-27": 2
   },
-  "visitor_days": 164,
-  "return_rate": 0.311,
+  "visitor_days": 165,
+  "return_rate": 0.309,
   "routes": 98,
   "routes_not_found": 0,
   "routes_per_visit": 0.08,
-  "routes_per_visitor_day": 0.6,
+  "routes_per_visitor_day": 0.59,
   "share_rate": 0.031,
   "shares": {
    "card": 1,
@@ -7055,7 +7098,7 @@
    "far": 8
   },
   "visitors_new_return": {
-   "new": 113,
+   "new": 114,
    "return": 51
   },
   "top_routes": [
@@ -7213,7 +7256,7 @@
    },
    {
     "name": "Google",
-    "count": 7
+    "count": 8
    },
    {
     "name": "chatgpt.com",
@@ -8288,16 +8331,16 @@
     "count": 12
    },
    {
+    "path": "/",
+    "count": 8
+   },
+   {
     "path": "/ar/districts/qurtubah",
     "count": 8
    },
    {
     "path": "/ar/districts/al-arid",
     "count": 8
-   },
-   {
-    "path": "/",
-    "count": 7
    },
    {
     "path": "/ar/districts/al-aqeeq",
@@ -9080,13 +9123,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 508,
+   "count": 513,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 482,
+   "count": 485,
    "ref_scheme": "g"
   },
   {
@@ -9382,12 +9425,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 969
+   "count": 974
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 610
+   "count": 611
   },
   {
    "id": "fra",
@@ -9405,14 +9448,14 @@
    "count": 5
   },
   {
+   "id": "rus",
+   "name": "Russian",
+   "count": 4
+  },
+  {
    "id": "spa",
    "name": "Spanish",
    "count": 3
-  },
-  {
-   "id": "rus",
-   "name": "Russian",
-   "count": 2
   },
   {
    "id": "bos",
@@ -9434,17 +9477,17 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 1360
+   "count": 1361
   },
   {
    "id": "US",
    "name": "United States",
-   "count": 57
+   "count": 61
   },
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 22
+   "count": 25
   },
   {
    "id": "AE",
@@ -9651,7 +9694,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 1256
+   "count": 1259
   },
   {
    "id": "tablet",
@@ -9661,7 +9704,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 304
+   "count": 309
   },
   {
    "id": "desktophd",
@@ -9678,7 +9721,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 902
+   "count": 910
   },
   {
    "id": "Safari",
@@ -9704,17 +9747,17 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 594
+   "count": 597
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 270
+   "count": 274
   },
   {
    "id": "Linux",
    "name": "Linux",
-   "count": 37
+   "count": 38
   },
   {
    "id": "macOS",
