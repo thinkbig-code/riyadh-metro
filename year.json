@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-27T09:43:32Z",
+ "generated": "2026-11-27T14:22:42Z",
  "start": "2025-11-27",
  "end": "2026-11-28",
  "total": {
-  "total": 4677,
-  "total_events": 1928,
-  "total_utc": 4677,
+  "total": 4681,
+  "total_events": 1929,
+  "total_utc": 4681,
   "stats": [
    {
     "day": "2025-11-27",
@@ -10213,7 +10213,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1205
+    "monthly": 1209
    },
    {
     "day": "2026-11-02",
@@ -10967,7 +10967,7 @@
      2
     ],
     "daily": 32,
-    "weekly": 52
+    "weekly": 56
    },
    {
     "day": "2026-11-27",
@@ -10987,8 +10987,8 @@
      3,
      1,
      0,
-     0,
-     0,
+     2,
+     2,
      0,
      0,
      0,
@@ -10997,7 +10997,7 @@
      0,
      0
     ],
-    "daily": 20
+    "daily": 24
    },
    {
     "day": "2026-11-28",
@@ -11037,7 +11037,7 @@
    "path_id": 109278741,
    "title": "Interactive Riyadh Metro Map: all 6 lines",
    "event": false,
-   "count": 863,
+   "count": 864,
    "daily": {
     "2026-10-02": 2,
     "2026-10-03": 9,
@@ -11093,7 +11093,8 @@
     "2026-11-23": 5,
     "2026-11-24": 3,
     "2026-11-25": 3,
-    "2026-11-26": 3
+    "2026-11-26": 3,
+    "2026-11-27": 1
    }
   },
   {
@@ -11198,7 +11199,7 @@
    "path_id": 110708664,
    "title": "en",
    "event": true,
-   "count": 116,
+   "count": 117,
    "daily": {
     "2026-10-09": 2,
     "2026-10-10": 4,
@@ -11240,7 +11241,8 @@
     "2026-11-19": 2,
     "2026-11-22": 1,
     "2026-11-23": 2,
-    "2026-11-25": 1
+    "2026-11-25": 1,
+    "2026-11-27": 1
    }
   },
   {
@@ -12607,6 +12609,21 @@
    }
   },
   {
+   "path": "/ar/destinations/wadi-namar-park",
+   "path_id": 112323556,
+   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 6,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-10-19": 1,
+    "2026-10-22": 1,
+    "2026-10-23": 1,
+    "2026-10-29": 1,
+    "2026-11-27": 1
+   }
+  },
+  {
    "path": "/destinations/al-qasr-mall",
    "path_id": 112303146,
    "title": "Al Qasr Mall Metro Station: Sultanah (Orange Line)",
@@ -12972,20 +12989,6 @@
     "2026-10-30": 1,
     "2026-11-07": 1,
     "2026-11-27": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/wadi-namar-park",
-   "path_id": 112323556,
-   "title": "محطة مترو منتزه وادي نمار: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 5,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-10-19": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1,
-    "2026-10-29": 1
    }
   },
   {
@@ -14350,6 +14353,18 @@
    "daily": {
     "2026-10-16": 1,
     "2026-10-25": 2
+   }
+  },
+  {
+   "path": "/ar/destinations/al-suwaidi-park",
+   "path_id": 112343147,
+   "title": "محطة مترو حديقة السويدي: محطة سلطانة (المسار البرتقالي)",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-16": 1,
+    "2026-11-18": 1,
+    "2026-11-27": 1
    }
   },
   {
@@ -15919,17 +15934,6 @@
    "daily": {
     "2026-10-16": 1,
     "2026-11-06": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/al-suwaidi-park",
-   "path_id": 112343147,
-   "title": "محطة مترو حديقة السويدي: محطة سلطانة (المسار البرتقالي)",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-16": 1,
-    "2026-11-18": 1
    }
   },
   {
@@ -24905,9 +24909,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2749,
-  "events_total": 1928,
-  "goatcounter_total_with_events": 4677,
+  "visits": 2752,
+  "events_total": 1929,
+  "goatcounter_total_with_events": 4681,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -24965,7 +24969,7 @@
    "2026-11-24": 25,
    "2026-11-25": 41,
    "2026-11-26": 25,
-   "2026-11-27": 18
+   "2026-11-27": 21
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25016,14 +25020,15 @@
    "2026-11-23": 5,
    "2026-11-24": 2,
    "2026-11-25": 3,
-   "2026-11-26": 2
+   "2026-11-26": 2,
+   "2026-11-27": 1
   },
-  "visitor_days": 758,
-  "return_rate": 0.153,
+  "visitor_days": 759,
+  "return_rate": 0.154,
   "routes": 514,
   "routes_not_found": 0,
   "routes_per_visit": 0.19,
-  "routes_per_visitor_day": 0.65,
+  "routes_per_visitor_day": 0.64,
   "share_rate": 0.031,
   "shares": {
    "card": 2,
@@ -25152,7 +25157,7 @@
   },
   "visitors_new_return": {
    "new": 642,
-   "return": 116
+   "return": 117
   },
   "top_routes": [
    {
@@ -25305,7 +25310,7 @@
   "/": [
    {
     "name": "(direct or unknown)",
-    "count": 575
+    "count": 576
    },
    {
     "name": "tiktok_ad",
@@ -26383,7 +26388,7 @@
   "(direct or unknown)": [
    {
     "path": "/",
-    "count": 575
+    "count": 576
    },
    {
     "path": "/ar/map",
@@ -27472,7 +27477,7 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2093,
+   "count": 2096,
    "ref_scheme": "o"
   },
   {
@@ -27774,7 +27779,7 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3245
+   "count": 3249
   },
   {
    "id": "ara",
@@ -27856,7 +27861,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3931
+   "count": 3933
   },
   {
    "id": "US",
@@ -27871,7 +27876,7 @@
   {
    "id": "GB",
    "name": "United Kingdom",
-   "count": 74
+   "count": 76
   },
   {
    "id": "CA",
@@ -28108,7 +28113,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3731
+   "count": 3735
   },
   {
    "id": "tablet",
@@ -28135,7 +28140,7 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2515
+   "count": 2519
   },
   {
    "id": "Safari",
@@ -28161,7 +28166,7 @@
   {
    "id": "Android",
    "name": "Android",
-   "count": 1726
+   "count": 1730
   },
   {
    "id": "Windows",
