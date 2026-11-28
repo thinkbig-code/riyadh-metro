@@ -1,59 +1,51 @@
 {
  "host": "riyadhmetro.fyi",
- "generated": "2026-11-27",
+ "generated": "2026-11-28",
  "gsc_period": [
-  "2026-10-30",
-  "2026-11-27"
+  "2026-10-31",
+  "2026-11-28"
  ],
- "index_checked": "2026-11-27T09:45:07Z",
+ "index_checked": "2026-11-28T08:58:54Z",
  "low_ctr_queries": [
   {
-   "query": "riyadh metro map",
-   "impressions": 196,
-   "clicks": 3,
-   "position": 4.3,
-   "page": "/map/",
-   "lost_clicks": 10.72
-  },
-  {
    "query": "اقرب محطه",
-   "impressions": 329,
+   "impressions": 274,
    "clicks": 0,
-   "position": 7.3,
+   "position": 8.0,
    "page": "/ar/nearest-station/",
-   "lost_clicks": 9.87
+   "lost_clicks": 8.22
   },
   {
    "query": "اقرب محطه من موقعي",
-   "impressions": 264,
+   "impressions": 232,
    "clicks": 0,
-   "position": 6.4,
-   "page": "/",
-   "lost_clicks": 7.92
+   "position": 6.5,
+   "page": "/ar/nearest-station/",
+   "lost_clicks": 6.96
+  },
+  {
+   "query": "riyadh metro map",
+   "impressions": 176,
+   "clicks": 3,
+   "position": 4.6,
+   "page": "/map/",
+   "lost_clicks": 5.8
   },
   {
    "query": "خريطة المترو",
-   "impressions": 74,
+   "impressions": 71,
    "clicks": 0,
-   "position": 3.9,
+   "position": 4.1,
    "page": "/",
-   "lost_clicks": 5.18
+   "lost_clicks": 4.97
   },
   {
    "query": "خطوط مترو الرياض",
-   "impressions": 20,
-   "clicks": 1,
+   "impressions": 12,
+   "clicks": 0,
    "position": 1,
-   "page": "/ar/lines/",
-   "lost_clicks": 4.6
-  },
-  {
-   "query": "خريطة مترو الرياض",
-   "impressions": 103,
-   "clicks": 2,
-   "position": 5.3,
-   "page": "/ar/map/",
-   "lost_clicks": 3.15
+   "page": "/",
+   "lost_clicks": 3.36
   },
   {
    "query": "riyadh metro station | sab",
@@ -64,39 +56,47 @@
    "lost_clicks": 2.8
   },
   {
-   "query": "جدول مترو الرياض",
-   "impressions": 10,
-   "clicks": 0,
-   "position": 1.2,
-   "page": "/",
-   "lost_clicks": 2.8
-  },
-  {
    "query": "خريطة المترو الرياض",
-   "impressions": 10,
-   "clicks": 0,
-   "position": 1,
-   "page": "/",
-   "lost_clicks": 2.8
-  },
-  {
-   "query": "خريطه المترو",
    "impressions": 9,
    "clicks": 0,
-   "position": 1.3,
+   "position": 1,
    "page": "/",
    "lost_clicks": 2.52
   },
   {
+   "query": "جدول مترو الرياض",
+   "impressions": 8,
+   "clicks": 0,
+   "position": 1.2,
+   "page": "/ar/lines/",
+   "lost_clicks": 2.24
+  },
+  {
+   "query": "صوره المترو",
+   "impressions": 8,
+   "clicks": 0,
+   "position": 1,
+   "page": "/",
+   "lost_clicks": 2.24
+  },
+  {
    "query": "اقرب محطه مترو",
-   "impressions": 66,
+   "impressions": 63,
    "clicks": 1,
    "position": 4.7,
    "page": "/ar/nearest-station/",
-   "lost_clicks": 2.3
+   "lost_clicks": 2.15
   },
   {
-   "query": "خريطه مترو الرياض",
+   "query": "خريطه المترو",
+   "impressions": 7,
+   "clicks": 0,
+   "position": 1.4,
+   "page": "/",
+   "lost_clicks": 1.96
+  },
+  {
+   "query": "صورة مترو الرياض",
    "impressions": 7,
    "clicks": 0,
    "position": 1,
@@ -104,12 +104,12 @@
    "lost_clicks": 1.96
   },
   {
-   "query": "transportation center",
-   "impressions": 18,
+   "query": "مترو الرياض خريطة",
+   "impressions": 13,
    "clicks": 0,
-   "position": 3.4,
-   "page": "/stations/transportation-center/",
-   "lost_clicks": 1.8
+   "position": 1.9,
+   "page": "/",
+   "lost_clicks": 1.95
   },
   {
    "query": "خريطة مترو الرياض 2026",
@@ -121,77 +121,71 @@
   },
   {
    "query": "al batha metro station",
-   "impressions": 23,
+   "impressions": 22,
    "clicks": 0,
    "position": 4.0,
    "page": "/destinations/al-batha/",
-   "lost_clicks": 1.61
+   "lost_clicks": 1.54
   },
   {
    "query": "batha metro station",
-   "impressions": 30,
+   "impressions": 29,
    "clicks": 0,
    "position": 5.2,
    "page": "/destinations/al-batha/",
-   "lost_clicks": 1.5
+   "lost_clicks": 1.45
   },
   {
-   "query": "near me metro station",
-   "impressions": 10,
+   "query": "محطات المسار البرتقالي",
+   "impressions": 5,
    "clicks": 0,
-   "position": 2.4,
-   "page": "/nearest-station/",
-   "lost_clicks": 1.5
+   "position": 1,
+   "page": "/",
+   "lost_clicks": 1.4
   },
   {
-   "query": "اقرب محطة مترو من موقعي",
-   "impressions": 85,
-   "clicks": 3,
-   "position": 4.9,
-   "page": "/ar/nearest-station/",
-   "lost_clicks": 1.25
-  },
-  {
-   "query": "transportation center metro station",
-   "impressions": 12,
+   "query": "transportation center",
+   "impressions": 13,
    "clicks": 0,
-   "position": 3.4,
+   "position": 3.5,
    "page": "/stations/transportation-center/",
-   "lost_clicks": 1.2
+   "lost_clicks": 1.3
   },
   {
-   "query": "أقرب محطة مترو",
-   "impressions": 12,
+   "query": "اقرب محطة مترو",
+   "impressions": 38,
    "clicks": 0,
-   "position": 3,
+   "position": 5.8,
    "page": "/ar/nearest-station/",
-   "lost_clicks": 1.2
+   "lost_clicks": 1.14
+  },
+  {
+   "query": "محطة الدار البيضاء",
+   "impressions": 38,
+   "clicks": 0,
+   "position": 7.2,
+   "page": "/",
+   "lost_clicks": 1.14
   }
  ],
  "near_page_one": [
   {
    "query": "metro riyadh map",
-   "impressions": 38,
-   "position": 15.8,
+   "impressions": 33,
+   "position": 14.4,
    "page": "/map/"
   },
   {
    "query": "sultana metro station",
-   "impressions": 23,
-   "position": 11.4,
+   "impressions": 21,
+   "position": 11.7,
    "page": "/districts/sultanah/"
   },
   {
    "query": "thumairi gold market",
-   "impressions": 20,
-   "position": 12.1,
+   "impressions": 13,
+   "position": 11.9,
    "page": "/destinations/gold-souq/"
-  },
-  {
-   "query": "riyadh railway station",
-   "impressions": 19,
-   "position": 11.1,
-   "page": "/destinations/riyadh-railway-station/"
   },
   {
    "query": "al murooj metro station",
@@ -206,18 +200,6 @@
    "page": "/map/"
   },
   {
-   "query": "sab metro station riyadh",
-   "impressions": 8,
-   "position": 11.6,
-   "page": "/stations/sab-bank/"
-  },
-  {
-   "query": "ar rabi metro station",
-   "impressions": 7,
-   "position": 11,
-   "page": "/stations/ar-rabi/"
-  },
-  {
    "query": "riyadh metro",
    "impressions": 7,
    "position": 15.6,
@@ -230,10 +212,10 @@
    "page": "/"
   },
   {
-   "query": "nearest metro station to riyadh gallery mall",
+   "query": "riyadh metro map pdf",
    "impressions": 6,
-   "position": 11,
-   "page": "/destinations/riyadh-gallery-mall/"
+   "position": 11.8,
+   "page": "/"
   },
   {
    "query": "riyadh metro route map",
@@ -242,99 +224,117 @@
    "page": "/"
   },
   {
+   "query": "sab metro station riyadh",
+   "impressions": 6,
+   "position": 13.5,
+   "page": "/stations/sab-bank/"
+  },
+  {
    "query": "uthman bin affan road",
    "impressions": 6,
    "position": 12.2,
    "page": "/stations/uthman-bin-affan-road/"
   },
   {
-   "query": "اقرب محطة مترو للسفارة المصرية بالرياض",
-   "impressions": 6,
-   "position": 11.7,
-   "page": "/destinations/egyptian-embassy/"
+   "query": "ar rabi metro station",
+   "impressions": 4,
+   "position": 11.2,
+   "page": "/stations/ar-rabi/"
   },
   {
-   "query": "metro station near riyadh gallery",
-   "impressions": 5,
-   "position": 11.4,
-   "page": "/destinations/riyadh-gallery-mall/"
+   "query": "riyadh north station",
+   "impressions": 4,
+   "position": 11,
+   "page": "/destinations/riyadh-north-railway-station/"
+  },
+  {
+   "query": "الساعه كم يفتح المترو",
+   "impressions": 4,
+   "position": 10.8,
+   "page": "/ar/timings/"
+  },
+  {
+   "query": "المحطه الغربيه",
+   "impressions": 4,
+   "position": 12.5,
+   "page": "/ar/stations/western-station/"
   }
  ],
  "pages_no_clicks": [
   {
    "page": "/ar/timings/",
-   "impressions": 892,
-   "position": 8.3
-  },
-  {
-   "page": "/timings/",
-   "impressions": 547,
-   "position": 6.4
-  },
-  {
-   "page": "/stations/",
-   "impressions": 260,
-   "position": 9.3
-  },
-  {
-   "page": "/stations/stc/",
-   "impressions": 134,
+   "impressions": 515,
    "position": 8.7
   },
   {
-   "page": "/ar/destinations/granada-mall/",
-   "impressions": 129,
-   "position": 7.4
+   "page": "/timings/",
+   "impressions": 350,
+   "position": 6.6
+  },
+  {
+   "page": "/stations/",
+   "impressions": 227,
+   "position": 9.6
+  },
+  {
+   "page": "/stations/stc/",
+   "impressions": 115,
+   "position": 8.5
   },
   {
    "page": "/ar/stations/king-fahad-stadium/",
-   "impressions": 127,
-   "position": 7.3
+   "impressions": 103,
+   "position": 7.2
+  },
+  {
+   "page": "/ar/destinations/granada-mall/",
+   "impressions": 102,
+   "position": 7.4
   },
   {
    "page": "/stations/al-aziziah/",
-   "impressions": 127,
-   "position": 6.3
+   "impressions": 94,
+   "position": 6.2
+  },
+  {
+   "page": "/destinations/riyadh-gallery-mall/",
+   "impressions": 87,
+   "position": 7.0
   },
   {
    "page": "/ar/routes/riyadh-airport-to-boulevard-city/",
-   "impressions": 121,
+   "impressions": 86,
    "position": 8.2
   },
   {
-   "page": "/ar/districts/al-yarmuk/",
-   "impressions": 109,
-   "position": 5.2
-  },
-  {
-   "page": "/ar/stations/sabic/",
-   "impressions": 106,
-   "position": 6.9
-  },
-  {
    "page": "/ar/stations/dr-sulaiman-al-habib/",
-   "impressions": 105,
-   "position": 8.4
+   "impressions": 86,
+   "position": 8.5
   },
   {
    "page": "/ar/routes/kafd-to-kingdom-centre/",
-   "impressions": 100,
-   "position": 6.4
-  },
-  {
-   "page": "/destinations/national-museum/",
-   "impressions": 99,
-   "position": 9.0
+   "impressions": 83,
+   "position": 6.3
   },
   {
    "page": "/ar/routes/riyadh-airport-to-princess-nourah-university/",
-   "impressions": 96,
-   "position": 5.8
+   "impressions": 83,
+   "position": 5.9
+  },
+  {
+   "page": "/ar/stations/sabic/",
+   "impressions": 82,
+   "position": 6.8
+  },
+  {
+   "page": "/destinations/national-museum/",
+   "impressions": 80,
+   "position": 9.8
   },
   {
    "page": "/ar/routes/kafd-to-diriyah/",
-   "impressions": 91,
-   "position": 7.5
+   "impressions": 73,
+   "position": 7.7
   }
  ],
  "index_by_type": {
@@ -444,21 +444,23 @@
    "not_checked": 0
   }
  },
- "request_today": [],
+ "request_today": [
+  "https://riyadhmetro.fyi/ar/stations/ad-douh/"
+ ],
  "languages": {
   "en": {
-   "impressions": 2253,
-   "clicks": 9
+   "impressions": 1828,
+   "clicks": 8
   },
   "ar": {
-   "impressions": 2052,
-   "clicks": 35
+   "impressions": 1995,
+   "clicks": 28
   }
  },
  "suggested_history": {
   "https://riyadhmetro.fyi/destinations/al-fouta-garden/": "2026-11-23",
   "https://riyadhmetro.fyi/destinations/shola-mall/": "2026-11-12",
-  "https://riyadhmetro.fyi/ar/stations/ad-douh/": "2026-11-14",
+  "https://riyadhmetro.fyi/ar/stations/ad-douh/": "2026-11-28",
   "https://riyadhmetro.fyi/stations/khurais-road/": "2026-11-15",
   "https://riyadhmetro.fyi/stations/king-fahad-district-2/": "2026-11-15",
   "https://riyadhmetro.fyi/ar/stations/al-jarradiyah/": "2026-11-16",

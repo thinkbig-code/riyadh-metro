@@ -1,43 +1,13 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-27T22:58:15Z",
- "start": "2025-11-27",
- "end": "2026-11-28",
+ "generated": "2026-11-28T08:57:01Z",
+ "start": "2025-11-28",
+ "end": "2026-11-29",
  "total": {
-  "total": 4689,
+  "total": 4696,
   "total_events": 1930,
-  "total_utc": 4689,
+  "total_utc": 4696,
   "stats": [
-   {
-    "day": "2025-11-27",
-    "hourly": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "daily": 0
-   },
    {
     "day": "2025-11-28",
     "hourly": [
@@ -9277,7 +9247,6 @@
      0
     ],
     "daily": 0,
-    "weekly": 148,
     "monthly": 3472
    },
    {
@@ -9308,7 +9277,8 @@
      0,
      0
     ],
-    "daily": 5
+    "daily": 5,
+    "weekly": 689
    },
    {
     "day": "2026-10-03",
@@ -9488,8 +9458,7 @@
      9,
      12
     ],
-    "daily": 541,
-    "weekly": 1499
+    "daily": 541
    },
    {
     "day": "2026-10-09",
@@ -9519,7 +9488,8 @@
      28,
      0
     ],
-    "daily": 174
+    "daily": 174,
+    "weekly": 1025
    },
    {
     "day": "2026-10-10",
@@ -9699,8 +9669,7 @@
      4,
      0
     ],
-    "daily": 67,
-    "weekly": 832
+    "daily": 67
    },
    {
     "day": "2026-10-16",
@@ -9730,7 +9699,8 @@
      6,
      42
     ],
-    "daily": 252
+    "daily": 252,
+    "weekly": 908
    },
    {
     "day": "2026-10-17",
@@ -9910,8 +9880,7 @@
      5,
      6
     ],
-    "daily": 143,
-    "weekly": 639
+    "daily": 143
    },
    {
     "day": "2026-10-23",
@@ -9941,7 +9910,8 @@
      1,
      1
     ],
-    "daily": 74
+    "daily": 74,
+    "weekly": 577
    },
    {
     "day": "2026-10-24",
@@ -10121,8 +10091,7 @@
      5,
      22
     ],
-    "daily": 81,
-    "weekly": 673
+    "daily": 81
    },
    {
     "day": "2026-10-30",
@@ -10152,7 +10121,8 @@
      0,
      7
     ],
-    "daily": 119
+    "daily": 119,
+    "weekly": 675
    },
    {
     "day": "2026-10-31",
@@ -10213,7 +10183,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1217
+    "monthly": 1224
    },
    {
     "day": "2026-11-02",
@@ -10333,8 +10303,7 @@
      7,
      0
     ],
-    "daily": 83,
-    "weekly": 420
+    "daily": 83
    },
    {
     "day": "2026-11-06",
@@ -10364,7 +10333,8 @@
      4,
      1
     ],
-    "daily": 29
+    "daily": 29,
+    "weekly": 391
    },
    {
     "day": "2026-11-07",
@@ -10544,8 +10514,7 @@
      0,
      1
     ],
-    "daily": 54,
-    "weekly": 221
+    "daily": 54
    },
    {
     "day": "2026-11-13",
@@ -10575,7 +10544,8 @@
      2,
      1
     ],
-    "daily": 16
+    "daily": 16,
+    "weekly": 185
    },
    {
     "day": "2026-11-14",
@@ -10755,8 +10725,7 @@
      1,
      0
     ],
-    "daily": 18,
-    "weekly": 193
+    "daily": 18
    },
    {
     "day": "2026-11-20",
@@ -10786,7 +10755,8 @@
      3,
      1
     ],
-    "daily": 29
+    "daily": 29,
+    "weekly": 207
    },
    {
     "day": "2026-11-21",
@@ -10966,8 +10936,7 @@
      0,
      2
     ],
-    "daily": 32,
-    "weekly": 64
+    "daily": 32
    },
    {
     "day": "2026-11-27",
@@ -10997,10 +10966,41 @@
      2,
      1
     ],
-    "daily": 32
+    "daily": 32,
+    "weekly": 39
    },
    {
     "day": "2026-11-28",
+    "hourly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     2,
+     1,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "daily": 7
+   },
+   {
+    "day": "2026-11-29",
     "hourly": [
      0,
      0,
@@ -13228,6 +13228,19 @@
    }
   },
   {
+   "path": "/ar/districts/al-mutamarat",
+   "path_id": 119610866,
+   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-11-06": 1,
+    "2026-11-22": 1,
+    "2026-11-25": 1,
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/stations/al-wizarat",
    "path_id": 117348000,
    "title": "Al Wizarat Metro Station, Riyadh: Green Line, No. 72",
@@ -13237,6 +13250,19 @@
     "2026-11-01": 1,
     "2026-11-11": 1,
     "2026-11-25": 2
+   }
+  },
+  {
+   "path": "/ar/destinations/riyadh-railway-station",
+   "path_id": 116780654,
+   "title": "محطة مترو محطة قطار الرياض: محطة سكة الحديد، دقيقتان سيراً",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-30": 1,
+    "2026-11-03": 1,
+    "2026-11-06": 1,
+    "2026-11-28": 1
    }
   },
   {
@@ -13821,18 +13847,6 @@
    }
   },
   {
-   "path": "/ar/districts/al-mutamarat",
-   "path_id": 119610866,
-   "title": "أقرب محطة مترو لحي المؤتمرات في الرياض: محطة وزارة الداخلية، 1.0 كم",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-11-06": 1,
-    "2026-11-22": 1,
-    "2026-11-25": 1
-   }
-  },
-  {
    "path": "/ar/stations/al-iman-hospital",
    "path_id": 118082237,
    "title": "محطة مستشفى الإيمان، مترو الرياض: المسار الأزرق (رقم 22)",
@@ -13923,18 +13937,6 @@
     "2026-10-30": 1,
     "2026-11-01": 1,
     "2026-11-05": 1
-   }
-  },
-  {
-   "path": "/ar/destinations/riyadh-railway-station",
-   "path_id": 116780654,
-   "title": "محطة مترو محطة قطار الرياض: محطة سكة الحديد، دقيقتان سيراً",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-30": 1,
-    "2026-11-03": 1,
-    "2026-11-06": 1
    }
   },
   {
@@ -14972,6 +14974,17 @@
    }
   },
   {
+   "path": "/stations/dr-sulaiman-al-habib",
+   "path_id": 122554903,
+   "title": "Dr Sulaiman Al Habib Metro Station, Riyadh: Blue Line, No. 2",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-15": 1,
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/ar/destinations/dr-sulaiman-al-habib-hospital",
    "path_id": 121446319,
    "title": "محطة مترو مستشفى د. سليمان الحبيب والمستشفى السعودي الألماني: محطة د. سليمان الحبيب",
@@ -15305,6 +15318,17 @@
    "daily": {
     "2026-10-30": 1,
     "2026-11-01": 1
+   }
+  },
+  {
+   "path": "/destinations/smc-hospital",
+   "path_id": 116530482,
+   "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-11-28": 1
    }
   },
   {
@@ -16800,6 +16824,36 @@
    }
   },
   {
+   "path": "/stations/tuwaiq",
+   "path_id": 128633520,
+   "title": "Tuwaiq Metro Station, Riyadh: Orange Line, No. 41",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-28": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-kingdom-arena",
+   "path_id": 128615261,
+   "title": "Riyadh Airport to Kingdom Arena by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-28": 1
+   }
+  },
+  {
+   "path": "/routes/riyadh-airport-to-princess-nourah-university",
+   "path_id": 128533739,
+   "title": "Riyadh Airport to Princess Nourah University by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/districts/thulaim",
    "path_id": 128348480,
    "title": "Nearest Metro Station to Thulaim, Riyadh: As Salhiyah, 0.6 km",
@@ -17393,16 +17447,6 @@
    "path": "/ar/destinations/king-fahad-cultural-centre",
    "path_id": 122615831,
    "title": "محطة مترو مركز الملك فهد الثقافي: محطة ظهرة البديعة (المسار البرتقالي)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-15": 1
-   }
-  },
-  {
-   "path": "/stations/dr-sulaiman-al-habib",
-   "path_id": 122554903,
-   "title": "Dr Sulaiman Al Habib Metro Station, Riyadh: Blue Line, No. 2",
    "event": false,
    "count": 1,
    "daily": {
@@ -18674,16 +18718,6 @@
    "path_id": 116531156,
    "title": "en|landing:destinations-smc-hospital|ok",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-29": 1
-   }
-  },
-  {
-   "path": "/destinations/smc-hospital",
-   "path_id": 116530482,
-   "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-29": 1
@@ -24952,9 +24986,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2759,
+  "visits": 2766,
   "events_total": 1930,
-  "goatcounter_total_with_events": 4689,
+  "goatcounter_total_with_events": 4696,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -25012,7 +25046,8 @@
    "2026-11-24": 25,
    "2026-11-25": 41,
    "2026-11-26": 25,
-   "2026-11-27": 28
+   "2026-11-27": 28,
+   "2026-11-28": 7
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -27520,13 +27555,13 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2101,
+   "count": 2106,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 1091,
+   "count": 1093,
    "ref_scheme": "g"
   },
   {
@@ -27822,12 +27857,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3254
+   "count": 3259
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1311
+   "count": 1313
   },
   {
    "id": "(unknown)",
@@ -27904,7 +27939,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3934
+   "count": 3938
   },
   {
    "id": "US",
@@ -27932,13 +27967,13 @@
    "count": 29
   },
   {
-   "id": "IN",
-   "name": "India",
-   "count": 26
-  },
-  {
    "id": "NL",
    "name": "Netherlands",
+   "count": 27
+  },
+  {
+   "id": "IN",
+   "name": "India",
    "count": 26
   },
   {
@@ -27982,6 +28017,11 @@
    "count": 13
   },
   {
+   "id": "FR",
+   "name": "France",
+   "count": 12
+  },
+  {
    "id": "AU",
    "name": "Australia",
    "count": 11
@@ -27989,11 +28029,6 @@
   {
    "id": "BR",
    "name": "Brazil",
-   "count": 11
-  },
-  {
-   "id": "FR",
-   "name": "France",
    "count": 11
   },
   {
@@ -28137,6 +28172,11 @@
    "count": 1
   },
   {
+   "id": "BD",
+   "name": "Bangladesh",
+   "count": 1
+  },
+  {
    "id": "BE",
    "name": "Belgium",
    "count": 1
@@ -28145,18 +28185,13 @@
    "id": "BN",
    "name": "Brunei",
    "count": 1
-  },
-  {
-   "id": "EC",
-   "name": "Ecuador",
-   "count": 1
   }
  ],
  "sizes": [
   {
    "id": "phone",
    "name": "",
-   "count": 3738
+   "count": 3742
   },
   {
    "id": "tablet",
@@ -28166,7 +28201,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 754
+   "count": 757
   },
   {
    "id": "desktophd",
@@ -28183,12 +28218,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2527
+   "count": 2532
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2056
+   "count": 2058
   },
   {
    "name": "",
@@ -28204,17 +28239,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 2042
+   "count": 2044
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1733
+   "count": 1735
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 666
+   "count": 669
   },
   {
    "id": "macOS",
