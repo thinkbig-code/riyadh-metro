@@ -1,12 +1,12 @@
 {
  "site": "https://riyadhmetro.goatcounter.com",
- "generated": "2026-11-28T08:57:01Z",
+ "generated": "2026-11-28T14:32:50Z",
  "start": "2025-11-28",
  "end": "2026-11-29",
  "total": {
-  "total": 4696,
+  "total": 4705,
   "total_events": 1930,
-  "total_utc": 4696,
+  "total_utc": 4705,
   "stats": [
    {
     "day": "2025-11-28",
@@ -10183,7 +10183,7 @@
      4
     ],
     "daily": 161,
-    "monthly": 1224
+    "monthly": 1233
    },
    {
     "day": "2026-11-02",
@@ -10967,7 +10967,7 @@
      1
     ],
     "daily": 32,
-    "weekly": 39
+    "weekly": 48
    },
    {
     "day": "2026-11-28",
@@ -10984,20 +10984,20 @@
      2,
      1,
      0,
+     3,
      2,
+     1,
      0,
      0,
-     0,
-     0,
-     0,
-     0,
+     3,
+     2,
      0,
      0,
      0,
      0,
      0
     ],
-    "daily": 7
+    "daily": 16
    },
    {
     "day": "2026-11-29",
@@ -11451,7 +11451,7 @@
    "path_id": 112000992,
    "title": "أقرب محطة مترو إلي في الرياض: ابحث بموقعك",
    "event": false,
-   "count": 26,
+   "count": 27,
    "daily": {
     "2026-10-14": 1,
     "2026-10-16": 1,
@@ -11467,7 +11467,8 @@
     "2026-11-11": 4,
     "2026-11-24": 1,
     "2026-11-26": 1,
-    "2026-11-27": 1
+    "2026-11-27": 1,
+    "2026-11-28": 1
    }
   },
   {
@@ -13303,6 +13304,19 @@
    }
   },
   {
+   "path": "/stations/granada",
+   "path_id": 115704232,
+   "title": "Granada Metro Station, Riyadh: Purple Line, No. 79",
+   "event": false,
+   "count": 4,
+   "daily": {
+    "2026-10-27": 1,
+    "2026-11-13": 1,
+    "2026-11-15": 1,
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/stations/kafd",
    "path_id": 115428103,
    "title": "KAFD Metro Station, Riyadh: Blue/Yellow/Purple lines, No. 3",
@@ -13952,6 +13966,17 @@
    }
   },
   {
+   "path": "/destinations/smc-hospital",
+   "path_id": 116530482,
+   "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
+   "event": false,
+   "count": 3,
+   "daily": {
+    "2026-10-29": 1,
+    "2026-11-28": 2
+   }
+  },
+  {
    "path": "geo/ok/khurais",
    "path_id": 116527186,
    "title": "en",
@@ -13973,18 +13998,6 @@
     "2026-10-29": 1,
     "2026-11-10": 1,
     "2026-11-24": 1
-   }
-  },
-  {
-   "path": "/stations/granada",
-   "path_id": 115704232,
-   "title": "Granada Metro Station, Riyadh: Purple Line, No. 79",
-   "event": false,
-   "count": 3,
-   "daily": {
-    "2026-10-27": 1,
-    "2026-11-13": 1,
-    "2026-11-15": 1
    }
   },
   {
@@ -14878,6 +14891,16 @@
    }
   },
   {
+   "path": "/stations/as-salam",
+   "path_id": 128738446,
+   "title": "As Salam Metro Station, Riyadh: Purple Line, No. 83",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-28": 2
+   }
+  },
+  {
    "path": "/districts/al-qura",
    "path_id": 127733751,
    "title": "Nearest Metro Station to Al Qura, Riyadh: Qasr Al Hokm (in the district)",
@@ -14895,6 +14918,17 @@
    "count": 2,
    "daily": {
     "2026-11-25": 2
+   }
+  },
+  {
+   "path": "/districts/al-mansurah",
+   "path_id": 126597542,
+   "title": "Nearest Metro Station to Al Mansurah, Riyadh: Al Iman Hospital (in the district)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-25": 1,
+    "2026-11-28": 1
    }
   },
   {
@@ -15126,6 +15160,17 @@
    }
   },
   {
+   "path": "/ar/stations/jarir-district",
+   "path_id": 117775129,
+   "title": "محطة حي جرير، مترو الرياض: المسار البرتقالي (رقم 55)",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-11-02": 1,
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/lines/purple-line",
    "path_id": 117667511,
    "title": "Riyadh Metro Purple Line (Line 6): Stations, Map and Hours",
@@ -15318,17 +15363,6 @@
    "daily": {
     "2026-10-30": 1,
     "2026-11-01": 1
-   }
-  },
-  {
-   "path": "/destinations/smc-hospital",
-   "path_id": 116530482,
-   "title": "Specialized Medical Center Hospital Metro Station: Ministry of Interior, 16 min walk",
-   "event": false,
-   "count": 2,
-   "daily": {
-    "2026-10-29": 1,
-    "2026-11-28": 1
    }
   },
   {
@@ -15527,6 +15561,17 @@
    "daily": {
     "2026-10-25": 1,
     "2026-11-03": 1
+   }
+  },
+  {
+   "path": "/routes/al-batha-to-kafd",
+   "path_id": 114902871,
+   "title": "Al Batha to KAFD by metro: Time, Fare and Steps",
+   "event": false,
+   "count": 2,
+   "daily": {
+    "2026-10-25": 1,
+    "2026-11-28": 1
    }
   },
   {
@@ -16824,6 +16869,16 @@
    }
   },
   {
+   "path": "/districts/salahuddin",
+   "path_id": 128762187,
+   "title": "Nearest Metro Station to Salahuddin, Riyadh: Salahaddin (in the district)",
+   "event": false,
+   "count": 1,
+   "daily": {
+    "2026-11-28": 1
+   }
+  },
+  {
    "path": "/stations/tuwaiq",
    "path_id": 128633520,
    "title": "Tuwaiq Metro Station, Riyadh: Orange Line, No. 41",
@@ -17007,16 +17062,6 @@
    "path": "/ar/stations/al-margab",
    "path_id": 126869081,
    "title": "محطة المرقب، مترو الرياض: المسار البرتقالي (رقم 50)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-25": 1
-   }
-  },
-  {
-   "path": "/districts/al-mansurah",
-   "path_id": 126597542,
-   "title": "Nearest Metro Station to Al Mansurah, Riyadh: Al Iman Hospital (in the district)",
    "event": false,
    "count": 1,
    "daily": {
@@ -18204,16 +18249,6 @@
    }
   },
   {
-   "path": "/ar/stations/jarir-district",
-   "path_id": 117775129,
-   "title": "محطة حي جرير، مترو الرياض: المسار البرتقالي (رقم 55)",
-   "event": false,
-   "count": 1,
-   "daily": {
-    "2026-11-02": 1
-   }
-  },
-  {
    "path": "route/jarir/p_king_khalid_airport_terminals_1_2",
    "path_id": 117540906,
    "title": "ar|link|ok",
@@ -19188,16 +19223,6 @@
    "path_id": 114963340,
    "title": "en",
    "event": true,
-   "count": 1,
-   "daily": {
-    "2026-10-25": 1
-   }
-  },
-  {
-   "path": "/routes/al-batha-to-kafd",
-   "path_id": 114902871,
-   "title": "Al Batha to KAFD by metro: Time, Fare and Steps",
-   "event": false,
    "count": 1,
    "daily": {
     "2026-10-25": 1
@@ -24986,9 +25011,9 @@
  ],
  "summary": {
   "_about": "visits = page loads only (events excluded; GoatCounter's own total adds them). visitor_days = visit/new + visit/return, one per browser per day, counted since the visit events exist; only the map page sends them, so people who opened just a station or district page are not in it. events_total = actions inside the map.",
-  "visits": 2766,
+  "visits": 2775,
   "events_total": 1930,
-  "goatcounter_total_with_events": 4696,
+  "goatcounter_total_with_events": 4705,
   "page_loads_by_day": {
    "2026-10-02": 2,
    "2026-10-03": 9,
@@ -25047,7 +25072,7 @@
    "2026-11-25": 41,
    "2026-11-26": 25,
    "2026-11-27": 28,
-   "2026-11-28": 7
+   "2026-11-28": 16
   },
   "visitor_days_by_day": {
    "2026-10-08": 96,
@@ -25736,7 +25761,7 @@
    },
    {
     "name": "www.bing.com",
-    "count": 2
+    "count": 3
    },
    {
     "name": "Yahoo",
@@ -27043,11 +27068,11 @@
     "count": 4
    },
    {
-    "path": "/ar/lines",
-    "count": 2
+    "path": "/ar/nearest-station",
+    "count": 3
    },
    {
-    "path": "/ar/nearest-station",
+    "path": "/ar/lines",
     "count": 2
    },
    {
@@ -27555,19 +27580,19 @@
  "toprefs": [
   {
    "name": "",
-   "count": 2106,
+   "count": 2108,
    "ref_scheme": "o"
   },
   {
    "id": "Google",
    "name": "Google",
-   "count": 1093,
+   "count": 1094,
    "ref_scheme": "g"
   },
   {
    "id": "chatgpt.com",
    "name": "chatgpt.com",
-   "count": 364,
+   "count": 369,
    "ref_scheme": "c"
   },
   {
@@ -27591,7 +27616,7 @@
   {
    "id": "www.bing.com",
    "name": "www.bing.com",
-   "count": 97,
+   "count": 98,
    "ref_scheme": "h"
   },
   {
@@ -27857,12 +27882,12 @@
   {
    "id": "eng",
    "name": "English",
-   "count": 3259
+   "count": 3264
   },
   {
    "id": "ara",
    "name": "Arabic",
-   "count": 1313
+   "count": 1317
   },
   {
    "id": "(unknown)",
@@ -27939,7 +27964,7 @@
   {
    "id": "SA",
    "name": "Saudi Arabia",
-   "count": 3938
+   "count": 3945
   },
   {
    "id": "US",
@@ -28017,6 +28042,11 @@
    "count": 13
   },
   {
+   "id": "BR",
+   "name": "Brazil",
+   "count": 12
+  },
+  {
    "id": "FR",
    "name": "France",
    "count": 12
@@ -28024,11 +28054,6 @@
   {
    "id": "AU",
    "name": "Australia",
-   "count": 11
-  },
-  {
-   "id": "BR",
-   "name": "Brazil",
    "count": 11
   },
   {
@@ -28047,14 +28072,14 @@
    "count": 7
   },
   {
-   "id": "SE",
-   "name": "Sweden",
+   "id": "MX",
+   "name": "Mexico",
    "count": 7
   },
   {
-   "id": "MX",
-   "name": "Mexico",
-   "count": 6
+   "id": "SE",
+   "name": "Sweden",
+   "count": 7
   },
   {
    "id": "QA",
@@ -28191,7 +28216,7 @@
   {
    "id": "phone",
    "name": "",
-   "count": 3742
+   "count": 3749
   },
   {
    "id": "tablet",
@@ -28201,7 +28226,7 @@
   {
    "id": "desktop",
    "name": "",
-   "count": 757
+   "count": 759
   },
   {
    "id": "desktophd",
@@ -28218,12 +28243,12 @@
   {
    "id": "Chrome",
    "name": "Chrome",
-   "count": 2532
+   "count": 2535
   },
   {
    "id": "Safari",
    "name": "Safari",
-   "count": 2058
+   "count": 2064
   },
   {
    "name": "",
@@ -28239,17 +28264,17 @@
   {
    "id": "iOS",
    "name": "iOS",
-   "count": 2044
+   "count": 2050
   },
   {
    "id": "Android",
    "name": "Android",
-   "count": 1735
+   "count": 1736
   },
   {
    "id": "Windows",
    "name": "Windows",
-   "count": 669
+   "count": 671
   },
   {
    "id": "macOS",
